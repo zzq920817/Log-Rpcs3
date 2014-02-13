@@ -1,0 +1,416 @@
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00078-[Heavenly Swordô]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00078-[Heavenly Swordô]\PS3_GAME\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00078-[Heavenly Swordô]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00078-[Heavenly Swordô]\PS3_GAME\\..\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /host_root/ -> 
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetQueueHandler
+[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetFlipImmediate
+[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetInvalidateTile
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x139a9e9b in 'sys_net' module
+[E]: TODO: sys_net_initialize_network_ex
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0x64f66d35 in 'sys_net' module
+[E]: TODO: connect
+[W]: Unknown function 0x6db6e8cd in 'sys_net' module
+[E]: TODO: socketclose
+[W]: Unknown function 0x88f03575 in 'sys_net' module
+[E]: TODO: setsockopt
+[W]: Unknown function 0x9c056962 in 'sys_net' module
+[E]: TODO: socket
+[W]: Unknown function 0xb0a59804 in 'sys_net' module
+[E]: TODO: bind
+[W]: Unknown function 0xb48636c4 in 'sys_net' module
+[E]: TODO: sys_net_show_ifconfig
+[W]: Unknown function 0xb68d5625 in 'sys_net' module
+[E]: TODO: sys_net_finalize_network
+[W]: Unknown function 0xc94f6939 in 'sys_net' module
+[E]: TODO: accept
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0xdc751b40 in 'sys_net' module
+[E]: TODO: send
+[W]: Unknown function 0xfba04f37 in 'sys_net' module
+[E]: TODO: recv
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
+[E]: TODO: cellSpursFinalize
+[W]: Unknown function 0x182d9890 in 'cellSpurs' module
+[E]: TODO: cellSpursRequestIdleSpu
+[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
+[E]: TODO: cellSpursGetInfo
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
+[E]: TODO: cellSpursDetachLv2EventQueue
+[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset
+[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
+[E]: TODO: cellSpursRemoveWorkload
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
+[E]: TODO: cellSpursWaitForWorkloadShutdown
+[W]: Unknown function 0x69726aa2 in 'cellSpurs' module
+[E]: TODO: cellSpursAddWorkload
+[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
+[E]: TODO: cellSpursSetPriorities
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownWorkload
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
+[E]: TODO: cellSpursAttachLv2EventQueue
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
+[E]: TODO: cellSpursSetExceptionEventHandler
+[W]: Unknown function 0xf5507729 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagSet
+[W]: Unknown function 0xf843818d in 'cellSpurs' module
+[E]: TODO: cellSpursReadyCountStore
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
+[E]: TODO: cellNetCtlTerm
+[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlGetState
+[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
+[E]: TODO: cellNetCtlInit
+[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
+[E]: TODO: cellNetCtlGetInfo
+[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
+[E]: TODO: cellSysCacheMount
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xc9645c41 in 'cellSysutil' module
+[E]: TODO: cellGameDataCheckCreate2
+[W]: Unknown function 0xf81eca25 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogOpen
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0xbe5be3ba in 'sys_io' module
+[E]: TODO: cellPadSetSensorMode
+[W]: Unknown function 0xf83f8182 in 'sys_io' module
+[E]: TODO: cellPadSetPressMode
+[W]: Unknown function 0x006016da in 'cellAtrac' module
+[E]: TODO: cellAtracGetBitrate
+[W]: Unknown function 0x0f9667b6 in 'cellAtrac' module
+[E]: TODO: cellAtracGetChannel
+[W]: Unknown function 0x2bfff084 in 'cellAtrac' module
+[E]: TODO: cellAtracGetStreamDataInfo
+[W]: Unknown function 0x46cfc013 in 'cellAtrac' module
+[E]: TODO: cellAtracAddStreamData
+[W]: Unknown function 0x5f62d546 in 'cellAtrac' module
+[E]: TODO: cellAtracGetMaxSample
+[W]: Unknown function 0x66afc68e in 'cellAtrac' module
+[E]: TODO: cellAtracSetDataAndGetMemSize
+[W]: Unknown function 0x761cb9be in 'cellAtrac' module
+[E]: TODO: cellAtracDeleteDecoder
+[W]: Unknown function 0x7772eb2b in 'cellAtrac' module
+[E]: TODO: cellAtracResetPlayPosition
+[W]: Unknown function 0x78ba5c41 in 'cellAtrac' module
+[E]: TODO: cellAtracSetLoopNum
+[W]: Unknown function 0x8eb0e65f in 'cellAtrac' module
+[E]: TODO: cellAtracDecode
+[W]: Unknown function 0x99fb73d1 in 'cellAtrac' module
+[E]: TODO: cellAtracGetBufferInfoForResetting
+[W]: Unknown function 0xcf01d5d4 in 'cellAtrac' module
+[E]: TODO: cellAtracGetSoundInfo
+[W]: Unknown function 0xdfab73aa in 'cellAtrac' module
+[E]: TODO: cellAtracGetRemainFrame
+[W]: Unknown function 0xfa293e88 in 'cellAtrac' module
+[E]: TODO: cellAtracCreateDecoder
+[W]: Unknown function 0x14bf2dc1 in 'cellKey2char' module
+[E]: TODO: cellKey2CharClose
+[W]: Unknown function 0x56776c0d in 'cellKey2char' module
+[E]: TODO: cellKey2CharGetChar
+[W]: Unknown function 0xabf629c1 in 'cellKey2char' module
+[E]: TODO: cellKey2CharOpen
+[W]: Unknown function 0xbfc03768 in 'cellKey2char' module
+[E]: TODO: cellKey2CharSetMode
+[! : PPU[1] Thread (CPUThread)[0x00012fcc]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x103cb8b8, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x103cb8d0, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e45f1c]]: memory warning: (HACK!) sys_memory_allocate(size=0x100000, flags=0x400)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100050, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100080, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000b0, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000e0, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100110, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100140, lwmutex_attr_addr=0x10064aac)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): id=???
+[W : PPU[1] Thread (CPUThread)[0x00641790]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b80)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL)
+[W : PPU[1] Thread (CPUThread)[0x00641810]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b88)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x103cb8b8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x103cb8b8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10346e70, lwmutex_attr_addr=0xd0020980)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1033d968, lwmutex_attr_addr=0xd0020b60)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created ["åî:Âˇ] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00a3fd40]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd002031c)
+[W : PPU[1] Thread (CPUThread)[0x00a3fd74]]: memory warning: (HACK!) sys_memory_container_create(cid_addr=0xd0020318,yield_size=0x400000)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00a3feac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd002031c)
+[W : PPU[1] Thread (CPUThread)[0x00a3ff04]]: memory warning: (HACK!) sys_memory_allocate(size=0xc600000, flags=0x400)
+[W : PPU[1] Thread (CPUThread)[0x00a3ff24]]: memory warning: (HACK!) sys_memory_allocate(size=0x2c00000, flags=0x400)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00068, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00068, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00068)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00068, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00068)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00068, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00068, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00068)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00068, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00068)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00068, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00068)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00068)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00098, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00098, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00098)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00098, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00098)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c000c8, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c000c8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c000c8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c000c8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c000c8)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c000f8, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c000f8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c000f8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c000f8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c000f8)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00128, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00128, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00128)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00128, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00128)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00158, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00158, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00158)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00158, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00158)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c001b8, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c001b8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c001b8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c001b8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c001b8)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c001e8, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c001e8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c001e8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c001e8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c001e8)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00218, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00218, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00218)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00218, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00218)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00248, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00248, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00248)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00248, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00248)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00278, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00278, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00278)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00278, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00278)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c002a8, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c00188, lwmutex_attr_addr=0xd00202f0)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00188, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00188)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00188, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00188)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c00218, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c00218)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1033d920, lwmutex_attr_addr=0xd0020b50)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [ê∫ùÀ¯Ui¿] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1033d8e0, lwmutex_attr_addr=0xd0020b60)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created ["åî:Âˇ] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1033d0c0, lwmutex_attr_addr=0xd0020b60)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created ["åî:Âˇ] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1033d058, lwmutex_attr_addr=0xd0020980)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [ˇˇˇˇÏ°Ó] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1033cdb0, lwmutex_attr_addr=0xd0020980)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [ˇˇˇˇÏ°Ó] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10334e18, lwmutex_attr_addr=0xd0020980)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1032c170, lwmutex_attr_addr=0xd0020b80)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [ps› Èzåp] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1025f790, lwmutex_attr_addr=0xd0020b60)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created ["åî:Âˇ] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x103cb8b8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x103cb8b8)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xd0020ca8, lwmutex_attr_addr=0xd0020b50)
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: TODO: SYS_SYNC_FIFO attr
+[W : PPU[1] Thread (CPUThread)[0x00e71410]]: sys_lwmutex warning: *** lwmutex created [ê∫ùÀ¯Ui¿] (attribute=0x11): id=???
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00e70f40]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x30100050, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x30100050)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x369f048c, attr_addr=0xd0020620)
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id=11
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x369f080c, attr_addr=0xd0020620)
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id=12
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x369f088c, attr_addr=0xd0020520)
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00cc8d10]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id=16
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713e0]]: sys_lwmutex warning: sys_lwmutex_lock(lwmutex_addr=0x32c002a8, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[W : PPU[1] Thread (CPUThread)[0x00e713ec]]: sys_lwmutex warning: sys_lwmutex_unlock(lwmutex_addr=0x32c002a8)
+[! : PPU[123] Thread (fios::scheduler::mediathread)[0x00cc82b4]]: PPU[123] Thread (fios::scheduler::mediathread) enter
+[E : PPU[123] Thread (fios::scheduler::mediathread)[0x00cc82c8]]: Read32 from null block: [00000014]
+[! : PPU[124] Thread (fios::scheduler::mediathread)[0x00cc82b4]]: PPU[124] Thread (fios::scheduler::mediathread) enter
+[! : PPU[124] Thread (fios::scheduler::mediathread)[0x00cc82b4]]: PPU[124] Thread (fios::scheduler::mediathread) leave
+[! : PPU[123] Thread (fios::scheduler::mediathread)[0x00cc82cc]]: PPU[123] Thread (fios::scheduler::mediathread) leave
+[! : PPU[1] Thread (CPUThread)[0x00e713fc]]: PPU[1] Thread (CPUThread) leave
+[!]: Closing memory...

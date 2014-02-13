@@ -1,0 +1,88 @@
+[!]: scetool: ELF written to D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]\PS3_GAME\USRDIR\BOOT.BIN
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]\PS3_GAME\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]\PS3_GAME\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /host_root/ -> 
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad2
+[W]: Unknown function 0x21425307 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoLoad
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedLoad2
+[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedSave2
+[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus
+[W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
+[E]: TODO: cellSysutilDisableBgmPlayback
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x9b882495 in 'sys_fs' module
+[E]: TODO: cellFsGetDirectoryEntries
+[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
+[E]: TODO: cellSpursDetachLv2EventQueue
+[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
+[E]: TODO: cellSpursAttachLv2EventQueue
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
+[E]: TODO: _cellSpursSendSignal
+[W]: Unknown function 0x2ad091c6 in 'cellL10n' module
+[E]: Unknown func id: 0x2ad091c6
+[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyRegisterContext
+[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyCreateHandle
+[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyGetRequiredDiskSpace
+[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyInit
+[W]: Unknown function 0x49d18217 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyGetGameInfo
+[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyUnlockTrophy
+[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyGetTrophyUnlockState
+[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyCreateContext
+[W]: Unknown function 0xe0da8efd in 'sysPrxForUser' module
+[E]: TODO: sys_spu_image_close
+[W : PPU[1] Thread (CPUThread)[0x008d8398]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x974b88, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008d8000]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x008d8000]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
+[W : PPU[1] Thread (CPUThread)[0x008d8000]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x008d8000]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x008d8368]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[E : PPU[1] Thread (CPUThread)[0x008d8338]]: TODO: cellSysutilEnableBgmPlayback
+[W : PPU[1] Thread (CPUThread)[0x008d8368]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_PAD_RUMBLE
+[W : PPU[1] Thread (CPUThread)[0x008d8960]]: Process warning: sys_process_exit(1)
+[!]: Closing memory...

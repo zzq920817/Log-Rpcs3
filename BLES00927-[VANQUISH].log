@@ -1,0 +1,772 @@
+[!]: scetool: ELF written to D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\USRDIR\BOOT.BIN
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /host_root/ -> 
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x6cfd856f in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus2
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
+[E]: TODO: cellSysutilDisableBgmPlayback
+[W]: Unknown function 0xe7fa820b in 'cellSysutil' module
+[E]: TODO: cellSaveDataEnableOverlay
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x1051d134 in 'cellSpurs' module
+[E]: TODO: cellSpursAttributeEnableSpuPrintfIfAvailable
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x303c19cd in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChainWithAttribute
+[W]: Unknown function 0x3548f483 in 'cellSpurs' module
+[E]: TODO: _cellSpursJobChainAttributeInitialize
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardInitialize
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x95180230 in 'cellSpurs' module
+[E]: TODO: _cellSpursAttributeInitialize
+[W]: Unknown function 0x9dcbcb5d in 'cellSpurs' module
+[E]: TODO: cellSpursAttributeEnableSystemWorkload
+[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainAttributeSetName
+[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
+[E]: TODO: cellSpursInitializeWithAttribute
+[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardNotify
+[W]: Unknown function 0xe7b0e69a in 'cellSpurs' module
+[E]: TODO: cellSpursJobSetMaxGrab
+[W]: Unknown function 0xf31731bb in 'cellSpurs' module
+[E]: TODO: cellSpursRunJobChain
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x039d70b7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueDetachLv2EventQueue
+[W]: Unknown function 0x082bfb09 in 'cellSpurs' module
+[E]: TODO: _cellSpursQueueInitialize
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskWithAttribute
+[W]: Unknown function 0x34552fa6 in 'cellSpurs' module
+[E]: TODO: cellSpursTaskExitCodeInitialize
+[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
+[E]: TODO: cellSpursDetachLv2EventQueue
+[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetTasksetSize
+[W]: Unknown function 0x91066667 in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePopBody
+[W]: Unknown function 0x92cff6ed in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePushBody
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa121a224 in 'cellSpurs' module
+[E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xb8474eff in 'cellSpurs' module
+[E]: TODO: _cellSpursTaskAttributeInitialize
+[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
+[E]: TODO: cellSpursAttachLv2EventQueue
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0xe5443be7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueAttachLv2EventQueue
+[W]: Unknown function 0xf5507729 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagSet
+[W]: Unknown function 0x139a9e9b in 'sys_net' module
+[E]: TODO: sys_net_initialize_network_ex
+[W]: Unknown function 0xb68d5625 in 'sys_net' module
+[E]: TODO: sys_net_finalize_network
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0x64f66d35 in 'sys_net' module
+[E]: TODO: connect
+[W]: Unknown function 0x6db6e8cd in 'sys_net' module
+[E]: TODO: socketclose
+[W]: Unknown function 0x88f03575 in 'sys_net' module
+[E]: TODO: setsockopt
+[W]: Unknown function 0x9c056962 in 'sys_net' module
+[E]: TODO: socket
+[W]: Unknown function 0xb0a59804 in 'sys_net' module
+[E]: TODO: bind
+[W]: Unknown function 0xb48636c4 in 'sys_net' module
+[E]: TODO: sys_net_show_ifconfig
+[W]: Unknown function 0xc94f6939 in 'sys_net' module
+[E]: TODO: accept
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0xdc751b40 in 'sys_net' module
+[E]: TODO: send
+[W]: Unknown function 0xfba04f37 in 'sys_net' module
+[E]: TODO: recv
+[W]: Unknown function 0x04459230 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlNetStartDialogLoadAsync
+[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
+[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
+[E]: TODO: cellNetCtlTerm
+[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
+[E]: TODO: cellNetCtlInit
+[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlGetState
+[W]: Unknown function 0x0c44f441 in 'cellFiber' module
+[E]: TODO: cellFiberPpuYield
+[W]: Unknown function 0x12b1acf0 in 'cellFiber' module
+[E]: TODO: cellFiberPpuRunFibers
+[W]: Unknown function 0x5d9a7034 in 'cellFiber' module
+[E]: TODO: cellFiberPpuSelf
+[W]: Unknown function 0x6c164b3b in 'cellFiber' module
+[E]: TODO: cellFiberPpuWaitSignal
+[W]: Unknown function 0x7c2f4034 in 'cellFiber' module
+[E]: TODO: cellFiberPpuCreateFiber
+[W]: Unknown function 0x8afb8356 in 'cellFiber' module
+[E]: TODO: cellFiberPpuSendSignal
+[W]: Unknown function 0x9e25c72d in 'cellFiber' module
+[E]: TODO: _cellFiberPpuSchedulerAttributeInitialize
+[W]: Unknown function 0xc11f8056 in 'cellFiber' module
+[E]: TODO: _cellFiberPpuAttributeInitialize
+[W]: Unknown function 0xee3b604d in 'cellFiber' module
+[E]: TODO: cellFiberPpuInitializeScheduler
+[W]: Unknown function 0x55870804 in 'cellFiber' module
+[E]: TODO: _cellFiberPpuInitialize
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyRegisterContext
+[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyCreateHandle
+[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyGetRequiredDiskSpace
+[W]: Unknown function 0x3741ecc7 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyDestroyContext
+[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyInit
+[W]: Unknown function 0x623cd2dc in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyDestroyHandle
+[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyUnlockTrophy
+[W]: Unknown function 0xa7fabf4d in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyTerm
+[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyGetTrophyUnlockState
+[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyCreateContext
+[W]: Unknown function 0x04372385 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntry
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xa7bff757 in 'sceNp' module
+[E]: TODO: sceNpManagerGetStatus
+[W]: Unknown function 0xad218faf in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xbe07c708 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineId
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xdb2e4dc2 in 'sceNp' module
+[E]: TODO: sceNpScoreGetGameDataAsync
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xf42c0df8 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineName
+[W]: Unknown function 0xf76847c2 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordGameDataAsync
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown module 'cellSync'
+[W]: Unknown function 0x1c9a942c in 'sysPrxForUser' module
+[E]: TODO: sys_lwcond_destroy
+[W]: Unknown function 0x2a6d9d51 in 'sysPrxForUser' module
+[E]: TODO: sys_lwcond_wait
+[W]: Unknown function 0x44265c08 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_memalign
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0xda0eb71a in 'sysPrxForUser' module
+[E]: TODO: sys_lwcond_create
+[W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_finalize
+[W]: Unknown function 0xe0da8efd in 'sysPrxForUser' module
+[E]: TODO: sys_spu_image_close
+[W]: Unknown function 0xe9a1bd84 in 'sysPrxForUser' module
+[E]: TODO: sys_lwcond_signal_all
+[W]: Unknown function 0xef87a695 in 'sysPrxForUser' module
+[E]: TODO: sys_lwcond_signal
+[W : PPU[1] Thread (CPUThread)[0x0150d778]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x1533808, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0073e1a0]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FIBER)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0150d814]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x0150d820]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FIBER)
+[E : PPU[1] Thread (CPUThread)[0x0150dd70]]: TODO: _cellFiberPpuInitialize
+[E : PPU[1] Thread (CPUThread)[0x0150e240]]: TODO: sceNpInit
+[W : PPU[1] Thread (CPUThread)[0x0150d5b0]]: cellGcmSys warning: cellGcmInit(context_addr=0x1d52fdc,cmdSize=0x200000,ioSize=0xf900000,ioAddress=0x30050000)
+[W : PPU[1] Thread (CPUThread)[0x0150d5b0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x0150d718]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x0150d718]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_PAD_RUMBLE
+[W : PPU[1] Thread (CPUThread)[0x0150d718]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x0150e0b8]]: cellGame warning: cellGameBootCheck(type_addr=0xd0010994, attributes_addr=0xd0010998, size_addr=0xd001099c, dirName_addr=0xd00109e0)
+[W : PPU[1] Thread (CPUThread)[0x0150e088]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00109e0, usrdirPath_addr=0xd0010a60)
+[E : PPU[1] Thread (CPUThread)[0x0150e0a0]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[1] Thread (CPUThread)[0x0150e088]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00109e0, usrdirPath_addr=0xd0010a60)
+[E : PPU[1] Thread (CPUThread)[0x0150e0a0]]: cellGame error: Unimplemented function: cellGameDataCheck
+[E : PPU[1] Thread (CPUThread)[0x0150e0ac]]: cellGame error: Unimplemented function: cellGameGetSizeKB
+[W : PPU[1] Thread (CPUThread)[0x0150e088]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00109e0, usrdirPath_addr=0xd0010a60)
+[W : PPU[1] Thread (CPUThread)[0x0150d49c]]: sys_fs warning: cellFsFstat: '/installed' not found.
+[E : PPU[1] Thread (CPUThread)[0x0150d46c]]: sys_fs error: cellFsOpendir(path_addr: 0xd00107e8(/data/), fd_addr: 0xd00106e0)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[E : PPU[1] Thread (CPUThread)[0x0150d484]]: sys_fs error: cellFsReaddir(fd: 0, dir_addr: 0xd00106e4, nread_addr: 0xd0010690)
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

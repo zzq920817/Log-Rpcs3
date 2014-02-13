@@ -1,0 +1,994 @@
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01459-[Catherine]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01459-[Catherine]\PS3_GAME\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01459-[Catherine]\PS3_GAME\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /host_root/ -> 
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x139a9e9b in 'sys_net' module
+[E]: TODO: sys_net_initialize_network_ex
+[W]: Unknown function 0xb68d5625 in 'sys_net' module
+[E]: TODO: sys_net_finalize_network
+[W]: Unknown function 0x04459230 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlNetStartDialogLoadAsync
+[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
+[E]: TODO: cellNetCtlAddHandler
+[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
+[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
+[E]: TODO: cellNetCtlTerm
+[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlDelHandler
+[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
+[E]: TODO: cellNetCtlInit
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xa7bff757 in 'sceNp' module
+[E]: TODO: sceNpManagerGetStatus
+[W]: Unknown function 0xad218faf in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNetworkTime
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x0247c69e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFrame
+[W]: Unknown function 0x0abb318b in 'cellSail' module
+[E]: TODO: cellSailDescriptorCreateDatabase
+[W]: Unknown function 0x0d0c2f0c in 'cellSail' module
+[E]: TODO: cellSailDescriptorSetEs
+[W]: Unknown function 0x1139a206 in 'cellSail' module
+[E]: TODO: cellSailPlayerSetSoundAdapter
+[W]: Unknown function 0x1872331b in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterPtsToTimePosition
+[W]: Unknown function 0x18b4629d in 'cellSail' module
+[E]: TODO: cellSailPlayerFinalize
+[W]: Unknown function 0x18bcd21b in 'cellSail' module
+[E]: TODO: cellSailPlayerSetGraphicsAdapter
+[W]: Unknown function 0x1c983864 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterInitialize
+[W]: Unknown function 0x23654375 in 'cellSail' module
+[E]: TODO: cellSailPlayerInitialize2
+[W]: Unknown function 0x28336e89 in 'cellSail' module
+[E]: TODO: cellSailDescriptorDestroyDatabase
+[W]: Unknown function 0x2e3ccb5e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterSetPreferredFormat
+[W]: Unknown function 0x346ebba3 in 'cellSail' module
+[E]: TODO: cellSailMemAllocatorInitialize
+[W]: Unknown function 0x34ecc1b9 in 'cellSail' module
+[E]: TODO: cellSailPlayerOpenStream
+[W]: Unknown function 0x3d0d3b72 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterInitialize
+[W]: Unknown function 0x44a20e79 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterUpdateAvSync
+[W]: Unknown function 0x47632810 in 'cellSail' module
+[E]: TODO: cellSailPlayerReplaceEventHandler
+[W]: Unknown function 0x4ae979df in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterPtsToTimePosition
+[W]: Unknown function 0x5783a454 in 'cellSail' module
+[E]: TODO: cellSailMp4MovieGetMovieInfo
+[W]: Unknown function 0x6e83f5c0 in 'cellSail' module
+[E]: TODO: cellSailAviMovieGetMovieInfo
+[W]: Unknown function 0x76488bb1 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterFinalize
+[W]: Unknown function 0x76b1a425 in 'cellSail' module
+[E]: TODO: cellSailDescriptorSetAutoSelection
+[W]: Unknown function 0x7c8dff3b in 'cellSail' module
+[E]: TODO: cellSailPlayerAddDescriptor
+[W]: Unknown function 0x7eb8d6b5 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFrame
+[W]: Unknown function 0x85beffcc in 'cellSail' module
+[E]: TODO: cellSailPlayerCloseStream
+[W]: Unknown function 0xbdf21b0f in 'cellSail' module
+[E]: TODO: cellSailPlayerBoot
+[W]: Unknown function 0xc044fab1 in 'cellSail' module
+[E]: TODO: cellSailDescriptorOpen
+[W]: Unknown function 0xd1462438 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterFinalize
+[W]: Unknown function 0xd1d55a90 in 'cellSail' module
+[E]: TODO: cellSailPlayerSetPaused
+[W]: Unknown function 0xd5f9a15b in 'cellSail' module
+[E]: TODO: cellSailDescriptorGetStreamType
+[W]: Unknown function 0xd7938b8d in 'cellSail' module
+[E]: TODO: cellSailPlayerCreateDescriptor
+[W]: Unknown function 0xe535b0d3 in 'cellSail' module
+[E]: TODO: cellSailPlayerStart
+[W]: Unknown function 0xeba8d4ec in 'cellSail' module
+[E]: TODO: cellSailPlayerStop
+[W]: Unknown function 0xeec22809 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterUpdateAvSync
+[W]: Unknown function 0xf25f197d in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFormat
+[W]: Unknown function 0xfc5baf8a in 'cellSail' module
+[E]: TODO: cellSailPlayerSetRepeatMode
+[W]: Unknown function 0xfc839bd4 in 'cellSail' module
+[E]: TODO: cellSailPlayerDestroyDescriptor
+[W]: Unknown function 0xffd58aa4 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFormat
+[W]: Unknown function 0x28b4e2c1 in 'cellPamf' module
+[E]: TODO: cellPamfReaderSetStreamWithTypeAndIndex
+[W]: Unknown function 0x4de501b1 in 'cellPamf' module
+[E]: TODO: cellPamfReaderGetPresentationStartTime
+[W]: Unknown function 0xd0230671 in 'cellPamf' module
+[E]: TODO: cellPamfReaderGetNumberOfSpecificStreams
+[W]: Unknown function 0xf61609d6 in 'cellPamf' module
+[E]: TODO: cellPamfReaderGetPresentationEndTime
+[W]: Unknown module 'cellSync'
+[W]: Unknown function 0x285d30d6 in 'cellFont' module
+[E]: TODO: cellFontGetScalePixel
+[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyRegisterContext
+[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyCreateHandle
+[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyGetRequiredDiskSpace
+[W]: Unknown function 0x3741ecc7 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyDestroyContext
+[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyInit
+[W]: Unknown function 0x623cd2dc in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyDestroyHandle
+[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyUnlockTrophy
+[W]: Unknown function 0xa7fabf4d in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyTerm
+[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyGetTrophyUnlockState
+[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
+[E]: TODO: sceNpTrophyCreateContext
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedLoad2
+[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedSave2
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarReset
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarSetMsg
+[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus
+[W]: Unknown function 0xcfdf24bb in 'cellSysutil' module
+[E]: TODO: cellVideoOutDebugSetMonitorType
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0xe6f5711b in 'cellL10n' module
+[E]: Unknown func id: 0xe6f5711b
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetSecondVHandler
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x9b882495 in 'sys_fs' module
+[E]: TODO: cellFsGetDirectoryEntries
+[W]: Unknown function 0x039d70b7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueDetachLv2EventQueue
+[W]: Unknown function 0x082bfb09 in 'cellSpurs' module
+[E]: TODO: _cellSpursQueueInitialize
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskWithAttribute
+[W]: Unknown function 0x303c19cd in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChainWithAttribute
+[W]: Unknown function 0x3548f483 in 'cellSpurs' module
+[E]: TODO: _cellSpursJobChainAttributeInitialize
+[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
+[E]: TODO: cellSpursDetachLv2EventQueue
+[W]: Unknown function 0x569674e3 in 'cellSpurs' module
+[E]: TODO: cellSpursTraceInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardInitialize
+[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownJobChain
+[W]: Unknown function 0x7b9cbb74 in 'cellSpurs' module
+[E]: TODO: cellSpursTraceFinalize
+[W]: Unknown function 0x91066667 in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePopBody
+[W]: Unknown function 0x92cff6ed in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePushBody
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa7c066de in 'cellSpurs' module
+[E]: TODO: cellSpursJoinJobChain
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0xb8474eff in 'cellSpurs' module
+[E]: TODO: _cellSpursTaskAttributeInitialize
+[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
+[E]: TODO: cellSpursAttachLv2EventQueue
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
+[E]: TODO: cellSpursFinalize
+[W]: Unknown function 0xce853fbf in 'cellSpurs' module
+[E]: TODO: cellSpursTraceStart
+[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardNotify
+[W]: Unknown function 0xddc81b5a in 'cellSpurs' module
+[E]: TODO: cellSpursTraceStop
+[W]: Unknown function 0xe5443be7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueAttachLv2EventQueue
+[W]: Unknown function 0xf31731bb in 'cellSpurs' module
+[E]: TODO: cellSpursRunJobChain
+[W]: Unknown function 0x44265c08 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_memalign
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0xe0da8efd in 'sysPrxForUser' module
+[E]: TODO: sys_spu_image_close
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[W : PPU[1] Thread (CPUThread)[0x0050b684]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_OVIS)
+[W : PPU[1] Thread (CPUThread)[0x00db6ef0]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6278]]: TODO: cellSyncMutexInitialize
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[E : PPU[7] Thread (3005a340)[0x00ae788c]]: Write32 to null block: [00000038]: d0011000
+[E : PPU[1] Thread (CPUThread)[0x00db6284]]: TODO: cellSyncMutexTryLock
+[!]: Closing memory...
