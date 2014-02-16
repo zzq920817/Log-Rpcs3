@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM® APOCALYPSE]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM_ APOCALYPSE]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM® APOCALYPSE]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM_ APOCALYPSE]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM® APOCALYPSE]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM® APOCALYPSE]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM_ APOCALYPSE]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00484-[MOTORSTORM_ APOCALYPSE]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -206,8 +206,6 @@
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
 [W]: Unknown module 'cellHttp'
-[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
-[E]: TODO: cellSysCacheMount
 [W]: Unknown function 0x220894e3 in 'cellSysutil' module
 [E]: TODO: cellSysutilEnableBgmPlayback
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
@@ -218,8 +216,6 @@
 [E]: TODO: cellSaveDataUserAutoSave
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x744c1544 in 'cellSysutil' module
-[E]: TODO: cellSysCacheClear
 [W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
 [E]: TODO: cellOskDialogLoadAsync
 [W]: Unknown function 0xb53c54fa in 'cellSysutil' module
@@ -300,26 +296,6 @@
 [E]: TODO: cellVoiceEnd
 [W]: Unknown function 0xf629ed67 in 'cellVoice' module
 [E]: TODO: cellVoiceGetPortAttr
-[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyRegisterContext
-[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateHandle
-[W]: Unknown function 0x3741ecc7 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyContext
-[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyInit
-[W]: Unknown function 0x623cd2dc in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyHandle
-[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyUnlockTrophy
-[W]: Unknown function 0xa7fabf4d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyTerm
-[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyUnlockState
-[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateContext
-[W]: Unknown function 0xfce6d30a in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyInfo
 [W]: Unknown function 0x59b1ede1 in 'cellGameExec' module
 [E]: TODO: cellGameGetHomeDataExportPath
 [W]: Unknown function 0x04459230 in 'cellNetCtl' module
@@ -477,32 +453,14 @@
 [W : PPU[1] Thread (CPUThread)[0x00ab506c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x00abc2f0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00abc2f0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00abc334]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc44c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc484]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc4a0]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00ab6adc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00ab6adc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x00abc2f0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00abc2f0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00abc334]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc44c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc484]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc4a0]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00ab4ff0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00ab4ff0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00abc334]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc44c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc484]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc4a0]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00ab6adc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00ab6adc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00abc334]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc44c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc484]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00abc4a0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x005edb08]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x005edb08]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x013d201c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x013d2010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0159e04c]]: cellGame warning: cellGameBootCheck(type_addr=0xd001efb8, attributes_addr=0xd001efbc, size_addr=0xd001efc4, dirName_addr=0x0)

@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War® Collection]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War® Collection]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War® Collection]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War® Collection]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -125,8 +125,6 @@
 [E]: TODO: cellFsGetFreeSize
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
 [W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
@@ -141,30 +139,14 @@
 [W : PPU[1] Thread (CPUThread)[0x0017b284]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x001849e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x001849e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00184a24]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b3c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b74]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b90]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0017ccf4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0017ccf4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x001849e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x001849e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00184a24]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b3c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b74]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b90]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0017b228]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0017b228]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00184a24]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b3c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b74]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b90]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0017ccf4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0017ccf4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00184a24]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b3c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b74]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00184b90]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00122898]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0x3c1d64, attr_addr=0xd0020ac0)
 [W : PPU[1] Thread (CPUThread)[0x00122898]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0x3823dc, attr_addr=0xd0020a10)
 [W : PPU[1] Thread (CPUThread)[0x00122898]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0x3823e0, attr_addr=0xd0020a10)

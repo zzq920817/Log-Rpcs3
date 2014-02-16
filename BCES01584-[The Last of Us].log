@@ -204,8 +204,6 @@
 [E]: TODO: cellOskDialogGetInputText
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListLoad2
-[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
-[E]: TODO: cellSysCacheMount
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
 [W]: Unknown function 0x21fc0c71 in 'cellSysutil' module
@@ -220,8 +218,6 @@
 [E]: TODO: cellSaveDataListAutoSave
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x744c1544 in 'cellSysutil' module
-[E]: TODO: cellSysCacheClear
 [W]: Unknown function 0x7f21c918 in 'cellSysutil' module
 [E]: TODO: cellOskDialogAddSupportLanguage
 [W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
@@ -498,28 +494,6 @@
 [W]: Unknown function 0xbd75f78b in 'cellAdec' module
 [E]: TODO: cellAdecGetPcmItem
 [W]: Unknown module 'cellRec'
-[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyRegisterContext
-[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateHandle
-[W]: Unknown function 0x27deda93 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophySetSoundLevel
-[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetRequiredDiskSpace
-[W]: Unknown function 0x3741ecc7 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyContext
-[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyInit
-[W]: Unknown function 0x623cd2dc in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyHandle
-[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyUnlockTrophy
-[W]: Unknown function 0xa7fabf4d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyTerm
-[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyUnlockState
-[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateContext
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown module 'sceNpSns'
 [W]: Unknown function 0x2ad091c6 in 'cellL10n' module
@@ -563,8 +537,6 @@
 [E]: TODO: sys_mmapper_free_memory
 [W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
 [E]: TODO: sys_mmapper_unmap_memory
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0x84bb6774 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_get_module_info
 [W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
@@ -577,39 +549,23 @@
 [E]: TODO: sys_prx_load_module_by_fd
 [! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x00e4e584]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
-[W : PPU[1] Thread (CPUThread)[0x00da7330]]: MULHDU
 [W : PPU[1] Thread (CPUThread)[0x00e3deb8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00e3deb8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x00e450e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00e450e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00e45124]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e4523c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45274]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45290]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00e3f928]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00e3f928]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x00e450e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00e450e0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00e45124]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e4523c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45274]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45290]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00e3de5c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00e3de5c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00e45124]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e4523c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45274]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45290]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00e3f928]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00e3f928]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00e45124]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e4523c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45274]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x00e45290]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0007ff7c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x13538b8, attr_addr=0xd0020b30, event_queue_key=0x0, size=127)
-[W : PPU[1] Thread (CPUThread)[0x0007ff7c]]: sys_event warning: *** event_queue created[] (protocol=0x1, type=0x1): id = 20
+[W : PPU[1] Thread (CPUThread)[0x0007ff7c]]: sys_event warning: *** event_queue created [] (protocol=0x1, type=0x1): id = 20
 [W : PPU[1] Thread (CPUThread)[0x0007ffb0]]: sys_event warning: sys_event_port_create(eport_id_addr=0x13538bc, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0007ffd8]]: sys_event warning: sys_event_port_connect_local(event_port_id=0x15, event_queue_id=0x14)
+[W : PPU[1] Thread (CPUThread)[0x0007ffb0]]: sys_event warning: *** sys_event_port created: id = 21
+[W : PPU[1] Thread (CPUThread)[0x0007ffd8]]: sys_event warning: sys_event_port_connect_local(eport_id=21, equeue_id=20)
 [E : PPU[1] Thread (CPUThread)[0x015650f4]]: TODO: sys_prx_get_module_list
 [E : PPU[1] Thread (CPUThread)[0x015650c4]]: TODO: sys_prx_get_module_info
 [E : PPU[1] Thread (CPUThread)[0x015650c4]]: TODO: sys_prx_get_module_info
@@ -1554,18 +1510,18 @@
 [! : PPU[1] Thread (CPUThread)[0x0091639c]]: r31 = 0x12ce848
 [! : PPU[1] Thread (CPUThread)[0x0091639c]]: f0 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x0091639c]]: f1 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f2 = 23.063477
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f3 = 16.000000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f4 = 0.620000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f5 = 0.770000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f6 = 0.690000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f7 = 0.070000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f8 = 1.400000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f9 = -0.300000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f10 = 0.492844
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f11 = 73334784.000000
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f12 = 0.000001
-[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f13 = 4703362.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0091639c]]: f13 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x0091639c]]: f14 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x0091639c]]: f15 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x0091639c]]: f16 = 0.000000

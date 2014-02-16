@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm™]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm™]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm™]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm™]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -73,8 +73,6 @@
 [E]: TODO: cellMsgDialogOpen
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
-[E]: TODO: cellSysCacheMount
 [W]: Unknown function 0xb6d84526 in 'cellSysutil' module
 [E]: TODO: cellOskDialogAbort
 [W]: Unknown function 0xb72bc4e6 in 'cellSysutil' module
@@ -342,7 +340,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00ede0f4]]: TODO: cellSpursSetExceptionEventHandler
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x4e28838)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x6ea05a70)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)
@@ -355,7 +353,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0x101deffc)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x4e28838)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x6ea06b70)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)
@@ -409,7 +407,7 @@
 [! : PPU[1] Thread (CPUThread)[0x1026e264]]: f10 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x1026e264]]: f11 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x1026e264]]: f12 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f13 = 480000.000000
+[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f13 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x1026e264]]: f14 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x1026e264]]: f15 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x1026e264]]: f16 = 0.000000

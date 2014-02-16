@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy™]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy™]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy™]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy™]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -135,30 +135,6 @@
 [E]: TODO: cellCameraSetNotifyEventQueue2
 [W]: Unknown function 0xbf47c5dd in 'cellCamera' module
 [E]: TODO: cellCameraInit
-[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyRegisterContext
-[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateHandle
-[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetRequiredDiskSpace
-[W]: Unknown function 0x3741ecc7 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyContext
-[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyInit
-[W]: Unknown function 0x49d18217 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetGameInfo
-[W]: Unknown function 0x623cd2dc in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyHandle
-[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyUnlockTrophy
-[W]: Unknown function 0xa7fabf4d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyTerm
-[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyUnlockState
-[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateContext
-[W]: Unknown function 0xfce6d30a in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyInfo
 [W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
 [E]: TODO: cellNetCtlGetInfo
 [W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
@@ -185,8 +161,6 @@
 [E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
 [W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
@@ -201,30 +175,14 @@
 [W : PPU[1] Thread (CPUThread)[0x00494318]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0049ae8c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0049ae8c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0049aed0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049afe8]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b020]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b03c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00495d88]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00495d88]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0049ae8c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0049ae8c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0049aed0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049afe8]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b020]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b03c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x004942bc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x004942bc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0049aed0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049afe8]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b020]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b03c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00495d88]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00495d88]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0049aed0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049afe8]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b020]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0049b03c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x002ded60]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0x7b6780, attr_addr=0xd0020bb0)
 [W : PPU[1] Thread (CPUThread)[0x0069e070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x6b5738, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x002e0860]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)

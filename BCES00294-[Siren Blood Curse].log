@@ -284,11 +284,12 @@
 [E : PPU[1] Thread (CPUThread)[0x00789004]]: TODO: cellSpursAttributeSetNamePrefix
 [E : PPU[1] Thread (CPUThread)[0x0078901c]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x002e2430]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x30015900, attr_addr=0xd0020934, event_queue_key=0x0, size=127)
-[W : PPU[1] Thread (CPUThread)[0x002e2430]]: sys_event warning: *** event_queue created[] (protocol=0x2, type=0x1): id = 16
+[W : PPU[1] Thread (CPUThread)[0x002e2430]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 16
 [! : PPU[17] Thread (Job Manager Event Handler)[0x002e226c]]: PPU[17] Thread (Job Manager Event Handler) enter
 [W : PPU[1] Thread (CPUThread)[0x002e2474]]: sys_event warning: sys_event_port_create(eport_id_addr=0x30015914, port_type=0x1, name=0xd0a77)
-[W : PPU[1] Thread (CPUThread)[0x002e2484]]: sys_event warning: sys_event_port_connect_local(event_port_id=0x12, event_queue_id=0x10)
-[W : PPU[17] Thread (Job Manager Event Handler)[0x002e22b0]]: sys_event warning: sys_event_queue_receive(equeue_id=0x10, event_addr=0xd0030ca0, timeout=0x0)
+[W : PPU[17] Thread (Job Manager Event Handler)[0x002e22b0]]: sys_event warning: sys_event_queue_receive(equeue_id=16, event_addr=0xd0030ca0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x002e2474]]: sys_event warning: *** sys_event_port created: id = 18
+[W : PPU[1] Thread (CPUThread)[0x002e2484]]: sys_event warning: sys_event_port_connect_local(eport_id=18, equeue_id=16)
 [E : PPU[1] Thread (CPUThread)[0x007890e8]]: TODO: cellSpursAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x00789010]]: TODO: _cellSpursAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00789004]]: TODO: cellSpursAttributeSetNamePrefix
@@ -297,11 +298,12 @@
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37300000, io=0x0, size=0xd00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x2ee1110)
+[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x3e457870)
 [W : PPU[1] Thread (CPUThread)[0x00785124]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209dc, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f63064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [E : PPU[1] Thread (CPUThread)[0x000122a8]]: Read16 from null block: [000006e6]
 [! : RSXThread]: RSX thread exit...
-[! : PPU[17] Thread (Job Manager Event Handler)[0x002e22b4]]: PPU[17] Thread (Job Manager Event Handler) leave
 [! : PPU[1] Thread (CPUThread)[0x000122ac]]: PPU[1] Thread (CPUThread) leave
+[W : PPU[17] Thread (Job Manager Event Handler)[0x002e22b0]]: sys_event_queue_receive(equeue=16) aborted
+[! : PPU[17] Thread (Job Manager Event Handler)[0x002e22b4]]: PPU[17] Thread (Job Manager Event Handler) leave
 [!]: Closing memory...

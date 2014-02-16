@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -108,10 +108,6 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
-[E]: TODO: cellSysCacheMount
-[W]: Unknown function 0x744c1544 in 'cellSysutil' module
-[E]: TODO: cellSysCacheClear
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
 [E]: TODO: cellGcmGetLastFlipTime
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
@@ -216,8 +212,6 @@
 [E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
@@ -235,30 +229,14 @@
 [W : PPU[1] Thread (CPUThread)[0x00338f5c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0033f8ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0033f8ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0033f8f0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa08]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa40]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa5c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0033a9cc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0033a9cc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0033f8ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0033f8ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0033f8f0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa08]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa40]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa5c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00338f08]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00338f08]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0033f8f0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa08]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa40]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa5c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0033a9cc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0033a9cc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0033f8f0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa08]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa40]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0033fa5c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00551058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x42bc90, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x30010000)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
@@ -270,7 +248,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd00208d0)
 [W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xf, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory mapped 0x30500000 to 0x0 size=0x100000
-[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x0,offset_addr=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd00208d4)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x30600000)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30600000, io=0x0, size=0x400000)
@@ -299,7 +277,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd00204b0)
 [W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x10, flags=0x40000)
 [E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x0,offset_addr=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd00204b4)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x30f00000)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30f00000, io=0x0, size=0x400000)
@@ -309,35 +287,35 @@
 [W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00204b8)
 [W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd00204b0)
 [W : PPU[1] Thread (CPUThread)[0x0040c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: '/' not found.
+[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
 [W : PPU[1] Thread (CPUThread)[0x0056b190]]: Process warning: sys_process_exit(1)
 [S : PPU[1] Thread (CPUThread)[0x0056b190]]: Process finished

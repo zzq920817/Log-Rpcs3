@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout® HD Fury]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout® HD Fury]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout® HD Fury]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout® HD Fury]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -31,8 +31,6 @@
 [E]: TODO: sys_prx_unregister_library
 [W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
 [E]: TODO: sys_prx_unload_module
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
 [E]: TODO: _sys_spu_printf_finalize
 [W]: Unknown function 0x1529e506 in 'cellAdec' module
@@ -124,12 +122,8 @@
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
 [W]: Unknown module 'cellPhotoUtility'
-[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
-[E]: TODO: cellSysCacheMount
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
-[W]: Unknown function 0x744c1544 in 'cellSysutil' module
-[E]: TODO: cellSysCacheClear
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0x94862702 in 'cellSysutil' module
@@ -286,16 +280,6 @@
 [E]: TODO: cellMicStart
 [W]: Unknown function 0xfcfaf246 in 'cellMic' module
 [E]: TODO: cellMicStop
-[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyRegisterContext
-[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateHandle
-[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyInit
-[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyUnlockTrophy
-[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateContext
 [W]: Unknown module 'sceNpCommerce2'
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x1650aea4 in 'cellSsl' module
@@ -355,31 +339,14 @@
 [W : PPU[1] Thread (CPUThread)[0x0043929c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0044de98]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0044de98]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0044decc]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dfb4]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dff0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044e00c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0043b14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0043b14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0044de98]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0044de98]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0044decc]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dfb4]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dff0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044e00c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x00438b30]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00438b30]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0044decc]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dfb4]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dff0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044e00c]]: MULHD
 [W : PPU[1] Thread (CPUThread)[0x0043b14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0043b14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0044decc]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dfb4]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044dff0]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x0044e00c]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x003a11e4]]: MULHD
 [E : PPU[1] Thread (CPUThread)[0x0085c064]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x7652dc)
 [E : PPU[1] Thread (CPUThread)[0x0085c064]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x7652f8)
 [W : PPU[1] Thread (CPUThread)[0x01448094]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x870a60, userdata=0x0)
@@ -399,34 +366,36 @@
 [E : PPU[1] Thread (CPUThread)[0x01442004]]: TODO: cellSpursAttributeSetNamePrefix
 [E : PPU[1] Thread (CPUThread)[0x01442094]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x00465940]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xc73880, attr_addr=0xd00204b4, event_queue_key=0x0, size=127)
-[W : PPU[1] Thread (CPUThread)[0x00465940]]: sys_event warning: *** event_queue created[] (protocol=0x2, type=0x1): id = 137
+[W : PPU[1] Thread (CPUThread)[0x00465940]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 137
 [! : PPU[138] Thread (Job Manager Event Handler)[0x00465758]]: PPU[138] Thread (Job Manager Event Handler) enter
 [W : PPU[1] Thread (CPUThread)[0x00465984]]: sys_event warning: sys_event_port_create(eport_id_addr=0xc73894, port_type=0x1, name=0xd0a77)
-[W : PPU[138] Thread (Job Manager Event Handler)[0x004657a8]]: sys_event warning: sys_event_queue_receive(equeue_id=0x89, event_addr=0xd0030ca0, timeout=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00465994]]: sys_event warning: sys_event_port_connect_local(event_port_id=0x8b, event_queue_id=0x89)
+[W : PPU[138] Thread (Job Manager Event Handler)[0x004657a8]]: sys_event warning: sys_event_queue_receive(equeue_id=137, event_addr=0xd0030ca0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00465984]]: sys_event warning: *** sys_event_port created: id = 139
+[W : PPU[1] Thread (CPUThread)[0x00465994]]: sys_event warning: sys_event_port_connect_local(eport_id=139, equeue_id=137)
 [E : PPU[1] Thread (CPUThread)[0x0144216c]]: TODO: cellSpursAttachLv2EventQueue
 [W : PPU[1] Thread (CPUThread)[0x00465940]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xc738a8, attr_addr=0xd00204b4, event_queue_key=0x0, size=127)
-[W : PPU[1] Thread (CPUThread)[0x00465940]]: sys_event warning: *** event_queue created[] (protocol=0x2, type=0x1): id = 140
+[W : PPU[1] Thread (CPUThread)[0x00465940]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 140
 [! : PPU[141] Thread (Job Manager Event Handler)[0x00465758]]: PPU[141] Thread (Job Manager Event Handler) enter
 [W : PPU[1] Thread (CPUThread)[0x00465984]]: sys_event warning: sys_event_port_create(eport_id_addr=0xc738bc, port_type=0x1, name=0xd0a77)
-[W : PPU[141] Thread (Job Manager Event Handler)[0x004657a8]]: sys_event warning: sys_event_queue_receive(equeue_id=0x8c, event_addr=0xd0040ca0, timeout=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00465994]]: sys_event warning: sys_event_port_connect_local(event_port_id=0x8e, event_queue_id=0x8c)
+[W : PPU[1] Thread (CPUThread)[0x00465984]]: sys_event warning: *** sys_event_port created: id = 142
+[W : PPU[141] Thread (Job Manager Event Handler)[0x004657a8]]: sys_event warning: sys_event_queue_receive(equeue_id=140, event_addr=0xd0040ca0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00465994]]: sys_event warning: sys_event_port_connect_local(eport_id=142, equeue_id=140)
 [E : PPU[1] Thread (CPUThread)[0x0144216c]]: TODO: cellSpursAttachLv2EventQueue
 [W : PPU[1] Thread (CPUThread)[0x003e1384]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xc81db0, attr_addr=0xd00203d8)
 [W : PPU[1] Thread (CPUThread)[0x005a2d84]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xf735a4, attr_addr=0xd00202a0)
-[E : PPU[1] Thread (CPUThread)[0x0144801c]]: TODO: cellSysCacheMount
+[W : PPU[1] Thread (CPUThread)[0x0144801c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\')
 [W : PPU[1] Thread (CPUThread)[0x003e1540]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x400, alignment=0x0, alloc_addr=0xc81e14)
 [W : PPU[1] Thread (CPUThread)[0x0085c0dc]]: memory warning: sys_mmapper_allocate_memory(size=0x4b00000, flags=0x400, mem_id_addr=0xc81e18)
 [W : PPU[1] Thread (CPUThread)[0x0085c100]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x91, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x0085c100]]: memory mapped 0x3ac00000 to 0x0 size=0x4b00000
-[W : PPU[1] Thread (CPUThread)[0x003e157c]]: memory warning: sys_memory_container_create(cid_addr=0xc81e20,yield_size=0xa00000)
+[W : PPU[1] Thread (CPUThread)[0x003e157c]]: memory warning: sys_memory_container_create(cid_addr=0xc81e20, yield_size=0xa00000)
 [E : PPU[1] Thread (CPUThread)[0x0085c07c]]: TODO: sys_mmapper_allocate_memory_from_container
 [W : PPU[1] Thread (CPUThread)[0x0085c100]]: memory warning: sys_mmapper_map_memory(start_addr=0x4b00000, mem_id=0x0, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x0146a01c]]: cellGcmSys warning: cellGcmInit(context_addr=0x13be314,cmdSize=0x10000,ioSize=0x5500000,ioAddress=0x31f00000)
 [W : PPU[1] Thread (CPUThread)[0x0146a01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0146a01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31f00000, io=0x0, size=0x5500000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x01448130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x29c13a8)
+[W : PPU[1] Thread (CPUThread)[0x01448130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x9cf45b10)
 [W : PPU[1] Thread (CPUThread)[0x014480dc]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd001feec, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0146a070]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=7536640, pitch=5120, comp=7, base=1, bank=0)
@@ -439,18 +408,54 @@
 [E : PPU[1] Thread (CPUThread)[0x0146a0d0]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x0146a070]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
 [W : PPU[1] Thread (CPUThread)[0x005b9bd0]]: sys_event warning: sys_event_port_create(eport_id_addr=0x31ee9e08, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x005b9bd0]]: sys_event warning: *** sys_event_port created: id = 148
 [W : PPU[1] Thread (CPUThread)[0x005b9bec]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x31ee9e0c, attr_addr=0xd0020110, event_queue_key=0x0, size=8)
-[W : PPU[1] Thread (CPUThread)[0x005b9bec]]: sys_event warning: *** event_queue created[] (protocol=0x2, type=0x1): id = 149
-[W : PPU[1] Thread (CPUThread)[0x005b9bfc]]: sys_event warning: sys_event_port_connect_local(event_port_id=0x94, event_queue_id=0x95)
-[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : PPU[1] Thread (CPUThread)[0x005b9bec]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 149
+[W : PPU[1] Thread (CPUThread)[0x005b9bfc]]: sys_event warning: sys_event_port_connect_local(eport_id=148, equeue_id=149)
 [! : PPU[150] Thread (FpPadThread)[0x005b9570]]: PPU[150] Thread (FpPadThread) enter
 [W : PPU[1] Thread (CPUThread)[0x01444010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_KEY2CHAR)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [E : RSXThread]: TODO: cellGcmSetFrontFace(0x901)
 [E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
 [E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[1] Thread (CPUThread)[0x014420dc]]: TODO: cellSpursGetInfo
+[E : PPU[1] Thread (CPUThread)[0x014421a8]]: TODO: _cellSpursWorkloadAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x014420e8]]: TODO: cellSpursWorkloadAttributeSetName
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[1] Thread (CPUThread)[0x01442184]]: TODO: cellSpursAddWorkloadWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x014420d0]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x01442190]]: TODO: cellSpursSetExceptionEventHandler
+[E : PPU[1] Thread (CPUThread)[0x014420dc]]: TODO: cellSpursGetInfo
+[E : PPU[1] Thread (CPUThread)[0x014421a8]]: TODO: _cellSpursWorkloadAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x014420e8]]: TODO: cellSpursWorkloadAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x01442184]]: TODO: cellSpursAddWorkloadWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x014420d0]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x01442190]]: TODO: cellSpursSetExceptionEventHandler
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [E : PPU[1] Thread (CPUThread)[0x014420dc]]: TODO: cellSpursGetInfo
 [E : PPU[1] Thread (CPUThread)[0x014421a8]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x014420e8]]: TODO: cellSpursWorkloadAttributeSetName
@@ -463,164 +468,50 @@
 [E : PPU[1] Thread (CPUThread)[0x01442184]]: TODO: cellSpursAddWorkloadWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x014420d0]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x01442190]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[1] Thread (CPUThread)[0x014420dc]]: TODO: cellSpursGetInfo
-[E : PPU[1] Thread (CPUThread)[0x014421a8]]: TODO: _cellSpursWorkloadAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x014420e8]]: TODO: cellSpursWorkloadAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x01442184]]: TODO: cellSpursAddWorkloadWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x014420d0]]: TODO: cellSpursRequestIdleSpu
-[E : PPU[1] Thread (CPUThread)[0x01442190]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x014420dc]]: TODO: cellSpursGetInfo
-[E : PPU[1] Thread (CPUThread)[0x014421a8]]: TODO: _cellSpursWorkloadAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x014420e8]]: TODO: cellSpursWorkloadAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x01442184]]: TODO: cellSpursAddWorkloadWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x014420d0]]: TODO: cellSpursRequestIdleSpu
-[E : PPU[1] Thread (CPUThread)[0x01442190]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=16056320, size=7864320, pitch=10240, comp=7, base=116, bank=0)
 [E : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=23920640, size=7864320, pitch=10240, comp=11, base=236, bank=1)
 [E : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (11)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=2)
@@ -629,14 +520,13 @@
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=3)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=1, offset=17301504, size=3932160, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=4)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=31784960, size=524288, pitch=1280, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=5)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=32309248, size=524288, pitch=1280, comp=0, base=0, bank=1)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=6)
 [W : PPU[1] Thread (CPUThread)[0x0146a088]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=7, location=0, offset=32833536, size=524288, pitch=1024, comp=0, base=0, bank=1)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=7)
 [W : PPU[1] Thread (CPUThread)[0x0146a088]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
@@ -652,115 +542,59 @@
 [W : PPU[1] Thread (CPUThread)[0x0146a088]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=4)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=34209792, size=65536, pitch=512, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=12)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=13, location=0, offset=34275328, size=65536, pitch=512, comp=0, base=0, bank=1)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=13)
 [W : PPU[1] Thread (CPUThread)[0x0146a088]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=5)
 [W : PPU[1] Thread (CPUThread)[0x0146a0e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=14, location=0, offset=34340864, size=65536, pitch=512, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0146a064]]: cellGcmSys warning: cellGcmBindTile(index=14)
 [W : PPU[1] Thread (CPUThread)[0x0146a088]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=6)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
 [W : PPU[1] Thread (CPUThread)[0x0146a088]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=7)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201f0, attr_addr=0xd00201f8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
@@ -771,28 +605,12 @@
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
@@ -818,6 +636,24 @@
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
@@ -830,117 +666,91 @@
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [W : PPU[1] Thread (CPUThread)[0x00463a5c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd00201d0, attr_addr=0xd00201d8)
 [! : PPU[219] Thread (3a9206b0)[0x00650fc0]]: PPU[219] Thread (3a9206b0) enter
-[W : PPU[219] Thread (3a9206b0)[0x00463488]]: sys_cond warning: sys_cond_create(cond_addr=0xd0060c30, mutex_id=0x99, attr_addr=-804910008)
-[! : PPU[222] Thread (3a920740)[0x00650fc0]]: PPU[222] Thread (3a920740) enter
+[! : PPU[221] Thread (3a920740)[0x00650fc0]]: PPU[221] Thread (3a920740) enter
+[W : PPU[219] Thread (3a9206b0)[0x00463488]]: sys_cond warning: sys_cond_create(cond_id_addr=0xd0060c30, mutex_id=153, attr_addr=-804910008)
+[W : PPU[219] Thread (3a9206b0)[0x00463488]]: sys_cond warning: *** condition created []: id = 222
+[W : PPU[219] Thread (3a9206b0)[0x00463620]]: sys_cond warning: sys_cond_wait(cond_id=222, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x014480a0]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=0,fs=4,option=0)
 [W : PPU[1] Thread (CPUThread)[0x014480a0]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=1,fs=4,option=0)
 [W : PPU[1] Thread (CPUThread)[0x014480a0]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=6,fs=4,option=0)
 [W : PPU[1] Thread (CPUThread)[0x0144804c]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xb6cd78, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x014480c4]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00203c0)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[W : PPU[221] Thread (3a920740)[0x00463620]]: sys_cond warning: sys_cond_wait(cond_id=222, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x014480ac]]: cellSysutil warning: cellAudioOutSetCopyControl(audioOut=0,control=2)
 [W : PPU[1] Thread (CPUThread)[0x0085e004]]: cellAudio warning: cellAudioInit()
-[W : PPU[1] Thread (CPUThread)[0x0085e040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xb6dc38,portNum_addr=0xb6dc78)
-[W : PPU[1] Thread (CPUThread)[0x0085e01c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0,portConfig_addr=0xb6dc58)
+[W : PPU[1] Thread (CPUThread)[0x0085e040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xb6dc38, portNum_addr=0xb6dc78)
+[W : PPU[1] Thread (CPUThread)[0x0085e040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=0x8, attr=0x0, level=0.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x0085e01c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xb6dc58)
 [W : PPU[1] Thread (CPUThread)[0x0085e028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [E : PPU[1] Thread (CPUThread)[0x0144210c]]: TODO: cellSpursCreateTaskset
 [E : PPU[1] Thread (CPUThread)[0x01442040]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x01442058]]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x01442040]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x01442178]]: TODO: cellSpursCreateTask
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [E : PPU[1] Thread (CPUThread)[0x014420dc]]: TODO: cellSpursGetInfo
 [E : PPU[1] Thread (CPUThread)[0x014421a8]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x014420e8]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x01442184]]: TODO: cellSpursAddWorkloadWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x014420d0]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x01442190]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[! : PPU[227] Thread (Audio MS Update Thread)[0x00309230]]: PPU[227] Thread (Audio MS Update Thread) enter
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [E : PPU[1] Thread (CPUThread)[0x014480b8]]: TODO: cellSysutilDisableBgmPlayback
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[! : PPU[227] Thread (Audio MS Update Thread)[0x00309230]]: PPU[227] Thread (Audio MS Update Thread) enter
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
 [E : PPU[1] Thread (CPUThread)[0x014420f4]]: TODO: cellSpursGetWorkloadInfo
 [E : PPU[1] Thread (CPUThread)[0x014420f4]]: TODO: cellSpursGetWorkloadInfo
 [E : PPU[1] Thread (CPUThread)[0x014421b4]]: TODO: cellSpursReadyCountStore
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
-[! : PPU[228] Thread (LoadingScreenThread)[0x002b7ab8]]: PPU[228] Thread (LoadingScreenThread) enter
 [W : PPU[1] Thread (CPUThread)[0x01444010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[! : PPU[228] Thread (LoadingScreenThread)[0x002b7ab8]]: PPU[228] Thread (LoadingScreenThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0145e04c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020624, attributes_addr=0xd0020620, size_addr=0xd0020660, dirName_addr=0x0)
-[W : PPU[228] Thread (LoadingScreenThread)[0x00463488]]: sys_cond warning: sys_cond_create(cond_addr=0xd0090bb0, mutex_id=0x9a, attr_addr=-804713528)
+[W : PPU[228] Thread (LoadingScreenThread)[0x00463340]]: sys_cond warning: sys_cond_signal(cond_id=222)
+[E : PPU[1] Thread (CPUThread)[0x0145e04c]]: Memory::WriteString error: bad address (0x0)
+[W : PPU[228] Thread (LoadingScreenThread)[0x00463488]]: sys_cond warning: sys_cond_create(cond_id_addr=0xd0090bb0, mutex_id=154, attr_addr=-804713528)
+[W : PPU[228] Thread (LoadingScreenThread)[0x00463488]]: sys_cond warning: *** condition created []: id = 229
 [W : PPU[1] Thread (CPUThread)[0x0145e004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020670, bufsize=64)
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[W : PPU[228] Thread (LoadingScreenThread)[0x00463620]]: sys_cond warning: sys_cond_wait(cond_id=229, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0145e01c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00206b0, usrdirPath_addr=0xd0020730)
 [W : PPU[1] Thread (CPUThread)[0x01448040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [E : PPU[1] Thread (CPUThread)[0x0145e034]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[1] Thread (CPUThread)[0x0145e01c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x306682a0, usrdirPath_addr=0x30668320)
 [W : PPU[1] Thread (CPUThread)[0x01444004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x003a11e4]]: MULHD
-[W : PPU[1] Thread (CPUThread)[0x003a11e4]]: MULHD
 [E : PPU[1] Thread (CPUThread)[0x01442010]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0144204c]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x014420a0]]: TODO: cellSpursCreateTasksetWithAttribute
@@ -951,21 +761,27 @@
 [E : PPU[1] Thread (CPUThread)[0x01442178]]: TODO: cellSpursCreateTask
 [W : PPU[1] Thread (CPUThread)[0x01444010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x01444010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: Unknown syscall: 131 - 00000083
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[W : PPU[221] Thread (3a920740)[0x00463308]]: sys_cond warning: sys_cond_signal_all(cond_id=229)
+[W : PPU[221] Thread (3a920740)[0x00463620]]: sys_cond warning: sys_cond_wait(cond_id=222, timeout=0)
 [E : PPU[228] Thread (LoadingScreenThread)[0x014420f4]]: TODO: cellSpursGetWorkloadInfo
 [E : PPU[228] Thread (LoadingScreenThread)[0x014420f4]]: TODO: cellSpursGetWorkloadInfo
 [E : PPU[228] Thread (LoadingScreenThread)[0x014420f4]]: TODO: cellSpursGetWorkloadInfo
 [E : PPU[228] Thread (LoadingScreenThread)[0x014420f4]]: TODO: cellSpursGetWorkloadInfo
-[E : RSXThread]: Read32 from null block: [efffffff]
-[W : PPU[219] Thread (3a9206b0)[0x00463620]]: sys_cond warning: sys_cond_wait(cond_id=0xdd, timeout=0x0): TIMEOUT
-[W : PPU[222] Thread (3a920740)[0x00463620]]: sys_cond warning: sys_cond_wait(cond_id=0xdd, timeout=0x0): TIMEOUT
-[! : PPU[219] Thread (3a9206b0)[0x00463624]]: PPU[219] Thread (3a9206b0) leave
-[! : PPU[138] Thread (Job Manager Event Handler)[0x004657ac]]: PPU[138] Thread (Job Manager Event Handler) leave
-[! : PPU[228] Thread (LoadingScreenThread)[0x005c1b8c]]: PPU[228] Thread (LoadingScreenThread) leave
-[! : PPU[150] Thread (FpPadThread)[0x005b977c]]: PPU[150] Thread (FpPadThread) leave
-[! : PPU[141] Thread (Job Manager Event Handler)[0x004657ac]]: PPU[141] Thread (Job Manager Event Handler) leave
-[! : PPU[227] Thread (Audio MS Update Thread)[0x006032ec]]: PPU[227] Thread (Audio MS Update Thread) leave
-[! : PPU[1] Thread (CPUThread)[0x006bb73c]]: PPU[1] Thread (CPUThread) leave
-[! : PPU[222] Thread (3a920740)[0x00463624]]: PPU[222] Thread (3a920740) leave
+[E : PPU[150] Thread (FpPadThread)[0x005b9798]]: sys_event error: sys_event_queue_tryreceive(equeue_id=149, event_array_addr=0xd0050cc8, size=8, number_addr=0xd0050cc0)
+[W : RSXThread]: null cmd: addr=0x52000000, put=0x11070, get=0x2000000
+[E : PPU[228] Thread (LoadingScreenThread)[0x014420f4]]: TODO: cellSpursGetWorkloadInfo
 [! : RSXThread]: RSX thread exit...
+[W : PPU[219] Thread (3a9206b0)[0x00463620]]: sys_cond_wait(cond_id=222, ...) aborted
+[W : PPU[138] Thread (Job Manager Event Handler)[0x004657a8]]: sys_event_queue_receive(equeue=137) aborted
+[! : PPU[1] Thread (CPUThread)[0x006bb738]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[227] Thread (Audio MS Update Thread)[0x006032ec]]: PPU[227] Thread (Audio MS Update Thread) leave
+[! : PPU[150] Thread (FpPadThread)[0x005b977c]]: PPU[150] Thread (FpPadThread) leave
+[! : PPU[228] Thread (LoadingScreenThread)[0x014420f8]]: PPU[228] Thread (LoadingScreenThread) leave
+[W : PPU[141] Thread (Job Manager Event Handler)[0x004657a8]]: sys_event_queue_receive(equeue=140) aborted
+[! : PPU[138] Thread (Job Manager Event Handler)[0x004657ac]]: PPU[138] Thread (Job Manager Event Handler) leave
+[! : PPU[219] Thread (3a9206b0)[0x00463624]]: PPU[219] Thread (3a9206b0) leave
+[! : PPU[141] Thread (Job Manager Event Handler)[0x004657ac]]: PPU[141] Thread (Job Manager Event Handler) leave
+[W : PPU[221] Thread (3a920740)[0x00463620]]: sys_cond_wait(cond_id=222, ...) aborted
+[! : PPU[221] Thread (3a920740)[0x00463624]]: PPU[221] Thread (3a920740) leave
 [!]: Closing memory...

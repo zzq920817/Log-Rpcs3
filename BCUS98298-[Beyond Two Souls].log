@@ -35,10 +35,6 @@
 [E]: TODO: cellFsFsync
 [W]: Unknown function 0x9b882495 in 'sys_fs' module
 [E]: TODO: cellFsGetDirectoryEntries
-[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
-[E]: TODO: cellSysCacheMount
-[W]: Unknown function 0x744c1544 in 'cellSysutil' module
-[E]: TODO: cellSysCacheClear
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
@@ -175,20 +171,6 @@
 [E]: TODO: _cellSpursCreateJobQueue
 [W]: Unknown function 0xff03cc79 in 'cellSpursJq' module
 [E]: TODO: cellSpursJobQueueAttributeSetIsHaltOnError
-[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyRegisterContext
-[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateHandle
-[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetRequiredDiskSpace
-[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyInit
-[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyUnlockTrophy
-[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyUnlockState
-[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateContext
 [W]: Unknown module 'sceNpCommerce2'
 [W]: Unknown function 0x4885aa18 in 'sceNp' module
 [E]: TODO: sceNpTerm
@@ -246,14 +228,11 @@
 [E]: TODO: sys_mmapper_free_memory
 [W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
 [E]: TODO: sys_mmapper_unmap_memory
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0x70258515 in 'sysPrxForUser' module
 [E]: TODO: sys_mmapper_allocate_memory_from_container
-[W]: Unknown function 0xfc52a7a9 in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn
 [! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
-[W : PPU[1] Thread (CPUThread)[0x00c19a74]]: memory warning: sys_memory_container_create(cid_addr=0x11f7888,yield_size=0xbc00000)
+[W : PPU[1] Thread (CPUThread)[0x00c19a74]]: memory warning: sys_memory_container_create(cid_addr=0x11f7888, yield_size=0xbc00000)
+[W : PPU[1] Thread (CPUThread)[0x00c19a74]]: memory warning: *** memory_container created(addr=0x30100000): id = 13
 [W : PPU[1] Thread (CPUThread)[0x00c19ac0]]: vm warning: sys_vm_memory_map(vsize=0x10000000,psize=0xbc00000,cidr=0xd,flags=0x200,policy=0x1,addr=0x11f788c)
 [E : PPU[1] Thread (CPUThread)[0x00c18464]]: Read32 from null block: [00000010]
 [! : PPU[1] Thread (CPUThread)[0x00c18468]]: PPU[1] Thread (CPUThread) leave

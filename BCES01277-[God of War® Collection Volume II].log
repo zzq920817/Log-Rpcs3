@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -156,30 +156,6 @@
 [E]: TODO: cellFiberPpuInitializeScheduler
 [W]: Unknown function 0x55870804 in 'cellFiber' module
 [E]: TODO: _cellFiberPpuInitialize
-[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyRegisterContext
-[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateHandle
-[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetRequiredDiskSpace
-[W]: Unknown function 0x3741ecc7 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyContext
-[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyInit
-[W]: Unknown function 0x49d18217 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetGameInfo
-[W]: Unknown function 0x623cd2dc in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyHandle
-[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyUnlockTrophy
-[W]: Unknown function 0xa7fabf4d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyTerm
-[W]: Unknown function 0xb3ac3478 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyUnlockState
-[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateContext
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
@@ -193,7 +169,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x00f95088]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x458c20 (/dev_bdvd))
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
-[W : PPU[1] Thread (CPUThread)[0x00033698]]: memory warning: sys_memory_container_create(cid_addr=0xd0020bdc,yield_size=0x300000)
+[W : PPU[1] Thread (CPUThread)[0x00033698]]: memory warning: sys_memory_container_create(cid_addr=0xd0020bdc, yield_size=0x300000)
+[W : PPU[1] Thread (CPUThread)[0x00033698]]: memory warning: *** memory_container created(addr=0x3f800000): id = 15
 [E : PPU[1] Thread (CPUThread)[0x00f9301c]]: TODO: _cellSpursAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f93004]]: TODO: cellSpursAttributeSetNamePrefix
 [E : PPU[1] Thread (CPUThread)[0x00f93010]]: TODO: cellSpursAttributeSetMemoryContainerForSpuThread
@@ -209,27 +186,27 @@
 [W : PPU[1] Thread (CPUThread)[0x00f9d0d0]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=5692952)
 [E : PPU[1] Thread (CPUThread)[0x00f9d100]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x00f9d064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/a46b2416e6e40ba): fd=16
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 16)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c5c1fe43105cf16d): fd=17
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 17)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c5c1fe43105ce16d): fd=18
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 18)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/textures/84b9a06506af66fe): fd=19
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 19)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/ada5f2b8a263da2): fd=20
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 20)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7e2992afb3b11cd3): fd=21
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 21)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7e2992afb3b10cd3): fd=22
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 22)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/23692cecb0fdae4): fd=23
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 23)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d87041): fd=24
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 24)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041): fd=25
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 25)
-[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x4533210)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/a46b2416e6e40ba"): fd = 16
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=16)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c5c1fe43105cf16d"): fd = 17
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=17)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c5c1fe43105ce16d"): fd = 18
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=18)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/textures/84b9a06506af66fe"): fd = 19
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=19)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/ada5f2b8a263da2"): fd = 20
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=20)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7e2992afb3b11cd3"): fd = 21
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=21)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7e2992afb3b10cd3"): fd = 22
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=22)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/23692cecb0fdae4"): fd = 23
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=23)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d87041"): fd = 24
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=24)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041"): fd = 25
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=25)
+[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0xa86e6070)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f97004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020954, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -297,76 +274,76 @@
 [E : PPU[2] Thread (Callback)[0x00f9d088]]: TODO: cellGcmGetLastFlipTime
 [E : PPU[2] Thread (Callback)[0x00f9d034]]: TODO: cellGcmGetLastSecondVTime
 [! : PPU[2] Thread (Callback)[0x00fa900c]]: PPU[2] Thread (Callback) leave
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/cb3a94530f17e8d2): fd=26
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 26)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7fee772e3bc83319): fd=27
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 27)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7fee772e3bc82319): fd=28
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 28)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/38076570108c7812): fd=29
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 29)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c86f6ff8e0e7891d): fd=30
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 30)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c86f6ff8e0e7991d): fd=31
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 31)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/a4c1cd3a6d228c17): fd=32
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 32)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/d02f44c85f0b1c3f): fd=33
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 33)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/d02f44c85f0b0c3f): fd=34
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 34)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/9702b42e6d525580): fd=35
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 35)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/44ba3456e7957a5): fd=36
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 36)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/44ba3456e7947a5): fd=37
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 37)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/d51e7a8385ce48ef): fd=38
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 38)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/355e65d76528786b): fd=39
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 39)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/355e65d76528686b): fd=40
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 40)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/6e265f5534be8a87): fd=41
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 41)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/f032fb962884555): fd=42
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 42)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/f032fb962885555): fd=43
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 43)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/333ea63ac19c6c27): fd=44
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 44)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7502bb4c80a0efbf): fd=45
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 45)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7502bb4c80a0ffbf): fd=46
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 46)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/4bb7edfecbf27935): fd=47
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 47)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/4da67cc7209e7cdd): fd=48
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 48)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/4da67cc7209e6cdd): fd=49
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 49)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/54b7edfecbf27935): fd=50
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 50)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/b54cef9cef896fdd): fd=51
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 51)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/b54cef9cef897fdd): fd=52
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 52)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/materials/7d430902272e4384): fd=53
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 53)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/676caa0555de811d): fd=54
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 54)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/676caa0555de911d): fd=55
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 55)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/cb3a94530f17e8d2"): fd = 26
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=26)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7fee772e3bc83319"): fd = 27
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=27)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7fee772e3bc82319"): fd = 28
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=28)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/38076570108c7812"): fd = 29
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=29)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c86f6ff8e0e7891d"): fd = 30
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=30)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/c86f6ff8e0e7991d"): fd = 31
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=31)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/a4c1cd3a6d228c17"): fd = 32
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=32)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/d02f44c85f0b1c3f"): fd = 33
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=33)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/d02f44c85f0b0c3f"): fd = 34
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=34)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/9702b42e6d525580"): fd = 35
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=35)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/44ba3456e7957a5"): fd = 36
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=36)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/44ba3456e7947a5"): fd = 37
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=37)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/d51e7a8385ce48ef"): fd = 38
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=38)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/355e65d76528786b"): fd = 39
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=39)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/355e65d76528686b"): fd = 40
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=40)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/6e265f5534be8a87"): fd = 41
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=41)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/f032fb962884555"): fd = 42
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=42)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/f032fb962885555"): fd = 43
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=43)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/333ea63ac19c6c27"): fd = 44
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=44)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7502bb4c80a0efbf"): fd = 45
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=45)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7502bb4c80a0ffbf"): fd = 46
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=46)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/4bb7edfecbf27935"): fd = 47
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=47)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/4da67cc7209e7cdd"): fd = 48
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=48)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/4da67cc7209e6cdd"): fd = 49
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=49)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/54b7edfecbf27935"): fd = 50
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=50)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/b54cef9cef896fdd"): fd = 51
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=51)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/b54cef9cef897fdd"): fd = 52
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=52)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/7d430902272e4384"): fd = 53
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=53)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/676caa0555de811d"): fd = 54
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=54)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/676caa0555de911d"): fd = 55
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=55)
 [! : PPU[56] Thread (AsyncLoad)[0x0001f1d4]]: PPU[56] Thread (AsyncLoad) enter
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/gos/packfiles/English/game.bin): fd=57
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 57)
-[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path: /dev_bdvd/PS3_GAME/USRDIR/data/gos/packfiles/English/game.bin): fd=58
-[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd: 58)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/gos/packfiles/English/game.bin"): fd = 57
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=57)
+[W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/gos/packfiles/English/game.bin"): fd = 58
+[W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=58)
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [E : PPU[1] Thread (CPUThread)[0x00f93040]]: TODO: cellSpursGetInfo
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
-[E : PPU[1] Thread (CPUThread)[0x00f95034]]: sys_fs error: '/app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/config/SurroundReverb.ini' not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00f95034]]: sys_fs error: "/app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/config/SurroundReverb.ini" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00f93040]]: TODO: cellSpursGetInfo
 [E : PPU[1] Thread (CPUThread)[0x00f930ac]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f9304c]]: TODO: cellSpursWorkloadAttributeSetName
@@ -374,7 +351,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00f93034]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x00f930a0]]: TODO: cellSpursSetExceptionEventHandler
 [E : PPU[1] Thread (CPUThread)[0x00420448]]: Read32 from null block: [00000018]
-[! : PPU[56] Thread (AsyncLoad)[0x0001f230]]: PPU[56] Thread (AsyncLoad) leave
-[! : PPU[1] Thread (CPUThread)[0x0042044c]]: PPU[1] Thread (CPUThread) leave
 [! : RSXThread]: RSX thread exit...
+[! : PPU[56] Thread (AsyncLoad)[0x0001f390]]: PPU[56] Thread (AsyncLoad) leave
+[! : PPU[1] Thread (CPUThread)[0x0042044c]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

@@ -1,11 +1,11 @@
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\\..\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
@@ -53,8 +53,6 @@
 [E]: TODO: cellKey2CharOpen
 [W]: Unknown function 0xbfc03768 in 'cellKey2char' module
 [E]: TODO: cellKey2CharSetMode
-[W]: Unknown function 0x67f9fedb in 'sysPrxForUser' module
-[E]: TODO: sys_game_process_exitspawn2
 [W]: Unknown function 0x139a9e9b in 'sys_net' module
 [E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x1f953b9f in 'sys_net' module
@@ -311,28 +309,6 @@
 [E]: TODO: sceNpManagerGetNpId
 [W]: Unknown function 0xd208f91d in 'sceNp' module
 [E]: TODO: sceNpUtilCmpNpId
-[W]: Unknown function 0x1197b52c in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyRegisterContext
-[W]: Unknown function 0x1c25470d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateHandle
-[W]: Unknown function 0x370136fe in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetRequiredDiskSpace
-[W]: Unknown function 0x3741ecc7 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyContext
-[W]: Unknown function 0x39567781 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyInit
-[W]: Unknown function 0x49d18217 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetGameInfo
-[W]: Unknown function 0x623cd2dc in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyDestroyHandle
-[W]: Unknown function 0x8ceedd21 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyUnlockTrophy
-[W]: Unknown function 0xa7fabf4d in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyTerm
-[W]: Unknown function 0xe3bf9a28 in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyCreateContext
-[W]: Unknown function 0xfce6d30a in 'sceNpTrophy' module
-[E]: TODO: sceNpTrophyGetTrophyInfo
 [W]: Unknown module 'cellPhotoDecodeUtil'
 [W]: Unknown module 'cellPhotoUtility'
 [W]: Unknown module 'cellPhotoImportUtil'
@@ -340,8 +316,6 @@
 [W]: Unknown module 'cellSearchUtility'
 [W]: Unknown function 0x0f03cfb0 in 'cellSysutil' module
 [E]: TODO: cellSaveDataUserListSave
-[W]: Unknown function 0x1e7bff94 in 'cellSysutil' module
-[E]: TODO: cellSysCacheMount
 [W]: Unknown function 0x39dd8425 in 'cellSysutil' module
 [E]: TODO: cellSaveDataUserListLoad
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
