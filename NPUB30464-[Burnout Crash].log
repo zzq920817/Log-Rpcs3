@@ -1,0 +1,326 @@
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x139a9e9b in 'sys_net' module
+[E]: TODO: sys_net_initialize_network_ex
+[W]: Unknown function 0x6db6e8cd in 'sys_net' module
+[E]: TODO: socketclose
+[W]: Unknown function 0x88f03575 in 'sys_net' module
+[E]: TODO: setsockopt
+[W]: Unknown function 0xa50777c6 in 'sys_net' module
+[E]: TODO: shutdown
+[W]: Unknown function 0x051ee3ee in 'sys_net' module
+[E]: TODO: socketpoll
+[W]: Unknown function 0x13efe7f5 in 'sys_net' module
+[E]: TODO: getsockname
+[W]: Unknown function 0x1f953b9f in 'sys_net' module
+[E]: TODO: recvfrom
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3b27c780 in 'sys_net' module
+[E]: TODO: sys_net_get_sockinfo
+[W]: Unknown function 0x5a045bd1 in 'sys_net' module
+[E]: TODO: getsockopt
+[W]: Unknown function 0x6005cde1 in 'sys_net' module
+[E]: TODO: _sys_net_errno_loc
+[W]: Unknown function 0x64f66d35 in 'sys_net' module
+[E]: TODO: connect
+[W]: Unknown function 0x71f4c717 in 'sys_net' module
+[E]: TODO: gethostbyname
+[W]: Unknown function 0x858a930b in 'sys_net' module
+[E]: TODO: inet_ntoa
+[W]: Unknown function 0x8ccf05ed in 'sys_net' module
+[E]: TODO: sys_net_abort_resolver
+[W]: Unknown function 0x8d1b77fb in 'sys_net' module
+[E]: TODO: sys_net_abort_socket
+[W]: Unknown function 0x9647570b in 'sys_net' module
+[E]: TODO: sendto
+[W]: Unknown function 0x9c056962 in 'sys_net' module
+[E]: TODO: socket
+[W]: Unknown function 0xb0a59804 in 'sys_net' module
+[E]: TODO: bind
+[W]: Unknown function 0xb68d5625 in 'sys_net' module
+[E]: TODO: sys_net_finalize_network
+[W]: Unknown function 0xc94f6939 in 'sys_net' module
+[E]: TODO: accept
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0xdc751b40 in 'sys_net' module
+[E]: TODO: send
+[W]: Unknown function 0xf9ec2db6 in 'sys_net' module
+[E]: TODO: getpeername
+[W]: Unknown function 0xfba04f37 in 'sys_net' module
+[E]: TODO: recv
+[W]: Unknown function 0xfdb8f926 in 'sys_net' module
+[E]: TODO: sys_net_free_thread_context
+[W]: Unknown function 0x04459230 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlNetStartDialogLoadAsync
+[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
+[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
+[E]: TODO: cellNetCtlTerm
+[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
+[E]: TODO: cellNetCtlGetInfo
+[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlGetState
+[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
+[E]: TODO: cellNetCtlInit
+[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
+[E]: TODO: cellNetCtlAddHandler
+[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
+[E]: TODO: cellNetCtlDelHandler
+[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
+[E]: TODO: cellFsGetFreeSize
+[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad2
+[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedLoad2
+[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedSave2
+[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus
+[W]: Unknown function 0x66f5e388 in 'cellResc' module
+[E]: TODO: cellRescGetLastFlipTime
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReportDataLocation
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x01fbbc9b in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessageGui
+[W]: Unknown function 0x04372385 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntry
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x27c69eba in 'sceNp' module
+[E]: TODO: sceNpBasicAddFriend
+[W]: Unknown function 0x2ecd48ed in 'sceNp' module
+[E]: TODO: sceNpDrmVerifyUpgradeLicense
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3d1760dc in 'sceNp' module
+[E]: TODO: sceNpLookupAbortTransaction
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x4026eac5 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterContextSensitiveHandler
+[W]: Unknown function 0x5de61626 in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTitleCtx
+[W]: Unknown function 0x5e849303 in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresenceDetails2
+[W]: Unknown function 0x5f2d9257 in 'sceNp' module
+[E]: TODO: sceNpLookupInit
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x7508112e in 'sceNp' module
+[E]: TODO: sceNpLookupPollAsync
+[W]: Unknown function 0x8440537c in 'sceNp' module
+[E]: TODO: sceNpLookupTerm
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xa7bff757 in 'sceNp' module
+[E]: TODO: sceNpManagerGetStatus
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xad218faf in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbcdbb2ab in 'sceNp' module
+[E]: TODO: sceNpBasicAddPlayersHistoryAsync
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xbe07c708 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineId
+[W]: Unknown function 0xbf9eea93 in 'sceNp' module
+[E]: TODO: sceNpLookupAvatarImageAsync
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xce81c7f0 in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTitleCtx
+[W]: Unknown function 0xd12e40ae in 'sceNp' module
+[E]: TODO: sceNpLookupNpIdAsync
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xea2e9ffc in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTransactionCtx
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xf283c143 in 'sceNp' module
+[E]: TODO: sceNpDrmExecuteGamePurchase
+[W]: Unknown function 0xfb87cf5e in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTransactionCtx
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0xff0a2378 in 'sceNp' module
+[E]: TODO: sceNpLookupUserProfileAsync
+[W]: Unknown function 0x0968aa36 in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicket
+[W]: Unknown function 0x4210c462 in 'sceNp' module
+[E]: Unknown func id: 0x4210c462
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x58fa4fcd in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicketParam
+[W]: Unknown function 0x8297f1ec in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket2
+[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterHandler
+[W]: Unknown function 0xd208f91d in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpId
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xeb7a3d84 in 'sceNp' module
+[E]: TODO: sceNpManagerGetChatRestrictionFlag
+[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
+[E]: TODO: cellSpursDetachLv2EventQueue
+[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
+[E]: TODO: cellSpursRemoveWorkload
+[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
+[E]: TODO: cellSpursWaitForWorkloadShutdown
+[W]: Unknown function 0x6c960f6d in 'cellSpurs' module
+[E]: TODO: cellSpursGetSpuThreadId
+[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownWorkload
+[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
+[E]: TODO: cellSpursAttachLv2EventQueue
+[W]: Unknown function 0xc0158d8b in 'cellSpurs' module
+[E]: TODO: cellSpursAddWorkloadWithAttribute
+[W]: Unknown function 0xefeb2679 in 'cellSpurs' module
+[E]: TODO: _cellSpursWorkloadAttributeInitialize
+[W]: Unknown function 0xf843818d in 'cellSpurs' module
+[E]: TODO: cellSpursReadyCountStore
+[W]: Unknown function 0x56776c0d in 'cellKey2char' module
+[E]: TODO: cellKey2CharGetChar
+[W]: Unknown function 0xabf629c1 in 'cellKey2char' module
+[E]: TODO: cellKey2CharOpen
+[W]: Unknown function 0xbfc03768 in 'cellKey2char' module
+[E]: TODO: cellKey2CharSetMode
+[W]: Unknown module 'cellSaveData'
+[W]: Unknown module 'sceNpCommerce2'
+[W]: Unknown function 0x15ec0cca in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncClose
+[W]: Unknown function 0x3773692f in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncGetAu
+[W]: Unknown function 0x55dc23de in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncStart
+[W]: Unknown function 0x6b148570 in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncQueryAttr
+[W]: Unknown function 0x77b3b29a in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncOpen
+[W]: Unknown function 0x81fe030c in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncEncodeFrame
+[W]: Unknown function 0x9b244272 in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncWaitForOutput
+[W]: Unknown function 0xf2b85dff in 'cellCelpEnc' module
+[E]: TODO: cellCelpEncEnd
+[W]: Unknown function 0x07e1b12c in 'cellMic' module
+[E]: TODO: cellMicRead
+[W]: Unknown function 0x1b42101b in 'cellMic' module
+[E]: TODO: cellMicIsAttached
+[W]: Unknown function 0x323deb41 in 'cellMic' module
+[E]: TODO: cellMicSetSignalAttr
+[W]: Unknown function 0x8325e02d in 'cellMic' module
+[E]: TODO: cellMicInit
+[W]: Unknown function 0x8d229f8e in 'cellMic' module
+[E]: TODO: cellMicClose
+[W]: Unknown function 0xb30780eb in 'cellMic' module
+[E]: TODO: cellMicGetSignalState
+[W]: Unknown function 0xc6328caa in 'cellMic' module
+[E]: TODO: cellMicEnd
+[W]: Unknown function 0xdd1b59f0 in 'cellMic' module
+[E]: TODO: cellMicOpen
+[W]: Unknown function 0xdd724314 in 'cellMic' module
+[E]: TODO: cellMicStart
+[W]: Unknown function 0x1529e506 in 'cellAdec' module
+[E]: TODO: cellAdecDecodeAu
+[W]: Unknown function 0x487b613e in 'cellAdec' module
+[E]: TODO: cellAdecStartSeq
+[W]: Unknown function 0x7e4a4a49 in 'cellAdec' module
+[E]: TODO: cellAdecQueryAttr
+[W]: Unknown function 0x847d2380 in 'cellAdec' module
+[E]: TODO: cellAdecClose
+[W]: Unknown function 0x97ff2af1 in 'cellAdec' module
+[E]: TODO: cellAdecGetPcm
+[W]: Unknown function 0xbd75f78b in 'cellAdec' module
+[E]: TODO: cellAdecGetPcmItem
+[W]: Unknown function 0xd00a6988 in 'cellAdec' module
+[E]: TODO: cellAdecOpen
+[W]: Unknown function 0xe2ea549b in 'cellAdec' module
+[E]: TODO: cellAdecEndSeq
+[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module
+[W]: Unknown function 0x409ad939 in 'sysPrxForUser' module
+[E]: TODO: sys_mmapper_free_memory
+[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
+[E]: TODO: sys_mmapper_unmap_memory
+[W]: Unknown function 0x74311398 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_my_module_id
+[W]: Unknown function 0x80fb0c19 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_stop_module
+[W]: Unknown function 0x84bb6774 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_module_info
+[W]: Unknown function 0x9f18429d in 'sysPrxForUser' module
+[E]: TODO: sys_prx_start_module
+[W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_finalize
+[W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
+[E]: TODO: sys_prx_unload_module
+[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x0045e480]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x006af028]]: sys_fs warning: cellFsStat: "/app_home/" not found.
+[W : PPU[1] Thread (CPUThread)[0x002a41f0]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[W : PPU[1] Thread (CPUThread)[0x006af028]]: sys_fs warning: cellFsStat: "/app_home/" not found.
+[W : PPU[1] Thread (CPUThread)[0x002a41f0]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[W : PPU[1] Thread (CPUThread)[0x006af028]]: sys_fs warning: cellFsStat: "/app_home/" not found.
+[W : PPU[1] Thread (CPUThread)[0x002a41f0]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[W : PPU[1] Thread (CPUThread)[0x006af028]]: sys_fs warning: cellFsStat: "/app_home/" not found.
+[W : PPU[1] Thread (CPUThread)[0x002a41f0]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[W : PPU[1] Thread (CPUThread)[0x006af028]]: sys_fs warning: cellFsStat: "/app_home/" not found.
+[W : PPU[1] Thread (CPUThread)[0x002a41f0]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[W : PPU[1] Thread (CPUThread)[0x006af028]]: sys_fs warning: cellFsStat: "/app_home/" not found.
+[W : PPU[1] Thread (CPUThread)[0x002a41f0]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[! : PPU[1] Thread (CPUThread)[0x002a41f4]]: PPU[1] Thread (CPUThread) leave
+[!]: Closing memory...
