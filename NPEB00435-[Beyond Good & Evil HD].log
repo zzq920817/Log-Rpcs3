@@ -1,14 +1,14 @@
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00435\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00435\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00435\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00435\\..\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00435\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1051d134 in 'cellSpurs' module
@@ -239,12 +239,12 @@
 [W : PPU[44] Thread (bge_read_key_edata)[0x0203601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd002fca4, attributes_addr=0xd002fca0, size_addr=0xd002fca8, dirName_addr=0xd002fcb8)
 [W : PPU[44] Thread (bge_read_key_edata)[0x02036004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00300d8, usrdirPath_addr=0xd002fcd8)
 [W : PPU[44] Thread (bge_read_key_edata)[0x00c8c028]]: sys_fs warning: cellFsStat: "/app_home/KEYFILE.edat" not found.
-[W : PPU[44] Thread (bge_read_key_edata)[0x0203e0a0]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=-2147418106)
 [E : PPU[1] Thread (CPUThread)[0x0202e064]]: TODO: sceNpTerm
+[W : PPU[44] Thread (bge_read_key_edata)[0x0203e0a0]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=-2147418106)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)
 [! : PPU[44] Thread (bge_read_key_edata)[0x0203e0a4]]: PPU[44] Thread (bge_read_key_edata) leave
+[W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)
 [E : PPU[1] Thread (CPUThread)[0x00c88010]]: TODO: _cellSpursAttributeInitialize
 [W : PPU[1] Thread (CPUThread)[0x0203e094]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x1fe4244, entry=0xcb4008)
 [! : PPU[45] Thread (CPUThread)[0x00badbb4]]: PPU[45] Thread (CPUThread) enter
