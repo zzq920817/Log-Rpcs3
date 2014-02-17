@@ -1,14 +1,14 @@
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\\..\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'libgem'
@@ -319,6 +319,6 @@
 [W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
 [W : PPU[1] Thread (CPUThread)[0x0056b190]]: Process warning: sys_process_exit(1)
 [S : PPU[1] Thread (CPUThread)[0x0056b190]]: Process finished
-[! : PPU[1] Thread (CPUThread)[0x0056b194]]: PPU[1] Thread (CPUThread) leave
 [! : RSXThread]: RSX thread exit...
+[! : PPU[1] Thread (CPUThread)[0x0056b194]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

@@ -1,14 +1,14 @@
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\\..\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0247c69e in 'cellSail' module
@@ -158,7 +158,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00053b00]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ec7c, attr_addr=0xd001f9c8, initial_count=0, max_count=1)
 [! : PPU[32] Thread (SysCacheInit)[0x00101df8]]: PPU[32] Thread (SysCacheInit) enter
 [W : PPU[32] Thread (SysCacheInit)[0x001f8028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897\')
-[! : PPU[32] Thread (SysCacheInit)[0x001f8028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1
 [! : PPU[32] Thread (SysCacheInit)[0x001f8028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache
 [! : PPU[32] Thread (SysCacheInit)[0x001f8028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897
 [W : PPU[1] Thread (CPUThread)[0x00059b90]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10258, attr_addr=0xd001f9c0, initial_count=1, max_count=1)

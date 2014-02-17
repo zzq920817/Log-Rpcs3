@@ -1,14 +1,14 @@
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01120-[SPLATTERHOUSE]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01120-[SPLATTERHOUSE]\PS3_GAME\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01120-[SPLATTERHOUSE]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01120-[SPLATTERHOUSE]\PS3_GAME\\..\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01120-[SPLATTERHOUSE]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x6d3bb15b in 'sys_fs' module
@@ -301,13 +301,13 @@
 [! : PPU[338] Thread (3014d990)[0x0057477c]]: PPU[338] Thread (3014d990) enter
 [W : PPU[1] Thread (CPUThread)[0x0057467c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=338, prio=768)
 [W : PPU[1] Thread (CPUThread)[0x00573ad0]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0xd0020760, attr_addr=0xd0020768)
+[W : PPU[334] Thread (3014d910)[0x00df50b0]]: sys_event warning: sys_event_queue_receive(equeue_id=330, event_addr=0xd0030b80, timeout=0)
 [! : PPU[341] Thread (3014da10)[0x0057477c]]: PPU[341] Thread (3014da10) enter
 [W : PPU[1] Thread (CPUThread)[0x0057467c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=341, prio=768)
-[W : PPU[334] Thread (3014d910)[0x00df50b0]]: sys_event warning: sys_event_queue_receive(equeue_id=330, event_addr=0xd0030b80, timeout=0)
-[W : PPU[341] Thread (3014da10)[0x008ff1c0]]: sys_event warning: sys_event_queue_receive(equeue_id=335, event_addr=0xd0050c60, timeout=0)
 [W : PPU[338] Thread (3014d990)[0x008ff1c0]]: sys_event warning: sys_event_queue_receive(equeue_id=335, event_addr=0xd0040c60, timeout=0)
+[W : PPU[341] Thread (3014da10)[0x008ff1c0]]: sys_event warning: sys_event_queue_receive(equeue_id=335, event_addr=0xd0050c60, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0062f35c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301ae86c, attr_addr=0xd0020850, initial_count=0, max_count=1)
-[E : PPU[1] Thread (CPUThread)[0x00c8b08c]]: sys_fs error: "/USRDIR/cmdline.txt" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00c8b08c]]: sys_fs error: "/app_home/USRDIR/cmdline.txt" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x0010767c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x0129d010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x0129d004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
@@ -348,10 +348,10 @@
 [W : PPU[1] Thread (CPUThread)[0x01649160]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x30114170, lwmutex_addr=0x30411140, attr_addr=0xd0020470)
 [E : PPU[1] Thread (CPUThread)[0x00570e30]]: Read32 from null block: [901f1048]
 [W : PPU[338] Thread (3014d990)[0x008ff1c0]]: sys_event_queue_receive(equeue=335) aborted
+[W : PPU[341] Thread (3014da10)[0x008ff1c0]]: sys_event_queue_receive(equeue=335) aborted
 [W : PPU[334] Thread (3014d910)[0x00df50b0]]: sys_event_queue_receive(equeue=330) aborted
 [! : PPU[1] Thread (CPUThread)[0x00570e34]]: PPU[1] Thread (CPUThread) leave
-[W : PPU[341] Thread (3014da10)[0x008ff1c0]]: sys_event_queue_receive(equeue=335) aborted
 [! : PPU[338] Thread (3014d990)[0x008ff1c4]]: PPU[338] Thread (3014d990) leave
-[! : PPU[334] Thread (3014d910)[0x00df50b4]]: PPU[334] Thread (3014d910) leave
 [! : PPU[341] Thread (3014da10)[0x008ff1c4]]: PPU[341] Thread (3014da10) leave
+[! : PPU[334] Thread (3014d910)[0x00df50b4]]: PPU[334] Thread (3014d910) leave
 [!]: Closing memory...

@@ -1,14 +1,14 @@
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01738-[Persona 4 ARENA]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01738-[Persona 4 ARENA]\PS3_GAME\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01738-[Persona 4 ARENA]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01738-[Persona 4 ARENA]\PS3_GAME\\..\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01738-[Persona 4 ARENA]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
@@ -351,7 +351,6 @@
 [W : PPU[1] Thread (CPUThread)[0x009775c4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
 [W : PPU[1] Thread (CPUThread)[0x00b36010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x00b3801c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01738\')
-[! : PPU[1] Thread (CPUThread)[0x00b3801c]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01738
 [E : PPU[1] Thread (CPUThread)[0x00b3e0dc]]: TODO: cellSpursInitialize
 [W : PPU[1] Thread (CPUThread)[0x00b380ac]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xb68078, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00b38058]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
@@ -392,5 +391,5 @@
 [W : PPU[1] Thread (CPUThread)[0x0177c088]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0000000, vertexArray_addr=0xcf8ffe80, fragmentShader_addr=0xcf8ffb80)
 [E : PPU[1] Thread (CPUThread)[0x0177c088]]: Exception: GetMemFromAddr(0x0)
 [! : PPU[1] Thread (CPUThread)[0x0177c088]]: PPU[1] Thread (CPUThread) leave
-[! : PPU[18] Thread (MultiStream PU Thread)[0x009c81a0]]: PPU[18] Thread (MultiStream PU Thread) leave
+[! : PPU[18] Thread (MultiStream PU Thread)[0x009c8188]]: PPU[18] Thread (MultiStream PU Thread) leave
 [! : RSXThread]: RSX thread exit...

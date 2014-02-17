@@ -1,14 +1,14 @@
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]\PS3_GAME\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]\PS3_GAME\\..\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /host_root/ -> 
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x139a9e9b in 'sys_net' module
@@ -391,6 +391,7 @@
 [W : PPU[1] Thread (CPUThread)[0x014ab010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x014ab010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x014ab010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_USERINFO)
+[W : PPU[1] Thread (CPUThread)[0x014a9058]]: sys_fs warning: cellFsStat: "/app_home/USRDIR/.communicator" not found.
 [W : PPU[1] Thread (CPUThread)[0x008f7e20]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020bd8)
 [W : PPU[1] Thread (CPUThread)[0x008f7e84]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020bd0)
 [W : PPU[1] Thread (CPUThread)[0x014c716c]]: memory warning: sys_mmapper_allocate_memory(size=0xa500000, flags=0x400, mem_id_addr=0x13d6400)
@@ -635,5 +636,5 @@
 [! : PPU[1] Thread (CPUThread)[0x00000000]]: CTR = 0x0
 [! : PPU[1] Thread (CPUThread)[0x00000000]]: XER = 0x2000000000000000 [CA=1 | OV=0 | SO=0]
 [! : PPU[1] Thread (CPUThread)[0x00000000]]: FPSCR = 0x82009000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=9 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
-[! : RSXThread]: RSX thread exit...
 [! : PPU[1] Thread (CPUThread)[0x00000004]]: PPU[1] Thread (CPUThread) leave
+[! : RSXThread]: RSX thread exit...
