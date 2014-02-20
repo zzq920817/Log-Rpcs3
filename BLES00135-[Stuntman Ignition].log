@@ -215,6 +215,37 @@
 [W]: Unknown function 0xca9a60bf in 'sysPrxForUser' module
 [E]: TODO: sys_mempool_create
 [! : PPU[1] Thread (CPUThread)[0x00012dcc]]: PPU[1] Thread (CPUThread) enter
-[E : PPU[1] Thread (CPUThread)[0x007da0a0]]: Read32 from null block: [00000004]
-[! : PPU[1] Thread (CPUThread)[0x007da0a4]]: PPU[1] Thread (CPUThread) leave
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x006f2280]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 25
+[W : PPU[1] Thread (CPUThread)[0x004b0e18]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1083bc04, attr_addr=0xd0020b50, event_queue_key=0x0, size=50)
+[W : PPU[1] Thread (CPUThread)[0x004b0e18]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 26
+[W : PPU[1] Thread (CPUThread)[0x004b0e30]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1083bc00, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x004b0e30]]: sys_event warning: *** sys_event_port created: id = 27
+[W : PPU[1] Thread (CPUThread)[0x004b0e40]]: sys_event warning: sys_event_port_connect_local(eport_id=27, equeue_id=26)
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
+[! : PPU[1] Thread (CPUThread)[0x003a0274]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

@@ -230,23 +230,41 @@
 [W]: Unknown function 0xfacb3ced in 'cellSpursJq' module
 [E]: TODO: cellSpursJobQueuePort2Sync
 [! : PPU[1] Thread (CPUThread)[0x00291330]]: PPU[1] Thread (CPUThread) enter
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x161f6f0, lwmutex_addr=0x161f6d8, attr_addr=0xd0020ab0)
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (attr=0x22, lwmutex.sq=0x10): id = 17
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x161f718, lwmutex_addr=0x161f700, attr_addr=0xd0020ab0)
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (attr=0x22, lwmutex.sq=0x12): id = 19
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x161f740, lwmutex_addr=0x161f728, attr_addr=0xd0020ab0)
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (attr=0x22, lwmutex.sq=0x14): id = 21
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x161f6d8): id = 17
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x161f700): id = 19
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x161f728): id = 21
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 22
 [W : PPU[1] Thread (CPUThread)[0x0117d0b8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x1234840, userdata=0x161f698)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: cellGcmInit(context_addr=0x161f2c8,cmdSize=0xc0000,ioSize=0x100000,ioAddress=0x32100000)
 [W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32100000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xfc557d80)
+[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xc9c29680)
 [W : PPU[1] Thread (CPUThread)[0x0117d0f4]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209c0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01981058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -261,17 +279,63 @@
 [W : PPU[1] Thread (CPUThread)[0x0117d124]]: cellSysutil warning: cellAudioOutGetConfiguration(audioOut=0, config_addr=0xd0020950, option_addr=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0117d124]]: cellSysutil warning: cellAudioOutGetConfiguration(audioOut=0, config_addr=0xd00209d0, option_addr=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01987010]]: cellAudio warning: cellAudioInit()
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x18338a0, lwmutex_addr=0x1833888, attr_addr=0xd0020920)
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (attr=0x22, lwmutex.sq=0x24): id = 37
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 34
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 36
+[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x1833888): id = 37
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 40
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 43
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 44
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 46
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 47
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 48
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 52
 [W : PPU[1] Thread (CPUThread)[0x0117b01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FS)
 [! : PPU[53] Thread (Em File Thread)[0x002f6ab4]]: PPU[53] Thread (Em File Thread) enter
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 54
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 55
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 56
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 58
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 60
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 61
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 63
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 66
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 71
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 73
 [W : PPU[1] Thread (CPUThread)[0x0117d058]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x300f1318, lwmutex_addr=0x300f1300, attr_addr=0xd0020550)
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (attr=0x22, lwmutex.sq=0x4c): id = 77
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 75
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 76
+[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x300f1300): id = 77
 [W : PPU[1] Thread (CPUThread)[0x0117b01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [! : PPU[1] Thread (CPUThread)[0x0043707c]]: PPU[1] Thread (CPUThread) leave
 [! : RSXThread]: RSX thread exit...
-[W : PPU[53] Thread (Em File Thread)[0x0199d034]]: sys_lwcond_wait(sq id=37, ...) aborted
+[W : PPU[53] Thread (Em File Thread)[0x0199d034]]: sys_lwcond_wait(sq=37) aborted
 [! : PPU[53] Thread (Em File Thread)[0x0199d038]]: PPU[53] Thread (Em File Thread) leave
 [!]: Closing memory...
