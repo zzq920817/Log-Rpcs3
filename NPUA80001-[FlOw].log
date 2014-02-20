@@ -99,6 +99,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: cellGcmInit(context_addr=0xd212f4,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x30100000)
 [W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[! : RSXThread]: RSX thread entry
 [E : PPU[1] Thread (CPUThread)[0x00b3a07c]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x00b3a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x00b3a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=0)
@@ -108,7 +109,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00b3a064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x00b3a064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x00b3a058]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0xc00000,offset_addr=0xd0020a90)
-[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL)
 [W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)

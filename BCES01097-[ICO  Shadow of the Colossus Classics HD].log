@@ -9,7 +9,6 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01097-[ICO  Shadow of the Colossus Classics HD]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01097-[ICO  Shadow of the Colossus Classics HD]\PS3_GAME\
-[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01097-[ICO  Shadow of the Colossus Classics HD]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
@@ -34,22 +33,6 @@
 [E]: TODO: cellFsFsync
 [W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
 [E]: TODO: cellFsGetFreeSize
-[W]: Unknown function 0x0053e2d8 in 'libvdec' module
-[E]: TODO: cellVdecOpenEx
-[W]: Unknown function 0x16698e83 in 'libvdec' module
-[E]: TODO: cellVdecClose
-[W]: Unknown function 0x17c702b9 in 'libvdec' module
-[E]: TODO: cellVdecGetPicItem
-[W]: Unknown function 0x2bf4ddd2 in 'libvdec' module
-[E]: TODO: cellVdecDecodeAu
-[W]: Unknown function 0x807c861a in 'libvdec' module
-[E]: TODO: cellVdecGetPicture
-[W]: Unknown function 0x824433f0 in 'libvdec' module
-[E]: TODO: cellVdecEndSeq
-[W]: Unknown function 0xc757c2aa in 'libvdec' module
-[E]: TODO: cellVdecStartSeq
-[W]: Unknown function 0xc982a84a in 'libvdec' module
-[E]: TODO: cellVdecQueryAttrEx
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
@@ -153,7 +136,7 @@
 [W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 [W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 [W : PPU[1] Thread (CPUThread)[0x000427a8]]: sys_spu warning: sys_raw_spu_create(id_addr=0xc707e4, attr_addr=0xd0020a10)
-[! : RawSPU[26] Thread (CPUThread)[0x500000000]]: RawSPU[26] Thread (CPUThread) enter
+[! : RawSPU[26] Thread (CPUThread)[0x00000000]]: RawSPU[26] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x00042b58]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
 [W : PPU[1] Thread (CPUThread)[0x00042b58]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
 [W : PPU[1] Thread (CPUThread)[0x00042e54]]: RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
@@ -247,7 +230,6 @@
 [E : PPU[1] Thread (CPUThread)[0x00ccc01c]]: sys_fs error: "/dev_flash/sys/external/flashATRAC.pic" not found! flags: 0x00000000
 [! : PPU[31] Thread (MultiStream PU Thread)[0x0001114c]]: PPU[31] Thread (MultiStream PU Thread) enter
 [W : PPU[31] Thread (MultiStream PU Thread)[0x00cce028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[! : AudioPort0]: Port started
 [W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80000)
 [W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120001)
 [W : RawSPU[26] Thread (CPUThread)[0x00000294]]: SPUThread::ReadChannel: 0x80000 = $SPU_RdInMbox
@@ -255,18 +237,17 @@
 [W : RawSPU[26] Thread (CPUThread)[0x000005c0]]: SPUThread::WriteChannel: $SPU_WrOutMbox = 0xdeadbeef
 [W : PPU[1] Thread (CPUThread)[0x0003be74]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
 [W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80002)
-[W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
 [W : RawSPU[26] Thread (CPUThread)[0x00000294]]: SPUThread::ReadChannel: 0x80002 = $SPU_RdInMbox
+[W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
 [W : RawSPU[26] Thread (CPUThread)[0x00000294]]: SPUThread::ReadChannel: 0x120003 = $SPU_RdInMbox
 [W : RawSPU[26] Thread (CPUThread)[0x000005c0]]: SPUThread::WriteChannel: $SPU_WrOutMbox = 0xdeadbeef
 [W : PPU[1] Thread (CPUThread)[0x0003be74]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[! : AudioPort0]: Port started
 [W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x00cd601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd00208e0, attributes_addr=0xd00208e4, size_addr=0xd00208f4, dirName_addr=0xd0020900)
 [W : PPU[1] Thread (CPUThread)[0x00cd6004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020900, bufsize=10)
 [W : PPU[1] Thread (CPUThread)[0x00cd6010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020900, usrdirPath_addr=0xd0020980)
 [W : PPU[1] Thread (CPUThread)[0x001b9004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[E : PPU[31] Thread (MultiStream PU Thread)[0x00cd20e8]]: TODO: _cellSpursSendSignal
-[E : PPU[31] Thread (MultiStream PU Thread)[0x00cd201c]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x00cd8058]]: sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 32
@@ -274,9 +255,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00cd80f4]]: sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x80bc0640): id = 33
 [W : PPU[1] Thread (CPUThread)[0x00cd8058]]: sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 34
 [E : PPU[1] Thread (CPUThread)[0x00107638]]: Read32 from null block: [b0bc0648]
-[! : RSXThread]: RSX thread exit...
 [W : AudioPort0]: Port aborted
+[! : RawSPU[26] Thread (CPUThread)[0x0000026c]]: RawSPU[26] Thread (CPUThread) leave
+[! : PPU[31] Thread (MultiStream PU Thread)[0x00116438]]: PPU[31] Thread (MultiStream PU Thread) leave
 [! : PPU[1] Thread (CPUThread)[0x0010763c]]: PPU[1] Thread (CPUThread) leave
-[! : RawSPU[26] Thread (CPUThread)[0x00000260]]: RawSPU[26] Thread (CPUThread) leave
-[! : PPU[31] Thread (MultiStream PU Thread)[0x00116474]]: PPU[31] Thread (MultiStream PU Thread) leave
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

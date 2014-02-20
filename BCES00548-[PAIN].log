@@ -9,7 +9,6 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\
-[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
@@ -476,7 +475,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x300000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00b7d1cc]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x348a7b80)
+[W : PPU[1] Thread (CPUThread)[0x00b7d1cc]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xaeff6b80)
 [W : PPU[1] Thread (CPUThread)[0x00b7d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00206cc, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00b7704c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00b77058]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
@@ -501,6 +500,6 @@
 [E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
 [E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
-[! : PPU[1] Thread (CPUThread)[0x004f49f0]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[1] Thread (CPUThread)[0x004f49e8]]: PPU[1] Thread (CPUThread) leave
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

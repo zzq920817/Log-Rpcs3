@@ -264,7 +264,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xc9c29680)
+[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xe2d17580)
 [W : PPU[1] Thread (CPUThread)[0x0117d0f4]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209c0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01981058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -334,7 +334,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x300f1300): id = 77
 [W : PPU[1] Thread (CPUThread)[0x0117b01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[! : PPU[1] Thread (CPUThread)[0x0043707c]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[1] Thread (CPUThread)[0x00437078]]: PPU[1] Thread (CPUThread) leave
 [! : RSXThread]: RSX thread exit...
 [W : PPU[53] Thread (Em File Thread)[0x0199d034]]: sys_lwcond_wait(sq=37) aborted
 [! : PPU[53] Thread (Em File Thread)[0x0199d038]]: PPU[53] Thread (Em File Thread) leave

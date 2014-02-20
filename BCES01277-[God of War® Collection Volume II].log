@@ -9,7 +9,6 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\
-[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'cellSysutilAvconfExt'
@@ -219,7 +218,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=24)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041"): fd = 25
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=25)
-[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x9c987b80)
+[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x5bef6780)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f97004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020954, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -358,6 +357,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
 [E : PPU[1] Thread (CPUThread)[0x00f95034]]: sys_fs error: "/app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/config/SurroundReverb.ini" not found! flags: 0x00000000
 [! : PPU[56] Thread (AsyncLoad)[0x0001f228]]: PPU[56] Thread (AsyncLoad) leave
-[! : PPU[1] Thread (CPUThread)[0x002e4180]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[1] Thread (CPUThread)[0x002e417c]]: PPU[1] Thread (CPUThread) leave
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
