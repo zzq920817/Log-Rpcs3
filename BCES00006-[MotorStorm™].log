@@ -9,6 +9,7 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\
+[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
@@ -282,6 +283,15 @@
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
 [! : PPU[1] Thread (CPUThread)[0x00013f70]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
 [W : PPU[1] Thread (CPUThread)[0x00f5301c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x00f53010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x00f5301c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_GCM_SYS)
@@ -311,7 +321,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f5301c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_MIC)
 [W : PPU[1] Thread (CPUThread)[0x00f53010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_MIC)
 [W : PPU[1] Thread (CPUThread)[0x006f6218]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x00d188d8]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0x102c6a10, attr_addr=0xd0020900)
+[W : PPU[1] Thread (CPUThread)[0x00d188d8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 12
 [W : PPU[1] Thread (CPUThread)[0x00f53010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [E : PPU[1] Thread (CPUThread)[0x00ede0d0]]: TODO: cellSpursInitialize
 [E : PPU[1] Thread (CPUThread)[0x00ede04c]]: TODO: cellSpursGetInfo
@@ -340,128 +350,41 @@
 [E : PPU[1] Thread (CPUThread)[0x00ede0f4]]: TODO: cellSpursSetExceptionEventHandler
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x2dc08880)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xedb77480)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)
-[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=0,fs=4,option=0)
-[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=1,fs=4,option=0)
+[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020870)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd0020884)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0b8]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020860, option_addr=0xd0020850, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0b8]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020860, option_addr=0xd0020850, (!)waitForEvent=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0x101deffc)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x2dc09180)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xedb79580)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)
-[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=0,fs=4,option=0)
-[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=1,fs=4,option=0)
+[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x00f3d10c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0x101deffc)
-[E : PPU[1] Thread (CPUThread)[0x1026e264]]: Unknown/Illegal opcode! (0x1026e25c : 0x4 : 0x25c) #pc: 0x1026e264
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r0 = 0x1026e264
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r1 = 0xd0020920
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r2 = 0x1026e264
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r3 = 0x3025c440
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r4 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r5 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r6 = 0x1
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r7 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r8 = 0x1026e418
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r9 = 0x1026e274
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r10 = 0x1026e410
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r11 = 0x1026e26c
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r12 = 0xf58008
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r13 = 0x30007060
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r14 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r15 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r16 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r17 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r18 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r19 = 0x100e0300
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r20 = 0x1013a4f0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r21 = 0x102c79f4
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r22 = 0x102c7a58
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r23 = 0x100e02ac
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r24 = 0x302502e0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r25 = 0x100e02c0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r26 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r27 = 0x1
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r28 = 0x102c78a4
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r29 = 0x3025c440
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r30 = 0x30254360
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: r31 = 0x3025c440
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f0 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f1 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f2 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f3 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f4 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f5 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f6 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f7 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f8 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f9 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f10 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f11 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f12 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f13 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f14 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f15 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f16 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f17 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f18 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f19 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f20 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f21 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f22 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f23 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f24 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f25 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f26 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f27 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f28 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f29 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f30 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: f31 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: CR = 0x28000044
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: LR = 0x12903c
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: CTR = 0x1026e264
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
-[! : PPU[1] Thread (CPUThread)[0x1026e264]]: FPSCR = 0x4000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
-[! : PPU[1] Thread (CPUThread)[0x1026e268]]: PPU[1] Thread (CPUThread) leave
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x00f59034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x007012ac]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 25
+[W : PPU[1] Thread (CPUThread)[0x006fd618]]: memory warning: sys_memory_container_create(cid_addr=0x101df030, yield_size=0xa00000)
+[W : PPU[1] Thread (CPUThread)[0x006fd618]]: memory warning: *** memory_container created(addr=0x30400000): id = 26
+[! : PPU[1] Thread (CPUThread)[0x00b9fbf0]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

@@ -9,6 +9,7 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]\PS3_GAME\
+[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
@@ -270,7 +271,21 @@
 [W]: Unknown function 0xfa160f24 in 'cellCamera' module
 [E]: TODO: cellCameraIsOpen
 [! : PPU[1] Thread (CPUThread)[0x003ee0d8]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [PuMallo] (attribute=0x22): sq_id = 3
 [E : PPU[1] Thread (CPUThread)[0x00084168]]: Unknown syscall: 631 - 00000277
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
 [W : PPU[1] Thread (CPUThread)[0x018a60c4]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x780f88, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0076e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
 [W : PPU[1] Thread (CPUThread)[0x0076e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FIBER)
@@ -302,6 +317,7 @@
 [E : PPU[1] Thread (CPUThread)[0x0076a0e8]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0076a13c]]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x0076a220]]: TODO: cellSpursGetNumSpuThread
+[W : PPU[1] Thread (CPUThread)[0x00768034]]: sys_lwmutex warning: *** lwmutex created [SxMem] (attribute=0x22): sq_id = 17
 [W : PPU[1] Thread (CPUThread)[0x003eef64]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3045f96c, attr_addr=0xd0020990, initial_count=1, max_count=2)
 [W : PPU[1] Thread (CPUThread)[0x018aa010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x781318)
 [! : PPU[1] Thread (CPUThread)[0x004978d8]]: PPU[1] Thread (CPUThread) leave

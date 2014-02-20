@@ -9,6 +9,7 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00129-[MOTORSTORM_ PACIFIC RIFT]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00129-[MOTORSTORM_ PACIFIC RIFT]\PS3_GAME\
+[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00129-[MOTORSTORM_ PACIFIC RIFT]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
@@ -444,7 +445,19 @@
 [W]: Unknown function 0xbfc03768 in 'cellKey2char' module
 [E]: TODO: cellKey2CharSetMode
 [! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x00704ae0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x0147101c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x01471010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x0147101c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_GCM_SYS)
@@ -476,28 +489,28 @@
 [W : PPU[1] Thread (CPUThread)[0x0147101c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x01471010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x004367e4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x00728c6c]]: sys_mutex warning: sys_mutex_create(mutex_id_addr=0x1366a8c, attr_addr=0xd0020950)
+[W : PPU[1] Thread (CPUThread)[0x00728c6c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 15
 [W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0102a0dc]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x12aaaa8)
 [W : PPU[1] Thread (CPUThread)[0x0102a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x0102a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x0102a124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x8d9c9680)
-[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=0,fs=4,option=0)
-[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=1,fs=4,option=0)
-[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=6,fs=4,option=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x577b6d80)
+[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x0102a148]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0102a154]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00208b4)
 [E : PPU[1] Thread (CPUThread)[0x0102a10c]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00208c8)
-[W : PPU[1] Thread (CPUThread)[0x0102a0e8]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd00208a4, option_addr=0xd0020890, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0102a0e8]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd00208a4, option_addr=0xd0020890, (!)waitForEvent=0)
 [W : PPU[1] Thread (CPUThread)[0x0102a154]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0x12aac7c)
 [W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0102a0dc]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x12aaaa8)
 [W : PPU[1] Thread (CPUThread)[0x0102a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x0102a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x0102a124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x8d9c6a80)
-[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=0,fs=4,option=0)
-[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=1,fs=4,option=0)
-[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0,type=6,fs=4,option=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x577b9780)
+[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a130]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x0102a148]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0102a154]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0x12aac7c)
 [E : PPU[1] Thread (CPUThread)[0x0147913c]]: TODO: cellSpursAttributeSetSpuThreadGroupType
@@ -513,6 +526,23 @@
 [E : PPU[1] Thread (CPUThread)[0x014770c4]]: TODO: sys_spinlock_initialize
 [E : PPU[1] Thread (CPUThread)[0x014770dc]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x01477094]]: TODO: sys_spinlock_unlock
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x0147704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
 [W : PPU[1] Thread (CPUThread)[0x006f67c4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x006f67c4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x006fe880]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
@@ -533,6 +563,7 @@
 [E : PPU[1] Thread (CPUThread)[0x014770dc]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x01477094]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x0102c034]]: cellGame warning: cellGameBootCheck(type_addr=0xd00209e4, attributes_addr=0xd00209e0, size_addr=0xd0020a1c, dirName_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01477124]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x1234850)
 [E : PPU[1] Thread (CPUThread)[0x01479088]]: TODO: cellSpursGetWorkloadInfo
 [E : PPU[1] Thread (CPUThread)[0x01479088]]: TODO: cellSpursGetWorkloadInfo
 [E : PPU[1] Thread (CPUThread)[0x01479118]]: TODO: cellSpursShutdownWorkload

@@ -9,6 +9,7 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\
+[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0247c69e in 'cellSail' module
@@ -147,7 +148,27 @@
 [E]: TODO: _sys_heap_delete_heap
 [! : PPU[1] Thread (CPUThread)[0x0005306c]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0005b788]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x165ee8, attr_addr=0xd0020cd0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 [E : PPU[1] Thread (CPUThread)[0x0020a0c4]]: TODO: sys_spinlock_initialize
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
 [W : PPU[1] Thread (CPUThread)[0x0005f30c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ff0c, attr_addr=0xd0020be0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00059350]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ed10, attr_addr=0xd0020bb0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00059398]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ed24, attr_addr=0xd0020b90, initial_count=1, max_count=1)
@@ -158,10 +179,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00053b00]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ec7c, attr_addr=0xd001f9c8, initial_count=0, max_count=1)
 [! : PPU[32] Thread (SysCacheInit)[0x00101df8]]: PPU[32] Thread (SysCacheInit) enter
 [W : PPU[32] Thread (SysCacheInit)[0x001f8028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897\')
-[! : PPU[32] Thread (SysCacheInit)[0x001f8028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache
-[! : PPU[32] Thread (SysCacheInit)[0x001f8028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897
 [W : PPU[1] Thread (CPUThread)[0x00059b90]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10258, attr_addr=0xd001f9c0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00055e18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e102b0, attr_addr=0xd001f9d0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [GsVramM] (attribute=0x22): sq_id = 35
 [W : PPU[1] Thread (CPUThread)[0x001f8094]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x161800, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0005bbfc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fae0)
 [E : PPU[1] Thread (CPUThread)[0x001fc040]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/KHLauncher/Launcher.mself" has unknown flags! flags: 0x00001000

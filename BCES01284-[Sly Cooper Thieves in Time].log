@@ -9,6 +9,7 @@
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]\PS3_GAME\\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]\PS3_GAME\
+[!]: /PS3_GAME/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -251,7 +252,17 @@
 [W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_by_fd
 [! : PPU[1] Thread (CPUThread)[0x004fc7b4]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x0072a7ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 [W : PPU[1] Thread (CPUThread)[0x0071c244]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0071c244]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x00722fa8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
@@ -264,7 +275,16 @@
 [W : PPU[1] Thread (CPUThread)[0x0071c1f0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0071dcb4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0071dcb4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
 [W : PPU[1] Thread (CPUThread)[0x0056c34c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020880)
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 21
 [W : PPU[1] Thread (CPUThread)[0x00f0b0b8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xf39e68, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0056d9d4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b50)
 [W : PPU[1] Thread (CPUThread)[0x0056da3c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
@@ -291,6 +311,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0056dc00]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020ae8)
 [W : PPU[1] Thread (CPUThread)[0x012160e8]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x11dd654, entry=0xf486e0)
 [! : PPU[22] Thread (CPUThread)[0x00726588]]: PPU[22] Thread (CPUThread) enter
+[W : PPU[22] Thread (CPUThread)[0x01216058]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 23
 [! : PPU[22] Thread (CPUThread)[0x0121800c]]: PPU[22] Thread (CPUThread) leave
 [! : PPU[1] Thread (CPUThread)[0x012160ec]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...
