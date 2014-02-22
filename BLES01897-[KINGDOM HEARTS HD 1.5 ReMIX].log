@@ -178,7 +178,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00053b00]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ec7c, attr_addr=0xd001f9c8, initial_count=0, max_count=1)
 [! : PPU[32] Thread (SysCacheInit)[0x00101df8]]: PPU[32] Thread (SysCacheInit) enter
 [W : PPU[32] Thread (SysCacheInit)[0x001f8028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897\')
-[! : PPU[32] Thread (SysCacheInit)[0x001f8028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897
 [W : PPU[1] Thread (CPUThread)[0x00059b90]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10258, attr_addr=0xd001f9c0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00055e18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e102b0, attr_addr=0xd001f9d0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [GsVramM] (attribute=0x22): sq_id = 35
@@ -225,5 +224,5 @@
 [W : PPU[1] Thread (CPUThread)[0x0015d094]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1447928)
 [! : PPU[2] Thread (Callback)[0x0005f2a0]]: PPU[2] Thread (Callback) enter
 [! : PPU[2] Thread (Callback)[0x0020c00c]]: PPU[2] Thread (Callback) leave
-[! : RSXThread]: RSX thread exit...
 [! : PPU[1] Thread (CPUThread)[0x001f805c]]: PPU[1] Thread (CPUThread) leave
+[! : RSXThread]: RSX thread exit...

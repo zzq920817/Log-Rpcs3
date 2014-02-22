@@ -115,7 +115,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/mapse.files"): fd = 34
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/cxs.files"): fd = 35
 [W : PPU[1] Thread (CPUThread)[0x00506058]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x5e405650)
+[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xb6734f80)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmInit(context_addr=0x9ea77c,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3bb30000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3bb30000, io=0x0, size=0x400000)
@@ -150,8 +150,8 @@
 [E : PPU[1] Thread (CPUThread)[0x00a31070]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x0030acd4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x9caba8, attr_addr=0xd0020768, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x0030acd4]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 38
-[! : PPU[39] Thread (TCX_PrintfHandler)[0x0030a850]]: PPU[39] Thread (TCX_PrintfHandler) enter
 [W : PPU[1] Thread (CPUThread)[0x0030aecc]]: sys_event warning: sys_event_port_create(eport_id_addr=0x9cabb8, port_type=0x1, name=0xfee1dead)
+[! : PPU[39] Thread (TCX_PrintfHandler)[0x0030a850]]: PPU[39] Thread (TCX_PrintfHandler) enter
 [W : PPU[1] Thread (CPUThread)[0x0030aecc]]: sys_event warning: *** sys_event_port created: id = 40
 [W : PPU[1] Thread (CPUThread)[0x0030aee4]]: sys_event warning: sys_event_port_connect_local(eport_id=40, equeue_id=38)
 [E : PPU[1] Thread (CPUThread)[0x00a31088]]: TODO: cellSpursAttachLv2EventQueue

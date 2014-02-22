@@ -439,8 +439,8 @@
 [E : PPU[1] Thread (CPUThread)[0x01dbb058]]: TODO: cellSpursInitializeWithAttribute2
 [W : PPU[1] Thread (CPUThread)[0x00cb1d00]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1d87a3c, attr_addr=0xd0020744, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x00cb1d00]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 34
-[! : PPU[35] Thread (spu_printf_handler)[0x00cb1e94]]: PPU[35] Thread (spu_printf_handler) enter
 [W : PPU[1] Thread (CPUThread)[0x00cb1d88]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1d87a48, port_type=0x1, name=0xfee1dead)
+[! : PPU[35] Thread (spu_printf_handler)[0x00cb1e94]]: PPU[35] Thread (spu_printf_handler) enter
 [W : PPU[1] Thread (CPUThread)[0x00cb1d88]]: sys_event warning: *** sys_event_port created: id = 36
 [W : PPU[1] Thread (CPUThread)[0x00cb1da0]]: sys_event warning: sys_event_port_connect_local(eport_id=36, equeue_id=34)
 [E : PPU[1] Thread (CPUThread)[0x01dbb13c]]: TODO: cellSpursAttachLv2EventQueue
@@ -455,9 +455,9 @@
 [! : PPU[42] Thread (sgsfile-req-th)[0x00c085c4]]: PPU[42] Thread (sgsfile-req-th) enter
 [E : PPU[1] Thread (CPUThread)[0x00c08a0c]]: Unknown syscall: 631 - 00000277
 [E : PPU[1] Thread (CPUThread)[0x00d9ea38]]: Write8 to null block: [00000000]: 2e
-[W : PPU[35] Thread (spu_printf_handler)[0x00cb1ed8]]: sys_event_queue_receive(equeue=34) aborted
 [W : PPU[42] Thread (sgsfile-req-th)[0x00c0a630]]: sys_cond_wait(id=40) aborted
+[W : PPU[35] Thread (spu_printf_handler)[0x00cb1ed8]]: sys_event_queue_receive(equeue=34) aborted
 [! : PPU[1] Thread (CPUThread)[0x00d9ea3c]]: PPU[1] Thread (CPUThread) leave
-[! : PPU[35] Thread (spu_printf_handler)[0x00cb1edc]]: PPU[35] Thread (spu_printf_handler) leave
 [! : PPU[42] Thread (sgsfile-req-th)[0x00c0a634]]: PPU[42] Thread (sgsfile-req-th) leave
+[! : PPU[35] Thread (spu_printf_handler)[0x00cb1edc]]: PPU[35] Thread (spu_printf_handler) leave
 [!]: Closing memory...
