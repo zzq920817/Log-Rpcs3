@@ -1,4 +1,4 @@
-[!]: scetool: ELF written to D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]\USRDIR\BOOT.BIN
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -180,21 +180,21 @@
 [W : PPU[1] Thread (CPUThread)[0x002f0ed0]]: sys_event warning: sys_event_port_create(eport_id_addr=0x18e6c2c, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x002f0ed0]]: sys_event warning: *** sys_event_port created: id = 25
 [W : PPU[1] Thread (CPUThread)[0x002f0ee0]]: sys_event warning: sys_event_port_connect_local(eport_id=25, equeue_id=24)
-[! : PPU[26] Thread (asyncReader_RD)[0x002efe38]]: PPU[26] Thread (asyncReader_RD) enter
 [W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
+[! : PPU[26] Thread (asyncReader_RD)[0x002efe38]]: PPU[26] Thread (asyncReader_RD) enter
 [W : PPU[1] Thread (CPUThread)[0x002f0f84]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x18e6c68, attr_addr=0xd0020a98, event_queue_key=0x0, size=1)
 [W : PPU[1] Thread (CPUThread)[0x002f0f84]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 28
 [W : PPU[1] Thread (CPUThread)[0x002f0f9c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x18e6c6c, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x002f0f9c]]: sys_event warning: *** sys_event_port created: id = 29
 [W : PPU[1] Thread (CPUThread)[0x002f0fac]]: sys_event warning: sys_event_port_connect_local(eport_id=29, equeue_id=28)
-[W : PPU[1] Thread (CPUThread)[0x002f0f84]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x18e6c98, attr_addr=0xd0020a98, event_queue_key=0x0, size=1)
 [! : PPU[30] Thread (asyncDecoder_RD)[0x002f0b84]]: PPU[30] Thread (asyncDecoder_RD) enter
+[W : PPU[1] Thread (CPUThread)[0x002f0f84]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x18e6c98, attr_addr=0xd0020a98, event_queue_key=0x0, size=1)
 [W : PPU[1] Thread (CPUThread)[0x002f0f84]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 31
 [W : PPU[1] Thread (CPUThread)[0x002f0f9c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x18e6c9c, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x002f0f9c]]: sys_event warning: *** sys_event_port created: id = 32
 [W : PPU[1] Thread (CPUThread)[0x002f0fac]]: sys_event warning: sys_event_port_connect_local(eport_id=32, equeue_id=31)
-[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 34
 [! : PPU[33] Thread (asyncDecoder_RD)[0x002f0b84]]: PPU[33] Thread (asyncDecoder_RD) enter
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 34
 [W : PPU[1] Thread (CPUThread)[0x002f101c]]: memory warning: sys_memory_container_create(cid_addr=0x18e6ed0, yield_size=0x300000)
 [W : PPU[1] Thread (CPUThread)[0x002f101c]]: memory warning: *** memory_container created(addr=0x30100000): id = 35
 [E : PPU[1] Thread (CPUThread)[0x01a4e094]]: TODO: _cellSpursAttributeInitialize
@@ -214,116 +214,14 @@
 [W : PPU[1] Thread (CPUThread)[0x01a4c004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xdb9560, usrdirPath_addr=0xdb94e0)
 [W : PPU[1] Thread (CPUThread)[0x01a3c064]]: sys_fs warning: cellFsAioInit(mount_point_addr=0xdb94e0 ())
 [W : PPU[1] Thread (CPUThread)[0x01a40034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[E : PPU[1] Thread (CPUThread)[0x0026b05c]]: sys_event_flag error: sys_event_flag_trywait(eflag_id=37, bitptn=0xffffffff, mode=0x1, result_addr=0x0)
-[E : PPU[1] Thread (CPUThread)[0x0026b174]]: sys_event_flag error: sys_event_flag_wait(eflag_id=37, bitptn=0xffffffff, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[1] Thread (CPUThread)[0x01a44010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1933e28,cmdSize=0xf00000,ioSize=0x1600000,ioAddress=0x36600000)
-[W : PPU[1] Thread (CPUThread)[0x01a44010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x01a44010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x36600000, io=0x0, size=0x1600000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x01a44040]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
-[W : PPU[1] Thread (CPUThread)[0x01a44004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x01a44004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x01a42058]]: cellResc warning: cellRescInit(initConfig_addr=0xd00207cc)
-[W : PPU[1] Thread (CPUThread)[0x01a42040]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
-[W : PPU[1] Thread (CPUThread)[0x01a42040]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30066000, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x01a42040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x01a42064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00207a8, vertexArray_addr=0xd00207ac, fragmentShader_addr=0xd00207b0)
-[W : PPU[1] Thread (CPUThread)[0x01a4207c]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0000000, vertexArray_addr=0xc1100000, fragmentShader_addr=0xc1100180)
-[W : PPU[1] Thread (CPUThread)[0x01a4207c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01a4207c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01a44088]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=0, size=17825792, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x01a44034]]: cellGcmSys warning: cellGcmBindTile(index=2)
-[E : PPU[1] Thread (CPUThread)[0x01a420a0]]: TODO: cellRescSetVBlankHandler
-[W : PPU[1] Thread (CPUThread)[0x01a44088]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=17891328, size=7864320, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x01a44034]]: cellGcmSys warning: cellGcmBindTile(index=0)
-[W : PPU[1] Thread (CPUThread)[0x01a44088]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=25755648, size=7864320, pitch=5120, comp=9, base=0, bank=3)
-[E : PPU[1] Thread (CPUThread)[0x01a44088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
-[W : PPU[1] Thread (CPUThread)[0x01a44034]]: cellGcmSys warning: cellGcmBindTile(index=1)
-[W : PPU[1] Thread (CPUThread)[0x01a42070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1110000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01a42070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x14d0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x37d00000,size=0x100000,offset_addr=0xcb2c28)
-[W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x37e00000,size=0x100000,offset_addr=0xcb2c2c)
-[W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x6000000,offset_addr=0xd00206d0)
-[W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x38000000,size=0x200000,offset_addr=0xd00206a0)
-[W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x38300000,size=0x200000,offset_addr=0xd00206a0)
-[! : PPU[39] Thread (sdu_list_auto_load)[0x002579c4]]: PPU[39] Thread (sdu_list_auto_load) enter
-[E : PPU[39] Thread (sdu_list_auto_load)[0x01a40028]]: TODO: cellSaveDataUserListAutoLoad
-[! : PPU[40] Thread (hap_trophy_init)[0x00268540]]: PPU[40] Thread (hap_trophy_init) enter
-[W : PPU[40] Thread (hap_trophy_init)[0x01a4601c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_IO)
-[! : PPU[39] Thread (sdu_list_auto_load)[0x01a580c8]]: PPU[39] Thread (sdu_list_auto_load) leave
-[W : PPU[40] Thread (hap_trophy_init)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
-[W : PPU[40] Thread (hap_trophy_init)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : PPU[40] Thread (hap_trophy_init)[0x01a50058]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x897194, commID_addr=0x750881, commSign_addr=0x75088d, options=0x0)
-[E : PPU[40] Thread (hap_trophy_init)[0x01a50034]]: sceNpTrophy error: Unimplemented function: sceNpTrophyAbortHandle
-[! : PPU[40] Thread (hap_trophy_init)[0x01a580c8]]: PPU[40] Thread (hap_trophy_init) leave
-[W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[E : PPU[1] Thread (CPUThread)[0x01a54028]]: TODO: cellNetCtlInit
-[W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
-[W : PPU[1] Thread (CPUThread)[0x0026b4e8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1928ba4, attr_addr=0xd0020a60, initial_count=0, max_count=64)
-[E : RSXThread]: TODO: unknown/illegal method [0x00002184](0xfeed0000, 0xfeed0000)
-[E : RSXThread]: TODO: unknown/illegal method [0x0000230c](0x1890000, 0x1c50000, 0x0, 0x0, 0x384000, 0x1, 0x101, 0x0)
-[E : RSXThread]: TODO: unknown/illegal method [0x00002310](0x0)
-[E : RSXThread]: TODO: cellGcmSetLogicOp(0x0)
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 96
-[! : RSXThread]: *** fp data size = 16
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 1) in vec4 in_weight;
-layout (location = 2) in vec4 in_normal;
-layout (location = 0) in vec4 in_pos;
-out vec4 col0;
-out vec4 tc0;
-uniform vec4 vc259;
-uniform vec4 vc258;
-uniform vec4 vc257;
-uniform vec4 vc256;
-
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	col0 = in_weight;
-	tc0.xy = in_normal.xyxx.xy;
-	gl_Position.w = vec2(dot(in_pos, vc259), 0).xxxx.w;
-	gl_Position.z = vec2(dot(in_pos, vc258), 0).xxxx.z;
-	gl_Position.y = vec2(dot(in_pos, vc257), 0).xxxx.y;
-	gl_Position.x = vec2(dot(in_pos, vc256), 0).xxxx.x;
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 col0;
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	r0 = col0;
-	ocol = r0;
-}
-
-[W : RSXThread]: New FBO (1280x720)
-[E : RSXThread]: glAlphaFunc: opengl error 0x0500
-[! : RSXThread]: RSX thread exit...
+[! : PPU[1] Thread (CPUThread)[0x0026c178]]: PPU[1] Thread (CPUThread) leave
+[W : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=31) aborted
+[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
 [W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
 [W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
-[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
-[! : PPU[16] Thread (delayCloser_RD)[0x002f2e38]]: PPU[16] Thread (delayCloser_RD) leave
-[! : PPU[1] Thread (CPUThread)[0x00234090]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc8]]: PPU[33] Thread (asyncDecoder_RD) leave
+[! : PPU[26] Thread (asyncReader_RD)[0x002efe84]]: PPU[26] Thread (asyncReader_RD) leave
 [! : PPU[23] Thread (asyncReader_RD)[0x002efe84]]: PPU[23] Thread (asyncReader_RD) leave
 [! : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc8]]: PPU[30] Thread (asyncDecoder_RD) leave
-[W : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=31) aborted
-[! : PPU[26] Thread (asyncReader_RD)[0x002efe84]]: PPU[26] Thread (asyncReader_RD) leave
-[! : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc8]]: PPU[33] Thread (asyncDecoder_RD) leave
+[! : PPU[16] Thread (delayCloser_RD)[0x002f2e38]]: PPU[16] Thread (delayCloser_RD) leave
 [!]: Closing memory...

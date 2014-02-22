@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00435\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -270,8 +271,8 @@
 [W : PPU[44] Thread (bge_read_key_edata)[0x0203601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd002fca4, attributes_addr=0xd002fca0, size_addr=0xd002fca8, dirName_addr=0xd002fcb8)
 [W : PPU[44] Thread (bge_read_key_edata)[0x02036004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00300d8, usrdirPath_addr=0xd002fcd8)
 [W : PPU[44] Thread (bge_read_key_edata)[0x00c8c028]]: sys_fs warning: cellFsStat: "/app_home/KEYFILE.edat" not found.
-[W : PPU[44] Thread (bge_read_key_edata)[0x0203e0a0]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=-2147418106)
 [E : PPU[1] Thread (CPUThread)[0x0202e064]]: TODO: sceNpTerm
+[W : PPU[44] Thread (bge_read_key_edata)[0x0203e0a0]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=-2147418106)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)

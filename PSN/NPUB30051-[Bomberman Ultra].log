@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30051\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -274,7 +275,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0014dcf8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b13c, attr_addr=0xd0020a00, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x002fa04c]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1785696)
 [W : PPU[1] Thread (CPUThread)[0x002f6028]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020854)
-[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x921d82e0)
+[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xa0418de0)
 [W : PPU[1] Thread (CPUThread)[0x001576c0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1ac, attr_addr=0xd0020a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00157890]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1bc, attr_addr=0xd0020a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0030a034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
@@ -287,8 +288,8 @@
 [E : PPU[1] Thread (CPUThread)[0x003080ac]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x00158734]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x28d4bc, attr_addr=0xd00207e4, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x00158734]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 27
-[! : PPU[28] Thread (CrSpursPrintf)[0x001587f0]]: PPU[28] Thread (CrSpursPrintf) enter
 [W : PPU[1] Thread (CPUThread)[0x00158778]]: sys_event warning: sys_event_port_create(eport_id_addr=0x28d4c8, port_type=0x1, name=0xfee1dead)
+[! : PPU[28] Thread (CrSpursPrintf)[0x001587f0]]: PPU[28] Thread (CrSpursPrintf) enter
 [W : PPU[1] Thread (CPUThread)[0x00158778]]: sys_event warning: *** sys_event_port created: id = 29
 [W : PPU[1] Thread (CPUThread)[0x00158788]]: sys_event warning: sys_event_port_connect_local(eport_id=29, equeue_id=27)
 [E : PPU[1] Thread (CPUThread)[0x003080c4]]: TODO: cellSpursAttachLv2EventQueue
@@ -495,14 +496,14 @@
 [E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
 [E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
 [E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
 [E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
-[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x14 (inst 1049565)
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x18 (inst 1049566)
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x20 (inst 1049568)
@@ -672,5 +673,5 @@ void main()
 [W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
 [! : RSXThread]: RSX thread exit...
 [W : PPU[28] Thread (CrSpursPrintf)[0x00158824]]: sys_event_queue_receive(equeue=27) aborted
-[! : PPU[1] Thread (CPUThread)[0x00155550]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[1] Thread (CPUThread)[0x00155554]]: PPU[1] Thread (CPUThread) leave
 [! : PPU[28] Thread (CrSpursPrintf)[0x00158828]]: PPU[28] Thread (CrSpursPrintf) leave
