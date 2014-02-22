@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01555-[Ni No Kuni]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -454,10 +455,105 @@
 [W : PPU[1] Thread (CPUThread)[0x00c0a394]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 41
 [! : PPU[42] Thread (sgsfile-req-th)[0x00c085c4]]: PPU[42] Thread (sgsfile-req-th) enter
 [E : PPU[1] Thread (CPUThread)[0x00c08a0c]]: Unknown syscall: 631 - 00000277
-[E : PPU[1] Thread (CPUThread)[0x00d9ea38]]: Write8 to null block: [00000000]: 2e
+[W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x01b7d01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[E : PPU[1] Thread (CPUThread)[0x01daf088]]: TODO: cellNetCtlInit
+[W : PPU[1] Thread (CPUThread)[0x01b7d01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[E : PPU[1] Thread (CPUThread)[0x01dad004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x01db9028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01555\')
+[! : PPU[1] Thread (CPUThread)[0x01db9028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01555
+[W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
+[! : PPU[44] Thread (GameContentAccess)[0x000fbfe4]]: PPU[44] Thread (GameContentAccess) enter
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb088]]: cellGame warning: cellGameBootCheck(type_addr=0x1cfc890, attributes_addr=0x1cfc894, size_addr=0x1cfc898, dirName_addr=0x1cfcfce)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfc8a4)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfc8a8)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1cfc8ac)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x1cfceb0, bufsize=10)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x1cfceba, bufsize=6)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0x1cfcec0, bufsize=6)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=105, buf_addr=0x1cfcec6, bufsize=8)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x1cfc8b0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x1cfc930, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x1cfc9b0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x1cfca30, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x1cfcab0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x1cfcbb0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x1cfcb30, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x1cfcc30, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x1cfccb0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x1cfcd30, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x1cfcdb0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x1cfce30, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb028]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1cfcece, usrdirPath_addr=0x1cfcf4e)
+[E : PPU[44] Thread (GameContentAccess)[0x01dcb070]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfd734)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfd738)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1cfd73c)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x1cfdd40, bufsize=10)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x1cfdd4a, bufsize=6)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0x1cfdd50, bufsize=6)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=105, buf_addr=0x1cfdd56, bufsize=8)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x1cfd740, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x1cfd7c0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x1cfd840, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x1cfd8c0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x1cfd940, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x1cfda40, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x1cfd9c0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x1cfdac0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x1cfdb40, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x1cfdbc0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x1cfdc40, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x1cfdcc0, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb028]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0050aa8, usrdirPath_addr=0xd00509a8)
+[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/hd01.adat" not found! flags: 0x00000000
+[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/hs02.adat.sdat" not found! flags: 0x00000000
+[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/hd05.adat" not found! flags: 0x00000000
+[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/hs06.adat.sdat" not found! flags: 0x00000000
+[E : PPU[44] Thread (GameContentAccess)[0x01dcb070]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfcffc)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfd000)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1cfd004)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x1cfd608, bufsize=10)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x1cfd612, bufsize=6)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0x1cfd618, bufsize=6)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=105, buf_addr=0x1cfd61e, bufsize=8)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x1cfd008, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x1cfd088, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x1cfd108, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x1cfd188, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x1cfd208, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x1cfd308, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x1cfd288, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x1cfd388, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x1cfd408, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x1cfd488, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x1cfd508, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x1cfd588, bufsize=128)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb028]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1cfd626, usrdirPath_addr=0x1cfd6a6)
+[W : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/vinfo.sdat", flags=0x0, fd_addr=0xd001f5b8, arg_addr=0x0, size=0x0)
+[E : PPU[44] Thread (GameContentAccess)[0x01dcb070]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfcffc)
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfd000)
+[E : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs error: '/dev_hdd1/vinfo.sdat.unpacked' couldn't be created! flags: 0x00000002
+[W : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/data/vinfo.sdat", flags=0x0, fd_addr=0xd001f5b4, arg_addr=0x0, size=0x0)
+[E : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs error: '/data/vinfo.sdat' not found! flags: 0x00000001
+[W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [FIOSALL] (attribute=0x21): sq_id = 45
+[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1cfd004)
+[W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 46
+[W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: Invalid lwmutex address(0x20642140)
+[W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x20642140): id = 47
+[W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 48
+[E : PPU[1] Thread (CPUThread)[0x00c3fcb8]]: Read32 from null block: [90642148]
 [W : PPU[42] Thread (sgsfile-req-th)[0x00c0a630]]: sys_cond_wait(id=40) aborted
+[! : PPU[1] Thread (CPUThread)[0x00c3fcbc]]: PPU[1] Thread (CPUThread) leave
 [W : PPU[35] Thread (spu_printf_handler)[0x00cb1ed8]]: sys_event_queue_receive(equeue=34) aborted
-[! : PPU[1] Thread (CPUThread)[0x00d9ea3c]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[44] Thread (GameContentAccess)[0x01dcb050]]: PPU[44] Thread (GameContentAccess) leave
 [! : PPU[42] Thread (sgsfile-req-th)[0x00c0a634]]: PPU[42] Thread (sgsfile-req-th) leave
 [! : PPU[35] Thread (spu_printf_handler)[0x00cb1edc]]: PPU[35] Thread (spu_printf_handler) leave
 [!]: Closing memory...

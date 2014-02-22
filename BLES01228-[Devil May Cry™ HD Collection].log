@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry_ HD Collection]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -299,36 +300,534 @@
 [W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00204b8)
 [W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd00204b0)
 [W : PPU[1] Thread (CPUThread)[0x0040c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
-[W : PPU[1] Thread (CPUThread)[0x00557040]]: sys_fs warning: cellFsStat: "/" not found.
-[W : PPU[1] Thread (CPUThread)[0x002dd9f8]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x31300000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31300000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020448)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x11, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020444)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x31800000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31800000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020448)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x31c00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31c00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x12, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x32100000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32100000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x32500000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32500000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x13, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x32a00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32a00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x32e00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32e00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x14, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x33300000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x33300000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x33700000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x33700000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x15, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x33c00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x33c00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x34000000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34000000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x16, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x34500000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34500000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x34900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34900000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x17, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x34e00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34e00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x35200000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x35200000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x18, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x35700000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x35700000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x35b00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x35b00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x19, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x36000000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x36000000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x36400000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x36400000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1a, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x36900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x36900000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x36d00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x36d00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1b, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x37200000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37200000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x37600000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37600000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1c, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x37b00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37b00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x37f00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37f00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1d, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x38400000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x38400000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x38800000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x38800000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1e, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x38d00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x38d00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x39100000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39100000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1f, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x39600000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39600000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x39a00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39a00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x20, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x39f00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39f00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3a300000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3a300000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x21, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3a800000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3a800000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3ac00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3ac00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x22, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3b100000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3b100000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3b500000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3b500000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x23, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3bb00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3bb00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3bf00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3bf00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x24, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3c400000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3c400000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3c800000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3c800000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x25, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3cd00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3cd00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3d100000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3d100000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x26, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3d600000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3d600000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3da00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3da00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x27, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3df00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3df00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3e300000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3e300000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x28, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3e800000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3e800000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3ec00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3ec00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x29, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3f100000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3f100000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3f500000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3f500000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x2a, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3fa00000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3fa00000, io=0x0, size=0x400000)
+[! : RSXThread]: RSX thread exit...
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b13c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x2b, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0056b16c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00555094]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x100000,offset_addr=0xd0020274)
+[W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020278)
+[W : PPU[1] Thread (CPUThread)[0x002c9654]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x20f, alignment=0x10000000, alloc_addr=0xd0020270)
+[W : PPU[1] Thread (CPUThread)[0x00337c64]]: SysCall 988! r3: 0x4, r4: 0x0, pc: 0x337c64
 [W : PPU[1] Thread (CPUThread)[0x0056b190]]: Process warning: sys_process_exit(1)
 [S : PPU[1] Thread (CPUThread)[0x0056b190]]: Process finished
 [! : RSXThread]: RSX thread exit...

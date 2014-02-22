@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -370,8 +371,8 @@
 [W : PPU[1] Thread (CPUThread)[0x005e21ac]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xb58198, attr_addr=0xd0020600, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x005d89a8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
 [W : PPU[1] Thread (CPUThread)[0x005d89d0]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 53
-[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 55
 [! : PPU[54] Thread (NU::System::VSync)[0x005d8778]]: PPU[54] Thread (NU::System::VSync) enter
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 55
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 56
 [W : PPU[1] Thread (CPUThread)[0x009be010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0xa3e040)
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 57
@@ -410,8 +411,65 @@
 [W : PPU[1] Thread (CPUThread)[0x00bd8064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0020560, vertexArray_addr=0xd002056c, fragmentShader_addr=0xd0020564)
 [W : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x00bd8088]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0000000, vertexArray_addr=0xc0780000, fragmentShader_addr=0xc0790000)
-[E : PPU[1] Thread (CPUThread)[0x00bd8088]]: Exception: GetMemFromAddr(0x0)
-[! : PPU[1] Thread (CPUThread)[0x00bd8088]]: PPU[1] Thread (CPUThread) leave
-[! : RSXThread]: RSX thread exit...
+[W : PPU[1] Thread (CPUThread)[0x00bd8088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00bd8088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
+[E : PPU[1] Thread (CPUThread)[0x00bd80ac]]: TODO: cellRescSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=7995392, size=3801088, pitch=5120, comp=7, base=0, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00bd807c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x7a0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00bd4094]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 75
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 76
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 77
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 78
+[E : PPU[1] Thread (CPUThread)[0x00bd80b8]]: TODO: cellRescCreateInterlaceTable
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 79
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 80
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 81
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 83
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 85
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 86
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 87
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 88
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 89
+[W : PPU[1] Thread (CPUThread)[0x006ce998]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00207c0)
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 90
+[W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=11796480, size=3801088, pitch=5120, comp=7, base=58, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=15597568, size=3801088, pitch=5120, comp=7, base=116, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=19398656, size=3801088, pitch=5120, comp=10, base=174, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x009be0c4]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x1280000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=23199744, size=3801088, pitch=5120, comp=7, base=232, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x009be0b8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00bd4034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020660)
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 91
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 92
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 93
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 94
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 95
+[W : PPU[1] Thread (CPUThread)[0x00774934]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xbbcd40, attr_addr=0xd0020730, initial_count=0, max_count=2147483647)
+[! : PPU[97] Thread (NU::File::RequestManager)[0x005d8778]]: PPU[97] Thread (NU::File::RequestManager) enter
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 98
+[W : PPU[1] Thread (CPUThread)[0x00bd6010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0076c9a8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020750, attr_addr=0xd0020760, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0076c9a8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020750, attr_addr=0xd0020760, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x006ce998]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00207c0)
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 101
+[W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 102
+[E : PPU[1] Thread (CPUThread)[0x00bd2118]]: TODO: cellSpursRunJobChain
+[W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076cf18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00307b0, attr_addr=0xd00307c0, initial_count=0, max_count=1)
+[W : PPU[97] Thread (NU::File::RequestManager)[0x009bc028]]: sys_fs warning: cellFsStat: "/app_home/data/system/xftool.fnt.xfbin" not found.
+[! : PPU[1] Thread (CPUThread)[0x005dd068]]: PPU[1] Thread (CPUThread) leave
 [W : PPU[62] Thread (NU::Draw::RequestManager)[0x005d8ae4]]: sys_cond_wait(id=61) aborted
 [! : PPU[62] Thread (NU::Draw::RequestManager)[0x005d8ae8]]: PPU[62] Thread (NU::Draw::RequestManager) leave
+[! : RSXThread]: RSX thread exit...

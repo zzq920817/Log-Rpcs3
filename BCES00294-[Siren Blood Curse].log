@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -281,7 +282,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37300000, io=0x0, size=0xd00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x746f7380)
+[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x3bc47c80)
 [W : PPU[1] Thread (CPUThread)[0x00785124]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209dc, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f63064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [E : PPU[1] Thread (CPUThread)[0x000122a8]]: Read16 from null block: [000006e6]

@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00006-[MotorStorm_]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -333,7 +334,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00ede0f4]]: TODO: cellSpursSetExceptionEventHandler
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x21166c80)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xe88e7480)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)
@@ -346,7 +347,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0x101deffc)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x21165d80)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xe88e6480)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)
@@ -369,5 +370,5 @@
 [W : PPU[1] Thread (CPUThread)[0x007012ac]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 25
 [W : PPU[1] Thread (CPUThread)[0x006fd618]]: memory warning: sys_memory_container_create(cid_addr=0x101df030, yield_size=0xa00000)
 [W : PPU[1] Thread (CPUThread)[0x006fd618]]: memory warning: *** memory_container created(addr=0x30400000): id = 26
-[! : PPU[1] Thread (CPUThread)[0x00b9fbf8]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[1] Thread (CPUThread)[0x00b9fbf4]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

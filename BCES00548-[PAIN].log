@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -475,7 +476,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x300000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00b7d1cc]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xcfb48480)
+[W : PPU[1] Thread (CPUThread)[0x00b7d1cc]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x437a9380)
 [W : PPU[1] Thread (CPUThread)[0x00b7d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00206cc, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00b7704c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00b77058]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
@@ -496,10 +497,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=31522816, size=16777216, pitch=8192, comp=11, base=481, bank=1)
 [E : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (11)
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
-[E : RSXThread]: TODO: cellGcmSetFrontFace(0x901)
 [E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
 [E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
-[! : PPU[1] Thread (CPUThread)[0x004f49e4]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[1] Thread (CPUThread)[0x004f49e8]]: PPU[1] Thread (CPUThread) leave
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
