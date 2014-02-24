@@ -213,7 +213,7 @@
 [W : PPU[1] Thread (CPUThread)[0x000420bc]]: sys_cond warning: *** condition created [] (mutex_id=28): id = 29
 [W : PPU[1] Thread (CPUThread)[0x00ccc064]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x190ad0 (/dev_bdvd/PS3_GAME/USRDIR))
 [W : PPU[1] Thread (CPUThread)[0x00cce004]]: cellAudio warning: cellAudioInit()
-[! : AudioThread]: Audio started
+[! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x001bb04c]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020920)
 [W : PPU[1] Thread (CPUThread)[0x00cce040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1d94b8, portNum_addr=0xd0020900)
 [W : PPU[1] Thread (CPUThread)[0x00cce040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
@@ -233,6 +233,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80002)
 [W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
 [W : PPU[1] Thread (CPUThread)[0x0003be74]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[E : PPU[31] Thread (MultiStream PU Thread)[0x00cd20e8]]: TODO: _cellSpursSendSignal
+[E : PPU[31] Thread (MultiStream PU Thread)[0x00cd201c]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x00cd601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd00208e0, attributes_addr=0xd00208e4, size_addr=0xd00208f4, dirName_addr=0xd0020900)
 [W : PPU[1] Thread (CPUThread)[0x00cd6004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020900, bufsize=10)
@@ -246,8 +248,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00cd8058]]: sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 34
 [E : PPU[1] Thread (CPUThread)[0x00107638]]: Read32 from null block: [b0bc0648]
 [! : RSXThread]: RSX thread exit...
-[W : AudioThread]: Audio aborted
+[W : Audio Thread]: Audio aborted
+[! : RawSPU[26] Thread (CPUThread)[0x00000280]]: RawSPU[26] Thread (CPUThread) leave
 [! : PPU[1] Thread (CPUThread)[0x0010763c]]: PPU[1] Thread (CPUThread) leave
 [! : PPU[31] Thread (MultiStream PU Thread)[0x00116474]]: PPU[31] Thread (MultiStream PU Thread) leave
-[! : RawSPU[26] Thread (CPUThread)[0x00000264]]: RawSPU[26] Thread (CPUThread) leave
 [!]: Closing memory...

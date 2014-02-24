@@ -132,7 +132,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0060ab40]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 16
 [W : PPU[1] Thread (CPUThread)[0x0060ab64]]: sys_cond warning: *** condition created [] (mutex_id=16): id = 17
 [! : PPU[18] Thread (TIER::LoadThread())[0x0060a7b0]]: PPU[18] Thread (TIER::LoadThread()) enter
-[! : PPU[1] Thread (CPUThread)[0x0060a658]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[1] Thread (CPUThread)[0x0060ad14]]: PPU[1] Thread (CPUThread) leave
 [W : PPU[18] Thread (TIER::LoadThread())[0x0060a834]]: sys_cond_wait(id=13) aborted
 [! : PPU[18] Thread (TIER::LoadThread())[0x0060a838]]: PPU[18] Thread (TIER::LoadThread()) leave
 [!]: Closing memory...

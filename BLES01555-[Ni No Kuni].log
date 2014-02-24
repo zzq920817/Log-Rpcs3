@@ -440,8 +440,8 @@
 [E : PPU[1] Thread (CPUThread)[0x01dbb058]]: TODO: cellSpursInitializeWithAttribute2
 [W : PPU[1] Thread (CPUThread)[0x00cb1d00]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1d87a3c, attr_addr=0xd0020744, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x00cb1d00]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 34
-[W : PPU[1] Thread (CPUThread)[0x00cb1d88]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1d87a48, port_type=0x1, name=0xfee1dead)
 [! : PPU[35] Thread (spu_printf_handler)[0x00cb1e94]]: PPU[35] Thread (spu_printf_handler) enter
+[W : PPU[1] Thread (CPUThread)[0x00cb1d88]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1d87a48, port_type=0x1, name=0xfee1dead)
 [W : PPU[1] Thread (CPUThread)[0x00cb1d88]]: sys_event warning: *** sys_event_port created: id = 36
 [W : PPU[1] Thread (CPUThread)[0x00cb1da0]]: sys_event warning: sys_event_port_connect_local(eport_id=36, equeue_id=34)
 [E : PPU[1] Thread (CPUThread)[0x01dbb13c]]: TODO: cellSpursAttachLv2EventQueue
@@ -464,7 +464,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [E : PPU[1] Thread (CPUThread)[0x01dad004]]: TODO: sys_net_initialize_network_ex
 [W : PPU[1] Thread (CPUThread)[0x01db9028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01555\')
-[! : PPU[1] Thread (CPUThread)[0x01db9028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01555
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
 [! : PPU[44] Thread (GameContentAccess)[0x000fbfe4]]: PPU[44] Thread (GameContentAccess) enter
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb088]]: cellGame warning: cellGameBootCheck(type_addr=0x1cfc890, attributes_addr=0x1cfc894, size_addr=0x1cfc898, dirName_addr=0x1cfcfce)
@@ -535,14 +534,10 @@
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x1cfd588, bufsize=128)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb028]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1cfd626, usrdirPath_addr=0x1cfd6a6)
 [W : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/vinfo.sdat", flags=0x0, fd_addr=0xd001f5b8, arg_addr=0x0, size=0x0)
-[E : PPU[44] Thread (GameContentAccess)[0x01dcb070]]: cellGame error: Unimplemented function: cellGameDataCheck
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfcffc)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfd000)
 [E : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs error: '/dev_hdd1/vinfo.sdat.unpacked' couldn't be created! flags: 0x00000002
 [W : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/data/vinfo.sdat", flags=0x0, fd_addr=0xd001f5b4, arg_addr=0x0, size=0x0)
 [E : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs error: '/data/vinfo.sdat' not found! flags: 0x00000001
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [FIOSALL] (attribute=0x21): sq_id = 45
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1cfd004)
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 46
@@ -551,9 +546,9 @@
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 48
 [E : PPU[1] Thread (CPUThread)[0x00c3fcb8]]: Read32 from null block: [90642148]
 [W : PPU[42] Thread (sgsfile-req-th)[0x00c0a630]]: sys_cond_wait(id=40) aborted
-[! : PPU[1] Thread (CPUThread)[0x00c3fcbc]]: PPU[1] Thread (CPUThread) leave
 [W : PPU[35] Thread (spu_printf_handler)[0x00cb1ed8]]: sys_event_queue_receive(equeue=34) aborted
-[! : PPU[44] Thread (GameContentAccess)[0x01dcb050]]: PPU[44] Thread (GameContentAccess) leave
+[! : PPU[1] Thread (CPUThread)[0x00c3fcbc]]: PPU[1] Thread (CPUThread) leave
+[! : PPU[44] Thread (GameContentAccess)[0x000fbde8]]: PPU[44] Thread (GameContentAccess) leave
 [! : PPU[42] Thread (sgsfile-req-th)[0x00c0a634]]: PPU[42] Thread (sgsfile-req-th) leave
 [! : PPU[35] Thread (spu_printf_handler)[0x00cb1edc]]: PPU[35] Thread (spu_printf_handler) leave
 [!]: Closing memory...
