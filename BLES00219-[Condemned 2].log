@@ -164,7 +164,6 @@
 [E]: TODO: sceNpManagerGetNpId
 [W]: Unknown function 0xbd28fdbf in 'sceNp' module
 [E]: TODO: sceNpInit
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0118a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x0118a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x0118a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
@@ -508,5 +507,4 @@
 [E : PPU[1] Thread (CPUThread)[0x0117e058]]: TODO: cellGameDataCheckCreate2
 [W : PPU[1] Thread (CPUThread)[0x0001a974]]: memory warning: sys_memory_container_destroy(cid=308)
 [E : PPU[1] Thread (CPUThread)[0x00029de8]]: Write32 to null block: [00000000]: 0
-[! : PPU[1] Thread (CPUThread)[0x00029dec]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

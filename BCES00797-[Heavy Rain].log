@@ -181,7 +181,6 @@
 [E]: TODO: cellNetCtlInit
 [W]: Unknown function 0xd59aa307 in 'cellSync' module
 [E]: TODO: cellSyncLFQueueGetDirection
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
@@ -207,5 +206,4 @@
 [W : PPU[1] Thread (CPUThread)[0x0054ad80]]: sys_cond warning: *** condition created [] (mutex_id=22): id = 23
 [W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 25
-[! : PPU[1] Thread (CPUThread)[0x0054ae68]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

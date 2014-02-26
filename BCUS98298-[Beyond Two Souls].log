@@ -231,7 +231,6 @@
 [E]: TODO: sys_mmapper_unmap_memory
 [W]: Unknown function 0x70258515 in 'sysPrxForUser' module
 [E]: TODO: sys_mmapper_allocate_memory_from_container
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x012c804c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x012c804c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x012c804c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
@@ -246,5 +245,4 @@
 [W : PPU[1] Thread (CPUThread)[0x00c19a74]]: memory warning: *** memory_container created(addr=0x30100000): id = 13
 [W : PPU[1] Thread (CPUThread)[0x00c19ac0]]: vm warning: sys_vm_memory_map(vsize=0x10000000,psize=0xbc00000,cidr=0xd,flags=0x200,policy=0x1,addr=0x11f788c)
 [E : PPU[1] Thread (CPUThread)[0x00c18464]]: Read32 from null block: [00000010]
-[! : PPU[1] Thread (CPUThread)[0x00c18468]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

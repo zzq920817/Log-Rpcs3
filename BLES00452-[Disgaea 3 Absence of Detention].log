@@ -102,7 +102,6 @@
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x0021d010]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
@@ -155,24 +154,12 @@
 [W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1c7c73c, group=0xd, spu_num=5, img_addr=0x1c7c5d0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
 [W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: *** New SPU Thread [NGS_Thread5] (img_offset=0x1d53000, ls_offset=0x1ed3000, ep=0x0, a1=0x1c7c7c0, a2=0x1c7c870, a3=0x0, a4=0x1c7c8a4): id=19
 [W : PPU[1] Thread (CPUThread)[0x00017254]]: sys_spu warning: sys_spu_thread_group_start(id=13)
-[! : SPU[14] Thread (NGS_Thread1)[0x00000000]]: SPU[14] Thread (NGS_Thread1) enter
 [W : SPU[14] Thread (NGS_Thread1)[0x00000000]]: STOP: 0x0 (no message)
-[! : SPU[15] Thread (NGS_Thread2)[0x00000000]]: SPU[15] Thread (NGS_Thread2) enter
 [W : SPU[15] Thread (NGS_Thread2)[0x00000000]]: STOP: 0x0 (no message)
-[! : SPU[16] Thread (NGS_Thread3)[0x00000000]]: SPU[16] Thread (NGS_Thread3) enter
-[! : SPU[14] Thread (NGS_Thread1)[0x00000004]]: SPU[14] Thread (NGS_Thread1) leave
 [W : SPU[16] Thread (NGS_Thread3)[0x00000000]]: STOP: 0x0 (no message)
-[! : SPU[15] Thread (NGS_Thread2)[0x00000004]]: SPU[15] Thread (NGS_Thread2) leave
-[! : SPU[17] Thread (NGS_Thread4)[0x00000000]]: SPU[17] Thread (NGS_Thread4) enter
 [W : SPU[17] Thread (NGS_Thread4)[0x00000000]]: STOP: 0x0 (no message)
-[! : SPU[18] Thread (NGS_Thread4)[0x00000000]]: SPU[18] Thread (NGS_Thread4) enter
 [W : SPU[18] Thread (NGS_Thread4)[0x00000000]]: STOP: 0x0 (no message)
-[! : SPU[16] Thread (NGS_Thread3)[0x00000004]]: SPU[16] Thread (NGS_Thread3) leave
-[! : SPU[19] Thread (NGS_Thread5)[0x00000000]]: SPU[19] Thread (NGS_Thread5) enter
 [W : SPU[19] Thread (NGS_Thread5)[0x00000000]]: STOP: 0x0 (no message)
-[! : SPU[17] Thread (NGS_Thread4)[0x00000004]]: SPU[17] Thread (NGS_Thread4) leave
-[! : SPU[18] Thread (NGS_Thread4)[0x00000004]]: SPU[18] Thread (NGS_Thread4) leave
-[! : SPU[19] Thread (NGS_Thread5)[0x00000004]]: SPU[19] Thread (NGS_Thread5) leave
 [W : PPU[1] Thread (CPUThread)[0x0024c07c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x22b548 (/dev_bdvd/PS3_GAME/USRDIR))
 [W : PPU[1] Thread (CPUThread)[0x0024c07c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x22b510 (/app_home))
 [W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
@@ -191,9 +178,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00019c24]]: memory warning: *** memory_container created(addr=0x3a100000): id = 20
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/NisAnmShadow.txf"): fd = 21
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=21, offset=0x0, buf_addr=0x30035020, size=0x1010, res=0x1010, xid=0x0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/NisAnmShadow.txf])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=21, offset=0x0, buf_addr=0x30036000, size=0x1010, error=0x0, res=0x1010, xid=0x0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/NisAnmShadow.txf])
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
 [W : PPU[1] Thread (CPUThread)[0x00248064]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x00248034]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020af4, option_addr=0x0, (!)waitForEvent=0)
@@ -215,8 +200,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00205d08]]: sys_event warning: sys_event_port_connect_local(eport_id=28, equeue_id=27)
 [W : PPU[1] Thread (CPUThread)[0x00205d20]]: sys_spu warning: sys_spu_thread_bind_queue(id=25, equeue_id=27, spuq_num=0x1012000)
 [W : PPU[1] Thread (CPUThread)[0x002056f0]]: sys_spu warning: sys_spu_thread_group_start(id=24)
-[! : SPU[25] Thread (_synth2 Thread)[0x00000100]]: SPU[25] Thread (_synth2 Thread) enter
 [W : PPU[1] Thread (CPUThread)[0x01d3b004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0020b08, portNum_addr=0xd0020af0)
 [W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x0, level=0.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x01d3b040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0020b28)
@@ -245,7 +230,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00210214]]: sys_mutex warning: *** mutex created [_mxr020] (protocol=0x2, recursive=false): id = 36
 [W : PPU[1] Thread (CPUThread)[0x00210238]]: sys_cond warning: *** condition created [] (mutex_id=36): id = 37
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr022] (attribute=0x22): sq_id = 39
-[! : PPU[38] Thread (_sys_MixerChStripMain)[0x0020f2d0]]: PPU[38] Thread (_sys_MixerChStripMain) enter
 [W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x4e80)
 [W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x10b00)
 [W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x8400)
@@ -255,78 +239,55 @@
 [W : PPU[1] Thread (CPUThread)[0x002085d0]]: sys_cond warning: *** condition created [] (mutex_id=42): id = 43
 [W : PPU[1] Thread (CPUThread)[0x00208654]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 44
 [W : PPU[1] Thread (CPUThread)[0x00208678]]: sys_cond warning: *** condition created [] (mutex_id=44): id = 45
-[! : PPU[46] Thread (_sys_mixerSurBusReq)[0x00207920]]: PPU[46] Thread (_sys_mixerSurBusReq) enter
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 47
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 48
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 50
-[! : PPU[49] Thread (_cellsurMixerMain)[0x0020a848]]: PPU[49] Thread (_cellsurMixerMain) enter
+[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1d34924, attr_addr=0x1d359d0, event_queue_key=0x8000cafe02460300, size=2)
+[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 51
 [W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1d34968, portNum_addr=0x1d348d8)
 [W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 1
-[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1d34924, attr_addr=0x1d359d0, event_queue_key=0x8000cafe02460300, size=2)
 [W : PPU[1] Thread (CPUThread)[0x01d3b040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x1d34988)
-[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 51
 [W : PPU[1] Thread (CPUThread)[0x0001602c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
 [W : PPU[1] Thread (CPUThread)[0x00016050]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 53
 [W : PPU[1] Thread (CPUThread)[0x01d3b04c]]: cellAudio warning: cellAudioPortStart(portNum=0x1)
-[! : PPU[54] Thread (synth2_generate)[0x000195a4]]: PPU[54] Thread (synth2_generate) enter
 [W : PPU[1] Thread (CPUThread)[0x01d3b010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
 [W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
-[! : PPU[55] Thread (NisAt3Line0)[0x0001d7ec]]: PPU[55] Thread (NisAt3Line0) enter
-[! : PPU[56] Thread (NisAt3Line1)[0x0001d7ec]]: PPU[56] Thread (NisAt3Line1) enter
-[! : PPU[57] Thread (NisAt3Line2)[0x0001d7ec]]: PPU[57] Thread (NisAt3Line2) enter
-[! : Audio Thread]: Audio started
-[W : PPU[49] Thread (_cellsurMixerMain)[0x01d3b070]]: cellAudio warning: cellAudioGetPortBlockTag(portNum=0x1, blockNo=0x1, tag_addr=0x1d34428)
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak"): fd = 58
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak"): fd = 59
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak"): fd = 60
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=58, offset=0x0, buf_addr=0x1ca7968, size=0x1dc, res=0x1dc, xid=0x1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=58, offset=0x0, buf_addr=0x1ca7b44, size=0x1dc, error=0x0, res=0x1dc, xid=0x1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=59, offset=0x0, buf_addr=0x1c9e6e8, size=0x927c, res=0x927c, xid=0x2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=59, offset=0x0, buf_addr=0x1ca7000, size=0x927c, error=0x0, res=0x927c, xid=0x2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=60, offset=0x0, buf_addr=0x1c95480, size=0x9264, res=0x9264, xid=0x3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=60, offset=0x0, buf_addr=0x1c9e000, size=0x9264, error=0x0, res=0x9264, xid=0x3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak])
 [W : PPU[1] Thread (CPUThread)[0x00248058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x250460, userdata=0x0)
 [E : PPU[1] Thread (CPUThread)[0x00242004]]: sys_io error: cellPadInfoPressMode(port_no=0)
 [E : PPU[1] Thread (CPUThread)[0x00242034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
 [W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/dis3_0_us.dat"): fd = 61
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0xd0020030, size=0x800, res=0x800, xid=0x4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[W : fsAioRead]: *** fsAioRead(fd=58, offset=0x800, buf_addr=0x1ca7db8, size=0x60c, res=0x60c, xid=0x5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0xd0020830, size=0x800, error=0x0, res=0x800, xid=0x4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
+[W : fsAioRead]: *** fsAioRead(fd=58, offset=0x800, buf_addr=0x1ca8000, size=0x60c, error=0x0, res=0x60c, xid=0x5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
 [W : PPU[1] Thread (CPUThread)[0x01d4b04c]]: cellPamf warning: cellPamfGetHeaderSize(pAddr=0xd0020030, fileSize=412655616, pSize_addr=0xd00208d0)
 [W : PPU[1] Thread (CPUThread)[0x01d4b01c]]: cellPamf warning: cellPamfGetStreamOffsetAndSize(pAddr=0xd0020030, fileSize=412655616, pOffset_addr=0xd0020000, pSize_addr=0xd0020008)
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0x30035020, size=0x800, res=0x800, xid=0x6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
+[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0x30035820, size=0x800, error=0x0, res=0x800, xid=0x6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[W : fsAioRead]: *** fsAioRead(fd=58, offset=0xe40, buf_addr=0x329e1980, size=0x339131, res=0x339131, xid=0x7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=58, offset=0xe40, buf_addr=0x32d1a000, size=0x339131, error=0x0, res=0x339131, xid=0x7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
 [W : PPU[1] Thread (CPUThread)[0x0024c010]]: sys_fs warning: cellFsClose(fd=61)
 [W : PPU[1] Thread (CPUThread)[0x01d4b040]]: cellPamf warning: cellPamfReaderInitialize(pSelf=0xd00208e8, pAddr=0x30035020, fileSize=412655616, attribute=0x1)
 [W : PPU[1] Thread (CPUThread)[0x01d4b058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00208e8, streamType=20)
 [W : PPU[1] Thread (CPUThread)[0x01d4b010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00208e8, streamType=20, streamIndex=0)
 [W : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00208e8 (stream=0), pType_addr=0xd0020a48, pCh_addr=0xd0020810
-[W : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf warning: TODO: pamfGetStreamChannel
 [W : PPU[1] Thread (CPUThread)[0x01d4b004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=0, ch=0, pEsFilterId_addr=0xd0020814)
 [W : PPU[1] Thread (CPUThread)[0x01d4b028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00208e8 (stream=0), pInfo_addr=0xd0020824, size=32)
 [W : PPU[1] Thread (CPUThread)[0x01d4b028]]: cellPamf warning: cellPamfReaderGetStreamInfo: CELL_PAMF_STREAM_TYPE_AVC
 [W : PPU[1] Thread (CPUThread)[0x01d4b058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00208e8, streamType=21)
 [W : PPU[1] Thread (CPUThread)[0x01d4b010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00208e8, streamType=21, streamIndex=0)
 [W : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00208e8 (stream=1), pType_addr=0xd0020a18, pCh_addr=0xd0020830
-[W : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf warning: TODO: pamfGetStreamChannel
+[E : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf error: TODO: pamfGetStreamChannel (-> 0)
 [W : PPU[1] Thread (CPUThread)[0x01d4b004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=2, ch=0, pEsFilterId_addr=0xd002083c)
 [W : PPU[1] Thread (CPUThread)[0x01d4b028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00208e8 (stream=1), pInfo_addr=0xd0020834, size=8)
 [W : PPU[1] Thread (CPUThread)[0x0024a004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_PAMF)
@@ -338,116 +299,57 @@
 [W : PPU[1] Thread (CPUThread)[0x00024e50]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 65
 [W : PPU[1] Thread (CPUThread)[0x00024ea4]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
 [W : PPU[1] Thread (CPUThread)[0x01d49040]]: cellDmux warning: cellDmuxOpen(demuxerType_addr=0x55a230, demuxerResource_addr=0xd0020884, demuxerCb_addr=0xd0020870, demuxerHandle_addr=0x55a23c)
-[! : Demuxer [67] Thread]: Demuxer enter (mem=0x36b80100, size=0x100000, cb=0x70112500, arg=0x55a210)
+[! : Demuxer[67] Thread]: Demuxer enter (mem=0x30035020, size=0x10000, cb=0x251170, arg=0x55a210)
 [W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x55a230, esFilterId_addr=0xd0020a4c, esSpecificInfo_addr=0xd0020a5c, esAttr_addr=0xd0020870)
-[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=67, esFilterId_addr=0xd0020a4c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a5c, esHandle_addr=0x30035020)
+[W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
+[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=67, esFilterId_addr=0xd0020a4c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a5c, esHandle_addr=0x30045020)
+[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: *** New ES(dmux=67, addr=0x36b80100, size=0x500000, filter(0xe0, 0x0, 0x1, 0x0), cb=0x2512b0(arg=0x55a090), spec=0xd0020a5c): id = 68
 [W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x55a230, esFilterId_addr=0xd0020a1c, esSpecificInfo_addr=0xd0020a2c, esAttr_addr=0xd0020870)
-[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=67, esFilterId_addr=0xd0020a1c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a2c, esHandle_addr=0x30035040)
+[W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
+[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=67, esFilterId_addr=0xd0020a1c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a2c, esHandle_addr=0x30045040)
+[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: *** New ES(dmux=67, addr=0x30045060, size=0x10000, filter(0xbd, 0x0, 0x0, 0x0), cb=0x250f68(arg=0x55a198), spec=0xd0020a2c): id = 69
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 70
 [W : PPU[1] Thread (CPUThread)[0x00246034]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2429792)
 [W : PPU[1] Thread (CPUThread)[0x00024e50]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 71
 [W : PPU[1] Thread (CPUThread)[0x00024ea4]]: sys_cond warning: *** condition created [] (mutex_id=71): id = 72
-[! : Demuxer [67] Thread]: Demuxer exit
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : Demuxer[67] Thread]: dmuxEnableEs: (TODO) unsupported filter (0xbd, 0x0, 0x0, 0x0)
 [E : PPU[1] Thread (CPUThread)[0x00242004]]: sys_io error: cellPadInfoPressMode(port_no=0)
 [E : PPU[1] Thread (CPUThread)[0x00242034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/START_en.dat"): fd = 73
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x0, buf_addr=0xd0020ac1, size=0x8, res=0x8, xid=0x8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[W : fsAioRead]: *** fsAioRead(fd=59, offset=0xa000, buf_addr=0x1ca90e4, size=0x132c, res=0x132c, xid=0x9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x0, buf_addr=0xd0020ac9, size=0x8, error=0x0, res=0x8, xid=0x8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : fsAioRead]: *** fsAioRead(fd=59, offset=0xa000, buf_addr=0x1caa000, size=0x132c, error=0x0, res=0x132c, xid=0x9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x8, buf_addr=0xd0020ac0, size=0x1, res=0x1, xid=0xa [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[W : fsAioRead]: *** fsAioRead(fd=59, offset=0xb340, buf_addr=0x32400000, size=0x4e5d51, res=0x4e5d51, xid=0xb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x8, buf_addr=0xd0020ac1, size=0x1, error=0x0, res=0x1, xid=0xa [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : fsAioRead]: *** fsAioRead(fd=59, offset=0xb340, buf_addr=0x328e5000, size=0x4e5d51, error=0x0, res=0x4e5d51, xid=0xb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0xc, buf_addr=0xb9d9d0, size=0x4, res=0x4, xid=0xc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0xc, buf_addr=0xb9d9d4, size=0x4, error=0x0, res=0x4, xid=0xc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x0, buf_addr=0x30035060, size=0xd4c, res=0xd4c, xid=0xd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x0, buf_addr=0x30055dac, size=0xd4c, error=0x0, res=0xd4c, xid=0xd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a29800, buf_addr=0x30035db0, size=0x40010, res=0x40010, xid=0xe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[74] Thread (NowLoadingThread)[0x0003506c]]: PPU[74] Thread (NowLoadingThread) enter
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a29800, buf_addr=0x30095000, size=0x40010, error=0x0, res=0x40010, xid=0xe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/ANM_en.dat"): fd = 75
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x0, buf_addr=0xd0020a01, size=0x8, res=0x8, xid=0xf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x8, buf_addr=0xd0020a00, size=0x1, res=0x1, xid=0x10 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
 [W : RSXThread]: VP not found in buffer!
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
 [W : RSXThread]: FP not found in buffer!
+[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0xf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=75, offset=0xc, buf_addr=0xb9d770, size=0x4, res=0x4, xid=0x11 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x10 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x0, buf_addr=0x30035db0, size=0x8a8, res=0x8a8, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=75, offset=0xc, buf_addr=0xb9d774, size=0x4, error=0x0, res=0x4, xid=0x11 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x0, buf_addr=0x30056000, size=0x8a8, error=0x0, res=0x8a8, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/BG_en.dat"): fd = 76
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x0, buf_addr=0xd0020a01, size=0x8, res=0x8, xid=0x13 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0x13 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x8, buf_addr=0xd0020a00, size=0x1, res=0x1, xid=0x14 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x14 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xc, buf_addr=0xb9d8a0, size=0x4, res=0x4, xid=0x15 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xc, buf_addr=0xb9d8a4, size=0x4, error=0x0, res=0x4, xid=0x15 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x0, buf_addr=0x30036660, size=0x1038, res=0x1038, xid=0x16 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x0, buf_addr=0x30057000, size=0x1038, error=0x0, res=0x1038, xid=0x16 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -493,1148 +395,161 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/BU.dat"): fd = 77
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x0, buf_addr=0xd0020a01, size=0x8, res=0x8, xid=0x17 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0x17 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x8, buf_addr=0xd0020a00, size=0x1, res=0x1, xid=0x18 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x18 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0xc, buf_addr=0xb9d640, size=0x4, res=0x4, xid=0x19 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=77, offset=0xc, buf_addr=0xb9d644, size=0x4, error=0x0, res=0x4, xid=0x19 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x0, buf_addr=0x300376a0, size=0xe54, res=0xe54, xid=0x1a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x0, buf_addr=0x30058000, size=0xe54, error=0x0, res=0xe54, xid=0x1a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x317000, buf_addr=0x338ce9e0, size=0x92fe75, res=0x92fe75, xid=0x1b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x317000, buf_addr=0x342b6000, size=0x92fe75, error=0x0, res=0x92fe75, xid=0x1b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0xfaf800, buf_addr=0x338ce9e0, size=0x832bb8, res=0x832bb8, xid=0x1c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0xfaf800, buf_addr=0x341b9000, size=0x832bb8, error=0x0, res=0x832bb8, xid=0x1c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2cea000, buf_addr=0x33eb2d40, size=0x3506ff, res=0x3506ff, xid=0x1d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2cea000, buf_addr=0x342bb000, size=0x3506ff, error=0x0, res=0x3506ff, xid=0x1d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a6a000, buf_addr=0x34203440, size=0x16e0b4, res=0x16e0b4, xid=0x1e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a6a000, buf_addr=0x34429000, size=0x16e0b4, error=0x0, res=0x16e0b4, xid=0x1e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a11800, buf_addr=0x34371500, size=0x10010, res=0x10010, xid=0x1f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a11800, buf_addr=0x3006b000, size=0x10010, error=0x0, res=0x10010, xid=0x1f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x38b5800, buf_addr=0x34371500, size=0x10010, res=0x10010, xid=0x20 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x38b5800, buf_addr=0x3006b000, size=0x10010, error=0x0, res=0x10010, xid=0x20 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d000, buf_addr=0xa8bc24, size=0x4, res=0x4, xid=0x21 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d000, buf_addr=0xa8bc28, size=0x4, error=0x0, res=0x4, xid=0x21 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d004, buf_addr=0xa9a538, size=0x60, res=0x60, xid=0x22 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d004, buf_addr=0xa9a598, size=0x60, error=0x0, res=0x60, xid=0x22 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d064, buf_addr=0xa8bc14, size=0x4, res=0x4, xid=0x23 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d064, buf_addr=0xa8bc18, size=0x4, error=0x0, res=0x4, xid=0x23 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d068, buf_addr=0xa8bc18, size=0x4, res=0x4, xid=0x24 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d068, buf_addr=0xa8bc1c, size=0x4, error=0x0, res=0x4, xid=0x24 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d06c, buf_addr=0xd001f9d0, size=0x1cc, res=0x1cc, xid=0x25 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d06c, buf_addr=0xd001fb9c, size=0x1cc, error=0x0, res=0x1cc, xid=0x25 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d238, buf_addr=0x34371500, size=0x15226, res=0x15226, xid=0x26 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e6d238, buf_addr=0x30070000, size=0x15226, error=0x0, res=0x15226, xid=0x26 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e8245e, buf_addr=0xa8bc20, size=0x4, res=0x4, xid=0x27 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e8245e, buf_addr=0xa8bc24, size=0x4, error=0x0, res=0x4, xid=0x27 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e82462, buf_addr=0xd001f5d0, size=0x180, res=0x180, xid=0x28 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e82462, buf_addr=0xd001f750, size=0x180, error=0x0, res=0x180, xid=0x28 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e825e2, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x29 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1e825e2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x29 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1ed25f2, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x2a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1ed25f2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x2a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1ee2602, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x2b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1ee2602, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x2b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1f32612, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x2c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1f32612, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x2c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1f42622, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x2d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1f42622, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x2d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1f92632, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x2e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1f92632, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x2e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1fa2642, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x2f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1fa2642, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x2f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1ff2652, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x30 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x1ff2652, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x30 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2002662, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x31 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2002662, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x31 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2052672, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x32 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2052672, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x32 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2062682, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x33 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2062682, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x33 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x20b2692, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x34 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x20b2692, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x34 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x20c26a2, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x35 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x20c26a2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x35 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21126b2, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x36 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000264dc]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21126b2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x36 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21226c2, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x37 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21226c2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x37 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21726d2, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x38 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21726d2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x38 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21826e2, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x39 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21826e2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x39 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21d26f2, buf_addr=0x34386730, size=0x10010, res=0x10010, xid=0x3a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x000137e0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x01d5100c]]: PPU[2] Thread (Callback) leave
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21d26f2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x3a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21e2702, buf_addr=0x34386730, size=0x50010, res=0x50010, xid=0x3b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[! : PPU[2] Thread (Callback)[0x00250598]]: PPU[2] Thread (Callback) enter
-[E : PPU[2] Thread (Callback)[0x00250598]]: Unknown/Illegal opcode! (0x000137e0 : 0x0 : 0x0) #pc: 0x250598
-[! : PPU[2] Thread (Callback)[0x00250598]]: r0 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r1 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r2 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r3 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r4 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r5 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r6 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r7 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r8 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r9 = 0x0
-[! : PPU[2] Thread (Callback)[0x00250598]]: r10 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r11 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r12 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r13 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r14 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r15 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r16 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r17 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r18 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r19 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r20 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r21 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r22 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r23 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r24 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r25 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r26 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r27 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r28 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r29 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r30 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: r31 = 0x0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f0 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f1 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f2 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f3 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f4 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f5 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f6 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f7 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f8 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f9 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f10 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f11 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f12 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f13 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f14 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f15 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f16 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f17 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f18 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f19 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f20 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f21 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f22 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f23 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f24 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f25 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f26 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f27 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f28 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f29 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f30 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: f31 = 0.000000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: CR = 0x22000082
-[! : PPU[2] Thread (Callback)[0x000137e0]]: LR = 0x1d51000
-[! : PPU[2] Thread (Callback)[0x000137e0]]: CTR = 0x137e0
-[! : PPU[2] Thread (Callback)[0x000137e0]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
-[! : PPU[2] Thread (Callback)[0x000137e0]]: FPSCR = 0x0 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=0 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
-[! : PPU[2] Thread (Callback)[0x000137e4]]: PPU[2] Thread (Callback) leave
-[! : PPU[2] Thread (Callback)[0x000137e4]]: PPU[2] Thread (Callback) enter
-[! : RSXThread]: RSX thread exit...
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x21e2702, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x3b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2232712, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x3c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2242722, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x3d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2292732, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x3e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x22a2742, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x3f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x22f2752, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x40 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2302762, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x41 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2352772, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x42 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2362782, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x43 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x23b2792, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x44 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x23c27a2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x45 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x24127b2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x46 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x24227c2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x47 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x24727d2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x48 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x24827e2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x49 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x24d27f2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x4a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x24e2802, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x4b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2532812, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x4c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2542822, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x4d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2592832, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x4e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x25a2842, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x4f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x25f2852, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x50 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2602862, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x51 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2652872, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x52 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2662882, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x53 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x26b2892, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x54 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x26c28a2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x55 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x27128b2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x56 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x27228c2, buf_addr=0x300c0000, size=0x50010, error=0x0, res=0x50010, xid=0x57 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x27728d2, buf_addr=0x30080000, size=0x10010, error=0x0, res=0x10010, xid=0x58 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a26800, buf_addr=0xd001f5d4, size=0x4, error=0x0, res=0x4, xid=0x59 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a26804, buf_addr=0xd001f5d8, size=0x4, error=0x0, res=0x4, xid=0x5a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a26808, buf_addr=0xd001f5e0, size=0x4, error=0x0, res=0x4, xid=0x5b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a2680c, buf_addr=0xd001fa28, size=0x48, error=0x0, res=0x48, xid=0x5c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a26854, buf_addr=0x30088000, size=0x2b74, error=0x0, res=0x2b74, xid=0x5d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x2a293c8, buf_addr=0xd001f5dc, size=0x4, error=0x0, res=0x4, xid=0x5e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x306b800, buf_addr=0x3469b000, size=0x2720ec, error=0x0, res=0x2720ec, xid=0x5f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=73, offset=0x33de000, buf_addr=0x3482c000, size=0x40363b, error=0x0, res=0x40363b, xid=0x60 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
+[E : RSXThread]: Write64 to null block: [00000000]: deadbeefabadcafe
 [W : Audio Thread]: Audio aborted
-[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a6f8]]: sys_cond_wait(id=45) aborted
-[! : PPU[57] Thread (NisAt3Line2)[0x0001d81c]]: PPU[57] Thread (NisAt3Line2) leave
-[! : PPU[74] Thread (NowLoadingThread)[0x001fd2c8]]: PPU[74] Thread (NowLoadingThread) leave
-[! : PPU[56] Thread (NisAt3Line1)[0x0001d81c]]: PPU[56] Thread (NisAt3Line1) leave
-[W : PPU[1] Thread (CPUThread)[0x00248004]]: cellSysutilCheckCallback() aborted
-[W : PPU[46] Thread (_sys_mixerSurBusReq)[0x002077cc]]: sys_cond_wait(id=41) aborted
-[! : PPU[49] Thread (_cellsurMixerMain)[0x0020a6fc]]: PPU[49] Thread (_cellsurMixerMain) leave
-[! : PPU[2] Thread (Callback)[0x000137e4]]: PPU[2] Thread (Callback) leave
+[W : Demuxer[67] Thread]: Demuxer aborted
 [W : PPU[54] Thread (synth2_generate)[0x00015e84]]: sys_cond_wait(id=53) aborted
+[W : PPU[38] Thread (_sys_MixerChStripMain)[0x00209608]]: sys_cond_signal_all(id=45) aborted
 [W : SPU[25] Thread (_synth2 Thread)[0x00009494]]: sys_spu_thread_receive_event(spuq=0x1012000) aborted
-[! : PPU[1] Thread (CPUThread)[0x00248008]]: PPU[1] Thread (CPUThread) leave
-[W : fsAioRead]: fsAioRead() aborted
-[! : PPU[46] Thread (_sys_mixerSurBusReq)[0x002077d0]]: PPU[46] Thread (_sys_mixerSurBusReq) leave
-[! : SPU[25] Thread (_synth2 Thread)[0x00009498]]: SPU[25] Thread (_synth2 Thread) leave
-[! : PPU[54] Thread (synth2_generate)[0x00015e88]]: PPU[54] Thread (synth2_generate) leave
-[W : PPU[38] Thread (_sys_MixerChStripMain)[0x0020de18]]: sys_cond_wait(id=37) aborted
-[! : PPU[55] Thread (NisAt3Line0)[0x0024e014]]: PPU[55] Thread (NisAt3Line0) leave
-[! : PPU[38] Thread (_sys_MixerChStripMain)[0x0020de1c]]: PPU[38] Thread (_sys_MixerChStripMain) leave
+[W : PPU[46] Thread (_sys_mixerSurBusReq)[0x002077cc]]: sys_cond_wait(id=41) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

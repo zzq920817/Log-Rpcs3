@@ -156,7 +156,6 @@
 [E]: TODO: sys_prx_get_module_info
 [W]: Unknown function 0xe0998dbf in 'sysPrxForUser' module
 [E]: TODO: sys_prx_get_module_id_by_name
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x007e2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x007e2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x007e2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
@@ -1034,5 +1033,4 @@
 [! : PPU[1] Thread (CPUThread)[0x006ae1e4]]: CTR = 0x1dee48
 [! : PPU[1] Thread (CPUThread)[0x006ae1e4]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
 [! : PPU[1] Thread (CPUThread)[0x006ae1e4]]: FPSCR = 0x82008000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=8 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
-[! : PPU[1] Thread (CPUThread)[0x006ae1e8]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...
