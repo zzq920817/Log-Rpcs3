@@ -1,34 +1,4 @@
-[!]: PKG: extracting...
-[W]: UnPkg: Debug PKG detected.
-[!]: Magic: 0x7f504b47
-[!]: Release Type: 0x0
-[!]: Platform Type: 0x1
-[!]: Header size: 0xc0
-[!]: Unk1: 0x5
-[!]: Metadata size: 0x80
-[!]: File count: 5
-[!]: Pkg size: 843824
-[!]: Data offset: 0x140
-[!]: Data size: 0x843408
-[!]: TitleID: UP0001-HEROCITY1_00-0000000000000000
-[!]: QA Digest: 
-[!]: KLicensee: 
-[S]: PKG: extract done.
-[W]: UnPkg: Retail PKG detected.
-[!]: Magic: 0x7f504b47
-[!]: Release Type: 0x8000
-[!]: Platform Type: 0x1
-[!]: Header size: 0xc0
-[!]: Unk1: 0x5
-[!]: Metadata size: 0x80
-[!]: File count: 5
-[!]: Pkg size: 843824
-[!]: Data offset: 0x140
-[!]: Data size: 0x843408
-[!]: TitleID: UP0001-HEROCITY1_00-0000000000000000
-[!]: QA Digest: 
-[!]: KLicensee: 
-[!]: scetool: ELF written to D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\USRDIR\BOOT.BIN
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -192,8 +162,6 @@
 [E]: TODO: sys_interrupt_thread_disestablish
 [W]: Unknown function 0xac6fc404 in 'sysPrxForUser' module
 [E]: TODO: sys_ppu_thread_unregister_atexit
-[S]: Game: boot done.
-[! : PPU[1] Thread (CPUThread)[0x00010368]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x000780dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x000780dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x000780dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
@@ -213,5 +181,4 @@
 [W : PPU[1] Thread (CPUThread)[0x00078004]]: Process warning: sys_process_exit(1)
 [S : PPU[1] Thread (CPUThread)[0x00078004]]: Process finished
 [! : RSXThread]: RSX thread exit...
-[! : PPU[1] Thread (CPUThread)[0x00078008]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

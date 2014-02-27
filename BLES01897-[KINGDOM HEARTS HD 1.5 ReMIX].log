@@ -146,7 +146,6 @@
 [E]: TODO: sys_spinlock_lock
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
-[! : PPU[1] Thread (CPUThread)[0x0005306c]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0005b788]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x165ee8, attr_addr=0xd0020cd0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
@@ -177,7 +176,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00054f28]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ec78, attr_addr=0xd0020be0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x300101f4, attr_addr=0xd001f930, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00053b00]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ec7c, attr_addr=0xd001f9c8, initial_count=0, max_count=1)
-[! : PPU[32] Thread (SysCacheInit)[0x00101df8]]: PPU[32] Thread (SysCacheInit) enter
 [W : PPU[32] Thread (SysCacheInit)[0x001f8028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897\')
 [W : PPU[1] Thread (CPUThread)[0x00059b90]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10258, attr_addr=0xd001f9c0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00055e18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e102b0, attr_addr=0xd001f9d0, initial_count=1, max_count=1)
@@ -223,7 +221,60 @@
 [W : PPU[1] Thread (CPUThread)[0x0015f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FIBER)
 [E : PPU[1] Thread (CPUThread)[0x001fe004]]: TODO: _cellFiberPpuInitialize
 [W : PPU[1] Thread (CPUThread)[0x0015d094]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1447928)
-[! : PPU[2] Thread (Callback)[0x0005f2a0]]: PPU[2] Thread (Callback) enter
-[! : PPU[2] Thread (Callback)[0x0020c00c]]: PPU[2] Thread (Callback) leave
-[! : RSXThread]: RSX thread exit...
-[! : PPU[1] Thread (CPUThread)[0x001f805c]]: PPU[1] Thread (CPUThread) leave
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10368, attr_addr=0xd001f538, initial_count=0, max_count=1)
+[W : PPU[39] Thread (TrophyThread)[0x00206070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x19fee0, commID_addr=0x119a50, commSign_addr=0x119a5c, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00052ef8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e105d0, attr_addr=0xd001f5b0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10600, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[42] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e106f0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[39] Thread (TrophyThread)[0x00206010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x19fee4)
+[E : PPU[39] Thread (TrophyThread)[0x0020601c]]: sceNpTrophy error: Unimplemented function: sceNpTrophyGetRequiredDiskSpace
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x1618d0, arg_addr=0x0, options=0x0)
+[W : PPU[44] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e107e0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[46] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e108d0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[48] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e109c0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[50] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10ab0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[52] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10ba0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[54] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10c90, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[56] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10d80, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[58] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10e70, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[60] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e10f60, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[62] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11050, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[64] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11140, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[66] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11230, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[68] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11320, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[70] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11410, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[72] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11500, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[74] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e115f0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[76] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e116e0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[78] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e117d0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00054fe4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11964, attr_addr=0xd001f630, initial_count=1, max_count=1)
+[W : PPU[80] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11a10, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11b00, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
+[W : PPU[83] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[85] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11bf0, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
+[W : PPU[87] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11ce0, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
+[W : PPU[89] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36e11dd0, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
+[W : PPU[91] Thread (Launcher Entry)[0x0020a10c]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=3054)

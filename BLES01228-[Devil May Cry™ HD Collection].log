@@ -225,7 +225,6 @@
 [E]: TODO: _sys_spu_printf_finalize
 [W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_by_fd
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0056b058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x0056b058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x0056b058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
@@ -831,5 +830,4 @@
 [W : PPU[1] Thread (CPUThread)[0x0056b190]]: Process warning: sys_process_exit(1)
 [S : PPU[1] Thread (CPUThread)[0x0056b190]]: Process finished
 [! : RSXThread]: RSX thread exit...
-[! : PPU[1] Thread (CPUThread)[0x0056b194]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

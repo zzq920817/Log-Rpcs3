@@ -380,7 +380,6 @@
 [E]: TODO: sys_prx_load_module_by_fd
 [W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
 [E]: TODO: sys_prx_unload_module
-[! : PPU[1] Thread (CPUThread)[0x00010240]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x00dad834]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
@@ -440,7 +439,6 @@
 [E : PPU[1] Thread (CPUThread)[0x01dbb058]]: TODO: cellSpursInitializeWithAttribute2
 [W : PPU[1] Thread (CPUThread)[0x00cb1d00]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1d87a3c, attr_addr=0xd0020744, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x00cb1d00]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 34
-[! : PPU[35] Thread (spu_printf_handler)[0x00cb1e94]]: PPU[35] Thread (spu_printf_handler) enter
 [W : PPU[1] Thread (CPUThread)[0x00cb1d88]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1d87a48, port_type=0x1, name=0xfee1dead)
 [W : PPU[1] Thread (CPUThread)[0x00cb1d88]]: sys_event warning: *** sys_event_port created: id = 36
 [W : PPU[1] Thread (CPUThread)[0x00cb1da0]]: sys_event warning: sys_event_port_connect_local(eport_id=36, equeue_id=34)
@@ -453,7 +451,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00c0a2fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 39
 [W : PPU[1] Thread (CPUThread)[0x00c0a374]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 40
 [W : PPU[1] Thread (CPUThread)[0x00c0a394]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 41
-[! : PPU[42] Thread (sgsfile-req-th)[0x00c085c4]]: PPU[42] Thread (sgsfile-req-th) enter
 [E : PPU[1] Thread (CPUThread)[0x00c08a0c]]: Unknown syscall: 631 - 00000277
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
@@ -465,7 +462,6 @@
 [E : PPU[1] Thread (CPUThread)[0x01dad004]]: TODO: sys_net_initialize_network_ex
 [W : PPU[1] Thread (CPUThread)[0x01db9028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01555\')
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
-[! : PPU[44] Thread (GameContentAccess)[0x000fbfe4]]: PPU[44] Thread (GameContentAccess) enter
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb088]]: cellGame warning: cellGameBootCheck(type_addr=0x1cfc890, attributes_addr=0x1cfc894, size_addr=0x1cfc898, dirName_addr=0x1cfcfce)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfc8a4)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfc8a8)
@@ -547,8 +543,4 @@
 [E : PPU[1] Thread (CPUThread)[0x00c3fcb8]]: Read32 from null block: [90642148]
 [W : PPU[42] Thread (sgsfile-req-th)[0x00c0a630]]: sys_cond_wait(id=40) aborted
 [W : PPU[35] Thread (spu_printf_handler)[0x00cb1ed8]]: sys_event_queue_receive(equeue=34) aborted
-[! : PPU[1] Thread (CPUThread)[0x00c3fcbc]]: PPU[1] Thread (CPUThread) leave
-[! : PPU[44] Thread (GameContentAccess)[0x000fbde8]]: PPU[44] Thread (GameContentAccess) leave
-[! : PPU[42] Thread (sgsfile-req-th)[0x00c0a634]]: PPU[42] Thread (sgsfile-req-th) leave
-[! : PPU[35] Thread (spu_printf_handler)[0x00cb1edc]]: PPU[35] Thread (spu_printf_handler) leave
 [!]: Closing memory...

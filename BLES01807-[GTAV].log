@@ -419,7 +419,6 @@
 [W]: Unknown function 0xfee11e72 in 'sceNp2' module
 [E]: TODO: sceNpMatching2RegisterRoomMessageCallback
 [W]: Unknown module 'sceNpSns'
-[! : PPU[1] Thread (CPUThread)[0x000109e4]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
@@ -522,5 +521,4 @@
 [E : PPU[1] Thread (CPUThread)[0x020b4154]]: TODO: sceNpManagerGetStatus
 [W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 56
 [W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 57
-[! : PPU[1] Thread (CPUThread)[0x00c73ae4]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

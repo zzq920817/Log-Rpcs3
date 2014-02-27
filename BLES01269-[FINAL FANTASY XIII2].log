@@ -302,7 +302,6 @@
 [E]: TODO: _sys_spu_printf_finalize
 [W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
 [E]: TODO: sys_prx_unload_module
-[! : PPU[1] Thread (CPUThread)[0x006b3598]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x00a70d9c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
@@ -638,7 +637,6 @@
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207e0, attr_addr=0xd00207c0, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020710, attr_addr=0xd00206f0, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 175
-[! : PPU[176] Thread (ZDecode)[0x002e42c4]]: PPU[176] Thread (ZDecode) enter
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 177
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 178
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020890, attr_addr=0xd0020870, initial_count=0, max_count=268435455)
@@ -653,22 +651,18 @@
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020890, attr_addr=0xd0020870, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207c0, attr_addr=0xd00207a0, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 190
-[! : PPU[191] Thread (FileRead)[0x002e42c4]]: PPU[191] Thread (FileRead) enter
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 192
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 193
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 194
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020890, attr_addr=0xd0020870, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 196
-[! : PPU[197] Thread (GameInitializer)[0x002e42c4]]: PPU[197] Thread (GameInitializer) enter
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 198
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 199
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 200
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020890, attr_addr=0xd0020870, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 202
-[! : PPU[203] Thread (Trophy)[0x002e42c4]]: PPU[203] Thread (Trophy) enter
 [W : PPU[1] Thread (CPUThread)[0x002e54fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020890, attr_addr=0xd0020870, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 205
-[! : PPU[206] Thread (GameUpdate)[0x002e42c4]]: PPU[206] Thread (GameUpdate) enter
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 207
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 208
 [W : PPU[1] Thread (CPUThread)[0x014c7058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 209
@@ -803,4 +797,3 @@
 [! : PPU[1] Thread (CPUThread)[0x00000000]]: XER = 0x2000000000000000 [CA=1 | OV=0 | SO=0]
 [! : PPU[1] Thread (CPUThread)[0x00000000]]: FPSCR = 0x82009000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=9 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
 [! : RSXThread]: RSX thread exit...
-[! : PPU[1] Thread (CPUThread)[0x00000004]]: PPU[1] Thread (CPUThread) leave

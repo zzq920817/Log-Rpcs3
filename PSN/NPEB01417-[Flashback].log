@@ -266,7 +266,6 @@
 [E]: TODO: cellOvisGetOverlayTableSize
 [W]: Unknown function 0xa876c911 in 'cellOvis' module
 [E]: TODO: cellOvisInitializeOverlayTable
-[! : PPU[1] Thread (CPUThread)[0x0098fd60]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0217f058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x011b84ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
 [W : PPU[1] Thread (CPUThread)[0x0217f058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
@@ -334,5 +333,4 @@
 [W : PPU[1] Thread (CPUThread)[0x01eab034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00202e4)
 [E : PPU[1] Thread (CPUThread)[0x008ca334]]: Read32 from null block: [d0023138]
 [! : RSXThread]: RSX thread exit...
-[! : PPU[1] Thread (CPUThread)[0x008ca338]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

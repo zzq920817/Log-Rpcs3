@@ -166,7 +166,6 @@
 [W]: Unknown function 0x55870804 in 'cellFiber' module
 [E]: TODO: _cellFiberPpuInitialize
 [W]: Unknown module 'cellSaveData'
-[! : PPU[1] Thread (CPUThread)[0x00010c94]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x000fd034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x000fd034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x000fd034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
@@ -267,5 +266,4 @@
 [W : PPU[1] Thread (CPUThread)[0x000fd058]]: Process warning: data_size: 0x0
 [W : PPU[1] Thread (CPUThread)[0x000fd058]]: Process warning: prio: 0
 [W : PPU[1] Thread (CPUThread)[0x000fd058]]: Process warning: flags: 80
-[! : PPU[1] Thread (CPUThread)[0x000232b4]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...
