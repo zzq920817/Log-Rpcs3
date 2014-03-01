@@ -241,10 +241,10 @@
 [W : PPU[1] Thread (CPUThread)[0x00208678]]: sys_cond warning: *** condition created [] (mutex_id=44): id = 45
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 47
 [W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 48
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 50
 [W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1d34924, attr_addr=0x1d359d0, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1d34968, portNum_addr=0x1d348d8)
+[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 50
 [W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 51
+[W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1d34968, portNum_addr=0x1d348d8)
 [W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 1
 [W : PPU[1] Thread (CPUThread)[0x01d3b040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x1d34988)
 [W : PPU[1] Thread (CPUThread)[0x0001602c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
@@ -333,10 +333,14 @@
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/ANM_en.dat"): fd = 75
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
 [W : fsAioRead]: *** fsAioRead(fd=75, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0xf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x10 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
 [W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x10 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=75, offset=0xc, buf_addr=0xb9d774, size=0x4, error=0x0, res=0x4, xid=0x11 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
+[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x0, buf_addr=0x30056000, size=0x8a8, error=0x0, res=0x8a8, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -382,10 +386,6 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=75, offset=0xc, buf_addr=0xb9d774, size=0x4, error=0x0, res=0x4, xid=0x11 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=75, offset=0x0, buf_addr=0x30056000, size=0x8a8, error=0x0, res=0x8a8, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
 [W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/BG_en.dat"): fd = 76
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
 [W : fsAioRead]: *** fsAioRead(fd=76, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0x13 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
@@ -545,11 +545,11 @@ void main()
 [W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
 [W : fsAioRead]: *** fsAioRead(fd=73, offset=0x33de000, buf_addr=0x3482c000, size=0x40363b, error=0x0, res=0x40363b, xid=0x60 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
 [E : RSXThread]: Write64 to null block: [00000000]: deadbeefabadcafe
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
-[W : PPU[54] Thread (synth2_generate)[0x00015e84]]: sys_cond_wait(id=53) aborted
 [W : Demuxer[67] Thread]: Demuxer aborted
-[W : PPU[46] Thread (_sys_mixerSurBusReq)[0x002077cc]]: sys_cond_wait(id=41) aborted
-[W : SPU[25] Thread (_synth2 Thread)[0x00009494]]: sys_spu_thread_receive_event(spuq=0x1012000) aborted
 [W : PPU[38] Thread (_sys_MixerChStripMain)[0x00209608]]: sys_cond_signal_all(id=45) aborted
+[W : SPU[25] Thread (_synth2 Thread)[0x00009494]]: sys_spu_thread_receive_event(spuq=0x1012000) aborted
+[W : PPU[46] Thread (_sys_mixerSurBusReq)[0x002077cc]]: sys_cond_wait(id=41) aborted
+[W : PPU[54] Thread (synth2_generate)[0x00015e84]]: sys_cond_wait(id=53) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
