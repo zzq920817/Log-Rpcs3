@@ -1,0 +1,1215 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'C:\Rpcs3\trunk\bin\dev_hdd0\game\HBFS90000\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> C:\Rpcs3\trunk\bin\dev_hdd0\
+[!]: /dev_hdd1/ -> C:\Rpcs3\trunk\bin\dev_hdd1\
+[!]: /dev_usb000/ -> C:\Rpcs3\trunk\bin\dev_usb000\
+[!]: /dev_usb/ -> C:\Rpcs3\trunk\bin\dev_usb\
+[!]: /app_home/ -> C:\Rpcs3\trunk\bin\app_home\
+[!]: /host_root/ -> C:\Rpcs3\trunk\bin\host_root\
+[!]: / -> C:\Rpcs3\trunk\bin\dev_hdd0\game\HBFS90000\
+[!]: /dev_bdvd/ -> C:\Rpcs3\trunk\bin\dev_bdvd\
+[!]: /dev/ -> C:\Rpcs3\trunk\bin\dev\
+[!]: /sequencer/ -> C:\Rpcs3\trunk\bin\dev\sequencer\
+[!]:  -> 
+[!]: /dev_flash/ -> C:\Rpcs3\trunk\bin\dev_flash\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x66f5e388 in 'cellResc' module
+[E]: TODO: cellRescGetLastFlipTime
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReportDataLocation
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
+[E]: TODO: cellSpursDetachLv2EventQueue
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
+[E]: TODO: cellSpursAttachLv2EventQueue
+[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
+[E]: TODO: _cellSpursSendSignal
+[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x004cd394]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 34
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 36
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 40
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x004c7800]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/HBFS90000/USRDIR/.fuserc" not found.
+[W : PPU[1] Thread (CPUThread)[0x004c7c28]]: *** cellFsOpen(path="/dev_hdd0/game/HBFS90000/USRDIR/fuse.font"): fd = 43
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 44
+[W : PPU[1] Thread (CPUThread)[0x004c7ba0]]: sys_fs warning: cellFsClose(fd=43)
+[W : PPU[1] Thread (CPUThread)[0x00cff0a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30026d20)
+[W : PPU[1] Thread (CPUThread)[0x005f0d58]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=2)
+[W : PPU[1] Thread (CPUThread)[0x0071a004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x0071a004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00085068]]: sys_spu warning: sys_spu_initialize(max_usable_spu=1, max_raw_spu=1)
+[W : PPU[1] Thread (CPUThread)[0x000853d8]]: sys_spu warning: sys_raw_spu_create(id_addr=0x8b8364, attr_addr=0xd00205c0)
+[! : RawSPU[45] Thread (CPUThread)[0x5f7665645c6e6962]]: RawSPU[45] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x00085788]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[1] Thread (CPUThread)[0x00085788]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[1] Thread (CPUThread)[0x00085a84]]: RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
+[W : PPU[1] Thread (CPUThread)[0x00085a88]]: RawSPUThread[0]: Write32(Prxy_QueryType, 0x2)
+[W : PPU[1] Thread (CPUThread)[0x00085a88]]: RawSPUThread[0]: Prxy Query Immediate.
+[W : PPU[1] Thread (CPUThread)[0x00085a98]]: RawSPUThread[0]: Read32(MFC_QStatus)
+[W : PPU[1] Thread (CPUThread)[0x00085ad8]]: RawSPUThread[0]: Write32(SPU_NPC, 0xe0)
+[W : PPU[1] Thread (CPUThread)[0x00085178]]: RawSPUThread[0]: Write32(SPU_NPC, 0xe0)
+[W : PPU[1] Thread (CPUThread)[0x0008514c]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
+[W : RawSPU[45] Thread (CPUThread)[0x000000e0]]: Starting RawSPU...
+[W : PPU[1] Thread (CPUThread)[0x0007d86c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x0007d8a8]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x0071e010]]: cellGcmSys warning: cellGcmInit(context_addr=0xa4b6d0,cmdSize=0x10000,ioSize=0x2100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x0071e010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0071e010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x2100000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x0071e070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
+[E : PPU[1] Thread (CPUThread)[0x0071e16c]]: TODO: cellGcmSetGraphicsHandler
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[W : PPU[1] Thread (CPUThread)[0x0071e094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32416000, io=0xe000000, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=4)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=6)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=7)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=10)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=11)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=12)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=13)
+[W : PPU[1] Thread (CPUThread)[0x0071e184]]: cellGcmSys warning: cellGcmUnbindTile(index=14)
+[W : PPU[1] Thread (CPUThread)[0x0071e148]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=257163264, size=3932160, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0071e058]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x0071e148]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=253231104, size=7864320, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0071e058]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x000e3478]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x8b8a28, attr_addr=0xd00204c0, initial_count=1, max_count=2)
+[W : PPU[1] Thread (CPUThread)[0x0071e0f4]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=7612136)
+[E : PPU[1] Thread (CPUThread)[0x0071e130]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x00718004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020490, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0071e064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+[W : PPU[1] Thread (CPUThread)[0x0071e100]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xf540000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0071e100]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xf180000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00084b44]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 47
+[W : PPU[1] Thread (CPUThread)[0x00084cec]]: sys_cond warning: *** condition created [] (mutex_id=47): id = 48
+[W : PPU[1] Thread (CPUThread)[0x004c7c28]]: *** cellFsOpen(path="/dev_hdd0/game/HBFS90000/USRDIR/sdcellrc"): fd = 49
+[W : PPU[1] Thread (CPUThread)[0x00cff034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x004c7ba0]]: sys_fs warning: cellFsClose(fd=49)
+[W : PPU[1] Thread (CPUThread)[0x00cff0a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3003bd20)
+[W : PPU[1] Thread (CPUThread)[0x0007e098]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
+[W : PPU[1] Thread (CPUThread)[0x0007e098]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120001)
+[W : PPU[1] Thread (CPUThread)[0x0007e11c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x0007e098]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80002)
+[W : PPU[1] Thread (CPUThread)[0x0007e098]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
+[W : PPU[1] Thread (CPUThread)[0x0007e11c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x0007e098]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80004)
+[W : PPU[1] Thread (CPUThread)[0x0007e098]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120005)
+[W : PPU[1] Thread (CPUThread)[0x0007e11c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[E : PPU[1] Thread (CPUThread)[0x0071e118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x0071e118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x0071e118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x0071e118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[W : RSXThread]: NV4097_SET_BLEND_ENABLE_MRT: e
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: NV4097_SET_REDUCE_DST_COLOR
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[E : Vertex Shader Decompiler Thread]: Unknown vp opcode 0xd
+[E : Vertex Shader Decompiler Thread]: Unknown vp sca_opcode 0x7
+[E : Vertex Shader Decompiler Thread]: Unknown vp opcode 0xd
+[E : Vertex Shader Decompiler Thread]: Unknown vp sca_opcode 0x7
+[E : RSXThread]: Could not link program: Vertex info
+-----------
+0(281) : error C5005: recursive call to function "void func134(){    // 10298:117
+  tmp5[3] = (tmp5[ivec4(3, 3, 3, 3)] * tmp6[ivec4(3, 3, 3, 3)])[3];    // 10298:159
+  tmp2[ivec3(0, 1, 2)] = (tmp5[ivec4(3, 3, 3, 3)] * tmp6[ivec4(0, 1, 2, 0)] + tmp2[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:160
+  if (all(greaterThan(rc[ivec4(2, 2, 2, 2)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:161
+    func86();    // 10298:161
+    gl_Position = mul(scaleOffsetMat, gl_Position);    // 10298:161
+    return ;    // 10298:161;
+  }    // 10298:161
+  tmp2[3] = clamp(tmp4[3], 0f, 1f);    // 10298:162
+  tmp4[ivec3(0, 1, 2)] = (tmp5[ivec4(0, 1, 2, 0)] * vc403[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:163
+  tmp4[ivec3(0, 1, 2)] = (tmp4[ivec4(0, 1, 2, 0)] + vc402[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:164
+  tmp2[ivec3(0, 1, 2)] = clamp((tmp2[ivec4(0, 1, 2, 0)] + tmp4[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)], 0f, 1f);    // 10298:165
+  tmp4[0] = vc463[0];    // 10298:166
+  tmp4 = (vec4)notEqual(vc401, tmp4[ivec4(0, 0, 0, 0)]);    // 10298:167
+  tmp4[0] = clamp((tmp4[ivec4(0, 0, 0, 0)] + tmp4[ivec4(1, 1, 1, 1)])[0], 0f, 1f);    // 10298:168
+  tmp4[0] = clamp((tmp4[ivec4(0, 0, 0, 0)] + tmp4[ivec4(2, 2, 2, 2)])[0], 0f, 1f);    // 10298:169
+  rc[0] = clamp((tmp4[ivec4(0, 0, 0, 0)] + tmp4[ivec4(3, 3, 3, 3)])[0], 0f, 1f);    // 10298:170
+  if (all(lessThanEqual(rc[ivec4(0, 0, 0, 0)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:171
+    func182();    // 10298:171
+    return ;    // 10298:171;
+  }    // 10298:171
+  if (all(lessThanEqual(rc[ivec4(0, 0, 0, 0)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:172
+    tmp4 = in_tc0;
+  }    // 10298:172
+  tmp9[0] = vc400[0];    // 10298:173
+  tmp7[ivec2(2, 3)] = vc463[ivec2(0, 2)];    // 10298:174
+  tmp9[1] = dot(tmp14[ivec3(0, 1, 2)], tmp3[ivec3(0, 1, 2)]);    // 10298:175
+  tmp5 = tmp3[ivec4(1, 1, 1, 1)] * vc268;    // 10298:176
+  tmp8[0] = dot(tmp3[ivec3(0, 1, 2)], tmp3[ivec3(0, 1, 2)]);    // 10298:177
+  tmp7[ivec2(0, 1)] = vc400[ivec2(1, 2)];    // 10298:178
+  tmp4 = in_tc0;    // 10298:179
+  tmp6 = in_pos[ivec4(1, 1, 1, 1)] * vc268;    // 10298:180
+  tmp8[ivec2(2, 3)] = vc463[ivec2(2, 3)];    // 10298:181
+  rc = (vec4)equal(vc401, tmp8[ivec4(2, 2, 2, 2)]);    // 10298:182
+  tmp6 = in_pos[ivec4(0, 0, 0, 0)] * vc267 + tmp6;    // 10298:183
+  tmp6 = in_pos[ivec4(2, 2, 2, 2)] * vc269 + tmp6;    // 10298:184
+  if (all(greaterThan(rc, vec4(0f, 0f, 0f, 0f))))  {      // 10298:185
+    tmp4 = in_pos[ivec4(3, 3, 3, 3)] * vc270 + tmp6;
+  }    // 10298:185
+  rc = (vec4)equal(vc401, tmp7[ivec4(0, 0, 0, 0)]);    // 10298:186
+  tmp6[0] = inversesqrt(tmp8[0]);    // 10298:187
+  tmp5 = tmp3[ivec4(0, 0, 0, 0)] * vc267 + tmp5;    // 10298:188
+  tmp6[ivec3(0, 1, 2)] = (tmp6[ivec4(0, 0, 0, 0)] * tmp3[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:189
+  tmp6[3] = dot(tmp14[ivec3(0, 1, 2)], tmp6[ivec3(0, 1, 2)]);    // 10298:190
+  tmp5 = tmp3[ivec4(2, 2, 2, 2)] * vc269 + tmp5;    // 10298:191
+  tmp8[ivec3(0, 1, 2)] = (tmp14[ivec4(0, 1, 2, 0)] * tmp6[ivec4(3, 3, 3, 3)])[ivec3(0, 1, 2)];    // 10298:192
+  tmp8[ivec3(0, 1, 2)] = (tmp8[ivec4(0, 1, 2, 0)] * vc400[ivec4(1, 1, 1, 1)])[ivec3(0, 1, 2)];    // 10298:193
+  tmp6[ivec3(0, 1, 2)] = (tmp6[ivec4(0, 1, 2, 0)] + -tmp8[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:194
+  if (all(greaterThan(rc, vec4(0f, 0f, 0f, 0f))))  {      // 10298:195
+    tmp4 = tmp3[ivec4(3, 3, 3, 3)] * vc270 + tmp5;
+  }    // 10298:195
+  tmp5[ivec3(0, 1, 2)] = (tmp6[ivec4(0, 1, 2, 0)] + vc463[ivec4(0, 0, 2, 0)])[ivec3(0, 1, 2)];    // 10298:196
+  rc = (vec4)equal(vc401, tmp7[ivec4(1, 1, 1, 1)]);    // 10298:197
+  tmp5[3] = dot(tmp5[ivec3(0, 1, 2)], tmp5[ivec3(0, 1, 2)]);    // 10298:198
+  tmp5[ivec3(0, 1, 2)] = (tmp14[ivec4(0, 1, 2, 0)] * tmp9[ivec4(1, 1, 1, 1)])[ivec3(0, 1, 2)];    // 10298:199
+  tmp5[3] = inversesqrt(tmp5[3]);    // 10298:200
+  tmp5[ivec3(0, 1, 2)] = (-tmp5[ivec4(0, 1, 2, 0)] * vc400[ivec4(1, 1, 1, 1)] + tmp3[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:201
+  tmp6[ivec2(0, 1)] = (tmp5[ivec4(3, 3, 3, 3)] * tmp6[ivec4(0, 1, 0, 0)])[ivec2(0, 1)];    // 10298:202
+  tmp7[ivec2(0, 1)] = (tmp6[ivec4(0, 1, 0, 0)] * vc400[ivec4(3, 3, 3, 3)] + vc400[ivec4(3, 3, 3, 3)])[ivec2(0, 1)];    // 10298:203
+  tmp5[3] = dot(tmp5[ivec3(0, 1, 2)], tmp5[ivec3(0, 1, 2)]);    // 10298:204
+  if (all(greaterThan(rc, vec4(0f, 0f, 0f, 0f))))  {      // 10298:205
+    tmp4 = tmp7;
+  }    // 10298:205
+  rc = (vec4)equal(vc401, tmp9[ivec4(0, 0, 0, 0)]);    // 10298:206
+  func182();    // 10298:207
+} 
+"
+0(215) : error C5005: recursive call to function "void func31(){    // 10298:115
+  if (all(equal(rc[ivec4(1, 1, 1, 1)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:229
+    func74();    // 10298:229
+    gl_Position = mul(scaleOffsetMat, gl_Position);    // 10298:229
+    return ;    // 10298:229;
+  }    // 10298:229
+  tmp2[0] = (tmp1[ivec4(3, 3, 3, 3)] * vc463[ivec4(1, 1, 1, 1)])[0];    // 10298:230
+  tmp8[2] = vc405[0];    // 10298:232
+  tmp2[ivec3(0, 1, 2)] = vc463[ivec3(0, 0, 0)];    // 10298:233
+  tmp6[ivec3(0, 1, 2)] = (tmp3[ivec4(0, 1, 2, 0)] * vc406[ivec4(3, 3, 3, 3)])[ivec3(0, 1, 2)];    // 10298:234
+  tmp6[ivec3(0, 1, 2)] = (vc406[ivec4(0, 1, 2, 0)] * tmp3[ivec4(3, 3, 3, 3)] + -tmp6[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:235
+  tmp1[3] = (tmp1[ivec4(3, 3, 3, 3)] + vc463[ivec4(2, 2, 2, 2)])[3];    // 10298:236
+  tmp5[3] = dot(tmp6[ivec3(0, 1, 2)], tmp6[ivec3(0, 1, 2)]);    // 10298:237
+  tmp2[3] = vc463[0];    // 10298:238
+  rc[3] = inversesqrt(tmp5[3]);    // 10298:239
+  rc[2] = (float)lessThan(tmp1[ivec4(3, 3, 3, 3)], vc462[ivec4(0, 0, 0, 0)])[2];    // 10298:240
+  rc[0] = vc411[0];    // 10298:241
+  tmp6[ivec3(0, 1, 2)] = (tmp5[ivec4(3, 3, 3, 3)] * tmp6[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:242
+  tmp6[3] = dot(tmp6[ivec3(0, 1, 2)], vc410[ivec3(0, 1, 2)]);    // 10298:243
+  tmp7[0] = (float)greaterThanEqual(vc411[ivec4(0, 0, 0, 0)], tmp2[ivec4(3, 3, 3, 3)])[0];    // 10298:244
+  tmp6[3] = -tmp6[3];    // 10298:245
+  if (all(lessThan(rc[ivec4(0, 0, 0, 0)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:246
+    tmp6[3] = vc463[2];
+  }    // 10298:246
+  tmp2[3] = tmp6[3];    // 10298:247
+  tmp7[1] = (float)greaterThan(tmp6[ivec4(3, 3, 3, 3)], vc411[ivec4(0, 0, 0, 0)])[1];    // 10298:248
+  tmp6[3] = log2(tmp6[3]);    // 10298:249
+  tmp7[2] = (float)equal(tmp7[ivec4(1, 1, 1, 1)], vc463[ivec4(0, 0, 0, 0)])[2];    // 10298:250
+  rc[1] = (tmp7[ivec4(0, 0, 0, 0)] * tmp7[ivec4(1, 1, 1, 1)])[1];    // 10298:251
+  rc[0] = (tmp7[ivec4(0, 0, 0, 0)] * tmp7[ivec4(2, 2, 2, 2)])[0];    // 10298:252
+  tmp7[ivec3(0, 1, 2)] = (tmp6[ivec4(0, 1, 2, 0)] + vc463[ivec4(0, 0, 2, 0)])[ivec3(0, 1, 2)];    // 10298:253
+  tmp5[3] = 1f / tmp5[3];    // 10298:254
+  tmp6[3] = (vc411[ivec4(1, 1, 1, 1)] * tmp6[ivec4(3, 3, 3, 3)])[3];    // 10298:255
+  tmp7[3] = dot(tmp7[ivec3(0, 1, 2)], tmp7[ivec3(0, 1, 2)]);    // 10298:256
+  if (all(greaterThan(rc[ivec4(1, 1, 1, 1)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:257
+    tmp2[3] = exp2(tmp6[3]);
+  }    // 10298:257
+  rc[1] = dot(tmp7[ivec3(0, 1, 2)], tmp7[ivec3(0, 1, 2)]);    // 10298:258
+  tmp8[0] = dot(tmp14[ivec3(0, 1, 2)], tmp6[ivec3(0, 1, 2)]);    // 10298:259
+  tmp6[1] = inversesqrt(tmp7[3]);    // 10298:260
+  tmp6[0] = (vc412[ivec4(2, 2, 2, 2)] * tmp5[ivec4(3, 3, 3, 3)] + vc412[ivec4(1, 1, 1, 1)])[0];    // 10298:261
+  if (all(greaterThan(rc[ivec4(1, 1, 1, 1)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:262
+    tmp2[ivec3(0, 1, 2)] = (tmp6[ivec4(1, 1, 1, 1)] * tmp7[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];
+  }    // 10298:262
+  tmp8[1] = dot(tmp14[ivec3(0, 1, 2)], tmp2[ivec3(0, 1, 2)]);    // 10298:263
+  tmp2[0] = (tmp6[ivec4(0, 0, 0, 0)] * tmp5[ivec4(3, 3, 3, 3)] + vc412[ivec4(0, 0, 0, 0)])[0];    // 10298:264
+  if (all(greaterThan(rc[ivec4(0, 0, 0, 0)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:266
+    tmp2[3] = vc463[0];
+  }    // 10298:266
+  tmp5[3] = 1f / tmp2[0];    // 10298:267
+  tmp6[ivec3(0, 1, 2)] = (tmp2[ivec4(1, 1, 1, 1)] * tmp4[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:268
+  tmp2[ivec3(0, 1, 2)] = (tmp2[ivec4(2, 2, 2, 2)] * vc404[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:269
+  tmp6[ivec3(0, 1, 2)] = (tmp6[ivec4(0, 1, 2, 0)] * vc408[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:270
+  tmp6[ivec3(0, 1, 2)] = (tmp5[ivec4(0, 1, 2, 0)] * vc407[ivec4(0, 1, 2, 0)] + tmp6[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:271
+  func74();    // 10298:272
+} 
+"
+
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 5680
+[! : RSXThread]: *** fp data size = 32
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+uniform vec4 vc263;
+uniform vec4 vc262;
+uniform vec4 vc261;
+uniform vec4 vc260;
+uniform vec4 vc259;
+uniform vec4 vc257;
+uniform vec4 vc256;
+uniform vec4 vc467;
+uniform vec4 vc258;
+uniform vec4 vc266;
+uniform vec4 vc265;
+uniform vec4 vc264;
+uniform vec4 vc466;
+uniform vec4 vc463;
+uniform vec4 vc462;
+uniform vec4 vc465;
+uniform vec4 vc464;
+uniform vec4 vc405;
+uniform vec4 vc406;
+uniform vec4 vc411;
+uniform vec4 vc410;
+uniform vec4 vc412;
+uniform vec4 vc404;
+uniform vec4 vc408;
+uniform vec4 vc407;
+uniform vec4 vc409;
+uniform vec4 vc403;
+uniform vec4 vc402;
+uniform vec4 vc401;
+uniform vec4 vc400;
+uniform vec4 vc268;
+uniform vec4 vc267;
+uniform vec4 vc269;
+uniform vec4 vc270;
+uniform vec4 vc399;
+uniform vec4 vc276;
+uniform vec4 vc275;
+uniform vec4 vc277;
+uniform vec4 vc278;
+uniform vec4 vc398;
+uniform vec4 vc284;
+uniform vec4 vc283;
+uniform vec4 vc285;
+uniform vec4 vc286;
+uniform vec4 vc397;
+uniform vec4 vc292;
+uniform vec4 vc291;
+uniform vec4 vc293;
+uniform vec4 vc294;
+uniform vec4 vc395;
+uniform vec4 vc394;
+uniform vec4 vc393;
+uniform vec4 vc392;
+uniform vec4 vc391;
+uniform vec4 vc390;
+uniform vec4 vc298;
+uniform vec4 vc297;
+uniform vec4 vc296;
+uniform vec4 vc295;
+uniform vec4 vc290;
+uniform vec4 vc289;
+uniform vec4 vc288;
+uniform vec4 vc287;
+uniform vec4 vc282;
+uniform vec4 vc281;
+uniform vec4 vc280;
+uniform vec4 vc396;
+uniform vec4 vc274;
+uniform vec4 vc273;
+uniform vec4 vc272;
+uniform vec4 vc271;
+uniform vec4 vc279;
+layout (location = 0) in vec4 in_pos;
+layout (location = 2) in vec4 in_normal;
+layout (location = 3) in vec4 in_col0;
+layout (location = 8) in vec4 in_tc0;
+layout (location = 9) in vec4 in_tc1;
+layout (location = 10) in vec4 in_tc2;
+layout (location = 11) in vec4 in_tc3;
+vec4 tmp0;
+vec4 tmp3;
+vec4 rc = vec4(0.0);
+vec4 tmp5;
+vec4 tmp4;
+vec4 tmp2;
+vec4 tmp1;
+vec4 tmp14;
+vec4 tmp8;
+vec4 tmp6;
+vec4 tmp7;
+vec4 tmp9;
+vec4 tmp10;
+vec4 tmp11;
+vec4 tmp12;
+vec4 tmp13;
+vec4 tmp15;
+vec4 tmp16;
+out vec4 col0;
+out vec4 bfc0;
+out vec4 fogc;
+out vec4 tc3;
+out vec4 tc2;
+out vec4 tc1;
+out vec4 tc0;
+
+void func323();
+void func276();
+void func229();
+void func182();
+void func86();
+void func130();
+void func31();
+void func74();
+void func134();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	tmp0.w = vec2(dot(in_pos, vc263), 0).xxxx.w;
+	tmp0.z = vec2(dot(in_pos, vc262), 0).xxxx.z;
+	tmp0.y = vec2(dot(in_pos, vc261), 0).xxxx.y;
+	tmp0.x = vec2(dot(in_pos, vc260), 0).xxxx.x;
+	tmp3.w = vec2(dot(in_pos, vc259), 0).xxxx.w;
+	tmp3.y = vec2(dot(in_pos, vc257), 0).xxxx.y;
+	tmp3.x = vec2(dot(in_pos, vc256), 0).xxxx.x;
+	rc.xy = vc467.wxww.xy;
+	tmp5.xy = vec2(dot(in_pos, vc258), 0).xxxx.xy;
+	tmp4.z = vec2(dot(in_normal.xyzx.xyz, vc266.xyzx.xyz), 0).xxxx.z;
+	tmp4.y = vec2(dot(in_normal.xyzx.xyz, vc265.xyzx.xyz), 0).xxxx.y;
+	tmp4.x = vec2(dot(in_normal.xyzx.xyz, vc264.xyzx.xyz), 0).xxxx.x;
+	tmp2 = clamp(in_col0, 0.0, 1.0);
+	tmp1 = tmp2;
+	tmp4.xyz = (tmp4.xyzx * vc466.xxxx).xyz;
+	tmp4.w = vec2(dot(tmp4.xyzx.xyz, tmp4.xyzx.xyz), 0).xxxx.w;
+	tmp3.z = tmp5.yyyy.z;
+	tmp4.w = inversesqrt(tmp4.w);
+	tmp14.w = abs(tmp5.xxxx).w;
+	tmp14.xyz = tmp4.xyzx.xyz;
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) tmp14.xyz = (tmp4.wwww * tmp4.xyzx).xyz;
+	if(all(equal(rc.yyyy, vec4(0.0).yyyy))) { func134(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	tmp1.xyz = vc463.xxxx.xyz;
+	tmp1.w = vc463.xxxx.w;
+	tmp4 = in_col0;
+	rc.x = vc467.zzzz.x;
+	tmp5.xyz = in_col0.xyzx.xyz;
+	tmp2.x = vc462.xxxx.x;
+	rc.y = vec4(lessThan(vc463.xxxx, tmp2.xxxx)).y;
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp5.xyz = vc465.xyzx.xyz;
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp4 = vc464;
+	func31();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func134()
+{
+	tmp5.w = (tmp5.wwww * tmp6.wwww).w;
+	tmp2.xyz = (tmp5.wwww * tmp6.xyzx + tmp2.xyzx).xyz;
+	if(all(greaterThan(rc.zzzz, vec4(0.0).zzzz))) { func86(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	tmp2.w = clamp(tmp4.wwww.w, 0.0, 1.0);
+	tmp4.xyz = (tmp5.xyzx * vc403.xyzx).xyz;
+	tmp4.xyz = (tmp4.xyzx + vc402.xyzx).xyz;
+	tmp2.xyz = clamp((tmp2.xyzx + tmp4.xyzx).xyz, 0.0, 1.0);
+	tmp4.x = vc463.xxxx.x;
+	tmp4 = vec4(notEqual(vc401, tmp4.xxxx));
+	tmp4.x = clamp((tmp4.xxxx + tmp4.yyyy).x, 0.0, 1.0);
+	tmp4.x = clamp((tmp4.xxxx + tmp4.zzzz).x, 0.0, 1.0);
+	rc.x = clamp((tmp4.xxxx + tmp4.wwww).x, 0.0, 1.0);
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func182();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) tmp4 = in_tc0;
+	tmp9.x = vc400.xxxx.x;
+	tmp7.zw = vc463.xxxz.zw;
+	tmp9.y = vec2(dot(tmp14.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.y;
+	tmp5 = (tmp3.yyyy * vc268);
+	tmp8.x = vec2(dot(tmp3.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.x;
+	tmp7.xy = vc400.yzyy.xy;
+	tmp4 = in_tc0;
+	tmp6 = (in_pos.yyyy * vc268);
+	tmp8.zw = vc463.zzzw.zw;
+	rc = vec4(equal(vc401, tmp8.zzzz));
+	tmp6 = (in_pos.xxxx * vc267 + tmp6);
+	tmp6 = (in_pos.zzzz * vc269 + tmp6);
+	if(all(greaterThan(rc, vec4(0.0)))) tmp4 = (in_pos.wwww * vc270 + tmp6);
+	rc = vec4(equal(vc401, tmp7.xxxx));
+	tmp6.x = inversesqrt(tmp8.x);
+	tmp5 = (tmp3.xxxx * vc267 + tmp5);
+	tmp6.xyz = (tmp6.xxxx * tmp3.xyzx).xyz;
+	tmp6.w = vec2(dot(tmp14.xyzx.xyz, tmp6.xyzx.xyz), 0).xxxx.w;
+	tmp5 = (tmp3.zzzz * vc269 + tmp5);
+	tmp8.xyz = (tmp14.xyzx * tmp6.wwww).xyz;
+	tmp8.xyz = (tmp8.xyzx * vc400.yyyy).xyz;
+	tmp6.xyz = (tmp6.xyzx + -tmp8.xyzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp4 = (tmp3.wwww * vc270 + tmp5);
+	tmp5.xyz = (tmp6.xyzx + vc463.xxzx).xyz;
+	rc = vec4(equal(vc401, tmp7.yyyy));
+	tmp5.w = vec2(dot(tmp5.xyzx.xyz, tmp5.xyzx.xyz), 0).xxxx.w;
+	tmp5.xyz = (tmp14.xyzx * tmp9.yyyy).xyz;
+	tmp5.w = inversesqrt(tmp5.w);
+	tmp5.xyz = (-tmp5.xyzx * vc400.yyyy + tmp3.xyzx).xyz;
+	tmp6.xy = (tmp5.wwww * tmp6.xyxx).xy;
+	tmp7.xy = (tmp6.xyxx * vc400.wwww + vc400.wwww).xy;
+	tmp5.w = vec2(dot(tmp5.xyzx.xyz, tmp5.xyzx.xyz), 0).xxxx.w;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp4 = tmp7;
+	rc = vec4(equal(vc401, tmp9.xxxx));
+	func182();
+}
+
+void func74()
+{
+	tmp2.xyz = (tmp2.xyzx * vc409.xyzx + tmp6.xyzx).xyz;
+	tmp2.w = (tmp2.wwww * tmp5.wwww).w;
+	tmp1.xyz = (tmp2.wwww * tmp2.xyzx + tmp1.xyzx).xyz;
+	if(all(greaterThan(rc.zzzz, vec4(0.0).zzzz))) { func31(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	rc.x = vc467.yyyy.x;
+	tmp2.xyz = (tmp5.xyzx * vc403.xyzx).xyz;
+	tmp2.xyz = (tmp2.xyzx + vc402.xyzx).xyz;
+	tmp1.xyz = (tmp1.xyzx + tmp2.xyzx).xyz;
+	tmp1.w = tmp4.wwww.w;
+	tmp2 = clamp(tmp1, 0.0, 1.0);
+	tmp1 = tmp2;
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) { func134(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	func86();
+}
+
+void func31()
+{
+	if(all(equal(rc.yyyy, vec4(0.0).yyyy))) { func74(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	tmp2.x = (tmp1.wwww * vc463.yyyy).x;
+	//Unknown vp opcode 0xd
+	tmp8.z = vc405.xxxx.z;
+	tmp2.xyz = vc463.xxxx.xyz;
+	tmp6.xyz = (tmp3.xyzx * vc406.wwww).xyz;
+	tmp6.xyz = (vc406.xyzx * tmp3.wwww + -tmp6.xyzx).xyz;
+	tmp1.w = (tmp1.wwww + vc463.zzzz).w;
+	tmp5.w = vec2(dot(tmp6.xyzx.xyz, tmp6.xyzx.xyz), 0).xxxx.w;
+	tmp2.w = vc463.xxxx.w;
+	rc.w = inversesqrt(tmp5.w);
+	rc.z = vec4(lessThan(tmp1.wwww, vc462.xxxx)).z;
+	rc.x = vc411.xxxx.x;
+	tmp6.xyz = (tmp5.wwww * tmp6.xyzx).xyz;
+	tmp6.w = vec2(dot(tmp6.xyzx.xyz, vc410.xyzx.xyz), 0).xxxx.w;
+	tmp7.x = vec4(greaterThanEqual(vc411.xxxx, tmp2.wwww)).x;
+	tmp6.w = -tmp6.wwww.w;
+	if(all(lessThan(rc.xxxx, vec4(0.0).xxxx))) tmp6.w = vc463.zzzz.w;
+	tmp2.w = tmp6.wwww.w;
+	tmp7.y = vec4(greaterThan(tmp6.wwww, vc411.xxxx)).y;
+	tmp6.w = log2(tmp6.w);
+	tmp7.z = vec4(equal(tmp7.yyyy, vc463.xxxx)).z;
+	rc.y = (tmp7.xxxx * tmp7.yyyy).y;
+	rc.x = (tmp7.xxxx * tmp7.zzzz).x;
+	tmp7.xyz = (tmp6.xyzx + vc463.xxzx).xyz;
+	tmp5.w = 1.0 / tmp5.w;
+	tmp6.w = (vc411.yyyy * tmp6.wwww).w;
+	tmp7.w = vec2(dot(tmp7.xyzx.xyz, tmp7.xyzx.xyz), 0).xxxx.w;
+	if(all(greaterThan(rc.yyyy, vec4(0.0).yyyy))) tmp2.w = exp2(tmp6.w);
+	rc.y = vec2(dot(tmp7.xyzx.xyz, tmp7.xyzx.xyz), 0).xxxx.y;
+	tmp8.x = vec2(dot(tmp14.xyzx.xyz, tmp6.xyzx.xyz), 0).xxxx.x;
+	tmp6.y = inversesqrt(tmp7.w);
+	tmp6.x = (vc412.zzzz * tmp5.wwww + vc412.yyyy).x;
+	if(all(greaterThan(rc.yyyy, vec4(0.0).yyyy))) tmp2.xyz = (tmp6.yyyy * tmp7.xyzx).xyz;
+	tmp8.y = vec2(dot(tmp14.xyzx.xyz, tmp2.xyzx.xyz), 0).xxxx.y;
+	tmp2.x = (tmp6.xxxx * tmp5.wwww + vc412.xxxx).x;
+	//Unknown vp sca_opcode 0x7
+	if(all(greaterThan(rc.xxxx, vec4(0.0).xxxx))) tmp2.w = vc463.xxxx.w;
+	tmp5.w = 1.0 / tmp2.x;
+	tmp6.xyz = (tmp2.yyyy * tmp4.xyzx).xyz;
+	tmp2.xyz = (tmp2.zzzz * vc404.xyzx).xyz;
+	tmp6.xyz = (tmp6.xyzx * vc408.xyzx).xyz;
+	tmp6.xyz = (tmp5.xyzx * vc407.xyzx + tmp6.xyzx).xyz;
+	func74();
+}
+
+void func130()
+{
+	tmp7.xyz = (tmp7.yyyy * tmp4.xyzx).xyz;
+	tmp7.xyz = (tmp7.xyzx * vc408.xyzx).xyz;
+	tmp7.xyz = (tmp5.xyzx * vc407.xyzx + tmp7.xyzx).xyz;
+	tmp6.xyz = (tmp6.xyzx * vc409.xyzx + tmp7.xyzx).xyz;
+	func134();
+}
+
+void func86()
+{
+	tmp2.x = vc462.xxxx.x;
+	rc.x = vec4(lessThan(vc463.xxxx, tmp2.xxxx)).x;
+	tmp2.xyz = vc463.xxxx.xyz;
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) { func130(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp2.w = vc463.xxxx.w;
+	tmp5.w = (tmp2.wwww * vc463.yyyy).w;
+	//Unknown vp opcode 0xd
+	tmp9.z = vc405.xxxx.z;
+	tmp6.xyz = vc463.xxxx.xyz;
+	tmp7.xyz = (tmp3.xyzx * vc406.wwww).xyz;
+	tmp7.xyz = (vc406.xyzx * tmp3.wwww + -tmp7.xyzx).xyz;
+	tmp2.w = (tmp2.wwww + vc463.zzzz).w;
+	tmp6.w = vec2(dot(tmp7.xyzx.xyz, tmp7.xyzx.xyz), 0).xxxx.w;
+	tmp5.w = vc463.xxxx.w;
+	rc.w = inversesqrt(tmp6.w);
+	rc.z = vec4(lessThan(tmp2.wwww, vc462.xxxx)).z;
+	rc.x = vc411.xxxx.x;
+	tmp7.xyz = (tmp6.wwww * tmp7.xyzx).xyz;
+	tmp7.w = vec2(dot(tmp7.xyzx.xyz, vc410.xyzx.xyz), 0).xxxx.w;
+	tmp8.x = vec4(greaterThanEqual(vc411.xxxx, tmp5.wwww)).x;
+	tmp8.y = -tmp7.wwww.y;
+	if(all(lessThan(rc.xxxx, vec4(0.0).xxxx))) tmp8.y = vc463.zzzz.y;
+	tmp7.w = log2(tmp8.y);
+	tmp5.w = tmp8.yyyy.w;
+	tmp8.y = vec4(greaterThan(tmp8.yyyy, vc411.xxxx)).y;
+	tmp8.z = vec4(equal(tmp8.yyyy, vc463.xxxx)).z;
+	rc.y = (tmp8.xxxx * tmp8.yyyy).y;
+	rc.x = (tmp8.xxxx * tmp8.zzzz).x;
+	tmp8.xyz = (tmp7.xyzx + vc463.xxzx).xyz;
+	tmp7.w = (vc411.yyyy * tmp7.wwww).w;
+	tmp6.w = 1.0 / tmp6.w;
+	tmp8.w = vec2(dot(tmp8.xyzx.xyz, tmp8.xyzx.xyz), 0).xxxx.w;
+	if(all(greaterThan(rc.yyyy, vec4(0.0).yyyy))) tmp5.w = exp2(tmp7.w);
+	rc.y = vec2(dot(tmp8.xyzx.xyz, tmp8.xyzx.xyz), 0).xxxx.y;
+	tmp9.x = vec2(dot(-tmp14.xyzx.xyz, tmp7.xyzx.xyz), 0).xxxx.x;
+	tmp7.y = inversesqrt(tmp8.w);
+	tmp7.x = (vc412.zzzz * tmp6.wwww + vc412.yyyy).x;
+	if(all(greaterThan(rc.yyyy, vec4(0.0).yyyy))) tmp6.xyz = (tmp7.yyyy * tmp8.xyzx).xyz;
+	tmp9.y = vec2(dot(-tmp14.xyzx.xyz, tmp6.xyzx.xyz), 0).xxxx.y;
+	tmp6.x = (tmp7.xxxx * tmp6.wwww + vc412.xxxx).x;
+	//Unknown vp sca_opcode 0x7
+	if(all(greaterThan(rc.xxxx, vec4(0.0).xxxx))) tmp5.w = vc463.xxxx.w;
+	tmp6.w = 1.0 / tmp6.x;
+	tmp6.xyz = (tmp7.zzzz * vc404.xyzx).xyz;
+	func130();
+}
+
+void func182()
+{
+	tmp6.x = inversesqrt(tmp5.w);
+	tmp5.w = vc463.zzzz.w;
+	tmp5.xyz = (tmp6.xxxx * tmp5.xyzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp4 = tmp5;
+	rc = vec4(equal(vc401, tmp8.wwww));
+	tmp5.xyz = tmp14.xyzx.xyz;
+	tmp5.w = vc463.zzzz.w;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp4 = tmp5;
+	tmp5.x = vc463.xxxx.x;
+	tmp5 = vec4(notEqual(vc399, tmp5.xxxx));
+	tmp5.x = clamp((tmp5.xxxx + tmp5.yyyy).x, 0.0, 1.0);
+	tmp5.x = clamp((tmp5.xxxx + tmp5.zzzz).x, 0.0, 1.0);
+	rc.x = clamp((tmp5.xxxx + tmp5.wwww).x, 0.0, 1.0);
+	tmp5 = tmp4;
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func229();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) tmp6 = in_tc1;
+	tmp9.zw = vc463.xxxz.zw;
+	tmp9.x = vec2(dot(tmp14.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.x;
+	tmp7 = (tmp3.yyyy * vc276);
+	tmp10.xyz = vc400.xyzx.xyz;
+	tmp6 = in_tc1;
+	tmp9.y = vec2(dot(tmp3.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.y;
+	tmp8 = (in_pos.yyyy * vc276);
+	tmp11.zw = vc463.zzzw.zw;
+	rc = vec4(equal(vc399, tmp11.zzzz));
+	tmp8 = (in_pos.xxxx * vc275 + tmp8);
+	tmp9.y = inversesqrt(tmp9.y);
+	tmp8 = (in_pos.zzzz * vc277 + tmp8);
+	if(all(greaterThan(rc, vec4(0.0)))) tmp6 = (in_pos.wwww * vc278 + tmp8);
+	rc = vec4(equal(vc399, tmp10.yyyy));
+	tmp8.xyz = (tmp9.yyyy * tmp3.xyzx).xyz;
+	tmp8.w = vec2(dot(tmp14.xyzx.xyz, tmp8.xyzx.xyz), 0).xxxx.w;
+	tmp7 = (tmp3.xxxx * vc275 + tmp7);
+	tmp11.xyz = (tmp14.xyzx * tmp8.wwww).xyz;
+	tmp11.xyz = (tmp11.xyzx * vc400.yyyy).xyz;
+	tmp8.xyz = (tmp8.xyzx + -tmp11.xyzx).xyz;
+	tmp7 = (tmp3.zzzz * vc277 + tmp7);
+	tmp11.xyz = (tmp8.xyzx + vc463.xxzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp6 = (tmp3.wwww * vc278 + tmp7);
+	tmp7.w = vec2(dot(tmp11.xyzx.xyz, tmp11.xyzx.xyz), 0).xxxx.w;
+	rc = vec4(equal(vc399, tmp10.zzzz));
+	tmp7.xyz = (tmp14.xyzx * tmp9.xxxx).xyz;
+	tmp7.w = inversesqrt(tmp7.w);
+	tmp7.xyz = (-tmp7.xyzx * vc400.yyyy + tmp3.xyzx).xyz;
+	tmp8.xy = (tmp7.wwww * tmp8.xyxx).xy;
+	tmp9.xy = (tmp8.xyxx * vc400.wwww + vc400.wwww).xy;
+	tmp7.w = vec2(dot(tmp7.xyzx.xyz, tmp7.xyzx.xyz), 0).xxxx.w;
+	func229();
+}
+
+void func229()
+{
+	if(all(greaterThan(rc, vec4(0.0)))) tmp6 = tmp9;
+	rc.x = inversesqrt(tmp7.w);
+	rc = vec4(equal(vc399, tmp10.xxxx));
+	tmp7.w = vc463.zzzz.w;
+	tmp7.xyz = (tmp8.xxxx * tmp7.xyzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp6 = tmp7;
+	rc = vec4(equal(vc399, tmp11.wwww));
+	tmp7.xyz = tmp14.xyzx.xyz;
+	tmp7.w = vc463.zzzz.w;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp6 = tmp7;
+	tmp7.x = vc463.xxxx.x;
+	tmp7 = vec4(notEqual(vc398, tmp7.xxxx));
+	tmp7.x = clamp((tmp7.xxxx + tmp7.yyyy).x, 0.0, 1.0);
+	tmp7.x = clamp((tmp7.xxxx + tmp7.zzzz).x, 0.0, 1.0);
+	rc.x = clamp((tmp7.xxxx + tmp7.wwww).x, 0.0, 1.0);
+	tmp7 = tmp6;
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func276();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) tmp8 = in_tc2;
+	tmp11.zw = vc463.xxxz.zw;
+	tmp11.x = vec2(dot(tmp14.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.x;
+	tmp9 = (tmp3.yyyy * vc284);
+	tmp12.xyz = vc400.xyzx.xyz;
+	tmp8 = in_tc2;
+	tmp11.y = vec2(dot(tmp3.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.y;
+	tmp10 = (in_pos.yyyy * vc284);
+	tmp13.zw = vc463.zzzw.zw;
+	rc = vec4(equal(vc398, tmp13.zzzz));
+	tmp10 = (in_pos.xxxx * vc283 + tmp10);
+	tmp11.y = inversesqrt(tmp11.y);
+	tmp10 = (in_pos.zzzz * vc285 + tmp10);
+	if(all(greaterThan(rc, vec4(0.0)))) tmp8 = (in_pos.wwww * vc286 + tmp10);
+	rc = vec4(equal(vc398, tmp12.yyyy));
+	tmp10.xyz = (tmp11.yyyy * tmp3.xyzx).xyz;
+	tmp10.w = vec2(dot(tmp14.xyzx.xyz, tmp10.xyzx.xyz), 0).xxxx.w;
+	tmp9 = (tmp3.xxxx * vc283 + tmp9);
+	tmp13.xyz = (tmp14.xyzx * tmp10.wwww).xyz;
+	tmp13.xyz = (tmp13.xyzx * vc400.yyyy).xyz;
+	tmp10.xyz = (tmp10.xyzx + -tmp13.xyzx).xyz;
+	tmp9 = (tmp3.zzzz * vc285 + tmp9);
+	tmp13.xyz = (tmp10.xyzx + vc463.xxzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp8 = (tmp3.wwww * vc286 + tmp9);
+	tmp9.w = vec2(dot(tmp13.xyzx.xyz, tmp13.xyzx.xyz), 0).xxxx.w;
+	rc = vec4(equal(vc398, tmp12.zzzz));
+	tmp9.xyz = (tmp14.xyzx * tmp11.xxxx).xyz;
+	tmp9.w = inversesqrt(tmp9.w);
+	tmp9.xyz = (-tmp9.xyzx * vc400.yyyy + tmp3.xyzx).xyz;
+	tmp10.xy = (tmp9.wwww * tmp10.xyxx).xy;
+	func276();
+}
+
+void func276()
+{
+	tmp11.xy = (tmp10.xyxx * vc400.wwww + vc400.wwww).xy;
+	tmp9.w = vec2(dot(tmp9.xyzx.xyz, tmp9.xyzx.xyz), 0).xxxx.w;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp8 = tmp11;
+	rc.x = inversesqrt(tmp9.w);
+	rc = vec4(equal(vc398, tmp12.xxxx));
+	tmp9.w = vc463.zzzz.w;
+	tmp9.xyz = (tmp10.xxxx * tmp9.xyzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp8 = tmp9;
+	rc = vec4(equal(vc398, tmp13.wwww));
+	tmp9.xyz = tmp14.xyzx.xyz;
+	tmp9.w = vc463.zzzz.w;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp8 = tmp9;
+	tmp9.x = vc463.xxxx.x;
+	tmp9 = vec4(notEqual(vc397, tmp9.xxxx));
+	tmp9.x = clamp((tmp9.xxxx + tmp9.yyyy).x, 0.0, 1.0);
+	tmp9.x = clamp((tmp9.xxxx + tmp9.zzzz).x, 0.0, 1.0);
+	rc.x = clamp((tmp9.xxxx + tmp9.wwww).x, 0.0, 1.0);
+	tmp9 = tmp8;
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func323();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) tmp10 = in_tc3;
+	tmp13.zw = vc463.xxxz.zw;
+	tmp13.x = vec2(dot(tmp14.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.x;
+	tmp11 = (tmp3.yyyy * vc292);
+	tmp15.xyz = vc400.xyzx.xyz;
+	tmp10 = in_tc3;
+	tmp13.y = vec2(dot(tmp3.xyzx.xyz, tmp3.xyzx.xyz), 0).xxxx.y;
+	tmp12 = (in_pos.yyyy * vc292);
+	tmp16.zw = vc463.zzzw.zw;
+	rc = vec4(equal(vc397, tmp16.zzzz));
+	tmp12 = (in_pos.xxxx * vc291 + tmp12);
+	tmp13.y = inversesqrt(tmp13.y);
+	tmp12 = (in_pos.zzzz * vc293 + tmp12);
+	if(all(greaterThan(rc, vec4(0.0)))) tmp10 = (in_pos.wwww * vc294 + tmp12);
+	rc = vec4(equal(vc397, tmp15.yyyy));
+	tmp12.xyz = (tmp13.yyyy * tmp3.xyzx).xyz;
+	tmp12.w = vec2(dot(tmp14.xyzx.xyz, tmp12.xyzx.xyz), 0).xxxx.w;
+	tmp11 = (tmp3.xxxx * vc291 + tmp11);
+	tmp16.xyz = (tmp14.xyzx * tmp12.wwww).xyz;
+	tmp16.xyz = (tmp16.xyzx * vc400.yyyy).xyz;
+	tmp12.xyz = (tmp12.xyzx + -tmp16.xyzx).xyz;
+	tmp11 = (tmp3.zzzz * vc293 + tmp11);
+	tmp16.xyz = (tmp12.xyzx + vc463.xxzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp10 = (tmp3.wwww * vc294 + tmp11);
+	tmp11.w = vec2(dot(tmp16.xyzx.xyz, tmp16.xyzx.xyz), 0).xxxx.w;
+	rc = vec4(equal(vc397, tmp15.zzzz));
+	tmp11.xyz = (tmp14.xyzx * tmp13.xxxx).xyz;
+	tmp11.w = inversesqrt(tmp11.w);
+	func323();
+}
+
+void func323()
+{
+	tmp11.xyz = (-tmp11.xyzx * vc400.yyyy + tmp3.xyzx).xyz;
+	tmp12.xy = (tmp11.wwww * tmp12.xyxx).xy;
+	tmp13.xy = (tmp12.xyxx * vc400.wwww + vc400.wwww).xy;
+	tmp11.w = vec2(dot(tmp11.xyzx.xyz, tmp11.xyzx.xyz), 0).xxxx.w;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp10 = tmp13;
+	rc.x = inversesqrt(tmp11.w);
+	rc = vec4(equal(vc397, tmp15.xxxx));
+	tmp11.w = vc463.zzzz.w;
+	tmp11.xyz = (tmp12.xxxx * tmp11.xyzx).xyz;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp10 = tmp11;
+	rc = vec4(equal(vc397, tmp16.wwww));
+	tmp11.xyz = tmp14.xyzx.xyz;
+	tmp11.w = vc463.zzzz.w;
+	if(all(greaterThan(rc, vec4(0.0)))) tmp10 = tmp11;
+	gl_Position = tmp0;
+	col0 = tmp1;
+	bfc0 = tmp2;
+	gl_ClipDistance[0]/*.y*/ = vec2(dot(tmp3, vc395), 0).xxxx.y;
+	gl_ClipDistance[1]/*.z*/ = vec2(dot(tmp3, vc394), 0).xxxx.z;
+	gl_ClipDistance[2]/*.w*/ = vec2(dot(tmp3, vc393), 0).xxxx.w;
+	gl_ClipDistance[3]/*.y*/ = vec2(dot(tmp3, vc392), 0).xxxx.y;
+	gl_ClipDistance[4]/*.z*/ = vec2(dot(tmp3, vc391), 0).xxxx.z;
+	gl_ClipDistance[5]/*.w*/ = vec2(dot(tmp3, vc390), 0).xxxx.w;
+	fogc.x = tmp14.wwww.x;
+	tmp0.w = vec2(dot(tmp10, vc298), 0).xxxx.w;
+	tmp0.z = vec2(dot(tmp10, vc297), 0).xxxx.z;
+	tmp0.y = vec2(dot(tmp10, vc296), 0).xxxx.y;
+	tmp0.x = vec2(dot(tmp10, vc295), 0).xxxx.x;
+	tc3 = tmp10;
+	tc2.w = vec2(dot(tmp8, vc290), 0).xxxx.w;
+	tc2.z = vec2(dot(tmp8, vc289), 0).xxxx.z;
+	tc2.y = vec2(dot(tmp8, vc288), 0).xxxx.y;
+	tc2.x = vec2(dot(tmp8, vc287), 0).xxxx.x;
+	tc1.w = vec2(dot(tmp6, vc282), 0).xxxx.w;
+	tc1.z = vec2(dot(tmp6, vc281), 0).xxxx.z;
+	tc1.y = vec2(dot(tmp6, vc280), 0).xxxx.y;
+	rc.x = vc396.xxxx.x;
+	tc0.w = vec2(dot(tmp4, vc274), 0).xxxx.w;
+	tc0.z = vec2(dot(tmp4, vc273), 0).xxxx.z;
+	tc0.y = vec2(dot(tmp4, vc272), 0).xxxx.y;
+	tc0.x = vec2(dot(tmp4, vc271), 0).xxxx.x;
+	tc1.x = vec2(dot(tmp6, vc279), 0).xxxx.x;
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tc0 = tmp5;
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tc1 = tmp7;
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tc2 = tmp9;
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) tc3 = tmp0;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+in vec4 col0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	r0 = (col0 * r0);
+	ocol = r0;
+}
+
+[E : RSXThread]: glUseProgram: opengl error 0x0502
+[W : RSXThread]: New FBO (1280x720)
+[E : RSXThread]: glGetUniformLocation(0x3, tex0): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, tex1): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex2): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex3): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex4): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex5): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex6): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex7): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex8): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex9): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex10): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex11): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex12): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex13): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex14): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex15): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, vc463): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc463 -1 [0.000000 7.000000 1.000000 5.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc400): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc400 -1 [4.000000 2.000000 3.000000 0.500000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc466): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc466 -1 [1.000000 1.000000 1.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc256): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc256 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc257): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc257 -1 [0.000000 1.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc258): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc258 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc259): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc259 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc264): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc264 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc265): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc265 -1 [0.000000 1.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc266): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc266 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc260): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc260 -1 [0.001563 0.000000 0.000000 -1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc261): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc261 -1 [0.000000 -0.002778 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc262): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc262 -1 [0.000000 0.000000 -1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc263): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc263 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc271): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc271 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc272): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc272 -1 [0.000000 1.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc273): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc273 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc274): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc274 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc279): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc279 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc280): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc280 -1 [0.000000 1.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc281): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc281 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc282): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc282 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc287): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc287 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc288): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc288 -1 [0.000000 1.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc289): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc289 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc290): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc290 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc295): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc295 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc296): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc296 -1 [0.000000 1.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc297): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc297 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc298): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc298 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc396): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc396 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc465): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc465 -1 [0.200000 0.200000 0.200000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc464): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc464 -1 [0.800000 0.800000 0.800000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc404): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc404 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc402): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc402 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc405): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc405 -1 [0.000000 0.000000 0.200000 0.200000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc401): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc401 -1 [0.000000 -8724774912.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc267): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc267 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc268): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc268 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc269): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc269 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc270): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc270 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc401 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc267 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc268 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc269 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc270 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc401 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc267 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc268 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc269 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc270 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc401 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc267 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc268 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc269 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc270 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc399): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc399 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc275): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc275 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc276): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc276 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc277): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc277 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc278): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc278 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc399 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc275 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc276 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc277 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc278 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc399 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc275 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc276 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc277 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc278 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc399 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc275 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc276 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc277 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc278 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc398): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc398 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc283): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc283 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc284): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc284 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc285): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc285 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc286): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc286 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc398 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc283 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc284 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc285 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc286 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc398 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc283 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc284 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc285 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc286 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc398 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc283 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc284 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc285 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc286 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc397): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc397 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc291): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc291 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc292): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc292 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc293): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc293 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc294): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc294 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc397 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc291 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc292 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc293 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc294 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc397 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc291 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc292 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc293 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc294 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc397 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc291 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc292 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc293 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc294 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc467): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc467 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc467 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc403): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc403 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc462): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc462 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc463 -1 [0.000000 7.000000 1.000000 5.000000]: opengl error 0x0502
+[E : RSXThread]: glUniform4f vc400 -1 [4.000000 2.000000 3.000000 0.500000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc395): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc395 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc394): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc394 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc393): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc393 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc392): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc392 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc391): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc391 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc390): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc390 -1 [0.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, scaleOffsetMat): opengl error 0x0502
+[E : RSXThread]: glDrawArrays: opengl error 0x0502
+[W : RSXThread]: NV4097_SET_BLEND_ENABLE_MRT: e
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: glUseProgram: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, tex0): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, tex1): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex2): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex3): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex4): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex5): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex6): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex7): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex8): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex9): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex10): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex11): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex12): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex13): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex14): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, tex15): opengl error 0x0502
+[E : RSXThread]: GetAddress(offset=0xff, location=0x1e000d)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x26000d)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: glGetUniformLocation(0x3, scaleOffsetMat): opengl error 0x0502
+[E : RSXThread]: glDrawArrays: opengl error 0x0502
+[! : RawSPU[45] Thread (CPUThread)[0x00000274]]: RawSPU[45] Thread (CPUThread) leave
+[! : RSXThread]: RSX thread exit...
