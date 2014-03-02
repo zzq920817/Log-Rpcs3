@@ -340,8 +340,6 @@
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
 [W]: Unknown module 'cellHttp'
-[W]: Unknown function 0x409ad939 in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_free_memory
 [W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
 [E]: TODO: sys_mmapper_unmap_memory
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
@@ -363,4 +361,213 @@
 [W : PPU[1] Thread (CPUThread)[0x0120e04c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x0006037c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020be0)
 [W : PPU[1] Thread (CPUThread)[0x0001f378]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd0020ac0)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e10c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0020ac4)
+[W : PPU[1] Thread (CPUThread)[0x0120e04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 116
+[W : PPU[1] Thread (CPUThread)[0x0120e04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 117
+[W : PPU[1] Thread (CPUThread)[0x0120e04c]]: sys_lwmutex warning: *** lwmutex created [acm0] (attribute=0x12): sq_id = 118
+[W : PPU[1] Thread (CPUThread)[0x0120e04c]]: sys_lwmutex warning: *** lwmutex created [acm1] (attribute=0x12): sq_id = 119
+[W : PPU[1] Thread (CPUThread)[0x0080bebc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 120
+[W : PPU[1] Thread (CPUThread)[0x0120e04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 121
+[E : PPU[1] Thread (CPUThread)[0x000221dc]]: PPUInterpreter::FRSQRTE #pc: 0x221dc
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r0 = 0x227d0
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r1 = 0xd0020640
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r2 = 0xeb2958
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r3 = 0xd00207f8
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r4 = 0xd00206f0
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r5 = 0xc
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r6 = 0xd0020670
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r7 = 0xdab9cb5f
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r8 = 0xa6a52ad8
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r9 = 0xe239fad3
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r10 = 0xdc
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r11 = 0x3fdb67a3
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r12 = 0x40000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r15 = 0xc04c68
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r16 = 0xf1a8bc
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r17 = 0xf1a8c4
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r18 = 0xf1a8cc
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r19 = 0xf1a8d4
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r20 = 0xc04cc8
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r21 = 0xf1a8e4
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r22 = 0xf1a8ec
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r23 = 0xf1a8f4
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r24 = 0xf1a8fc
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r25 = 0xd00206f0
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r26 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r27 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r28 = 0x30013114
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r29 = 0x30014124
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r30 = 0x22528
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: r31 = 0x30012100
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v0 = 0x0000000000000000000000003f800000 [x: 0 y: 0 z: 0 w: 1]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v2 = 0x0000000000000000bf333333bf333333 [x: 0 y: 0 z: -0.7 w: -0.7]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v3 = 0xbf333333bf333333bf333333bf333333 [x: -0.7 y: -0.7 z: -0.7 w: -0.7]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v4 = 0xbf266666bf6db6db3f22f9833f000000 [x: -0.65 y: -0.928571 z: 0.63662 w: 0.5]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v5 = 0x00000001000000010000000100000001 [x: 1.4013e-045 y: 1.4013e-045 z: 1.4013e-045 w: 1.4013e-045]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v6 = 0x42c8000042c8000042c8000042c80000 [x: 100 y: 100 z: 100 w: 100]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: CR = 0x44000048
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: LR = 0x22634
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: CTR = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000221dc]]: FPSCR = 0x82004000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
 [!]: Closing memory...

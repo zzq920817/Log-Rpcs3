@@ -206,4 +206,62 @@
 [W : PPU[1] Thread (CPUThread)[0x0054ad80]]: sys_cond warning: *** condition created [] (mutex_id=22): id = 23
 [W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 25
-[!]: Closing memory...
+[W : PPU[1] Thread (CPUThread)[0x01310034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x00d0f07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xd5baa0, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x012fa010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0130004c]]: cellGame warning: cellGameBootCheck(type_addr=0xd00206e0, attributes_addr=0xd00206e4, size_addr=0xd00206e8, dirName_addr=0xd0020a08)
+[W : PPU[1] Thread (CPUThread)[0x01300004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020908, bufsize=256)
+[W : PPU[1] Thread (CPUThread)[0x0130001c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020708, usrdirPath_addr=0xd0020808)
+[W : PPU[1] Thread (CPUThread)[0x012fa010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/BOOT.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/BOOT.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/runtime.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/runtime.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/runtime.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/runtime.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/SKU.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/SKU.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/SKU.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00d0d01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020440)
+[W : PPU[1] Thread (CPUThread)[0x00d0d058]]: sys_fs warning: cellFsStat: "/SKU.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x0054b230]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x012fa010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[E : PPU[1] Thread (CPUThread)[0x012f810c]]: TODO: _cellSpursAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x012f8148]]: TODO: cellSpursAttributeSetSpuThreadGroupType
+[E : PPU[1] Thread (CPUThread)[0x012f801c]]: TODO: cellSpursAttributeSetNamePrefix
+[E : PPU[1] Thread (CPUThread)[0x012f8154]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x00552934]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xe9ea0c, attr_addr=0xd00205b4, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x00552934]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 32
+[W : PPU[1] Thread (CPUThread)[0x005529c8]]: sys_event warning: sys_event_port_create(eport_id_addr=0xe9ea18, port_type=0x1, name=0xfee1dead)
+[W : PPU[1] Thread (CPUThread)[0x005529c8]]: sys_event warning: *** sys_event_port created: id = 34
+[W : PPU[1] Thread (CPUThread)[0x005529e0]]: sys_event warning: sys_event_port_connect_local(eport_id=34, equeue_id=32)
+[E : PPU[1] Thread (CPUThread)[0x012f816c]]: TODO: cellSpursAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x012f810c]]: TODO: _cellSpursAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x012f801c]]: TODO: cellSpursAttributeSetNamePrefix
+[E : PPU[1] Thread (CPUThread)[0x012f8154]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x00552934]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xe9ea24, attr_addr=0xd0020844, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x00552934]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 35
+[W : PPU[1] Thread (CPUThread)[0x005529c8]]: sys_event warning: sys_event_port_create(eport_id_addr=0xe9ea30, port_type=0x1, name=0xfee1dead)
+[W : PPU[1] Thread (CPUThread)[0x005529c8]]: sys_event warning: *** sys_event_port created: id = 37
+[W : PPU[1] Thread (CPUThread)[0x005529e0]]: sys_event warning: sys_event_port_connect_local(eport_id=37, equeue_id=35)
+[E : PPU[1] Thread (CPUThread)[0x012f816c]]: TODO: cellSpursAttachLv2EventQueue
+[W : PPU[1] Thread (CPUThread)[0x012fa010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
+[E : PPU[1] Thread (CPUThread)[0x012fe040]]: TODO: cellSpursJobQueueAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x012fe088]]: TODO: cellSpursJobQueueAttributeSetGrabParameters
+[E : PPU[1] Thread (CPUThread)[0x012fe01c]]: TODO: cellSpursJobQueueAttributeSetMaxSizeJobDescriptor
+[E : PPU[1] Thread (CPUThread)[0x012fe010]]: TODO: cellSpursJobQueueAttributeSetSubmitWithEntryLock
+[E : PPU[1] Thread (CPUThread)[0x012fe004]]: TODO: cellSpursJobQueueAttributeSetDoBusyWaiting
+[E : PPU[1] Thread (CPUThread)[0x012fe0ac]]: TODO: cellSpursJobQueueAttributeSetIsHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x012fe064]]: TODO: cellSpursJobQueueAttributeSetIsJobTypeMemoryCheck
+[E : PPU[1] Thread (CPUThread)[0x012fe094]]: TODO: _cellSpursCreateJobQueue
+[E : PPU[1] Thread (CPUThread)[0x012fe0a0]]: TODO: cellSpursJobQueuePortInitializeWithDescriptorBuffer
+[W : PPU[1] Thread (CPUThread)[0x012fa010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
+[E : PPU[1] Thread (CPUThread)[0x012fe034]]: TODO: cellSpursJobQueuePortInitialize
+[W : PPU[1] Thread (CPUThread)[0x012fa010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x0130204c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0xdd9118, commID_addr=0xdabaf8, commSign_addr=0xb31c20, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01302010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xdd911c)
+[W : PPU[1] Thread (CPUThread)[0x0130201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020b00, options=0x0)
