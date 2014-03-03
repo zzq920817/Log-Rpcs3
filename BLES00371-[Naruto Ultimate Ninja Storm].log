@@ -466,6 +466,6 @@
 [E : PPU[1] Thread (CPUThread)[0x00bd2040]]: TODO: cellSpursEventFlagWait
 [W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076cf18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00307b0, attr_addr=0xd00307c0, initial_count=0, max_count=1)
 [W : PPU[97] Thread (NU::File::RequestManager)[0x009bc028]]: sys_fs warning: cellFsStat: "/app_home/data/system/xftool.fnt.xfbin" not found.
+[! : RSXThread]: RSX thread exit...
 [W : PPU[1] Thread (CPUThread)[0x005e1cfc]]: sys_cond_wait(id=53) aborted
 [W : PPU[62] Thread (NU::Draw::RequestManager)[0x005d8ae4]]: sys_cond_wait(id=61) aborted
-[! : RSXThread]: RSX thread exit...

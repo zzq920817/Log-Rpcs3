@@ -152,4 +152,40 @@
 [E : PPU[1] Thread (CPUThread)[0x0015c0b8]]: TODO: cellSaveDataEnableOverlay
 [E : PPU[1] Thread (CPUThread)[0x0015c0b8]]: TODO: cellSaveDataEnableOverlay
 [E : PPU[1] Thread (CPUThread)[0x0015c0b8]]: TODO: cellSaveDataEnableOverlay
+[W : PPU[1] Thread (CPUThread)[0x0015c088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x160b00, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00156028]]: cellGcmSys warning: cellGcmInit(context_addr=0x28b270,cmdSize=0x100000,ioSize=0x200000,ioAddress=0x30d00000)
+[W : PPU[1] Thread (CPUThread)[0x00156028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x00156028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30d00000, io=0x0, size=0x200000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x00156004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x001560a0]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0015604c]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x00156004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x001560a0]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=4128768, size=3932160, pitch=5120, comp=9, base=60, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x001560a0]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
+[W : PPU[1] Thread (CPUThread)[0x0015604c]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x0015607c]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x00156004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x001560a0]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=8192000, size=3932160, pitch=5120, comp=0, base=120, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0015604c]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x00156004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x001560a0]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=12255232, size=3932160, pitch=5120, comp=0, base=180, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0015604c]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x0015a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00158064]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020904)
+[W : PPU[1] Thread (CPUThread)[0x00158040]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x00158040]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x31116000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00158040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x00158070]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00208e4, vertexArray_addr=0xd00208e8, fragmentShader_addr=0xd00208ec)
+[W : PPU[1] Thread (CPUThread)[0x00158088]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc11a0000, vertexArray_addr=0xc2320000, fragmentShader_addr=0xc2331080)
+[W : PPU[1] Thread (CPUThread)[0x00158088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x11a0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00158088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x1560000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x001560a0]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=18481152, size=17825792, pitch=5120, comp=7, base=240, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x001560a0]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x0015604c]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[E : PPU[1] Thread (CPUThread)[0x001580ac]]: TODO: cellRescSetVBlankHandler
+[E : PPU[1] Thread (CPUThread)[0x0015601c]]: TODO: cellGcmSetQueueHandler
+[W : PPU[1] Thread (CPUThread)[0x003400c4]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x2e3dac, entry=0x161f98)
+[W : PPU[15] Thread (CPUThread)[0x00340034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 16
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

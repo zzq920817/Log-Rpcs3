@@ -234,8 +234,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xa8afa7d4 in 'sceNp' module
 [E]: TODO: sceNpBasicGetCustomInvitationEntryCount
 [W]: Unknown function 0xa8cf8451 in 'sceNp' module
@@ -466,11 +464,11 @@
 [W : PPU[1] Thread (CPUThread)[0x009390b8]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x8ff03c, entry=0x7aff00)
 [W : PPU[95] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 96
 [W : Audio Thread]: Audio aborted
-[W : PPU[79] Thread (_cellsurMixerMain)[0x00611a94]]: sys_event_queue_receive(equeue=81) aborted
 [W : PPU[63] Thread (cri_adxm_vsync_proc)[0x00622938]]: sys_cond_wait(id=45) aborted
+[W : PPU[65] Thread (cri_adxm_fs_proc)[0x00622938]]: sys_cond_wait(id=47) aborted
 [W : PPU[67] Thread (cri_adxm_idle_proc)[0x00622938]]: sys_cond_wait(id=49) aborted
 [W : PPU[34] Thread (cri_dlg)[0x00669d54]]: sys_cond_wait(id=32) aborted
-[W : PPU[65] Thread (cri_adxm_fs_proc)[0x00622938]]: sys_cond_wait(id=47) aborted
-[W : PPU[76] Thread (_sys_mixerSurBusReq)[0x0060e7b4]]: sys_cond_wait(id=71) aborted
 [W : PPU[27] Thread (cri_dlg)[0x00669d54]]: sys_cond_wait(id=25) aborted
+[W : PPU[76] Thread (_sys_mixerSurBusReq)[0x0060e7b4]]: sys_cond_wait(id=71) aborted
+[W : PPU[79] Thread (_cellsurMixerMain)[0x00611a94]]: sys_event_queue_receive(equeue=81) aborted
 [!]: Closing memory...

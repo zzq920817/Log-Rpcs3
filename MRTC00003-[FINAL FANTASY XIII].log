@@ -156,8 +156,6 @@
 [E]: TODO: cellFsFsync
 [W]: Unknown function 0x9b882495 in 'sys_fs' module
 [E]: TODO: cellFsGetDirectoryEntries
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
 [W]: Unknown function 0x5ae841e5 in 'cellSync' module
 [E]: TODO: cellSyncQueuePush
 [W]: Unknown function 0x0247c69e in 'cellSail' module
@@ -898,8 +896,10 @@
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 142
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
+[E : PPU[134] Thread (ZDecode)[0x013e60dc]]: TODO: sys_spinlock_lock
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
+[E : PPU[134] Thread (ZDecode)[0x013e6094]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x013e60dc]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x013e60dc]]: TODO: sys_spinlock_lock
@@ -917,8 +917,6 @@
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020420, attr_addr=0xd0020428, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 154
-[E : PPU[134] Thread (ZDecode)[0x013e60dc]]: TODO: sys_spinlock_lock
-[E : PPU[134] Thread (ZDecode)[0x013e6094]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x013e60dc]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 156

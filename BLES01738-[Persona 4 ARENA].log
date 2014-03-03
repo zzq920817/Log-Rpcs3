@@ -222,8 +222,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xad218faf in 'sceNp' module
@@ -364,3 +362,4 @@
 [W : PPU[1] Thread (CPUThread)[0x0178604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
 [W : PPU[1] Thread (CPUThread)[0x00b36010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x00b3801c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01738\')
+[! : PPU[1] Thread (CPUThread)[0x00b3801c]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01738

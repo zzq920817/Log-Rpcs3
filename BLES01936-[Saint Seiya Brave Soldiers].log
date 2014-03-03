@@ -96,8 +96,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xad218faf in 'sceNp' module
@@ -368,7 +366,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 37
 [W : PPU[1] Thread (CPUThread)[0x0102a0b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30416000,size=0x800000,offset_addr=0xd00208a0)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xbe446e90)
+[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x2b1884a0)
 [W : PPU[1] Thread (CPUThread)[0x0102e118]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209b0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0102a064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -437,7 +435,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01dd80c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x303f3540): id = 87
 [W : PPU[1] Thread (CPUThread)[0x0102c01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : Audio Thread]: Audio aborted
-[! : RSXThread]: RSX thread exit...
-[W : PPU[68] Thread (Em File Thread)[0x01dd8034]]: sys_lwcond_wait(sq=52) aborted
-[!]: Closing memory...
+[W : PPU[1] Thread (CPUThread)[0x01dd207c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x303f3510, commID_addr=0xb24848, commSign_addr=0xb248d4, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01dd2010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x303f3514)
+[W : PPU[1] Thread (CPUThread)[0x01dd201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020470, options=0x0)
