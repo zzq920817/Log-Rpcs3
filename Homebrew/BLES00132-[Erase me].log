@@ -48,7 +48,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00044004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x00044040]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020b74, src_addr=0xd0020be8, openInfo=0xd0020b6c)
 [W : PPU[1] Thread (CPUThread)[0x00044040]]: *** cellFsOpen(path="/dev_hdd0/game/BLES00132/USRDIR/background.png"): fd = 14
-[W : PPU[1] Thread (CPUThread)[0x00044034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0x78d0020bac)
+[W : PPU[1] Thread (CPUThread)[0x00044034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0x98d0020bac)
 [W : PPU[1] Thread (CPUThread)[0x0004401c]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xf)
 [W : PPU[1] Thread (CPUThread)[0x0004401c]]: sys_fs warning: cellFsClose(fd=14)
 [E : PPU[1] Thread (CPUThread)[0x00044028]]: cellPngDec error: Unimplemented function: cellPngDecDestroy

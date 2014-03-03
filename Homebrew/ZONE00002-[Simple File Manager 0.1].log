@@ -62,8 +62,6 @@
 [E]: TODO: cellFsAioCancel
 [W]: Unknown function 0x99406d0b in 'sys_fs' module
 [E]: TODO: cellFsChmod
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0x9f04f7af in 'sysPrxForUser' module
@@ -110,7 +108,7 @@
 [E : PPU[1] Thread (CPUThread)[0x0005e004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x0005e040]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd001ff84, src_addr=0xd001fff8, openInfo=0xd001ff7c)
 [W : PPU[1] Thread (CPUThread)[0x0005e040]]: *** cellFsOpen(path="/dev_hdd0/game/ZONE00002/USRDIR/OFF.PNG"): fd = 14
-[W : PPU[1] Thread (CPUThread)[0x0005e034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0x41d001ffbc)
+[W : PPU[1] Thread (CPUThread)[0x0005e034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0x86d001ffbc)
 [W : PPU[1] Thread (CPUThread)[0x0005e01c]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xf)
 [W : PPU[1] Thread (CPUThread)[0x0005e01c]]: sys_fs warning: cellFsClose(fd=14)
 [E : PPU[1] Thread (CPUThread)[0x0005e028]]: cellPngDec error: Unimplemented function: cellPngDecDestroy

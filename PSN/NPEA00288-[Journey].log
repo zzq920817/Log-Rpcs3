@@ -192,8 +192,6 @@
 [E]: TODO: sceNpSignalingTerminateConnection
 [W]: Unknown function 0x9ad7fbd1 in 'sceNp' module
 [E]: TODO: sceNpSignalingGetLocalNetInfo
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xa8cf8451 in 'sceNp' module
 [E]: TODO: sceNpSignalingDestroyCtx
 [W]: Unknown function 0xad218faf in 'sceNp' module
@@ -396,5 +394,16 @@
 [W : PPU[1] Thread (CPUThread)[0x00eed124]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3014dbb0): id = 79
 [W : PPU[1] Thread (CPUThread)[0x00eed058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 80
 [W : PPU[1] Thread (CPUThread)[0x00eed124]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3014e6a0): id = 81
+[W : PPU[1] Thread (CPUThread)[0x00eed058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x00eed124]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30150ef0): id = 83
+[W : PPU[1] Thread (CPUThread)[0x00eed058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x00eed124]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30150f30): id = 85
+[E : PPU[1] Thread (CPUThread)[0x00ed1034]]: TODO: cellNetCtlGetInfo
+[E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b580)
+[E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b59c)
+[E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b5b8)
+[W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
+[E : PPU[1] Thread (CPUThread)[0x000da360]]: Read32 from null block: [00000010]
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

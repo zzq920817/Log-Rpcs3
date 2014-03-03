@@ -44,8 +44,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xad218faf in 'sceNp' module
 [E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xb1e0718b in 'sceNp' module
@@ -273,7 +271,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0014dcf8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b13c, attr_addr=0xd0020a00, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x002fa04c]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1785696)
 [W : PPU[1] Thread (CPUThread)[0x002f6028]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020854)
-[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x8bec8680)
+[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x6cc45680)
 [W : PPU[1] Thread (CPUThread)[0x001576c0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1ac, attr_addr=0xd0020a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00157890]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1bc, attr_addr=0xd0020a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0030a034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
@@ -487,19 +485,19 @@
 [E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
 [E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
 [W : PPU[19] Thread (crCommandQueue)[0x002fa040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
-[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
-[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
 [W : RSXThread]: VP not found in buffer!
-[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
-[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
 [W : RSXThread]: FP not found in buffer!
-[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
-[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
-[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
-[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x14 (inst 1049565)
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x18 (inst 1049566)
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x20 (inst 1049568)

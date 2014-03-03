@@ -1,7 +1,4 @@
 [!]: path: /dev_hdd0/game/
-[!]: PKG Loader: Package successfully installed in: /dev_hdd0/game/NPEB00620
-[!]: path: /dev_hdd0/game/
-[!]: scetool: ELF written to D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\USRDIR\BOOT.BIN
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -87,8 +84,6 @@
 [E]: TODO: sceNpBasicRecvMessageCustom
 [W]: Unknown function 0x9851f805 in 'sceNp' module
 [E]: TODO: sceNpScoreTerm
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xad218faf in 'sceNp' module
@@ -364,8 +359,8 @@
 [E : PPU[1] Thread (CPUThread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
 [E : PPU[1] Thread (CPUThread)[0x00af30f4]]: TODO: sceNpInit
-[E : PPU[1] Thread (CPUThread)[0x00af30d0]]: TODO: sceNpDrmIsAvailable
 [W : PPU[33] Thread (flip_thread)[0x00aed064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : PPU[1] Thread (CPUThread)[0x00af30d0]]: TODO: sceNpDrmIsAvailable
 [W : PPU[1] Thread (CPUThread)[0x003cd028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB00620/USRDIR/protected.edat" not found.
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SEARCH)
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
@@ -910,13 +905,13 @@
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 2
 [E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
+[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 4
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [W : PPU[1] Thread (CPUThread)[0x00ae7094]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020730)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
@@ -1026,11 +1021,15 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x003cd01c]]: sys_fs error: "/dev_flash/sys/external/flashMP3.pic" not found! flags: 0x00000000
+[W : PPU[38] Thread (MultiStream PU Thread)[0x00af1034]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb01c]]: TODO: cellSpursEventFlagWait
 [E : RSXThread]: NV4097_GET_REPORT: bad type 3
 [E : RSXThread]: NV4097_GET_REPORT: bad type 4
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
@@ -1040,8 +1039,12 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[1] Thread (CPUThread)[0x003cd01c]]: sys_fs error: "/dev_flash/sys/external/flashMP3.pic" not found! flags: 0x00000000
-[W : PPU[38] Thread (MultiStream PU Thread)[0x00af1034]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb01c]]: TODO: cellSpursEventFlagWait
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb01c]]: TODO: cellSpursEventFlagWait
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb01c]]: TODO: cellSpursEventFlagWait
 [E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
 [E : PPU[38] Thread (MultiStream PU Thread)[0x003cb01c]]: TODO: cellSpursEventFlagWait
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
@@ -1058,6 +1061,8 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
+[E : PPU[38] Thread (MultiStream PU Thread)[0x003cb01c]]: TODO: cellSpursEventFlagWait
 [E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
 [E : PPU[38] Thread (MultiStream PU Thread)[0x003cb01c]]: TODO: cellSpursEventFlagWait
 [E : PPU[38] Thread (MultiStream PU Thread)[0x003cb088]]: TODO: _cellSpursSendSignal
@@ -1069,6 +1074,6 @@
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [W : RSXThread]: null cmd: addr=0x501cf000, put=0x4f21c00, get=0x1cf000
-[W : Audio Thread]: Audio aborted
 [W : PPU[36] Thread (spu_printf_handler)[0x0029c0d8]]: sys_event_queue_receive(equeue=35) aborted
+[W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...

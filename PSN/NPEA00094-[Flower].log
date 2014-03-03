@@ -179,5 +179,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3002a0e0): id = 30
 [W : PPU[1] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
 [W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3002a150): id = 32
+[E : PPU[1] Thread (CPUThread)[0x01b99004]]: TODO: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x01ba101c]]: sys_lwcond warning: sys_lwcond_destroy(lwcond_addr=0x3002a0f8)
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

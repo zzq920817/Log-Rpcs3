@@ -1,0 +1,164 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\LAUN12345\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\LAUN12345\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\LAUN12345\\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\LAUN12345\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x99406d0b in 'sys_fs' module
+[E]: TODO: cellFsChmod
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarReset
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarSetMsg
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0x9f04f7af in 'sysPrxForUser' module
+[E]: TODO: _sys_printf
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00057040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00055010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00055010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00055010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00055010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+[W : PPU[1] Thread (CPUThread)[0x0004d070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x50170, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0004f004]]: cellGcmSys warning: cellGcmInit(context_addr=0x10029470,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x0004f004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0004f004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x0004d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020b84, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0004f028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x0004f04c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0004f04c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0001694c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 12
+[W : PPU[1] Thread (CPUThread)[0x000570c4]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x10000698, align=0x10000, size=0x110000)
+[W : PPU[1] Thread (CPUThread)[0x000570c4]]: sys_heap warning: *** sys_heap created: id = 13
+[E : PPU[1] Thread (CPUThread)[0x00010aec]]: Unknown syscall: 36 - 00000024
+[E : PPU[1] Thread (CPUThread)[0x0001537c]]: sys_mutex error: Unknown pshared attribute(0x0)
+[E : PPU[1] Thread (CPUThread)[0x00053004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/PARAM.SFO" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/LAUN12345/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb000/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb001/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb002/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb003/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb004/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb005/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb006/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb007/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb008/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb009/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/LAUN12345/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb000/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb001/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb002/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb003/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb004/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb005/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb006/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb007/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb008/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb009/GAMEZ/" not found.
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 192
+[! : RSXThread]: *** fp data size = 64
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+vec4 tmp1;
+vec4 tmp0;
+uniform vec4 vc467;
+uniform vec4 vc466;
+out vec4 tc0;
+out vec4 col0;
+
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	tmp1.zw = floor(in_pos.yyyx).zw;
+	tmp0.xy = (in_pos.wzww * vc467.xxxx + -vc467.yyyy).xy;
+	tmp1.xy = (in_pos.xyxx * vc467.zzzz).xy;
+	tmp0.zw = fract(in_pos.yyyx).zw;
+	tc0.xy = (tmp0.wzww * vc467.xxxx).xy;
+	tmp0.zw = floor(tmp1.yyyx).zw;
+	gl_Position.y = -tmp0.xxxx.y;
+	gl_Position.x = tmp0.yyyy.x;
+	tmp0.xy = (tmp0.zwzz * vc467.wwww).xy;
+	tmp0.zw = (-tmp0.xxxy * vc466.xxxx + tmp1.zzzw).zw;
+	col0.yw = tmp0.yyyx.yw;
+	col0.xz = (tmp0.wwzw * vc467.wwww).xz;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+in vec4 col0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0.w = texture(tex0, tc0.xy).w;
+	h0 = col0;
+	r0.w = (h0 * r0).w;
+	r0.xyz = h0.xyz;
+	ocol = r0;
+}
+
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/LAUN12345/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb000/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb001/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb002/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb003/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb004/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb005/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb006/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb007/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb008/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb009/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/LAUN12345/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb000/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb001/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb002/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb003/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb004/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb005/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb006/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb007/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb008/GAMEZ/" not found.
+[W : PPU[14] Thread (game_thread)[0x0004b028]]: sys_fs warning: cellFsStat: "/dev_usb009/GAMEZ/" not found.
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
