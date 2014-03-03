@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -160,9 +161,20 @@
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
-[! : PPU[1] Thread (CPUThread)[0x00012148]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x002fa0c0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 [W : PPU[1] Thread (CPUThread)[0x000332d4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b50)
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00fa704c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x00f97058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x5652a8, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f97058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x568768, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00033800]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
@@ -206,7 +218,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=24)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041"): fd = 25
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=25)
-[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0xdfc07e80)
+[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x6ce8990)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f97004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020954, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -270,10 +282,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f9d0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
 [W : PPU[1] Thread (CPUThread)[0x00f9d064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
-[! : PPU[2] Thread (Callback)[0x00062128]]: PPU[2] Thread (Callback) enter
 [E : PPU[2] Thread (Callback)[0x00f9d088]]: TODO: cellGcmGetLastFlipTime
 [E : PPU[2] Thread (Callback)[0x00f9d034]]: TODO: cellGcmGetLastSecondVTime
-[! : PPU[2] Thread (Callback)[0x00fa900c]]: PPU[2] Thread (Callback) leave
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/materials/cb3a94530f17e8d2"): fd = 26
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=26)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/7fee772e3bc83319"): fd = 27
@@ -334,7 +344,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=54)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/676caa0555de911d"): fd = 55
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=55)
-[! : PPU[56] Thread (AsyncLoad)[0x0001f1d4]]: PPU[56] Thread (AsyncLoad) enter
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/gos/packfiles/English/game.bin"): fd = 57
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=57)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/gos/packfiles/English/game.bin"): fd = 58
@@ -352,6 +361,4 @@
 [E : PPU[1] Thread (CPUThread)[0x00f930a0]]: TODO: cellSpursSetExceptionEventHandler
 [E : PPU[1] Thread (CPUThread)[0x00420448]]: Read32 from null block: [00000018]
 [! : RSXThread]: RSX thread exit...
-[! : PPU[56] Thread (AsyncLoad)[0x0001f23c]]: PPU[56] Thread (AsyncLoad) leave
-[! : PPU[1] Thread (CPUThread)[0x0042044c]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

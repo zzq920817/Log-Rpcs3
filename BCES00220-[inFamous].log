@@ -1,3 +1,4 @@
+[!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00220-[inFamous]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -169,8 +170,31 @@
 [E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0xd01b570d in 'cellGcmSys' module
 [E]: TODO: cellGcmSetGraphicsHandler
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x004562d0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x00447b44]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x00447b44]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0044f330]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
@@ -183,20 +207,27 @@
 [W : PPU[1] Thread (CPUThread)[0x00447ae8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0044962c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[1] Thread (CPUThread)[0x0044962c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x8eb1f8, lwmutex_addr=0x8eb1e0, attr_addr=0xd00209c0)
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (attr=0x12, lwmutex.sq=0x1e): id = 31
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x8eb200, lwmutex_addr=0x8eb1e0, attr_addr=0xd00209c0)
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (attr=0x12, lwmutex.sq=0x1e): id = 32
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x8eb208, lwmutex_addr=0x8eb1e0, attr_addr=0xd00209c0)
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (attr=0x12, lwmutex.sq=0x1e): id = 33
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x8eb210, lwmutex_addr=0x8eb1e0, attr_addr=0xd00209c0)
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (attr=0x12, lwmutex.sq=0x1e): id = 34
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x8eb2a8, lwmutex_addr=0x8eb290, attr_addr=0xd0020940)
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (attr=0x12, lwmutex.sq=0x23): id = 36
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x7d5d78, lwmutex_addr=0x7d5d60, attr_addr=0xd0020b20)
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (attr=0x12, lwmutex.sq=0x25): id = 38
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: sys_lwcond_create(lwcond_addr=0x7d28f0, lwmutex_addr=0x7d28d8, attr_addr=0xd0020ab0)
-[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (attr=0x12, lwmutex.sq=0x27): id = 40
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: Recursive lwmutex(sq=30)
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x8eb1e0): id = 31
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: Recursive lwmutex(sq=30)
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x8eb1e0): id = 32
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: Recursive lwmutex(sq=30)
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x8eb1e0): id = 33
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: Recursive lwmutex(sq=30)
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x8eb1e0): id = 34
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [G] (attribute=0x12): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: Recursive lwmutex(sq=35)
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x8eb290): id = 36
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [ÿÿÿÿÿÿ] (attribute=0x12): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: Recursive lwmutex(sq=37)
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x7d5d60): id = 38
+[W : PPU[1] Thread (CPUThread)[0x009ff04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: Recursive lwmutex(sq=39)
+[W : PPU[1] Thread (CPUThread)[0x009ff0d0]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x7d28d8): id = 40
 [W : PPU[1] Thread (CPUThread)[0x0071c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x0071c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
 [W : PPU[1] Thread (CPUThread)[0x0071c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
@@ -217,18 +248,14 @@
 [W : PPU[1] Thread (CPUThread)[0x0041ccb0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x7d0200, attr_addr=0xd00206c4, event_queue_key=0x0, size=127)
 [W : PPU[1] Thread (CPUThread)[0x0041ccb0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 41
 [W : PPU[1] Thread (CPUThread)[0x0041ccf4]]: sys_event warning: sys_event_port_create(eport_id_addr=0x7d0214, port_type=0x1, name=0xd0a77)
-[! : PPU[42] Thread (Job Manager Event Handler)[0x0041cac8]]: PPU[42] Thread (Job Manager Event Handler) enter
 [W : PPU[1] Thread (CPUThread)[0x0041ccf4]]: sys_event warning: *** sys_event_port created: id = 43
-[W : PPU[42] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event warning: sys_event_queue_receive(equeue_id=41, event_addr=0xd0030ca0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0041cd04]]: sys_event warning: sys_event_port_connect_local(eport_id=43, equeue_id=41)
 [E : PPU[1] Thread (CPUThread)[0x0071a0f4]]: TODO: cellSpursAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x0071a0b8]]: TODO: _cellSpursAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0071a0e8]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x0041ccb0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x7d0228, attr_addr=0xd00206c4, event_queue_key=0x0, size=127)
 [W : PPU[1] Thread (CPUThread)[0x0041ccb0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 44
-[! : PPU[45] Thread (Job Manager Event Handler)[0x0041cac8]]: PPU[45] Thread (Job Manager Event Handler) enter
 [W : PPU[1] Thread (CPUThread)[0x0041ccf4]]: sys_event warning: sys_event_port_create(eport_id_addr=0x7d023c, port_type=0x1, name=0xd0a77)
-[W : PPU[45] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event warning: sys_event_queue_receive(equeue_id=44, event_addr=0xd0040ca0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0041ccf4]]: sys_event warning: *** sys_event_port created: id = 46
 [W : PPU[1] Thread (CPUThread)[0x0041cd04]]: sys_event warning: sys_event_port_connect_local(eport_id=46, equeue_id=44)
 [E : PPU[1] Thread (CPUThread)[0x0071a0f4]]: TODO: cellSpursAttachLv2EventQueue
@@ -252,11 +279,8 @@
 [E : PPU[1] Thread (CPUThread)[0x009f710c]]: TODO: cellDiscGameRegisterDiscChangeCallback
 [W : PPU[1] Thread (CPUThread)[0x009f7088]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x009f7034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00207d8)
-[W : PPU[1] Thread (CPUThread)[0x009f70d0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x52346780)
+[W : PPU[1] Thread (CPUThread)[0x009f70d0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x38567090)
 [E : PPU[1] Thread (CPUThread)[0x00115964]]: Read8 from null block: [00000000]
-[W : PPU[42] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=41) aborted
 [W : PPU[45] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=44) aborted
-[! : PPU[1] Thread (CPUThread)[0x00115968]]: PPU[1] Thread (CPUThread) leave
-[! : PPU[42] Thread (Job Manager Event Handler)[0x0041cb1c]]: PPU[42] Thread (Job Manager Event Handler) leave
-[! : PPU[45] Thread (Job Manager Event Handler)[0x0041cb1c]]: PPU[45] Thread (Job Manager Event Handler) leave
+[W : PPU[42] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=41) aborted
 [!]: Closing memory...
