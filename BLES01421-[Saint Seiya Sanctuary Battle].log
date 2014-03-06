@@ -252,7 +252,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x459d5db0)
+[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x68c71b0)
 [W : PPU[1] Thread (CPUThread)[0x0117d0f4]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209c0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01981058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -395,11 +395,11 @@
 [W : PPU[1] Thread (CPUThread)[0x003d8b6c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=116, vptr_addr=0xd00208b0)
 [! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
-[W : PPU[97] Thread (CRI FS File Access 3)[0x003de088]]: sys_cond_wait(id=96) aborted
 [W : PPU[105] Thread (CRI FS Data Decompression 0)[0x003de088]]: sys_cond_wait(id=104) aborted
 [W : PPU[93] Thread (CRI FS File Access 2)[0x003de088]]: sys_cond_wait(id=92) aborted
-[W : PPU[85] Thread (CRI FS File Access 0)[0x003de088]]: sys_cond_wait(id=84) aborted
-[W : PPU[53] Thread (Em File Thread)[0x0199d034]]: sys_lwcond_wait(sq=37) aborted
+[W : PPU[97] Thread (CRI FS File Access 3)[0x003de088]]: sys_cond_wait(id=96) aborted
 [W : PPU[101] Thread (CRI FS Memory File System)[0x003de088]]: sys_cond_wait(id=100) aborted
 [W : PPU[89] Thread (CRI FS File Access 1)[0x003de088]]: sys_cond_wait(id=88) aborted
+[W : PPU[85] Thread (CRI FS File Access 0)[0x003de088]]: sys_cond_wait(id=84) aborted
+[W : PPU[53] Thread (Em File Thread)[0x0199d034]]: sys_lwcond_wait(sq=37) aborted
 [!]: Closing memory...

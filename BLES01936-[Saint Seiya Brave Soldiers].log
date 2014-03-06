@@ -281,16 +281,6 @@
 [E]: TODO: send
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x3929948d in 'cellSync' module
 [E]: TODO: cellSyncQueueInitialize
 [W]: Unknown function 0x4da349b2 in 'cellSync' module
@@ -366,7 +356,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 37
 [W : PPU[1] Thread (CPUThread)[0x0102a0b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30416000,size=0x800000,offset_addr=0xd00208a0)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x2b1884a0)
+[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x370b63b0)
 [W : PPU[1] Thread (CPUThread)[0x0102e118]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209b0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0102a064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -438,3 +428,236 @@
 [W : PPU[1] Thread (CPUThread)[0x01dd207c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x303f3510, commID_addr=0xb24848, commSign_addr=0xb248d4, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01dd2010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x303f3514)
 [W : PPU[1] Thread (CPUThread)[0x01dd201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020470, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0102c01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01db0034]]: cellGame warning: cellGameBootCheck(type_addr=0xd00201f0, attributes_addr=0xd00201f4, size_addr=0xd00201f8, dirName_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01db0040]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd00202f0, bufsize=10)
+[W : PPU[1] Thread (CPUThread)[0x01db0040]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0xd0020400, bufsize=128)
+[W : PPU[1] Thread (CPUThread)[0x01db0040]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0xd00202e8, bufsize=6)
+[W : PPU[1] Thread (CPUThread)[0x01db0004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020300, usrdirPath_addr=0xd0020380)
+[W : PPU[1] Thread (CPUThread)[0x0102c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01db0034]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020574, attributes_addr=0xd0020570, size_addr=0xd0020578, dirName_addr=0xd00206d0)
+[W : PPU[1] Thread (CPUThread)[0x01db0004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1b8ff34, usrdirPath_addr=0x1b8ffb4)
+[W : PPU[88] Thread (Installer:Setup)[0x0102c01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+[E : PPU[88] Thread (Installer:Setup)[0x01db0028]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[88] Thread (Installer:Setup)[0x01db0004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00407a8, usrdirPath_addr=0xd0040828)
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_content_EU.lst"): fd = 89
+[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
+[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=89)
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_data.lst"): fd = 90
+[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
+[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=90)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 91
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 92
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(92)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=92): id = 93
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=94, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 95
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 96
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(96)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=96): id = 97
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=98, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 99
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 100
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(100)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=100): id = 101
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=102, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 103
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 104
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(104)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=104): id = 105
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=106, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 108
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(108)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=108): id = 109
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=110, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 112
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(112)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=112): id = 113
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=114, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 117
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 118
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 119
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 120
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 121
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 122
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 123
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 124
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=125, prio=500)
+[E : PPU[94] Thread (CRI FS File Access 0)[0x01028034]]: sys_fs error: "/resource.cpk" not found! flags: 0x00000000
+[E : PPU[94] Thread (CRI FS File Access 0)[0x01028034]]: sys_fs error: "/resource.cpk" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
+[W : PPU[1] Thread (CPUThread)[0x00817f08]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30062000, attr_addr=0xd00208b0, initial_count=0, max_count=2)
+[W : PPU[1] Thread (CPUThread)[0x00817f08]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30062060, attr_addr=0xd00208b0, initial_count=0, max_count=2)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 130
+[W : PPU[1] Thread (CPUThread)[0x01dd80c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30023a40): id = 131
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[W : Audio Thread]: Audio aborted
+[W : PPU[102] Thread (CRI FS File Access 1)[0x008b758c]]: sys_cond_wait(id=101) aborted
+[W : PPU[94] Thread (CRI FS File Access 0)[0x008b758c]]: sys_cond_wait(id=93) aborted
+[W : PPU[68] Thread (Em File Thread)[0x01dd8034]]: sys_lwcond_wait(sq=52) aborted
+[W : PPU[114] Thread (CRI FS Data Decompression 0)[0x008b758c]]: sys_cond_wait(id=113) aborted
+[W : PPU[98] Thread (CRI FS Memory File System)[0x008b758c]]: sys_cond_wait(id=97) aborted
+[W : PPU[110] Thread (CRI FS File Access 3)[0x008b758c]]: sys_cond_wait(id=109) aborted
+[W : PPU[106] Thread (CRI FS File Access 2)[0x008b758c]]: sys_cond_wait(id=105) aborted
+[! : RSXThread]: RSX thread exit...

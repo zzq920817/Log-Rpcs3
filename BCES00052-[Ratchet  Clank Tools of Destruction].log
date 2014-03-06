@@ -1026,21 +1026,14 @@
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
@@ -1048,11 +1041,15 @@
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
@@ -1075,6 +1072,19 @@
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
@@ -1109,9 +1119,55 @@
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[W : PPU[277] Thread (PuJobDispatch)[0x005aa67c]]: sys_cond_wait(id=276) aborted
-[W : PPU[270] Thread (Job Manager Event Handler)[0x007e47f0]]: sys_event_queue_receive(equeue=269) aborted
-[W : PPU[273] Thread (Job Manager Event Handler)[0x007e47f0]]: sys_event_queue_receive(equeue=272) aborted
-[W : PPU[18] Thread (TIER::LoadThread())[0x0060a8c4]]: sys_cond_wait(id=17) aborted
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [! : RSXThread]: RSX thread exit...
+[W : PPU[273] Thread (Job Manager Event Handler)[0x007e47f0]]: sys_event_queue_receive(equeue=272) aborted
+[W : PPU[277] Thread (PuJobDispatch)[0x005aa67c]]: sys_cond_wait(id=276) aborted
+[W : PPU[18] Thread (TIER::LoadThread())[0x0060a8c4]]: sys_cond_wait(id=17) aborted
+[W : PPU[270] Thread (Job Manager Event Handler)[0x007e47f0]]: sys_event_queue_receive(equeue=269) aborted
 [!]: Closing memory...

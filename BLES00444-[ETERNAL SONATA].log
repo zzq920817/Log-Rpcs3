@@ -113,7 +113,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/mapse.files"): fd = 34
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/cxs.files"): fd = 35
 [W : PPU[1] Thread (CPUThread)[0x00506058]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x3c4e51b0)
+[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xb74b71b0)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmInit(context_addr=0x9ea77c,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3bb10000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3bb10000, io=0x0, size=0x400000)
@@ -173,5 +173,5 @@
 [W : PPU[1] Thread (CPUThread)[0x005040a0]]: cellGcmSys warning: cellGcmSetTile(index=9, location=0, offset=58982400, size=983040, pitch=2560, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x00504004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
 [E : RSXThread]: Read32 from null block: [50000000]
-[! : RSXThread]: RSX thread exit...
 [W : PPU[39] Thread (TCX_PrintfHandler)[0x0030a8a0]]: sys_event_queue_receive(equeue=38) aborted
+[! : RSXThread]: RSX thread exit...

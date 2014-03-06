@@ -32,8 +32,6 @@
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
@@ -148,9 +146,9 @@
 [W : RawSPU[26] Thread (CPUThread)[0x000000e0]]: Starting RawSPU...
 [W : PPU[1] Thread (CPUThread)[0x0003b5c4]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
 [W : PPU[1] Thread (CPUThread)[0x0003b600]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[W : PPU[1] Thread (CPUThread)[0x001b7010]]: cellGcmSys warning: cellGcmInit(context_addr=0xc71784,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x001b7010]]: cellGcmSys warning: cellGcmInit(context_addr=0xc71784,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x001b7010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x001b7010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x001b7010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x001b7070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
 [E : PPU[1] Thread (CPUThread)[0x001b716c]]: TODO: cellGcmSetGraphicsHandler
@@ -176,7 +174,7 @@
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[W : PPU[1] Thread (CPUThread)[0x001b7094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30416000, io=0xe000000, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x001b7094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30500000, io=0xe000000, size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x001b7184]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x001b7184]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x001b7184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
@@ -216,34 +214,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00cce040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1d94b8, portNum_addr=0xd0020900)
 [W : PPU[1] Thread (CPUThread)[0x00cce040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x00cce01c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x1d94d8)
-[W : PPU[1] Thread (CPUThread)[0x00cd8058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 30
-[E : PPU[1] Thread (CPUThread)[0x00cd20ac]]: TODO: cellSpursCreateTaskset
-[E : PPU[1] Thread (CPUThread)[0x00cd2034]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x00cd204c]]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x00cd2034]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x00cd20dc]]: TODO: cellSpursCreateTask
-[E : PPU[1] Thread (CPUThread)[0x00ccc01c]]: sys_fs error: "/dev_flash/sys/external/flashATRAC.pic" not found! flags: 0x00000000
-[W : PPU[31] Thread (MultiStream PU Thread)[0x00cce028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80000)
-[W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120001)
-[W : PPU[1] Thread (CPUThread)[0x0003be74]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80002)
-[W : PPU[1] Thread (CPUThread)[0x0003bdf0]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
-[W : PPU[1] Thread (CPUThread)[0x0003be74]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x00cd601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd00208e0, attributes_addr=0xd00208e4, size_addr=0xd00208f4, dirName_addr=0xd0020900)
-[W : PPU[1] Thread (CPUThread)[0x00cd6004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020900, bufsize=10)
-[E : PPU[31] Thread (MultiStream PU Thread)[0x00cd20e8]]: TODO: _cellSpursSendSignal
-[E : PPU[31] Thread (MultiStream PU Thread)[0x00cd201c]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x00cd6010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020900, usrdirPath_addr=0xd0020980)
-[W : PPU[1] Thread (CPUThread)[0x001b9004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
-[W : PPU[1] Thread (CPUThread)[0x001b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x00cd8058]]: sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 32
-[W : PPU[1] Thread (CPUThread)[0x00cd80f4]]: sys_lwcond warning: Invalid lwmutex address(0x80bc0640)
-[W : PPU[1] Thread (CPUThread)[0x00cd80f4]]: sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x80bc0640): id = 33
-[W : PPU[1] Thread (CPUThread)[0x00cd8058]]: sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 34
-[E : PPU[1] Thread (CPUThread)[0x00107638]]: Read32 from null block: [b0bc0648]
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
+[W : PPU[1] Thread (CPUThread)[0x00cd8004]]: (hack) sys_lwmutex_t::trylock aborted (waiting for recursive attribute, attr=0x0)
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
