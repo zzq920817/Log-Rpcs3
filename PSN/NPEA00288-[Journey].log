@@ -144,16 +144,6 @@
 [E]: TODO: cellSpursSetExceptionEventHandler
 [W]: Unknown function 0xefeb2679 in 'cellSpurs' module
 [E]: TODO: _cellSpursWorkloadAttributeInitialize
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilParseUri
@@ -398,7 +388,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00eed124]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30150ef0): id = 83
 [W : PPU[1] Thread (CPUThread)[0x00eed058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 84
 [W : PPU[1] Thread (CPUThread)[0x00eed124]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30150f30): id = 85
-[E : PPU[1] Thread (CPUThread)[0x00ed1034]]: TODO: cellNetCtlGetInfo
+[E : PPU[1] Thread (CPUThread)[0x00ed1034]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
 [E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b580)
 [E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b59c)
 [E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b5b8)

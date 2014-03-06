@@ -186,18 +186,6 @@
 [E]: TODO: getsockopt
 [W]: Unknown function 0xc94f6939 in 'sys_net' module
 [E]: TODO: accept
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
 [W]: Unknown module 'sceNpCommerce2'
 [W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
 [E]: TODO: _sys_spu_printf_finalize
@@ -267,8 +255,8 @@
 [W : PPU[44] Thread (bge_read_key_edata)[0x0203601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd002fca4, attributes_addr=0xd002fca0, size_addr=0xd002fca8, dirName_addr=0xd002fcb8)
 [W : PPU[44] Thread (bge_read_key_edata)[0x02036004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00300d8, usrdirPath_addr=0xd002fcd8)
 [W : PPU[44] Thread (bge_read_key_edata)[0x00c8c028]]: sys_fs warning: cellFsStat: "/app_home/KEYFILE.edat" not found.
-[W : PPU[44] Thread (bge_read_key_edata)[0x0203e0a0]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=-2147418106)
 [E : PPU[1] Thread (CPUThread)[0x0202e064]]: TODO: sceNpTerm
+[W : PPU[44] Thread (bge_read_key_edata)[0x0203e0a0]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=-2147418106)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)

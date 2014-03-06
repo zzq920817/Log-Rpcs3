@@ -152,18 +152,6 @@
 [E]: TODO: sceNpScoreRecordGameDataAsync
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
 [E]: TODO: socketpoll
 [W]: Unknown function 0x139a9e9b in 'sys_net' module
@@ -331,7 +319,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00ede0f4]]: TODO: cellSpursSetExceptionEventHandler
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x490e5da0)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x20a952b0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)
@@ -344,7 +332,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0x101deffc)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0c4]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d0ac]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0x101dee28)
-[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x490e52a0)
+[W : PPU[1] Thread (CPUThread)[0x00f3d0e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x20a964b0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d13c]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00f3d148]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00207a0)
 [E : PPU[1] Thread (CPUThread)[0x00f3d0d0]]: cellSysutil error: Unimplemented function: cellAudioOutGetDeviceInfo(audioOut=0, deviceIndex=0, info_addr=0xd00207b4)

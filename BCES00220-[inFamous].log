@@ -126,14 +126,6 @@
 [E]: TODO: send
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
@@ -279,8 +271,8 @@
 [E : PPU[1] Thread (CPUThread)[0x009f710c]]: TODO: cellDiscGameRegisterDiscChangeCallback
 [W : PPU[1] Thread (CPUThread)[0x009f7088]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x009f7034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00207d8)
-[W : PPU[1] Thread (CPUThread)[0x009f70d0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xf62881a0)
+[W : PPU[1] Thread (CPUThread)[0x009f70d0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x267d69b0)
 [E : PPU[1] Thread (CPUThread)[0x00115964]]: Read8 from null block: [00000000]
-[W : PPU[45] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=44) aborted
 [W : PPU[42] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=41) aborted
+[W : PPU[45] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=44) aborted
 [!]: Closing memory...

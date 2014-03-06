@@ -177,26 +177,6 @@
 [E]: TODO: sys_net_set_netemu_test_param
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
-[E]: TODO: cellNetCtlAddHandler
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x3a12865f in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetNatInfo
-[W]: Unknown function 0x71d53210 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogAbortAsync
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlDelHandler
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
 [E]: TODO: sceNpBasicSendMessageGui
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -1014,9 +994,9 @@
 [W : PPU[1] Thread (CPUThread)[0x0101d0ac]]: sys_lwmutex warning: *** lwmutex created [GfxUBLM] (attribute=0x12): sq_id = 407
 [W : PPU[1] Thread (CPUThread)[0x0101d0ac]]: sys_lwmutex warning: *** lwmutex created [GfxResM] (attribute=0x12): sq_id = 408
 [W : PPU[1] Thread (CPUThread)[0x010191cc]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)
-[W : PPU[1] Thread (CPUThread)[0x01019010]]: cellGcmSys warning: cellGcmInit(context_addr=0xe8cb10,cmdSize=0x181000,ioSize=0x1000000,ioAddress=0x39d30000)
+[W : PPU[1] Thread (CPUThread)[0x01019010]]: cellGcmSys warning: cellGcmInit(context_addr=0xe8cb10,cmdSize=0x181000,ioSize=0x1000000,ioAddress=0x39d10000)
 [W : PPU[1] Thread (CPUThread)[0x01019010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x01019010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39d30000, io=0x0, size=0x1000000)
+[W : PPU[1] Thread (CPUThread)[0x01019010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39d10000, io=0x0, size=0x1000000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x0101d0e8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30caa648)
 [W : PPU[1] Thread (CPUThread)[0x0101d0e8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30caa688)
@@ -1027,7 +1007,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0101d0ac]]: sys_lwmutex warning: *** lwmutex created [GfxResM] (attribute=0x12): sq_id = 411
 [W : PPU[1] Thread (CPUThread)[0x0101d0ac]]: sys_lwmutex warning: *** lwmutex created [GfxResM] (attribute=0x12): sq_id = 412
 [E : PPU[1] Thread (CPUThread)[0x006be984]]: Write32 to null block: [000000a0]: e13860
-[W : PPU[238] Thread (Axl:Pack:FsOpenWorker)[0x0101d0a0]]: sys_lwcond_wait(sq=236) aborted
 [W : PPU[402] Thread (AxlPack:WorkerThread)[0x0101d0a0]]: sys_lwcond_wait(sq=401) aborted
+[W : PPU[238] Thread (Axl:Pack:FsOpenWorker)[0x0101d0a0]]: sys_lwcond_wait(sq=236) aborted
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

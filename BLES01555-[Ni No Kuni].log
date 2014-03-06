@@ -97,30 +97,16 @@
 [E]: TODO: send
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
 [W]: Unknown function 0x0791015f in 'cellNetCtl' module
 [E]: TODO: cellGameUpdateCheckStartAsyncEx
-[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
-[E]: TODO: cellNetCtlAddHandler
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
 [W]: Unknown function 0x10dae56d in 'cellNetCtl' module
 [E]: TODO: cellGameUpdateTerm
 [W]: Unknown function 0x3e359ab6 in 'cellNetCtl' module
 [E]: TODO: cellGameUpdateCheckAbort
 [W]: Unknown function 0x558700f6 in 'cellNetCtl' module
 [E]: TODO: cellGameUpdateCheckStartWithoutDialogAsyncEx
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlDelHandler
 [W]: Unknown function 0x99ab1a26 in 'cellNetCtl' module
 [E]: TODO: cellGameUpdateInit
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0xf463981c in 'cellNetCtl' module
 [E]: TODO: cellGameUpdateCheckFinishAsyncEx
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -452,11 +438,12 @@
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x01b7d01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
-[E : PPU[1] Thread (CPUThread)[0x01daf088]]: TODO: cellNetCtlInit
+[E : PPU[1] Thread (CPUThread)[0x01daf088]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [W : PPU[1] Thread (CPUThread)[0x01b7d01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [E : PPU[1] Thread (CPUThread)[0x01dad004]]: TODO: sys_net_initialize_network_ex
 [W : PPU[1] Thread (CPUThread)[0x01db9028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01555\')
+[! : PPU[1] Thread (CPUThread)[0x01db9028]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01555
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb088]]: cellGame warning: cellGameBootCheck(type_addr=0x1cfc890, attributes_addr=0x1cfc894, size_addr=0x1cfc898, dirName_addr=0x1cfcfce)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfc8a4)

@@ -163,20 +163,6 @@
 [E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x3a12865f in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetNatInfo
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x07529113 in 'cellSpurs' module
 [E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x082bfb09 in 'cellSpurs' module
@@ -491,8 +477,7 @@
 [W : PPU[64] Thread (bringup)[0x00e9701c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
 [W : PPU[64] Thread (bringup)[0x00e97010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [E : PPU[64] Thread (bringup)[0x00e8d004]]: TODO: sys_net_initialize_network_ex
-[E : PPU[64] Thread (bringup)[0x00e8f04c]]: TODO: cellNetCtlInit
-[E : PPU[64] Thread (bringup)[0x00e8f040]]: TODO: cellNetCtlGetState
+[E : PPU[64] Thread (bringup)[0x00e8f04c]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [W : PPU[64] Thread (bringup)[0x0003b738]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0030c18)
 [W : PPU[64] Thread (bringup)[0x00e9701c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_LV2DBG)
 [W : PPU[64] Thread (bringup)[0x00e97010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_LV2DBG)

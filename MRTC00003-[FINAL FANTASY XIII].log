@@ -896,9 +896,9 @@
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 142
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
+[W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
+[W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
 [E : PPU[134] Thread (ZDecode)[0x013e60dc]]: TODO: sys_spinlock_lock
-[W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020430, attr_addr=0xd0020438, initial_count=0, max_count=268435455)
 [E : PPU[134] Thread (ZDecode)[0x013e6094]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x013e60dc]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock

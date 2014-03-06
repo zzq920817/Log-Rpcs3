@@ -169,14 +169,6 @@
 [E]: TODO: bind
 [W]: Unknown function 0xb68d5625 in 'sys_net' module
 [E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x07529113 in 'cellSpurs' module
 [E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
@@ -271,7 +263,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0014dcf8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b13c, attr_addr=0xd0020a00, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x002fa04c]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1785696)
 [W : PPU[1] Thread (CPUThread)[0x002f6028]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020854)
-[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x6cc45680)
+[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xa5584eb0)
 [W : PPU[1] Thread (CPUThread)[0x001576c0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1ac, attr_addr=0xd0020a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00157890]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1bc, attr_addr=0xd0020a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0030a034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
@@ -485,17 +477,17 @@
 [E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
 [E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
 [W : PPU[19] Thread (crCommandQueue)[0x002fa040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
-[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
-[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
-[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
-[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
-[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
-[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
-[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
-[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
 [W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x14 (inst 1049565)

@@ -16,18 +16,6 @@
 [E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0xb68d5625 in 'sys_net' module
 [E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
-[E]: TODO: cellNetCtlAddHandler
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlDelHandler
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x21206642 in 'sceNp' module
 [E]: TODO: sceNpScoreGetRankingByRangeAsync
 [W]: Unknown function 0x259113b8 in 'sceNp' module
@@ -380,7 +368,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01a2e004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020aa0, bufsize=128)
 [W : PPU[1] Thread (CPUThread)[0x01a2e01c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1a09630, usrdirPath_addr=0x1a096b0)
 [E : PPU[1] Thread (CPUThread)[0x00af6e38]]: Read8 from null block: [00000001]
-[W : PPU[54] Thread (301999f0)[0x007d4088]]: sys_event_queue_receive(equeue=51) aborted
-[W : PPU[50] Thread (30197090)[0x007d6eec]]: sys_event_queue_receive(equeue=46) aborted
 [W : PPU[57] Thread (3019cb50)[0x007d4088]]: sys_event_queue_receive(equeue=51) aborted
+[W : PPU[50] Thread (30197090)[0x007d6eec]]: sys_event_queue_receive(equeue=46) aborted
+[W : PPU[54] Thread (301999f0)[0x007d4088]]: sys_event_queue_receive(equeue=51) aborted
 [!]: Closing memory...

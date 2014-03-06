@@ -50,8 +50,6 @@
 [E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
 [E]: TODO: cellSpursSetExceptionEventHandler
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
 [W]: Unknown function 0x07254fda in 'cellSync' module
 [E]: TODO: cellSyncBarrierInitialize
 [W]: Unknown function 0x35f21355 in 'cellSync' module
@@ -142,7 +140,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0006aeac]]: sys_cond warning: *** condition created [] (mutex_id=50): id = 51
 [W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
 [W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 53
-[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: TODO: cellNetCtlGetInfo
+[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
 [W : PPU[1] Thread (CPUThread)[0x0006b150]]: sys_cond warning: sys_cond_destroy(cond_id=51)
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

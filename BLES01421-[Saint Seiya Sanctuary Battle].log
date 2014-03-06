@@ -191,16 +191,6 @@
 [E]: TODO: send
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x3929948d in 'cellSync' module
 [E]: TODO: cellSyncQueueInitialize
 [W]: Unknown function 0x4da349b2 in 'cellSync' module
@@ -262,7 +252,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xabb74ea0)
+[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x459d5db0)
 [W : PPU[1] Thread (CPUThread)[0x0117d0f4]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209c0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01981058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -335,3 +325,81 @@
 [W : PPU[1] Thread (CPUThread)[0x0199707c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x300f12d0, commID_addr=0xd36c60, commSign_addr=0xd36cec, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01997010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x300f12d4)
 [W : PPU[1] Thread (CPUThread)[0x0199701c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd00205c0, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0117b01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0117f034]]: cellGame warning: cellGameBootCheck(type_addr=0xd00201c0, attributes_addr=0xd00201c4, size_addr=0xd00201cc, dirName_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0117f040]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020318, bufsize=10)
+[W : PPU[1] Thread (CPUThread)[0x0117f040]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0xd0020428, bufsize=128)
+[W : PPU[1] Thread (CPUThread)[0x0117f040]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0xd0020310, bufsize=6)
+[W : PPU[1] Thread (CPUThread)[0x0117f004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020328, usrdirPath_addr=0xd00203a8)
+[E : PPU[78] Thread (Installer:Setup)[0x0117f028]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[78] Thread (Installer:Setup)[0x0117f004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00406b8, usrdirPath_addr=0xd0040738)
+[E : PPU[78] Thread (Installer:Setup)[0x01179034]]: sys_fs error: "/version.vsn" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x0117b004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0117f034]]: cellGame warning: cellGameBootCheck(type_addr=0xd00205b4, attributes_addr=0xd00205b0, size_addr=0xd00205b8, dirName_addr=0xd0020708)
+[W : PPU[1] Thread (CPUThread)[0x0117f004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1619e70, usrdirPath_addr=0x1619ef0)
+[W : PPU[79] Thread (Installer:Setup)[0x0117b01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+[E : PPU[79] Thread (Installer:Setup)[0x0117f028]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[79] Thread (Installer:Setup)[0x0117f004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00506b8, usrdirPath_addr=0xd0050738)
+[E : PPU[79] Thread (Installer:Setup)[0x01179034]]: sys_fs error: "/version.vsn" not found! flags: 0x00000000
+[W : PPU[79] Thread (Installer:Setup)[0x01179034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_content_EU.lst"): fd = 80
+[E : PPU[79] Thread (Installer:Setup)[0x01179070]]: TODO: cellFsReadWithOffset
+[E : PPU[79] Thread (Installer:Setup)[0x01179070]]: TODO: cellFsReadWithOffset
+[W : PPU[79] Thread (Installer:Setup)[0x01179004]]: sys_fs warning: cellFsClose(fd=80)
+[W : PPU[79] Thread (Installer:Setup)[0x01179034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_data.lst"): fd = 81
+[E : PPU[79] Thread (Installer:Setup)[0x01179070]]: TODO: cellFsReadWithOffset
+[E : PPU[79] Thread (Installer:Setup)[0x01179070]]: TODO: cellFsReadWithOffset
+[W : PPU[79] Thread (Installer:Setup)[0x01179004]]: sys_fs warning: cellFsClose(fd=81)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x003dddf0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 83
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition on recursive mutex(83)
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition created [] (mutex_id=83): id = 84
+[W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=85, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 86
+[W : PPU[1] Thread (CPUThread)[0x003dddf0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 87
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition on recursive mutex(87)
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition created [] (mutex_id=87): id = 88
+[W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=89, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 90
+[W : PPU[1] Thread (CPUThread)[0x003dddf0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 91
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition on recursive mutex(91)
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition created [] (mutex_id=91): id = 92
+[W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=93, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 94
+[W : PPU[1] Thread (CPUThread)[0x003dddf0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 95
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition on recursive mutex(95)
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition created [] (mutex_id=95): id = 96
+[W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=97, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 98
+[W : PPU[1] Thread (CPUThread)[0x003dddf0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 99
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition on recursive mutex(99)
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition created [] (mutex_id=99): id = 100
+[W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=101, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 102
+[W : PPU[1] Thread (CPUThread)[0x003dddf0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 103
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition on recursive mutex(103)
+[W : PPU[1] Thread (CPUThread)[0x003dde48]]: sys_cond warning: *** condition created [] (mutex_id=103): id = 104
+[W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=105, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 109
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 110
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 114
+[W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
+[W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=116, prio=500)
+[W : PPU[1] Thread (CPUThread)[0x003d8b6c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=116, vptr_addr=0xd00208b0)
+[! : RSXThread]: RSX thread exit...
+[W : Audio Thread]: Audio aborted
+[W : PPU[97] Thread (CRI FS File Access 3)[0x003de088]]: sys_cond_wait(id=96) aborted
+[W : PPU[105] Thread (CRI FS Data Decompression 0)[0x003de088]]: sys_cond_wait(id=104) aborted
+[W : PPU[93] Thread (CRI FS File Access 2)[0x003de088]]: sys_cond_wait(id=92) aborted
+[W : PPU[85] Thread (CRI FS File Access 0)[0x003de088]]: sys_cond_wait(id=84) aborted
+[W : PPU[53] Thread (Em File Thread)[0x0199d034]]: sys_lwcond_wait(sq=37) aborted
+[W : PPU[101] Thread (CRI FS Memory File System)[0x003de088]]: sys_cond_wait(id=100) aborted
+[W : PPU[89] Thread (CRI FS File Access 1)[0x003de088]]: sys_cond_wait(id=88) aborted
+[!]: Closing memory...

@@ -104,22 +104,6 @@
 [E]: TODO: recv
 [W]: Unknown function 0xfdb8f926 in 'sys_net' module
 [E]: TODO: sys_net_free_thread_context
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
-[E]: TODO: cellNetCtlAddHandler
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlDelHandler
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilParseUri
@@ -334,8 +318,9 @@
 [W : PPU[1] Thread (CPUThread)[0x008b9040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 89
 [W : PPU[1] Thread (CPUThread)[0x00412808]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00200f4)
 [W : PPU[1] Thread (CPUThread)[0x00412808]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001ff34)
-[W : PPU[1] Thread (CPUThread)[0x008a1010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1081a220,cmdSize=0x10000,ioSize=0x600000,ioAddress=0x338d0000)
+[W : PPU[1] Thread (CPUThread)[0x008a1010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1081a220,cmdSize=0x10000,ioSize=0x600000,ioAddress=0x33890000)
 [W : PPU[1] Thread (CPUThread)[0x008a1010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x008a1010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x338d0000, io=0x0, size=0x600000)
+[W : PPU[1] Thread (CPUThread)[0x008a1010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x33890000, io=0x0, size=0x600000)
 [! : RSXThread]: RSX thread entry
 [! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

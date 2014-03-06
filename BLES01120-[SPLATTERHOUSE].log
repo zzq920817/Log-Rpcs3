@@ -168,16 +168,6 @@
 [E]: TODO: send
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x1650aea4 in 'cellSsl' module
 [E]: TODO: cellSslEnd
@@ -665,6 +655,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0162f01c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x13a5090)
 [W : PPU[1] Thread (CPUThread)[0x0162f010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd001ff98, usrdirPath_addr=0xd001ff18)
 [W : PPU[1] Thread (CPUThread)[0x0129f01c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES-01120\')
+[! : PPU[1] Thread (CPUThread)[0x0129f01c]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache
+[! : PPU[1] Thread (CPUThread)[0x0129f01c]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES-01120
 [W : PPU[1] Thread (CPUThread)[0x01649058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 348
 [W : PPU[1] Thread (CPUThread)[0x01649058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 349
 [W : PPU[1] Thread (CPUThread)[0x00571010]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x301db42c, attr_addr=0xd0020520)

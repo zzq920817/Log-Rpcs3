@@ -116,22 +116,6 @@
 [E]: TODO: sys_net_finalize_network
 [W]: Unknown function 0xc94f6939 in 'sys_net' module
 [E]: TODO: accept
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
-[E]: TODO: cellNetCtlAddHandler
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlDelHandler
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0xc9645c41 in 'cellSysutil' module
 [E]: TODO: cellGameDataCheckCreate2
 [W]: Unknown function 0xdfdd302e in 'cellSysutil' module
@@ -489,7 +473,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01176004]]: sys_fs warning: cellFsClose(fd=305)
 [W : PPU[1] Thread (CPUThread)[0x0117e040]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x10eb950, userdata=0x0)
 [E : PPU[1] Thread (CPUThread)[0x0117a0dc]]: TODO: sys_net_initialize_network_ex
-[E : PPU[1] Thread (CPUThread)[0x0117c058]]: TODO: cellNetCtlInit
+[E : PPU[1] Thread (CPUThread)[0x0117c058]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x01180058]]: TODO: sceNpInit
 [W : PPU[1] Thread (CPUThread)[0x00da6ddc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 306
 [W : PPU[1] Thread (CPUThread)[0x01176010]]: sys_fs warning: cellFsOpendir(path="//app_home/USRDIR/Custom/AdditionalContent/*.Arch02", fd_addr=0xd001f900)

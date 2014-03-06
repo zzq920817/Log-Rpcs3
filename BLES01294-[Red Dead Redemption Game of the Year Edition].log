@@ -18,12 +18,6 @@
 [E]: TODO: sceNpInit
 [W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
 [E]: TODO: sceNpDrmProcessExitSpawn2
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x139a9e9b in 'sys_net' module
 [E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
@@ -221,7 +215,7 @@
 [W : PPU[1] Thread (CPUThread)[0x000fd034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x00016988]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [E : PPU[1] Thread (CPUThread)[0x000ef004]]: TODO: sys_net_initialize_network_ex
-[E : PPU[1] Thread (CPUThread)[0x000ed01c]]: TODO: cellNetCtlInit
+[E : PPU[1] Thread (CPUThread)[0x000ed01c]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x000ef07c]]: TODO: sys_net_show_ifconfig
 [E : PPU[1] Thread (CPUThread)[0x000fb040]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x000fb094]]: TODO: cellSpursJobChainAttributeSetName

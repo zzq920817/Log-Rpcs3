@@ -269,9 +269,9 @@
 [W : PPU[41] Thread (NUCC::Xfbin load request)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x00bd40e8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xa49c88, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
-[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xbb8830,cmdSize=0x10000,ioSize=0x4a00000,ioAddress=0x30120000)
+[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xbb8830,cmdSize=0x10000,ioSize=0x4a00000,ioAddress=0x30110000)
 [W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30120000, io=0x0, size=0x4a00000)
+[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30110000, io=0x0, size=0x4a00000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 44
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 45
@@ -401,7 +401,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00bd8058]]: cellResc warning: cellRescInit(initConfig_addr=0xd002058c)
 [W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
-[W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x34b46000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x34b16000, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00bd8028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
 [W : PPU[1] Thread (CPUThread)[0x00bd8064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0020560, vertexArray_addr=0xd002056c, fragmentShader_addr=0xd0020564)

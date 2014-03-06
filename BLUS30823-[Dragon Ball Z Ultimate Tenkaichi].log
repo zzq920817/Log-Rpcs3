@@ -176,20 +176,6 @@
 [E]: TODO: recv
 [W]: Unknown function 0xfdb8f926 in 'sys_net' module
 [E]: TODO: sys_net_free_thread_context
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x3a12865f in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetNatInfo
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
 [E]: TODO: sceNpBasicSendMessageGui
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -439,10 +425,10 @@
 [W : PPU[1] Thread (CPUThread)[0x0060f624]]: sys_cond warning: *** condition created [] (mutex_id=74): id = 75
 [W : PPU[1] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 77
 [W : PPU[1] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 78
-[W : PPU[1] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 80
 [W : PPU[79] Thread (_cellsurMixerMain)[0x0061186c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x8ef724, attr_addr=0x8f07d0, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x00917070]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x8ef768, portNum_addr=0x8ef6d8)
+[W : PPU[1] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 80
 [W : PPU[79] Thread (_cellsurMixerMain)[0x0061186c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 81
+[W : PPU[1] Thread (CPUThread)[0x00917070]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x8ef768, portNum_addr=0x8ef6d8)
 [W : PPU[1] Thread (CPUThread)[0x00917070]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x0091704c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x8ef788)
 [W : PPU[1] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 82
@@ -463,12 +449,12 @@
 [W : PPU[1] Thread (CPUThread)[0x005e2744]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x009390b8]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x8ff03c, entry=0x7aff00)
 [W : PPU[95] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 96
+[W : PPU[79] Thread (_cellsurMixerMain)[0x00611a94]]: sys_event_queue_receive(equeue=81) aborted
+[W : PPU[67] Thread (cri_adxm_idle_proc)[0x00622938]]: sys_cond_wait(id=49) aborted
+[W : PPU[76] Thread (_sys_mixerSurBusReq)[0x0060e7b4]]: sys_cond_wait(id=71) aborted
+[W : PPU[65] Thread (cri_adxm_fs_proc)[0x00622938]]: sys_cond_wait(id=47) aborted
 [W : Audio Thread]: Audio aborted
 [W : PPU[63] Thread (cri_adxm_vsync_proc)[0x00622938]]: sys_cond_wait(id=45) aborted
-[W : PPU[65] Thread (cri_adxm_fs_proc)[0x00622938]]: sys_cond_wait(id=47) aborted
-[W : PPU[67] Thread (cri_adxm_idle_proc)[0x00622938]]: sys_cond_wait(id=49) aborted
 [W : PPU[34] Thread (cri_dlg)[0x00669d54]]: sys_cond_wait(id=32) aborted
 [W : PPU[27] Thread (cri_dlg)[0x00669d54]]: sys_cond_wait(id=25) aborted
-[W : PPU[76] Thread (_sys_mixerSurBusReq)[0x0060e7b4]]: sys_cond_wait(id=71) aborted
-[W : PPU[79] Thread (_cellsurMixerMain)[0x00611a94]]: sys_event_queue_receive(equeue=81) aborted
 [!]: Closing memory...
