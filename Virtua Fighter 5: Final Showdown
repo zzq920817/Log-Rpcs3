@@ -1,0 +1,2977 @@
+[!]: path: /dev_hdd0/game/
+[!]: (S)ELF: booting...
+[!]: Loading 'C:\PKG Toolkit GUI\NPEB00913\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> C:\Rpcs3-Nekotekina\trunk\bin\dev_hdd0\
+[!]: /dev_hdd1/ -> C:\Rpcs3-Nekotekina\trunk\bin\dev_hdd1\
+[!]: /dev_flash/ -> C:\Rpcs3-Nekotekina\trunk\bin\dev_flash\
+[!]: /dev_usb000/ -> C:\Rpcs3-Nekotekina\trunk\bin\dev_usb000\
+[!]: /dev_usb/ -> C:\Rpcs3-Nekotekina\trunk\bin\dev_usb000\
+[!]: /app_home/ -> C:\PKG Toolkit GUI\NPEB00913\
+[!]: /dev_bdvd/ -> C:\PKG Toolkit GUI\NPEB00913\\..\
+[!]: /host_root/ -> C:\PKG Toolkit GUI\NPEB00913\\host_root\
+[!]: / -> C:\PKG Toolkit GUI\NPEB00913\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x6d3bb15b in 'sys_fs' module
+[E]: TODO: cellFsSdataOpenByFd
+[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetQueueHandler
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0x07254fda in 'cellSync' module
+[E]: TODO: cellSyncBarrierInitialize
+[W]: Unknown function 0x6c272124 in 'cellSync' module
+[E]: TODO: cellSyncBarrierTryWait
+[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad2
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedLoad2
+[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedSave2
+[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x039d70b7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueDetachLv2EventQueue
+[W]: Unknown function 0x082bfb09 in 'cellSpurs' module
+[E]: TODO: _cellSpursQueueInitialize
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x1ebcf459 in 'cellSpurs' module
+[E]: TODO: cellSpursDestroyTaskset2
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset2
+[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagClear
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x91066667 in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePopBody
+[W]: Unknown function 0x92cff6ed in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePushBody
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xa7a94892 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTask2
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttribute2Initialize
+[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
+[E]: TODO: cellSpursFinalize
+[W]: Unknown function 0xe4944a1c in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask2WithBinInfo
+[W]: Unknown function 0xe5443be7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueAttachLv2EventQueue
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0x01fbbc9b in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessageGui
+[W]: Unknown function 0x04372385 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntry
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x4026eac5 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterContextSensitiveHandler
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x64a704cc in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageAttachmentLoad
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x806960ab in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageCustom
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNetworkTime
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xceeebc7a in 'sceNp' module
+[E]: TODO: sceNpProfileCallGui
+[W]: Unknown function 0xd208f91d in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpId
+[W]: Unknown function 0xdb2e4dc2 in 'sceNp' module
+[E]: TODO: sceNpScoreGetGameDataAsync
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xeb7a3d84 in 'sceNp' module
+[E]: TODO: sceNpManagerGetChatRestrictionFlag
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf042b14f in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable2
+[W]: Unknown function 0xf0a9182b in 'sceNp' module
+[E]: TODO: sceNpFriendlist
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xf76847c2 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordGameDataAsync
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x01379fd7 in 'sceNp2' module
+[E]: TODO: sceNpMatching2DestroyContext
+[W]: Unknown function 0x05bf2fbd in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetWorldInfoList
+[W]: Unknown function 0x0d22867f in 'sceNp2' module
+[E]: TODO: sceNpMatching2SearchRoom
+[W]: Unknown function 0x0ebe4c6b in 'sceNp2' module
+[E]: TODO: sceNpMatching2SignalingGetConnectionStatus
+[W]: Unknown function 0x16b3e5a4 in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateServerContext
+[W]: Unknown function 0x1f372697 in 'sceNp2' module
+[E]: TODO: sceNpMatching2LeaveRoom
+[W]: Unknown function 0x23009d07 in 'sceNp2' module
+[E]: TODO: sceNpMatching2Term2
+[W]: Unknown function 0x26ae9ff8 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SignalingGetConnectionInfo
+[W]: Unknown function 0x2ed909dc in 'sceNp2' module
+[E]: TODO: sceNpMatching2AbortRequest
+[W]: Unknown function 0x3457c0db in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetServerInfo
+[W]: Unknown function 0x3c00c9d4 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetEventData
+[W]: Unknown function 0x3cc27344 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetRoomSlotInfoLocal
+[W]: Unknown function 0x41251f74 in 'sceNp2' module
+[E]: TODO: sceNp2Init
+[W]: Unknown function 0x5721e711 in 'sceNp2' module
+[E]: TODO: sceNpMatching2JoinRoom
+[W]: Unknown function 0x6ba4c668 in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStartAsync
+[W]: Unknown function 0x748029a2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterContextCallback
+[W]: Unknown function 0x817d1090 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomDataInternal
+[W]: Unknown function 0x8e5cfe9f in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetServerIdListLocal
+[W]: Unknown function 0x9cbce3f2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateContext
+[W]: Unknown function 0xa9e6103e in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterSignalingCallback
+[W]: Unknown function 0xaadb7c12 in 'sceNp2' module
+[E]: TODO: sceNp2Term
+[W]: Unknown function 0xb851aacf in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomMemberDataInternal
+[W]: Unknown function 0xc6b63b7e in 'sceNp2' module
+[E]: TODO: sceNpMatching2DeleteServerContext
+[W]: Unknown function 0xdcb6b27d in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterRoomEventCallback
+[W]: Unknown function 0xde6d308b in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetRoomPasswordLocal
+[W]: Unknown function 0xe7a3bc7a in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateJoinRoom
+[W]: Unknown function 0xf43c647a in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStop
+[W]: Unknown function 0xf4babd3f in 'sceNp2' module
+[E]: TODO: sceNpMatching2Init2
+[W]: Unknown module 'sceNpTus'
+[W]: Unknown module 'sceNpCommerce2'
+[W]: Unknown function 0x139a9e9b in 'sys_net' module
+[E]: TODO: sys_net_initialize_network_ex
+[W]: Unknown function 0x6db6e8cd in 'sys_net' module
+[E]: TODO: socketclose
+[W]: Unknown function 0x88f03575 in 'sys_net' module
+[E]: TODO: setsockopt
+[W]: Unknown function 0x9c056962 in 'sys_net' module
+[E]: TODO: socket
+[W]: Unknown function 0xb0a59804 in 'sys_net' module
+[E]: TODO: bind
+[W]: Unknown function 0xb68d5625 in 'sys_net' module
+[E]: TODO: sys_net_finalize_network
+[W]: Unknown function 0x384ba777 in 'cellRudp' module
+[E]: TODO: cellRudpSetOption
+[W]: Unknown function 0x48c001b0 in 'cellRudp' module
+[E]: TODO: cellRudpWrite
+[W]: Unknown function 0x48d3eeac in 'cellRudp' module
+[E]: TODO: cellRudpTerminate
+[W]: Unknown function 0x63f63545 in 'cellRudp' module
+[E]: TODO: cellRudpInit
+[W]: Unknown function 0x6bc587e9 in 'cellRudp' module
+[E]: TODO: cellRudpPollCreate
+[W]: Unknown function 0x6c0cff03 in 'cellRudp' module
+[E]: TODO: cellRudpEnableInternalIOThread
+[W]: Unknown function 0x7dadc739 in 'cellRudp' module
+[E]: TODO: cellRudpCreateContext
+[W]: Unknown function 0x7ed95e60 in 'cellRudp' module
+[E]: TODO: cellRudpSetEventHandler
+[W]: Unknown function 0x8ac398f1 in 'cellRudp' module
+[E]: TODO: cellRudpPollDestroy
+[W]: Unknown function 0x92e4d899 in 'cellRudp' module
+[E]: TODO: cellRudpRead
+[W]: Unknown function 0xa3db855c in 'cellRudp' module
+[E]: TODO: cellRudpPollControl
+[W]: Unknown function 0xb6bcb4a1 in 'cellRudp' module
+[E]: TODO: cellRudpEnd
+[W]: Unknown function 0xc407844f in 'cellRudp' module
+[E]: TODO: cellRudpInitiate
+[W]: Unknown function 0xd8310700 in 'cellRudp' module
+[E]: TODO: cellRudpPollWait
+[W]: Unknown function 0xee41e16a in 'cellRudp' module
+[E]: TODO: cellRudpBind
+[W]: Unknown function 0xff9d259c in 'cellRudp' module
+[E]: TODO: cellRudpGetOption
+[W]: Unknown function 0x0a563878 in 'cellVoice' module
+[E]: TODO: cellVoiceStart
+[W]: Unknown function 0x18d3df30 in 'cellVoice' module
+[E]: TODO: cellVoiceDisconnectIPortFromOPort
+[W]: Unknown function 0x2de54871 in 'cellVoice' module
+[E]: TODO: cellVoiceCreatePort
+[W]: Unknown function 0x36472c57 in 'cellVoice' module
+[E]: TODO: cellVoiceReadFromOPort
+[W]: Unknown function 0x3dad26e7 in 'cellVoice' module
+[E]: TODO: cellVoiceWriteToIPort
+[W]: Unknown function 0x9f70c475 in 'cellVoice' module
+[E]: TODO: cellVoiceDeletePort
+[W]: Unknown function 0xae6a21d5 in 'cellVoice' module
+[E]: TODO: cellVoiceConnectIPortToOPort
+[W]: Unknown function 0xc7cf1182 in 'cellVoice' module
+[E]: TODO: cellVoiceInit
+[W]: Unknown function 0xd3a84be1 in 'cellVoice' module
+[E]: TODO: cellVoiceStop
+[W]: Unknown function 0xe0e1ae12 in 'cellVoice' module
+[E]: TODO: cellVoiceEnd
+[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module
+[W]: Unknown function 0x71a8472a in 'sysPrxForUser' module
+[E]: TODO: sys_get_random_number
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
+[W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_by_fd
+[S]: (S)ELF: boot done.
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x004bdb48]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004bdb48]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004c40a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40e4]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c41fc]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4234]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4250]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004bf5b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004bf5b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004c40a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40e4]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c41fc]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4234]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4250]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004bdacc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004bdacc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40e4]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c41fc]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4234]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4250]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004bf5b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004bf5b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40e4]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c41fc]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4234]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4250]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x00261f9c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004bdacc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004bdacc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40e4]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c41fc]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4234]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4250]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 34
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 36
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e490)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 40
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e4d0)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e8b0)
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 43
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 44
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e8b0)
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 46
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e8b0)
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 47
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 48
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70eab0)
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e8b0)
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 52
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e8b0)
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 53
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 54
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 55
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e8b0)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 56
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e8b0)
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e770)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 58
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0023f684]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0023ffa8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002401b8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e510)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 60
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3a70e730)
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fed64]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0023f684]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005fee3c]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002406f8]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x002407ec]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004bf5b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004bf5b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x004c40a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x004c40e4]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c41fc]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4234]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x004c4250]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 61
+[W : PPU[1] Thread (CPUThread)[0x0105b0e8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x893500, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0037b408]]: MULHDU
+[W : PPU[1] Thread (CPUThread)[0x0105b088]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x0105b088]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RUDP)
+[W : PPU[1] Thread (CPUThread)[0x0105f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+[E : PPU[1] Thread (CPUThread)[0x0106f004]]: TODO: sys_net_initialize_network_ex
+[E : PPU[1] Thread (CPUThread)[0x01071064]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[E : PPU[1] Thread (CPUThread)[0x01071010]]: cellNetCtl error: Unimplemented function: cellNetCtlAddHandler
+[E : PPU[1] Thread (CPUThread)[0x01067094]]: TODO: sceNp2Init
+[E : PPU[1] Thread (CPUThread)[0x01065130]]: TODO: sceNpManagerRegisterCallback
+[E : PPU[1] Thread (CPUThread)[0x0106504c]]: TODO: sceNpBasicRegisterContextSensitiveHandler
+[E : PPU[1] Thread (CPUThread)[0x01065034]]: TODO: sceNpScoreInit
+[E : PPU[1] Thread (CPUThread)[0x0106b064]]: TODO: sceNpTusInit
+[E : PPU[1] Thread (CPUThread)[0x01067148]]: TODO: sceNpMatching2Init2
+[E : PPU[1] Thread (CPUThread)[0x0105b04c]]: TODO: cellSysutilEnableBgmPlayback
+[W : PPU[1] Thread (CPUThread)[0x0012c5d4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x01055004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x01077124]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x7aecb0, align=0x20000, size=0x110000)
+[W : PPU[1] Thread (CPUThread)[0x01077124]]: sys_heap warning: *** sys_heap created: id = 63
+[W : PPU[1] Thread (CPUThread)[0x01077088]]: sys_heap warning: _sys_heap_memalign(heap_id=63, align=0x10, size=0x1080)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x01077088]]: sys_heap warning: _sys_heap_memalign(heap_id=63, align=0x10, size=0x8280)
+[W : PPU[1] Thread (CPUThread)[0x004e4d38]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 65
+[W : PPU[1] Thread (CPUThread)[0x004e4d5c]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
+[W : PPU[1] Thread (CPUThread)[0x004e4de8]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 67
+[W : PPU[1] Thread (CPUThread)[0x004e4e0c]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
+[W : PPU[1] Thread (CPUThread)[0x004e4e90]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 69
+[W : PPU[1] Thread (CPUThread)[0x004e4eb4]]: sys_cond warning: *** condition created [] (mutex_id=69): id = 70
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 73
+[W : PPU[74] Thread (_cellsurMixerMain)[0x004e70fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xff1ea4, attr_addr=0xff2f50, event_queue_key=0x8000cafe02460300, size=2)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 75
+[W : PPU[74] Thread (_cellsurMixerMain)[0x004e70fc]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 76
+[W : PPU[1] Thread (CPUThread)[0x01055064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xff1ee8, portNum_addr=0xff1e58)
+[W : PPU[1] Thread (CPUThread)[0x01055064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x01055040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xff1f08)
+[W : PPU[1] Thread (CPUThread)[0x0105504c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01055010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 77
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 79
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(79)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=81, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 83
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(83)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=83): id = 84
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=85, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 86
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 87
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(87)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=87): id = 88
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=89, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 90
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 91
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(91)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=91): id = 92
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=93, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 94
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 95
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(95)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=95): id = 96
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=97, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 98
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 99
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(99)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=99): id = 100
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=101, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 102
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 103
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 109
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 110
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
+[W : PPU[1] Thread (CPUThread)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=114, prio=500)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 117
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(117)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=117): id = 118
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=119, prio=500)
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=120, prio=500)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0040f28c]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x308820c8, num=1, prio=100, attr_addr=0xd002059c)
+[W : PPU[1] Thread (CPUThread)[0x0040f28c]]: sys_spu warning: *** SPU Thread Group created [CriSr thread group] (type=0x0, option.ct=0x0): id=121
+[W : PPU[1] Thread (CPUThread)[0x0107716c]]: sysPrxForUser warning: sys_spu_image_import(img=0x308820cc, src=0x7b3280, type=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0107716c]]: LoadShdr32 error: shstrndx too big!
+[W : PPU[1] Thread (CPUThread)[0x0107716c]]: desc = 'PS3_Release/cri_audio_ps3spu.elf'
+[W : PPU[1] Thread (CPUThread)[0x0040f318]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x308820dc, group=0x79, spu_num=0, img_addr=0x308820cc, attr_addr=0xd0020590, arg_addr=0xd00205b0)
+[W : PPU[1] Thread (CPUThread)[0x0040f318]]: sys_spu warning: *** New SPU Thread [CriSr thread] (img_offset=0x107a000, ls_offset=0x10ba000, ep=0x0, a1=0xf0, a2=0x30882120, a3=0x0, a4=0x0): id=0
+[W : PPU[1] Thread (CPUThread)[0x0040ff00]]: sys_event warning: sys_event_port_create(eport_id_addr=0x30886408, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0040ff00]]: sys_event warning: *** sys_event_port created: id = 123
+[W : PPU[1] Thread (CPUThread)[0x0040ff3c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x30886404, attr_addr=0xd0020540, event_queue_key=0x0, size=3)
+[W : PPU[1] Thread (CPUThread)[0x0040ff3c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 124
+[W : PPU[1] Thread (CPUThread)[0x0040ff54]]: sys_event warning: sys_event_port_connect_local(eport_id=123, equeue_id=124)
+[W : PPU[1] Thread (CPUThread)[0x0040ff70]]: sys_spu warning: sys_spu_thread_bind_queue(id=122, equeue_id=124, spuq_num=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0040fbf0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x30886444, attr_addr=0xd0020540, event_queue_key=0x0, size=3)
+[W : PPU[1] Thread (CPUThread)[0x0040fbf0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 125
+[W : PPU[1] Thread (CPUThread)[0x0040fc18]]: sys_spu warning: sys_spu_thread_connect_event(id=122, eq_id=125, event_type=0x1, spup=0)
+[W : PPU[1] Thread (CPUThread)[0x0040f11c]]: sys_spu warning: sys_spu_thread_group_start(id=121)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
+[W : PPU[1] Thread (CPUThread)[0x0045ecc8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 128
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition on recursive mutex(128)
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition created [] (mutex_id=128): id = 129
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 130
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 132
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 133
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 134
+[W : PPU[1] Thread (CPUThread)[0x0045ecc8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 135
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition on recursive mutex(135)
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition created [] (mutex_id=135): id = 136
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 137
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 139
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 140
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 141
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(141)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=141): id = 142
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 143
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(143)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=143): id = 144
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 145
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(145)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=145): id = 146
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 147
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(147)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=147): id = 148
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 149
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 150
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 151
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 152
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 153
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 154
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 155
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 156
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 157
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 159
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 161
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 163
+[W : PPU[1] Thread (CPUThread)[0x00433e20]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=1, prio=1001)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0082f100]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)
+[W : PPU[1] Thread (CPUThread)[0x0082f01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xff2fbc,cmdSize=0x6ff000,ioSize=0x700000,ioAddress=0x3b300000)
+[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0082f01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0082f01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3b300000, io=0x0, size=0x700000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0082f0a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x3ba00000,size=0x0,offset_addr=0x400000)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7536640, pitch=10240, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=7536640, size=1966080, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=9502720, size=3145728, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=12648448, size=524288, pitch=2560, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=13172736, size=2097152, pitch=2048, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=15269888, size=2359296, pitch=1280, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=17629184, size=3145728, pitch=1024, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=6)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=7, location=0, offset=20774912, size=1310720, pitch=768, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=7)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=8, location=0, offset=22085632, size=1114112, pitch=512, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=9, location=0, offset=23199744, size=22609920, pitch=5120, comp=7, base=0, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=10, location=0, offset=45809664, size=2097152, pitch=2048, comp=7, base=352, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=10)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=11, location=0, offset=47906816, size=3932160, pitch=5120, comp=10, base=384, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=11)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=51838976, size=8388608, pitch=4096, comp=10, base=448, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=12)
+[W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=13, location=0, offset=60227584, size=1048576, pitch=2048, comp=10, base=576, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=13)
+[E : PPU[1] Thread (CPUThread)[0x0082f010]]: TODO: cellGcmSetQueueHandler
+[E : PPU[1] Thread (CPUThread)[0x0082f0d0]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x0082f0ac]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=8861960)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0105b0a0]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
+[W : PPU[1] Thread (CPUThread)[0x0105b034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00208b8)
+[W : PPU[1] Thread (CPUThread)[0x0106304c]]: cellResc warning: cellRescInit(initConfig_addr=0xd00208b8)
+[W : PPU[1] Thread (CPUThread)[0x0082f004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0106301c]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x0082f004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0105b010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00208a8, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0082f058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x0082f0b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1620000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0082f0b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x19c2000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0082f0b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x2,offset=0x1d64000,pitch=4,width=1280,height=720)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0082f0e8]]: cellGcmSys warning: cellGcmSetDefaultCommandBuffer()
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[1] Thread (CPUThread)[0x0105b130]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020ac0)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : PPU[1] Thread (CPUThread)[0x010770a0]]: TODO: sys_get_random_number
+[E : PPU[1] Thread (CPUThread)[0x010770a0]]: TODO: sys_get_random_number
+[E : PPU[1] Thread (CPUThread)[0x010770a0]]: TODO: sys_get_random_number
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[165] Thread (thr_bootcheck)[0x0105d04c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0150bd0, attributes_addr=0xd0150bd8, size_addr=0xd0150bec, dirName_addr=0xd0150c18)
+[W : PPU[165] Thread (thr_bootcheck)[0x0105d004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0150be0, bufsize=10)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[165] Thread (thr_bootcheck)[0x0105d004]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0xd0150cb8, bufsize=128)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[W : PPU[165] Thread (thr_bootcheck)[0x0105d028]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0xd0150bd4)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[165] Thread (thr_bootcheck)[0x0105d010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0150c38, usrdirPath_addr=0xf4e517)
+[W : PPU[165] Thread (thr_bootcheck)[0x0082d04c]]: sys_fs warning: cellFsStat: "/chkboot.edat" not found.
+[W : PPU[166] Thread (thr_broken)[0x0105d01c]]: cellGame warning: cellGameContentErrorDialog(type=101, errNeedSizeKB=0, dirName_addr=0x0)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[W : PPU[114] Thread (CRI Server Manager)[0x00523730]]: MULHD
+[W : PPU[93] Thread (CRI FS File Access 3)[0x005223d0]]: sys_cond_wait(id=92) aborted
+[W : PPU[89] Thread (CRI FS File Access 2)[0x005223d0]]: sys_cond_wait(id=88) aborted
+[W : PPU[131] Thread (cri_dlg)[0x0045efb4]]: sys_cond_wait(id=129) aborted
+[W : PPU[160] Thread (cri_adxm_vsync_proc)[0x0043347c]]: sys_cond_wait(id=142) aborted
+[W : PPU[138] Thread (cri_dlg)[0x0045efb4]]: sys_cond_wait(id=136) aborted
+[W : Audio Thread]: Audio aborted
+[W : PPU[81] Thread (CRI FS File Access 0)[0x005223d0]]: sys_cond_wait(id=80) aborted
+[W : PPU[119] Thread (CriSr_ProcessServer)[0x005223d0]]: sys_cond_wait(id=118) aborted
+[W : PPU[71] Thread (_sys_mixerSurBusReq)[0x004e4044]]: sys_cond_wait(id=66) aborted
+[W : PPU[101] Thread (CRI FS Data Decompression 0)[0x005223d0]]: sys_cond_wait(id=100) aborted
+[W : PPU[97] Thread (CRI FS Memory File System)[0x005223d0]]: sys_cond_wait(id=96) aborted
+[W : PPU[162] Thread (cri_adxm_fs_proc)[0x0043347c]]: sys_cond_wait(id=144) aborted
+[W : PPU[74] Thread (_cellsurMixerMain)[0x01077004]]: (hack) sys_lwmutex_t::(try)lock aborted (waiting for recursive attribute, attr=0x0)
+[W : PPU[164] Thread (cri_adxm_idle_proc)[0x0043347c]]: sys_cond_wait(id=146) aborted
+[W : PPU[85] Thread (CRI FS File Access 1)[0x005223d0]]: sys_cond_wait(id=84) aborted
+[W : SPU[122] Thread (CriSr thread)[0x0001e8e4]]: sys_spu_thread_receive_event(spuq=0x0) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
