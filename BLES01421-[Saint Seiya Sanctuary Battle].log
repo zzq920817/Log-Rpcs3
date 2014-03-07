@@ -245,14 +245,14 @@
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
-[W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: cellGcmInit(context_addr=0x161f2c8,cmdSize=0xc0000,ioSize=0x100000,ioAddress=0x32100000)
+[W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: cellGcmInit(context_addr=0x161f2c8,cmdSize=0xc0000,ioSize=0x100000,ioAddress=0x32200000)
 [W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x0198101c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x68c71b0)
+[W : PPU[1] Thread (CPUThread)[0x0117d100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x3cd77a10)
 [W : PPU[1] Thread (CPUThread)[0x0117d0f4]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209c0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01981058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x01981004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -319,11 +319,11 @@
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 74
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 75
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 76
-[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x300f1300): id = 77
+[W : PPU[1] Thread (CPUThread)[0x0199d0c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x301e1300): id = 77
 [W : PPU[1] Thread (CPUThread)[0x0117b01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : PPU[1] Thread (CPUThread)[0x0199707c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x300f12d0, commID_addr=0xd36c60, commSign_addr=0xd36cec, options=0x0)
-[W : PPU[1] Thread (CPUThread)[0x01997010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x300f12d4)
+[W : PPU[1] Thread (CPUThread)[0x0199707c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x301e12d0, commID_addr=0xd36c60, commSign_addr=0xd36cec, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01997010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x301e12d4)
 [W : PPU[1] Thread (CPUThread)[0x0199701c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd00205c0, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0117b01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0117b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
@@ -393,13 +393,24 @@
 [W : PPU[1] Thread (CPUThread)[0x0199d04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
 [W : PPU[1] Thread (CPUThread)[0x003d8c74]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=116, prio=500)
 [W : PPU[1] Thread (CPUThread)[0x003d8b6c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=116, vptr_addr=0xd00208b0)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x183c478)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x302119a8)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30211628)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x183c630)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x183c678)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x183c6c0)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x183c708)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30203da8)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f28b8)
+[W : PPU[1] Thread (CPUThread)[0x0199d0b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f2538)
+[W : PPU[1] Thread (CPUThread)[0x003d8b6c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=105, vptr_addr=0xd0020810)
+[W : PPU[1] Thread (CPUThread)[0x003ddf28]]: sys_cond warning: sys_cond_destroy(cond_id=104)
 [! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
-[W : PPU[105] Thread (CRI FS Data Decompression 0)[0x003de088]]: sys_cond_wait(id=104) aborted
-[W : PPU[93] Thread (CRI FS File Access 2)[0x003de088]]: sys_cond_wait(id=92) aborted
-[W : PPU[97] Thread (CRI FS File Access 3)[0x003de088]]: sys_cond_wait(id=96) aborted
-[W : PPU[101] Thread (CRI FS Memory File System)[0x003de088]]: sys_cond_wait(id=100) aborted
 [W : PPU[89] Thread (CRI FS File Access 1)[0x003de088]]: sys_cond_wait(id=88) aborted
 [W : PPU[85] Thread (CRI FS File Access 0)[0x003de088]]: sys_cond_wait(id=84) aborted
+[W : PPU[101] Thread (CRI FS Memory File System)[0x003de088]]: sys_cond_wait(id=100) aborted
+[W : PPU[97] Thread (CRI FS File Access 3)[0x003de088]]: sys_cond_wait(id=96) aborted
 [W : PPU[53] Thread (Em File Thread)[0x0199d034]]: sys_lwcond_wait(sq=37) aborted
+[W : PPU[93] Thread (CRI FS File Access 2)[0x003de088]]: sys_cond_wait(id=92) aborted
 [!]: Closing memory...

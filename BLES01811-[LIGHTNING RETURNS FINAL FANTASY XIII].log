@@ -28,7 +28,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0002c028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 [W : PPU[1] Thread (CPUThread)[0x00024010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0002601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020b10, attributes_addr=0xd0020b14, size_addr=0xd0020b18, dirName_addr=0xd0020b28)
-[W : PPU[1] Thread (CPUThread)[0x00026004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x30010880, bufsize=10)
+[W : PPU[1] Thread (CPUThread)[0x00026004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x30100880, bufsize=10)
 [W : PPU[1] Thread (CPUThread)[0x00026010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020b48, usrdirPath_addr=0xd0020bc8)
 [W : PPU[1] Thread (CPUThread)[0x00024004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0002a034]]: sys_fs warning: cellFsStat: "/EBOOT.BIN" not found.
@@ -36,7 +36,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00015020]]: SysCall 988! r3: 0x2, r4: 0x0, pc: 0x15020
 [E : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process error: sys_game_process_exitspawn2 UNIMPLEMENTED
 [W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: path: 
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: argv: 0x30010010
+[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: argv: 0x30100010
 [W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: envp: 0x0
 [W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: data: 0x0
 [W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: data_size: 0x0

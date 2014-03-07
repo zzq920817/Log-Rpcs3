@@ -210,8 +210,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
 [W : PPU[31] Thread (_cellsurMixerMain)[0x00c9b5fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x110b38a8, attr_addr=0x110b3944, event_queue_key=0x8000cafe02460300, size=4)
 [W : PPU[1] Thread (CPUThread)[0x00cf4064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x110b38d8, portNum_addr=0x110b3850)
-[W : PPU[1] Thread (CPUThread)[0x00cf4064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[31] Thread (_cellsurMixerMain)[0x00c9b5fc]]: sys_event warning: *** event_queue created [] (protocol=0x1, type=0x1): id = 33
+[W : PPU[1] Thread (CPUThread)[0x00cf4064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x00cf4040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x110b38b8)
 [W : PPU[1] Thread (CPUThread)[0x00cf404c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00cf4010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
@@ -540,81 +540,15 @@
 [W : PPU[314] Thread (MTC : 0)[0x00cfc0dc]]: cellGcmSys warning: cellGcmSetTile(index=6, location=0, offset=182583296, size=3145728, pitch=2048, comp=0, base=0, bank=0)
 [W : PPU[314] Thread (MTC : 0)[0x00cfc0dc]]: cellGcmSys warning: cellGcmSetTile(index=7, location=0, offset=185991168, size=3276800, pitch=2560, comp=0, base=0, bank=0)
 [W : PPU[314] Thread (MTC : 0)[0x00cfc0dc]]: cellGcmSys warning: cellGcmSetTile(index=8, location=0, offset=189267968, size=65536, pitch=512, comp=0, base=0, bank=0)
-[W : PPU[314] Thread (MTC : 0)[0x00d64058]]: sys_fs warning: cellFsStat: "/instver.bin" not found.
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 48
-[! : RSXThread]: *** fp data size = 256
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-layout (location = 9) in vec4 in_tc1;
-out vec4 tc0;
-out vec4 tc1;
-
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	gl_Position = in_pos;
-	tc0.xy = in_tc0.xyxx.xy;
-	tc1.xy = in_tc1.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 tc0;
-in vec4 tc1;
-uniform sampler2D tex0;
-uniform sampler2D tex1;
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
-uniform vec4 fc32 = vec4(-0.500000, 0.000000, 0.000000, 0.000000);
-uniform vec4 fc80 = vec4(0.500000, 0.000000, 0.000000, 0.000000);
-uniform vec4 fc112 = vec4(0.500000, 0.000000, 0.000000, 0.000000);
-uniform vec4 fc208 = vec4(0.500000, 0.000000, 0.000000, 0.000000);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	r0.xyz = texture(tex0, tc0.xy).xyz;
-	r1.xyz = (r0 + fc32.xxxx).xyz;
-	r0.xy = tc1.xy;
-	r0.z = (r1 * r0.yyyy + fc80.xxxx).z;
-	r1.w = (r1.yyyy * r0.yyyy + fc112.xxxx).w;
-	h1.x = texture(tex1, r0.zzzz.xy).x;
-	h1.z = h1.xxxx.z;
-	h1.x = texture(tex1, r1.wwww.xy).x;
-	h1.y = h1.xxxx.y;
-	r1.w = (r1.xxxx * r0.yyyy + fc208.xxxx).w;
-	h1.x = texture(tex1, r1.wwww.xy).x;
-	r0 = (r0.xxxx + h1);
-	ocol = r0;
-}
-
-[W : RSXThread]: New FBO (1280x720)
-[W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
-[E : PPU[1] Thread (CPUThread)[0x00cfc088]]: TODO: cellGcmSetUserCommand
+[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
-[W : PPU[31] Thread (_cellsurMixerMain)[0x00d6c004]]: (hack) sys_lwmutex_t::trylock aborted (waiting for recursive attribute, attr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00b741c4]]: sys_cond_wait(id=313) aborted
-[W : PPU[54] Thread (cri_dlg)[0x00c55ddc]]: sys_cond_wait(id=52) aborted
-[W : PPU[314] Thread (MTC : 0)[0x00b74020]]: sys_cond_wait(id=315) aborted
-[W : PPU[304] Thread (cri_adxm_idle_proc)[0x00c30278]]: sys_cond_wait(id=288) aborted
 [W : PPU[47] Thread (cri_dlg)[0x00c55ddc]]: sys_cond_wait(id=45) aborted
+[W : PPU[304] Thread (cri_adxm_idle_proc)[0x00c30278]]: sys_cond_wait(id=288) aborted
+[W : PPU[31] Thread (_cellsurMixerMain)[0x00d6c004]]: (hack) sys_lwmutex_t::(try)lock aborted (waiting for recursive attribute, attr=0x0)
+[W : PPU[54] Thread (cri_dlg)[0x00c55ddc]]: sys_cond_wait(id=52) aborted
+[W : PPU[300] Thread (cri_adxm_vsync_proc)[0x00c30278]]: sys_cond_wait(id=284) aborted
+[W : SPU[37] Thread (CriSr thread)[0x0001bb8c]]: sys_spu_thread_receive_event(spuq=0x0) aborted
+[W : PPU[1] Thread (CPUThread)[0x00b741c4]]: sys_cond_wait(id=313) aborted
 [W : PPU[302] Thread (cri_adxm_fs_proc)[0x00c30278]]: sys_cond_wait(id=286) aborted
 [W : PPU[28] Thread (_sys_mixerSurBusReq)[0x00c99f58]]: sys_cond_wait(id=23) aborted
-[W : SPU[37] Thread (CriSr thread)[0x0001bb8c]]: sys_spu_thread_receive_event(spuq=0x0) aborted
-[W : PPU[300] Thread (cri_adxm_vsync_proc)[0x00c30278]]: sys_cond_wait(id=284) aborted
-[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

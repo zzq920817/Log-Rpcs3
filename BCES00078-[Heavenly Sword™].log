@@ -466,17 +466,17 @@
 [W : PPU[1] Thread (CPUThread)[0x00e72040]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00e72040]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30600000, io=0x0, size=0x2400000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00e7c0b8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x6e1863b0)
+[W : PPU[1] Thread (CPUThread)[0x00e7c0b8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x9d767210)
 [W : PPU[1] Thread (CPUThread)[0x00e7c094]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd002080c, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00e72064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [E : PPU[1] Thread (CPUThread)[0x00cacd40]]: Read16 from null block: [0000060c]
+[! : RSXThread]: RSX thread exit...
+[W : PPU[156] Thread (fios::scheduler::mediathread)[0x00cc8fc4]]: sys_cond_wait(id=55) aborted
+[W : PPU[157] Thread (fios::scheduler::mediathread)[0x00cc8fc4]]: sys_cond_wait(id=55) aborted
+[W : PPU[274] Thread (scheduler)[0x00cc8fc4]]: sys_cond_wait(id=168) aborted
+[W : PPU[158] Thread (scheduler)[0x00cc8fc4]]: sys_cond_wait(id=52) aborted
 [W : PPU[281] Thread (Second Hard Thread)[0x00a40180]]: sys_cond_wait(id=280) aborted
 [W : PPU[273] Thread (fios::scheduler::mediathread)[0x00cc8fc4]]: sys_cond_wait(id=171) aborted
-[W : PPU[272] Thread (fios::scheduler::mediathread)[0x00cc8fc4]]: sys_cond_wait(id=171) aborted
-[W : PPU[156] Thread (fios::scheduler::mediathread)[0x00cc8fc4]]: sys_cond_wait(id=55) aborted
-[W : PPU[274] Thread (scheduler)[0x00cc8fc4]]: sys_cond_wait(id=168) aborted
-[W : PPU[157] Thread (fios::scheduler::mediathread)[0x00cc8fc4]]: sys_cond_wait(id=55) aborted
 [W : PPU[277] Thread (Job Manager Event Handler)[0x00cad554]]: sys_event_queue_receive(equeue=276) aborted
-[! : RSXThread]: RSX thread exit...
-[W : PPU[158] Thread (scheduler)[0x00cc8fc4]]: sys_cond_wait(id=52) aborted
+[W : PPU[272] Thread (fios::scheduler::mediathread)[0x00cc8fc4]]: sys_cond_wait(id=171) aborted
 [!]: Closing memory...

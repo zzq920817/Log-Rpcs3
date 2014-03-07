@@ -1,26 +1,17 @@
 [!]: path: /dev_hdd0/game/
-[W]: SELF: No NPDRM control info found!
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736-[NINJA GAIDEN 2]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736-[NINJA GAIDEN 2]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736-[NINJA GAIDEN 2]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00736-[NINJA GAIDEN 2]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
-[S]: Function 'cellAANAddData' hooked
-[S]: Function 'cellSurMixerGetAANHandle' hooked
-[S]: Function 'cellSurMixerSetNotifyCallback' hooked
-[S]: Function 'cellSurMixerChStripGetAANPortNo' hooked
-[S]: Function 'cellSurMixerSetParameter' hooked
-[S]: Function 'cellSurMixerStart' hooked
-[S]: Function 'cellSurMixerFinalize' hooked
-[S]: Function 'cellSurMixerCreate' hooked
 [W]: Unknown function 0x12b1acf0 in 'cellFiber' module
 [E]: TODO: cellFiberPpuRunFibers
 [W]: Unknown function 0x5d9a7034 in 'cellFiber' module
@@ -943,6 +934,6 @@
 [E : PPU[1] Thread (CPUThread)[0x02cd20d0]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [E : PPU[1] Thread (CPUThread)[0x02cd2100]]: TODO: cellGcmSetSecondVHandler
 [W : PPU[1] Thread (CPUThread)[0x02cd2010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x1324548)
-[W : PPU[1] Thread (CPUThread)[0x03030004]]: (hack) sys_lwmutex_t::trylock aborted (waiting for recursive attribute, attr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x03030004]]: (hack) sys_lwmutex_t::(try)lock aborted (waiting for recursive attribute, attr=0x0)
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

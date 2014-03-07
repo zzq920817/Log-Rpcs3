@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbef554a4 in 'sys_fs' module
@@ -269,9 +269,9 @@
 [W : PPU[41] Thread (NUCC::Xfbin load request)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x00bd40e8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xa49c88, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
-[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xbb8830,cmdSize=0x10000,ioSize=0x4a00000,ioAddress=0x30110000)
+[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xbb8830,cmdSize=0x10000,ioSize=0x4a00000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30110000, io=0x0, size=0x4a00000)
+[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x4a00000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 44
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 45
@@ -401,7 +401,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00bd8058]]: cellResc warning: cellRescInit(initConfig_addr=0xd002058c)
 [W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
-[W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x34b16000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00bd8028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
 [W : PPU[1] Thread (CPUThread)[0x00bd8064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0020560, vertexArray_addr=0xd002056c, fragmentShader_addr=0xd0020564)
@@ -466,6 +466,6 @@
 [E : PPU[1] Thread (CPUThread)[0x00bd2040]]: TODO: cellSpursEventFlagWait
 [W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076cf18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00307b0, attr_addr=0xd00307c0, initial_count=0, max_count=1)
 [W : PPU[97] Thread (NU::File::RequestManager)[0x009bc028]]: sys_fs warning: cellFsStat: "/app_home/data/system/xftool.fnt.xfbin" not found.
-[! : RSXThread]: RSX thread exit...
 [W : PPU[1] Thread (CPUThread)[0x005e1cfc]]: sys_cond_wait(id=53) aborted
 [W : PPU[62] Thread (NU::Draw::RequestManager)[0x005d8ae4]]: sys_cond_wait(id=61) aborted
+[! : RSXThread]: RSX thread exit...

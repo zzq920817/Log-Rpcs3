@@ -215,6 +215,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00cce040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x00cce01c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x1d94d8)
 [W : Audio Thread]: Audio aborted
-[W : PPU[1] Thread (CPUThread)[0x00cd8004]]: (hack) sys_lwmutex_t::trylock aborted (waiting for recursive attribute, attr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00cd8004]]: (hack) sys_lwmutex_t::(try)lock aborted (waiting for recursive attribute, attr=0x0)
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

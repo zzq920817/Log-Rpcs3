@@ -457,7 +457,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x300000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00b7d1cc]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xbabf66b0)
+[W : PPU[1] Thread (CPUThread)[0x00b7d1cc]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xf7257510)
 [W : PPU[1] Thread (CPUThread)[0x00b7d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00206cc, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00b7704c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00b77058]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
@@ -485,12 +485,13 @@
 [W : PPU[1] Thread (CPUThread)[0x001900a0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x18c8b14, attr_addr=0xd0020c00, initial_count=0, max_count=1)
 [W : PPU[41] Thread (GameContent)[0x00b7f058]]: cellGame warning: cellGameBootCheck(type_addr=0xd00508a0, attributes_addr=0xd00508a4, size_addr=0xd00508a8, dirName_addr=0xd00508b4)
 [E : PPU[40] Thread (sdu_graphics_loop)[0x01c22040]]: TODO: cellSpursGetInfo
+[W : PPU[41] Thread (GameContent)[0x00b7f004]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0xd87772, bufsize=128)
 [E : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: Trap! (tw 1f, r0, r0) #pc: 0x4f16bc
 [! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r0 = 0x4f16b8
 [! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r1 = 0xd00409a0
 [! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r2 = 0xc0d1f8
 [! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r3 = 0x76
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r4 = 0x30010430
+[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r4 = 0x30100430
 [! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r5 = 0xffffffffffffffff
 [! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r6 = 0xd0040460
 [! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r7 = 0x0

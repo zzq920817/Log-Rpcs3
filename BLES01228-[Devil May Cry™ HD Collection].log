@@ -248,9 +248,9 @@
 [W : PPU[1] Thread (CPUThread)[0x0056b058]]: sys_lwmutex warning: *** lwmutex created [DHStd m] (attribute=0x22): sq_id = 13
 [W : PPU[1] Thread (CPUThread)[0x00551058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x42bc90, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0056b058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
-[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x30010000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmInit(context_addr=0x53b7e4,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x30100000)
 [W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30010000, io=0x0, size=0x400000)
+[W : PPU[1] Thread (CPUThread)[0x0055501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x400000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x002c9600]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x10000000, alloc_addr=0xd00208d0)
 [W : PPU[1] Thread (CPUThread)[0x002c960c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00208d8)

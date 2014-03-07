@@ -190,9 +190,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00f97094]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x00f97094]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x00f9d124]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmInit(context_addr=0xf4a760,cmdSize=0x400000,ioSize=0x6e00000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmInit(context_addr=0xf4a760,cmdSize=0x400000,ioSize=0x6e00000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x6e00000)
+[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x6e00000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00f9d070]]: cellGcmSys warning: cellGcmSetSecondVFrequency(level=2)
 [W : PPU[1] Thread (CPUThread)[0x00f9d0d0]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=5692952)
@@ -218,7 +218,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=24)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041"): fd = 25
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=25)
-[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0xe8f97210)
+[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x98436410)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f97004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020954, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -352,13 +352,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [E : PPU[1] Thread (CPUThread)[0x00f93040]]: TODO: cellSpursGetInfo
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
-[E : PPU[1] Thread (CPUThread)[0x00f95034]]: sys_fs error: "/app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/config/SurroundReverb.ini" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00f93040]]: TODO: cellSpursGetInfo
-[E : PPU[1] Thread (CPUThread)[0x00f930ac]]: TODO: _cellSpursWorkloadAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00f9304c]]: TODO: cellSpursWorkloadAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x00f93094]]: TODO: cellSpursAddWorkloadWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x00f93034]]: TODO: cellSpursRequestIdleSpu
-[E : PPU[1] Thread (CPUThread)[0x00f930a0]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x00420448]]: Read32 from null block: [00000018]
 [! : RSXThread]: RSX thread exit...
+[W : PPU[1] Thread (CPUThread)[0x00fa7004]]: (hack) sys_lwmutex_t::(try)lock aborted (waiting for recursive attribute, attr=0x0)
 [!]: Closing memory...

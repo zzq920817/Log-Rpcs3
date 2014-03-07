@@ -253,9 +253,9 @@
 [W : PPU[1] Thread (CPUThread)[0x01e0e01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FIBER)
 [E : PPU[1] Thread (CPUThread)[0x01e16070]]: TODO: _cellFiberPpuInitialize
 [E : PPU[1] Thread (CPUThread)[0x01e200b8]]: TODO: sceNpInit
-[W : PPU[1] Thread (CPUThread)[0x01e0a010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1d52fdc,cmdSize=0x200000,ioSize=0xf900000,ioAddress=0x30050000)
+[W : PPU[1] Thread (CPUThread)[0x01e0a010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1d52fdc,cmdSize=0x200000,ioSize=0xf900000,ioAddress=0x30100000)
 [W : PPU[1] Thread (CPUThread)[0x01e0a010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x01e0a010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30050000, io=0x0, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x01e0a010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0xf900000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x01e0c028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x01e0c028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_PAD_RUMBLE

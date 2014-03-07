@@ -507,4 +507,5 @@
 [W : PPU[64] Thread (bringup)[0x00e9701c]]: cellSysmodule warning: cellSysmoduleIsLoaded()
 [E : PPU[64] Thread (bringup)[0x00e8d0c4]]: TODO: sys_net_free_thread_context
 [W : PPU[1] Thread (CPUThread)[0x0002ab70]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=64, vptr_addr=0xd0020b70)
-[!]: Closing memory...
+[W : PPU[1] Thread (CPUThread)[0x00e890a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x348c03c0)
+[W : PPU[1] Thread (CPUThread)[0x00eb7058]]: cellSysutil warning: cellMsgDialogOpenErrorCode(errorCode=0x8001002b, callback_addr=0xd4d2b8, userData=0, extParam=0)
