@@ -179,6 +179,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x01ba110c]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x9e971c, entry=0x860eb8)
 [W : PPU[36] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 37
-[W : PPU[34] Thread (spu_printf_handler)[0x0059c510]]: sys_event_queue_receive(equeue=33) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[34] Thread (spu_printf_handler)[0x0059c510]]: sys_event_queue_receive(equeue=33) aborted
 [!]: Closing memory...

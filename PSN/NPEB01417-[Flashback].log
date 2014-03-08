@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB01417\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB01417\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB01417\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB01417\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x139a9e9b in 'sys_net' module
@@ -289,8 +289,8 @@
 [W : PPU[1] Thread (CPUThread)[0x02177040]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020450, attributes_addr=0xd0020454, size_addr=0xd0020458, dirName_addr=0x0)
 [W : PPU[1] Thread (CPUThread)[0x02177004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x20253dc, bufsize=10)
 [W : PPU[1] Thread (CPUThread)[0x0217701c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020468, usrdirPath_addr=0xd00204e8)
-[W : PPU[1] Thread (CPUThread)[0x008c8988]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40f, alignment=0x10000000, alloc_addr=0x30051090)
-[W : PPU[1] Thread (CPUThread)[0x008c8988]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40f, alignment=0x10000000, alloc_addr=0x300514d0)
+[W : PPU[1] Thread (CPUThread)[0x008c8988]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40f, alignment=0x10000000, alloc_addr=0x30051050)
+[W : PPU[1] Thread (CPUThread)[0x008c8988]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40f, alignment=0x10000000, alloc_addr=0x30051490)
 [W : PPU[1] Thread (CPUThread)[0x0217d028]]: cellGcmSys warning: cellGcmInit(context_addr=0x20a90b8,cmdSize=0x2ff000,ioSize=0x300000,ioAddress=0x30100000)
 [W : PPU[1] Thread (CPUThread)[0x0217d028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0217d028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x300000)

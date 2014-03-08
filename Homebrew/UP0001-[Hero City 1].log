@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
@@ -165,9 +165,9 @@
 [W : PPU[1] Thread (CPUThread)[0x000780dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x000780dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x000780dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x000721c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0020a90,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x000721c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0020a90,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x000721c0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x000721c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x000721c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00074010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020b20, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x000780dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
@@ -178,5 +178,7 @@
 [W : PPU[1] Thread (CPUThread)[0x000722a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x000722a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x00074088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x94fc0, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00078004]]: Process warning: sys_process_exit(1)
+[S : PPU[1] Thread (CPUThread)[0x00078004]]: Process finished
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

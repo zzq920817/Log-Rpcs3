@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\ZONE00002\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\ZONE00002\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\ZONE00002\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\ZONE00002\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x139a9e9b in 'sys_net' module
@@ -46,10 +46,6 @@
 [E]: TODO: send
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
 [W]: Unknown function 0x94862702 in 'cellSysutil' module
@@ -81,9 +77,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00067010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
 [W : PPU[1] Thread (CPUThread)[0x00067010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x00067010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
-[W : PPU[1] Thread (CPUThread)[0x00063010]]: cellGcmSys warning: cellGcmInit(context_addr=0x10a23d10,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x00063010]]: cellGcmSys warning: cellGcmInit(context_addr=0x10a23d10,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00063010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00063010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x00063010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00069004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020014, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00063034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
@@ -108,15 +104,15 @@
 [E : PPU[1] Thread (CPUThread)[0x0005e004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x0005e040]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd001ff84, src_addr=0xd001fff8, openInfo=0xd001ff7c)
 [W : PPU[1] Thread (CPUThread)[0x0005e040]]: *** cellFsOpen(path="/dev_hdd0/game/ZONE00002/USRDIR/OFF.PNG"): fd = 14
-[W : PPU[1] Thread (CPUThread)[0x0005e034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0x86d001ffbc)
+[W : PPU[1] Thread (CPUThread)[0x0005e034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0x7af2d001ffbc)
 [W : PPU[1] Thread (CPUThread)[0x0005e01c]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xf)
 [W : PPU[1] Thread (CPUThread)[0x0005e01c]]: sys_fs warning: cellFsClose(fd=14)
 [E : PPU[1] Thread (CPUThread)[0x0005e028]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [W : PPU[1] Thread (CPUThread)[0x000497a8]]: *** cellFsOpen(path="/dev_hdd0/game/ZONE00002/USRDIR/SFM_options.ini"): fd = 16
 [W : PPU[1] Thread (CPUThread)[0x0006d040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
 [W : PPU[1] Thread (CPUThread)[0x00049694]]: sys_fs warning: cellFsClose(fd=16)
-[W : PPU[1] Thread (CPUThread)[0x0006d0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30316090)
-[E : PPU[1] Thread (CPUThread)[0x0005c010]]: TODO: cellNetCtlInit
+[W : PPU[1] Thread (CPUThread)[0x0006d0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100090)
+[E : PPU[1] Thread (CPUThread)[0x0005c010]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [W : PPU[1] Thread (CPUThread)[0x00069058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x602b8, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0004982c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd4)
 [W : PPU[1] Thread (CPUThread)[0x0004991c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd0)
@@ -125,5 +121,262 @@
 [W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/home" not found.
 [W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/log.txt" not found.
 [W : PPU[1] Thread (CPUThread)[0x0004a0f0]]: sys_mutex warning: sys_mutex_destroy(mutex_id=20)
+[! : PPU[1] Thread (CPUThread)[0x0004a0f0]]: Mutex(20) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0004982c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd4)
+[W : PPU[1] Thread (CPUThread)[0x0004991c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd0)
+[W : PPU[1] Thread (CPUThread)[0x000499bc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 23
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/game" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/home" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/log.txt" not found.
+[W : PPU[1] Thread (CPUThread)[0x0004a0f0]]: sys_mutex warning: sys_mutex_destroy(mutex_id=23)
+[! : PPU[1] Thread (CPUThread)[0x0004a0f0]]: Mutex(23) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0004982c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd4)
+[W : PPU[1] Thread (CPUThread)[0x0004991c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd0)
+[W : PPU[1] Thread (CPUThread)[0x000499bc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/game" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/home" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/log.txt" not found.
+[W : PPU[1] Thread (CPUThread)[0x0004a0f0]]: sys_mutex warning: sys_mutex_destroy(mutex_id=26)
+[! : PPU[1] Thread (CPUThread)[0x0004a0f0]]: Mutex(26) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0004982c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd4)
+[W : PPU[1] Thread (CPUThread)[0x0004991c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd0)
+[W : PPU[1] Thread (CPUThread)[0x000499bc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 29
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/game" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/home" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/log.txt" not found.
+[W : PPU[1] Thread (CPUThread)[0x0004a0f0]]: sys_mutex warning: sys_mutex_destroy(mutex_id=29)
+[! : PPU[1] Thread (CPUThread)[0x0004a0f0]]: Mutex(29) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0004982c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd4)
+[W : PPU[1] Thread (CPUThread)[0x0004991c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd0)
+[W : PPU[1] Thread (CPUThread)[0x000499bc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 32
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/game" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/home" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/log.txt" not found.
+[W : PPU[1] Thread (CPUThread)[0x0004a0f0]]: sys_mutex warning: sys_mutex_destroy(mutex_id=32)
+[! : PPU[1] Thread (CPUThread)[0x0004a0f0]]: Mutex(32) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb001" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb002" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb003" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb004" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb005" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb006" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb007" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb008" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb009" not found.
+[W : PPU[1] Thread (CPUThread)[0x0004982c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd4)
+[W : PPU[1] Thread (CPUThread)[0x0004991c]]: sys_fs warning: cellFsOpendir(path="/", fd_addr=0xd001fdd0)
+[W : PPU[1] Thread (CPUThread)[0x000499bc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 35
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/game" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/home" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/log.txt" not found.
+[W : PPU[1] Thread (CPUThread)[0x0004a0f0]]: sys_mutex warning: sys_mutex_destroy(mutex_id=35)
+[! : PPU[1] Thread (CPUThread)[0x0004a0f0]]: Mutex(35) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[E : PPU[1] Thread (CPUThread)[0x0005c004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 32
+[! : RSXThread]: *** fp data size = 16
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 3) in vec4 in_col0;
+out vec4 col0;
+
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	gl_Position = in_pos;
+	col0 = in_col0;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 col0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = col0;
+	ocol = r0;
+}
+
+[W : RSXThread]: New FBO (1280x720)
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[! : RSXThread]: Add program (1):
+[! : RSXThread]: *** prog id = 4
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 32
+[! : RSXThread]: *** fp data size = 16
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 1) in vec4 in_weight;
+out vec4 tc0;
+
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	gl_Position = in_pos;
+	tc0.xy = in_weight.xyxx.xy;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	ocol = r0;
+}
+
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[! : RSXThread]: Add program (2):
+[! : RSXThread]: *** prog id = 5
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 192
+[! : RSXThread]: *** fp data size = 64
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+vec4 tmp1;
+vec4 tmp0;
+uniform vec4 vc467;
+uniform vec4 vc466;
+out vec4 tc0;
+out vec4 col0;
+
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	tmp1.zw = floor(in_pos.yyyx).zw;
+	tmp0.xy = (in_pos.wzww * vc467.xxxx + -vc467.yyyy).xy;
+	tmp1.xy = (in_pos.xyxx * vc467.zzzz).xy;
+	tmp0.zw = fract(in_pos.yyyx).zw;
+	tc0.xy = (tmp0.wzww * vc467.xxxx).xy;
+	tmp0.zw = floor(tmp1.yyyx).zw;
+	gl_Position.y = -tmp0.xxxx.y;
+	gl_Position.x = tmp0.yyyy.x;
+	tmp0.xy = (tmp0.zwzz * vc467.wwww).xy;
+	tmp0.zw = (-tmp0.xxxy * vc466.xxxx + tmp1.zzzw).zw;
+	col0.yw = tmp0.yyyx.yw;
+	col0.xz = (tmp0.wwzw * vc467.wwww).xz;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+in vec4 col0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0.w = texture(tex0, tc0.xy).w;
+	h0 = col0;
+	r0.w = (h0 * r0).w;
+	r0.xyz = h0.xyz;
+	ocol = r0;
+}
+
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb001" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb002" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb003" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb004" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb005" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb006" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb007" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb008" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb009" not found.
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[E : PPU[1] Thread (CPUThread)[0x0005c004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb001" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb002" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb003" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb004" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb005" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb006" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb007" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb008" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb009" not found.
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[E : PPU[1] Thread (CPUThread)[0x0005c004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb001" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb002" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb003" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb004" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb005" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb006" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb007" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb008" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb009" not found.
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[E : PPU[1] Thread (CPUThread)[0x0005c004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb001" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb002" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb003" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb004" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb005" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb006" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb007" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb008" not found.
+[W : PPU[1] Thread (CPUThread)[0x0006b058]]: sys_fs warning: cellFsStat: "/dev_usb009" not found.
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0003efac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x00048acc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
+[W : PPU[1] Thread (CPUThread)[0x0006b0a0]]: sys_fs warning: cellFsGetFreeSize(path="/", block_size_addr=0xd0020100, block_count_addr=0xd0020108)
 [! : RSXThread]: RSX thread exit...
+[!]: Mutex(12) was owned by thread 1 (recursive=1)
 [!]: Closing memory...

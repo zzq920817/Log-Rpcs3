@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
@@ -18,8 +18,6 @@
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -30,8 +28,6 @@
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa789e631 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
@@ -280,9 +276,9 @@
 [W : RawSPU[29] Thread (CPUThread)[0x000000e0]]: Starting RawSPU...
 [W : PPU[1] Thread (CPUThread)[0x00201d44]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
 [W : PPU[1] Thread (CPUThread)[0x00201d80]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: cellGcmInit(context_addr=0xa7de10,cmdSize=0x10000,ioSize=0x200000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: cellGcmInit(context_addr=0xa7de10,cmdSize=0x10000,ioSize=0x200000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x200000)
+[W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x200000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00aed070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
 [E : PPU[1] Thread (CPUThread)[0x00aed16c]]: TODO: cellGcmSetGraphicsHandler
@@ -308,7 +304,7 @@
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[W : PPU[1] Thread (CPUThread)[0x00aed094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30516000, io=0xe000000, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x00aed094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30600000, io=0xe000000, size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x00aed184]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x00aed184]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x00aed184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
@@ -349,8 +345,8 @@
 [E : PPU[1] Thread (CPUThread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
 [E : PPU[1] Thread (CPUThread)[0x00af30f4]]: TODO: sceNpInit
-[W : PPU[33] Thread (flip_thread)[0x00aed064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [E : PPU[1] Thread (CPUThread)[0x00af30d0]]: TODO: sceNpDrmIsAvailable
+[W : PPU[33] Thread (flip_thread)[0x00aed064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x003cd028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB00620/USRDIR/protected.edat" not found.
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SEARCH)
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
@@ -907,15 +903,15 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
+[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[W : PPU[1] Thread (CPUThread)[0x00ae7094]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020730)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[W : PPU[1] Thread (CPUThread)[0x00ae7094]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020730)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
@@ -924,6 +920,48 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [W : PPU[1] Thread (CPUThread)[0x00af1004]]: cellAudio warning: cellAudioInit()
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x8867e8, portNum_addr=0x88670c)
 [W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
@@ -985,63 +1023,8 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[W : PPU[1] Thread (CPUThread)[0x00b07034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 34
-[E : PPU[1] Thread (CPUThread)[0x003cb034]]: TODO: cellSpursCreateTaskset
-[E : PPU[1] Thread (CPUThread)[0x003cb040]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x003cb04c]]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x003cb040]]: TODO: _cellSpursEventFlagInitialize
-[W : PPU[1] Thread (CPUThread)[0x0029bf08]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xaa2480, attr_addr=0xd0020684, event_queue_key=0x0, size=8)
-[W : PPU[1] Thread (CPUThread)[0x0029bf08]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 35
-[W : PPU[1] Thread (CPUThread)[0x0029bf98]]: sys_event warning: sys_event_port_create(eport_id_addr=0xaa2400, port_type=0x1, name=0xfee1dead)
-[W : PPU[1] Thread (CPUThread)[0x0029bf98]]: sys_event warning: *** sys_event_port created: id = 37
-[W : PPU[1] Thread (CPUThread)[0x0029bfb0]]: sys_event warning: sys_event_port_connect_local(eport_id=37, equeue_id=35)
-[E : PPU[1] Thread (CPUThread)[0x003cb070]]: TODO: cellSpursAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x003cb07c]]: TODO: cellSpursCreateTask
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [W : RSXThread]: null cmd: addr=0x501cf000, put=0x4f21c00, get=0x1cf000
 [! : RSXThread]: RSX thread exit...
-[W : PPU[36] Thread (spu_printf_handler)[0x0029c0d8]]: sys_event_queue_receive(equeue=35) aborted
 [W : Audio Thread]: Audio aborted
