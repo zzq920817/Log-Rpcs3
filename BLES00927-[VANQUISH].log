@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -301,5 +301,67 @@
 [W : PPU[1] Thread (CPUThread)[0x01e1e010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00209e0, usrdirPath_addr=0xd0020a60)
 [W : PPU[1] Thread (CPUThread)[0x01e06040]]: sys_fs warning: cellFsStat: "/installed" not found.
 [W : PPU[1] Thread (CPUThread)[0x01e06010]]: sys_fs warning: cellFsOpendir(path="/data/", fd_addr=0xd00206e0)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 66
+[W : PPU[1] Thread (CPUThread)[0x00b87b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 67
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition on recursive mutex(67)
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=69, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x00b87b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 71
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition on recursive mutex(71)
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition created [] (mutex_id=71): id = 72
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=73, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x00b87b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 75
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition on recursive mutex(75)
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 76
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=77, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
+[W : PPU[1] Thread (CPUThread)[0x00b87b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 79
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition on recursive mutex(79)
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=81, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x00b87b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 83
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition on recursive mutex(83)
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition created [] (mutex_id=83): id = 84
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=85, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 86
+[W : PPU[1] Thread (CPUThread)[0x00b87b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 87
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition on recursive mutex(87)
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition created [] (mutex_id=87): id = 88
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=89, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 90
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 91
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 92
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 93
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 94
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 95
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 97
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 98
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 99
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 101
+[W : PPU[1] Thread (CPUThread)[0x00b87b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 102
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition on recursive mutex(102)
+[W : PPU[1] Thread (CPUThread)[0x00b87bb4]]: sys_cond warning: *** condition created [] (mutex_id=102): id = 103
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=104, prio=910)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x00b8ab9c]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=107, prio=500)
+[W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x01e240d0]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x1dbf934, entry=0x157ce10)
+[W : PPU[109] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 110
 [! : RSXThread]: RSX thread exit...
+[W : PPU[85] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=84) aborted
+[W : PPU[69] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=68) aborted
+[W : PPU[89] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=88) aborted
+[W : PPU[73] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=72) aborted
+[W : PPU[107] Thread (CRI Server Manager)[0x00b879b4]]: sys_cond_signal(id=84) aborted
+[W : PPU[81] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=80) aborted
+[W : PPU[104] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=103) aborted
+[W : PPU[77] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=76) aborted
+[!]: Mutex(83) was owned by thread 85 (recursive=1)
 [!]: Closing memory...

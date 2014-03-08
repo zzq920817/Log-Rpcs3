@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01524-[Ninja Gaiden 3]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01524-[Ninja Gaiden 3]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01524-[Ninja Gaiden 3]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01524-[Ninja Gaiden 3]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x21fc151f in 'cellCamera' module
@@ -108,12 +108,8 @@
 [E]: TODO: cellSpursJobQueuePort2PushSync
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
 [E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueueInitialize
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
@@ -124,8 +120,6 @@
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x30aa96c4 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute2
 [W]: Unknown function 0x34552fa6 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeInitialize
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
@@ -136,8 +130,6 @@
 [E]: TODO: cellSpursCreateTaskset2
 [W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagClear
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -160,8 +152,6 @@
 [E]: TODO: _cellSpursTaskAttribute2Initialize
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa121a224 in 'cellSpurs' module
@@ -174,16 +164,12 @@
 [E]: TODO: cellSpursJoinJobChain
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttribute2Initialize
-[W]: Unknown function 0xc56defb5 in 'cellSpurs' module
-[E]: TODO: cellSpursGetNumSpuThread
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
@@ -614,12 +600,12 @@
 [E : PPU[1] Thread (CPUThread)[0x027ae07c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x11bbd20)
 [E : PPU[1] Thread (CPUThread)[0x027ae07c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x11bbd3c)
 [E : PPU[1] Thread (CPUThread)[0x027ae07c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x11bbd58)
-[E : PPU[1] Thread (CPUThread)[0x02784148]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x02784028]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x02784070]]: TODO: cellSpursInitializeWithAttribute2
-[E : PPU[1] Thread (CPUThread)[0x02784148]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x02784028]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x02784070]]: TODO: cellSpursInitializeWithAttribute2
+[W : PPU[1] Thread (CPUThread)[0x02784148]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020988, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=32)
+[W : PPU[1] Thread (CPUThread)[0x02784028]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020988, prefix_addr=0x11bc3f8, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x02784070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x19b8f00, spurs_addr=0xd0020988)
+[W : PPU[1] Thread (CPUThread)[0x02784148]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020988, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=251)
+[W : PPU[1] Thread (CPUThread)[0x02784028]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020988, prefix_addr=0x11bc400, size=0x6)
+[W : PPU[1] Thread (CPUThread)[0x02784070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x19baf80, spurs_addr=0xd0020988)
 [W : PPU[1] Thread (CPUThread)[0x027ae058]]: sys_lwmutex warning: *** lwmutex created [Ð] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x027ae058]]: sys_lwmutex warning: *** lwmutex created [Ð] (attribute=0x12): sq_id = 27
 [W : PPU[1] Thread (CPUThread)[0x027aa10c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=2, func_addr=0x137af18, userdata=0x0)

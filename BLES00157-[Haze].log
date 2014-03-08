@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00157\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00157\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00157\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00157\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbe5be3ba in 'sys_io' module
@@ -26,16 +26,12 @@
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x54876603 in 'cellSpurs' module
 [E]: TODO: cellSpursQueueSize
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x6c960f6d in 'cellSpurs' module
-[E]: TODO: cellSpursGetSpuThreadId
 [W]: Unknown function 0x6d2d9339 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagTryWait
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
@@ -52,12 +48,8 @@
 [E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
 [E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
 [E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xe5443be7 in 'cellSpurs' module

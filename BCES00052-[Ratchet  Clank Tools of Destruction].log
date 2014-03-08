@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00052-[Ratchet  Clank Tools of Destruction]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00052-[Ratchet  Clank Tools of Destruction]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00052-[Ratchet  Clank Tools of Destruction]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00052-[Ratchet  Clank Tools of Destruction]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
@@ -50,8 +50,6 @@
 [E]: TODO: cellSpursTasksetAttributeSetName
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa789e631 in 'cellSpurs' module
@@ -60,34 +58,24 @@
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
 [E]: TODO: cellSpursWorkloadAttributeSetName
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
 [E]: TODO: cellSpursWaitForWorkloadShutdown
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
@@ -884,35 +872,35 @@
 [W : PPU[1] Thread (CPUThread)[0x0083e0a0]]: memory warning: sys_mmapper_map_memory(start_addr=0xf900000, mem_id=0x10c, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x0083e0a0]]: memory mapped 0x3fb00000 to 0xf900000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x005abd54]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020400)
-[E : PPU[1] Thread (CPUThread)[0x008ba058]]: TODO: _cellSpursAttributeInitialize
+[W : PPU[1] Thread (CPUThread)[0x008ba058]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020170, nSpus=1, spuPriority=1638402, ppuPriority=3, exitIfNoWork=100)
 [E : PPU[1] Thread (CPUThread)[0x008ba07c]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x008ba058]]: TODO: _cellSpursAttributeInitialize
+[W : PPU[1] Thread (CPUThread)[0x008ba058]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020170, nSpus=1, spuPriority=1638402, ppuPriority=1, exitIfNoWork=99)
 [E : PPU[1] Thread (CPUThread)[0x008ba07c]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x007e4954]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x10679f84, attr_addr=0xd00202a4, event_queue_key=0x0, size=127)
 [W : PPU[1] Thread (CPUThread)[0x007e4954]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 269
 [W : PPU[1] Thread (CPUThread)[0x007e4998]]: sys_event warning: sys_event_port_create(eport_id_addr=0x10679f98, port_type=0x1, name=0xd0a77)
 [W : PPU[1] Thread (CPUThread)[0x007e4998]]: sys_event warning: *** sys_event_port created: id = 271
 [W : PPU[1] Thread (CPUThread)[0x007e49a8]]: sys_event warning: sys_event_port_connect_local(eport_id=271, equeue_id=269)
-[E : PPU[1] Thread (CPUThread)[0x008ba130]]: TODO: cellSpursAttachLv2EventQueue
+[W : PPU[1] Thread (CPUThread)[0x008ba130]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x10678f80, queue=0x10d, port_addr=0xd00202a0, isDynamic=0)
 [W : PPU[1] Thread (CPUThread)[0x007e4954]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1067b004, attr_addr=0xd00202a4, event_queue_key=0x0, size=127)
 [W : PPU[1] Thread (CPUThread)[0x007e4954]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 272
 [W : PPU[1] Thread (CPUThread)[0x007e4998]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1067b018, port_type=0x1, name=0xd0a77)
 [W : PPU[1] Thread (CPUThread)[0x007e4998]]: sys_event warning: *** sys_event_port created: id = 274
 [W : PPU[1] Thread (CPUThread)[0x007e49a8]]: sys_event warning: sys_event_port_connect_local(eport_id=274, equeue_id=272)
-[E : PPU[1] Thread (CPUThread)[0x008ba130]]: TODO: cellSpursAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x008ba0c4]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x008ba130]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x1067a000, queue=0x110, port_addr=0xd00202a0, isDynamic=0)
+[W : PPU[1] Thread (CPUThread)[0x008ba0c4]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x10678f80, info_addr=0xd001ff90)
 [E : PPU[1] Thread (CPUThread)[0x008ba160]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x008ba0d0]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x008ba148]]: TODO: cellSpursAddWorkloadWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x008ba0b8]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x008ba154]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x008ba0c4]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x008ba0c4]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x10678f80, info_addr=0xd001ff90)
 [E : PPU[1] Thread (CPUThread)[0x008ba160]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x008ba0d0]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x008ba148]]: TODO: cellSpursAddWorkloadWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x008ba0b8]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x008ba154]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x008ba0c4]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x008ba0c4]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x10678f80, info_addr=0xd001ff90)
 [E : PPU[1] Thread (CPUThread)[0x008ba160]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x008ba0d0]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x008ba148]]: TODO: cellSpursAddWorkloadWithAttribute
@@ -948,26 +936,26 @@
 [W : PPU[1] Thread (CPUThread)[0x008b207c]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=13762560, size=5439488, pitch=7680, comp=11, base=210, bank=1)
 [E : PPU[1] Thread (CPUThread)[0x008b207c]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
 [W : PPU[1] Thread (CPUThread)[0x008b2088]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xd20000, width=960, height=704, cullStart=0x0, zFormat=0x2, aaFormat=0x3, zCullDir=0x0, zCullFormat=0x1, sFunc=0x0, sRef=0x80, sMask=0xff)
-[E : PPU[1] Thread (CPUThread)[0x008ba0c4]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x008ba0c4]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x10678f80, info_addr=0xd001ff90)
 [E : PPU[1] Thread (CPUThread)[0x008ba160]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x008ba0d0]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x008ba148]]: TODO: cellSpursAddWorkloadWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x008ba0b8]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x008ba154]]: TODO: cellSpursSetExceptionEventHandler
 [W : PPU[1] Thread (CPUThread)[0x008b604c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[E : PPU[1] Thread (CPUThread)[0x008ba0c4]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x008ba0c4]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x10678f80, info_addr=0xd0020050)
 [E : PPU[1] Thread (CPUThread)[0x008ba160]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x008ba0d0]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x008ba148]]: TODO: cellSpursAddWorkloadWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x008ba0b8]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x008ba154]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x008ba0c4]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x008ba0c4]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x10678f80, info_addr=0xd0020050)
 [E : PPU[1] Thread (CPUThread)[0x008ba160]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x008ba0d0]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x008ba148]]: TODO: cellSpursAddWorkloadWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x008ba0b8]]: TODO: cellSpursRequestIdleSpu
 [E : PPU[1] Thread (CPUThread)[0x008ba154]]: TODO: cellSpursSetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x008ba0c4]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x008ba0c4]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x10678f80, info_addr=0xd0020050)
 [E : PPU[1] Thread (CPUThread)[0x008ba160]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x008ba0d0]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x008ba148]]: TODO: cellSpursAddWorkloadWithAttribute
@@ -1024,30 +1012,15 @@
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
@@ -1066,6 +1039,16 @@
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
@@ -1074,8 +1057,24 @@
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x3d08)
+[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: NV4097_GET_REPORT: bad type 2
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : RSXThread]: NV4097_GET_REPORT: bad type 3
@@ -1086,9 +1085,11 @@
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x008b60a0]]: TODO: cellDiscGameGetBootDiscInfo
-[! : RSXThread]: RSX thread exit...
+[W : PPU[18] Thread (TIER::LoadThread())[0x0060a8c4]]: sys_cond_wait(id=17) aborted
 [W : PPU[270] Thread (Job Manager Event Handler)[0x007e47f0]]: sys_event_queue_receive(equeue=269) aborted
 [W : PPU[277] Thread (PuJobDispatch)[0x005aa67c]]: sys_cond_wait(id=276) aborted
-[W : PPU[18] Thread (TIER::LoadThread())[0x0060a8c4]]: sys_cond_wait(id=17) aborted
 [W : PPU[273] Thread (Job Manager Event Handler)[0x007e47f0]]: sys_event_queue_receive(equeue=272) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Mutex(12) was owned by thread 18 (recursive=1)
+[!]: Mutex(14) was owned by thread 18 (recursive=1)
 [!]: Closing memory...

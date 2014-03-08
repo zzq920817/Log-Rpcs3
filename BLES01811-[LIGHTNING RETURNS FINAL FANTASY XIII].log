@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\\USRDIR\
 [W]: LoadShdr64 error: shstrndx too big!
 [!]: Initing memory...
 [!]: Memory initialized.
@@ -28,18 +28,16 @@
 [W : PPU[1] Thread (CPUThread)[0x0002c028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 [W : PPU[1] Thread (CPUThread)[0x00024010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0002601c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020b10, attributes_addr=0xd0020b14, size_addr=0xd0020b18, dirName_addr=0xd0020b28)
-[W : PPU[1] Thread (CPUThread)[0x00026004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x30100880, bufsize=10)
+[W : PPU[1] Thread (CPUThread)[0x00026004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x30100870, bufsize=10)
 [W : PPU[1] Thread (CPUThread)[0x00026010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020b48, usrdirPath_addr=0xd0020bc8)
 [W : PPU[1] Thread (CPUThread)[0x00024004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x0002a034]]: sys_fs warning: cellFsStat: "/EBOOT.BIN" not found.
-[W : PPU[1] Thread (CPUThread)[0x00012eac]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x12eac
-[W : PPU[1] Thread (CPUThread)[0x00015020]]: SysCall 988! r3: 0x2, r4: 0x0, pc: 0x15020
-[E : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process error: sys_game_process_exitspawn2 UNIMPLEMENTED
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: path: 
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: argv: 0x30100010
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: envp: 0x0
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: data: 0x0
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: data_size: 0x0
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: prio: 1001
-[W : PPU[1] Thread (CPUThread)[0x0002c04c]]: Process warning: flags: 112
+[W : PPU[1] Thread (CPUThread)[0x0002a028]]: *** cellFsOpen(path="/EBOOT.BIN"): fd = 13
+[W : PPU[1] Thread (CPUThread)[0x00028004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES-01811\')
+[! : PPU[1] Thread (CPUThread)[0x00028004]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES-01811
+[W : PPU[1] Thread (CPUThread)[0x0002a034]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BLES-01811//duplex.self" not found.
+[W : PPU[1] Thread (CPUThread)[0x0002a028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES-01811\duplex.self')
+[W : PPU[1] Thread (CPUThread)[0x0002a028]]: *** cellFsOpen(path="/dev_hdd1/cache/BLES-01811//duplex.self"): fd = 14
+[W : PPU[1] Thread (CPUThread)[0x0002a028]]: *** cellFsOpen(path="/EBOOT.BIN"): fd = 15
+[W : PPU[1] Thread (CPUThread)[0x0002a028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES-01811\duplex.self')
+[W : PPU[1] Thread (CPUThread)[0x0002a028]]: *** cellFsOpen(path="/dev_hdd1/cache/BLES-01811//duplex.self"): fd = 16
 [!]: Closing memory...

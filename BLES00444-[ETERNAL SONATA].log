@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00444-[ETERNAL SONATA]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00444-[ETERNAL SONATA]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00444-[ETERNAL SONATA]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00444-[ETERNAL SONATA]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xf83f8182 in 'sys_io' module
@@ -27,30 +27,22 @@
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown module 'cellSysutilAvconfExt'
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
 [E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
@@ -113,7 +105,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/mapse.files"): fd = 34
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/cxs.files"): fd = 35
 [W : PPU[1] Thread (CPUThread)[0x00506058]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xdfa75010)
+[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x890e9170)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmInit(context_addr=0x9ea77c,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3bc00000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3bc00000, io=0x0, size=0x400000)
@@ -143,15 +135,15 @@
 [W : PPU[1] Thread (CPUThread)[0x005040ac]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x1260000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x3, zCullDir=0x0, zCullFormat=0x1, sFunc=0x5, sRef=0x0, sMask=0x2)
 [E : PPU[1] Thread (CPUThread)[0x00504088]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x0031d8f0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x9d377c, attr_addr=0xd00208a0, initial_count=1, max_count=1)
-[E : PPU[1] Thread (CPUThread)[0x00a31058]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00a31004]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x00a31058]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020778, nSpus=2, spuPriority=2293761, ppuPriority=5, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00a31004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020778, prefix_addr=0x48ca38, size=0x4)
 [E : PPU[1] Thread (CPUThread)[0x00a31070]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x0030acd4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x9caba8, attr_addr=0xd0020768, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x0030acd4]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 38
 [W : PPU[1] Thread (CPUThread)[0x0030aecc]]: sys_event warning: sys_event_port_create(eport_id_addr=0x9cabb8, port_type=0x1, name=0xfee1dead)
 [W : PPU[1] Thread (CPUThread)[0x0030aecc]]: sys_event warning: *** sys_event_port created: id = 40
 [W : PPU[1] Thread (CPUThread)[0x0030aee4]]: sys_event warning: sys_event_port_connect_local(eport_id=40, equeue_id=38)
-[E : PPU[1] Thread (CPUThread)[0x00a31088]]: TODO: cellSpursAttachLv2EventQueue
+[W : PPU[1] Thread (CPUThread)[0x00a31088]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x8b9800, queue=0x26, port_addr=0xd0020750, isDynamic=0)
 [E : PPU[1] Thread (CPUThread)[0x00a3101c]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00a31064]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00a31010]]: TODO: cellSpursCreateJobChainWithAttribute

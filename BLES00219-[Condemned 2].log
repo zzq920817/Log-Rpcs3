@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x13ae18f3 in 'cellSpurs' module
@@ -459,22 +459,100 @@
 [E : PPU[1] Thread (CPUThread)[0x0107f0a0]]: TODO: cellSpursTasksetAttributeSetTasksetSize
 [E : PPU[1] Thread (CPUThread)[0x0107f100]]: TODO: cellSpursCreateTasksetWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x0107f0a0]]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W : PPU[1] Thread (CPUThread)[0x01176034]]: *** cellFsOpen(path="/app_home/USRDIR/cmdline.txt"): fd = 305
+[W : PPU[1] Thread (CPUThread)[0x01176034]]: *** cellFsOpen(path="/cmdline.txt"): fd = 305
 [W : PPU[1] Thread (CPUThread)[0x01176004]]: sys_fs warning: cellFsClose(fd=305)
 [W : PPU[1] Thread (CPUThread)[0x0117e040]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x10eb950, userdata=0x0)
 [E : PPU[1] Thread (CPUThread)[0x0117a0dc]]: TODO: sys_net_initialize_network_ex
 [E : PPU[1] Thread (CPUThread)[0x0117c058]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x01180058]]: TODO: sceNpInit
 [W : PPU[1] Thread (CPUThread)[0x00da6ddc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 306
-[W : PPU[1] Thread (CPUThread)[0x01176010]]: sys_fs warning: cellFsOpendir(path="//app_home/USRDIR/Custom/AdditionalContent/*.Arch02", fd_addr=0xd001f900)
-[W : PPU[1] Thread (CPUThread)[0x01176040]]: sys_fs warning: cellFsStat: "//app_home/USRDIR/default.archcfg" not found.
+[W : PPU[1] Thread (CPUThread)[0x01176010]]: sys_fs warning: cellFsOpendir(path="//Custom/AdditionalContent/*.Arch02", fd_addr=0xd001f900)
+[W : PPU[1] Thread (CPUThread)[0x01176034]]: *** cellFsOpen(path="//default.archcfg"): fd = 307
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 308
+[W : PPU[1] Thread (CPUThread)[0x01176010]]: sys_fs warning: cellFsOpendir(path="/game", fd_addr=0xd001f2c0)
+[W : PPU[1] Thread (CPUThread)[0x01176004]]: sys_fs warning: cellFsClose(fd=309)
+[W : PPU[1] Thread (CPUThread)[0x01176010]]: sys_fs warning: cellFsOpendir(path="/Layer.Arch02", fd_addr=0xd001f2c0)
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 310
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 311
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 312
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 313
+[E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
+[E : PPU[1] Thread (CPUThread)[0x0107f094]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
+[E : PPU[1] Thread (CPUThread)[0x0107f0e8]]: TODO: _cellSpursTaskAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f040]]: TODO: cellSpursTaskExitCodeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f0c4]]: TODO: cellSpursTaskAttributeSetExitCodeContainer
+[E : PPU[1] Thread (CPUThread)[0x0107f028]]: TODO: cellSpursCreateTaskWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
+[E : PPU[1] Thread (CPUThread)[0x0107f094]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
+[E : PPU[1] Thread (CPUThread)[0x0107f0e8]]: TODO: _cellSpursTaskAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f040]]: TODO: cellSpursTaskExitCodeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0107f0c4]]: TODO: cellSpursTaskAttributeSetExitCodeContainer
+[E : PPU[1] Thread (CPUThread)[0x0107f028]]: TODO: cellSpursCreateTaskWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x0118a034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 314
+[W : PPU[315] Thread (FileDecomp)[0x007e9d18]]: sys_cond warning: *** condition created [] (mutex_id=312): id = 316
+[W : PPU[1] Thread (CPUThread)[0x01176034]]: *** cellFsOpen(path="/Layer.Arch02"): fd = 317
+[W : PPU[1] Thread (CPUThread)[0x01176004]]: sys_fs warning: cellFsClose(fd=317)
+[W : PPU[1] Thread (CPUThread)[0x01176034]]: *** cellFsOpen(path="/Layer.Arch02"): fd = 318
+[W : PPU[1] Thread (CPUThread)[0x01176034]]: *** cellFsOpen(path="/Layer.Arch02"): fd = 319
+[W : PPU[1] Thread (CPUThread)[0x01176034]]: *** cellFsOpen(path="/Layer.Arch02"): fd = 320
+[W : PPU[1] Thread (CPUThread)[0x01176004]]: sys_fs warning: cellFsClose(fd=307)
 [W : PPU[1] Thread (CPUThread)[0x0001aea4]]: memory warning: sys_memory_container_create(cid_addr=0xd001fb20, yield_size=0x300000)
-[W : PPU[1] Thread (CPUThread)[0x0001aea4]]: memory warning: *** memory_container created(addr=0x30200000): id = 307
+[W : PPU[1] Thread (CPUThread)[0x0001aea4]]: memory warning: *** memory_container created(addr=0x30300000): id = 321
 [E : PPU[1] Thread (CPUThread)[0x0117e058]]: TODO: cellGameDataCheckCreate2
-[W : PPU[1] Thread (CPUThread)[0x0001aed8]]: memory warning: sys_memory_container_destroy(cid=307)
+[W : PPU[1] Thread (CPUThread)[0x0001aed8]]: memory warning: sys_memory_container_destroy(cid=321)
 [W : PPU[1] Thread (CPUThread)[0x0001a940]]: memory warning: sys_memory_container_create(cid_addr=0xd001fb20, yield_size=0x300000)
-[W : PPU[1] Thread (CPUThread)[0x0001a940]]: memory warning: *** memory_container created(addr=0x30200000): id = 308
+[W : PPU[1] Thread (CPUThread)[0x0001a940]]: memory warning: *** memory_container created(addr=0x30300000): id = 322
 [E : PPU[1] Thread (CPUThread)[0x0117e058]]: TODO: cellGameDataCheckCreate2
-[W : PPU[1] Thread (CPUThread)[0x0001a974]]: memory warning: sys_memory_container_destroy(cid=308)
-[E : PPU[1] Thread (CPUThread)[0x00029de8]]: Write32 to null block: [00000000]: 0
+[W : PPU[1] Thread (CPUThread)[0x0001a974]]: memory warning: sys_memory_container_destroy(cid=322)
+[W : PPU[1] Thread (CPUThread)[0x007fe130]]: *** cellFsOpen(path="//autoexec.cfg"): fd = 323
+[W : PPU[1] Thread (CPUThread)[0x0118a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 324
+[W : PPU[1] Thread (CPUThread)[0x007fe01c]]: sys_fs warning: cellFsClose(fd=323)
+[W : PPU[1] Thread (CPUThread)[0x0118a07c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30157f40)
+[E : PPU[1] Thread (CPUThread)[0x007fe130]]: sys_fs error: "//display.cfg" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x007fe130]]: sys_fs error: "//settings.cfg" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x007fe130]]: *** cellFsOpen(path="//autoexec.cfg"): fd = 325
+[W : PPU[1] Thread (CPUThread)[0x0118a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 326
+[W : PPU[1] Thread (CPUThread)[0x007fe01c]]: sys_fs warning: cellFsClose(fd=325)
+[W : PPU[1] Thread (CPUThread)[0x0118a07c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30157f40)
+[E : PPU[1] Thread (CPUThread)[0x007fe130]]: sys_fs error: "//display.cfg" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x007fe130]]: sys_fs error: "//settings.cfg" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 327
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 328
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 329
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 330
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 331
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 332
+[W : PPU[1] Thread (CPUThread)[0x01176010]]: sys_fs warning: cellFsOpendir(path="//Save", fd_addr=0xd0020100)
+[W : PPU[1] Thread (CPUThread)[0x01176004]]: sys_fs warning: cellFsClose(fd=333)
+[W : PPU[1] Thread (CPUThread)[0x0118a034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 334
+[W : PPU[335] Thread (ResourceLoader)[0x007e9d18]]: sys_cond warning: *** condition created [] (mutex_id=329): id = 336
+[W : PPU[1] Thread (CPUThread)[0x0117e01c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x007ea87c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 337
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[W : PPU[1] Thread (CPUThread)[0x007e9d18]]: sys_cond warning: *** condition created [] (mutex_id=337): id = 338
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
+[W : PPU[335] Thread (ResourceLoader)[0x007e9eb0]]: sys_cond_wait(id=336) aborted
+[W : PPU[1] Thread (CPUThread)[0x007e9b98]]: sys_cond_signal_all(id=316) aborted
+[W : PPU[1] Thread (CPUThread)[0x007e9b98]]: sys_cond_signal_all(id=316) aborted
+[W : PPU[315] Thread (FileDecomp)[0x007e9eb0]]: sys_cond_wait(id=316) aborted
 [!]: Closing memory...

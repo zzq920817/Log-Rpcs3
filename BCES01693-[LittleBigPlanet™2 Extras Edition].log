@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01693-[LittleBigPlanet_2 Extras Edition]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01693-[LittleBigPlanet_2 Extras Edition]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01693-[LittleBigPlanet_2 Extras Edition]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01693-[LittleBigPlanet_2 Extras Edition]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x02f5ced0 in 'cellCamera' module
@@ -163,8 +163,6 @@
 [E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x082bfb09 in 'cellSpurs' module
 [E]: TODO: _cellSpursQueueInitialize
 [W]: Unknown function 0x161da6a7 in 'cellSpurs' module
@@ -173,16 +171,12 @@
 [E]: TODO: cellSpursAddUrgentCommand
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x247414d0 in 'cellSpurs' module
 [E]: TODO: cellSpursQueueClear
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x30aa96c4 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute2
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
@@ -193,14 +187,8 @@
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x738e40e6 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
-[W]: Unknown function 0x9dcbcb5d in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeEnableSystemWorkload
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
@@ -211,8 +199,6 @@
 [E]: TODO: cellSpursJoinJobChain
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
@@ -225,8 +211,6 @@
 [E]: TODO: cellSpursWorkloadAttributeSetName
 [W]: Unknown function 0x4e153e3e in 'cellSpurs' module
 [E]: TODO: cellSpursGetWorkloadInfo
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
@@ -241,8 +225,6 @@
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0x9fcb567b in 'cellSpurs' module
 [E]: TODO: cellSpursGetTasksetInfo
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
