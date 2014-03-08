@@ -55,8 +55,6 @@
 [E]: TODO: _cellFiberPpuInitialize
 [W]: Unknown function 0x039d70b7 in 'cellSpurs' module
 [E]: TODO: cellSpursQueueDetachLv2EventQueue
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x082bfb09 in 'cellSpurs' module
 [E]: TODO: _cellSpursQueueInitialize
 [W]: Unknown function 0x13ae18f3 in 'cellSpurs' module
@@ -105,8 +103,6 @@
 [E]: TODO: cellSpursTaskGenerateLsPattern
 [W]: Unknown function 0x92cff6ed in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePushBody
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
@@ -117,16 +113,12 @@
 [E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xe5443be7 in 'cellSpurs' module
@@ -139,16 +131,12 @@
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
@@ -218,13 +206,13 @@
 [W : PPU[1] Thread (CPUThread)[0x00e2d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x00e2d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 [E : PPU[1] Thread (CPUThread)[0x00e290a0]]: TODO: cellDiscGameGetBootDiscInfo
-[E : PPU[1] Thread (CPUThread)[0x00fe813c]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00fe8184]]: TODO: cellSpursAttributeSetSpuThreadGroupType
-[E : PPU[1] Thread (CPUThread)[0x00fe8010]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x00fe813c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020870, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00fe8184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020870, type=24)
+[W : PPU[1] Thread (CPUThread)[0x00fe8010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020870, prefix_addr=0xdf3c48, size=0xc)
 [E : PPU[1] Thread (CPUThread)[0x00fe8190]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x00fe813c]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00fe8184]]: TODO: cellSpursAttributeSetSpuThreadGroupType
-[E : PPU[1] Thread (CPUThread)[0x00fe8010]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x00fe813c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020870, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00fe8184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020870, type=0)
+[W : PPU[1] Thread (CPUThread)[0x00fe8010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020870, prefix_addr=0xdf3c58, size=0x9)
 [E : PPU[1] Thread (CPUThread)[0x00fe8190]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x002b2914]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0xd0020b48, attr_addr=0xd0020a60, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x002b2914]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr

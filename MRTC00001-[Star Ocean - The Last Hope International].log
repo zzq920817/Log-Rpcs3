@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0d5b4a14 in 'sys_fs' module
@@ -57,8 +57,6 @@
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x039d70b7 in 'cellSpurs' module
 [E]: TODO: cellSpursQueueDetachLv2EventQueue
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x082bfb09 in 'cellSpurs' module
 [E]: TODO: _cellSpursQueueInitialize
 [W]: Unknown function 0x13ae18f3 in 'cellSpurs' module
@@ -107,8 +105,6 @@
 [E]: TODO: cellSpursTaskGenerateLsPattern
 [W]: Unknown function 0x92cff6ed in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePushBody
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
@@ -119,16 +115,12 @@
 [E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xe5443be7 in 'cellSpurs' module
@@ -141,16 +133,12 @@
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
@@ -341,13 +329,13 @@
 [E : PPU[1] Thread (CPUThread)[0x01005028]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x01005028]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x010050d0]]: TODO: sys_prx_start_module
-[E : PPU[1] Thread (CPUThread)[0x00ff313c]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00ff3184]]: TODO: cellSpursAttributeSetSpuThreadGroupType
-[E : PPU[1] Thread (CPUThread)[0x00ff3010]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x00ff313c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd00207d0, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00ff3184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd00207d0, type=24)
+[W : PPU[1] Thread (CPUThread)[0x00ff3010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00207d0, prefix_addr=0xd615d0, size=0xc)
 [E : PPU[1] Thread (CPUThread)[0x00ff3190]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x00ff313c]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00ff3184]]: TODO: cellSpursAttributeSetSpuThreadGroupType
-[E : PPU[1] Thread (CPUThread)[0x00ff3010]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x00ff313c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd00207d0, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00ff3184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd00207d0, type=0)
+[W : PPU[1] Thread (CPUThread)[0x00ff3010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00207d0, prefix_addr=0xd615e0, size=0x9)
 [E : PPU[1] Thread (CPUThread)[0x00ff3190]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: cellGcmInit(context_addr=0xf9fc80,cmdSize=0x10000,ioSize=0x200000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
@@ -395,28 +383,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31070128, attr_addr=0xd0020960, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00ff1010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301dbeb8, attr_addr=0xd0020ac0, initial_count=1, max_count=1)
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00d9f034]]: *** cellFsOpen(path="/aska0000.bin"): fd = 56
+[E : PPU[1] Thread (CPUThread)[0x00d9f004]]: TODO: cellFsReadWithOffset
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

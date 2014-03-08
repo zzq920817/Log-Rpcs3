@@ -81,18 +81,12 @@
 [E]: TODO: cellFsAllocateFileAreaWithoutZeroFill
 [W]: Unknown function 0x00af2519 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardReset
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x32b94add in 'cellSpurs' module
-[E]: TODO: cellSpursEnableExceptionEventHandler
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
@@ -101,24 +95,16 @@
 [E]: TODO: cellSpursJobGuardInitialize
 [W]: Unknown function 0x738e40e6 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbb68d76e in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetHaltOnError
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
@@ -187,12 +173,12 @@
 [W : PPU[1] Thread (CPUThread)[0x00010844]]: vm warning: sys_vm_memory_map(vsize=0x2000000,psize=0x200000,cidr=0xffffffff,flags=0x200,policy=0x1,addr=0x65880)
 [W : PPU[1] Thread (CPUThread)[0x00010854]]: vm warning: Unimplemented function: sys_vm_touch(addr=0x30010000,size=0x200000)
 [W : PPU[1] Thread (CPUThread)[0x0001086c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b48)
-[E : PPU[1] Thread (CPUThread)[0x000fb088]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x000fb0ac]]: TODO: cellSpursAttributeSetSpuThreadGroupType
-[E : PPU[1] Thread (CPUThread)[0x000fb010]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x000fb088]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xaa400, nSpus=2, spuPriority=3145728, ppuPriority=5, exitIfNoWork=200)
+[W : PPU[1] Thread (CPUThread)[0x000fb0ac]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xaa400, type=24)
+[W : PPU[1] Thread (CPUThread)[0x000fb010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xaa400, prefix_addr=0x29cb0, size=0x7)
 [E : PPU[1] Thread (CPUThread)[0x000fb0b8]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x000fb088]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x000fb010]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x000fb088]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xab600, nSpus=2, spuPriority=3145728, ppuPriority=1, exitIfNoWork=201)
+[W : PPU[1] Thread (CPUThread)[0x000fb010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xab600, prefix_addr=0x29cb8, size=0x9)
 [E : PPU[1] Thread (CPUThread)[0x000fb0b8]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x00010894]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b48)
 [W : PPU[1] Thread (CPUThread)[0x000108b0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b48)

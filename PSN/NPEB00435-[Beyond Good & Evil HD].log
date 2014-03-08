@@ -12,22 +12,14 @@
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00435\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x1051d134 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeEnableSpuPrintfIfAvailable
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
 [E]: TODO: cellSpursInitialize
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -38,8 +30,6 @@
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa789e631 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
@@ -256,11 +246,10 @@
 [W : PPU[44] Thread (bge_read_key_edata)[0x02036004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00300d8, usrdirPath_addr=0xd002fcd8)
 [W : PPU[44] Thread (bge_read_key_edata)[0x00c8c028]]: sys_fs warning: cellFsStat: "/app_home/KEYFILE.edat" not found.
 [E : PPU[1] Thread (CPUThread)[0x0202e064]]: TODO: sceNpTerm
-[W : PPU[44] Thread (bge_read_key_edata)[0x0203e0a0]]: sysPrxForUser warning: sys_ppu_thread_exit(errorcode=-2147418106)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)
-[E : PPU[1] Thread (CPUThread)[0x00c88010]]: TODO: _cellSpursAttributeInitialize
+[W : PPU[1] Thread (CPUThread)[0x00c88010]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020a50, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=250)
 [W : PPU[1] Thread (CPUThread)[0x0203e094]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x1fe4244, entry=0xcb4008)
 [W : PPU[45] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 46
 [!]: Closing memory...

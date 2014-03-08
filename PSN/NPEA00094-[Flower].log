@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094-[Flower]\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094-[Flower]\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094-[Flower]\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094-[Flower]\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -32,8 +32,6 @@
 [E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0xb68d5625 in 'sys_net' module
 [E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0x1051d134 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeEnableSpuPrintfIfAvailable
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
@@ -42,24 +40,16 @@
 [E]: TODO: cellSpursJobGuardInitialize
 [W]: Unknown function 0x738e40e6 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
@@ -72,20 +62,14 @@
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
 [E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
 [E]: TODO: cellSpursWorkloadAttributeSetName
 [W]: Unknown function 0x4e153e3e in 'cellSpurs' module
 [E]: TODO: cellSpursGetWorkloadInfo
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
 [E]: TODO: cellSpursAddWorkloadWithAttribute
 [W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
@@ -149,9 +133,9 @@
 [W : PPU[1] Thread (CPUThread)[0x007dc07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x86e938, userdata=0x9f5680)
 [W : PPU[1] Thread (CPUThread)[0x005ddf40]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [E : PPU[1] Thread (CPUThread)[0x00037510]]: sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x01b9d028]]: cellGcmSys warning: cellGcmInit(context_addr=0x9ee23c,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x01b9d028]]: cellGcmSys warning: cellGcmInit(context_addr=0x9ee23c,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x01b9d028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x01b9d028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x01b9d028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [E : PPU[1] Thread (CPUThread)[0x01b9d0d0]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x01b9d010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x86e9e8)
@@ -164,7 +148,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01b9d058]]: cellGcmSys warning: cellGcmBindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x01b9d0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x01b9d0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01b9d0a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x3c00000,offset_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x01b9d0a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30400000,size=0x3c00000,offset_addr=0xd0020a90)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
@@ -172,12 +156,29 @@
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [E : PPU[1] Thread (CPUThread)[0x01b8d0e8]]: TODO: cellSpursInitialize
 [W : PPU[1] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
-[W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30027840): id = 28
+[W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30117840): id = 28
 [W : PPU[1] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
-[W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3002a0e0): id = 30
+[W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3011a0e0): id = 30
 [W : PPU[1] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
-[W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3002a150): id = 32
+[W : PPU[1] Thread (CPUThread)[0x01ba1160]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3011a150): id = 32
 [E : PPU[1] Thread (CPUThread)[0x01b99004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
-[W : PPU[1] Thread (CPUThread)[0x01ba101c]]: sys_lwcond warning: sys_lwcond_destroy(lwcond_addr=0x3002a0f8)
+[W : PPU[1] Thread (CPUThread)[0x01ba101c]]: sys_lwcond warning: sys_lwcond_destroy(lwcond_addr=0x3011a0f8)
+[W : PPU[1] Thread (CPUThread)[0x01ba1148]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011a0e0)
+[W : PPU[1] Thread (CPUThread)[0x0059bab0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1b40700, attr_addr=0xd00207a4, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x0059bab0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 33
+[W : PPU[1] Thread (CPUThread)[0x0059bb38]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1b40704, port_type=0x1, name=0xd1ed1ed1)
+[W : PPU[1] Thread (CPUThread)[0x0059bb38]]: sys_event warning: *** sys_event_port created: id = 35
+[W : PPU[1] Thread (CPUThread)[0x0059bb48]]: sys_event warning: sys_event_port_connect_local(eport_id=35, equeue_id=33)
+[W : PPU[1] Thread (CPUThread)[0x01b8d0f4]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x9f5900, queue=0x21, port_addr=0xd00207a0, isDynamic=0)
+[E : PPU[1] Thread (CPUThread)[0x01b8d0c4]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x01b8d100]]: TODO: cellSpursReadyCountStore
+[E : PPU[1] Thread (CPUThread)[0x01b8d0d0]]: TODO: cellSpursWakeUp
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3850)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f386c)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3888)
+[W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x01ba110c]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x9e971c, entry=0x860eb8)
+[W : PPU[36] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 37
+[W : PPU[34] Thread (spu_printf_handler)[0x0059c510]]: sys_event_queue_receive(equeue=33) aborted
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
