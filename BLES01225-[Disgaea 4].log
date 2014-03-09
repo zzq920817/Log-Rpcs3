@@ -243,11 +243,11 @@
 [W : PPU[1] Thread (CPUThread)[0x004a9088]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
 [W : PPU[1] Thread (CPUThread)[0x004a9088]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USERNAME
 [W : PPU[1] Thread (CPUThread)[0x004a9094]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x4b5b80, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x004ab01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
 [W : PPU[19] Thread (Check game data thread)[0x004ab010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x004ab010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [E : PPU[19] Thread (Check game data thread)[0x02b1501c]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[19] Thread (Check game data thread)[0x02b15010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1c859a0, usrdirPath_addr=0x1c85aa0)
+[W : PPU[1] Thread (CPUThread)[0x004ab01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x004ab010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [E : PPU[1] Thread (CPUThread)[0x02afd004]]: TODO: sys_net_initialize_network_ex
 [W : PPU[1] Thread (CPUThread)[0x004ab01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x004ab010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)

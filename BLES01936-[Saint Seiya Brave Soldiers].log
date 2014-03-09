@@ -346,7 +346,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 37
 [W : PPU[1] Thread (CPUThread)[0x0102a0b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x800000,offset_addr=0xd00208a0)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xd585f160)
+[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xca70e0b0)
 [W : PPU[1] Thread (CPUThread)[0x0102e118]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209b0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0102a064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -1161,12 +1161,12 @@
 [E : Audio Thread]: alBufferData: OpenAL error 0xa001
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
 [! : RSXThread]: RSX thread exit...
-[W : Audio Thread]: Audio aborted
-[W : PPU[68] Thread (Em File Thread)[0x01dd8034]]: sys_lwcond_wait(sq=52) aborted
-[W : PPU[102] Thread (CRI FS File Access 1)[0x008b758c]]: sys_cond_wait(id=101) aborted
 [W : PPU[106] Thread (CRI FS File Access 2)[0x008b758c]]: sys_cond_wait(id=105) aborted
-[W : PPU[98] Thread (CRI FS Memory File System)[0x008b758c]]: sys_cond_wait(id=97) aborted
-[W : PPU[110] Thread (CRI FS File Access 3)[0x008b758c]]: sys_cond_wait(id=109) aborted
 [W : PPU[94] Thread (CRI FS File Access 0)[0x008b758c]]: sys_cond_wait(id=93) aborted
+[W : PPU[98] Thread (CRI FS Memory File System)[0x008b758c]]: sys_cond_wait(id=97) aborted
+[W : PPU[68] Thread (Em File Thread)[0x01dd8034]]: sys_lwcond_wait(sq=52) aborted
+[W : PPU[110] Thread (CRI FS File Access 3)[0x008b758c]]: sys_cond_wait(id=109) aborted
 [W : PPU[114] Thread (CRI FS Data Decompression 0)[0x008b758c]]: sys_cond_wait(id=113) aborted
+[W : PPU[102] Thread (CRI FS File Access 1)[0x008b758c]]: sys_cond_wait(id=101) aborted
+[W : Audio Thread]: Audio aborted
 [!]: Closing memory...
