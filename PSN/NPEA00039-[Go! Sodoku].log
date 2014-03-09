@@ -1,0 +1,455 @@
+[!]: path: /dev_hdd0/game/
+[!]: PKG Loader: Package successfully installed in: /dev_hdd0/game/NPEA00039
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039\\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039\\USRDIR\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0xc22c79b5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad
+[W]: Unknown function 0xf8a175ec in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave
+[W]: Unknown function 0xf83f8182 in 'sys_io' module
+[E]: TODO: cellPadSetPressMode
+[W]: Unknown function 0x60eb2dec in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChain
+[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardInitialize
+[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownJobChain
+[W]: Unknown function 0xa7c066de in 'cellSpurs' module
+[E]: TODO: cellSpursJoinJobChain
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0xbfea60fa in 'cellSpurs' module
+[E]: TODO: cellSpursKickJobChain
+[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardNotify
+[W]: Unknown function 0x0f9667b6 in 'cellAtrac' module
+[E]: TODO: cellAtracGetChannel
+[W]: Unknown function 0x4797d1ff in 'cellAtrac' module
+[E]: TODO: cellAtracGetNextSample
+[W]: Unknown function 0x5f62d546 in 'cellAtrac' module
+[E]: TODO: cellAtracGetMaxSample
+[W]: Unknown function 0x66afc68e in 'cellAtrac' module
+[E]: TODO: cellAtracSetDataAndGetMemSize
+[W]: Unknown function 0x761cb9be in 'cellAtrac' module
+[E]: TODO: cellAtracDeleteDecoder
+[W]: Unknown function 0x7772eb2b in 'cellAtrac' module
+[E]: TODO: cellAtracResetPlayPosition
+[W]: Unknown function 0x8eb0e65f in 'cellAtrac' module
+[E]: TODO: cellAtracDecode
+[W]: Unknown function 0xfa293e88 in 'cellAtrac' module
+[E]: TODO: cellAtracCreateDecoder
+[W]: Unknown function 0x139a9e9b in 'sys_net' module
+[E]: TODO: sys_net_initialize_network_ex
+[W]: Unknown function 0x1f953b9f in 'sys_net' module
+[E]: TODO: recvfrom
+[W]: Unknown function 0x6db6e8cd in 'sys_net' module
+[E]: TODO: socketclose
+[W]: Unknown function 0x88f03575 in 'sys_net' module
+[E]: TODO: setsockopt
+[W]: Unknown function 0x8d1b77fb in 'sys_net' module
+[E]: TODO: sys_net_abort_socket
+[W]: Unknown function 0x9647570b in 'sys_net' module
+[E]: TODO: sendto
+[W]: Unknown function 0x9c056962 in 'sys_net' module
+[E]: TODO: socket
+[W]: Unknown function 0xb0a59804 in 'sys_net' module
+[E]: TODO: bind
+[W]: Unknown function 0xb68d5625 in 'sys_net' module
+[E]: TODO: sys_net_finalize_network
+[W]: Unknown function 0xfdb8f926 in 'sys_net' module
+[E]: TODO: sys_net_free_thread_context
+[W]: Unknown function 0x03c741a7 in 'sceNp' module
+[E]: TODO: sceNpMatchingGetResult
+[W]: Unknown function 0x05d65dff in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpId
+[W]: Unknown function 0x1672170e in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScore
+[W]: Unknown function 0x1a2704f7 in 'sceNp' module
+[E]: TODO: sceNpScoreWaitAsync
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x26b3bc94 in 'sceNp' module
+[E]: TODO: sceNpMatchingGetResultGUI
+[W]: Unknown function 0x27c69eba in 'sceNp' module
+[E]: TODO: sceNpBasicAddFriend
+[W]: Unknown function 0x2ad7837d in 'sceNp' module
+[E]: TODO: sceNpMatchingAcceptInvitationGUI
+[W]: Unknown function 0x2e1c5068 in 'sceNp' module
+[E]: TODO: sceNpMatchingDestroyCtx
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x32febb4c in 'sceNp' module
+[E]: TODO: sceNpMatchingSearchJoinRoomGUI
+[W]: Unknown function 0x36d0c2c5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetAvatarUrl
+[W]: Unknown function 0x3cc8588a in 'sceNp' module
+[E]: TODO: sceNpMatchingCreateRoomGUI
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0x60897c38 in 'sceNp' module
+[E]: TODO: sceNpSignalingActivateConnection
+[W]: Unknown function 0x6356082e in 'sceNp' module
+[E]: TODO: sceNpSignalingCreateCtx
+[W]: Unknown function 0x64dbb89d in 'sceNp' module
+[E]: TODO: sceNpSignalingCancelPeerNetInfo
+[W]: Unknown function 0x691f429d in 'sceNp' module
+[E]: TODO: sceNpMatchingGetRoomInfo
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x73a2e36b in 'sceNp' module
+[E]: TODO: sceNpMatchingGetRoomMemberListLocal
+[W]: Unknown function 0x75eb50cb in 'sceNp' module
+[E]: TODO: sceNpSignalingGetPeerNetInfo
+[W]: Unknown function 0x8b7bbd73 in 'sceNp' module
+[E]: TODO: sceNpMatchingSendInvitationGUI
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa284bd1d in 'sceNp' module
+[E]: TODO: sceNpMatchingSetRoomSearchFlag
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xa8cf8451 in 'sceNp' module
+[E]: TODO: sceNpSignalingDestroyCtx
+[W]: Unknown function 0xac66568c in 'sceNp' module
+[E]: TODO: sceNpMatchingCreateCtx
+[W]: Unknown function 0xad218faf in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable
+[W]: Unknown function 0xaf505def in 'sceNp' module
+[E]: TODO: sceNpBasicGetMatchingInvitationEntryCount
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterHandler
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xca0a2d04 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionStatus
+[W]: Unknown function 0xd0958814 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetPeerNetInfoResult
+[W]: Unknown function 0xd208f91d in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpId
+[W]: Unknown function 0xd20d7798 in 'sceNp' module
+[E]: TODO: sceNpMatchingKickRoomMemberWithOpt
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf42c0df8 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineName
+[W]: Unknown function 0xf5ff5f31 in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpIdInOrder
+[W]: Unknown function 0xf806c54c in 'sceNp' module
+[E]: TODO: sceNpMatchingLeaveRoom
+[W]: Unknown function 0xfd0eb5ae in 'sceNp' module
+[E]: TODO: sceNpSignalingDeactivateConnection
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0xf7681b9a in 'cellL10n' module
+[E]: TODO: UTF8stoUTF16s
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x000cd010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1011cd00,cmdSize=0x40000,ioSize=0x6000000,ioAddress=0x30200000)
+[W : PPU[1] Thread (CPUThread)[0x000cd010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x000cd010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x6000000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x00040844]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 12
+[W : PPU[1] Thread (CPUThread)[0x000cd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x000cd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x000bd010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020a7c, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x000cd034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x000cd064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x000cd064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3a0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=3801088, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=7602176, size=3801088, pitch=5120, comp=9, base=0, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys error: cellGcmSetTile: bad comp! (9)
+[W : PPU[1] Thread (CPUThread)[0x000cd094]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x740000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x000cd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=8, location=0, offset=11468800, size=4849664, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=9, location=1, offset=524288, size=4849664, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x000bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00031bc0]]: sys_spu warning: sys_spu_initialize(max_usable_spu=2, max_raw_spu=0)
+[E : PPU[1] Thread (CPUThread)[0x000cf040]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x000324e0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1003d840, attr_addr=0xd0020a34, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x000324e0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 13
+[W : PPU[1] Thread (CPUThread)[0x00032574]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1003d850, port_type=0x1, name=0xfee1dead)
+[W : PPU[1] Thread (CPUThread)[0x00032574]]: sys_event warning: *** sys_event_port created: id = 15
+[W : PPU[1] Thread (CPUThread)[0x00032590]]: sys_event warning: sys_event_port_connect_local(eport_id=15, equeue_id=13)
+[W : PPU[1] Thread (CPUThread)[0x000cf04c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x30270800, queue=0xd, port_addr=0xd0020a30, isDynamic=0)
+[W : PPU[1] Thread (CPUThread)[0x00042320]]: memory warning: sys_memory_container_create(cid_addr=0x1003dcf4, yield_size=0x1000000)
+[W : PPU[1] Thread (CPUThread)[0x00042320]]: memory warning: *** memory_container created(addr=0x36400000): id = 16
+[W : PPU[1] Thread (CPUThread)[0x000df028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
+[E : PPU[1] Thread (CPUThread)[0x000d5004]]: TODO: sys_net_initialize_network_ex
+[E : PPU[1] Thread (CPUThread)[0x000d7028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[E : PPU[1] Thread (CPUThread)[0x000d919c]]: TODO: sceNpInit
+[E : PPU[1] Thread (CPUThread)[0x000d907c]]: TODO: sceNpScoreInit
+[W : PPU[1] Thread (CPUThread)[0x000cd058]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x20000000,size=0x100000,offset_addr=0x1002b848)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/DATA/ICON0_EU.PNG"): fd = 18
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=18)
+[W : PPU[1] Thread (CPUThread)[0x00027278]]: memory warning: sys_memory_container_create(cid_addr=0x1003bc88, yield_size=0x400000)
+[W : PPU[1] Thread (CPUThread)[0x00027278]]: memory warning: *** memory_container created(addr=0x37400000): id = 19
+[W : PPU[1] Thread (CPUThread)[0x000bd028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x000bd028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x000cd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=16384000, size=4194304, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=20578304, size=4194304, pitch=4096, comp=9, base=0, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys error: cellGcmSetTile: bad comp! (9)
+[W : PPU[1] Thread (CPUThread)[0x00031e70]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x301103c0, attr_addr=0xd00205d0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x00031e70]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 20
+[W : PPU[1] Thread (CPUThread)[0x000cf04c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x30270800, queue=0x14, port_addr=0x301103c4, isDynamic=1)
+[E : PPU[1] Thread (CPUThread)[0x000cf010]]: TODO: cellSpursCreateJobChain
+[E : PPU[1] Thread (CPUThread)[0x000cf01c]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x000cf058]]: TODO: cellSpursKickJobChain
+[W : PPU[1] Thread (CPUThread)[0x000cd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=7, location=0, offset=24838144, size=393216, pitch=512, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x000cd088]]: cellGcmSys warning: cellGcmSetTile(index=6, location=0, offset=25231360, size=65536, pitch=512, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x000bd040]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xc06b8, userdata=0x0)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.gpu.mxf"): fd = 22
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=22)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.gpu.mxf"): fd = 23
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=23)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.gpu.mxf"): fd = 24
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=24)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.dat"): fd = 25
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=25)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.dat"): fd = 26
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=26)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.dat"): fd = 27
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=27)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.dat"): fd = 28
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=28)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.rel.mxf"): fd = 29
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=29)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang.rel.mxf"): fd = 30
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=30)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.gpu.mxf"): fd = 31
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=31)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.gpu.mxf"): fd = 32
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=32)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.gpu.mxf"): fd = 33
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=33)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.dat"): fd = 34
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=34)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.dat"): fd = 35
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=35)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.dat"): fd = 36
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=36)
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.dat"): fd = 37
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=37)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.rel.mxf"): fd = 38
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=38)
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000cb028]]: sys_fs error: "/siff/sudoku_lang_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000cb028]]: *** cellFsOpen(path="/siff/sudoku_lang_EN.rel.mxf"): fd = 39
+[W : PPU[1] Thread (CPUThread)[0x000cb010]]: sys_fs warning: cellFsClose(fd=39)
+[E : PPU[1] Thread (CPUThread)[0x000c9040]]: TODO: cellPadSetPressMode
+[E : PPU[1] Thread (CPUThread)[0x000cf070]]: TODO: cellSpursJobGuardNotify
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 272
+[! : RSXThread]: *** fp data size = 80
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 14) in vec4 in_tc6;
+layout (location = 8) in vec4 in_tc0;
+vec4 tmp0;
+vec4 tmp1;
+vec4 tmp3;
+vec4 tmp2;
+uniform vec4 vc4;
+uniform vec4 vc3;
+uniform vec4 vc2;
+uniform vec4 vc1;
+uniform vec4 vc0;
+out vec4 tc0;
+
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	tmp0.x = vec2(dot(in_pos.xyzx.xyz, in_pos.xyzx.xyz), 0).xxxx.x;
+	tmp0.y = vec2(dot(in_tc6.xyzx.xyz, in_tc6.xyzx.xyz), 0).xxxx.y;
+	tmp0.x = inversesqrt(tmp0.x);
+	tmp0.w = inversesqrt(tmp0.y);
+	tmp0.xyz = (tmp0.xxxx * in_pos.xyzx).xyz;
+	tmp1.xyz = (tmp0.wwww * in_tc6.xyzx).xyz;
+	tmp3.xyz = (tmp1.xyzx * in_tc0.xxxx).xyz;
+	tmp2.xyz = (tmp0.zxyz * tmp1.yzxy).xyz;
+	tmp1.xyz = (tmp0.yzxy * tmp1.zxyz + -tmp2.xyzx).xyz;
+	tmp0.xyz = (tmp3.xyzx * vc4.xxxx + tmp0.xyzx).xyz;
+	tmp1.xyz = (tmp1.xyzx * in_tc0.yyyy).xyz;
+	tmp0.xyz = (tmp1.xyzx * vc4.xxxx + tmp0.xyzx).xyz;
+	tc0.xy = in_tc0.xyxx.xy;
+	gl_Position.w = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc3), 0).xxxx.w;
+	gl_Position.z = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc2), 0).xxxx.z;
+	gl_Position.y = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc1), 0).xxxx.y;
+	gl_Position.x = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc0), 0).xxxx.x;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0.xy = tc0.xy;
+	r0.xy = (r0 * r0).xy;
+	r0.x = (r0 + r0.yyyy).x;
+	r1.z = r0.xxxx.z;
+	r0 = r0.xxxx;
+	ocol = r0;
+	gl_FragDepth = r1.z;
+}
+
+[W : RSXThread]: New FBO (1280x720)
+[E : RSXThread]: GetAddress(offset=0xff, location=0xb94c08b0)
+[E : RSXThread]: GetAddress(offset=0xff, location=0xb94c0690)
+[E : RSXThread]: Bad texture address=0x0
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[! : RSXThread]: Add program (1):
+[! : RSXThread]: *** prog id = 4
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 64
+[! : RSXThread]: *** fp data size = 32
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 3) in vec4 in_col0;
+layout (location = 8) in vec4 in_tc0;
+uniform vec4 vc467;
+out vec4 col0;
+out vec4 tc0;
+
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	gl_Position.xy = in_pos.xyxx.xy;
+	gl_Position.z = vc467.xxxx.z;
+	col0 = in_col0;
+	tc0.xy = in_tc0.xyxx.xy;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+in vec4 col0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	r0 = (col0 * r0);
+	ocol = r0;
+}
+
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[W : PPU[1] Thread (CPUThread)[0x000320d0]]: sys_event_queue_receive(equeue=20) aborted
+[W : PPU[14] Thread (SpuPrintfHandler)[0x000323d4]]: sys_event_queue_receive(equeue=13) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
