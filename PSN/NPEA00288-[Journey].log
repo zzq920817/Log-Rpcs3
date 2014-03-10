@@ -380,7 +380,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
 [W : PPU[1] Thread (CPUThread)[0x00ecf088]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020628, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=249)
 [W : PPU[1] Thread (CPUThread)[0x00ecf004]]: cellSpurs warning: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0020628)
-[W : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[480630288], maxSpu=6, isPreemptible[480630296])
+[W : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[2568043792], maxSpu=6, isPreemptible[2568043800])
 [E : PPU[1] Thread (CPUThread)[0x00ecf0d0]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xe8e610, attr_addr=0xd0020540, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 86
@@ -442,6 +442,6 @@
 [E : PPU[1] Thread (CPUThread)[0x00edb0ac]]: TODO: sceNpDrmIsAvailable
 [E : PPU[1] Thread (CPUThread)[0x00eed034]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x0020a7d0]]: Write64 to null block: [cfffe860]: d0020560
-[! : RSXThread]: RSX thread exit...
 [W : PPU[87] Thread (spu_printf_handler)[0x002aad50]]: sys_event_queue_receive(equeue=86) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

@@ -854,79 +854,79 @@
 [E]: TODO: sys_prx_load_module_by_fd
 [W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
 [E]: TODO: sys_prx_unload_module
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00944620]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x02ce2010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x02ce2010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x02ce2010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x0091acfc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x0091acfc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0092ed74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x0092ed74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0091cc14]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x0091cc14]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0092ed74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x0092ed74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0091a5f0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x0091a5f0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0091cc14]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x0091cc14]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 13
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
-[W : PPU[1] Thread (CPUThread)[0x02cd2004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
-[W : PPU[1] Thread (CPUThread)[0x02ce2010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
-[W : PPU[1] Thread (CPUThread)[0x02ce2010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
-[E : PPU[1] Thread (CPUThread)[0x02cec088]]: TODO: sceNp2Init
-[E : PPU[1] Thread (CPUThread)[0x02ce6184]]: TODO: sceNpManagerRegisterCallback
-[W : PPU[1] Thread (CPUThread)[0x02cee07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[W : PPU[1] Thread (CPUThread)[0x02cee07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[W : PPU[1] Thread (CPUThread)[0x02cee07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[W : PPU[1] Thread (CPUThread)[0x02cee07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[E : PPU[1] Thread (CPUThread)[0x0303007c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x10c90b4)
-[E : PPU[1] Thread (CPUThread)[0x0303007c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x10c90d0)
-[E : PPU[1] Thread (CPUThread)[0x0303007c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x10c90ec)
-[W : PPU[1] Thread (CPUThread)[0x02cee124]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x1324828, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x02ce00f4]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020908, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=32)
-[W : PPU[1] Thread (CPUThread)[0x02ce0010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020908, prefix_addr=0x11019e0, size=0x4)
-[E : PPU[1] Thread (CPUThread)[0x02ce013c]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x02ce00f4]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020908, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=251)
-[W : PPU[1] Thread (CPUThread)[0x02ce0010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020908, prefix_addr=0x11019e8, size=0x6)
-[E : PPU[1] Thread (CPUThread)[0x02ce013c]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x008d3ac0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020744)
-[W : PPU[1] Thread (CPUThread)[0x02cd2034]]: cellGcmSys warning: cellGcmInit(context_addr=0x2c7e410,cmdSize=0x10000,ioSize=0x8900000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x02cd2034]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x02cd2034]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x8900000)
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00944b58]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x02ce3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x02ce3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x02ce3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0091b234]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0091b234]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0092f2ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0092f2ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0091d14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0091d14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0092f2ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0092f2ac]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0091ab28]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0091ab28]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0091d14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0091d14c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x02cd3004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
+[W : PPU[1] Thread (CPUThread)[0x02ce3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+[W : PPU[1] Thread (CPUThread)[0x02ce3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+[E : PPU[1] Thread (CPUThread)[0x02ced088]]: TODO: sceNp2Init
+[E : PPU[1] Thread (CPUThread)[0x02ce7184]]: TODO: sceNpManagerRegisterCallback
+[W : PPU[1] Thread (CPUThread)[0x02cef07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x02cef07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x02cef07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x02cef07c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[E : PPU[1] Thread (CPUThread)[0x0303107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x10c9adc)
+[E : PPU[1] Thread (CPUThread)[0x0303107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x10c9af8)
+[E : PPU[1] Thread (CPUThread)[0x0303107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x10c9b14)
+[W : PPU[1] Thread (CPUThread)[0x02cef124]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x1324828, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x02ce10f4]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020908, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=32)
+[W : PPU[1] Thread (CPUThread)[0x02ce1010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020908, prefix_addr=0x11024b0, size=0x4)
+[E : PPU[1] Thread (CPUThread)[0x02ce113c]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x02ce10f4]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020908, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=251)
+[W : PPU[1] Thread (CPUThread)[0x02ce1010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020908, prefix_addr=0x11024b8, size=0x6)
+[E : PPU[1] Thread (CPUThread)[0x02ce113c]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x008d3ff8]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020744)
+[W : PPU[1] Thread (CPUThread)[0x02cd3034]]: cellGcmSys warning: cellGcmInit(context_addr=0x2c7e410,cmdSize=0x10000,ioSize=0x8900000,ioAddress=0x30200000)
+[W : PPU[1] Thread (CPUThread)[0x02cd3034]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x02cd3034]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x8900000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x02cee0b8]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x02cd2004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x02cd20ac]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=20071784)
-[E : PPU[1] Thread (CPUThread)[0x02cd201c]]: TODO: cellGcmSetQueueHandler
-[E : PPU[1] Thread (CPUThread)[0x02cd20d0]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
-[E : PPU[1] Thread (CPUThread)[0x02cd2100]]: TODO: cellGcmSetSecondVHandler
-[W : PPU[1] Thread (CPUThread)[0x02cd2010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x1324548)
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 26
-[W : PPU[1] Thread (CPUThread)[0x03030058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
-[E : PPU[1] Thread (CPUThread)[0x02cd20a0]]: TODO: cellGcmGetReportDataAddress
-[E : PPU[1] Thread (CPUThread)[0x008d8578]]: Write64 to null block: [00000000]: 0
+[W : PPU[1] Thread (CPUThread)[0x02cef0b8]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
+[W : PPU[1] Thread (CPUThread)[0x02cd3004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02cd30ac]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=20071784)
+[E : PPU[1] Thread (CPUThread)[0x02cd301c]]: TODO: cellGcmSetQueueHandler
+[E : PPU[1] Thread (CPUThread)[0x02cd30d0]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[E : PPU[1] Thread (CPUThread)[0x02cd3100]]: TODO: cellGcmSetSecondVHandler
+[W : PPU[1] Thread (CPUThread)[0x02cd3010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x1324548)
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x03031058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
+[E : PPU[1] Thread (CPUThread)[0x02cd30a0]]: TODO: cellGcmGetReportDataAddress
+[E : PPU[1] Thread (CPUThread)[0x008d8ab0]]: Write64 to null block: [00000000]: 0
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

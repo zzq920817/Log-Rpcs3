@@ -1,0 +1,159 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST_ HD]\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST_ HD]\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST_ HD]\\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST_ HD]\\USRDIR\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0xffe0160e in 'cellGcmSys' module
+[E]: TODO: cellGcmSetVBlankFrequency
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetTasksetSize
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0x139a9e9b in 'sys_net' module
+[E]: TODO: sys_net_initialize_network_ex
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0x6005cde1 in 'sys_net' module
+[E]: TODO: _sys_net_errno_loc
+[W]: Unknown function 0x64f66d35 in 'sys_net' module
+[E]: TODO: connect
+[W]: Unknown function 0x6db6e8cd in 'sys_net' module
+[E]: TODO: socketclose
+[W]: Unknown function 0x88f03575 in 'sys_net' module
+[E]: TODO: setsockopt
+[W]: Unknown function 0x9c056962 in 'sys_net' module
+[E]: TODO: socket
+[W]: Unknown function 0xb0a59804 in 'sys_net' module
+[E]: TODO: bind
+[W]: Unknown function 0xb68d5625 in 'sys_net' module
+[E]: TODO: sys_net_finalize_network
+[W]: Unknown function 0xc94f6939 in 'sys_net' module
+[E]: TODO: accept
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0xdc751b40 in 'sys_net' module
+[E]: TODO: send
+[W]: Unknown function 0xfba04f37 in 'sys_net' module
+[E]: TODO: recv
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
+[E]: TODO: cellHttpUtilParseUri
+[W]: Unknown function 0x04372385 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntry
+[W]: Unknown function 0x05d65dff in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpId
+[W]: Unknown function 0x1672170e in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScore
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x8297f1ec in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket2
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa1709abd in 'sceNp' module
+[E]: TODO: sceNpManagerGetEntitlementById
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xad218faf in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xb66d1c46 in 'sceNp' module
+[E]: TODO: sceNpManagerGetEntitlementIdList
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xbe07c708 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineId
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xfbc82301 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRange
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown module 'sceNpCommerce2'
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x004a2da4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[!]: Closing memory...

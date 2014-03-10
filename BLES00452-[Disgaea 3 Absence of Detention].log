@@ -20,10 +20,14 @@
 [E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x2de0d663 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0xc9645c41 in 'cellSysutil' module
+[E]: TODO: cellGameDataCheckCreate2
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
 [E]: TODO: cellFsAioWrite
+[W]: Unknown function 0x7f13fc8c in 'sys_fs' module
+[E]: TODO: cellFsAioCancel
 [W]: Unknown function 0x99406d0b in 'sys_fs' module
 [E]: TODO: cellFsChmod
 [W]: Unknown function 0x07254fda in 'cellSync' module
@@ -34,6 +38,8 @@
 [E]: TODO: cellSyncBarrierNotify
 [W]: Unknown function 0x33435818 in 'cellL10n' module
 [E]: TODO: SJISstoUTF8s
+[W]: Unknown function 0x638c2fc1 in 'cellL10n' module
+[E]: TODO: SjisHan2Zen
 [W]: Unknown function 0x750c363d in 'cellL10n' module
 [E]: TODO: jstrchk
 [W]: Unknown function 0x139a9e9b in 'sys_net' module
@@ -92,794 +98,324 @@
 [E]: TODO: cellAtracGetRemainFrame
 [W]: Unknown function 0xfa293e88 in 'cellAtrac' module
 [E]: TODO: cellAtracCreateDecoder
+[W]: Unknown function 0x1a2704f7 in 'sceNp' module
+[E]: TODO: sceNpScoreWaitAsync
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x29dd45dc in 'sceNp' module
+[E]: TODO: sceNpScoreSetTimeout
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x7be47e61 in 'sceNp' module
+[E]: TODO: sceNpScoreCensorCommentAsync
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa1709abd in 'sceNp' module
+[E]: TODO: sceNpManagerGetEntitlementById
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xad218faf in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNetworkTime
+[W]: Unknown function 0xc4b6cd8f in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdPcIdAsync
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xdb2e4dc2 in 'sceNp' module
+[E]: TODO: sceNpScoreGetGameDataAsync
+[W]: Unknown function 0xddce7d15 in 'sceNp' module
+[E]: TODO: sceNpScoreGetBoardInfoAsync
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xf042b14f in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable2
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xf76847c2 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordGameDataAsync
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x59b1ede1 in 'cellGameExec' module
+[E]: TODO: cellGameGetHomeDataExportPath
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x0021d010]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
-[W : PPU[1] Thread (CPUThread)[0x00016de8]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x00246010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1cacba8,cmdSize=0x3f000,ioSize=0x1800000,ioAddress=0x30100000)
-[W : PPU[1] Thread (CPUThread)[0x00246010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00246010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x1800000)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00261270]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0003a1f0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 13
+[W : PPU[1] Thread (CPUThread)[0x0003a5c0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 14
+[W : PPU[1] Thread (CPUThread)[0x0029d07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x2a0578, userdata=0x0)
+[W : PPU[15] Thread (Check game data thread)[0x000152f4]]: memory warning: sys_memory_container_create(cid_addr=0xd0030dd0, yield_size=0x300000)
+[W : PPU[15] Thread (Check game data thread)[0x000152f4]]: memory warning: *** memory_container created(addr=0x30100000): id = 16
+[E : PPU[15] Thread (Check game data thread)[0x0029d094]]: TODO: cellGameDataCheckCreate2
+[W : PPU[15] Thread (Check game data thread)[0x0001531c]]: memory warning: sys_memory_container_destroy(cid=16)
+[W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[E : PPU[1] Thread (CPUThread)[0x01f27004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[E : PPU[1] Thread (CPUThread)[0x01f370d0]]: TODO: sceNpInit
+[E : PPU[1] Thread (CPUThread)[0x01f37034]]: TODO: sceNpScoreInit
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+[W : PPU[1] Thread (CPUThread)[0x00016fd4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x0029b010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1e7e1f8,cmdSize=0x3f000,ioSize=0x1800000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x0029b010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0029b010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x1800000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00246004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x00246058]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=3801088, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x00246040]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00246058]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=3801088, size=3801088, pitch=5120, comp=0, base=0, bank=1)
-[W : PPU[1] Thread (CPUThread)[0x00246064]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x3a0000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x7, sRef=0x0, sMask=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x00244040]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020534)
-[W : PPU[1] Thread (CPUThread)[0x00246004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x00244028]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
-[W : PPU[1] Thread (CPUThread)[0x00244028]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00244028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x0024404c]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0x1c6cd94, vertexArray_addr=0x1c6cd98, fragmentShader_addr=0x1c6cd9c)
-[W : PPU[1] Thread (CPUThread)[0x00246058]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=198180864, size=7536640, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x00244064]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xcbd00000, vertexArray_addr=0xc0ac0000, fragmentShader_addr=0xc0ac1000)
-[W : PPU[1] Thread (CPUThread)[0x00244064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xbd00000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00244064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xc084000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00244058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00244058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xc03a0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00016e18]]: sys_spu warning: sys_spu_image_open(img_addr=0x1c7c5d0, path_addr=0xd0020980 [/dev_bdvd/PS3_GAME/USRDIR/NisGraphics.spu.self])
-[W : PPU[1] Thread (CPUThread)[0x000171b4]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x1c7c5ec, num=6, prio=16, attr_addr=0xd0020a3c)
-[W : PPU[1] Thread (CPUThread)[0x000171b4]]: sys_spu warning: *** SPU Thread Group created [NisGraphicsSpu_Group] (type=0x0, option.ct=0x0): id=13
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1c7c5fc, group=0xd, spu_num=0, img_addr=0x1c7c5d0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: *** New SPU Thread [NGS_Thread1] (img_offset=0x1d53000, ls_offset=0x1d93000, ep=0x0, a1=0x1c7c770, a2=0x1c7c7d0, a3=0x0, a4=0x1c7c890): id=14
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1c7c63c, group=0xd, spu_num=1, img_addr=0x1c7c5d0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: *** New SPU Thread [NGS_Thread2] (img_offset=0x1d53000, ls_offset=0x1dd3000, ep=0x0, a1=0x1c7c780, a2=0x1c7c7f0, a3=0x0, a4=0x1c7c894): id=15
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1c7c67c, group=0xd, spu_num=2, img_addr=0x1c7c5d0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: *** New SPU Thread [NGS_Thread3] (img_offset=0x1d53000, ls_offset=0x1e13000, ep=0x0, a1=0x1c7c790, a2=0x1c7c810, a3=0x0, a4=0x1c7c898): id=16
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1c7c6bc, group=0xd, spu_num=3, img_addr=0x1c7c5d0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: *** New SPU Thread [NGS_Thread4] (img_offset=0x1d53000, ls_offset=0x1e53000, ep=0x0, a1=0x1c7c7a0, a2=0x1c7c830, a3=0x0, a4=0x1c7c89c): id=17
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1c7c6fc, group=0xd, spu_num=4, img_addr=0x1c7c5d0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: *** New SPU Thread [NGS_Thread4] (img_offset=0x1d53000, ls_offset=0x1e93000, ep=0x0, a1=0x1c7c7b0, a2=0x1c7c850, a3=0x0, a4=0x1c7c8a0): id=18
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1c7c73c, group=0xd, spu_num=5, img_addr=0x1c7c5d0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
-[W : PPU[1] Thread (CPUThread)[0x00017228]]: sys_spu warning: *** New SPU Thread [NGS_Thread5] (img_offset=0x1d53000, ls_offset=0x1ed3000, ep=0x0, a1=0x1c7c7c0, a2=0x1c7c870, a3=0x0, a4=0x1c7c8a4): id=19
-[W : PPU[1] Thread (CPUThread)[0x00017254]]: sys_spu warning: sys_spu_thread_group_start(id=13)
-[W : SPU[14] Thread (NGS_Thread1)[0x00000000]]: STOP: 0x0 (no message)
-[W : SPU[15] Thread (NGS_Thread2)[0x00000000]]: STOP: 0x0 (no message)
-[W : SPU[16] Thread (NGS_Thread3)[0x00000000]]: STOP: 0x0 (no message)
-[W : SPU[17] Thread (NGS_Thread4)[0x00000000]]: STOP: 0x0 (no message)
-[W : SPU[18] Thread (NGS_Thread4)[0x00000000]]: STOP: 0x0 (no message)
-[W : SPU[19] Thread (NGS_Thread5)[0x00000000]]: STOP: 0x0 (no message)
-[W : PPU[1] Thread (CPUThread)[0x0024c07c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x22b548 (/dev_bdvd/PS3_GAME/USRDIR))
-[W : PPU[1] Thread (CPUThread)[0x0024c07c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x22b510 (/app_home))
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_DATE_FORMAT
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIME_FORMAT
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_GAME_PARENTAL_LEVEL
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USER_HAS_NP_ACCOUNT
-[W : PPU[1] Thread (CPUThread)[0x00248028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CAMERA_PLFREQ
-[W : PPU[1] Thread (CPUThread)[0x0024804c]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
-[W : PPU[1] Thread (CPUThread)[0x0024804c]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USERNAME
-[W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
-[W : PPU[1] Thread (CPUThread)[0x00019c24]]: memory warning: sys_memory_container_create(cid_addr=0x2fd3b8, yield_size=0x500000)
-[W : PPU[1] Thread (CPUThread)[0x00019c24]]: memory warning: *** memory_container created(addr=0x3a100000): id = 20
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/NisAnmShadow.txf"): fd = 21
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=21, offset=0x0, buf_addr=0x32326000, size=0x1010, error=0x0, res=0x1010, xid=0x0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/NisAnmShadow.txf])
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
-[W : PPU[1] Thread (CPUThread)[0x00248064]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
-[W : PPU[1] Thread (CPUThread)[0x00248034]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020af4, option_addr=0x0, (!)waitForEvent=0)
-[W : PPU[1] Thread (CPUThread)[0x00248070]]: cellSysutil warning: cellAudioOutSetCopyControl(audioOut=0,control=1)
-[W : PPU[1] Thread (CPUThread)[0x00205448]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 23
-[W : PPU[1] Thread (CPUThread)[0x002055bc]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x1d34290, num=1, prio=100, attr_addr=0x1d34384)
-[W : PPU[1] Thread (CPUThread)[0x002055bc]]: sys_spu warning: *** SPU Thread Group created [_synth2 Group] (type=0x0, option.ct=0x0): id=24
-[W : PPU[1] Thread (CPUThread)[0x01d4f100]]: sysPrxForUser warning: sys_spu_image_import(img=0x1d34294, src=0x236300, type=0x1)
-[W : PPU[1] Thread (CPUThread)[0x01d4f100]]: desc = 'synth2.elf'
-[W : PPU[1] Thread (CPUThread)[0x002056bc]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1d3428c, group=0x18, spu_num=0, img_addr=0x1d34294, attr_addr=0x1d34394, arg_addr=0x1d343a0)
-[W : PPU[1] Thread (CPUThread)[0x002056bc]]: sys_spu warning: *** New SPU Thread [_synth2 Thread] (img_offset=0x1f13000, ls_offset=0x1f53000, ep=0x100, a1=0x1d34300, a2=0x0, a3=0x0, a4=0x0): id=25
-[W : PPU[1] Thread (CPUThread)[0x00205ca4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1cacc28, attr_addr=0x1cacc30, event_queue_key=0x0, size=32)
-[W : PPU[1] Thread (CPUThread)[0x00205ca4]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 26
-[W : PPU[1] Thread (CPUThread)[0x00205cc0]]: sys_spu warning: sys_spu_thread_connect_event(id=25, eq_id=26, event_type=0x1, spup=58)
-[W : PPU[1] Thread (CPUThread)[0x00205ce0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1cacc2c, attr_addr=0x1cacc30, event_queue_key=0x0, size=32)
-[W : PPU[1] Thread (CPUThread)[0x00205ce0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 27
-[W : PPU[1] Thread (CPUThread)[0x00205cf8]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1cacc40, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00205cf8]]: sys_event warning: *** sys_event_port created: id = 28
-[W : PPU[1] Thread (CPUThread)[0x00205d08]]: sys_event warning: sys_event_port_connect_local(eport_id=28, equeue_id=27)
-[W : PPU[1] Thread (CPUThread)[0x00205d20]]: sys_spu warning: sys_spu_thread_bind_queue(id=25, equeue_id=27, spuq_num=0x1012000)
-[W : PPU[1] Thread (CPUThread)[0x002056f0]]: sys_spu warning: sys_spu_thread_group_start(id=24)
-[W : PPU[1] Thread (CPUThread)[0x01d3b004]]: cellAudio warning: cellAudioInit()
+[W : PPU[1] Thread (CPUThread)[0x0029b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0029b058]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0029b040]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0029b058]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=3801088, size=3801088, pitch=5120, comp=0, base=0, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x0029b064]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x3a0000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x7, sRef=0x0, sMask=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00299040]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020534)
+[W : PPU[1] Thread (CPUThread)[0x0029b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00299028]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x00299028]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00299028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x0029904c]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0x1e3df14, vertexArray_addr=0x1e3df18, fragmentShader_addr=0x1e3df1c)
+[W : PPU[1] Thread (CPUThread)[0x0029b058]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=198180864, size=7536640, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x00299064]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xcbd00000, vertexArray_addr=0xc0ac0000, fragmentShader_addr=0xc0ac1000)
+[W : PPU[1] Thread (CPUThread)[0x00299064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xbd00000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00299064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xc084000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00299058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00299058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xc03a0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x01f3f100]]: sysPrxForUser warning: sys_spu_image_import(img=0x1f1bec0, src=0x292300, type=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01f3f100]]: desc = 'NisGraphics.spu.elf'
+[W : PPU[1] Thread (CPUThread)[0x000172e0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x1f1bedc, num=6, prio=16, attr_addr=0xd0020a3c)
+[W : PPU[1] Thread (CPUThread)[0x000172e0]]: sys_spu warning: *** SPU Thread Group created [NisGraphicsSpu_Group] (type=0x0, option.ct=0x0): id=17
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f1beec, group=0x11, spu_num=0, img_addr=0x1f1bec0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: *** New SPU Thread [NGS_Thread1] (img_offset=0x1f43000, ls_offset=0x1f83000, ep=0x90, a1=0x1f1c060, a2=0x1f1c0c0, a3=0x0, a4=0x1f1c180): id=18
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f1bf2c, group=0x11, spu_num=1, img_addr=0x1f1bec0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: *** New SPU Thread [NGS_Thread2] (img_offset=0x1f43000, ls_offset=0x1fc3000, ep=0x90, a1=0x1f1c070, a2=0x1f1c0e0, a3=0x0, a4=0x1f1c184): id=19
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f1bf6c, group=0x11, spu_num=2, img_addr=0x1f1bec0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: *** New SPU Thread [NGS_Thread3] (img_offset=0x1f43000, ls_offset=0x2003000, ep=0x90, a1=0x1f1c080, a2=0x1f1c100, a3=0x0, a4=0x1f1c188): id=20
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f1bfac, group=0x11, spu_num=3, img_addr=0x1f1bec0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: *** New SPU Thread [NGS_Thread4] (img_offset=0x1f43000, ls_offset=0x2043000, ep=0x90, a1=0x1f1c090, a2=0x1f1c120, a3=0x0, a4=0x1f1c18c): id=21
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f1bfec, group=0x11, spu_num=4, img_addr=0x1f1bec0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: *** New SPU Thread [NGS_Thread4] (img_offset=0x1f43000, ls_offset=0x2083000, ep=0x90, a1=0x1f1c0a0, a2=0x1f1c140, a3=0x0, a4=0x1f1c190): id=22
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f1c02c, group=0x11, spu_num=5, img_addr=0x1f1bec0, attr_addr=0xd0020a30, arg_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: *** New SPU Thread [NGS_Thread5] (img_offset=0x1f43000, ls_offset=0x20c3000, ep=0x90, a1=0x1f1c0b0, a2=0x1f1c160, a3=0x0, a4=0x1f1c194): id=23
+[W : PPU[1] Thread (CPUThread)[0x00017380]]: sys_spu warning: sys_spu_thread_group_start(id=17)
+[W : PPU[1] Thread (CPUThread)[0x01f1f0a0]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x27f9b8 (/dev_bdvd/PS3_GAME/USRDIR))
+[W : PPU[1] Thread (CPUThread)[0x01f1f0a0]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x27f9d8 (/app_home))
+[W : PPU[1] Thread (CPUThread)[0x01f1f0a0]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x27f9e8 (/dev_hdd0))
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_DATE_FORMAT
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIME_FORMAT
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_GAME_PARENTAL_LEVEL
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USER_HAS_NP_ACCOUNT
+[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CAMERA_PLFREQ
+[W : PPU[1] Thread (CPUThread)[0x0029d070]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
+[W : PPU[1] Thread (CPUThread)[0x0029d070]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USERNAME
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/NisAnmShadow.txf"): fd = 24
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=24, offset=0x0, buf_addr=0x32326000, size=0x1010, error=0x0, res=0x1010, xid=0x0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/NisAnmShadow.txf])
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x0029d088]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x0029d04c]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020af4, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x0029d0a0]]: cellSysutil warning: cellAudioOutSetCopyControl(audioOut=0,control=1)
+[W : PPU[1] Thread (CPUThread)[0x002497a0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
+[W : PPU[1] Thread (CPUThread)[0x00249914]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x1f05890, num=1, prio=100, attr_addr=0x1f05984)
+[W : PPU[1] Thread (CPUThread)[0x00249914]]: sys_spu warning: *** SPU Thread Group created [_synth2 Group] (type=0x0, option.ct=0x0): id=27
+[W : PPU[1] Thread (CPUThread)[0x01f3f100]]: sysPrxForUser warning: sys_spu_image_import(img=0x1f05894, src=0x287d00, type=0x1)
+[W : PPU[1] Thread (CPUThread)[0x01f3f100]]: desc = 'synth2.elf'
+[W : PPU[1] Thread (CPUThread)[0x00249a14]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f0588c, group=0x1b, spu_num=0, img_addr=0x1f05894, attr_addr=0x1f05994, arg_addr=0x1f059a0)
+[W : PPU[1] Thread (CPUThread)[0x00249a14]]: sys_spu warning: *** New SPU Thread [_synth2 Thread] (img_offset=0x2103000, ls_offset=0x2143000, ep=0x100, a1=0x1f05900, a2=0x0, a3=0x0, a4=0x0): id=28
+[W : PPU[1] Thread (CPUThread)[0x00249ffc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1e7e228, attr_addr=0x1e7e230, event_queue_key=0x0, size=32)
+[W : PPU[1] Thread (CPUThread)[0x00249ffc]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 29
+[W : PPU[1] Thread (CPUThread)[0x0024a018]]: sys_spu warning: sys_spu_thread_connect_event(id=28, eq_id=29, event_type=0x1, spup=58)
+[W : PPU[1] Thread (CPUThread)[0x0024a038]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1e7e22c, attr_addr=0x1e7e230, event_queue_key=0x0, size=32)
+[W : PPU[1] Thread (CPUThread)[0x0024a038]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 30
+[W : PPU[1] Thread (CPUThread)[0x0024a050]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1e7e240, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0024a050]]: sys_event warning: *** sys_event_port created: id = 31
+[W : PPU[1] Thread (CPUThread)[0x0024a060]]: sys_event warning: sys_event_port_connect_local(eport_id=31, equeue_id=30)
+[W : PPU[1] Thread (CPUThread)[0x0024a078]]: sys_spu warning: sys_spu_thread_bind_queue(id=28, equeue_id=30, spuq_num=0x1012000)
+[W : PPU[1] Thread (CPUThread)[0x00249a48]]: sys_spu warning: sys_spu_thread_group_start(id=27)
+[W : PPU[1] Thread (CPUThread)[0x01f23004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
-[W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0020b08, portNum_addr=0xd0020af0)
-[W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x0, level=0.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x01d3b040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0020b28)
-[W : PPU[1] Thread (CPUThread)[0x01d4f0d0]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x235580, align=0x30000, size=0x110000)
-[W : PPU[1] Thread (CPUThread)[0x01d4f0d0]]: sys_heap warning: *** sys_heap created: id = 29
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x1080)
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 30
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x1c8)
-[W : PPU[1] Thread (CPUThread)[0x01d4f04c]]: sys_heap warning: sys_heap_malloc(heap_id=29, size=0x14)
-[W : PPU[1] Thread (CPUThread)[0x01d4f04c]]: sys_heap warning: sys_heap_malloc(heap_id=29, size=0x14)
-[W : PPU[1] Thread (CPUThread)[0x01d4f04c]]: sys_heap warning: sys_heap_malloc(heap_id=29, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x88)
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr100] (attribute=0x22): sq_id = 31
-[W : PPU[1] Thread (CPUThread)[0x01d4f04c]]: sys_heap warning: sys_heap_malloc(heap_id=29, size=0x8)
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x88)
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr201] (attribute=0x22): sq_id = 32
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x88)
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr202] (attribute=0x22): sq_id = 33
-[W : PPU[1] Thread (CPUThread)[0x01d4f04c]]: sys_heap warning: sys_heap_malloc(heap_id=29, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x60)
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr603] (attribute=0x22): sq_id = 34
-[W : PPU[1] Thread (CPUThread)[0x01d4f04c]]: sys_heap warning: sys_heap_malloc(heap_id=29, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x60)
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr804] (attribute=0x22): sq_id = 35
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x4e00)
-[W : PPU[1] Thread (CPUThread)[0x00210214]]: sys_mutex warning: *** mutex created [_mxr020] (protocol=0x2, recursive=false): id = 36
-[W : PPU[1] Thread (CPUThread)[0x00210238]]: sys_cond warning: *** condition created [] (mutex_id=36): id = 37
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr022] (attribute=0x22): sq_id = 39
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x4e80)
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x10b00)
-[W : PPU[1] Thread (CPUThread)[0x01d4f064]]: sys_heap warning: _sys_heap_memalign(heap_id=29, align=0x10, size=0x8400)
-[W : PPU[1] Thread (CPUThread)[0x002084fc]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 40
-[W : PPU[1] Thread (CPUThread)[0x00208520]]: sys_cond warning: *** condition created [] (mutex_id=40): id = 41
-[W : PPU[1] Thread (CPUThread)[0x002085ac]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 42
-[W : PPU[1] Thread (CPUThread)[0x002085d0]]: sys_cond warning: *** condition created [] (mutex_id=42): id = 43
-[W : PPU[1] Thread (CPUThread)[0x00208654]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 44
-[W : PPU[1] Thread (CPUThread)[0x00208678]]: sys_cond warning: *** condition created [] (mutex_id=44): id = 45
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 47
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 48
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 50
-[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1d34924, attr_addr=0x1d359d0, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1d34968, portNum_addr=0x1d348d8)
-[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a8fc]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 51
-[W : PPU[1] Thread (CPUThread)[0x01d3b064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 1
-[W : PPU[1] Thread (CPUThread)[0x01d3b040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x1d34988)
-[W : PPU[1] Thread (CPUThread)[0x0001602c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
-[W : PPU[1] Thread (CPUThread)[0x00016050]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 53
-[W : PPU[1] Thread (CPUThread)[0x01d3b04c]]: cellAudio warning: cellAudioPortStart(portNum=0x1)
-[W : PPU[1] Thread (CPUThread)[0x01d3b010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
-[W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak"): fd = 58
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak"): fd = 59
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak"): fd = 60
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=58, offset=0x0, buf_addr=0x1ca7b44, size=0x1dc, error=0x0, res=0x1dc, xid=0x1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=59, offset=0x0, buf_addr=0x1ca7000, size=0x927c, error=0x0, res=0x927c, xid=0x2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=60, offset=0x0, buf_addr=0x1c9e000, size=0x9264, error=0x0, res=0x9264, xid=0x3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak])
-[W : PPU[1] Thread (CPUThread)[0x00248058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x250460, userdata=0x0)
-[E : PPU[1] Thread (CPUThread)[0x00242004]]: sys_io error: cellPadInfoPressMode(port_no=0)
-[E : PPU[1] Thread (CPUThread)[0x00242034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
-[W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/dis3_0_us.dat"): fd = 61
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0xd0020830, size=0x800, error=0x0, res=0x800, xid=0x4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
-[W : fsAioRead]: *** fsAioRead(fd=58, offset=0x800, buf_addr=0x1ca8000, size=0x60c, error=0x0, res=0x60c, xid=0x5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
-[W : PPU[1] Thread (CPUThread)[0x01d4b04c]]: cellPamf warning: cellPamfGetHeaderSize(pAddr=0xd0020030, fileSize=412655616, pSize_addr=0xd00208d0)
-[W : PPU[1] Thread (CPUThread)[0x01d4b01c]]: cellPamf warning: cellPamfGetStreamOffsetAndSize(pAddr=0xd0020030, fileSize=412655616, pOffset_addr=0xd0020000, pSize_addr=0xd0020008)
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0x369a5820, size=0x800, error=0x0, res=0x800, xid=0x6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
-[W : fsAioRead]: *** fsAioRead(fd=58, offset=0xe40, buf_addr=0x32d3f000, size=0x339131, error=0x0, res=0x339131, xid=0x7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
-[W : PPU[1] Thread (CPUThread)[0x0024c010]]: sys_fs warning: cellFsClose(fd=61)
-[W : PPU[1] Thread (CPUThread)[0x01d4b040]]: cellPamf warning: cellPamfReaderInitialize(pSelf=0xd00208e8, pAddr=0x369a5020, fileSize=412655616, attribute=0x1)
-[W : PPU[1] Thread (CPUThread)[0x01d4b058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00208e8, streamType=20)
-[W : PPU[1] Thread (CPUThread)[0x01d4b010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00208e8, streamType=20, streamIndex=0)
-[W : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00208e8 (stream=0), pType_addr=0xd0020a48, pCh_addr=0xd0020810
-[W : PPU[1] Thread (CPUThread)[0x01d4b004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=0, ch=0, pEsFilterId_addr=0xd0020814)
-[W : PPU[1] Thread (CPUThread)[0x01d4b028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00208e8 (stream=0), pInfo_addr=0xd0020824, size=32)
-[W : PPU[1] Thread (CPUThread)[0x01d4b028]]: cellPamf warning: cellPamfReaderGetStreamInfo: CELL_PAMF_STREAM_TYPE_AVC
-[W : PPU[1] Thread (CPUThread)[0x01d4b058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00208e8, streamType=21)
-[W : PPU[1] Thread (CPUThread)[0x01d4b010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00208e8, streamType=21, streamIndex=0)
-[W : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00208e8 (stream=1), pType_addr=0xd0020a18, pCh_addr=0xd0020830
-[E : PPU[1] Thread (CPUThread)[0x01d4b034]]: cellPamf error: TODO: pamfGetStreamChannel (-> 0)
-[W : PPU[1] Thread (CPUThread)[0x01d4b004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=2, ch=0, pEsFilterId_addr=0xd002083c)
-[W : PPU[1] Thread (CPUThread)[0x01d4b028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00208e8 (stream=1), pInfo_addr=0xd0020834, size=8)
-[W : PPU[1] Thread (CPUThread)[0x0024a004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/dis3_0_us.dat"): fd = 62
-[W : PPU[1] Thread (CPUThread)[0x00024e50]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 63
-[W : PPU[1] Thread (CPUThread)[0x00024ea4]]: sys_cond warning: *** condition created [] (mutex_id=63): id = 64
-[W : PPU[1] Thread (CPUThread)[0x0024a010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_DMUX_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x01d49064]]: cellDmux warning: cellDmuxQueryAttr(demuxerType_addr=0x55a230, demuxerAttr_addr=0xd0020878)
-[W : PPU[1] Thread (CPUThread)[0x00024e50]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 65
-[W : PPU[1] Thread (CPUThread)[0x00024ea4]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
-[W : PPU[1] Thread (CPUThread)[0x01d49040]]: cellDmux warning: cellDmuxOpen(demuxerType_addr=0x55a230, demuxerResource_addr=0xd0020884, demuxerCb_addr=0xd0020870, demuxerHandle_addr=0x55a23c)
-[! : Demuxer[68] Thread]: Demuxer enter (mem=0x36ba5120, size=0x10000, cb=0x251170, arg=0x55a210)
-[W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x55a230, esFilterId_addr=0xd0020a4c, esSpecificInfo_addr=0xd0020a5c, esAttr_addr=0xd0020870)
-[W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
-[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=68, esFilterId_addr=0xd0020a4c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a5c, esHandle_addr=0x36bb5120)
-[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: *** New ES(dmux=68, addr=0x36bb5180, size=0x1000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x2512b0(arg=0x55a090), spec=0xd0020a5c): id = 69
-[W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x55a230, esFilterId_addr=0xd0020a1c, esSpecificInfo_addr=0xd0020a2c, esAttr_addr=0xd0020870)
-[W : PPU[1] Thread (CPUThread)[0x01d49004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
-[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=68, esFilterId_addr=0xd0020a1c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a2c, esHandle_addr=0x36bb5140)
-[W : PPU[1] Thread (CPUThread)[0x01d4904c]]: cellDmux warning: *** New ES(dmux=68, addr=0x37bb5180, size=0x200020, filter(0xbd, 0x0, 0x0, 0x0), cb=0x250f68(arg=0x55a198), spec=0xd0020a2c): id = 70
-[W : PPU[1] Thread (CPUThread)[0x01d4f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 71
-[W : PPU[1] Thread (CPUThread)[0x00246034]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2429792)
-[W : PPU[1] Thread (CPUThread)[0x00024e50]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 72
-[W : PPU[1] Thread (CPUThread)[0x00024ea4]]: sys_cond warning: *** condition created [] (mutex_id=72): id = 73
-[E : PPU[1] Thread (CPUThread)[0x00242004]]: sys_io error: cellPadInfoPressMode(port_no=0)
-[E : PPU[1] Thread (CPUThread)[0x00242034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/START_en.dat"): fd = 74
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x0, buf_addr=0xd0020ac9, size=0x8, error=0x0, res=0x8, xid=0x8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : fsAioRead]: *** fsAioRead(fd=59, offset=0xa000, buf_addr=0x1caa000, size=0x132c, error=0x0, res=0x132c, xid=0x9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x8, buf_addr=0xd0020ac1, size=0x1, error=0x0, res=0x1, xid=0xa [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284af0, id_addr=0x284b1c, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=59, offset=0xb340, buf_addr=0x3290a000, size=0x4e5d51, error=0x0, res=0x4e5d51, xid=0xb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0xc, buf_addr=0xb9d9d4, size=0x4, error=0x0, res=0x4, xid=0xc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x0, buf_addr=0x32da5d6c, size=0xd4c, error=0x0, res=0xd4c, xid=0xd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a29800, buf_addr=0x32de5000, size=0x40010, error=0x0, res=0x40010, xid=0xe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/ANM_en.dat"): fd = 76
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 48
-[! : RSXThread]: *** fp data size = 80
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 0) in vec4 in_pos;
-layout (location = 3) in vec4 in_col0;
-layout (location = 8) in vec4 in_tc0;
-out vec4 col0;
-out vec4 tc0;
-
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	gl_Position = in_pos;
-	col0 = in_col0;
-	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 tc0;
-in vec4 col0;
-uniform sampler2D tex0;
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-uniform vec4 fc64 = vec4(1.990000, 0.000000, 0.000000, 0.000000);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	r0 = texture(tex0, tc0.xy);
-	r0 = (r0 * col0);
-	r0 = (r0 * fc64.xxxx);
-	ocol = r0;
-}
-
-[W : RSXThread]: New FBO (1280x720)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0xf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x10 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xc, buf_addr=0xb9d774, size=0x4, error=0x0, res=0x4, xid=0x11 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0x0, buf_addr=0x32da6000, size=0x8a8, error=0x0, res=0x8a8, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/BG_en.dat"): fd = 77
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0x13 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x14 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0xc, buf_addr=0xb9d8a4, size=0x4, error=0x0, res=0x4, xid=0x15 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=77, offset=0x0, buf_addr=0x32da7000, size=0x1038, error=0x0, res=0x1038, xid=0x16 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BG_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/BU.dat"): fd = 78
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=78, offset=0x0, buf_addr=0xd0020a09, size=0x8, error=0x0, res=0x8, xid=0x17 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=78, offset=0x8, buf_addr=0xd0020a01, size=0x1, error=0x0, res=0x1, xid=0x18 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=78, offset=0xc, buf_addr=0xb9d644, size=0x4, error=0x0, res=0x4, xid=0x19 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=78, offset=0x0, buf_addr=0x333ee000, size=0xe54, error=0x0, res=0xe54, xid=0x1a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/BU.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x317000, buf_addr=0x342de000, size=0x92fe75, error=0x0, res=0x92fe75, xid=0x1b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0xfaf800, buf_addr=0x341e1000, size=0x832bb8, error=0x0, res=0x832bb8, xid=0x1c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2cea000, buf_addr=0x342e4000, size=0x3506ff, error=0x0, res=0x3506ff, xid=0x1d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a6a000, buf_addr=0x34452000, size=0x16e0b4, error=0x0, res=0x16e0b4, xid=0x1e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a11800, buf_addr=0x34465000, size=0x10010, error=0x0, res=0x10010, xid=0x1f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x38b5800, buf_addr=0x34465000, size=0x10010, error=0x0, res=0x10010, xid=0x20 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e6d000, buf_addr=0xa8bc28, size=0x4, error=0x0, res=0x4, xid=0x21 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e6d004, buf_addr=0xa9a598, size=0x60, error=0x0, res=0x60, xid=0x22 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e6d064, buf_addr=0xa8bc18, size=0x4, error=0x0, res=0x4, xid=0x23 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e6d068, buf_addr=0xa8bc1c, size=0x4, error=0x0, res=0x4, xid=0x24 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e6d06c, buf_addr=0xd001fb9c, size=0x1cc, error=0x0, res=0x1cc, xid=0x25 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e6d238, buf_addr=0x3446a000, size=0x15226, error=0x0, res=0x15226, xid=0x26 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e8245e, buf_addr=0xa8bc24, size=0x4, error=0x0, res=0x4, xid=0x27 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e82462, buf_addr=0xd001f750, size=0x180, error=0x0, res=0x180, xid=0x28 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1e825e2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x29 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1ed25f2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x2a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1ee2602, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x2b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1f32612, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x2c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1f42622, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x2d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1f92632, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x2e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1fa2642, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x2f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x1ff2652, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x30 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2002662, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x31 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2052672, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x32 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2062682, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x33 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x20b2692, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x34 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x20c26a2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x35 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x21126b2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x36 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x21226c2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x37 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x21726d2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x38 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x21826e2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x39 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x21d26f2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x3a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x21e2702, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x3b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2232712, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x3c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2242722, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x3d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2292732, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x3e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x22a2742, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x3f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x22f2752, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x40 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2302762, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x41 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2352772, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x42 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2362782, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x43 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x23b2792, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x44 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x23c27a2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x45 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x24127b2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x46 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x24227c2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x47 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x24727d2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x48 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x24827e2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x49 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x24d27f2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x4a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x24e2802, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x4b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2532812, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x4c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2542822, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x4d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2592832, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x4e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x25a2842, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x4f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x25f2852, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x50 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2602862, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x51 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2652872, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x52 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2662882, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x53 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x26b2892, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x54 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x26c28a2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x55 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x27128b2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x56 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x27228c2, buf_addr=0x344ba000, size=0x50010, error=0x0, res=0x50010, xid=0x57 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x27728d2, buf_addr=0x3447a000, size=0x10010, error=0x0, res=0x10010, xid=0x58 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a26800, buf_addr=0xd001f5d4, size=0x4, error=0x0, res=0x4, xid=0x59 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a26804, buf_addr=0xd001f5d8, size=0x4, error=0x0, res=0x4, xid=0x5a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a26808, buf_addr=0xd001f5e0, size=0x4, error=0x0, res=0x4, xid=0x5b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a2680c, buf_addr=0xd001fa28, size=0x48, error=0x0, res=0x48, xid=0x5c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a26854, buf_addr=0x34482000, size=0x2b74, error=0x0, res=0x2b74, xid=0x5d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2a293c8, buf_addr=0xd001f5dc, size=0x4, error=0x0, res=0x4, xid=0x5e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x306b800, buf_addr=0x346f4000, size=0x2720ec, error=0x0, res=0x2720ec, xid=0x5f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x33de000, buf_addr=0x34885000, size=0x40363b, error=0x0, res=0x40363b, xid=0x60 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x2bd9000, buf_addr=0x348d8000, size=0xdee1f, error=0x0, res=0xdee1f, xid=0x61 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=74, offset=0x190f000, buf_addr=0x34c5b000, size=0x41c1a3, error=0x0, res=0x41c1a3, xid=0x62 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x63 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x64 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x65 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x66 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x67 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x68 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x69 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x6a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x6b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x6c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x6d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x6e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x6f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x70 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x71 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x72 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x73 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x74 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x75 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x76 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x77 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x78 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x79 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x7a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x7b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x7c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x7d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x7e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x7f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x80 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x81 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x82 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x83 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x84 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x85 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x86 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x87 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x88 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x89 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x8a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x8b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x8c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x8d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x8e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x8f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x90 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x91 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x92 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x93 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x94 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x95 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x96 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x97 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x98 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x99 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x9a [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x9b [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x9c [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x9d [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x9e [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x9f [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xa9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xaa [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xab [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xac [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xad [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xae [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xaf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xb9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xba [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xbb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xbc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xbd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xbe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xbf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xc9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xca [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xcb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xcc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xcd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xce [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xcf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xd9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xda [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xdb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xdc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xdd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xde [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xdf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xe9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xea [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xeb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xec [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xed [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xee [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xef [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf0 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf4 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf5 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf6 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf7 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf8 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xf9 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xfa [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xfb [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xfc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xfd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xfe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0xff [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x100 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x101 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x102 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x103 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x104 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x105 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x106 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
-[W : PPU[1] Thread (CPUThread)[0x0024c070]]: sys_fs warning: cellFsAioRead(aio_addr=0x284a90, id_addr=0x284abc, func_addr=0x250598)
-[W : fsAioRead]: *** fsAioRead(fd=76, offset=0xdb6000, buf_addr=0x0, size=0x24b5080, error=0x8001000d, res=0x0, xid=0x107 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/ANM_en.dat])
+[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0020b08, portNum_addr=0xd0020af0)
+[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x0, level=0.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x01f23040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0020b28)
+[W : PPU[1] Thread (CPUThread)[0x01f3f0d0]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x287350, align=0x30000, size=0x110000)
+[W : PPU[1] Thread (CPUThread)[0x01f3f0d0]]: sys_heap warning: *** sys_heap created: id = 32
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x1080)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x1c8)
+[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x14)
+[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x14)
+[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr100] (attribute=0x22): sq_id = 34
+[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x8)
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr201] (attribute=0x22): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr202] (attribute=0x22): sq_id = 36
+[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x60)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr603] (attribute=0x22): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x60)
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr804] (attribute=0x22): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x4e00)
+[W : PPU[1] Thread (CPUThread)[0x0025452c]]: sys_mutex warning: *** mutex created [_mxr020] (protocol=0x2, recursive=false): id = 39
+[W : PPU[1] Thread (CPUThread)[0x00254550]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 40
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr022] (attribute=0x22): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x4e80)
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x10b00)
+[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x8400)
+[W : PPU[1] Thread (CPUThread)[0x0024c854]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 43
+[W : PPU[1] Thread (CPUThread)[0x0024c878]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
+[W : PPU[1] Thread (CPUThread)[0x0024c904]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 45
+[W : PPU[1] Thread (CPUThread)[0x0024c928]]: sys_cond warning: *** condition created [] (mutex_id=45): id = 46
+[W : PPU[1] Thread (CPUThread)[0x0024c9ac]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 47
+[W : PPU[1] Thread (CPUThread)[0x0024c9d0]]: sys_cond warning: *** condition created [] (mutex_id=47): id = 48
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 53
+[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1f05f24, attr_addr=0x1f06fd0, event_queue_key=0x8000cafe02460300, size=2)
+[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1f05f68, portNum_addr=0x1f05ed8)
+[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 54
+[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 1
+[W : PPU[1] Thread (CPUThread)[0x01f23040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x1f05f88)
+[W : PPU[1] Thread (CPUThread)[0x00016218]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 55
+[W : PPU[1] Thread (CPUThread)[0x0001623c]]: sys_cond warning: *** condition created [] (mutex_id=55): id = 56
+[W : PPU[1] Thread (CPUThread)[0x01f2304c]]: cellAudio warning: cellAudioPortStart(portNum=0x1)
+[W : PPU[1] Thread (CPUThread)[0x01f23010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak"): fd = 61
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak"): fd = 62
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak"): fd = 63
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_3.pak"): fd = 64
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_4.pak"): fd = 65
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_5.pak"): fd = 66
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_6.pak"): fd = 67
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_7.pak"): fd = 68
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_8.pak"): fd = 69
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_9.pak"): fd = 70
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_10.pak"): fd = 71
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0x1e79000, size=0x1dc, error=0x0, res=0x1dc, xid=0x1 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=62, offset=0x0, buf_addr=0x1e78000, size=0x927c, error=0x0, res=0x927c, xid=0x2 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=63, offset=0x0, buf_addr=0x1e6f000, size=0x9264, error=0x0, res=0x9264, xid=0x3 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=64, offset=0x0, buf_addr=0x1e66954, size=0x24, error=0x0, res=0x24, xid=0x4 [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_3.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=65, offset=0x0, buf_addr=0x1e6692c, size=0x2c, error=0x0, res=0x2c, xid=0x5 [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_4.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=66, offset=0x0, buf_addr=0x1e66000, size=0x1ab4, error=0x0, res=0x1ab4, xid=0x6 [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_5.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=67, offset=0x0, buf_addr=0x1e64000, size=0x1abc, error=0x0, res=0x1abc, xid=0x7 [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_6.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=68, offset=0x0, buf_addr=0x1e63384, size=0x54, error=0x0, res=0x54, xid=0x8 [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_7.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=69, offset=0x0, buf_addr=0x1e6332c, size=0x5c, error=0x0, res=0x5c, xid=0x9 [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_8.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=70, offset=0x0, buf_addr=0x1e632cc, size=0x54, error=0x0, res=0x54, xid=0xa [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_9.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=71, offset=0x0, buf_addr=0x1e63274, size=0x1f4, error=0x0, res=0x1f4, xid=0xb [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_10.pak])
+[E : PPU[1] Thread (CPUThread)[0x00297004]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[1] Thread (CPUThread)[0x00297034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/dis3_0_us.dat"): fd = 72
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de888, id_addr=0x2de8b4, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=72, offset=0x0, buf_addr=0xd0020828, size=0x800, error=0x0, res=0x800, xid=0xc [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
+[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x800, buf_addr=0x1e79a14, size=0x60c, error=0x0, res=0x60c, xid=0xd [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f3304c]]: cellPamf warning: cellPamfGetHeaderSize(pAddr=0xd0020028, fileSize=412655616, pSize_addr=0xd00208d0)
+[W : PPU[1] Thread (CPUThread)[0x01f3301c]]: cellPamf warning: cellPamfGetStreamOffsetAndSize(pAddr=0xd0020028, fileSize=412655616, pOffset_addr=0xd001fff0, pSize_addr=0xd001fff8)
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=72, offset=0x0, buf_addr=0x36ca5820, size=0x800, error=0x0, res=0x800, xid=0xe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de888, id_addr=0x2de8b4, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=61, offset=0xe40, buf_addr=0x3303f000, size=0x339131, error=0x0, res=0x339131, xid=0xf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f010]]: sys_fs warning: cellFsClose(fd=72)
+[W : PPU[1] Thread (CPUThread)[0x01f33040]]: cellPamf warning: cellPamfReaderInitialize(pSelf=0xd00208e8, pAddr=0x36ca5020, fileSize=412655616, attribute=0x1)
+[W : PPU[1] Thread (CPUThread)[0x01f33058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00208e8, streamType=20)
+[W : PPU[1] Thread (CPUThread)[0x01f33010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00208e8, streamType=20, streamIndex=0)
+[W : PPU[1] Thread (CPUThread)[0x01f33034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00208e8 (stream=0), pType_addr=0xd0020a48, pCh_addr=0xd0020810
+[W : PPU[1] Thread (CPUThread)[0x01f33004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=0, ch=0, pEsFilterId_addr=0xd0020814)
+[W : PPU[1] Thread (CPUThread)[0x01f33028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00208e8 (stream=0), pInfo_addr=0xd0020824, size=32)
+[W : PPU[1] Thread (CPUThread)[0x01f33028]]: cellPamf warning: cellPamfReaderGetStreamInfo: CELL_PAMF_STREAM_TYPE_AVC
+[W : PPU[1] Thread (CPUThread)[0x01f33058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00208e8, streamType=21)
+[W : PPU[1] Thread (CPUThread)[0x01f33010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00208e8, streamType=21, streamIndex=0)
+[W : PPU[1] Thread (CPUThread)[0x01f33034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00208e8 (stream=1), pType_addr=0xd0020a18, pCh_addr=0xd0020830
+[E : PPU[1] Thread (CPUThread)[0x01f33034]]: cellPamf error: TODO: pamfGetStreamChannel (-> 0)
+[W : PPU[1] Thread (CPUThread)[0x01f33004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=2, ch=0, pEsFilterId_addr=0xd002083c)
+[W : PPU[1] Thread (CPUThread)[0x01f33028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00208e8 (stream=1), pInfo_addr=0xd0020834, size=8)
+[W : PPU[1] Thread (CPUThread)[0x0029f004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/dis3_0_us.dat"): fd = 73
+[W : PPU[1] Thread (CPUThread)[0x000251f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
+[W : PPU[1] Thread (CPUThread)[0x0002524c]]: sys_cond warning: *** condition created [] (mutex_id=74): id = 75
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_DMUX_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x01f31064]]: cellDmux warning: cellDmuxQueryAttr(demuxerType_addr=0x5b5670, demuxerAttr_addr=0xd0020878)
+[W : PPU[1] Thread (CPUThread)[0x000251f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 76
+[W : PPU[1] Thread (CPUThread)[0x0002524c]]: sys_cond warning: *** condition created [] (mutex_id=76): id = 77
+[W : PPU[1] Thread (CPUThread)[0x01f31040]]: cellDmux warning: cellDmuxOpen(demuxerType_addr=0x5b5670, demuxerResource_addr=0xd0020884, demuxerCb_addr=0xd0020870, demuxerHandle_addr=0x5b567c)
+[! : Demuxer[79] Thread]: Demuxer enter (mem=0x36ea5120, size=0x10000, cb=0x2a13f0, arg=0x5b5650)
+[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x5b5670, esFilterId_addr=0xd0020a4c, esSpecificInfo_addr=0xd0020a5c, esAttr_addr=0xd0020870)
+[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
+[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=79, esFilterId_addr=0xd0020a4c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a5c, esHandle_addr=0x36eb5120)
+[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x36eb5180, size=0x1000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x2a1530(arg=0x5b54d0), spec=0xd0020a5c): id = 80
+[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x5b5670, esFilterId_addr=0xd0020a1c, esSpecificInfo_addr=0xd0020a2c, esAttr_addr=0xd0020870)
+[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
+[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=79, esFilterId_addr=0xd0020a1c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a2c, esHandle_addr=0x36eb5140)
+[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x37eb5180, size=0x200020, filter(0xbd, 0x0, 0x0, 0x0), cb=0x2a11e8(arg=0x5b55d8), spec=0xd0020a2c): id = 81
+[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x0029b034]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2758112)
+[W : PPU[1] Thread (CPUThread)[0x000251f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 83
+[W : PPU[1] Thread (CPUThread)[0x0002524c]]: sys_cond warning: *** condition created [] (mutex_id=83): id = 84
+[E : PPU[1] Thread (CPUThread)[0x00297004]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[1] Thread (CPUThread)[0x00297034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[1] Thread (CPUThread)[0x01f370b8]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/START_en.edat"): fd = 85
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de888, id_addr=0x2de8b4, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=85, offset=0x0, buf_addr=0xd0020939, size=0x8, error=0x0, res=0x8, xid=0x10 [D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/START_en.edat])
+[W : fsAioRead]: *** fsAioRead(fd=62, offset=0xa000, buf_addr=0x1e7b000, size=0x132c, error=0x0, res=0x132c, xid=0x11 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
+[W : PPU[1] Thread (CPUThread)[0x01f1f010]]: sys_fs warning: cellFsClose(fd=85)
+[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=62, offset=0xb340, buf_addr=0x3290a000, size=0x4e5d51, error=0x0, res=0x4e5d51, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
+[E : PPU[1] Thread (CPUThread)[0x000b439c]]: Read16 from null block: [00000194]
 [! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
-[W : PPU[1] Thread (CPUThread)[0x00248004]]: cellSysutilCheckCallback() aborted
-[W : PPU[38] Thread (_sys_MixerChStripMain)[0x00209608]]: sys_cond_signal_all(id=45) aborted
-[W : SPU[25] Thread (_synth2 Thread)[0x00009494]]: sys_spu_thread_receive_event(spuq=0x1012000) aborted
-[W : PPU[54] Thread (synth2_generate)[0x00015e84]]: sys_cond_wait(id=53) aborted
-[W : Demuxer[68] Thread]: Demuxer aborted
-[W : PPU[49] Thread (_cellsurMixerMain)[0x0020a6f8]]: sys_cond_wait(id=45) aborted
-[W : PPU[46] Thread (_sys_mixerSurBusReq)[0x002077cc]]: sys_cond_wait(id=41) aborted
-[W : fsAioRead]: Callback::Branch() aborted
-[W : PPU[38] Thread (_sys_MixerChStripMain)[0x00209608]]: sys_cond_signal_all(id=45) aborted
+[W : Demuxer[79] Thread]: Demuxer aborted
+[W : PPU[49] Thread (_sys_mixerSurBusReq)[0x0024bb24]]: sys_cond_wait(id=44) aborted
+[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ea50]]: sys_cond_wait(id=48) aborted
+[W : PPU[57] Thread (synth2_generate)[0x00249f30]]: sys_event_queue_receive(equeue=29) aborted
 [!]: Closing memory...

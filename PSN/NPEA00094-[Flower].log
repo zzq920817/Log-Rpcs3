@@ -1,4 +1,5 @@
 [!]: path: /dev_hdd0/game/
+[!]: Loading RAP file  x 235 mm
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00094-[Flower]\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -125,13 +126,13 @@
 [W : PPU[1] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
 [W : PPU[1] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
-[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3850)
-[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f386c)
-[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3888)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3858)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3874)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3890)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x007dc07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x86e938, userdata=0x9f5680)
-[W : PPU[1] Thread (CPUThread)[0x005ddf40]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x005ddf48]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [E : PPU[1] Thread (CPUThread)[0x00037510]]: sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x01b9d028]]: cellGcmSys warning: cellGcmInit(context_addr=0x9ee23c,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x01b9d028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
@@ -148,7 +149,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01b9d058]]: cellGcmSys warning: cellGcmBindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x01b9d0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x01b9d0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01b9d0a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30400000,size=0x3c00000,offset_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x01b9d0a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30400000,size=0x3b00000,offset_addr=0xd0020a90)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
@@ -164,21 +165,21 @@
 [E : PPU[1] Thread (CPUThread)[0x01b99004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
 [W : PPU[1] Thread (CPUThread)[0x01ba101c]]: sys_lwcond warning: sys_lwcond_destroy(lwcond_addr=0x3011a0f8)
 [W : PPU[1] Thread (CPUThread)[0x01ba1148]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011a0e0)
-[W : PPU[1] Thread (CPUThread)[0x0059bab0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1b40700, attr_addr=0xd00207a4, event_queue_key=0x0, size=8)
-[W : PPU[1] Thread (CPUThread)[0x0059bab0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 33
-[W : PPU[1] Thread (CPUThread)[0x0059bb38]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1b40704, port_type=0x1, name=0xd1ed1ed1)
-[W : PPU[1] Thread (CPUThread)[0x0059bb38]]: sys_event warning: *** sys_event_port created: id = 35
-[W : PPU[1] Thread (CPUThread)[0x0059bb48]]: sys_event warning: sys_event_port_connect_local(eport_id=35, equeue_id=33)
+[W : PPU[1] Thread (CPUThread)[0x0059bab8]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1b40700, attr_addr=0xd00207a4, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x0059bab8]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 33
+[W : PPU[1] Thread (CPUThread)[0x0059bb40]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1b40704, port_type=0x1, name=0xd1ed1ed1)
+[W : PPU[1] Thread (CPUThread)[0x0059bb40]]: sys_event warning: *** sys_event_port created: id = 35
+[W : PPU[1] Thread (CPUThread)[0x0059bb50]]: sys_event warning: sys_event_port_connect_local(eport_id=35, equeue_id=33)
 [W : PPU[1] Thread (CPUThread)[0x01b8d0f4]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x9f5900, queue=0x21, port_addr=0xd00207a0, isDynamic=0)
 [E : PPU[1] Thread (CPUThread)[0x01b8d0c4]]: TODO: cellSpursAddWorkload
 [E : PPU[1] Thread (CPUThread)[0x01b8d100]]: TODO: cellSpursReadyCountStore
 [E : PPU[1] Thread (CPUThread)[0x01b8d0d0]]: TODO: cellSpursWakeUp
-[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3850)
-[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f386c)
-[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3888)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3858)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3874)
+[E : PPU[1] Thread (CPUThread)[0x01ba107c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x6f3890)
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x01ba110c]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x9e971c, entry=0x860eb8)
 [W : PPU[36] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 37
 [! : RSXThread]: RSX thread exit...
-[W : PPU[34] Thread (spu_printf_handler)[0x0059c510]]: sys_event_queue_receive(equeue=33) aborted
+[W : PPU[34] Thread (spu_printf_handler)[0x0059c518]]: sys_event_queue_receive(equeue=33) aborted
 [!]: Closing memory...
