@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
@@ -298,8 +298,8 @@
 [W : PPU[55] Thread (fios mediathread)[0x0011d2b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [! : RSXThread]: RSX thread exit...
 [W : PPU[55] Thread (fios mediathread)[0x0269d004]]: sys_lwmutex_t::lock(sq=46) aborted
-[W : PPU[56] Thread (fios mediathread)[0x0269d040]]: sys_lwcond_wait(sq=54) aborted
-[W : PPU[1] Thread (CPUThread)[0x0269d040]]: sys_lwcond_wait(sq=33) aborted
 [W : PPU[57] Thread (fios mediathread)[0x0269d040]]: sys_lwcond_wait(sq=54) aborted
 [W : PPU[58] Thread (fios scheduler)[0x0269d118]]: sys_lwcond_signal_all(sq=54) aborted
+[W : PPU[56] Thread (fios mediathread)[0x0269d040]]: sys_lwcond_wait(sq=54) aborted
+[W : PPU[1] Thread (CPUThread)[0x0269d040]]: sys_lwcond_wait(sq=33) aborted
 [!]: Closing memory...

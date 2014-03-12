@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00935-[Puppeteer]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
@@ -211,10 +211,6 @@
 [E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xbd28fdbf in 'sceNp' module
 [E]: TODO: sceNpInit
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
 [W]: Unknown module 'libgem'
 [W]: Unknown function 0x0e63c444 in 'cellCamera' module
 [E]: TODO: cellCameraGetBufferInfoEx
@@ -273,7 +269,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0076a178]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020940, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=32)
 [W : PPU[1] Thread (CPUThread)[0x0076a01c]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020940, prefix_addr=0x5e72bc, size=0x9)
 [W : PPU[1] Thread (CPUThread)[0x0076a034]]: cellSpurs warning: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0020940)
-[W : PPU[1] Thread (CPUThread)[0x0076a190]]: cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020940, priority[4106856896], maxSpu=1, isPreemptible[4106856904])
+[W : PPU[1] Thread (CPUThread)[0x0076a190]]: cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020940, priority[904876736], maxSpu=1, isPreemptible[904876744])
 [W : PPU[1] Thread (CPUThread)[0x0076a088]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x812700, spurs_addr=0xd0020940)
 [W : PPU[1] Thread (CPUThread)[0x0076e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
 [W : PPU[1] Thread (CPUThread)[0x0076e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FIBER)

@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\HEROCITY1/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
@@ -178,7 +178,5 @@
 [W : PPU[1] Thread (CPUThread)[0x000722a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x000722a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x00074088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x94fc0, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00078004]]: Process warning: sys_process_exit(1)
-[S : PPU[1] Thread (CPUThread)[0x00078004]]: Process finished
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

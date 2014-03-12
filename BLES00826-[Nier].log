@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -433,8 +433,8 @@
 [W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
 [E : PPU[1] Thread (CPUThread)[0x04b750ac]]: TODO: cellSysutilEnableBgmPlaybackEx
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/FONT/FONT_MAIN.PS3.BIN" not found.
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/FONT/FONT_MAIN.PS3.BIN" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/FONT/FONT_MAIN.PS3.BIN" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/FONT/FONT_MAIN.PS3.BIN" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/FONT/FONT_MAIN.PS3.BIN" not found.
@@ -444,6 +444,7 @@
 [W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=10)
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
 [W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=11, location=0, offset=4390912, size=3801088, pitch=5120, comp=0, base=0, bank=1)
 [W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=11)
 [W : PPU[1] Thread (CPUThread)[0x010dc0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=3)
@@ -455,7 +456,6 @@
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
 [W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=3342336, size=983040, pitch=2560, comp=0, base=0, bank=0)
@@ -476,21 +476,22 @@
 [W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/TEXT/NIER_TEXT.TXD" not found.
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/TEXT/NIER_TEXT.TXD" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/TEXT/NIER_TEXT.TXD" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/TEXT/TALK_TEXT/TALKER_NAME.PS3.TND" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/TEXT/TALK_TEXT/TALKER_NAME.PS3.TND" not found.
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.PS3.CAP" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.PS3.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.PS3.CAP" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.PS3.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.CAP" not found.
@@ -498,20 +499,20 @@
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.PS3.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.PS3.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/TITLE_NIER_ALL.EN.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/TITLE_NIER_ALL.EN.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/TITLE_NIER_ALL.EN.PS3.CAP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/TITLE_NIER_ALL.EN.PS3.CAP" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM_US.2DP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM_US.2DP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM_US.2DV" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM_US.2DV" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM.2DP" not found.
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM.2DP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM.2DP" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM.2DV" not found.
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM.2DV" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x04b750a0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x11534e8, userdata=0x3308c80)
 [W : PPU[1] Thread (CPUThread)[0x04b6f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
@@ -524,106 +525,102 @@
 [E : PPU[127] Thread (CSaveDataLib)[0x04b75028]]: TODO: cellSaveDataListLoad2
 [W : PPU[1] Thread (CPUThread)[0x04b73010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x315637c)
 [W : PPU[1] Thread (CPUThread)[0x04b7301c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020950, options=0x0)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x1151118, arg_addr=0x3156370, options=0x1)
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROPCONF.SFM')
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/NIER_BGM.CPK" not found.
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [E : PPU[80] Thread (CtDev)[0x04b71034]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[80] Thread (CtDev)[0x04b7101c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00a0998, usrdirPath_addr=0xd00a0918)
 [W : PPU[80] Thread (CtDev)[0x010da01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd00a0890)
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP.SFM')
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x1151118, arg_addr=0x3156370, options=0x1)
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROPCONF.SFM')
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/NIER_BGM.CPK" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP.SFM')
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/NIER_BGM.CPK" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/NIER_VOICE_ENG.CPK" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP_02.SFM')
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/NIER_VOICE_ENG.CPK" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP_04.SFM')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/NIER_MA_ENG.CPK" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\ICON0.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP_02.SFM')
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/NIER_MA_ENG.CPK" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP000.PNG')
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/SE/NIER_SE_SYS.CSB" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP001.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP_04.SFM')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/SE/NIER_SE_SYS.CSB" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP002.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\ICON0.PNG')
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/SE/NIER_SE_PC.CSB" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP003.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP000.PNG')
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/SE/NIER_SE_PC.CSB" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP004.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP005.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP006.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP007.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP008.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP009.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP010.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP011.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP012.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP013.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP014.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP001.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP002.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP003.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP004.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP005.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP015.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP016.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP017.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP006.PNG')
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP007.PNG')
 [W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP018.PNG')
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP008.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP009.PNG')
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP010.PNG')
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP011.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [W : PPU[1] Thread (CPUThread)[0x04b75070]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP019.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP020.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP021.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP012.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP013.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP014.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP015.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP022.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP023.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP024.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP016.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP017.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP018.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP025.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP026.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP027.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP028.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP029.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP030.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP031.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP032.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP033.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP034.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP035.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP036.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP019.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP020.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP021.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP022.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP023.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP037.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP024.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP025.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP026.PNG')
 [E : PPU[130] Thread (Main Task)[0x008dd030]]: sys_fs error: "/MEDIA/MYSETTING/STAGE_SELECT.INI" not found! flags: 0x00000000
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP027.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [E : PPU[130] Thread (Main Task)[0x008dd030]]: sys_fs error: "/MEDIA/STABLE/MYSETTING/STAGE_SELECT.INI" not found! flags: 0x00000000
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP038.PNG')
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP039.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP040.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP028.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP029.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP030.PNG')
 [W : PPU[1] Thread (CPUThread)[0x04b75070]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP041.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP031.PNG')
 [W : PPU[103] Thread (Func Thread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/SCRIPT/__ROOT__.PAK" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP032.PNG')
 [W : PPU[103] Thread (Func Thread)[0x010da04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/SCRIPT/__ROOT__.PAK" not found.
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP033.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP034.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP035.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP036.PNG')
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP037.PNG')
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
 [E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
@@ -633,6 +630,7 @@
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP038.PNG')
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
@@ -648,12 +646,15 @@
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP039.PNG')
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP040.PNG')
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : PPU[129] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP041.PNG')
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
-[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
@@ -676,6 +677,8 @@
 [E : RSXThread]: TODO: cellGcmInlineArray(0xbf800000, 0x3f800000, 0x3f800000, 0x0, 0x0, 0xffffff00, 0xbf800000, 0xbf800000, 0x3f800000, 0x0, 0x3f800000, 0xffffff00, 0x3f800000, 0xbf800000, 0x3f800000, 0x3f800000, 0x3f800000, 0xffffff00, 0x3f800000, 0x3f800000, 0x3f800000, 0x3f800000, 0x0, 0xffffff00)
 [W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -724,6 +727,8 @@ void main()
 
 [W : RSXThread]: New FBO (1280x720)
 [W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody

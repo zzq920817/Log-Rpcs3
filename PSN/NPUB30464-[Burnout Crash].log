@@ -1,5 +1,5 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
@@ -12,58 +12,22 @@
 [!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0xa50777c6 in 'sys_net' module
-[E]: TODO: shutdown
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
 [E]: TODO: socketpoll
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
-[W]: Unknown function 0x3b27c780 in 'sys_net' module
-[E]: TODO: sys_net_get_sockinfo
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0x8ccf05ed in 'sys_net' module
-[E]: TODO: sys_net_abort_resolver
-[W]: Unknown function 0x8d1b77fb in 'sys_net' module
-[E]: TODO: sys_net_abort_socket
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
 [W]: Unknown function 0xf9ec2db6 in 'sys_net' module
 [E]: TODO: getpeername
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0xfdb8f926 in 'sys_net' module
-[E]: TODO: sys_net_free_thread_context
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
@@ -291,7 +255,7 @@
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [E : PPU[1] Thread (CPUThread)[0x006ab040]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[E : PPU[1] Thread (CPUThread)[0x006a9004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x006a9004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020be0)
 [W : PPU[1] Thread (CPUThread)[0x00231b98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x76cd98, attr_addr=0xd0020ac0, initial_count=0, max_count=100000)
 [W : PPU[1] Thread (CPUThread)[0x00231b98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x783040, attr_addr=0xd0020b50, initial_count=0, max_count=100000)
 [W : PPU[1] Thread (CPUThread)[0x00231b98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x769ee0, attr_addr=0xd0020b60, initial_count=0, max_count=100000)
@@ -320,14 +284,15 @@
 [W : PPU[1] Thread (CPUThread)[0x001656e8]]: sys_event warning: sys_event_port_connect_local(eport_id=42, equeue_id=40)
 [W : PPU[1] Thread (CPUThread)[0x002337dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 43
 [W : PPU[1] Thread (CPUThread)[0x002338ac]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
-[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3023e3ac, num=1, prio=16, attr_addr=0xd00203cc)
 [W : PPU[45] Thread (Job Manager - Job Thread)[0x0016005c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30389524, attr_addr=0xd0040c38, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3023e3ac, num=1, prio=16, attr_addr=0xd00203cc)
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=47
 [W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3023e3c8, group=0x2f, spu_num=0, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
 [W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: *** New SPU Thread [Job Manager - Job Thread] (img_offset=0x7d5000, ls_offset=0x815000, ep=0x90, a1=0x3023e40000000000, a2=0x0, a3=0x30203250, a4=0x30169670): id=48
 [W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=48, eq_id=40, event_type=0x1, spup=1)
 [W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=48, eq_id=40, event_type=0x1, spup=7)
 [W : PPU[1] Thread (CPUThread)[0x0016108c]]: sys_spu warning: sys_spu_thread_group_start(id=47)
+[E : SPU[48] Thread (Job Manager - Job Thread)[0x0003fbf0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3023e3b0, num=1, prio=16, attr_addr=0xd00203cc)
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=49
 [W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3023e3cc, group=0x31, spu_num=1, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
@@ -346,7 +311,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=1)
 [W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=7)
 [W : PPU[1] Thread (CPUThread)[0x0016108c]]: sys_spu warning: sys_spu_thread_group_start(id=51)
-[E : SPU[48] Thread (Job Manager - Job Thread)[0x0003fbf0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00231b98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3038c028, attr_addr=0xd00203a0, initial_count=0, max_count=100000)
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3038b42c, num=1, prio=200, attr_addr=0xd00203cc)
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [RWAC] (type=0x0, option.ct=0x0): id=53
@@ -435,7 +399,7 @@
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [W : PPU[1] Thread (CPUThread)[0x007b8094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30a00000, io=0xe000000, size=0x100000)
-[W : PPU[1] Thread (CPUThread)[0x007b40b8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x89a29670)
+[W : PPU[1] Thread (CPUThread)[0x007b40b8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x6f218070)
 [W : PPU[1] Thread (CPUThread)[0x007b8184]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x007b8184]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x007b8184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
@@ -493,7 +457,7 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[W : SPU[48] Thread (Job Manager - Job Thread)[0x0003f294]]: SPUThread::WriteChannel($MFC_Cmd) aborted
-[W : PPU[69] Thread (null:)[0x00235260]]: sys_cond_wait(id=70) aborted
-[W : PPU[41] Thread (Job Manager - PPU Proxy)[0x00165748]]: sys_event_queue_receive(equeue=40) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[69] Thread (null:)[0x00235260]]: sys_cond_wait(id=70) aborted
+[W : SPU[48] Thread (Job Manager - Job Thread)[0x0003f2b0]]: SPUThread::WriteChannel($MFC_Cmd) aborted
+[W : PPU[41] Thread (Job Manager - PPU Proxy)[0x00165748]]: sys_event_queue_receive(equeue=40) aborted

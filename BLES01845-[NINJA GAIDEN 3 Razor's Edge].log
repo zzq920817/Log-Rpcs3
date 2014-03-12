@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01845-[NINJA GAIDEN 3 Razor's Edge]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x21fc151f in 'cellCamera' module
@@ -297,8 +297,6 @@
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
 [W]: Unknown function 0x5e00d433 in 'cellSync2' module
 [E]: TODO: _cellSync2QueueAttributeInitialize
 [W]: Unknown function 0x6af85cdf in 'cellSync2' module
@@ -309,46 +307,16 @@
 [E]: TODO: cellSync2QueuePop
 [W]: Unknown function 0xf125e044 in 'cellSync2' module
 [E]: TODO: cellSync2QueueInitialize
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xa50777c6 in 'sys_net' module
-[E]: TODO: shutdown
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
 [W]: Unknown function 0xf9ec2db6 in 'sys_net' module
 [E]: TODO: getpeername
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0xfdb8f926 in 'sys_net' module
-[E]: TODO: sys_net_free_thread_context
 [W]: Unknown function 0x0247c69e in 'cellSail' module
 [E]: TODO: cellSailGraphicsAdapterGetFrame
 [W]: Unknown function 0x1139a206 in 'cellSail' module
@@ -631,6 +599,6 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba70b8]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
 [W : PPU[1] Thread (CPUThread)[0x02ba70dc]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39600000, io=0xe000000, size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x02ba70e8]]: cellGcmGetReportDataAddressLocation(location=0, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aad638]]: Write64 to null block: [00000000]: 0
+[E : PPU[1] Thread (CPUThread)[0x00aad638]]: Write64 to null block: [27714a73]: 0
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

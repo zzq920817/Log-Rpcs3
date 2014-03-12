@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'HotLoadEUGold'
@@ -18,46 +18,14 @@
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x2664c8ae in 'sys_fs' module
-[E]: TODO: cellFsStReadInit
-[W]: Unknown function 0x27800c6b in 'sys_fs' module
-[E]: TODO: cellFsStRead
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
 [E]: TODO: cellFsAioWrite
 [W]: Unknown function 0x7f13fc8c in 'sys_fs' module
 [E]: TODO: cellFsAioCancel
-[W]: Unknown function 0x8df28ff9 in 'sys_fs' module
-[E]: TODO: cellFsStReadStart
-[W]: Unknown function 0xd73938df in 'sys_fs' module
-[E]: TODO: cellFsStReadFinish
-[W]: Unknown function 0xf8e5d9a0 in 'sys_fs' module
-[E]: TODO: cellFsStReadStop
-[W]: Unknown function 0x10b81ed6 in 'sys_net' module
-[E]: TODO: sys_net_set_udpp2p_test_param
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
@@ -380,7 +348,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
 [W : PPU[1] Thread (CPUThread)[0x00ecf088]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020628, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=249)
 [W : PPU[1] Thread (CPUThread)[0x00ecf004]]: cellSpurs warning: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0020628)
-[W : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[2568043792], maxSpu=6, isPreemptible[2568043800])
+[W : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[3630975888], maxSpu=6, isPreemptible[3630975896])
 [E : PPU[1] Thread (CPUThread)[0x00ecf0d0]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xe8e610, attr_addr=0xd0020540, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 86
@@ -394,7 +362,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00ecf160]]: TODO: cellSpursWakeUp
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
-[E : PPU[1] Thread (CPUThread)[0x006df010]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x006df010]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020590)
 [E : PPU[1] Thread (CPUThread)[0x00edd070]]: TODO: sceNp2Init
 [W : PPU[1] Thread (CPUThread)[0x006d901c]]: cellGame warning: cellGameBootCheck(type_addr=0xd00204f0, attributes_addr=0xd00204f4, size_addr=0xddc518, dirName_addr=0xd00204f8)
 [W : PPU[1] Thread (CPUThread)[0x006d9004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020518, usrdirPath_addr=0xddc498)
@@ -408,7 +376,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00eed058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 90
 [W : PPU[1] Thread (CPUThread)[0x00ee7010]]: cellGcmGetReportDataAddressLocation(location=0, index=1)
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
-[E : PPU[1] Thread (CPUThread)[0x006df010]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x006df010]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020590)
 [E : PPU[1] Thread (CPUThread)[0x00ed301c]]: TODO: cellHttpInit
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
@@ -442,6 +410,6 @@
 [E : PPU[1] Thread (CPUThread)[0x00edb0ac]]: TODO: sceNpDrmIsAvailable
 [E : PPU[1] Thread (CPUThread)[0x00eed034]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x0020a7d0]]: Write64 to null block: [cfffe860]: d0020560
-[W : PPU[87] Thread (spu_printf_handler)[0x002aad50]]: sys_event_queue_receive(equeue=86) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[87] Thread (spu_printf_handler)[0x002aad50]]: sys_event_queue_receive(equeue=86) aborted
 [!]: Closing memory...

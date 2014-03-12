@@ -1,16 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading RAP file 
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes_]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
@@ -57,36 +56,14 @@
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x7687d48c in 'sys_net' module
-[E]: TODO: sys_net_set_resolver_configurations
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
 [W]: Unknown function 0x2763fd66 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilUnescapeUri
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
@@ -532,9 +509,9 @@
 [E : PPU[1] Thread (CPUThread)[0x00af60ac]]: TODO: cellSpursJobQueueOpen
 [E : PPU[1] Thread (CPUThread)[0x00af604c]]: TODO: cellSpursJobQueueSemaphoreInitialize
 [E : PPU[1] Thread (CPUThread)[0x00af8058]]: TODO: _cellFiberPpuAttributeInitialize
-[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : PPU[1] Thread (CPUThread)[0x00af8028]]: TODO: cellFiberPpuCreateFiber
 [E : PPU[1] Thread (CPUThread)[0x00af8058]]: TODO: _cellFiberPpuAttributeInitialize
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : PPU[1] Thread (CPUThread)[0x00af8028]]: TODO: cellFiberPpuCreateFiber
 [E : PPU[1] Thread (CPUThread)[0x00af8058]]: TODO: _cellFiberPpuAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00af8028]]: TODO: cellFiberPpuCreateFiber
@@ -546,15 +523,16 @@
 [E : PPU[122] Thread (AcxJobMan)[0x00af8064]]: TODO: cellFiberPpuHasRunnableFiber
 [W : PPU[1] Thread (CPUThread)[0x00ae4010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SSL)
 [W : PPU[1] Thread (CPUThread)[0x00ae4010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
-[E : PPU[1] Thread (CPUThread)[0x00ad8004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x00ad8004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd001f8ec)
 [E : PPU[1] Thread (CPUThread)[0x00ada01c]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x00ade040]]: TODO: cellHttpInit
 [E : PPU[1] Thread (CPUThread)[0x00ae001c]]: TODO: cellSslInit
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "game_data/scert_public.pem" not found.
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data001/scert_public.pem" not found.
-[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data002/scert_public.pem" not found.
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data003/scert_public.pem" not found.
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data004/scert_public.pem" not found.
 [E : PPU[87] Thread (fios mediathread 5)[0x00ad6064]]: sys_fs error: "scert_public.pem" not found! flags: 0x00000000
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
@@ -566,9 +544,18 @@
 [E : PPU[1] Thread (CPUThread)[0x00ade064]]: TODO: cellHttpClientSetRedirectCallback
 [E : PPU[1] Thread (CPUThread)[0x00ade0f4]]: TODO: cellHttpClientSetConnTimeout
 [E : PPU[1] Thread (CPUThread)[0x00ade034]]: TODO: cellHttpClientSetRecvTimeout
-[E : PPU[1] Thread (CPUThread)[0x00ad8010]]: TODO: sys_net_set_resolver_configurations
+[E : PPU[1] Thread (CPUThread)[0x00ad8010]]: sys_net error: Unimplemented function: sys_net_set_resolver_configurations
 [E : PPU[1] Thread (CPUThread)[0x00ade0a0]]: TODO: cellHttpClientSetSendTimeout
 [E : PPU[1] Thread (CPUThread)[0x00ade028]]: TODO: cellHttpClientSetAutoRedirect
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
@@ -660,14 +647,13 @@
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "game_data/localization/en_gb/strings.mo" not found.
-[W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data001/localization/en_gb/strings.mo" not found.
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data001/localization/en_gb/strings.mo" not found.
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data002/localization/en_gb/strings.mo" not found.
 [W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data003/localization/en_gb/strings.mo" not found.
-[W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data004/localization/en_gb/strings.mo" not found.
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[87] Thread (fios mediathread 5)[0x00ad6004]]: sys_fs warning: cellFsStat: "patch_data004/localization/en_gb/strings.mo" not found.
 [E : PPU[87] Thread (fios mediathread 5)[0x00ad6064]]: sys_fs error: "localization/en_gb/strings.mo" not found! flags: 0x00000000
 [E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00ae4010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
@@ -683,14 +669,15 @@
 [E : PPU[1] Thread (CPUThread)[0x00ae60dc]]: TODO: cellSaveDataAutoLoad2
 [W : PPU[1] Thread (CPUThread)[0x00202b40]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 128
 [W : PPU[1] Thread (CPUThread)[0x00afe058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 129
+[E : SPU[107] Thread (FMOD)[0x0000ebc4]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : PPU[130] Thread (38f60960)[0x00203bc4]]: Read32 from null block: [00000028]
-[! : RSXThread]: RSX thread exit...
+[W : Audio Thread]: Audio aborted
 [W : PPU[60] Thread (fios scheduler 1)[0x00afe040]]: sys_lwcond_wait(sq=52) aborted
 [W : PPU[59] Thread (fios mediathread 3)[0x00afe040]]: sys_lwcond_wait(sq=57) aborted
-[W : Audio Thread]: Audio aborted
 [W : PPU[87] Thread (fios mediathread 5)[0x00afe040]]: sys_lwcond_wait(sq=84) aborted
-[W : PPU[58] Thread (fios mediathread 2)[0x00afe040]]: sys_lwcond_wait(sq=56) aborted
 [W : PPU[88] Thread (fios mediathread 6)[0x00afe040]]: sys_lwcond_wait(sq=85) aborted
-[W : SPU[107] Thread (FMOD)[0x000111fc]]: sys_spu_thread_receive_event(spuq=0x63) aborted
-[W : PPU[90] Thread (fios scheduler 4)[0x00afe040]]: sys_lwcond_wait(sq=80) aborted
+[W : PPU[111] Thread (FMOD libAudio event receive thread)[0x002814bc]]: sys_event_queue_receive(equeue=103) aborted
+[! : RSXThread]: RSX thread exit...
 [W : PPU[89] Thread (fios mediathread 7)[0x00afe040]]: sys_lwcond_wait(sq=86) aborted
+[W : PPU[58] Thread (fios mediathread 2)[0x00afe040]]: sys_lwcond_wait(sq=56) aborted
+[W : PPU[90] Thread (fios scheduler 4)[0x00afe040]]: sys_lwcond_wait(sq=80) aborted

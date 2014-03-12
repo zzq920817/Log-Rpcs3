@@ -1,25 +1,21 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x0d5b4a14 in 'sys_fs' module
-[E]: TODO: cellFsReadWithOffset
 [W]: Unknown function 0x8cb722d5 in 'sys_fs' module
 [E]: TODO: cellFsWriteWithOffset
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
@@ -235,42 +231,12 @@
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0xf9b1896d in 'cellL10n' module
 [E]: TODO: SJISstoUCS2s
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x8d1b77fb in 'sys_net' module
-[E]: TODO: sys_net_abort_socket
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb48636c4 in 'sys_net' module
-[E]: TODO: sys_net_show_ifconfig
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
 [W]: Unknown function 0x3929948d in 'cellSync' module
 [E]: TODO: cellSyncQueueInitialize
 [W]: Unknown function 0x4da349b2 in 'cellSync' module
@@ -346,7 +312,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 37
 [W : PPU[1] Thread (CPUThread)[0x0102a0b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x800000,offset_addr=0xd00208a0)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xca70e0b0)
+[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xde150e60)
 [W : PPU[1] Thread (CPUThread)[0x0102e118]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209b0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0102a064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -435,77 +401,91 @@
 [E : PPU[88] Thread (Installer:Setup)[0x01db0028]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[88] Thread (Installer:Setup)[0x01db0004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00407a8, usrdirPath_addr=0xd0040828)
 [W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_content_EU.lst"): fd = 89
-[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
-[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=89, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=104 nread=0x3bc8d00404e0)
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=89, offset=0x0, buf_addr=0x32660280, buffer_size=104 nread=0x3bc8d0040590)
 [W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=89)
-[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_data.lst"): fd = 90
-[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
-[E : PPU[88] Thread (Installer:Setup)[0x01028064]]: TODO: cellFsReadWithOffset
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/ICON0.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/ICON0.PNG"): fd = 90
 [W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=90)
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 91
-[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 92
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(92)
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=92): id = 93
-[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=94, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 95
-[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 96
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(96)
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=96): id = 97
-[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=98, prio=1100)
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 99
-[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 100
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(100)
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=100): id = 101
-[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=102, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 103
-[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 104
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(104)
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=104): id = 105
-[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=106, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
-[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 108
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(108)
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=108): id = 109
-[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=110, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
-[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 112
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(112)
-[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=112): id = 113
-[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=114, prio=1100)
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/ICON0_17.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/ICON0_17.PNG"): fd = 91
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=91)
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/PIC1.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/PIC1.PNG"): fd = 92
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=92)
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/PIC1_17.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/PIC1_17.PNG"): fd = 93
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=93)
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_data.lst"): fd = 94
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=94, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=14 nread=0x3bc8d00404e0)
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=94, offset=0x0, buf_addr=0x30152060, buffer_size=14 nread=0x3bc8d0040590)
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=94)
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 95
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=95)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 97
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(97)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=97): id = 98
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=99, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 101
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(101)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=101): id = 102
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=103, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 105
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(105)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=105): id = 106
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=107, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 109
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(109)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=109): id = 110
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=111, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 113
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(113)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=113): id = 114
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=115, prio=900)
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 117
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 118
-[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 119
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 117
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(117)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=117): id = 118
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=119, prio=1100)
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 120
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 121
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 122
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 123
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 124
-[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=125, prio=500)
-[W : PPU[94] Thread (CRI FS File Access 0)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 126
-[W : PPU[94] Thread (CRI FS File Access 0)[0x01028004]]: sys_fs warning: cellFsClose(fd=126)
-[W : PPU[94] Thread (CRI FS File Access 0)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 127
-[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/VsUserShader.emz"): fd = 128
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=128)
-[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/PsUserShader.emz"): fd = 129
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=129)
-[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/VsBgShader.emz"): fd = 130
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=130)
-[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/PsBgShader.emz"): fd = 131
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=131)
-[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/setting_technique.emz"): fd = 132
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[E : PPU[1] Thread (CPUThread)[0x01028064]]: TODO: cellFsReadWithOffset
-[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=132)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 125
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 128
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 129
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=130, prio=500)
+[W : PPU[99] Thread (CRI FS File Access 0)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 131
+[W : PPU[99] Thread (CRI FS File Access 0)[0x01028004]]: sys_fs warning: cellFsClose(fd=131)
+[W : PPU[99] Thread (CRI FS File Access 0)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 132
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/VsUserShader.emz"): fd = 133
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=133, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=133, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=95037 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=133)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/PsUserShader.emz"): fd = 134
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=134, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=134, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=63787 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=134)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/VsBgShader.emz"): fd = 135
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=135, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=135, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=48015 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=135)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/PsBgShader.emz"): fd = 136
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=136, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=136, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=34107 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=136)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/setting_technique.emz"): fd = 137
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=137, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=137, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=7213 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=137)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -1161,12 +1141,12 @@
 [E : Audio Thread]: alBufferData: OpenAL error 0xa001
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
 [! : RSXThread]: RSX thread exit...
-[W : PPU[106] Thread (CRI FS File Access 2)[0x008b758c]]: sys_cond_wait(id=105) aborted
-[W : PPU[94] Thread (CRI FS File Access 0)[0x008b758c]]: sys_cond_wait(id=93) aborted
-[W : PPU[98] Thread (CRI FS Memory File System)[0x008b758c]]: sys_cond_wait(id=97) aborted
 [W : PPU[68] Thread (Em File Thread)[0x01dd8034]]: sys_lwcond_wait(sq=52) aborted
-[W : PPU[110] Thread (CRI FS File Access 3)[0x008b758c]]: sys_cond_wait(id=109) aborted
-[W : PPU[114] Thread (CRI FS Data Decompression 0)[0x008b758c]]: sys_cond_wait(id=113) aborted
-[W : PPU[102] Thread (CRI FS File Access 1)[0x008b758c]]: sys_cond_wait(id=101) aborted
+[W : PPU[103] Thread (CRI FS Memory File System)[0x008b758c]]: sys_cond_wait(id=102) aborted
+[W : PPU[111] Thread (CRI FS File Access 2)[0x008b758c]]: sys_cond_wait(id=110) aborted
+[W : PPU[107] Thread (CRI FS File Access 1)[0x008b758c]]: sys_cond_wait(id=106) aborted
+[W : PPU[119] Thread (CRI FS Data Decompression 0)[0x008b758c]]: sys_cond_wait(id=118) aborted
 [W : Audio Thread]: Audio aborted
+[W : PPU[115] Thread (CRI FS File Access 3)[0x008b758c]]: sys_cond_wait(id=114) aborted
+[W : PPU[99] Thread (CRI FS File Access 0)[0x008b758c]]: sys_cond_wait(id=98) aborted
 [!]: Closing memory...

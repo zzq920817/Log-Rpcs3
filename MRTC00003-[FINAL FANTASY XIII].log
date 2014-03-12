@@ -1,35 +1,19 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00003-[FINAL FANTASY XIII]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
@@ -132,14 +116,10 @@
 [E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
 [E]: TODO: _cellSpursSendSignal
-[W]: Unknown function 0x0d5b4a14 in 'sys_fs' module
-[E]: TODO: cellFsReadWithOffset
 [W]: Unknown function 0x8cb722d5 in 'sys_fs' module
 [E]: TODO: cellFsWriteWithOffset
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
 [W]: Unknown function 0x5ae841e5 in 'cellSync' module
 [E]: TODO: cellSyncQueuePush
 [W]: Unknown function 0x0247c69e in 'cellSail' module
@@ -888,8 +868,6 @@
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020330, attr_addr=0xd0020338, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 148
-[E : PPU[134] Thread (ZDecode)[0x013e60dc]]: TODO: sys_spinlock_lock
-[E : PPU[134] Thread (ZDecode)[0x013e6094]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x013e60dc]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 150
@@ -916,6 +894,8 @@
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x002d8d44]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020420, attr_addr=0xd0020428, initial_count=0, max_count=268435455)
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 163
+[E : PPU[134] Thread (ZDecode)[0x013e60dc]]: TODO: sys_spinlock_lock
+[E : PPU[134] Thread (ZDecode)[0x013e6094]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x013e60dc]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x013e6094]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 165

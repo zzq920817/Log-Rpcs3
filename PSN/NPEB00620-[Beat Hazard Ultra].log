@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
@@ -106,48 +106,20 @@
 [E]: TODO: sceNpScoreGetRankingByRange
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xa50777c6 in 'sys_net' module
-[E]: TODO: shutdown
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
 [W]: Unknown module 'cellMusicDecodeUtility'
 [W]: Unknown module 'cellSearchUtility'
 [W]: Unknown module 'sceNpCommerce2'
@@ -345,8 +317,8 @@
 [E : PPU[1] Thread (CPUThread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
 [E : PPU[1] Thread (CPUThread)[0x00af30f4]]: TODO: sceNpInit
-[E : PPU[1] Thread (CPUThread)[0x00af30d0]]: TODO: sceNpDrmIsAvailable
 [W : PPU[33] Thread (flip_thread)[0x00aed064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : PPU[1] Thread (CPUThread)[0x00af30d0]]: TODO: sceNpDrmIsAvailable
 [W : PPU[1] Thread (CPUThread)[0x003cd028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB00620/USRDIR/protected.edat" not found.
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SEARCH)
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
@@ -905,16 +877,30 @@
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 3
 [E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[W : PPU[1] Thread (CPUThread)[0x00ae7094]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020730)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[1] Thread (CPUThread)[0x00ae7094]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020730)
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
@@ -948,25 +934,6 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[! : Audio Thread]: Audio started
-[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x8867e8, portNum_addr=0x88670c)
-[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x00af1028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x886808)
-[E : PPU[1] Thread (CPUThread)[0x003cb004]]: TODO: cellSpursInitialize
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
@@ -1026,5 +993,6 @@
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [W : RSXThread]: null cmd: addr=0x501cf000, put=0x4f21c00, get=0x1cf000
+[! : Audio Thread]: Audio started
 [! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted

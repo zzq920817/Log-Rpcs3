@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x02f5ced0 in 'cellCamera' module
@@ -34,8 +34,6 @@
 [E]: TODO: cellCameraSetAttribute
 [W]: Unknown function 0xbf47c5dd in 'cellCamera' module
 [E]: TODO: cellCameraInit
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
 [W]: Unknown function 0x7a0329a1 in 'sys_fs' module
 [E]: TODO: cellFsAllocateFileAreaWithoutZeroFill
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -52,32 +50,10 @@
 [E]: TODO: cellKey2CharOpen
 [W]: Unknown function 0xbfc03768 in 'cellKey2char' module
 [E]: TODO: cellKey2CharSetMode
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0xfdb8f926 in 'sys_net' module
-[E]: TODO: sys_net_free_thread_context
 [W]: Unknown function 0x082bfb09 in 'cellSpurs' module
 [E]: TODO: _cellSpursQueueInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
@@ -301,7 +277,6 @@
 [E]: TODO: cellOskDialogAbort
 [W]: Unknown function 0xcdc6aefd in 'cellSysutil' module
 [E]: TODO: cellSaveDataUserAutoLoad
-[W]: Unknown module 'cellUserInfo'
 [W]: Unknown function 0x017024a8 in 'cellMic' module
 [E]: TODO: cellMicGetDeviceGUID
 [W]: Unknown function 0x07e1b12c in 'cellMic' module
@@ -444,14 +419,10 @@
 [W : PPU[53] Thread (bringup)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [PrioQ] (attribute=0x11): sq_id = 64
 [W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820130, attr_addr=0xd0030b10, initial_count=0, max_count=2147483647)
 [E : PPU[53] Thread (bringup)[0x00380038]]: Unknown syscall: 872 - 00000368
-[E : PPU[53] Thread (bringup)[0x0099f010]]: TODO: cellUserInfoGetList
-[W : PPU[53] Thread (bringup)[0x00991070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x8bbaf0, commID_addr=0x74c2c1, commSign_addr=0x74c34d, options=0x0)
-[W : PPU[53] Thread (bringup)[0x00991010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x8bbaf4)
-[W : PPU[53] Thread (bringup)[0x0099d088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x863ae0, userdata=0x0)
-[W : PPU[53] Thread (bringup)[0x00985064]]: cellGame warning: cellGameBootCheck(type_addr=0x91ea90, attributes_addr=0x91eb24, size_addr=0x91ea80, dirName_addr=0x0)
+[W : PPU[53] Thread (bringup)[0x0099f010]]: cellUserInfo warning: cellUserInfoGetList(listNum_addr=0x921b48, listBuf_addr=0xd0030be0, currentUserId_addr=0x921b4c)
+[W : PPU[53] Thread (bringup)[0x0099f004]]: cellUserInfo warning: cellUserInfoGetStat(id=16777216, stat_addr=0xd0030c20)
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=53, vptr_addr=0xd0020b10)
 [W : PPU[1] Thread (CPUThread)[0x00975094]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x37920b40)
-[E : PPU[1] Thread (CPUThread)[0x00991064]]: sceNpTrophy error: Unimplemented function: sceNpTrophyTerm
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=58, vptr_addr=0xd0020a00)
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=59, vptr_addr=0xd0020a00)
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=60, vptr_addr=0xd0020a00)

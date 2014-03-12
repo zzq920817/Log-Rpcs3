@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -48,30 +48,8 @@
 [E]: TODO: cellAtracDecode
 [W]: Unknown function 0xfa293e88 in 'cellAtrac' module
 [E]: TODO: cellAtracCreateDecoder
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x8d1b77fb in 'sys_net' module
-[E]: TODO: sys_net_abort_socket
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xfdb8f926 in 'sys_net' module
-[E]: TODO: sys_net_free_thread_context
 [W]: Unknown function 0x01cd9cfd in 'sceNp' module
 [E]: TODO: sceNpCommerceGetChildProductSkuInfo
 [W]: Unknown function 0x03c741a7 in 'sceNp' module
@@ -292,7 +270,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00051d44]]: memory warning: sys_memory_container_create(cid_addr=0x1789e0, yield_size=0x800000)
 [W : PPU[1] Thread (CPUThread)[0x00051d44]]: memory warning: *** memory_container created(addr=0x37100000): id = 19
 [W : PPU[1] Thread (CPUThread)[0x00280034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
-[E : PPU[1] Thread (CPUThread)[0x00272004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x00272004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020ab0)
 [E : PPU[1] Thread (CPUThread)[0x00274028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x002762c8]]: TODO: sceNpInit
 [E : PPU[1] Thread (CPUThread)[0x002760ac]]: TODO: sceNpScoreInit
@@ -344,17 +322,11 @@
 [E : PPU[31] Thread (LoadingScreen)[0x0026604c]]: TODO: cellPadSetPressMode
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 32
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 33
-[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=33)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 34
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -402,6 +374,12 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 33
+[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=33)
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 34
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=34)
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.dat"): fd = 35
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=35)

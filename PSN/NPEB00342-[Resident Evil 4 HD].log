@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0e091c36 in 'cellSysutil' module
@@ -224,12 +224,65 @@
 [W : PPU[40] Thread (hap_trophy_init)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[40] Thread (hap_trophy_init)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[40] Thread (hap_trophy_init)[0x01a50058]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x897194, commID_addr=0x750881, commSign_addr=0x75088d, options=0x0)
+[W : PPU[40] Thread (hap_trophy_init)[0x01a50010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x897198)
+[W : PPU[40] Thread (hap_trophy_init)[0x01a5001c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0090dc0, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [E : PPU[1] Thread (CPUThread)[0x01a54028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x0026b4e8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1928ba4, attr_addr=0xd0020a60, initial_count=0, max_count=64)
-[W : PPU[40] Thread (hap_trophy_init)[0x01a50010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x897198)
-[W : PPU[40] Thread (hap_trophy_init)[0x01a5001c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0090dc0, options=0x0)
+[E : PPU[1] Thread (CPUThread)[0x0026b05c]]: sys_event_flag error: sys_event_flag_trywait(eflag_id=37, bitptn=0xffffffff, mode=0x1, result_addr=0x0)
+[E : PPU[1] Thread (CPUThread)[0x0026b174]]: sys_event_flag error: sys_event_flag_wait(eflag_id=37, bitptn=0xffffffff, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x01a42034]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=0.954545, vertical=0.954545)
+[W : PPU[1] Thread (CPUThread)[0x002760dc]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
+[W : PPU[1] Thread (CPUThread)[0x01a4601c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x01a4601c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x01a4601c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x01a4601c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x006decc4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 43
+[W : PPU[1] Thread (CPUThread)[0x006decf8]]: sys_cond warning: *** condition on recursive mutex(43)
+[W : PPU[1] Thread (CPUThread)[0x006decf8]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 47
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 48
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x006decc4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 50
+[W : PPU[1] Thread (CPUThread)[0x006decf8]]: sys_cond warning: *** condition on recursive mutex(50)
+[W : PPU[1] Thread (CPUThread)[0x006decf8]]: sys_cond warning: *** condition created [] (mutex_id=50): id = 51
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 52
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 54
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 55
+[W : PPU[1] Thread (CPUThread)[0x006d1998]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 56
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition on recursive mutex(56)
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition created [] (mutex_id=56): id = 57
+[W : PPU[1] Thread (CPUThread)[0x006d1998]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 58
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition on recursive mutex(58)
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition created [] (mutex_id=58): id = 59
+[W : PPU[1] Thread (CPUThread)[0x006d1998]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 60
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition on recursive mutex(60)
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition created [] (mutex_id=60): id = 61
+[W : PPU[1] Thread (CPUThread)[0x006d1998]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 62
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition on recursive mutex(62)
+[W : PPU[1] Thread (CPUThread)[0x006d19d0]]: sys_cond warning: *** condition created [] (mutex_id=62): id = 63
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 66
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 76
+[W : PPU[1] Thread (CPUThread)[0x006d1ecc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=1, prio=1001)
+[W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
+[E : PPU[1] Thread (CPUThread)[0x01a4e100]]: TODO: cellSpursCreateTaskset
+[E : PPU[1] Thread (CPUThread)[0x01a4e004]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x01a4e01c]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x01a4e0c4]]: TODO: cellSpursCreateTask
 [E : RSXThread]: TODO: cellGcmSetLogicOp(0x0)
 [W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
@@ -281,10 +334,15 @@ void main()
 
 [W : RSXThread]: New FBO (1280x720)
 [E : RSXThread]: glAlphaFunc: opengl error 0x0500
-[W : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=31) aborted
-[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
-[W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
-[W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[75] Thread (cri_adxm_fs_proc)[0x006d1550]]: sys_cond_wait(id=59) aborted
+[W : PPU[53] Thread (cri_dlg)[0x006defb0]]: sys_cond_wait(id=51) aborted
+[W : PPU[73] Thread (cri_adxm_vsync_proc)[0x006d1550]]: sys_cond_wait(id=57) aborted
+[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
+[W : PPU[46] Thread (cri_dlg)[0x006defb0]]: sys_cond_wait(id=44) aborted
+[W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
+[W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
+[W : PPU[77] Thread (cri_adxm_idle_proc)[0x006d1550]]: sys_cond_wait(id=61) aborted
+[W : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=31) aborted
 [!]: Mutex(38) was owned by thread 40 (recursive=1)
 [!]: Closing memory...

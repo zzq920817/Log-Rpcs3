@@ -1,37 +1,19 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01811-[LIGHTNING RETURNS FINAL FANTASY XIII]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
@@ -58,7 +40,6 @@
 [E]: TODO: cellOskDialogSetLayoutMode
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown module 'cellUserInfo'
 [W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x0a862772 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetQueueHandler
@@ -154,14 +135,10 @@
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagSet
-[W]: Unknown function 0x0d5b4a14 in 'sys_fs' module
-[E]: TODO: cellFsReadWithOffset
 [W]: Unknown function 0x8cb722d5 in 'sys_fs' module
 [E]: TODO: cellFsWriteWithOffset
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
 [W]: Unknown function 0x5ae841e5 in 'cellSync' module
 [E]: TODO: cellSyncQueuePush
 [W]: Unknown function 0x0247c69e in 'cellSail' module
@@ -725,17 +702,17 @@
 [W : PPU[1] Thread (CPUThread)[0x0162d058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 214
 [W : PPU[1] Thread (CPUThread)[0x0162d058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 215
 [W : PPU[1] Thread (CPUThread)[0x0160b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[E : PPU[1] Thread (CPUThread)[0x0116b004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x0116b004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020940)
 [E : PPU[1] Thread (CPUThread)[0x0162d100]]: TODO: sys_spinlock_initialize
 [W : PPU[1] Thread (CPUThread)[0x007a150c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3ba08db0, attr_addr=0xd0020770, init=0xffffffffffffffff)
 [W : PPU[1] Thread (CPUThread)[0x007a150c]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x007a150c]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x007a150c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 216
-[W : PPU[1] Thread (CPUThread)[0x0077e10c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3ba08e40, attr_addr=0xd0020640, init=0xffffffffffffffff)
+[W : PPU[1] Thread (CPUThread)[0x0077e10c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3ba08df0, attr_addr=0xd0020640, init=0xffffffffffffffff)
 [W : PPU[1] Thread (CPUThread)[0x0077e10c]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x0077e10c]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0077e10c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 217
-[W : PPU[1] Thread (CPUThread)[0x0077e13c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3ba08e48, attr_addr=0xd0020620, init=0xffffffffffffffff)
+[W : PPU[1] Thread (CPUThread)[0x0077e13c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3ba08df8, attr_addr=0xd0020620, init=0xffffffffffffffff)
 [W : PPU[1] Thread (CPUThread)[0x0077e13c]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x0077e13c]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0077e13c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 218

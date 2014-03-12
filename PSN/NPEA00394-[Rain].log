@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00394-[Rain]/\USRDIR\
 [W]: LoadShdr64 error: shstrndx too big!
 [!]: Initing memory...
 [!]: Memory initialized.
@@ -33,8 +33,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00024004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0002a028]]: *** cellFsOpen(path="/EBOOT.BIN"): fd = 13
 [W : PPU[1] Thread (CPUThread)[0x00028004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\NPEA-00394\')
-[E : PPU[1] Thread (CPUThread)[0x0002a04c]]: TODO: cellFsChmod
-[W : PPU[1] Thread (CPUThread)[0x0002a040]]: sys_fs warning: cellFsUnlink(path="/dev_hdd1/cache/NPEA-00394//duplex.self")
+[! : PPU[1] Thread (CPUThread)[0x00028004]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache
+[! : PPU[1] Thread (CPUThread)[0x00028004]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\NPEA-00394
+[W : PPU[1] Thread (CPUThread)[0x0002a034]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA-00394//duplex.self" not found.
 [W : PPU[1] Thread (CPUThread)[0x0002a028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\NPEA-00394\duplex.self')
 [W : PPU[1] Thread (CPUThread)[0x0002a028]]: *** cellFsOpen(path="/dev_hdd1/cache/NPEA-00394//duplex.self"): fd = 14
 [W : PPU[1] Thread (CPUThread)[0x0002a028]]: *** cellFsOpen(path="/EBOOT.BIN"): fd = 15

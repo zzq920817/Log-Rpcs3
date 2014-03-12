@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbe5be3ba in 'sys_io' module
@@ -42,32 +42,10 @@
 [E]: TODO: SjisHan2Zen
 [W]: Unknown function 0x750c363d in 'cellL10n' module
 [E]: TODO: jstrchk
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xa50777c6 in 'sys_net' module
-[E]: TODO: shutdown
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0xfdb8f926 in 'sys_net' module
-[E]: TODO: sys_net_free_thread_context
 [W]: Unknown function 0x0f9667b6 in 'cellAtrac' module
 [E]: TODO: cellAtracGetChannel
 [W]: Unknown function 0x2bfff084 in 'cellAtrac' module
@@ -178,7 +156,7 @@
 [W : PPU[15] Thread (Check game data thread)[0x0001531c]]: memory warning: sys_memory_container_destroy(cid=16)
 [W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[E : PPU[1] Thread (CPUThread)[0x01f27004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x01f27004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020bd0)
 [W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [E : PPU[1] Thread (CPUThread)[0x01f370d0]]: TODO: sceNpInit
@@ -200,7 +178,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00299040]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020534)
 [W : PPU[1] Thread (CPUThread)[0x0029b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x00299028]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
-[W : PPU[1] Thread (CPUThread)[0x00299028]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00299028]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30017000, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00299028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0029904c]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0x1e3df14, vertexArray_addr=0x1e3df18, fragmentShader_addr=0x1e3df1c)
 [W : PPU[1] Thread (CPUThread)[0x0029b058]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=198180864, size=7536640, pitch=5120, comp=0, base=0, bank=0)
@@ -412,10 +390,10 @@
 [W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
 [W : fsAioRead]: *** fsAioRead(fd=62, offset=0xb340, buf_addr=0x3290a000, size=0x4e5d51, error=0x0, res=0x4e5d51, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
 [E : PPU[1] Thread (CPUThread)[0x000b439c]]: Read16 from null block: [00000194]
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...
+[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ea50]]: sys_cond_wait(id=48) aborted
 [W : Demuxer[79] Thread]: Demuxer aborted
 [W : PPU[49] Thread (_sys_mixerSurBusReq)[0x0024bb24]]: sys_cond_wait(id=44) aborted
-[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ea50]]: sys_cond_wait(id=48) aborted
 [W : PPU[57] Thread (synth2_generate)[0x00249f30]]: sys_event_queue_receive(equeue=29) aborted
 [!]: Closing memory...
