@@ -382,7 +382,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00ff1010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301dbeb8, attr_addr=0xd0020ac0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00d9f034]]: *** cellFsOpen(path="/aska0000.bin"): fd = 56
-[W : PPU[1] Thread (CPUThread)[0x00d9f004]]: sys_fs warning: cellFsReadWithOffset(fd=56, offset=0x0, buf_addr=0x31080110, buffer_size=65536 nread=0x1afd0020910)
+[W : PPU[1] Thread (CPUThread)[0x00d9f004]]: sys_fs warning: cellFsReadWithOffset(fd=56, offset=0x0, buf_addr=0x31080110, buffer_size=65536 nread=0xa80d0020910)
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 57
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 58
 [W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31082ee0, attr_addr=0xd0020a10, initial_count=0, max_count=2147483647)
@@ -457,6 +457,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00ff7010]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0020990)
 [W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3122ab28, attr_addr=0xd0020960, initial_count=0, max_count=1)
 [E : Audio Thread]: alBufferData: OpenAL error 0xa001
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
