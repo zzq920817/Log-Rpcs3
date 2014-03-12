@@ -315,7 +315,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00d50034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd00205e0)
 [W : PPU[1] Thread (CPUThread)[0x00d54034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 140
 [W : PPU[1] Thread (CPUThread)[0x00941234]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xcfed04, attr_addr=0xd00204ac, event_queue_key=0x0, size=32)
-[W : PPU[1] Thread (CPUThread)[0x00941234]]: sys_event warning: *** event_queue created [Đ ] (protocol=0x2, type=0x1): id = 141
+[W : PPU[1] Thread (CPUThread)[0x00941234]]: sys_event warning: *** event_queue created [? ] (protocol=0x2, type=0x1): id = 141
 [W : PPU[1] Thread (CPUThread)[0x0094125c]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xcfee08, num=1, prio=100, attr_addr=0xd002049c)
 [W : PPU[1] Thread (CPUThread)[0x0094125c]]: sys_spu warning: *** SPU Thread Group created [_Multistream Thread Group] (type=0x0, option.ct=0x0): id=142
 [W : PPU[1] Thread (CPUThread)[0x00d540c4]]: sysPrxForUser warning: sys_spu_image_import(img=0xcfee0c, src=0xaec680, type=0x1)
