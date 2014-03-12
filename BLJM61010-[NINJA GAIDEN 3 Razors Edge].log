@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: _____ -> _____________________________________________\
-[!]: _____ -> _____________________________________________\
-[!]: _____/ -> ______________________________________________
-[!]: ______ -> ______________________________________________\
-[!]: ____/_ -> ______________________________________________\
-[!]: ______ -> _______________________________
-[!]: ______ -> _________________________________
-[!]: _____/ -> 
-[!]: / -> _______________________________
+[!]: /dev_hdd0/ -> C:\Users\venu\Downloads\rpcs3-4af6489-windows-x86-32\rpcs3-4af6489-windows-x86-32\dev_hdd0\
+[!]: /dev_hdd1/ -> C:\Users\venu\Downloads\rpcs3-4af6489-windows-x86-32\rpcs3-4af6489-windows-x86-32\dev_hdd1\
+[!]: /dev_flash/ -> C:\Users\venu\Downloads\rpcs3-4af6489-windows-x86-32\rpcs3-4af6489-windows-x86-32\dev_flash\
+[!]: /dev_usb000/ -> C:\Users\venu\Downloads\rpcs3-4af6489-windows-x86-32\rpcs3-4af6489-windows-x86-32\dev_usb000\
+[!]: /dev_usb/ -> C:\Users\venu\Downloads\rpcs3-4af6489-windows-x86-32\rpcs3-4af6489-windows-x86-32\dev_usb000\
+[!]: /app_home/ -> D:\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x21fc151f in 'cellCamera' module
@@ -255,8 +255,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xad218faf in 'sceNp' module
@@ -305,8 +303,6 @@
 [E]: TODO: sceNpLookupDestroyTransactionCtx
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
 [W]: Unknown function 0xbef554a4 in 'sys_fs' module
 [E]: TODO: cellFsUtime
 [W]: Unknown function 0x3140f6e1 in 'sys_fs' module
@@ -367,18 +363,6 @@
 [E]: TODO: recv
 [W]: Unknown function 0xfdb8f926 in 'sys_net' module
 [E]: TODO: sys_net_free_thread_context
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
-[E]: TODO: cellNetCtlAddHandler
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlDelHandler
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x0247c69e in 'cellSail' module
 [E]: TODO: cellSailGraphicsAdapterGetFrame
 [W]: Unknown function 0x1139a206 in 'cellSail' module
@@ -584,7 +568,6 @@
 [W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_by_fd
 [S]: Game: boot done.
-[! : PPU[1] Thread (CPUThread)[0x009dfae0]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x00b993b8]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
@@ -679,5 +662,193 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba60b8]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
 [W : PPU[1] Thread (CPUThread)[0x02ba60dc]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0xe000000, size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=0, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [6d63476c]: 0
-[! : PPU[30] Thread (callback_drop_prepare_thread)[0x00aa25f8]]: PPU[30] Thread (callback_drop_prepare_thread) enter
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=2, index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=3, index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=4, index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=5, index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=6, index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=7, index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=8716288, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba610c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=7,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x02ba610c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x268000,pitch=7,width=720,height=480)
+[E : PPU[1] Thread (CPUThread)[0x02bb01c0]]: TODO: _cellSpursTasksetAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x02bb00a0]]: TODO: cellSpursCreateTaskset2
+[E : PPU[1] Thread (CPUThread)[0x02bb001c]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb0040]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x02bb00d0]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb0118]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x02bb0088]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb0064]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb0208]]: TODO: cellSpursRunJobChain
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=96)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=96)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=192)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1704)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1704)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1704)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1704)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1704)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=26279936, size=7536640, pitch=10240, comp=7, base=0, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=33882112, size=7536640, pitch=10240, comp=11, base=115, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=41484288, size=14745600, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=56295424, size=3801088, pitch=5120, comp=9, base=0, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=60162048, size=3735552, pitch=2560, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=63963136, size=3145728, pitch=2048, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=6)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=7, location=0, offset=67174400, size=131072, pitch=1280, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=7)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=8, location=0, offset=67371008, size=524288, pitch=1024, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=9, location=0, offset=67960832, size=196608, pitch=512, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=10, location=0, offset=68222976, size=196608, pitch=256, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=10)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=11, location=1, offset=6684672, size=65536, pitch=192, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=11)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=68485120, size=262144, pitch=1280, comp=9, base=0, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=12)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=13, location=0, offset=68812800, size=262144, pitch=1024, comp=9, base=0, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=13)
+[W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=14, location=1, offset=6815744, size=65536, pitch=96, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=14)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=3)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=4)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
+[W : PPU[33] Thread[0x02bb6070]]: cellGame warning: cellGameBootCheck(type_addr=0x2683eb4, attributes_addr=0x2683eb8, size_addr=0x2684828, dirName_addr=0x2684840)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x2683ec0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x2683f44, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x2683fc8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x268404c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x26840d0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x2684154, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x26841d8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x268425c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x26842e0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x2684364, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x26843e8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x268446c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=12, buf_addr=0x26844f0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=13, buf_addr=0x2684574, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=14, buf_addr=0x26845f8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=15, buf_addr=0x268467c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=16, buf_addr=0x2684700, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=17, buf_addr=0x2684784, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x2684808, bufsize=10)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x2684818, bufsize=6)
+[W : PPU[33] Thread[0x02bb6040]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x2684824)
+[W : PPU[33] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x18672e4, usrdirPath_addr=0x1867364)
+[E : PPU[34] Thread[0x02bb6010]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x2683ec0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x2683f44, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x2683fc8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x268404c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x26840d0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x2684154, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x26841d8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x268425c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x26842e0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x2684364, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x26843e8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x268446c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=12, buf_addr=0x26844f0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=13, buf_addr=0x2684574, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=14, buf_addr=0x26845f8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=15, buf_addr=0x268467c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=16, buf_addr=0x2684700, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=17, buf_addr=0x2684784, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x2684808, bufsize=10)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x2684818, bufsize=6)
+[W : PPU[34] Thread[0x02bb6040]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x2684824)
+[W : PPU[34] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0050ce0, usrdirPath_addr=0xd0050d60)
+[E : PPU[35] Thread[0x02bb6010]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x2683ec0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x2683f44, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x2683fc8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x268404c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x26840d0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x2684154, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x26841d8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x268425c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x26842e0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x2684364, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x26843e8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x268446c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=12, buf_addr=0x26844f0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=13, buf_addr=0x2684574, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=14, buf_addr=0x26845f8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=15, buf_addr=0x268467c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=16, buf_addr=0x2684700, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=17, buf_addr=0x2684784, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x2684808, bufsize=10)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x2684818, bufsize=6)
+[W : PPU[35] Thread[0x02bb6040]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x2684824)
+[W : PPU[35] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0060ce0, usrdirPath_addr=0xd0060d60)
+[E : PPU[36] Thread[0x02bb6010]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[36] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x18674e4, usrdirPath_addr=0x1867564)

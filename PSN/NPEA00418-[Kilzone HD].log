@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00418-[KILLZONE HD_]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x99406d0b in 'sys_fs' module
@@ -20,12 +20,6 @@
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
-[W]: Unknown function 0x1051d134 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeEnableSpuPrintfIfAvailable
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
@@ -44,38 +38,26 @@
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
 [W]: Unknown function 0x94034c95 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetUnsetExceptionEventHandler
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa789e631 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
 [W]: Unknown function 0x49a3426d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountSwap
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
 [E]: TODO: cellSpursWorkloadAttributeSetName
 [W]: Unknown function 0x4e153e3e in 'cellSpurs' module
 [E]: TODO: cellSpursGetWorkloadInfo
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
@@ -84,8 +66,6 @@
 [E]: TODO: cellSpursWaitForWorkloadShutdown
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
@@ -232,8 +212,6 @@
 [E]: TODO: cellSailGraphicsAdapterGetFormat
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x409ad939 in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_free_memory
 [W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
 [E]: TODO: sys_mmapper_unmap_memory
 [W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
@@ -311,11 +289,11 @@
 [! : PPU[1] Thread (CPUThread)[0x000131d0]]: r24 = 0x0
 [! : PPU[1] Thread (CPUThread)[0x000131d0]]: r25 = 0x0
 [! : PPU[1] Thread (CPUThread)[0x000131d0]]: r26 = 0xd00209c8
-[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r27 = 0x30010f70
-[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r28 = 0x30010f70
-[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r29 = 0x30010f70
+[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r27 = 0x30100f70
+[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r28 = 0x30100f70
+[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r29 = 0x30100f70
 [! : PPU[1] Thread (CPUThread)[0x000131d0]]: r30 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r31 = 0x30010f70
+[! : PPU[1] Thread (CPUThread)[0x000131d0]]: r31 = 0x30100f70
 [! : PPU[1] Thread (CPUThread)[0x000131d0]]: f0 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x000131d0]]: f1 = 0.000000
 [! : PPU[1] Thread (CPUThread)[0x000131d0]]: f2 = 0.000000

@@ -9,24 +9,16 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01277-[God of War_ Collection Volume II]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x832df17e in 'cellAudio' module
 [E]: TODO: cellAudioAdd6chData
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
-[W]: Unknown function 0x82275c1c in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetMemoryContainerForSpuThread
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
 [E]: TODO: cellSpursWorkloadAttributeSetName
 [W]: Unknown function 0x4e153e3e in 'cellSpurs' module
@@ -35,8 +27,6 @@
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
 [E]: TODO: cellSpursWaitForWorkloadShutdown
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
@@ -183,16 +173,16 @@
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
 [W : PPU[1] Thread (CPUThread)[0x00033698]]: memory warning: sys_memory_container_create(cid_addr=0xd0020bdc, yield_size=0x300000)
 [W : PPU[1] Thread (CPUThread)[0x00033698]]: memory warning: *** memory_container created(addr=0x3f800000): id = 15
-[E : PPU[1] Thread (CPUThread)[0x00f9301c]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00f93004]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x00f93010]]: TODO: cellSpursAttributeSetMemoryContainerForSpuThread
+[W : PPU[1] Thread (CPUThread)[0x00f9301c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd00209d8, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=128)
+[W : PPU[1] Thread (CPUThread)[0x00f93004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00209d8, prefix_addr=0x458ce4, size=0xc)
+[W : PPU[1] Thread (CPUThread)[0x00f93010]]: cellSpurs warning: cellSpursAttributeSetMemoryContainerForSpuThread(attr_addr=0xd00209d8, container=0xf)
 [E : PPU[1] Thread (CPUThread)[0x00f93028]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x00f97094]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x00f97094]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x00f9d124]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmInit(context_addr=0xf4a760,cmdSize=0x400000,ioSize=0x6e00000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmInit(context_addr=0xf4a760,cmdSize=0x400000,ioSize=0x6e00000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x6e00000)
+[W : PPU[1] Thread (CPUThread)[0x00f9d010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x6e00000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00f9d070]]: cellGcmSys warning: cellGcmSetSecondVFrequency(level=2)
 [W : PPU[1] Thread (CPUThread)[0x00f9d0d0]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=5692952)
@@ -218,7 +208,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=24)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041"): fd = 25
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=25)
-[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x6ce8990)
+[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x78b5d2b0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f97004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020954, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -350,10 +340,10 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=58)
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[E : PPU[1] Thread (CPUThread)[0x00f93040]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x00f93040]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x3010c100, info_addr=0xd0020138)
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
 [E : PPU[1] Thread (CPUThread)[0x00f95034]]: sys_fs error: "/app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/config/SurroundReverb.ini" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00f93040]]: TODO: cellSpursGetInfo
+[W : PPU[1] Thread (CPUThread)[0x00f93040]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x3010c100, info_addr=0xd00200a0)
 [E : PPU[1] Thread (CPUThread)[0x00f930ac]]: TODO: _cellSpursWorkloadAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f9304c]]: TODO: cellSpursWorkloadAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f93094]]: TODO: cellSpursAddWorkloadWithAttribute

@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00968-[The Sly Trilogy_]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -34,36 +34,10 @@
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0xa50777c6 in 'sys_net' module
-[E]: TODO: shutdown
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
-[W]: Unknown function 0x1051d134 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeEnableSpuPrintfIfAvailable
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
@@ -82,20 +56,14 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xbb68d76e in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetHaltOnError
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xce853fbf in 'cellSpurs' module
 [E]: TODO: cellSpursTraceStart
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
@@ -106,8 +74,6 @@
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown module 'libgem'
 [W]: Unknown function 0x02f5ced0 in 'cellCamera' module
@@ -136,12 +102,6 @@
 [E]: TODO: cellCameraSetNotifyEventQueue2
 [W]: Unknown function 0xbf47c5dd in 'cellCamera' module
 [E]: TODO: cellCameraInit
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x05709bbf in 'cellMic' module
 [E]: TODO: cellMicOpenEx
 [W]: Unknown function 0x07e1b12c in 'cellMic' module

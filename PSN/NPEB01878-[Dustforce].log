@@ -1,7 +1,4 @@
 [!]: path: /dev_hdd0/game/
-[!]: PKG Loader: Package successfully installed in: /dev_hdd0/game/NPEB01878
-[!]: path: /dev_hdd0/game/
-[!]: scetool: ELF written to D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB01878\USRDIR\BOOT.BIN
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB01878\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -131,8 +128,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xafef640d in 'sceNp' module
@@ -407,7 +402,7 @@
 [W : PPU[1] Thread (CPUThread)[0x004be010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x004be010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x33300000, io=0x0, size=0x200000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00683094]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x291b9e70)
+[W : PPU[1] Thread (CPUThread)[0x00683094]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xad65580)
 [W : PPU[1] Thread (CPUThread)[0x00683004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020990, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x004be094]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1920,height=1080)
 [W : PPU[1] Thread (CPUThread)[0x004be094]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x7e9000,pitch=4,width=1920,height=1080)
@@ -453,18 +448,16 @@
 [W : PPU[1] Thread (CPUThread)[0x006830a0]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00209b8)
 [W : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068b028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [W : PPU[1] Thread (CPUThread)[0x006a5058]]: sys_fs warning: cellFsStat: "/content_ps3/levels/4m00n" not found.
+[W : PPU[1] Thread (CPUThread)[0x006a5058]]: sys_fs warning: cellFsStat: "/content_ps3/levels/Hoard" not found.
+[W : PPU[1] Thread (CPUThread)[0x006a5058]]: sys_fs warning: cellFsStat: "/content_ps3/levels/Retrace" not found.
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x006a5058]]: sys_fs warning: cellFsStat: "/content_ps3/levels/Hoard" not found.
 [W : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [hp_lock] (attribute=0x22): sq_id = 37
 [W : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [hp_lock] (attribute=0x22): sq_id = 38
 [W : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [hp_lock] (attribute=0x22): sq_id = 39
 [W : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [hp_lock] (attribute=0x22): sq_id = 40
 [W : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 41
 [W : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [hp_lock] (attribute=0x22): sq_id = 42
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x006a5058]]: sys_fs warning: cellFsStat: "/content_ps3/levels/Retrace" not found.
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
@@ -500,9 +493,9 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_hollow.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_city.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_crickets.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_wind.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_wind.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_machinery.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_computers.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/ambience/amb_rain.at3" not found! flags: 0x00000000
@@ -516,10 +509,10 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/Fifty FPS Forest.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/It's Not Supposed To Be Snowing.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/Sepia Tone Laboratory.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/A Safe Place to Sleep.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/Baryogenesis.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/Upside Down Stalagmite.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/Pillars of Pepper.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/Cider Time.at3" not found! flags: 0x00000000
@@ -531,9 +524,9 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/music/Introduction.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_wood_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_dirt_1.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_stone_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_stone_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_metal_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_carpet_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_grass_1.at3" not found! flags: 0x00000000
@@ -544,212 +537,208 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_wood_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_dirt_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_stone_2.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_metal_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_metal_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_carpet_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_grass_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_water_2.at3" not found! flags: 0x00000000
 [W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_poly_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_wood_3.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_dirt_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_stone_3.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_metal_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_carpet_3.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_grass_3.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_water_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_grass_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_water_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/footstep/sfx_footstep_poly_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_wood.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_dirt.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_stone.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_metal.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_carpet.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_grass.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_grass.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_water.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_poly.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_wood_loop.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_dirt_loop.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_stone_loop.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_metal_loop.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_carpet_loop.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_grass_loop.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_carpet_loop.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_grass_loop.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_water_loop.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/slide/sfx_slide_poly_loop.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/land/sfx_land_generic_heavy.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/impact/sfx_impact_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/impact/sfx_impact_light_2.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/impact/sfx_impact_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/impact/sfx_impact_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/impact/sfx_impact_heavy_2.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/impact/sfx_impact_heavy_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/impact/sfx_impact_parry.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hill_beep.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hill_get.at3" not found! flags: 0x00000000
+[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=8192)
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hill_score.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hill_score.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_4.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_5.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_4.at3" not found! flags: 0x00000000
-[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=8192)
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_5.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_6.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_7.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_8.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_9.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_10.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_11.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_12.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/damage/sfx_damage_spikes.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/sparks/sfx_sparks_12.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/damage/sfx_damage_spikes.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/damage/sfx_damage.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/shared/sfx_wind_loop.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/mansion/dust/sfx_dust_heavy.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/mansion/dust/sfx_dust_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/mansion/dust/sfx_dust_light_2.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/mansion/dust/sfx_dust_light_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/mansion/dust/sfx_dust_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/mansion/dust/sfx_dust_med.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/forest/leaf/sfx_leaf_heavy.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/forest/leaf/sfx_leaf_light_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/forest/leaf/sfx_leaf_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/forest/leaf/sfx_leaf_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/forest/leaf/sfx_leaf_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/forest/leaf/sfx_leaf_med.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_heavy.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_heavy.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_2.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_4.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_5.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_6.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_overlay_1.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_overlay_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_overlay_3.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_overlay_4.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_overlay_5.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_overlay_5.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_light_overlay_6.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/lab/slime/sfx_slime_med.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_heavy.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_3.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_4.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_4.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_5.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_6.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_7.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_8.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_7.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_8.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_9.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_light_10.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/city/trash/sfx_trash_med.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/other/poly/sfx_poly_heavy.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/other/poly/sfx_poly_light_1.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/other/poly/sfx_poly_light_2.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/other/poly/sfx_poly_light_1.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/other/poly/sfx_poly_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/other/poly/sfx_poly_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/area/other/poly/sfx_poly_med.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/shared/sfx_stone_land.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/bgargoyle/sfx_bgargoyle_attack.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/shared/sfx_stone_land.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/bgargoyle/sfx_bgargoyle_attack.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/bgargoyle/sfx_bgargoyle_footstep.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/bgargoyle/sfx_bgargoyle_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/book/sfx_book_flap.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/book/sfx_book_attack.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/book/sfx_book_land.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/book/sfx_book_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/chest/sfx_chest_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/door/sfx_door_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/door/sfx_door_unlock.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/gargoyle/sfx_gargoyle_fly.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/knight/sfx_knight_attack.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/knight/sfx_knight_block.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/knight/sfx_knight_footstep.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/knight/sfx_knight_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/scroll/sfx_scroll_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/scroll/sfx_scroll_ruffle.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/tchest/sfx_tchest_land.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/tchest/sfx_tchest_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/treasure/sfx_treasure_fly.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/mansion/treasure/sfx_treasure_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/shared/sfx_animal_land.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/bear/sfx_bear_attack.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/bear/sfx_bear_footstep.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/bear/sfx_bear_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/bear/sfx_bear_yawn.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/hawk/sfx_hawk_attack.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/hawk/sfx_hawk_flap.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/hawk/sfx_hawk_flap_leaf.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/porcupine/sfx_porcupine_attack.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/stoneboss/sfx_stoneboss_jump.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/stoneboss/sfx_stoneboss_land.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/stonebro/sfx_stonebro_attack.at3" not found! flags: 0x00000000
-[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/wolf/sfx_wolf_attack.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/forest/wolf/sfx_wolf_footstep.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/lab/barrel/sfx_barrel_attack.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/lab/barrel/sfx_barrel_land.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/lab/barrel/sfx_barrel_attack.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/lab/barrel/sfx_barrel_land.at3" not found! flags: 0x00000000
+[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/lab/slimebeast/sfx_slimebeast_attack.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/lab/slimebeast/sfx_slimebeast_footstep.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/lab/slimebeast/sfx_slimebeast_land.at3" not found! flags: 0x00000000
@@ -769,67 +758,67 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/city/trashcan/sfx_trashcan_attack.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/city/trashcan/sfx_trashcan_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/city/trashtire/sfx_trashtire_bounce.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/city/trashtire/sfx_trashtire_land.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/nexus/sfx_door_stone_open.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/nexus/sfx_door_stone_unlock.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/nexus/sfx_door_wood_open.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/nexus/sfx_door_wood_unlock.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/entity/nexus/sfx_door_unlock.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_score_hit.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_score_hit.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_level_start.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_highlight_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_highlight_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_highlight_3.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_highlight_4.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_select_1.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_select_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_select_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_select_4.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_cancel_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_cancel_2.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_cancel_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_hud_cancel_4.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_piorun.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/interface/sfx_counter.at3" not found! flags: 0x00000000
-[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=12288)
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_ground_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_ground_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_air_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_air_1.at3" not found! flags: 0x00000000
+[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=12288)
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_air_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_wall_1.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/jump/sfx_dm_jump_wall_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/dash/sfx_dm_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/dash/sfx_dm_dash_ground.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/dash/sfx_dm_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/dash/sfx_dm_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/attack/sfx_dm_attack_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/attack/sfx_dm_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/attack/sfx_dm_attack_light_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/attack/sfx_dm_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/attack/sfx_dm_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/attack/sfx_dm_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/special/sfx_dm_special_activate.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/special/sfx_dm_special_hit.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/special/sfx_dm_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustman/special/sfx_dm_special_final.at3" not found! flags: 0x00000000
@@ -841,9 +830,9 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_ground_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_ground_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_air_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_air_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_air_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_wall_1.at3" not found! flags: 0x00000000
@@ -853,61 +842,61 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/jump/sfx_dg_jump_wall_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/dash/sfx_dg_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/dash/sfx_dg_dash_ground.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/dash/sfx_dg_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/dash/sfx_dg_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/attack/sfx_dg_attack_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/attack/sfx_dg_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/attack/sfx_dg_attack_light_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/attack/sfx_dg_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/attack/sfx_dg_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/attack/sfx_dg_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/special/sfx_dg_special_activate.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/special/sfx_dg_special_hit.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/special/sfx_dg_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/special/sfx_dg_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/special/sfx_dg_special_final.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/sweep/sfx_dg_sweep_1.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/sweep/sfx_dg_sweep_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustgirl/sweep/sfx_dg_sweep_3.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_ground_2.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_air_1.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_air_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_air_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_wall_1.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/jump/sfx_dk_jump_wall_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/dash/sfx_dk_dash_air.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/dash/sfx_dk_dash_ground.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/dash/sfx_dk_dash_ground.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/dash/sfx_dk_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/attack/sfx_dk_attack_light_1.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/attack/sfx_dk_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/attack/sfx_dk_attack_light_3.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/attack/sfx_dk_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/attack/sfx_dk_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/special/sfx_dk_special_activate.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/special/sfx_dk_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/special/sfx_dk_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/special/sfx_dk_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/special/sfx_dk_special_final.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/sweep/sfx_dk_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/sweep/sfx_dk_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/sweep/sfx_dk_sweep_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustkid/sweep/sfx_dk_sweep_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_ground_1.at3" not found! flags: 0x00000000
@@ -917,21 +906,21 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_air_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_air_2.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_wall_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/jump/sfx_do_jump_wall_3.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/dash/sfx_do_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/dash/sfx_do_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/dash/sfx_do_dash_ground.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/dash/sfx_do_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/attack/sfx_do_attack_light_1.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/attack/sfx_do_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/attack/sfx_do_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/attack/sfx_do_attack_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/attack/sfx_do_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/attack/sfx_do_attack_heavy_2.at3" not found! flags: 0x00000000
@@ -941,9 +930,9 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/special/sfx_do_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/special/sfx_do_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/special/sfx_do_special_final.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/sweep/sfx_do_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/sweep/sfx_do_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/sweep/sfx_do_sweep_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustworth/sweep/sfx_do_sweep_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/jump/sfx_dw_jump_ground_1.at3" not found! flags: 0x00000000
@@ -957,22 +946,24 @@
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/jump/sfx_dw_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/jump/sfx_dw_jump_wall_1.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/jump/sfx_dw_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/jump/sfx_dw_jump_wall_3.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/dash/sfx_dw_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/dash/sfx_dw_dash_ground.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/dash/sfx_dw_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/attack/sfx_dw_attack_light_1.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/attack/sfx_dw_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/attack/sfx_dw_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/attack/sfx_dw_attack_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/attack/sfx_dw_attack_heavy_1.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/attack/sfx_dw_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/attack/sfx_dw_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/special/sfx_dw_special_activate.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/special/sfx_dw_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/special/sfx_dw_special_ready.at3" not found! flags: 0x00000000
@@ -982,9 +973,9 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/sweep/sfx_dw_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/sweep/sfx_dw_sweep_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/dustwraith/sweep/sfx_dw_sweep_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/jump/sfx_ls_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/jump/sfx_ls_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/jump/sfx_ls_jump_ground_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/jump/sfx_ls_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/jump/sfx_ls_jump_air_1.at3" not found! flags: 0x00000000
@@ -1005,15 +996,15 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/attack/sfx_ls_attack_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/attack/sfx_ls_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/attack/sfx_ls_attack_light_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/attack/sfx_ls_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/attack/sfx_ls_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/attack/sfx_ls_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/special/sfx_ls_special_activate.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/special/sfx_ls_special_hit.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/special/sfx_ls_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/special/sfx_ls_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/special/sfx_ls_special_final.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/sweep/sfx_ls_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/sweep/sfx_ls_sweep_2.at3" not found! flags: 0x00000000
@@ -1022,76 +1013,78 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/leafsprite/sweep/sfx_ls_sweep_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_ground_2.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_air_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_air_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_air_3.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_wall_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_wall_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/jump/sfx_tk_jump_wall_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/dash/sfx_tk_dash_air.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/dash/sfx_tk_dash_ground.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/dash/sfx_tk_dash_ground.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/dash/sfx_tk_fast_fall.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/attack/sfx_tk_attack_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/attack/sfx_tk_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/attack/sfx_tk_attack_light_3.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/attack/sfx_tk_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/attack/sfx_tk_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/attack/sfx_tk_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/special/sfx_tk_special_activate.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/special/sfx_tk_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/special/sfx_tk_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/special/sfx_tk_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/special/sfx_tk_special_final.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/sweep/sfx_tk_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/sweep/sfx_tk_sweep_2.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/sweep/sfx_tk_sweep_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/trashking/sweep/sfx_tk_sweep_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_ground_2.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_air_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_air_2.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_wall_1.at3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/jump/sfx_sb_jump_wall_3.at3" not found! flags: 0x00000000
-[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=8192)
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/dash/sfx_sb_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/dash/sfx_sb_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/dash/sfx_sb_dash_ground.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/dash/sfx_sb_fast_fall.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/attack/sfx_sb_attack_light_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/attack/sfx_sb_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/attack/sfx_sb_attack_light_3.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/attack/sfx_sb_attack_heavy_1.at3" not found! flags: 0x00000000
+[W : PPU[28] Thread (hxThread)[0x004be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=8192)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/attack/sfx_sb_attack_heavy_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/attack/sfx_sb_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/special/sfx_sb_special_activate.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/special/sfx_sb_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/special/sfx_sb_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/special/sfx_sb_special_ready.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/special/sfx_sb_special_final.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/sweep/sfx_sb_sweep_1.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/sweep/sfx_sb_sweep_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/sweep/sfx_sb_sweep_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/slimeboss/sweep/sfx_sb_sweep_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_ground_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_ground_2.at3" not found! flags: 0x00000000
@@ -1100,14 +1093,14 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_ground_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_air_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_air_2.at3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_air_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_wall_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_wall_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/jump/sfx_vdm_jump_wall_3.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/dash/sfx_vdm_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/dash/sfx_vdm_dash_air.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/dash/sfx_vdm_dash_ground.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/dash/sfx_vdm_fast_fall.at3" not found! flags: 0x00000000
@@ -1117,9 +1110,9 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/attack/sfx_vdm_attack_light_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/attack/sfx_vdm_attack_light_3.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/attack/sfx_vdm_attack_heavy_1.at3" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/attack/sfx_vdm_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/attack/sfx_vdm_attack_heavy_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/special/sfx_vdm_special_activate.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/special/sfx_vdm_special_hit.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/special/sfx_vdm_special_ready.at3" not found! flags: 0x00000000
@@ -1129,85 +1122,41 @@
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/sweep/sfx_vdm_sweep_1.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/sweep/sfx_vdm_sweep_2.at3" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x006a504c]]: sys_fs error: "/content_ps3/audio/sfx/player/vdustman/sweep/sfx_vdm_sweep_3.at3" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 46
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro0" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro0" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
 [W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 47
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[W : PPU[28] Thread (hxThread)[0x004be04c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro1" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro1" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[W : PPU[28] Thread (hxThread)[0x004be04c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 48
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro2" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro2" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x2)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro2" not found! flags: 0x00000000
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
 [W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 49
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro3" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro3" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 50
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro4" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro4" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 51
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro5" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro5" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 52
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro6" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro6" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 53
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro7" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro7" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 54
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro8" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro8" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 55
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro9" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro9" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 56
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro10" not found! flags: 0x00000000
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro10" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 57
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro11" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro11" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 58
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro12" not found! flags: 0x00000000
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
 [! : RSXThread]: *** fp id = 1
 [! : RSXThread]: *** vp data size = 176
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [! : RSXThread]: *** fp data size = 48
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [! : RSXThread]: *** vp shader = 
 #version 330
 
@@ -1256,30 +1205,60 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1920x1080)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro3" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 50
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro4" not found! flags: 0x00000000
+[E : RSXThread]: GetAddress(offset=0xff, location=0x2434f660)
+[E : RSXThread]: GetAddress(offset=0xff, location=0x2434f780)
+[E : RSXThread]: Bad texture address=0x0
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro4" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 51
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro5" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro5" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 52
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro6" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro6" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 53
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro7" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro7" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 54
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro8" not found! flags: 0x00000000
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro8" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 55
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro9" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro9" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 56
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro10" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro10" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 57
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro11" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro11" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 58
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro12" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro12" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
 [W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 59
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro13" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro13" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 60
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro14" not found! flags: 0x00000000
-[E : RSXThread]: GetAddress(offset=0xff, location=0x2c2fe1f0)
-[E : RSXThread]: GetAddress(offset=0xff, location=0x2c2fe330)
-[E : RSXThread]: Bad texture address=0x0
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro14" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 61
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro15" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro15" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 62
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro16" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro16" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
@@ -1337,18 +1316,15 @@ void main()
 	ocol = r0;
 }
 
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 63
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro17" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro17" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 60
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro14" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro14" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 61
+[W : RSXThread]: FP not found in buffer!
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[W : RSXThread]: FP not found in buffer!
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro18" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro18" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 65
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro15" not found! flags: 0x00000000
 [! : RSXThread]: Add program (2):
 [! : RSXThread]: *** prog id = 5
 [! : RSXThread]: *** vp id = 2
@@ -1394,26 +1370,24 @@ void main()
 	ocol = r0;
 }
 
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro19" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro19" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro15" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 62
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro16" not found! flags: 0x00000000
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [W : RSXThread]: VP not found in buffer!
-[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 66
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/title" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/title" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [! : RSXThread]: Add program (3):
 [! : RSXThread]: *** prog id = 6
 [! : RSXThread]: *** vp id = 2
 [! : RSXThread]: *** fp id = 1
 [! : RSXThread]: *** vp data size = 176
 [! : RSXThread]: *** fp data size = 16
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro16" not found! flags: 0x00000000
 [! : RSXThread]: *** vp shader = 
 #version 330
 
@@ -1460,6 +1434,27 @@ void main()
 	ocol = r0;
 }
 
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 63
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro17" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro17" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 64
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro18" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro18" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 65
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/intro19" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/intro19" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
+[W : PPU[1] Thread (CPUThread)[0x006a704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 66
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites/title" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00351c98]]: sys_fs error: "/content_ps3/sprites_ppu/title" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006a70b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x33208030)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
@@ -1481,26 +1476,17 @@ void main()
 [W : PPU[1] Thread (CPUThread)[0x00699064]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x63be20, commID_addr=0x47ab00, commSign_addr=0x47ab0c, options=0x0)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x00699010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x63be24)
-[E : PPU[1] Thread (CPUThread)[0x0069901c]]: sceNpTrophy error: Unimplemented function: sceNpTrophyGetRequiredDiskSpace
-[W : PPU[1] Thread (CPUThread)[0x00699004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x4dc8f0, arg_addr=0x0, options=0x0)
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x0069901c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020550, options=0x0)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [W : PPU[28] Thread (hxThread)[0x004be04c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
-[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x2)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
@@ -1610,10 +1596,50 @@ void main()
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[W : PPU[28] Thread (hxThread)[0x004be04c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x2)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
 [W : PPU[28] Thread (hxThread)[0x004be04c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x2)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[W : PPU[28] Thread (hxThread)[0x004be04c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x2)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
+[E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x4)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x00689118]]: TODO: _cellSpursSendSignal
 [E : PPU[36] Thread (_Multi_Stream_Update_Thread)[0x0068901c]]: TODO: cellSpursEventFlagWait

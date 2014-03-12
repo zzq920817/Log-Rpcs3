@@ -1,0 +1,52 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB01386\USRDIR\BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\
+[!]: /dev_hdd1/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd1\
+[!]: /dev_flash/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_flash\
+[!]: /dev_usb000/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_usb000\
+[!]: /dev_usb/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_usb000\
+[!]: /app_home/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB01386\
+[!]: /dev_bdvd/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB01386\\..\
+[!]: /host_root/ -> 
+[!]: / -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB01386\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
+[E]: TODO: sceNpDrmProcessExitSpawn2
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00017660]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00043028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0001f004]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x200c0, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0001b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[E : PPU[1] Thread (CPUThread)[0x0001d010]]: TODO: sceNpInit
+[E : PPU[1] Thread (CPUThread)[0x0001d01c]]: TODO: sceNpDrmProcessExitSpawn2
+[E : PPU[1] Thread (CPUThread)[0x0001d004]]: TODO: sceNpTerm
+[W : PPU[1] Thread (CPUThread)[0x0001b004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00010b44]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x10b44
+[W : PPU[1] Thread (CPUThread)[0x000110b8]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x110b8
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x41190)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x411b8)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x411e0)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x410c8)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x410f0)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x41118)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x41140)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x41168)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x41a00)
+[W : PPU[1] Thread (CPUThread)[0x0004307c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x41c00)
+[W : PPU[1] Thread (CPUThread)[0x00043088]]: Process warning: sys_process_exit(0)
+[S : PPU[1] Thread (CPUThread)[0x00043088]]: Process finished
+[!]: Closing memory...

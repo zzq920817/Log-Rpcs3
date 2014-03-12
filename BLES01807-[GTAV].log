@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01807-[GTAV]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0a563878 in 'cellVoice' module
@@ -56,8 +56,6 @@
 [W]: Unknown module 'sceNpCommerce2'
 [W]: Unknown function 0x039d70b7 in 'cellSpurs' module
 [E]: TODO: cellSpursQueueDetachLv2EventQueue
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x082bfb09 in 'cellSpurs' module
 [E]: TODO: _cellSpursQueueInitialize
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
@@ -74,8 +72,6 @@
 [E]: TODO: _cellSpursJobChainAttributeInitialize
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
@@ -102,8 +98,6 @@
 [E]: TODO: cellSpursQueuePopBody
 [W]: Unknown function 0x9197915f in 'cellSpurs' module
 [E]: TODO: cellSpursTaskGenerateLsPattern
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
@@ -114,14 +108,10 @@
 [E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbb68d76e in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetHaltOnError
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
@@ -130,8 +120,6 @@
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc765b995 in 'cellSpurs' module
 [E]: TODO: cellSpursGetWorkloadFlag
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xe5443be7 in 'cellSpurs' module
 [E]: TODO: cellSpursQueueAttachLv2EventQueue
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
@@ -140,78 +128,18 @@
 [E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0ce13c6b in 'cellNetCtl' module
-[E]: TODO: cellNetCtlAddHandler
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0x3a12865f in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetNatInfo
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0x901815c3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlDelHandler
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
-[W]: Unknown function 0x3b27c780 in 'sys_net' module
-[E]: TODO: sys_net_get_sockinfo
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0x7687d48c in 'sys_net' module
-[E]: TODO: sys_net_set_resolver_configurations
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x8af3825e in 'sys_net' module
-[E]: TODO: inet_pton
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xa50777c6 in 'sys_net' module
-[E]: TODO: shutdown
-[W]: Unknown function 0xa765d029 in 'sys_net' module
-[E]: TODO: sys_net_get_sockinfo_ex
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb48636c4 in 'sys_net' module
-[E]: TODO: sys_net_show_ifconfig
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
 [W]: Unknown function 0xc98a3146 in 'sys_net' module
 [E]: TODO: inet_ntop
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0xfdb8f926 in 'sys_net' module
-[E]: TODO: sys_net_free_thread_context
-[W]: Unknown function 0x0d5b4a14 in 'sys_fs' module
-[E]: TODO: cellFsReadWithOffset
 [W]: Unknown function 0x7a0329a1 in 'sys_fs' module
 [E]: TODO: cellFsAllocateFileAreaWithoutZeroFill
 [W]: Unknown function 0x8cb722d5 in 'sys_fs' module
@@ -260,8 +188,6 @@
 [E]: TODO: sceNpManagerGetTicket
 [W]: Unknown function 0x155de760 in 'sceNp' module
 [E]: TODO: sceNpSignalingGetConnectionInfo
-[W]: Unknown function 0x168fcece in 'sceNp' module
-[E]: TODO: sceNpManagerGetAccountAge
 [W]: Unknown function 0x27c69eba in 'sceNp' module
 [E]: TODO: sceNpBasicAddFriend
 [W]: Unknown function 0x34ce82a0 in 'sceNp' module
@@ -310,8 +236,6 @@
 [E]: TODO: sceNpSignalingGetLocalNetInfo
 [W]: Unknown function 0xa1709abd in 'sceNp' module
 [E]: TODO: sceNpManagerGetEntitlementById
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xa8cf8451 in 'sceNp' module
 [E]: TODO: sceNpSignalingDestroyCtx
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
@@ -419,106 +343,1182 @@
 [W]: Unknown function 0xfee11e72 in 'sceNp2' module
 [E]: TODO: sceNpMatching2RegisterRoomMessageCallback
 [W]: Unknown module 'sceNpSns'
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
 [W : PPU[1] Thread (CPUThread)[0x000104b4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b4c)
-[W : PPU[1] Thread (CPUThread)[0x01a6e010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x01a6e004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x01a6e010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_VOICE)
-[W : PPU[1] Thread (CPUThread)[0x01a6e004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
-[W : PPU[1] Thread (CPUThread)[0x01a6e010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x01a6e004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x01a6e010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TUS)
-[W : PPU[1] Thread (CPUThread)[0x01a6e004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
-[W : PPU[1] Thread (CPUThread)[0x01a6e010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x01a6e004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x02175010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x02175010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_VOICE)
+[W : PPU[1] Thread (CPUThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+[W : PPU[1] Thread (CPUThread)[0x02175010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x02175010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+[W : PPU[1] Thread (CPUThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+[W : PPU[1] Thread (CPUThread)[0x02175010]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x00010504]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b44)
-[E : PPU[1] Thread (CPUThread)[0x020a8124]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a816c]]: TODO: cellSpursAttributeSetSpuThreadGroupType
-[E : PPU[1] Thread (CPUThread)[0x020a8010]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x020a8178]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x020a8124]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a8010]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x020a8178]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1d31500, attr_addr=0xd0020a78, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 12
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1d31504, attr_addr=0xd0020a78, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 13
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1d31508, attr_addr=0xd0020a78, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 14
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1d3150c, attr_addr=0xd0020a78, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
-[W : PPU[1] Thread (CPUThread)[0x009e5fe0]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 15
+[W : PPU[1] Thread (CPUThread)[0x02183124]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0x1de9030, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=200)
+[W : PPU[1] Thread (CPUThread)[0x0218316c]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0x1de9030, type=24)
+[W : PPU[1] Thread (CPUThread)[0x02183010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0x1de9030, prefix_addr=0x176de0c, size=0x7)
+[E : PPU[1] Thread (CPUThread)[0x02183178]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x02183124]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0x1de9230, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=201)
+[W : PPU[1] Thread (CPUThread)[0x02183010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0x1de9230, prefix_addr=0x173facc, size=0x9)
+[E : PPU[1] Thread (CPUThread)[0x02183178]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1dfd700, attr_addr=0xd0020a78, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 12
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1dfd704, attr_addr=0xd0020a78, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 13
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1dfd708, attr_addr=0xd0020a78, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 14
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1dfd70c, attr_addr=0xd0020a78, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
+[W : PPU[1] Thread (CPUThread)[0x00a37830]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 15
 [W : PPU[1] Thread (CPUThread)[0x00010514]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b3c)
 [W : PPU[1] Thread (CPUThread)[0x00010520]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b34)
-[W : PPU[1] Thread (CPUThread)[0x00a39818]]: vm warning: sys_vm_memory_map(vsize=0x2000000,psize=0x1290000,cidr=0xffffffff,flags=0x200,policy=0x1,addr=0x1b55bd8)
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 16
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 17
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 18
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 19
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 20
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 21
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 22
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 23
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 24
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 25
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 26
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 27
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 28
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 29
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 30
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 31
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 32
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 33
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 34
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 35
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 36
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 37
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 38
-[E : PPU[1] Thread (CPUThread)[0x020a8028]]: TODO: _cellSpursTasksetAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a8094]]: TODO: cellSpursTasksetAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x020a81b4]]: TODO: cellSpursCreateTasksetWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x020a8088]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a8184]]: TODO: _cellSpursTaskAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a8040]]: TODO: cellSpursCreateTaskWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x020a8028]]: TODO: _cellSpursTasksetAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a8094]]: TODO: cellSpursTasksetAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x020a81b4]]: TODO: cellSpursCreateTasksetWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x020a8088]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a8184]]: TODO: _cellSpursTaskAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x020a8040]]: TODO: cellSpursCreateTaskWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 39
-[W : PPU[1] Thread (CPUThread)[0x013ab03c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x013ab03c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=32, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 42
-[W : PPU[1] Thread (CPUThread)[0x013ab03c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x013ab03c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=32, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 45
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 46
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 47
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 48
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 49
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 50
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 51
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 52
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 53
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 54
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 55
-[E : PPU[1] Thread (CPUThread)[0x020b4154]]: TODO: sceNpManagerGetStatus
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 56
-[W : PPU[1] Thread (CPUThread)[0x0209e034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 57
-[!]: Closing memory...
+[W : PPU[1] Thread (CPUThread)[0x00a97378]]: vm warning: sys_vm_memory_map(vsize=0x2000000,psize=0x1290000,cidr=0xffffffff,flags=0x200,policy=0x1,addr=0x1c1a6d8)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 34
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 36
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 38
+[E : PPU[1] Thread (CPUThread)[0x02183028]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183094]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x021831b4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183088]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183184]]: TODO: _cellSpursTaskAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183040]]: TODO: cellSpursCreateTaskWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183028]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183094]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x021831b4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183088]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183184]]: TODO: _cellSpursTaskAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183040]]: TODO: cellSpursCreateTaskWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=32, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a10, attr_addr=0xd0020a18, initial_count=32, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 46
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 47
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 48
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 52
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 53
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 54
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 55
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 56
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 58
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 60
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 61
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 63
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 66
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 71
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 73
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 75
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 76
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a00, attr_addr=0xd0020a08, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00209d0, attr_addr=0xd00209d8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00209d0, attr_addr=0xd00209d8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020a80, attr_addr=0xd0020a88, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 85
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 86
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 87
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 88
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 89
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 90
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 91
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 92
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 93
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 94
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 95
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 97
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 98
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 99
+[W : PPU[1] Thread (CPUThread)[0x00b7fd48]]: sys_mutex warning: TODO: SYS_SYNC_PRIORITY_INHERIT protocol
+[W : PPU[1] Thread (CPUThread)[0x00b7fd48]]: sys_mutex warning: *** mutex created [] (protocol=0x3, recursive=false): id = 100
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 101
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 102
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 103
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 104
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 107
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 109
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 110
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 111
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 113
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 114
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 115
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 116
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 117
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 118
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 119
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020aa0, attr_addr=0xd0020aa8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020aa0, attr_addr=0xd0020aa8, initial_count=3, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 122
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020aa0, attr_addr=0xd0020aa8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020aa0, attr_addr=0xd0020aa8, initial_count=3, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 125
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 127
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 128
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 129
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 130
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 131
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 132
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 133
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 134
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208c0, attr_addr=0xd00208c8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 136
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 137
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 138
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 139
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 140
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 141
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 142
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 143
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 144
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 145
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 146
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 147
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 148
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 149
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 150
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 151
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 152
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 153
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 154
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 155
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 156
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 157
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 158
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 159
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00209e0, attr_addr=0xd00209e8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00209e0, attr_addr=0xd00209e8, initial_count=32, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 162
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 163
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 164
+[E : PPU[1] Thread (CPUThread)[0x0217b01c]]: TODO: cellSheapInitialize
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 165
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 166
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 167
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 168
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 169
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208b0, attr_addr=0xd00208b8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 171
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208b0, attr_addr=0xd00208b8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 173
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 174
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 175
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 176
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 177
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 178
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 179
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 180
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 181
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 182
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 183
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 184
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 185
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 186
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 187
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 188
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 189
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 190
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 191
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 192
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 193
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 194
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 195
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 196
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 197
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 198
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 199
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 200
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 201
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 202
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 203
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 204
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 205
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 206
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 207
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 208
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 209
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 210
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 211
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 212
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 213
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 214
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 215
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 216
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 217
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 218
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 219
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 220
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 221
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 222
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 223
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 224
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 225
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 226
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 227
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 228
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 229
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 230
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 231
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 232
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 233
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 234
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 235
+[W : PPU[1] Thread (CPUThread)[0x00a94f04]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x02187004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020ad0)
+[E : PPU[1] Thread (CPUThread)[0x02185064]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[E : PPU[1] Thread (CPUThread)[0x021870dc]]: sys_net error: Unimplemented function: sys_net_show_ifconfig
+[E : PPU[1] Thread (CPUThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183028]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183094]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x021831b4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183088]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x021830e8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x02183034]]: TODO: cellSpursTaskGetLoadableSegmentPattern
+[E : PPU[1] Thread (CPUThread)[0x021830c4]]: TODO: cellSpursTaskGetReadOnlyAreaPattern
+[E : PPU[1] Thread (CPUThread)[0x02183118]]: TODO: cellSpursTaskGenerateLsPattern
+[E : PPU[1] Thread (CPUThread)[0x02183100]]: TODO: cellSpursTaskGetContextSaveAreaSize
+[E : PPU[1] Thread (CPUThread)[0x021831a8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x021831a8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x021831a8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x021831a8]]: TODO: cellSpursCreateTask
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020a30)
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x0219d094]]: TODO: sceNp2Init
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x02191040]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020960, attributes_addr=0xd0020964, size_addr=0xd0020968, dirName_addr=0xd0020978)
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x0219101c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020998, usrdirPath_addr=0xd0020a18)
+[W : PPU[1] Thread (CPUThread)[0x0217501c]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x02191034]]: TODO: cellGameDataCheck
+[E : PPU[1] Thread (CPUThread)[0x0219101c]]: TODO: cellGameContentPermit
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x02191034]]: TODO: cellGameDataCheck
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x0219101c]]: TODO: cellGameContentPermit
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home//common.rpf" not found.
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/common.rpf"): fd = 237
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=237, offset=0x0, buf_addr=0xd0020320, buffer_size=16 nread=0xf6b8d0020270)
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=237, offset=0x10, buf_addr=0x31a32e90, buffer_size=26064 nread=0xf6b8d0020270)
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[E : PPU[236] Thread ([RAGE] Dependency)[0x02183070]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=237, offset=0x65e0, buf_addr=0x31a39470, buffer_size=28736 nread=0xf6b8d0020270)
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ps3.rpf"): fd = 238
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=238, offset=0x0, buf_addr=0xd0020320, buffer_size=16 nread=0xf6b8d0020270)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=238, offset=0x10, buf_addr=0x31a43000, buffer_size=11216 nread=0xf6b8d0020270)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=238, offset=0x2be0, buf_addr=0x31a45be0, buffer_size=12832 nread=0xf6b8d0020270)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=238, offset=0x8fd02600, buf_addr=0x1e1dc80, buffer_size=244 nread=0xf6b8d001ff40)
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/audio_rel.rpf"): fd = 239
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=239, offset=0x0, buf_addr=0xd0020050, buffer_size=16 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=239, offset=0x10, buf_addr=0x319fc850, buffer_size=208 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=239, offset=0xe0, buf_addr=0x31a2ce10, buffer_size=208 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/sfx/audio_cs.rpf"): fd = 240
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=240, offset=0x0, buf_addr=0xd0020050, buffer_size=16 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=240, offset=0x10, buf_addr=0x31a49390, buffer_size=6640 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=240, offset=0x1a00, buf_addr=0x31a4ad90, buffer_size=14432 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/sfx/audio_misc.rpf"): fd = 241
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=241, offset=0x0, buf_addr=0xd0020050, buffer_size=16 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=241, offset=0x10, buf_addr=0x31a4e940, buffer_size=43664 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=241, offset=0xaaa0, buf_addr=0x31a593e0, buffer_size=64576 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/sfx/audio_music.rpf"): fd = 242
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=242, offset=0x0, buf_addr=0xd0020050, buffer_size=16 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=242, offset=0x10, buf_addr=0x31a6a590, buffer_size=2544 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=242, offset=0xa00, buf_addr=0x31a6af90, buffer_size=3552 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/sfx/audio_radio.rpf"): fd = 243
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=243, offset=0x0, buf_addr=0xd0020050, buffer_size=16 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=243, offset=0x10, buf_addr=0x31a6bec0, buffer_size=12304 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=243, offset=0x3020, buf_addr=0x31a6eee0, buffer_size=9600 nread=0xf6b8d001ffa0)
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/common/data/installpartitions.meta" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=237, offset=0x107000, buf_addr=0x1e32518, buffer_size=298 nread=0xf6b8d001fd40)
+[W : PPU[1] Thread (CPUThread)[0x0218d028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01807\')
+[E : PPU[1] Thread (CPUThread)[0x02191034]]: TODO: cellGameDataCheck
+[E : PPU[1] Thread (CPUThread)[0x0219101c]]: TODO: cellGameContentPermit
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home//part0.rpf" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/part0.rpf"): fd = 244
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=244, offset=0x0, buf_addr=0xd001fd30, buffer_size=16 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=244, offset=0x10, buf_addr=0x31a73b40, buffer_size=6768 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=244, offset=0x1a80, buf_addr=0x31a755c0, buffer_size=5408 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home//part1.rpf" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/part1.rpf"): fd = 245
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=245, offset=0x0, buf_addr=0xd001fd30, buffer_size=16 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=245, offset=0x10, buf_addr=0x31a76e40, buffer_size=3744 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=245, offset=0xeb0, buf_addr=0x31a77cf0, buffer_size=3168 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home//part2.rpf" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/part2.rpf"): fd = 246
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=246, offset=0x0, buf_addr=0xd001fd30, buffer_size=16 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=246, offset=0x10, buf_addr=0x31a78b40, buffer_size=2752 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=246, offset=0xad0, buf_addr=0x31a79610, buffer_size=2192 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home//part3.rpf" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/part3.rpf"): fd = 247
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=247, offset=0x0, buf_addr=0xd001fd30, buffer_size=16 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=247, offset=0x10, buf_addr=0x31a41690, buffer_size=2240 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=247, offset=0x8d0, buf_addr=0x31a7a010, buffer_size=1824 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/part4.rpf"): fd = 248
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=248, offset=0x0, buf_addr=0xd001fd30, buffer_size=16 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=248, offset=0x10, buf_addr=0x319cd720, buffer_size=112 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=248, offset=0x80, buf_addr=0x319cd790, buffer_size=96 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home//common.rpf" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189058]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/common.rpf"): fd = 249
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=249, offset=0x0, buf_addr=0xd001fd30, buffer_size=16 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=249, offset=0x10, buf_addr=0x31a7a860, buffer_size=26064 nread=0xf6b8d001fc80)
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=249, offset=0x65e0, buf_addr=0x31a80e40, buffer_size=28736 nread=0xf6b8d001fc80)
+[E : PPU[1] Thread (CPUThread)[0x02191034]]: TODO: cellGameDataCheck
+[E : PPU[1] Thread (CPUThread)[0x0219101c]]: TODO: cellGameContentPermit
+[W : PPU[1] Thread (CPUThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0217501c]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home/update:/update.rpf" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home/update:/common/data/gameconfig.xml" not found.
+[W : PPU[1] Thread (CPUThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=249, offset=0x85600, buf_addr=0x1e32518, buffer_size=6190 nread=0xf6b8d00204a0)
+[E : PPU[1] Thread (CPUThread)[0x02183028]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183094]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x021831b4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183088]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183088]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x021830e8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x021830c4]]: TODO: cellSpursTaskGetReadOnlyAreaPattern
+[E : PPU[1] Thread (CPUThread)[0x02183118]]: TODO: cellSpursTaskGenerateLsPattern
+[E : PPU[1] Thread (CPUThread)[0x02183100]]: TODO: cellSpursTaskGetContextSaveAreaSize
+[E : PPU[1] Thread (CPUThread)[0x021831a8]]: TODO: cellSpursCreateTask
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207d0, attr_addr=0xd00207d8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207d0, attr_addr=0xd00207d8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020850)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020880, attr_addr=0xd0020888, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [mutex] (attribute=0x11): sq_id = 254
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020900)
+[E : PPU[1] Thread (CPUThread)[0x02183028]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183094]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x021831b4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02183088]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x02183088]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x021830e8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x021830c4]]: TODO: cellSpursTaskGetReadOnlyAreaPattern
+[E : PPU[1] Thread (CPUThread)[0x02183118]]: TODO: cellSpursTaskGenerateLsPattern
+[E : PPU[1] Thread (CPUThread)[0x02183100]]: TODO: cellSpursTaskGetContextSaveAreaSize
+[E : PPU[1] Thread (CPUThread)[0x021831a8]]: TODO: cellSpursCreateTask
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207d0, attr_addr=0xd00207d8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207d0, attr_addr=0xd00207d8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020850)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020880, attr_addr=0xd0020888, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [mutex] (attribute=0x11): sq_id = 260
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020900)
+[W : PPU[1] Thread (CPUThread)[0x0218d0d0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x1b75298, userdata=0x31aac0d0)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208b0, attr_addr=0xd00208b8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208b0, attr_addr=0xd00208b8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208b0, attr_addr=0xd00208b8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01452174]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208b0, attr_addr=0xd00208b8, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [mutex] (attribute=0x11): sq_id = 266
+[W : PPU[1] Thread (CPUThread)[0x00a94bb4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020930)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02175004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x02197010]]: TODO: cellVideoOutSetGamma
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x0218d034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00a08f0)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x0217501c]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AVCONF_EXT)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02195010]]: cellGcmSys warning: cellGcmInit(context_addr=0x21735b4,cmdSize=0x300000,ioSize=0xd000000,ioAddress=0x31500000)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02195010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02195010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31500000, io=0x0, size=0xd000000)
+[! : RSXThread]: RSX thread entry
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x02195064]]: TODO: cellGcmMapEaIoAddressWithFlags
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02179034]]: sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 268
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x0219507c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x0219507c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x0218d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00a0810, option_addr=0x0, waitForEvent=0x1)
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x02183064]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x0218313c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x0218319c]]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x02183058]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x021831e4]]: TODO: cellSpursRunJobChain
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home/update:/common/shaders/psn_final/im.cgx" not found.
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=249, offset=0xa13a00, buf_addr=0x1e32518, buffer_size=8192 nread=0xf6b8d00a0140)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=249, offset=0xa15a00, buf_addr=0x1e32518, buffer_size=8192 nread=0xf6b8d00a0140)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02189004]]: sys_fs warning: cellFsReadWithOffset(fd=249, offset=0xa17a00, buf_addr=0x1e32518, buffer_size=5297 nread=0xf6b8d00a0140)
+[W : PPU[267] Thread ([RAGE] RenderThread)[0x02189070]]: sys_fs warning: cellFsStat: "/app_home/update:/common/shaders/psn_final/im.cgx" not found.
+[E : PPU[267] Thread ([RAGE] RenderThread)[0x00b94a04]]: Read8 from null block: [42fe3f6b]
+[! : RSXThread]: RSX thread exit...

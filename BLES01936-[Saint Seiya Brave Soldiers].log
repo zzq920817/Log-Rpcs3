@@ -1,25 +1,21 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01936-[Saint Seiya Brave Soldiers]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x0d5b4a14 in 'sys_fs' module
-[E]: TODO: cellFsReadWithOffset
 [W]: Unknown function 0x8cb722d5 in 'sys_fs' module
 [E]: TODO: cellFsWriteWithOffset
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
@@ -96,8 +92,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xad218faf in 'sceNp' module
@@ -196,14 +190,8 @@
 [E]: TODO: sceNpMatching2Init2
 [W]: Unknown module 'sceNpTus'
 [W]: Unknown module 'cellSysutilAvc2'
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
@@ -216,8 +204,6 @@
 [E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
@@ -234,8 +220,6 @@
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
@@ -247,52 +231,12 @@
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0xf9b1896d in 'cellL10n' module
 [E]: TODO: SJISstoUCS2s
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x8d1b77fb in 'sys_net' module
-[E]: TODO: sys_net_abort_socket
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb48636c4 in 'sys_net' module
-[E]: TODO: sys_net_show_ifconfig
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x3929948d in 'cellSync' module
 [E]: TODO: cellSyncQueueInitialize
 [W]: Unknown function 0x4da349b2 in 'cellSync' module
@@ -359,16 +303,16 @@
 [W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 [W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 34
-[W : PPU[1] Thread (CPUThread)[0x0102a004]]: cellGcmSys warning: cellGcmInit(context_addr=0x1b954e0,cmdSize=0xc0000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x0102a004]]: cellGcmSys warning: cellGcmInit(context_addr=0x1b954e0,cmdSize=0xc0000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x0102a004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x0102a004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x0102a004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 35
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 36
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 37
-[W : PPU[1] Thread (CPUThread)[0x0102a0b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30416000,size=0x800000,offset_addr=0xd00208a0)
+[W : PPU[1] Thread (CPUThread)[0x0102a0b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x800000,offset_addr=0xd00208a0)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xbe446e90)
+[W : PPU[1] Thread (CPUThread)[0x0102e124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xde150e60)
 [W : PPU[1] Thread (CPUThread)[0x0102e118]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209b0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0102a064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -382,6 +326,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=2)
 [W : PPU[1] Thread (CPUThread)[0x0102e148]]: cellSysutil warning: cellAudioOutGetConfiguration(audioOut=0, config_addr=0xd0020940, option_addr=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0102e148]]: cellSysutil warning: cellAudioOutGetConfiguration(audioOut=0, config_addr=0xd00209c0, option_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0102e13c]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd00209c0, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x0102e154]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00209d0)
 [W : PPU[1] Thread (CPUThread)[0x01dc2010]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 38
@@ -434,10 +380,773 @@
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 84
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 85
 [W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 86
-[W : PPU[1] Thread (CPUThread)[0x01dd80c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x303f3540): id = 87
+[W : PPU[1] Thread (CPUThread)[0x01dd80c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x304e3540): id = 87
 [W : PPU[1] Thread (CPUThread)[0x0102c01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : Audio Thread]: Audio aborted
+[W : PPU[1] Thread (CPUThread)[0x01dd207c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x304e3510, commID_addr=0xb24848, commSign_addr=0xb248d4, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01dd2010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x304e3514)
+[W : PPU[1] Thread (CPUThread)[0x01dd201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020470, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0102c01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01db0034]]: cellGame warning: cellGameBootCheck(type_addr=0xd00201f0, attributes_addr=0xd00201f4, size_addr=0xd00201f8, dirName_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01db0040]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd00202f0, bufsize=10)
+[W : PPU[1] Thread (CPUThread)[0x01db0040]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0xd0020400, bufsize=128)
+[W : PPU[1] Thread (CPUThread)[0x01db0040]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0xd00202e8, bufsize=6)
+[W : PPU[1] Thread (CPUThread)[0x01db0004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020300, usrdirPath_addr=0xd0020380)
+[W : PPU[1] Thread (CPUThread)[0x0102c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x0102c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01db0034]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020574, attributes_addr=0xd0020570, size_addr=0xd0020578, dirName_addr=0xd00206d0)
+[W : PPU[1] Thread (CPUThread)[0x01db0004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1b8ff34, usrdirPath_addr=0x1b8ffb4)
+[W : PPU[88] Thread (Installer:Setup)[0x0102c01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+[E : PPU[88] Thread (Installer:Setup)[0x01db0028]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[88] Thread (Installer:Setup)[0x01db0004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00407a8, usrdirPath_addr=0xd0040828)
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_content_EU.lst"): fd = 89
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=89, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=104 nread=0x3bc8d00404e0)
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=89, offset=0x0, buf_addr=0x32660280, buffer_size=104 nread=0x3bc8d0040590)
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=89)
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/ICON0.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/ICON0.PNG"): fd = 90
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=90)
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/ICON0_17.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/ICON0_17.PNG"): fd = 91
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=91)
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/PIC1.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/PIC1.PNG"): fd = 92
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=92)
+[E : PPU[88] Thread (Installer:Setup)[0x01028034]]: sys_fs error: "/PIC1_17.PNG" not found! flags: 0x00000000
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/PIC1_17.PNG"): fd = 93
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=93)
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/resource/save/install_data.lst"): fd = 94
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=94, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=14 nread=0x3bc8d00404e0)
+[W : PPU[88] Thread (Installer:Setup)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=94, offset=0x0, buf_addr=0x30152060, buffer_size=14 nread=0x3bc8d0040590)
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=94)
+[W : PPU[88] Thread (Installer:Setup)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 95
+[W : PPU[88] Thread (Installer:Setup)[0x01028004]]: sys_fs warning: cellFsClose(fd=95)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 97
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(97)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=97): id = 98
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=99, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 101
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(101)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=101): id = 102
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=103, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 105
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(105)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=105): id = 106
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=107, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 109
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(109)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=109): id = 110
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=111, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 113
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(113)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=113): id = 114
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=115, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
+[W : PPU[1] Thread (CPUThread)[0x008b72c8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 117
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition on recursive mutex(117)
+[W : PPU[1] Thread (CPUThread)[0x008b7318]]: sys_cond warning: *** condition created [] (mutex_id=117): id = 118
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=119, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 120
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 121
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 122
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 123
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 124
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 125
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 128
+[W : PPU[1] Thread (CPUThread)[0x01dd804c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 129
+[W : PPU[1] Thread (CPUThread)[0x008af250]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=130, prio=500)
+[W : PPU[99] Thread (CRI FS File Access 0)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 131
+[W : PPU[99] Thread (CRI FS File Access 0)[0x01028004]]: sys_fs warning: cellFsClose(fd=131)
+[W : PPU[99] Thread (CRI FS File Access 0)[0x01028034]]: *** cellFsOpen(path="/resource.cpk"): fd = 132
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/VsUserShader.emz"): fd = 133
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=133, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=133, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=95037 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=133)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/PsUserShader.emz"): fd = 134
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=134, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=134, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=63787 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=134)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/VsBgShader.emz"): fd = 135
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=135, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=135, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=48015 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=135)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/PsBgShader.emz"): fd = 136
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=136, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=136, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=34107 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=136)
+[W : PPU[1] Thread (CPUThread)[0x01028034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archive/adam_shader/setting_technique.emz"): fd = 137
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=137, offset=0x0, buf_addr=0x1cd7bb0, buffer_size=256 nread=0x3bc8d0020500)
+[W : PPU[1] Thread (CPUThread)[0x01028064]]: sys_fs warning: cellFsReadWithOffset(fd=137, offset=0x10, buf_addr=0x1cd7bb0, buffer_size=7213 nread=0x3bc8d00204d0)
+[W : PPU[1] Thread (CPUThread)[0x01028004]]: sys_fs warning: cellFsClose(fd=137)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=15597568, size=23592960, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a0ac]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=39190528, size=3932160, pitch=5120, comp=10, base=58, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x0102a0ac]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=3)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=43122688, size=4194304, pitch=4096, comp=10, base=118, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=47316992, size=4194304, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=6)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=7, location=0, offset=51511296, size=7864320, pitch=2560, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=7)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=8, location=0, offset=59375616, size=3932160, pitch=1280, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a0ac]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=6)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=9, location=0, offset=63307776, size=327680, pitch=1280, comp=10, base=182, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=10, location=0, offset=63635456, size=983040, pitch=2560, comp=10, base=187, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=10)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=11, location=0, offset=64618496, size=458752, pitch=1024, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=11)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=65077248, size=262144, pitch=1024, comp=10, base=202, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x0102a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0102a058]]: cellGcmSys warning: cellGcmBindTile(index=12)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=128)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=128)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=128)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=128)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=128)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=256)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=128)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=128)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=64)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1920)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
+[E : Audio Thread]: alBufferData: OpenAL error 0xa001
+[W : PPU[1] Thread (CPUThread)[0x0102a01c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1024)
 [! : RSXThread]: RSX thread exit...
 [W : PPU[68] Thread (Em File Thread)[0x01dd8034]]: sys_lwcond_wait(sq=52) aborted
+[W : PPU[103] Thread (CRI FS Memory File System)[0x008b758c]]: sys_cond_wait(id=102) aborted
+[W : PPU[111] Thread (CRI FS File Access 2)[0x008b758c]]: sys_cond_wait(id=110) aborted
+[W : PPU[107] Thread (CRI FS File Access 1)[0x008b758c]]: sys_cond_wait(id=106) aborted
+[W : PPU[119] Thread (CRI FS Data Decompression 0)[0x008b758c]]: sys_cond_wait(id=118) aborted
+[W : Audio Thread]: Audio aborted
+[W : PPU[115] Thread (CRI FS File Access 3)[0x008b758c]]: sys_cond_wait(id=114) aborted
+[W : PPU[99] Thread (CRI FS File Access 0)[0x008b758c]]: sys_cond_wait(id=98) aborted
 [!]: Closing memory...

@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbef554a4 in 'sys_fs' module
@@ -20,8 +20,6 @@
 [E]: TODO: cellGcmSetInvalidateTile
 [W]: Unknown function 0x00af2519 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardReset
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
@@ -30,8 +28,6 @@
 [E]: TODO: _cellSpursJobChainAttributeInitialize
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x60eb2dec in 'cellSpurs' module
@@ -40,28 +36,18 @@
 [E]: TODO: cellSpursJobGuardInitialize
 [W]: Unknown function 0x738e40e6 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
-[W]: Unknown function 0x84d2f6d5 in 'cellSpurs' module
-[E]: TODO: cellSpursSetMaxContention
 [W]: Unknown function 0x86c864a2 in 'cellSpurs' module
 [E]: TODO: cellSpursGetJobChainId
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbfea60fa in 'cellSpurs' module
 [E]: TODO: cellSpursKickJobChain
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
@@ -269,21 +255,21 @@
 [W : PPU[41] Thread (NUCC::Xfbin load request)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x00bd40e8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xa49c88, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
-[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xbb8830,cmdSize=0x10000,ioSize=0x4a00000,ioAddress=0x30120000)
+[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xbb8830,cmdSize=0x10000,ioSize=0x4a00000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30120000, io=0x0, size=0x4a00000)
+[W : PPU[1] Thread (CPUThread)[0x009be01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x4a00000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 44
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 45
 [W : PPU[1] Thread (CPUThread)[0x006d09c0]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x005ef23c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[E : PPU[1] Thread (CPUThread)[0x00bd20b8]]: TODO: _cellSpursAttributeInitialize
+[W : PPU[1] Thread (CPUThread)[0x00bd20b8]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020580, nSpus=2, spuPriority=2359297, ppuPriority=3, exitIfNoWork=250)
 [E : PPU[1] Thread (CPUThread)[0x00bd20dc]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x005ef354]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xb57b00, attr_addr=0xd0020770, event_queue_key=0x0, size=1)
 [W : PPU[1] Thread (CPUThread)[0x005ef354]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 46
-[E : PPU[1] Thread (CPUThread)[0x00bd20e8]]: TODO: cellSpursAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x00bd20b8]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00bd2010]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x00bd20e8]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xb56b00, queue=0x2e, port_addr=0xb57b10, isDynamic=1)
+[W : PPU[1] Thread (CPUThread)[0x00bd20b8]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020610, nSpus=2, spuPriority=2359297, ppuPriority=2, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00bd2010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020610, prefix_addr=0x933790, size=0x9)
 [E : PPU[1] Thread (CPUThread)[0x00bd20dc]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x00be2034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 47
 [E : PPU[1] Thread (CPUThread)[0x00bd2034]]: TODO: _cellSpursJobChainAttributeInitialize
@@ -401,7 +387,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00bd8058]]: cellResc warning: cellRescInit(initConfig_addr=0xd002058c)
 [W : PPU[1] Thread (CPUThread)[0x009be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
-[W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x34b46000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00bd8034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00bd8028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
 [W : PPU[1] Thread (CPUThread)[0x00bd8064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0020560, vertexArray_addr=0xd002056c, fragmentShader_addr=0xd0020564)
@@ -465,7 +451,31 @@
 [E : PPU[1] Thread (CPUThread)[0x00bd2118]]: TODO: cellSpursRunJobChain
 [E : PPU[1] Thread (CPUThread)[0x00bd2040]]: TODO: cellSpursEventFlagWait
 [W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076cf18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00307b0, attr_addr=0xd00307c0, initial_count=0, max_count=1)
-[W : PPU[97] Thread (NU::File::RequestManager)[0x009bc028]]: sys_fs warning: cellFsStat: "/app_home/data/system/xftool.fnt.xfbin" not found.
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076d1a0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00306d0, attr_addr=0xd00306e0, initial_count=0, max_count=1)
+[W : PPU[97] Thread (NU::File::RequestManager)[0x009bc01c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/system/xftool.fnt.xfbin"): fd = 105
+[W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076d790]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00307c0, attr_addr=0xd00307d0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x005e1cfc]]: sys_cond_wait(id=53) aborted
 [W : PPU[62] Thread (NU::Draw::RequestManager)[0x005d8ae4]]: sys_cond_wait(id=61) aborted
 [! : RSXThread]: RSX thread exit...

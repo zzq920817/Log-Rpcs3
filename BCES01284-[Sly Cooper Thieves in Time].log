@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -32,58 +32,12 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
-[W]: Unknown function 0x3b27c780 in 'sys_net' module
-[E]: TODO: sys_net_get_sockinfo
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0xb48636c4 in 'sys_net' module
-[E]: TODO: sys_net_show_ifconfig
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
-[W]: Unknown function 0x1051d134 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeEnableSpuPrintfIfAvailable
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
@@ -108,8 +62,6 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
@@ -118,16 +70,12 @@
 [E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xa839a4d9 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xbb68d76e in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetHaltOnError
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xce853fbf in 'cellSpurs' module
 [E]: TODO: cellSpursTraceStart
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
@@ -144,14 +92,10 @@
 [E]: TODO: cellSpursCreateTaskWithAttribute
 [W]: Unknown function 0x1ebcf459 in 'cellSpurs' module
 [E]: TODO: cellSpursDestroyTaskset2
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
 [W]: Unknown function 0x34552fa6 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeInitialize
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
 [W]: Unknown function 0x7fdf4fef in 'cellSpurs' module
@@ -170,8 +114,6 @@
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
@@ -190,8 +132,6 @@
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
 [E]: TODO: cellSpursWaitForWorkloadShutdown
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
@@ -208,10 +148,6 @@
 [E]: TODO: cellFsAioCancel
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
 [E]: TODO: cellFsAioWrite
 [W]: Unknown module 'cellSysutilAvconfExt'

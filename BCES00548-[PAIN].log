@@ -1,29 +1,42 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00548-[PAIN]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0xaa3b4bcd in 'sys_fs' module
-[E]: TODO: cellFsGetFreeSize
-[W]: Unknown function 0xbef554a4 in 'sys_fs' module
-[E]: TODO: cellFsUtime
+[W]: Unknown function 0x02f5ced0 in 'cellCamera' module
+[E]: TODO: cellCameraStop
+[W]: Unknown function 0x0e63c444 in 'cellCamera' module
+[E]: TODO: cellCameraGetBufferInfoEx
+[W]: Unknown function 0x21fc151f in 'cellCamera' module
+[E]: TODO: cellCameraReadEx
+[W]: Unknown function 0x379c5dd6 in 'cellCamera' module
+[E]: TODO: cellCameraClose
+[W]: Unknown function 0x456dc4aa in 'cellCamera' module
+[E]: TODO: cellCameraStart
+[W]: Unknown function 0x58bc5870 in 'cellCamera' module
+[E]: TODO: cellCameraGetType
+[W]: Unknown function 0x5ad46570 in 'cellCamera' module
+[E]: TODO: cellCameraEnd
+[W]: Unknown function 0x5d25f866 in 'cellCamera' module
+[E]: TODO: cellCameraOpenEx
+[W]: Unknown function 0x7e063bbc in 'cellCamera' module
+[E]: TODO: cellCameraIsAttached
+[W]: Unknown function 0x81f83db9 in 'cellCamera' module
+[E]: TODO: cellCameraReset
+[W]: Unknown function 0xbf47c5dd in 'cellCamera' module
+[E]: TODO: cellCameraInit
+[W]: Unknown module 'libgem'
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
 [E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
-[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataLocation
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
 [W]: Unknown function 0x0a862772 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetQueueHandler
 [W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
@@ -32,6 +45,8 @@
 [E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetInvalidateTile
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
 [W]: Unknown function 0x018281a8 in 'cellSail' module
 [E]: TODO: cellSailGraphicsAdapterGetFrame2
 [W]: Unknown function 0x1139a206 in 'cellSail' module
@@ -214,82 +229,34 @@
 [E]: TODO: cellSslCertificateLoader
 [W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
 [E]: TODO: cellSslInit
-[W]: Unknown function 0x7687d48c in 'sys_net' module
-[E]: TODO: sys_net_set_resolver_configurations
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
 [E]: TODO: socketpoll
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xa50777c6 in 'sys_net' module
-[E]: TODO: shutdown
 [W]: Unknown function 0xa9a079e0 in 'sys_net' module
 [E]: TODO: inet_aton
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb48636c4 in 'sys_net' module
-[E]: TODO: sys_net_show_ifconfig
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
 [E]: TODO: inet_addr
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0xfdb8f926 in 'sys_net' module
-[E]: TODO: sys_net_free_thread_context
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x8b3eba69 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetState
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
+[W]: Unknown function 0x0791015f in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateCheckStartAsyncEx
+[W]: Unknown function 0x10dae56d in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateTerm
+[W]: Unknown function 0x99ab1a26 in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateInit
+[W]: Unknown function 0xf463981c in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateCheckFinishAsyncEx
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
@@ -298,26 +265,18 @@
 [E]: TODO: cellSpursWaitForWorkloadShutdown
 [W]: Unknown function 0x69726aa2 in 'cellSpurs' module
 [E]: TODO: cellSpursAddWorkload
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa789e631 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
 [E]: TODO: cellSpursSetExceptionEventHandler
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
-[W]: Unknown function 0xd3758645 in 'cellResc' module
-[E]: TODO: cellRescSetVBlankHandler
-[W]: Unknown function 0xe0cef79e in 'cellResc' module
-[E]: TODO: cellRescCreateInterlaceTable
 [W]: Unknown module 'cellSearchUtility'
 [W]: Unknown module 'cellOskExtUtility'
 [W]: Unknown module 'cellRec'
@@ -357,7 +316,11 @@
 [E]: TODO: cellVoiceEnd
 [W]: Unknown function 0xff0fa43a in 'cellVoice' module
 [E]: TODO: cellVoiceResetPort
+[W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown module 'LevelScriptExport'
+[W]: Unknown module 'libad_core'
+[W]: Unknown module 'libad_async'
+[W]: Unknown module 'libad_billboard_util'
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilParseUri
@@ -377,229 +340,238 @@
 [E]: TODO: _sys_spu_printf_finalize
 [W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
 [E]: TODO: sys_prx_unload_module
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x0049a638]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x00899f18]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 13
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
-[W : PPU[1] Thread (CPUThread)[0x01c42040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
-[E : PPU[1] Thread (CPUThread)[0x01c42070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x9f7110)
-[E : PPU[1] Thread (CPUThread)[0x01c42070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x9f712c)
-[E : PPU[1] Thread (CPUThread)[0x01c42070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x9f7148)
-[W : PPU[1] Thread (CPUThread)[0x00181a50]]: vm warning: sys_vm_memory_map(vsize=0x2000000,psize=0x1400000,cidr=0xffffffff,flags=0x400,policy=0x1,addr=0xf2af50)
-[W : PPU[1] Thread (CPUThread)[0x00181d98]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x400, alignment=0x0, alloc_addr=0xf2aec0)
-[W : PPU[1] Thread (CPUThread)[0x00181dc0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020bf0)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x9100000, flags=0x400, mem_id_addr=0xf2aec4)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1b, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x31600000 to 0x0 size=0x9100000
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aec8)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aecc)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aed0)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aed4)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aed8)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aedc)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aee0)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aee4)
-[W : PPU[1] Thread (CPUThread)[0x01c4213c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xf2aee8)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0x9100000, mem_id=0x1c, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3a700000 to 0x9100000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0x9900000, mem_id=0x1d, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3af00000 to 0x9900000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0xa100000, mem_id=0x1e, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3b700000 to 0xa100000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0xa900000, mem_id=0x1f, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3bf00000 to 0xa900000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0xb100000, mem_id=0x20, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3c700000 to 0xb100000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0xb900000, mem_id=0x21, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3cf00000 to 0xb900000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0xc100000, mem_id=0x22, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3d700000 to 0xc100000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0xc900000, mem_id=0x23, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3df00000 to 0xc900000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory warning: sys_mmapper_map_memory(start_addr=0xd100000, mem_id=0x24, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x01c42160]]: memory mapped 0x3e700000 to 0xd100000 size=0x800000
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SEARCH)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_MUSIC)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_REC)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_VIDEO_UPLOAD)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VIDEO_EXPORT)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_OSK_EXT)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
-[W : PPU[1] Thread (CPUThread)[0x00182ee4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x00b7b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
-[E : PPU[1] Thread (CPUThread)[0x01c22010]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x01c22004]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x01c2201c]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x01c22010]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x01c22004]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x01c2201c]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x01c22010]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x01c22004]]: TODO: cellSpursAttributeSetNamePrefix
-[E : PPU[1] Thread (CPUThread)[0x01c2201c]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x00b7d0a0]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x00b7d034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020950)
-[W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: cellGcmInit(context_addr=0x19e6b50,cmdSize=0x10000,ioSize=0xc00000,ioAddress=0x300000)
-[W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00b77004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x300000, io=0x0, size=0xc00000)
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x001fbbb8]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x005237bc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 15
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x0143d040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+[E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e079c)
+[E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e07b8)
+[E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e07d4)
+[W : PPU[1] Thread (CPUThread)[0x001468e4]]: memory warning: sys_memory_container_create(cid_addr=0x12003d4, yield_size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x001468e4]]: memory warning: *** memory_container created(addr=0x30200000): id = 28
+[W : PPU[1] Thread (CPUThread)[0x000ebf08]]: vm warning: sys_vm_memory_map(vsize=0x2000000,psize=0x1400000,cidr=0xffffffff,flags=0x400,policy=0x1,addr=0xa39068)
+[W : PPU[1] Thread (CPUThread)[0x000ecb54]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x400, alignment=0x0, alloc_addr=0xa38fd8)
+[W : PPU[1] Thread (CPUThread)[0x000ecb78]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020bb0)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x9000000, flags=0x400, mem_id_addr=0xa38fdc)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0x1d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x31700000 to 0x0 size=0x9000000
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38fe0)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38fe4)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38fe8)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38fec)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38ff0)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38ff4)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38ff8)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa38ffc)
+[W : PPU[1] Thread (CPUThread)[0x0143d13c]]: memory warning: sys_mmapper_allocate_memory(size=0x800000, flags=0x400, mem_id_addr=0xa39000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0x9000000, mem_id=0x1e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3a700000 to 0x9000000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0x9800000, mem_id=0x1f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3af00000 to 0x9800000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0xa000000, mem_id=0x20, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3b700000 to 0xa000000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0xa800000, mem_id=0x21, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3bf00000 to 0xa800000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0xb000000, mem_id=0x22, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3c700000 to 0xb000000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0xb800000, mem_id=0x23, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3cf00000 to 0xb800000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0xc000000, mem_id=0x24, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3d700000 to 0xc000000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0xc800000, mem_id=0x25, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3df00000 to 0xc800000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory warning: sys_mmapper_map_memory(start_addr=0xd000000, mem_id=0x26, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0143d160]]: memory mapped 0x3e700000 to 0xd000000 size=0x800000
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SEARCH)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_MUSIC)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_REC)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_VIDEO_UPLOAD)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VIDEO_EXPORT)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_OSK_EXT)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule()
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule()
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule()
+[W : PPU[1] Thread (CPUThread)[0x000ed424]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020910, nSpus=2, spuPriority=3342336, ppuPriority=3, exitIfNoWork=127)
+[W : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020910, prefix_addr=0x608278, size=0x9)
+[W : PPU[1] Thread (CPUThread)[0x0141701c]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020910, type=24)
+[E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020910, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=127)
+[W : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020910, prefix_addr=0x608268, size=0xb)
+[W : PPU[1] Thread (CPUThread)[0x0141701c]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020910, type=24)
+[E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020910, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=128)
+[W : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020910, prefix_addr=0x608258, size=0xa)
+[E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x014030a0]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
+[W : PPU[1] Thread (CPUThread)[0x01403034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020930)
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x22820560)
+[W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
+[E : PPU[1] Thread (CPUThread)[0x0142d004]]: TODO: cellVideoOutGetScreenSize
+[W : PPU[1] Thread (CPUThread)[0x01401004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AVCONF_EXT)
+[W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: cellGcmInit(context_addr=0x13765fc,cmdSize=0x10000,ioSize=0xc00000,ioAddress=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x100000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00b7d1cc]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x2e4a7690)
-[W : PPU[1] Thread (CPUThread)[0x00b7d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00206cc, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00b7704c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x00b77058]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
-[W : PPU[1] Thread (CPUThread)[0x00b770a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0xf00000,size=0x1f00000,offset_addr=0xd0020750)
-[W : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=7, base=1, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x00b770b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=3997696, size=3932160, pitch=5120, comp=7, base=61, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x00b770b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3d0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=7929856, size=7864320, pitch=10240, comp=7, base=121, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=15794176, size=7864320, pitch=10240, comp=7, base=241, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=23658496, size=7864320, pitch=10240, comp=11, base=361, bank=1)
-[E : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
-[W : PPU[1] Thread (CPUThread)[0x00b7719c]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x1690000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x3, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
-[W : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=31522816, size=16777216, pitch=8192, comp=11, base=481, bank=1)
-[E : PPU[1] Thread (CPUThread)[0x00b77190]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
-[W : PPU[1] Thread (CPUThread)[0x001b3760]]: sys_mutex warning: *** mutex created [Texture] (protocol=0x2, recursive=false): id = 37
-[E : PPU[1] Thread (CPUThread)[0x01c42070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x9f7110)
-[E : PPU[1] Thread (CPUThread)[0x01c42070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x9f7148)
-[E : PPU[1] Thread (CPUThread)[0x01c42070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x9f712c)
-[W : PPU[1] Thread (CPUThread)[0x00b7d124]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xbb7ab8, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x001900a0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x18c8b14, attr_addr=0xd0020c00, initial_count=0, max_count=1)
-[W : PPU[41] Thread (GameContent)[0x00b7f058]]: cellGame warning: cellGameBootCheck(type_addr=0xd00508a0, attributes_addr=0xd00508a4, size_addr=0xd00508a8, dirName_addr=0xd00508b4)
-[E : PPU[40] Thread (sdu_graphics_loop)[0x01c22040]]: TODO: cellSpursGetInfo
-[E : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: Trap! (tw 1f, r0, r0) #pc: 0x4f16bc
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r0 = 0x4f16b8
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r1 = 0xd00409a0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r2 = 0xc0d1f8
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r3 = 0x76
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r4 = 0x30010430
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r5 = 0xffffffffffffffff
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r6 = 0xd0040460
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r7 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r8 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r9 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r10 = 0x19e6db0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r11 = 0xd00409a0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r12 = 0x1c41008
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r13 = 0x3012d060
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r14 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r15 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r16 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r17 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r18 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r19 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r20 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r21 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r22 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r23 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r24 = 0x0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r25 = 0x1
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r26 = 0x18c8b80
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r27 = 0x18c8a80
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r28 = 0xcc2340
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r29 = 0x3
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r30 = 0x3
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: r31 = 0xd00409a0
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f0 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f1 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f2 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f3 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f4 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f5 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f6 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f7 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f8 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f9 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f10 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f11 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f12 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f13 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f14 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f15 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f16 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f17 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f18 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f19 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f20 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f21 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f22 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f23 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f24 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f25 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f26 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f27 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f28 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f29 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f30 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: f31 = 0.000000
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v0 = 0x0000000000000000000000003f800000 [x: 0 y: 0 z: 0 w: 1]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v1 = 0x7f8000007f8000007f8000007f800000 [x: 1.#INF y: 1.#INF z: 1.#INF w: 1.#INF]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v2 = 0x7fc000007fc000007fc000007fc00000 [x: 1.#QNAN y: 1.#QNAN z: 1.#QNAN w: 1.#QNAN]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v3 = 0x000000000000000000000000ffffffff [x: 0 y: 0 z: 0 w: -1.#QNAN]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v4 = 0xffffffffffffffffffffffff00000000 [x: -1.#QNAN y: -1.#QNAN z: -1.#QNAN w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v6 = 0x000000000000000000000000ffffffff [x: 0 y: 0 z: 0 w: -1.#QNAN]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v7 = 0x7fc000007fc000007fc000007fc00000 [x: 1.#QNAN y: 1.#QNAN z: 1.#QNAN w: 1.#QNAN]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v9 = 0x3f8000003f8000003f8000003f800000 [x: 1 y: 1 z: 1 w: 1]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v10 = 0x7f8000007f8000007f8000007f800000 [x: 1.#INF y: 1.#INF z: 1.#INF w: 1.#INF]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v11 = 0x000000000000000000000000ffffffff [x: 0 y: 0 z: 0 w: -1.#QNAN]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v13 = 0x7f8000007f8000007f8000007f800000 [x: 1.#INF y: 1.#INF z: 1.#INF w: 1.#INF]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v14 = 0x7f8000007f8000007f8000007f800000 [x: 1.#INF y: 1.#INF z: 1.#INF w: 1.#INF]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v15 = 0x3f0000003f0000003f0000003f000000 [x: 0.5 y: 0.5 z: 0.5 w: 0.5]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v16 = 0x3f8000003f8000003f8000003f800000 [x: 1 y: 1 z: 1 w: 1]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v17 = 0x3f0000003f0000003f0000003f000000 [x: 0.5 y: 0.5 z: 0.5 w: 0.5]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v18 = 0x3f8000003f8000003f8000003f800000 [x: 1 y: 1 z: 1 w: 1]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v19 = 0xffffffffffffffffffffffff00000000 [x: -1.#QNAN y: -1.#QNAN z: -1.#QNAN w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: CR = 0x48000082
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: LR = 0x4f16b8
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: CTR = 0x1c4200c
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
-[! : PPU[40] Thread (sdu_graphics_loop)[0x004f16bc]]: FPSCR = 0x4000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x2281e660)
+[W : PPU[1] Thread (CPUThread)[0x01403010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd002063c, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x006fd064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x006fd070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
+[W : PPU[1] Thread (CPUThread)[0x006fd07c]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0xd00000,size=0x1f00000,offset_addr=0xd00206c0)
+[W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=7864320, pitch=5120, comp=7, base=1, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x006fd094]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x006fd094]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3d0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=7929856, size=7864320, pitch=10240, comp=7, base=121, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=15794176, size=7864320, pitch=10240, comp=7, base=241, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=23658496, size=7864320, pitch=10240, comp=11, base=361, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x006fd0e8]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x1690000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x3, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=31522816, size=16777216, pitch=8192, comp=11, base=481, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x00119f10]]: sys_mutex warning: *** mutex created [Texture] (protocol=0x2, recursive=false): id = 39
+[E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e079c)
+[E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e07d4)
+[E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e07b8)
+[W : PPU[1] Thread (CPUThread)[0x01403124]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x72b8d0, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x000f6f1c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x10b96c8, attr_addr=0xd0020bd0, initial_count=0, max_count=1)
+[W : PPU[42] Thread (sdu_graphics_loop)[0x0141704c]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0xa3a080, info_addr=0xd0040a20)
+[E : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: Trap! (tw 1f, r0, r0) #pc: 0x226e9c
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r0 = 0x226e98
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r1 = 0xd0040990
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r2 = 0x7492a8
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r3 = 0x76
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r4 = 0x301003e0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r5 = 0xffffffffffffffff
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r6 = 0xd0040440
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r7 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r8 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r9 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r10 = 0x120f668
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r11 = 0xd0040990
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r12 = 0x143c008
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r13 = 0x30007060
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r14 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r15 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r16 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r17 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r18 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r19 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r20 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r21 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r22 = 0x4
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r23 = 0x1
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r24 = 0x10b6880
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r25 = 0x10b6880
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r26 = 0x700848
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r27 = 0x0
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r28 = 0x3
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r29 = 0x10b9b84
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r30 = 0x10b6880
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r31 = 0xd0040990
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f0 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f1 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f2 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f3 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f4 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f5 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f6 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f7 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f8 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f9 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f10 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f11 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f12 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f13 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f14 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f15 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f16 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f17 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f18 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f19 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f20 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f21 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f22 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f23 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f24 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f25 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f26 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f27 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f28 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f29 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f30 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: f31 = 0.000000
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v1 = 0x7f8000007f8000007f8000007f800000 [x: 1.#INF y: 1.#INF z: 1.#INF w: 1.#INF]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v2 = 0xffffffffffffffffffffffffffffffff [x: -1.#QNAN y: -1.#QNAN z: -1.#QNAN w: -1.#QNAN]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v3 = 0xffffffffffffffffffffffffffffffff [x: -1.#QNAN y: -1.#QNAN z: -1.#QNAN w: -1.#QNAN]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v6 = 0x000000000000000000000000ffffffff [x: 0 y: 0 z: 0 w: -1.#QNAN]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v7 = 0x101112130405060708090a0b0c0d0e0f [x: 2.86101e-029 y: 1.56368e-036 z: 4.12387e-034 w: 1.08665e-031]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v8 = 0xffffffffffffffffffffffff00000000 [x: -1.#QNAN y: -1.#QNAN z: -1.#QNAN w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v9 = 0x3f8000003f8000003f8000003f800000 [x: 1 y: 1 z: 1 w: 1]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v10 = 0x7f8000007f8000007f8000007f800000 [x: 1.#INF y: 1.#INF z: 1.#INF w: 1.#INF]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v11 = 0x000000000000000000000000ffffffff [x: 0 y: 0 z: 0 w: -1.#QNAN]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v13 = 0x7f8000007f8000007f8000007f800000 [x: 1.#INF y: 1.#INF z: 1.#INF w: 1.#INF]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v14 = 0x101112130405060708090a0b0c0d0e0f [x: 2.86101e-029 y: 1.56368e-036 z: 4.12387e-034 w: 1.08665e-031]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v15 = 0x3f0000003f0000003f0000003f000000 [x: 0.5 y: 0.5 z: 0.5 w: 0.5]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v16 = 0x3f8000003f8000003f8000003f800000 [x: 1 y: 1 z: 1 w: 1]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v17 = 0x3f8000003f8000003f8000003f800000 [x: 1 y: 1 z: 1 w: 1]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v18 = 0x3f0000003f0000003f0000003f000000 [x: 0.5 y: 0.5 z: 0.5 w: 0.5]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v19 = 0x7fc000007fc000007fc000007fc00000 [x: 1.#QNAN y: 1.#QNAN z: 1.#QNAN w: 1.#QNAN]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: CR = 0x48000082
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: LR = 0x226e98
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: CTR = 0x143d00c
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: FPSCR = 0x4000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

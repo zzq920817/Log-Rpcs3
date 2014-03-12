@@ -1,7 +1,4 @@
 [!]: path: /dev_hdd0/game/
-[!]: PKG Loader: Package successfully installed in: /dev_hdd0/game/NPUA80063
-[!]: path: /dev_hdd0/game/
-[!]: scetool: ELF written to D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80063\USRDIR\BOOT.BIN
 [!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80063\USRDIR\BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
@@ -12,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80063\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80063\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80063\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80063\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbe5be3ba in 'sys_io' module
@@ -29,8 +26,6 @@
 [E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0x07529113 in 'cellSpurs' module
-[E]: TODO: cellSpursAttributeSetNamePrefix
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
@@ -39,8 +34,6 @@
 [E]: TODO: _cellSpursJobChainAttributeInitialize
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
@@ -49,16 +42,12 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0x87630976 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
@@ -117,8 +106,6 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xa7bff757 in 'sceNp' module
-[E]: TODO: sceNpManagerGetStatus
 [W]: Unknown function 0xa85a4951 in 'sceNp' module
 [E]: TODO: sceNpCommerceGetSkuDescription
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
@@ -177,14 +164,6 @@
 [E]: TODO: sceNpCommerceCreateCtx
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilParseUri
@@ -236,18 +215,18 @@
 [W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
 [W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP_UTIL)
 [W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
-[W : PPU[1] Thread (CPUThread)[0x00329088]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x30135b10 (/app_home/Game/PS3_GAME/USRDIR))
+[W : PPU[1] Thread (CPUThread)[0x00329088]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x30225b10 (/app_home/Game/PS3_GAME/USRDIR))
 [W : PPU[1] Thread (CPUThread)[0x00046060]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x0032b064]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x33ca98, userdata=0x3baa88)
-[E : PPU[1] Thread (CPUThread)[0x0032f07c]]: TODO: _cellSpursAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x0032f004]]: TODO: cellSpursAttributeSetNamePrefix
+[W : PPU[1] Thread (CPUThread)[0x0032f07c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020a10, nSpus=2, spuPriority=2228226, ppuPriority=5, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x0032f004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020a10, prefix_addr=0x2f3128, size=0x7)
 [E : PPU[1] Thread (CPUThread)[0x0032f0a0]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x001144e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4183e0, attr_addr=0xd0020854, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x001144e4]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 32
 [W : PPU[1] Thread (CPUThread)[0x0011456c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4183d0, port_type=0x1, name=0xfee1dead)
 [W : PPU[1] Thread (CPUThread)[0x0011456c]]: sys_event warning: *** sys_event_port created: id = 34
 [W : PPU[1] Thread (CPUThread)[0x00114584]]: sys_event warning: sys_event_port_connect_local(eport_id=34, equeue_id=32)
-[E : PPU[1] Thread (CPUThread)[0x0032f0ac]]: TODO: cellSpursAttachLv2EventQueue
+[W : PPU[1] Thread (CPUThread)[0x0032f0ac]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x30237700, queue=0x20, port_addr=0xd0020850, isDynamic=0)
 [W : PPU[1] Thread (CPUThread)[0x0032d010]]: cellGcmSys warning: cellGcmInit(context_addr=0x42f750,cmdSize=0x400000,ioSize=0x5d00000,ioAddress=0x33800000)
 [W : PPU[1] Thread (CPUThread)[0x0032d010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0032d010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x33800000, io=0x0, size=0x5d00000)
@@ -276,10 +255,10 @@
 [W : PPU[1] Thread (CPUThread)[0x0032b07c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x0032b040]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020780, option_addr=0x0, (!)waitForEvent=0)
 [W : PPU[1] Thread (CPUThread)[0x0047b004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x0047b034]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x389fb8, portNum_addr=0x389ff8)
 [W : PPU[1] Thread (CPUThread)[0x0047b034]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x0047b010]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x389fd8)
-[! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 38
 [W : PPU[1] Thread (CPUThread)[0x002107dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x438004, attr_addr=0xd002074c, event_queue_key=0x0, size=32)
 [W : PPU[1] Thread (CPUThread)[0x002107dc]]: sys_event warning: *** event_queue created [ÐÀ] (protocol=0x2, type=0x1): id = 39
@@ -288,79 +267,24 @@
 [W : PPU[1] Thread (CPUThread)[0x0048b0ac]]: sysPrxForUser warning: sys_spu_image_import(img=0x43810c, src=0x314980, type=0x1)
 [W : PPU[1] Thread (CPUThread)[0x0048b0ac]]: desc = 'msngSPU_ATRAC'
 [W : PPU[1] Thread (CPUThread)[0x00210894]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x436604, group=0x28, spu_num=0, img_addr=0x43810c, attr_addr=0xd0020730, arg_addr=0xd0020760)
-[W : PPU[1] Thread (CPUThread)[0x00210894]]: sys_spu warning: *** New SPU Thread [_Multistream SPU Thread] (img_offset=0x48f000, ls_offset=0x4cf000, ep=0x100, a1=0x235660, a2=0x80, a3=0xd0020820, a4=0x24000024301376d0): id=41
+[W : PPU[1] Thread (CPUThread)[0x00210894]]: sys_spu warning: *** New SPU Thread [_Multistream SPU Thread] (img_offset=0x48f000, ls_offset=0x4cf000, ep=0x100, a1=0x235660, a2=0x80, a3=0xd0020820, a4=0x24000024302276d0): id=41
 [W : PPU[1] Thread (CPUThread)[0x002108b8]]: sys_spu warning: sys_spu_thread_connect_event(id=41, eq_id=39, event_type=0x1, spup=42)
 [W : PPU[1] Thread (CPUThread)[0x002108d0]]: sys_spu warning: sys_spu_thread_group_start(id=40)
-[E : PPU[1] Thread (CPUThread)[0x00329034]]: sys_fs error: "/dev_flash/sys/external/flashATRAC.pic" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/dev_flash/sys/external/flashATRAC.pic"): fd = 42
+[W : PPU[1] Thread (CPUThread)[0x00329004]]: sys_fs warning: cellFsClose(fd=42)
+[W : PPU[1] Thread (CPUThread)[0x00210390]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0xffdd)
+[W : PPU[1] Thread (CPUThread)[0x002103e4]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x39a07900)
+[W : SPU[41] Thread (_Multistream SPU Thread)[0x0002e580]]: STOP: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x0001433c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x38a014, attr_addr=0x38a018, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x0001433c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 42
+[W : PPU[1] Thread (CPUThread)[0x0001433c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 43
 [W : PPU[1] Thread (CPUThread)[0x00014354]]: sys_event warning: sys_event_port_create(eport_id_addr=0x38a010, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00014354]]: sys_event warning: *** sys_event_port created: id = 43
-[W : PPU[1] Thread (CPUThread)[0x00014364]]: sys_event warning: sys_event_port_connect_local(eport_id=43, equeue_id=42)
-[W : PPU[44] Thread (MultiStream PU Thread)[0x0047b01c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[E : PPU[44] Thread (MultiStream PU Thread)[0x00013900]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd0060db8, size=1, number_addr=0xd0060db0)
-[W : PPU[44] Thread (MultiStream PU Thread)[0x0021119c]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x436400)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ea8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001eb0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ec0]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[44] Thread (MultiStream PU Thread)[0x00013900]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd0060db8, size=1, number_addr=0xd0060db0)
-[W : PPU[44] Thread (MultiStream PU Thread)[0x0021119c]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x436400)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00000adc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ec0]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x00014354]]: sys_event warning: *** sys_event_port created: id = 44
+[W : PPU[1] Thread (CPUThread)[0x00014364]]: sys_event warning: sys_event_port_connect_local(eport_id=44, equeue_id=43)
+[W : PPU[45] Thread (MultiStream PU Thread)[0x0047b01c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[E : PPU[45] Thread (MultiStream PU Thread)[0x00013900]]: sys_event error: sys_event_queue_tryreceive(equeue_id=43, event_array_addr=0xd0060db8, size=1, number_addr=0xd0060db0)
+[W : PPU[45] Thread (MultiStream PU Thread)[0x0021119c]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x436400)
 [W : PPU[1] Thread (CPUThread)[0x0032b034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_basicLight.vpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_basicColourLight.vpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_basicTexLight.vpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bumpgloss.vpo" not found.
@@ -396,11 +320,7 @@
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_slosh_blend.vpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_slosh_stencil.vpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_slosh_surface.vpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_surface_noise.vpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicLight.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicLight.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicLight.fpo" not found.
@@ -411,22 +331,7 @@
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bumpgloss.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_colbumpgloss.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_mod2x.fpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_through_mode.fpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_through_mode2.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_diffuse.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmdeea.fpo" not found.
@@ -446,10 +351,7 @@
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_pmdg.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_undnnn.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_unnnnn.fpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicLight.fpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bumpgloss.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_pmdg.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_ume.fpo" not found.
@@ -458,63 +360,11 @@
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmddga_reflection.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmddee.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmddee_reflection.fpo" not found.
-[E : PPU[44] Thread (MultiStream PU Thread)[0x00013900]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd0060db8, size=1, number_addr=0xd0060db0)
-[W : PPU[44] Thread (MultiStream PU Thread)[0x0021119c]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x436400)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00000adc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ec0]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_contrast.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_GaussianH.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_GaussianV.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_generate_mesh.fpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_position.fpo" not found.
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_intersection.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_splat.fpo" not found.
 [W : PPU[36] Thread (ResMan)[0x00329040]]: sys_fs warning: cellFsStat: "/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_water_surface.fpo" not found.
@@ -543,86 +393,12 @@
 [W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=7, location=0, offset=25690112, size=1048576, pitch=2048, comp=0, base=0, bank=2)
 [W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=8, location=1, offset=6815744, size=5570560, pitch=5120, comp=0, base=0, bank=2)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[44] Thread (MultiStream PU Thread)[0x00013900]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd0060db8, size=1, number_addr=0xd0060db0)
-[W : PPU[44] Thread (MultiStream PU Thread)[0x0021119c]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x436400)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00000adc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ec0]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=9, location=1, offset=12386304, size=5570560, pitch=5120, comp=0, base=0, bank=2)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
 [W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=26738688, size=1048576, pitch=4096, comp=0, base=0, bank=1)
 [W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=27787264, size=524288, pitch=2048, comp=0, base=0, bank=0)
-[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : PPU[1] Thread (CPUThread)[0x0032f04c]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0032f070]]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x0032f028]]: TODO: _cellSpursJobChainAttributeInitialize
@@ -631,9 +407,9 @@
 [E : PPU[1] Thread (CPUThread)[0x0032f058]]: TODO: cellSpursJobGuardInitialize
 [E : PPU[1] Thread (CPUThread)[0x0032f0c4]]: TODO: cellSpursRunJobChain
 [E : PPU[1] Thread (CPUThread)[0x001fa668]]: Read32 from null block: [3f800000]
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
+[W : PPU[45] Thread (MultiStream PU Thread)[0x002111c0]]: sys_event_queue_receive(equeue=39) aborted
 [W : PPU[36] Thread (ResMan)[0x000419b0]]: sys_event_queue_receive(equeue=35) aborted
 [W : PPU[33] Thread (spu_printf_handler)[0x001146b8]]: sys_event_queue_receive(equeue=32) aborted
-[W : PPU[44] Thread (MultiStream PU Thread)[0x002111c0]]: sys_event_queue_receive(equeue=39) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

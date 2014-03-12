@@ -1,17 +1,25 @@
-[!]: scetool: ELF written to D:\Data\Star Ocean International - Last Hope\PS3_GAME\USRDIR\BOOT.BIN
-[!]: Loading 'D:\Data\Star Ocean International - Last Hope\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\DEVELOPMENT\Keys\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\DEVELOPMENT\Keys\dev_hdd1\
-[!]: /dev_flash/ -> D:\DEVELOPMENT\Keys\dev_flash\
-[!]: /dev_usb000/ -> D:\DEVELOPMENT\Keys\dev_usb000\
-[!]: /dev_usb/ -> D:\DEVELOPMENT\Keys\dev_usb000\
-[!]: /app_home/ -> D:\Data\Star Ocean International - Last Hope\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Data\Star Ocean International - Last Hope\PS3_GAME\\..\
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Data\Star Ocean International - Last Hope\PS3_GAME\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
+[S]: Function 'cellAANAddData' hooked
+[S]: Function 'cellSurMixerGetAANHandle' hooked
+[S]: Function 'cellSurMixerSetNotifyCallback' hooked
+[S]: Function 'cellSurMixerChStripGetAANPortNo' hooked
+[S]: Function 'cellSurMixerSetParameter' hooked
+[S]: Function 'cellSurMixerStart' hooked
+[S]: Function 'cellSurMixerFinalize' hooked
+[S]: Function 'cellSurMixerCreate' hooked
 [W]: Unknown function 0x0d5b4a14 in 'sys_fs' module
 [E]: TODO: cellFsReadWithOffset
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -289,10 +297,19 @@
 [E]: TODO: _sys_heap_delete_heap
 [W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
 [E]: TODO: sys_prx_unload_module
-[S]: Game: boot done.
-[! : PPU[1] Thread (CPUThread)[0x00010230]]: PPU[1] Thread (CPUThread) enter
 [W : PPU[1] Thread (CPUThread)[0x0005ebf0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020cb4)
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x300100ac, attr_addr=0xd0020b90, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301000ac, attr_addr=0xd0020b90, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xf83160, attr_addr=0xd0020b40, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xf6b480, attr_addr=0xd0020b40, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xf6be00, attr_addr=0xd0020b40, initial_count=0, max_count=2147483647)
@@ -340,16 +357,16 @@
 [E : PPU[1] Thread (CPUThread)[0x00ff3184]]: TODO: cellSpursAttributeSetSpuThreadGroupType
 [E : PPU[1] Thread (CPUThread)[0x00ff3010]]: TODO: cellSpursAttributeSetNamePrefix
 [E : PPU[1] Thread (CPUThread)[0x00ff3190]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: cellGcmInit(context_addr=0xf9fc80,cmdSize=0x10000,ioSize=0x200000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: cellGcmInit(context_addr=0xf9fc80,cmdSize=0x10000,ioSize=0x200000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x200000)
+[W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x200000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00ff5064]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30012d1c, attr_addr=0xd00208c0, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30012ecc, attr_addr=0xd0020950, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30012f48, attr_addr=0xd0020950, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3001302c, attr_addr=0xd0020960, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x00ff50a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30400000,size=0x0,offset_addr=0x800000)
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30102d1c, attr_addr=0xd00208c0, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30102ecc, attr_addr=0xd0020950, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30102f48, attr_addr=0xd0020950, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3010302c, attr_addr=0xd0020960, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x00ff50a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x800000,offset_addr=0xd0020a00)
 [W : PPU[1] Thread (CPUThread)[0x00ff1010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
 [E : PPU[1] Thread (CPUThread)[0x00fef004]]: TODO: cellVideoOutSetGamma
 [W : PPU[1] Thread (CPUThread)[0x00ff5058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
@@ -358,67 +375,34 @@
 [E : PPU[1] Thread (CPUThread)[0x00ff3154]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00ff3070]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00ff30c4]]: TODO: cellSpursJobGuardInitialize
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x300e0c9c, attr_addr=0xd0020ac0, init=0x1)
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 43
+[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x301d0c9c, attr_addr=0xd0020ac0, init=0x1)
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 44
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x300e1364, attr_addr=0xd0020ac0, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x300e1368, attr_addr=0xd0020aa0, initial_count=1, max_count=1)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x300e136c, attr_addr=0xd0020aa0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301d1364, attr_addr=0xd0020ac0, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301d1368, attr_addr=0xd0020aa0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x301d136c, attr_addr=0xd0020aa0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 48
-[W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x300e12c8, attr_addr=0xd0020a70, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301d12c8, attr_addr=0xd0020a70, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00fed004]]: cellSysutil warning: cellSysutilUnregisterCallback(slot=1)
-[W : PPU[1] Thread (CPUThread)[0x00fed0f4]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xe63368, userdata=0x300e8450)
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x300e8578, attr_addr=0xd0020a10, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x00fed0f4]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xe63368, userdata=0x301d8450)
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301d8578, attr_addr=0xd0020a10, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00ff1010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30f70158, attr_addr=0xd0020990, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31070158, attr_addr=0xd0020990, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 52
-[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30f7030c, attr_addr=0xd00209b0, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30f70128, attr_addr=0xd0020960, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3107030c, attr_addr=0xd00209b0, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31070128, attr_addr=0xd0020960, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00ff1010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x300ebeb8, attr_addr=0xd0020ac0, initial_count=1, max_count=1)
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301dbeb8, attr_addr=0xd0020ac0, initial_count=1, max_count=1)
 [E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
@@ -429,5 +413,4 @@
 [E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00d9f034]]: sys_fs error: "/aska0000.bin" not found! flags: 0x00000000
 [! : RSXThread]: RSX thread exit...
-[! : PPU[1] Thread (CPUThread)[0x0003c228]]: PPU[1] Thread (CPUThread) leave
 [!]: Closing memory...

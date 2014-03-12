@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80001-[FlOw]\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80001-[FlOw]\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80001-[FlOw]\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUA80001-[FlOw]\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -22,8 +22,6 @@
 [E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
@@ -36,22 +34,12 @@
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
 [E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x1f402f8f in 'cellSpurs' module
-[E]: TODO: cellSpursGetInfo
-[W]: Unknown function 0x80a29e27 in 'cellSpurs' module
-[E]: TODO: cellSpursSetPriorities
 [W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
 [E]: TODO: cellSpursSetExceptionEventHandler
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
 [W]: Unknown function 0x07254fda in 'cellSync' module
 [E]: TODO: cellSyncBarrierInitialize
 [W]: Unknown function 0x35f21355 in 'cellSync' module
@@ -96,9 +84,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00b38070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xc428f0, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x000bedec]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: cellGcmInit(context_addr=0xd212f4,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: cellGcmInit(context_addr=0xd212f4,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x00b3a010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [E : PPU[1] Thread (CPUThread)[0x00b3a07c]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x00b3a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -108,7 +96,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00b3a0a0]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x00b3a064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x00b3a064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00b3a058]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0xc00000,offset_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x00b3a058]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30400000,size=0xc00000,offset_addr=0xd0020a90)
 [W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL)
 [W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
@@ -142,7 +130,96 @@
 [W : PPU[1] Thread (CPUThread)[0x0006aeac]]: sys_cond warning: *** condition created [] (mutex_id=50): id = 51
 [W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
 [W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 53
-[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: TODO: cellNetCtlGetInfo
+[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
 [W : PPU[1] Thread (CPUThread)[0x0006b150]]: sys_cond warning: sys_cond_destroy(cond_id=51)
+[W : PPU[1] Thread (CPUThread)[0x0006b164]]: sys_mutex warning: sys_mutex_destroy(mutex_id=50)
+[! : PPU[1] Thread (CPUThread)[0x0006b164]]: Mutex(50) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x000915b0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd12810, attr_addr=0xd00207a4, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x000915b0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 54
+[W : PPU[1] Thread (CPUThread)[0x0009163c]]: sys_event warning: sys_event_port_create(eport_id_addr=0xd12800, port_type=0x1, name=0xd1ed1ed1)
+[W : PPU[1] Thread (CPUThread)[0x0009163c]]: sys_event warning: *** sys_event_port created: id = 56
+[W : PPU[1] Thread (CPUThread)[0x0009164c]]: sys_event warning: sys_event_port_connect_local(eport_id=56, equeue_id=54)
+[W : PPU[1] Thread (CPUThread)[0x00ee9058]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xe94100, queue=0x36, port_addr=0xd00207a0, isDynamic=0)
+[E : PPU[1] Thread (CPUThread)[0x00ee9028]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00ee9028]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00ee9028]]: TODO: cellSpursAddWorkload
+[W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 57
+[W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=57): id = 58
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/Data/Local/Localization.xml" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/Data/Classes/Classes.xml" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x00b3e010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 59
+[W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=59): id = 60
+[W : PPU[1] Thread (CPUThread)[0x0006ae48]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 61
+[W : PPU[1] Thread (CPUThread)[0x0006aeac]]: sys_cond warning: *** condition created [] (mutex_id=61): id = 62
+[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b150]]: sys_cond warning: sys_cond_destroy(cond_id=62)
+[W : PPU[1] Thread (CPUThread)[0x0006b164]]: sys_mutex warning: sys_mutex_destroy(mutex_id=61)
+[! : PPU[1] Thread (CPUThread)[0x0006b164]]: Mutex(61) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 63
+[W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=63): id = 64
+[W : PPU[1] Thread (CPUThread)[0x0006ae48]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 65
+[W : PPU[1] Thread (CPUThread)[0x0006aeac]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
+[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b150]]: sys_cond warning: sys_cond_destroy(cond_id=66)
+[W : PPU[1] Thread (CPUThread)[0x0006b164]]: sys_mutex warning: sys_mutex_destroy(mutex_id=65)
+[! : PPU[1] Thread (CPUThread)[0x0006b164]]: Mutex(65) was owned by thread -1 (recursive=0)
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/Data/Textures/cred_S.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "e:/app_home/Data/Textures/cred_S.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "e:/app_home/Data/Textures/cred_S.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/Data/Textures/cred_M.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "e:/app_home/Data/Textures/cred_M.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "e:/app_home/Data/Textures/cred_M.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/Data/Textures/cred_L.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "e:/app_home/Data/Textures/cred_L.dds.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "e:/app_home/Data/Textures/cred_L.dds.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 67
+[W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
+[W : PPU[1] Thread (CPUThread)[0x0006ae48]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 69
+[W : PPU[1] Thread (CPUThread)[0x0006aeac]]: sys_cond warning: *** condition created [] (mutex_id=69): id = 70
+[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b150]]: sys_cond warning: sys_cond_destroy(cond_id=70)
+[W : PPU[1] Thread (CPUThread)[0x0006b164]]: sys_mutex warning: sys_mutex_destroy(mutex_id=69)
+[! : PPU[1] Thread (CPUThread)[0x0006b164]]: Mutex(69) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 71
+[W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=71): id = 72
+[W : PPU[1] Thread (CPUThread)[0x0006ae48]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 73
+[W : PPU[1] Thread (CPUThread)[0x0006aeac]]: sys_cond warning: *** condition created [] (mutex_id=73): id = 74
+[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b150]]: sys_cond warning: sys_cond_destroy(cond_id=74)
+[W : PPU[1] Thread (CPUThread)[0x0006b164]]: sys_mutex warning: sys_mutex_destroy(mutex_id=73)
+[! : PPU[1] Thread (CPUThread)[0x0006b164]]: Mutex(73) was owned by thread -1 (recursive=0)
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/Data/Music/C1_L1.mp3" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000fc3f0]]: sys_fs error: "/app_home/Data/Resources/first.xml" not found! flags: 0x00000000
+[W : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x00808190]]: memory warning: sys_memory_container_create(cid_addr=0xec18cc, yield_size=0x400000)
+[W : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x00808190]]: memory warning: *** memory_container created(addr=0x31300000): id = 76
+[E : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x00808238]]: Unknown syscall: 343 - 00000157
+[W : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x00808244]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0040d80)
+[E : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x00b380a0]]: TODO: cellSaveDataAutoLoad2
+[E : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x008082b8]]: Unknown syscall: 343 - 00000157
+[W : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x008082c4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0040d80)
+[W : PPU[75] Thread (sysutil_savedata_sample_auto_load)[0x008082d0]]: memory warning: sys_memory_container_destroy(cid=76)
+[W : PPU[1] Thread (CPUThread)[0x0006b000]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 77
+[W : PPU[1] Thread (CPUThread)[0x0006b068]]: sys_cond warning: *** condition created [] (mutex_id=77): id = 78
+[W : PPU[1] Thread (CPUThread)[0x0006ae48]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 79
+[W : PPU[1] Thread (CPUThread)[0x0006aeac]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
+[E : PPU[1] Thread (CPUThread)[0x00eeb004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0006b150]]: sys_cond warning: sys_cond_destroy(cond_id=80)
+[W : PPU[1] Thread (CPUThread)[0x0006b164]]: sys_mutex warning: sys_mutex_destroy(mutex_id=79)
+[! : PPU[1] Thread (CPUThread)[0x0006b164]]: Mutex(79) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x00ef7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 81
+[W : PPU[1] Thread (CPUThread)[0x00ef70ac]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fe230)
+[W : PPU[1] Thread (CPUThread)[0x00ef7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x00ef70ac]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fe340)
+[W : PPU[1] Thread (CPUThread)[0x00ef7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 83
+[W : PPU[1] Thread (CPUThread)[0x00ef70ac]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fe340)
+[W : PPU[1] Thread (CPUThread)[0x00ef7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x00ef70ac]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fe340)
+[W : PPU[1] Thread (CPUThread)[0x00ef7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 85
+[E : PPU[1] Thread (CPUThread)[0x00089ee4]]: Read32 from null block: [00000028]
+[W : PPU[55] Thread (spu_printf_handler)[0x00092358]]: sys_event_queue_receive(equeue=54) aborted
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

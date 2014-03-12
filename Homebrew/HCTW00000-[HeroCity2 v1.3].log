@@ -9,7 +9,7 @@
 [!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HCTW00000\
 [!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\HCTW00000\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\HCTW00000\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\HCTW00000\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xd3758645 in 'cellResc' module
@@ -71,9 +71,9 @@
 [W : RawSPU[24] Thread (CPUThread)[0x00000108]]: Starting RawSPU...
 [W : PPU[1] Thread (CPUThread)[0x0008ffa0]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
 [W : PPU[1] Thread (CPUThread)[0x0008ffa0]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: cellGcmInit(context_addr=0x10850d0c,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30100000)
+[W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: cellGcmInit(context_addr=0x10850d0c,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x0022e034]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
 [E : PPU[1] Thread (CPUThread)[0x0022e0b8]]: TODO: cellGcmSetGraphicsHandler
@@ -128,10 +128,22 @@
 [W : PPU[1] Thread (CPUThread)[0x0022e07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x0022e07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3d0000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x0009c2d8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
-[W : PPU[1] Thread (CPUThread)[0x0009c4a8]]: sys_cond warning: *** condition created [0WÐ„ÿø] (mutex_id=26): id = 27
+[W : PPU[1] Thread (CPUThread)[0x0009c4a8]]: sys_cond warning: *** condition created [0WÐ„ÿø] (mutex_id=26): id = 27
 [W : PPU[1] Thread (CPUThread)[0x00225050]]: *** cellFsOpen(path="/dev_hdd0/game/HCTW00000/USRDIR/worldtexture.tga"): fd = 28
 [W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
 [W : PPU[1] Thread (CPUThread)[0x00224f3c]]: sys_fs warning: cellFsClose(fd=28)
-[W : PPU[1] Thread (CPUThread)[0x0024907c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30069970)
+[W : PPU[1] Thread (CPUThread)[0x0024907c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30159970)
+[W : PPU[1] Thread (CPUThread)[0x00225050]]: *** cellFsOpen(path="/dev_hdd0/game/HCTW00000/USRDIR/hudtexture.tga"): fd = 30
+[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x00224f3c]]: sys_fs warning: cellFsClose(fd=30)
+[W : PPU[1] Thread (CPUThread)[0x0024907c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fd500)
+[W : PPU[1] Thread (CPUThread)[0x00225050]]: *** cellFsOpen(path="/dev_hdd0/game/HCTW00000/USRDIR/entitytexture.tga"): fd = 32
+[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x00224f3c]]: sys_fs warning: cellFsClose(fd=32)
+[W : PPU[1] Thread (CPUThread)[0x0024907c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ee900)
+[W : PPU[1] Thread (CPUThread)[0x00225050]]: *** cellFsOpen(path="/dev_hdd0/game/HCTW00000/USRDIR/extrastexture.tga"): fd = 34
+[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x00224f3c]]: sys_fs warning: cellFsClose(fd=34)
+[W : PPU[1] Thread (CPUThread)[0x0024907c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f3c20)
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
