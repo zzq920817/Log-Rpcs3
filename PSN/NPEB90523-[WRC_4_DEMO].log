@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\USRDIR\BOOT.BIN'...
+[!]: Loading 'C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd0\game\NPEB90523/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\
-[!]: /dev_hdd1/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd1\
-[!]: /dev_flash/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_flash\
-[!]: /dev_usb000/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_usb000\
-[!]: /dev_usb/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_usb000\
-[!]: /app_home/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\
-[!]: /dev_bdvd/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\\..\
+[!]: /dev_hdd0/ -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_flash\
+[!]: /dev_usb000/ -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_usb000\
+[!]: /dev_usb/ -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_usb000\
+[!]: /app_home/ -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd0\game\NPEB90523/
+[!]: /dev_bdvd/ -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd0\game\NPEB90523/\..\
 [!]: /host_root/ -> 
-[!]: / -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\
+[!]: / -> C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd0\game\NPEB90523/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
@@ -258,8 +258,6 @@
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
@@ -276,16 +274,10 @@
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
 [E]: TODO: _cellSpursSendSignal
 [W]: Unknown module 'cellRec'
@@ -385,48 +377,10 @@
 [W]: Unknown module 'cellMusicExportUtility'
 [W]: Unknown module 'cellVideoUpload'
 [W]: Unknown module 'cellScreenShotUtility'
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
-[W]: Unknown function 0x3b27c780 in 'sys_net' module
-[E]: TODO: sys_net_get_sockinfo
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x01379fd7 in 'sceNp2' module
 [E]: TODO: sceNpMatching2DestroyContext
 [W]: Unknown function 0x03a2f42a in 'sceNp2' module
@@ -569,106 +523,971 @@
 [W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [StringU] (attribute=0x12): sq_id = 32
 [W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Metadat] (attribute=0x12): sq_id = 33
 [W : PPU[1] Thread (CPUThread)[0x00de9e28]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 34
-[E : PPU[1] Thread (CPUThread)[0x01810900]]: PPUInterpreter::FRSQRTE #pc: 0x1810900
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r0 = 0xd7fe38
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r1 = 0xd00207d0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r2 = 0x1cf23f0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r3 = 0x1e6a730
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r4 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r5 = 0xd0020af0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r6 = 0xd0020afc
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r7 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r8 = 0x4
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r9 = 0x1e67150
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r10 = 0x1
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r11 = 0x1bc200f4
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r12 = 0x1f29010
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r13 = 0x30007060
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r14 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r15 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r16 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r17 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r18 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r19 = 0x52
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r20 = 0x50
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r21 = 0x1cf7558
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r22 = 0x1cf7550
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r23 = 0xd
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r24 = 0xc
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r25 = 0xb
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r26 = 0xa
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r27 = 0x7
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r28 = 0x1e6e1a0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r29 = 0x3f800000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r30 = 0x1e6a730
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: r31 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f0 = 0.841225
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f1 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f2 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f3 = 1.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f4 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f5 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f6 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f7 = 1.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f8 = 1.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f9 = 0.500000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f10 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f11 = 0.500000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f12 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f13 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f14 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f15 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f16 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f17 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f18 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f19 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f20 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f21 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f22 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f23 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f24 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f25 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f26 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f27 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f28 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f29 = 1.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f30 = -1.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: f31 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v3 = 0x3f800000000000000000000000000000 [x: 1 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v4 = 0x000000003f8000000000000000000000 [x: 0 y: 1 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v5 = 0x00000000000000003f80000000000000 [x: 0 y: 0 z: 1 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v6 = 0x0000000000000000000000003f800000 [x: 0 y: 0 z: 0 w: 1]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v7 = 0x000000000000000000000000bf800000 [x: 0 y: 0 z: 0 w: -1]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: CR = 0x42000082
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: LR = 0xd7fe80
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: CTR = 0x4
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
-[! : PPU[1] Thread (CPUThread)[0x01810900]]: FPSCR = 0x82004000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
-[!]: Closing memory...
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [GArchiv] (attribute=0x12): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 36
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 40
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 43
+[W : PPU[1] Thread (CPUThread)[0x00de9e28]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 44
+[W : PPU[1] Thread (CPUThread)[0x00de9e28]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 45
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [CThread] (attribute=0x12): sq_id = 46
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Release] (attribute=0x12): sq_id = 47
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 48
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Streami] (attribute=0x12): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x00de9e28]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 51
+[W : PPU[1] Thread (CPUThread)[0x00de9e28]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 52
+[W : PPU[1] Thread (CPUThread)[0x00de9e28]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 53
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Streami] (attribute=0x12): sq_id = 54
+[W : PPU[1] Thread (CPUThread)[0x01bdf0d0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x1cb3698, userdata=0x301c2780)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ADEC_LPCM)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC_MPEG2)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_DMUX_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGENC)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_JPGENC)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_JPGDEC)
+[W : PPU[1] Thread (CPUThread)[0x00c6b368]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 55
+[W : PPU[1] Thread (CPUThread)[0x01efc0b8]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd00207e0, nSpus=2, spuPriority=3342336, ppuPriority=4, exitIfNoWork=250)
+[E : PPU[1] Thread (CPUThread)[0x01efc100]]: TODO: cellSpursInitializeWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x01efc070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x01efc0a0]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Texture] (attribute=0x12): sq_id = 56
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [EffectC] (attribute=0x12): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [RenderD] (attribute=0x12): sq_id = 58
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [RenderD] (attribute=0x12): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x01efa01c]]: cellGcmSys warning: cellGcmInit(context_addr=0x1e7203c,cmdSize=0x30000,ioSize=0x500000,ioAddress=0x30300000)
+[W : PPU[1] Thread (CPUThread)[0x01efa01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x01efa01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30300000, io=0x0, size=0x500000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 60
+[W : PPU[1] Thread (CPUThread)[0x01efa0b8]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=30064984)
+[E : PPU[1] Thread (CPUThread)[0x01efa0e8]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x01efa058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+[W : PPU[1] Thread (CPUThread)[0x01efa07c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30800000, io=0xe000000, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [VideoMe] (attribute=0x12): sq_id = 61
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [VideoMe] (attribute=0x12): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [VideoMe] (attribute=0x12): sq_id = 63
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [VideoMe] (attribute=0x12): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x01efa0ac]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30900000,size=0x0,offset_addr=0x2000000)
+[W : PPU[1] Thread (CPUThread)[0x01efa004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
+[W : PPU[1] Thread (CPUThread)[0x01bdf010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00208b0, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01efa10c]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=1441792, pitch=2880, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x01efa04c]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x01efa10c]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=1441792, size=1441792, pitch=2880, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x01efa04c]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x01efa0c4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x01efa0c4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x160000,pitch=4,width=720,height=480)
+[E : PPU[1] Thread (CPUThread)[0x01f02034]]: TODO: cellSpursJobQueueAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x01f020a0]]: TODO: cellSpursJobQueueAttributeSetGrabParameters
+[E : PPU[1] Thread (CPUThread)[0x01f0201c]]: TODO: cellSpursJobQueueAttributeSetMaxSizeJobDescriptor
+[E : PPU[1] Thread (CPUThread)[0x01f02010]]: TODO: cellSpursJobQueueAttributeSetSubmitWithEntryLock
+[E : PPU[1] Thread (CPUThread)[0x01f02004]]: TODO: cellSpursJobQueueAttributeSetDoBusyWaiting
+[E : PPU[1] Thread (CPUThread)[0x01f020d0]]: TODO: cellSpursJobQueueAttributeSetIsHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x01f02058]]: TODO: cellSpursJobQueueAttributeSetIsJobTypeMemoryCheck
+[E : PPU[1] Thread (CPUThread)[0x01f020b8]]: TODO: _cellSpursCreateJobQueue
+[E : PPU[1] Thread (CPUThread)[0x01f020c4]]: TODO: cellSpursJobQueuePortInitializeWithDescriptorBuffer
+[E : PPU[1] Thread (CPUThread)[0x01f02034]]: TODO: cellSpursJobQueueAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x01f020a0]]: TODO: cellSpursJobQueueAttributeSetGrabParameters
+[E : PPU[1] Thread (CPUThread)[0x01f0201c]]: TODO: cellSpursJobQueueAttributeSetMaxSizeJobDescriptor
+[E : PPU[1] Thread (CPUThread)[0x01f02010]]: TODO: cellSpursJobQueueAttributeSetSubmitWithEntryLock
+[E : PPU[1] Thread (CPUThread)[0x01f02004]]: TODO: cellSpursJobQueueAttributeSetDoBusyWaiting
+[E : PPU[1] Thread (CPUThread)[0x01f020d0]]: TODO: cellSpursJobQueueAttributeSetIsHaltOnError
+[E : PPU[1] Thread (CPUThread)[0x01f02058]]: TODO: cellSpursJobQueueAttributeSetIsJobTypeMemoryCheck
+[E : PPU[1] Thread (CPUThread)[0x01f020b8]]: TODO: _cellSpursCreateJobQueue
+[E : PPU[1] Thread (CPUThread)[0x01f020c4]]: TODO: cellSpursJobQueuePortInitializeWithDescriptorBuffer
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 66
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 67
+[E : PPU[1] Thread (CPUThread)[0x01efc058]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x01efc0d0]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x01efc040]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x01efc088]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x01efc13c]]: TODO: cellSpursRunJobChain
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x01bdf0f4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x01bdf0f4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x01bdf070]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020820, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x01ef8004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x01ef8064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x302fa268, portNum_addr=0x302fa194)
+[W : PPU[1] Thread (CPUThread)[0x01ef8064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=16, attr=0x0, level=0.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x01ef8040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x302fa288)
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x00df9dbc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1eb1204, attr_addr=0xd002076c, event_queue_key=0x0, size=32)
+[W : PPU[1] Thread (CPUThread)[0x00df9dbc]]: sys_event warning: *** event_queue created [Ðà] (protocol=0x2, type=0x1): id = 70
+[W : PPU[1] Thread (CPUThread)[0x00df9de4]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x1eb1308, num=1, prio=16, attr_addr=0xd002075c)
+[W : PPU[1] Thread (CPUThread)[0x00df9de4]]: sys_spu warning: *** SPU Thread Group created [_Multistream Thread Group] (type=0x0, option.ct=0x0): id=71
+[W : PPU[1] Thread (CPUThread)[0x01f2a154]]: sysPrxForUser warning: sys_spu_image_import(img=0x1eb130c, src=0x1bbf400, type=0x1)
+[W : PPU[1] Thread (CPUThread)[0x01f2a154]]: LoadShdr32 error: shstrndx too big!
+[W : PPU[1] Thread (CPUThread)[0x01f2a154]]: desc = 'msngSPU_ATRAC'
+[W : PPU[1] Thread (CPUThread)[0x00df9e78]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1eaf808, group=0x47, spu_num=0, img_addr=0x1eb130c, attr_addr=0xd0020750, arg_addr=0xd0020780)
+[W : PPU[1] Thread (CPUThread)[0x00df9e78]]: sys_spu warning: *** New SPU Thread [_Multistream SPU Thread] (img_offset=0x1f2e000, ls_offset=0x1f6e000, ep=0x0, a1=0x18159dc000000d0, a2=0x302fa19000000000, a3=0xd0020a2000000000, a4=0x1cf23f000000000): id=0
+[W : PPU[1] Thread (CPUThread)[0x00df9e9c]]: sys_spu warning: sys_spu_thread_connect_event(id=72, eq_id=70, event_type=0x1, spup=42)
+[W : PPU[1] Thread (CPUThread)[0x00df9eb4]]: sys_spu warning: sys_spu_thread_group_start(id=71)
+[E : PPU[1] Thread (CPUThread)[0x01bdb04c]]: sys_fs error: "/dev_flash/sys/external/flashATRAC.pic" not found! flags: 0x00000000
+[W : PPU[73] Thread (Audio Thread)[0x01ef804c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[E : PPU[1] Thread (CPUThread)[0x01f00010]]: TODO: cellUsbdInit
+[E : PPU[1] Thread (CPUThread)[0x01f2a130]]: TODO: sys_mempool_create
+[E : PPU[1] Thread (CPUThread)[0x01f2a130]]: TODO: sys_mempool_create
+[E : PPU[1] Thread (CPUThread)[0x01f2a130]]: TODO: sys_mempool_create
+[E : PPU[1] Thread (CPUThread)[0x01f2a130]]: TODO: sys_mempool_create
+[W : PPU[1] Thread (CPUThread)[0x00e1e344]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1ef2944, attr_addr=0xd00207e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00e1e384]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1ef2948, attr_addr=0xd00207e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00e1e384]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1ef294c, attr_addr=0xd00207e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00e1e384]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1ef2950, attr_addr=0xd00207e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00e1e3f8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1ef2954, attr_addr=0xd00207e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00e1e434]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1ef293c, attr_addr=0xd00207d0, event_queue_key=0x0, size=40)
+[W : PPU[1] Thread (CPUThread)[0x00e1e434]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 79
+[W : PPU[1] Thread (CPUThread)[0x00e1e454]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1ef2940, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00e1e454]]: sys_event warning: *** sys_event_port created: id = 80
+[W : PPU[1] Thread (CPUThread)[0x00e1e474]]: sys_event warning: sys_event_port_connect_local(eport_id=80, equeue_id=79)
+[W : PPU[1] Thread (CPUThread)[0x00e1e48c]]: sys_timer warning: sys_timer_create(timer_id_addr=0x1ef2938)
+[W : PPU[1] Thread (CPUThread)[0x00e1e4b4]]: sys_timer warning: sys_timer_connect_event_queue(timer_id=81, queue_id=79, name=0, data1=5, data2=8000)
+[W : PPU[1] Thread (CPUThread)[0x00e1d230]]: sys_timer warning: TODO: sys_timer_stop()
+[W : PPU[1] Thread (CPUThread)[0x00e1d23c]]: sys_timer warning: TODO: sys_timer_disconnect_event_queue(timer_id=81)
+[W : PPU[1] Thread (CPUThread)[0x00e1d248]]: sys_timer warning: TODO: sys_timer_destroy(timer_id=81)
+[W : PPU[1] Thread (CPUThread)[0x00e1d290]]: sys_event warning: sys_event_port_disconnect(eport_id=80)
+[W : PPU[1] Thread (CPUThread)[0x00e1d29c]]: sys_event warning: sys_event_port_destroy(eport_id=80)
+[E : PPU[1] Thread (CPUThread)[0x00e1d2c0]]: sys_event error: sys_event_queue_destroy(equeue_id=79, mode=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00e20b80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 82
+[W : PPU[1] Thread (CPUThread)[0x00e20d50]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e72a24, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d70]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e72a28, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d8c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 85
+[W : PPU[1] Thread (CPUThread)[0x00e20d50]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e73e7c, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d70]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e73e80, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d8c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 89
+[W : PPU[1] Thread (CPUThread)[0x00e20d50]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e752d4, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d70]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e752d8, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d8c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 93
+[W : PPU[1] Thread (CPUThread)[0x00e20d50]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e7672c, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d70]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1e76730, attr_addr=0xd0020790, initial_count=0, max_count=1024)
+[W : PPU[1] Thread (CPUThread)[0x00e20d8c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 97
+[E : PPU[1] Thread (CPUThread)[0x01f00058]]: TODO: cellUsbdRegisterExtraLdd
+[E : PPU[1] Thread (CPUThread)[0x01f00058]]: TODO: cellUsbdRegisterExtraLdd
+[E : PPU[1] Thread (CPUThread)[0x01f00058]]: TODO: cellUsbdRegisterExtraLdd
+[E : PPU[1] Thread (CPUThread)[0x01f00058]]: TODO: cellUsbdRegisterExtraLdd
+[E : PPU[1] Thread (CPUThread)[0x01f00058]]: TODO: cellUsbdRegisterExtraLdd
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 99
+[W : PPU[1] Thread (CPUThread)[0x00de9e28]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 100
+[W : PPU[1] Thread (CPUThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[E : PPU[1] Thread (CPUThread)[0x01bd516c]]: TODO: sceNpInit
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 101
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 103
+[W : PPU[102] Thread (StartupThread)[0x01bdd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[102] Thread (StartupThread)[0x01f20070]]: cellGame warning: cellGameBootCheck(type_addr=0xd00904e0, attributes_addr=0xd00904e4, size_addr=0xd00904f4, dirName_addr=0xd0090548)
+[W : PPU[102] Thread (StartupThread)[0x01f2001c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00905e8, usrdirPath_addr=0xd0090568)
+[W : PPU[102] Thread (StartupThread)[0x01bdf028]]: vfsLocalFile::Create('C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd1\cache\NPEB90523\')
+[! : PPU[102] Thread (StartupThread)[0x01bdf028]]: create dir: C:\Users\venu\Downloads\rpcs3\rpcs3\dev_hdd1\cache\NPEB90523
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x00de9884]]: sys_cond warning: *** condition created [] (mutex_id=100): id = 106
+[W : PPU[1] Thread (CPUThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [RTProfi] (attribute=0x12): sq_id = 107
+[W : PPU[1] Thread (CPUThread)[0x00de9884]]: sys_cond warning: *** condition created [] (mutex_id=45): id = 108
+[W : PPU[102] Thread (StartupThread)[0x01bdb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB90523/USRDIR/PATCH/" not found.
+[W : PPU[102] Thread (StartupThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 109
+[W : PPU[102] Thread (StartupThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 110
+[W : PPU[102] Thread (StartupThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 111
+[W : PPU[102] Thread (StartupThread)[0x01f2a04c]]: sys_lwmutex warning: *** lwmutex created [Mutex] (attribute=0x12): sq_id = 112
+[W : PPU[104] Thread (MoveThread)[0x00de9884]]: sys_cond warning: *** condition created [] (mutex_id=44): id = 113
+[W : PPU[102] Thread (StartupThread)[0x01bdb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB90523/USRDIR/PS3/MIXFILES.LST.EDAT" not found.
+[E : PPU[102] Thread (StartupThread)[0x01bdb04c]]: sys_fs error: "/dev_hdd0/game/NPEB90523/USRDIR/PS3/MIXFILES.LST" not found! flags: 0x00000000
+[E : PPU[102] Thread (StartupThread)[0x01bd513c]]: TODO: sceNpDrmIsAvailable
+[W : PPU[102] Thread (StartupThread)[0x01bdb04c]]: *** cellFsOpen(path="/dev_hdd0/game/NPEB90523/USRDIR/MIXFILES.LST.EDAT"): fd = 114
+[W : PPU[102] Thread (StartupThread)[0x01bdb010]]: sys_fs warning: cellFsClose(fd=114)
+[W : PPU[102] Thread (StartupThread)[0x01bdb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB90523/USRDIR/PS3/PKG_ID.TML.EDAT" not found.
+[E : PPU[102] Thread (StartupThread)[0x01bdb04c]]: sys_fs error: "/dev_hdd0/game/NPEB90523/USRDIR/PS3/PKG_ID.TML" not found! flags: 0x00000000
+[E : PPU[102] Thread (StartupThread)[0x01bd513c]]: TODO: sceNpDrmIsAvailable
+[W : PPU[102] Thread (StartupThread)[0x01bdb04c]]: *** cellFsOpen(path="/dev_hdd0/game/NPEB90523/USRDIR/PKG_ID.TML.EDAT"): fd = 115
+[W : PPU[102] Thread (StartupThread)[0x01bdb010]]: sys_fs warning: cellFsClose(fd=115)
+[W : PPU[102] Thread (StartupThread)[0x01f20028]]: cellGame warning: cellGameContentErrorDialog(type=101, errNeedSizeKB=0, dirName_addr=0x0)
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020f8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[73] Thread (Audio Thread)[0x00dfa818]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=72, value=0x1eaf600)
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[104] Thread (MoveThread)[0x00de9a1c]]: sys_cond_wait(id=113) aborted
+[! : RSXThread]: RSX thread exit...
+[W : PPU[73] Thread (Audio Thread)[0x00dfa83c]]: sys_event_queue_receive(equeue=70) aborted
+[W : SPU[72] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel($SPU_RdDec) aborted
+[W : Audio Thread]: Audio aborted
