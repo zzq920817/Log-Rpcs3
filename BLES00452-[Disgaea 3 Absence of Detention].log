@@ -339,8 +339,8 @@
 [W : PPU[1] Thread (CPUThread)[0x01f3304c]]: cellPamf warning: cellPamfGetHeaderSize(pAddr=0xd0020028, fileSize=412655616, pSize_addr=0xd00208d0)
 [W : PPU[1] Thread (CPUThread)[0x01f3301c]]: cellPamf warning: cellPamfGetStreamOffsetAndSize(pAddr=0xd0020028, fileSize=412655616, pOffset_addr=0xd001fff0, pSize_addr=0xd001fff8)
 [W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=72, offset=0x0, buf_addr=0x36ca5820, size=0x800, error=0x0, res=0x800, xid=0xe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
 [W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de888, id_addr=0x2de8b4, func_addr=0x2a06c0)
+[W : fsAioRead]: *** fsAioRead(fd=72, offset=0x0, buf_addr=0x36ca5820, size=0x800, error=0x0, res=0x800, xid=0xe [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/dis3_0_us.dat])
 [W : fsAioRead]: *** fsAioRead(fd=61, offset=0xe40, buf_addr=0x3303f000, size=0x339131, error=0x0, res=0x339131, xid=0xf [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak])
 [W : PPU[1] Thread (CPUThread)[0x01f1f010]]: sys_fs warning: cellFsClose(fd=72)
 [W : PPU[1] Thread (CPUThread)[0x01f33040]]: cellPamf warning: cellPamfReaderInitialize(pSelf=0xd00208e8, pAddr=0x36ca5020, fileSize=412655616, attribute=0x1)
@@ -369,11 +369,11 @@
 [W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x5b5670, esFilterId_addr=0xd0020a4c, esSpecificInfo_addr=0xd0020a5c, esAttr_addr=0xd0020870)
 [W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
 [W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=79, esFilterId_addr=0xd0020a4c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a5c, esHandle_addr=0x36eb5120)
-[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x36eb5180, size=0x1000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x2a1530(arg=0x5b54d0), spec=0xd0020a5c): id = 80
+[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x36eb5180, size=0x3000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x2a1530(arg=0x5b54d0), spec=0xd0020a5c): id = 80
 [W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x5b5670, esFilterId_addr=0xd0020a1c, esSpecificInfo_addr=0xd0020a2c, esAttr_addr=0xd0020870)
 [W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
 [W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=79, esFilterId_addr=0xd0020a1c, esResourceInfo_addr=0xd0020874, esCb_addr=0xd002087c, esSpecificInfo_addr=0xd0020a2c, esHandle_addr=0x36eb5140)
-[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x37eb5180, size=0x200020, filter(0xbd, 0x0, 0x0, 0x0), cb=0x2a11e8(arg=0x5b55d8), spec=0xd0020a2c): id = 81
+[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x39eb5180, size=0x200020, filter(0xbd, 0x0, 0x0, 0x0), cb=0x2a11e8(arg=0x5b55d8), spec=0xd0020a2c): id = 81
 [W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 82
 [W : PPU[1] Thread (CPUThread)[0x0029b034]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2758112)
 [W : PPU[1] Thread (CPUThread)[0x000251f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 83
@@ -390,10 +390,10 @@
 [W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
 [W : fsAioRead]: *** fsAioRead(fd=62, offset=0xb340, buf_addr=0x3290a000, size=0x4e5d51, error=0x0, res=0x4e5d51, xid=0x12 [dev_bdvd/D:/Emulateur/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
 [E : PPU[1] Thread (CPUThread)[0x000b439c]]: Read16 from null block: [00000194]
-[W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...
-[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ea50]]: sys_cond_wait(id=48) aborted
 [W : Demuxer[79] Thread]: Demuxer aborted
-[W : PPU[49] Thread (_sys_mixerSurBusReq)[0x0024bb24]]: sys_cond_wait(id=44) aborted
+[W : Audio Thread]: Audio aborted
 [W : PPU[57] Thread (synth2_generate)[0x00249f30]]: sys_event_queue_receive(equeue=29) aborted
+[W : PPU[41] Thread (_sys_MixerChStripMain)[0x0025359c]]: sys_cond_wait(id=40) aborted
+[W : PPU[49] Thread (_sys_mixerSurBusReq)[0x0024bb24]]: sys_cond_wait(id=44) aborted
 [!]: Closing memory...

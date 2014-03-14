@@ -1,16 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[W]: SELF: No NPDRM control info found!
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
@@ -236,8 +235,8 @@
 [W : PPU[1] Thread (CPUThread)[0x022190c4]]: cellGcmSys warning: cellGcmInit(context_addr=0x21f19bc,cmdSize=0x10000,ioSize=0x7e00000,ioAddress=0x31200000)
 [W : PPU[1] Thread (CPUThread)[0x022190c4]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x022190c4]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31200000, io=0x0, size=0x7e00000)
-[W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 13
 [! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 13
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x0002956c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
 [W : PPU[1] Thread (CPUThread)[0x00242260]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
@@ -304,6 +303,6 @@
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 60
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 61
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
-[! : RSXThread]: RSX thread exit...
 [W : PPU[29] Thread (NU::Draw::RequestManager)[0x0022341c]]: sys_cond_wait(id=28) aborted
+[! : RSXThread]: RSX thread exit...
 [W : PPU[1] Thread (CPUThread)[0x00234770]]: sys_cond_wait(id=21) aborted

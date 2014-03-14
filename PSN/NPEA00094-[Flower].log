@@ -155,7 +155,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0059bb40]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1b40704, port_type=0x1, name=0xd1ed1ed1)
 [W : PPU[1] Thread (CPUThread)[0x0059bb40]]: sys_event warning: *** sys_event_port created: id = 35
 [W : PPU[1] Thread (CPUThread)[0x0059bb50]]: sys_event warning: sys_event_port_connect_local(eport_id=35, equeue_id=33)
-[W : PPU[1] Thread (CPUThread)[0x01b8d0f4]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x9f5900, queue=0x21, port_addr=0xd00207a0, isDynamic=0)
+[E : PPU[1] Thread (CPUThread)[0x01b8d0f4]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x9f5900, queue=0x21, port_addr=0xd00207a0, isDynamic=0)
 [E : PPU[1] Thread (CPUThread)[0x01b8d0c4]]: TODO: cellSpursAddWorkload
 [E : PPU[1] Thread (CPUThread)[0x01b8d100]]: TODO: cellSpursReadyCountStore
 [E : PPU[1] Thread (CPUThread)[0x01b8d0d0]]: TODO: cellSpursWakeUp
@@ -165,6 +165,5 @@
 [W : PPU[1] Thread (CPUThread)[0x01b8b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x01ba110c]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x9e971c, entry=0x860eb8)
 [W : PPU[36] Thread (CPUThread)[0x01ba1058]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 37
-[! : RSXThread]: RSX thread exit...
 [W : PPU[34] Thread (spu_printf_handler)[0x0059c518]]: sys_event_queue_receive(equeue=33) aborted
-[!]: Closing memory...
+[! : RSXThread]: RSX thread exit...

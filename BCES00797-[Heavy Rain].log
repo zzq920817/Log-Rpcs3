@@ -190,18 +190,21 @@
 [W : PPU[1] Thread (CPUThread)[0x01303004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd00208f8, bufsize=256)
 [W : PPU[1] Thread (CPUThread)[0x0130301c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00206f8, usrdirPath_addr=0xd00207f8)
 [W : PPU[1] Thread (CPUThread)[0x012fd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BOOT.ini" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020430)
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BOOT.ini" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/runtime.ini" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020430)
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/runtime.ini" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020050)
-[W : PPU[1] Thread (CPUThread)[0x00ceb0a0]]: sys_fs warning: cellFsSdataOpen(path="/runtime.sdat", flags=0x0, fd_addr=0x3a41005c, arg_addr=0x0, size=0x0)
-[E : PPU[1] Thread (CPUThread)[0x00ceb0a0]]: sys_fs error: '/dev_hdd1/runtime.sdat.unpacked' couldn't be created! flags: 0x00000002
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020050)
-[W : PPU[1] Thread (CPUThread)[0x00ceb0a0]]: sys_fs warning: cellFsSdataOpen(path="/SKU.sdat", flags=0x0, fd_addr=0x3a41005c, arg_addr=0x0, size=0x0)
-[E : PPU[1] Thread (CPUThread)[0x00ceb0a0]]: sys_fs error: '/dev_hdd1/SKU.sdat.unpacked' couldn't be created! flags: 0x00000002
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BOOT.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020430)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BOOT.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/runtime.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020430)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/runtime.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/runtime.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020430)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/runtime.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/SKU.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020430)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/SKU.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/SKU.ini" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020430)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/SKU.ini" not found.
 [W : PPU[1] Thread (CPUThread)[0x00570160]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x012fd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
 [W : PPU[1] Thread (CPUThread)[0x00cef10c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020660, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=249)
@@ -232,7 +235,7 @@
 [W : PPU[1] Thread (CPUThread)[0x012ff01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x012ff01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30100000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
 [W : PPU[1] Thread (CPUThread)[0x012ff088]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x100000, size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x012ff088]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30300000, io=0x200000, size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x012ff088]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30400000, io=0x300000, size=0x100000)
@@ -429,6 +432,10 @@
 [W : PPU[1] Thread (CPUThread)[0x012ff010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0xd54738)
 [W : PPU[1] Thread (CPUThread)[0x012ff0f4]]: cellGcmSys warning: cellGcmSetDefaultCommandBuffer()
 [E : PPU[1] Thread (CPUThread)[0x012ff0e8]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 29
+[W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=29): id = 30
+[W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 31
+[W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=31): id = 32
 [W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 33
 [W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=33): id = 34
 [W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 35
@@ -437,10 +444,6 @@
 [W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=37): id = 38
 [W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 39
 [W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 40
-[W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 41
-[W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=41): id = 42
-[W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 43
-[W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
 [E : PPU[1] Thread (CPUThread)[0x00cef028]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00cef0c4]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00cef184]]: TODO: cellSpursCreateTasksetWithAttribute
@@ -450,9 +453,13 @@
 [E : PPU[1] Thread (CPUThread)[0x00cef0e8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x00cef010]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x00cef034]]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W : PPU[1] Thread (CPUThread)[0x000c71e0]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 48
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x000c71e0]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 44
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 45
 [E : PPU[1] Thread (CPUThread)[0x00cef178]]: TODO: cellSpursCreateTask
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 52
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 53
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 54
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 55
@@ -462,18 +469,14 @@
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 59
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 60
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 61
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 63
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 64
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 65
 [W : PPU[1] Thread (CPUThread)[0x012fd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x012fd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GEM)
 [E : PPU[1] Thread (CPUThread)[0x0130d040]]: TODO: cellGemGetMemorySize
 [E : PPU[1] Thread (CPUThread)[0x0130d010]]: TODO: cellGemInit
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 65
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 66
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 68
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 69
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 70
 [E : PPU[1] Thread (CPUThread)[0x00cef190]]: TODO: _cellSpursTasksetAttribute2Initialize
 [E : PPU[1] Thread (CPUThread)[0x00cef094]]: TODO: cellSpursCreateTaskset2
 [E : PPU[1] Thread (CPUThread)[0x00cef010]]: TODO: _cellSpursLFQueueInitialize
@@ -491,8 +494,8 @@
 [E : PPU[1] Thread (CPUThread)[0x00cef010]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x00cef034]]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x00cef1c0]]: TODO: cellSpursCreateTask2WithBinInfo
-[W : PPU[1] Thread (CPUThread)[0x008192dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 72
-[W : PPU[1] Thread (CPUThread)[0x00819304]]: sys_cond warning: *** condition created [] (mutex_id=72): id = 73
+[W : PPU[1] Thread (CPUThread)[0x008192dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 68
+[W : PPU[1] Thread (CPUThread)[0x00819304]]: sys_cond warning: *** condition created [] (mutex_id=68): id = 69
 [W : PPU[1] Thread (CPUThread)[0x012ff004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x012ff118]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=7602176, size=7536640, pitch=10240, comp=11, base=116, bank=1)
 [E : PPU[1] Thread (CPUThread)[0x012ff118]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
@@ -520,71 +523,71 @@
 [W : PPU[1] Thread (CPUThread)[0x012ff118]]: cellGcmSys warning: cellGcmSetTile(index=11, location=0, offset=60424192, size=4194304, pitch=4096, comp=0, base=821, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x012ff004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
 [W : PPU[1] Thread (CPUThread)[0x012ff118]]: cellGcmSys warning: cellGcmSetTile(index=12, location=0, offset=64618496, size=1048576, pitch=2048, comp=0, base=885, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x008192dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
-[W : PPU[1] Thread (CPUThread)[0x00819304]]: sys_cond warning: *** condition created [] (mutex_id=74): id = 75
-[W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 76
-[W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=76): id = 77
+[W : PPU[1] Thread (CPUThread)[0x008192dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 70
+[W : PPU[1] Thread (CPUThread)[0x00819304]]: sys_cond warning: *** condition created [] (mutex_id=70): id = 71
+[W : PPU[1] Thread (CPUThread)[0x0056fc88]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 72
+[W : PPU[1] Thread (CPUThread)[0x0056fcb0]]: sys_cond warning: *** condition created [] (mutex_id=72): id = 73
 [W : PPU[1] Thread (CPUThread)[0x012fd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 78
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 79
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 80
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 75
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 76
 [W : PPU[1] Thread (CPUThread)[0x008f5b8c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x3a411528, attr_addr=0xd002040c, event_queue_key=0x0, size=10)
-[W : PPU[1] Thread (CPUThread)[0x008f5b8c]]: sys_event warning: *** event_queue created [memserv] (protocol=0x1, type=0x1): id = 81
-[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x51, port_addr=0xd0020410, isDynamic=1)
+[W : PPU[1] Thread (CPUThread)[0x008f5b8c]]: sys_event warning: *** event_queue created [memserv] (protocol=0x1, type=0x1): id = 77
+[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x4d, port_addr=0xd0020410, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd0020334, attr_addr=0xd0020344, event_queue_key=0x0, size=50)
-[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 83
+[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 79
 [W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e4658, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 84
-[W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=84, equeue_id=83)
-[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x53, port_addr=0xd0020330, isDynamic=1)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 80
+[W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=80, equeue_id=79)
+[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x4f, port_addr=0xd0020330, isDynamic=1)
 [E : PPU[1] Thread (CPUThread)[0x00cef028]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00cef0c4]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00cef100]]: TODO: cellSpursTasksetAttributeSetTasksetSize
 [E : PPU[1] Thread (CPUThread)[0x00cef184]]: TODO: cellSpursCreateTasksetWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 85
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 81
+[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
+[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 82
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e4688, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 83
+[W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=83, equeue_id=82)
+[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x52, port_addr=0xd00202f0, isDynamic=1)
+[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
+[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 84
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46b8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 85
+[W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=85, equeue_id=84)
+[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x54, port_addr=0xd00202f0, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 86
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e4688, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46a8, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 87
 [W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=87, equeue_id=86)
 [W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x56, port_addr=0xd00202f0, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 88
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46b8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e4698, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 89
 [W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=89, equeue_id=88)
 [W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x58, port_addr=0xd00202f0, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 90
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46a8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46c8, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 91
 [W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=91, equeue_id=90)
 [W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x5a, port_addr=0xd00202f0, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 92
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e4698, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46f8, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 93
 [W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=93, equeue_id=92)
 [W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x5c, port_addr=0xd00202f0, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
 [W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 94
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46c8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46e8, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 95
 [W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=95, equeue_id=94)
 [W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x5e, port_addr=0xd00202f0, isDynamic=1)
-[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
-[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 96
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46f8, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 97
-[W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=97, equeue_id=96)
-[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x60, port_addr=0xd00202f0, isDynamic=1)
-[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xd00202f4, attr_addr=0xd0020304, event_queue_key=0x0, size=50)
-[W : PPU[1] Thread (CPUThread)[0x00903818]]: sys_event warning: *** event_queue created [hkSem] (protocol=0x1, type=0x1): id = 98
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3a6e46e8, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00903838]]: sys_event warning: *** sys_event_port created: id = 99
-[W : PPU[1] Thread (CPUThread)[0x00903848]]: sys_event warning: sys_event_port_connect_local(eport_id=99, equeue_id=98)
-[W : PPU[1] Thread (CPUThread)[0x00cef16c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xea0c00, queue=0x62, port_addr=0xd00202f0, isDynamic=1)
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 96
 [E : PPU[1] Thread (CPUThread)[0x00cef028]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00cef0c4]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00cef100]]: TODO: cellSpursTasksetAttributeSetTasksetSize
@@ -654,153 +657,250 @@
 [W : PPU[1] Thread (CPUThread)[0x00ce704c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0020708, portNum_addr=0xddf1ec)
 [W : PPU[1] Thread (CPUThread)[0x00ce704c]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x00ce7028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd00206e8)
-[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 101
+[W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 97
 [E : PPU[1] Thread (CPUThread)[0x00cef0ac]]: TODO: cellSpursCreateTaskset
 [E : PPU[1] Thread (CPUThread)[0x00cef0b8]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x00cef0e8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x00cef0b8]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x00cef178]]: TODO: cellSpursCreateTask
-[W : PPU[102] Thread (Multistream PPU Thread)[0x00ce7034]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_flash/sys/external/flashMP3.pic"): fd = 103
-[W : PPU[1] Thread (CPUThread)[0x00ceb010]]: sys_fs warning: cellFsClose(fd=103)
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[W : PPU[98] Thread (Multistream PPU Thread)[0x00ce7034]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_flash/sys/external/flashMP3.pic"): fd = 99
+[W : PPU[1] Thread (CPUThread)[0x00ceb010]]: sys_fs warning: cellFsClose(fd=99)
 [W : PPU[1] Thread (CPUThread)[0x00ced094]]: cellSysutil warning: cellAudioOutSetCopyControl(audioOut=0,control=0)
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[W : PPU[104] Thread (SplashScreenThread)[0x000cb86c]]: memory warning: sys_memory_container_create(cid_addr=0xdbba14, yield_size=0x100000)
-[W : PPU[104] Thread (SplashScreenThread)[0x000cb86c]]: memory warning: *** memory_container created(addr=0x3bd00000): id = 105
-[W : PPU[104] Thread (SplashScreenThread)[0x012fd01c]]: cellSysmodule warning: TODO: cellSysmoduleSetMemcontainer(ct_id=0x69)
-[W : PPU[104] Thread (SplashScreenThread)[0x012fd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_JPGDEC)
-[E : PPU[104] Thread (SplashScreenThread)[0x01309028]]: cellJpgDec error: Unimplemented function: cellJpgDecCreate
-[W : PPU[104] Thread (SplashScreenThread)[0x0130901c]]: cellJpgDec warning: cellJpgDecOpen(mainHandle=0x0, subHandle=0xdbb78c, src_addr=0xd00e0a68, openInfo=0xd00e0a20)
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.d01" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020090)
-[W : PPU[104] Thread (SplashScreenThread)[0x0130901c]]: *** cellFsOpen(path="/Misc/SplashScreens/boot.jpg"): fd = 106
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.d01" not found.
-[W : PPU[1] Thread (CPUThread)[0x008192dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 109
-[W : PPU[1] Thread (CPUThread)[0x00819304]]: sys_cond warning: *** condition created [] (mutex_id=109): id = 110
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.idx" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020210)
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.idx" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.idm" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020210)
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.idm" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.sdat" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020210)
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.sdat" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.edat" not found.
-[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd0020210)
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/BigFile.edat" not found.
+[W : PPU[100] Thread (SplashScreenThread)[0x000cb86c]]: memory warning: sys_memory_container_create(cid_addr=0xdbba14, yield_size=0x100000)
+[W : PPU[100] Thread (SplashScreenThread)[0x000cb86c]]: memory warning: *** memory_container created(addr=0x3bd00000): id = 101
+[W : PPU[100] Thread (SplashScreenThread)[0x012fd01c]]: cellSysmodule warning: TODO: cellSysmoduleSetMemcontainer(ct_id=0x65)
+[W : PPU[100] Thread (SplashScreenThread)[0x012fd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_JPGDEC)
+[E : PPU[100] Thread (SplashScreenThread)[0x01309028]]: cellJpgDec error: Unimplemented function: cellJpgDecCreate
+[W : PPU[100] Thread (SplashScreenThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/Misc/SplashScreens/boot.jpg" not found.
+[W : PPU[100] Thread (SplashScreenThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR/Misc/SplashScreens", fd_addr=0xd00e03f0)
+[W : PPU[100] Thread (SplashScreenThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/Misc/SplashScreens/boot.jpg" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.d01" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020090)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.d01" not found.
+[W : PPU[1] Thread (CPUThread)[0x008192dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 102
+[W : PPU[1] Thread (CPUThread)[0x00819304]]: sys_cond warning: *** condition created [] (mutex_id=102): id = 103
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.idx" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020210)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.idx" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.idm" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020210)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.idm" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020210)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd0020210)
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFile.edat" not found.
 [W : PPU[1] Thread (CPUThread)[0x00ced028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[E : PPU[115] Thread (LoadThread)[0x00ced0d0]]: TODO: cellSaveDataAutoLoad2
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[104] Thread (LoadThread)[0x00ced0d0]]: TODO: cellSaveDataAutoLoad2
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[W : PPU[100] Thread (SplashScreenThread)[0x012fd01c]]: cellSysmodule warning: TODO: cellSysmoduleSetMemcontainer(ct_id=0xffffffff)
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x00ced01c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BCES-00797\')
 [! : PPU[1] Thread (CPUThread)[0x00ced01c]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BCES-00797
 [W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//corruption.qdf" not found.
 [W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001fcf0)
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
-[E : PPU[102] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//corruption.qdf" not found.
 [W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//CacheInfo.bin" not found.
 [W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd00201d0)
 [W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//CacheInfo.bin" not found.
 [W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd0020190)
 [W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BCES-00797\CacheInfo.bin')
-[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//CacheInfo.bin"): fd = 119
-[E : PPU[1] Thread (CPUThread)[0x000cdf74]]: Read32 from null block: [00000000]
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//CacheInfo.bin"): fd = 108
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.d01" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd0020050)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.d01" not found.
+[W : PPU[1] Thread (CPUThread)[0x008192dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 110
+[W : PPU[1] Thread (CPUThread)[0x00819304]]: sys_cond warning: *** condition created [] (mutex_id=110): id = 111
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.idm" not found.
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001ff70)
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.idm" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001ff70)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001ff70)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.idx" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001fd70)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.idx" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001fc00)
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BCES-00797\BigFileCache.idx')
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//BigFileCache.idx"): fd = 117
+[W : PPU[1] Thread (CPUThread)[0x00ceb010]]: sys_fs warning: cellFsClose(fd=117)
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001fc00)
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//BigFileCache.idx"): fd = 119
+[W : PPU[1] Thread (CPUThread)[0x00ceb010]]: sys_fs warning: cellFsClose(fd=119)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.idm" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001ff50)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.idm" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001ff50)
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.sdat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001ff50)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BCES-00797//BigFileCache.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001fbe0)
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//BigFileCache.idx"): fd = 124
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFileCache.dat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BCES00797/USRDIR", fd_addr=0xd001fe50)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/BigFileCache.dat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001fce0)
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BCES-00797\BigFileCache.dat')
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//BigFileCache.dat"): fd = 126
+[W : PPU[1] Thread (CPUThread)[0x00ceb010]]: sys_fs warning: cellFsClose(fd=126)
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd001fce0)
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//BigFileCache.dat"): fd = 128
+[W : PPU[1] Thread (CPUThread)[0x00ceb010]]: sys_fs warning: cellFsClose(fd=128)
+[W : PPU[1] Thread (CPUThread)[0x00ceb01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/BCES-00797/", fd_addr=0xd0020040)
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BCES-00797\BigFileCache.dat')
+[W : PPU[1] Thread (CPUThread)[0x00ceb04c]]: *** cellFsOpen(path="/dev_hdd1/cache/BCES-00797//BigFileCache.dat"): fd = 130
+[W : PPU[1] Thread (CPUThread)[0x00ceb010]]: sys_fs warning: cellFsClose(fd=108)
+[W : PPU[1] Thread (CPUThread)[0x00ceb058]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BCES00797/USRDIR/Languages" not found.
+[W : PPU[1] Thread (CPUThread)[0x00ced028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x00ced028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef1b4]]: TODO: _cellSpursSendSignal
+[E : PPU[98] Thread (Multistream PPU Thread)[0x00cef088]]: TODO: cellSpursEventFlagWait
+[E : PPU[100] Thread (SplashScreenThread)[0x00cef1a8]]: TODO: cellSpursJobGuardNotify
+[E : PPU[100] Thread (SplashScreenThread)[0x00cef0f4]]: TODO: _cellSpursLFQueuePushBody
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : PPU[100] Thread (SplashScreenThread)[0x00cef1cc]]: TODO: cellSpursRunJobChain
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0xff000000)
+[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0xff000000)
+[W : RSXThread]: null cmd: addr=0x5000245c, put=0xc4280000, get=0x245c
+[! : RSXThread]: RSX thread exit...
+[W : Audio Thread]: Audio aborted
+[W : PPU[42] Thread (Aio Thread)[0x0056fbf4]]: sys_cond_wait(id=34) aborted
+[W : PPU[48] Thread (Read Chunk Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=38) aborted
+[W : PPU[47] Thread (Aio Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=40) aborted
+[W : PPU[78] Thread (hkSpuUtil Helper)[0x008f4a58]]: sys_event_queue_receive(equeue=77) aborted
+[W : PPU[41] Thread (Loading Thread)[0x0056fbf4]]: sys_cond_wait(id=30) aborted
+[W : PPU[43] Thread (Read Chunk Thread)[0x0056fbf4]]: sys_cond_wait(id=32) aborted
+[W : PPU[27] Thread (DeferredJobQueue PPU Thread)[0x0056fbf4]]: sys_cond_wait(id=23) aborted
+[W : PPU[46] Thread (Loading Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=36) aborted

@@ -161,7 +161,7 @@
 [E : PPU[1] Thread (CPUThread)[0x008cb100]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x008cb010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x56a600)
 [W : PPU[1] Thread (CPUThread)[0x0053b094]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x9c278d70)
+[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x3c1f7a70)
 [W : PPU[1] Thread (CPUThread)[0x008cb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0053b07c]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020aa4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x008cb070]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
@@ -187,7 +187,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0053f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
 [W : PPU[1] Thread (CPUThread)[0x0053f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0053b058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x56ab88, userdata=0x837990)
-[W : PPU[1] Thread (CPUThread)[0x008cf0b8]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020970, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=250)
+[E : PPU[1] Thread (CPUThread)[0x008cf0b8]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020970, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=250)
 [E : PPU[1] Thread (CPUThread)[0x008cf0f4]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x008c704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x008c70b8]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x878140): id = 15
@@ -200,7 +200,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0035dd24]]: sys_event warning: sys_event_port_create(eport_id_addr=0x88d50c, port_type=0x1, name=0xd1ed1ed1)
 [W : PPU[1] Thread (CPUThread)[0x0035dd24]]: sys_event warning: *** sys_event_port created: id = 22
 [W : PPU[1] Thread (CPUThread)[0x0035dd34]]: sys_event warning: sys_event_port_connect_local(eport_id=22, equeue_id=20)
-[W : PPU[1] Thread (CPUThread)[0x008cf100]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x34200400, queue=0x14, port_addr=0xd0020a00, isDynamic=0)
+[E : PPU[1] Thread (CPUThread)[0x008cf100]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x34200400, queue=0x14, port_addr=0xd0020a00, isDynamic=0)
 [E : PPU[1] Thread (CPUThread)[0x008cf070]]: TODO: cellSpursAddWorkload
 [E : PPU[1] Thread (CPUThread)[0x008cf0dc]]: TODO: _cellSpursWorkloadFlagReceiver
 [E : PPU[1] Thread (CPUThread)[0x008cf154]]: TODO: cellSpursReadyCountStore
@@ -214,8 +214,7 @@
 [W : PPU[1] Thread (CPUThread)[0x008c704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
 [W : PPU[1] Thread (CPUThread)[0x008c70b8]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x879400): id = 30
 [W : PPU[33] Thread (PhyreEngineHDDPathThread)[0x008b701c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0060cd0, attributes_addr=0xd0060cd4, size_addr=0xd0060cd8, dirName_addr=0x0)
-[! : RSXThread]: RSX thread exit...
-[W : PPU[21] Thread (spu_printf_handler)[0x0035e6c8]]: sys_event_queue_receive(equeue=20) aborted
 [W : PPU[32] Thread (PhyreEngineWorkerThread1)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
 [W : PPU[31] Thread (PhyreEngineWorkerThread0)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
-[!]: Closing memory...
+[W : PPU[21] Thread (spu_printf_handler)[0x0035e6c8]]: sys_event_queue_receive(equeue=20) aborted
+[! : RSXThread]: RSX thread exit...

@@ -346,16 +346,16 @@
 [E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b5b8)
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
-[W : PPU[1] Thread (CPUThread)[0x00ecf088]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020628, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=249)
-[W : PPU[1] Thread (CPUThread)[0x00ecf004]]: cellSpurs warning: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0020628)
-[W : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[3630975888], maxSpu=6, isPreemptible[3630975896])
+[E : PPU[1] Thread (CPUThread)[0x00ecf088]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020628, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=249)
+[E : PPU[1] Thread (CPUThread)[0x00ecf004]]: cellSpurs error: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0020628)
+[E : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[2947210512], maxSpu=6, isPreemptible[2947210520])
 [E : PPU[1] Thread (CPUThread)[0x00ecf0d0]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xe8e610, attr_addr=0xd0020540, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 86
 [W : PPU[1] Thread (CPUThread)[0x002aa950]]: sys_event warning: sys_event_port_create(eport_id_addr=0xe8e614, port_type=0x1, name=0xd1ed1ed1)
 [W : PPU[1] Thread (CPUThread)[0x002aa950]]: sys_event warning: *** sys_event_port created: id = 88
 [W : PPU[1] Thread (CPUThread)[0x002aa964]]: sys_event warning: sys_event_port_connect_local(eport_id=88, equeue_id=86)
-[W : PPU[1] Thread (CPUThread)[0x00ecf190]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x37a00400, queue=0x56, port_addr=0xd0020550, isDynamic=0)
+[E : PPU[1] Thread (CPUThread)[0x00ecf190]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x37a00400, queue=0x56, port_addr=0xd0020550, isDynamic=0)
 [E : PPU[1] Thread (CPUThread)[0x00ecf154]]: TODO: cellSpursAddWorkload
 [E : PPU[1] Thread (CPUThread)[0x00ecf178]]: TODO: _cellSpursWorkloadFlagReceiver
 [E : PPU[1] Thread (CPUThread)[0x00ecf1a8]]: TODO: cellSpursReadyCountStore
@@ -410,6 +410,5 @@
 [E : PPU[1] Thread (CPUThread)[0x00edb0ac]]: TODO: sceNpDrmIsAvailable
 [E : PPU[1] Thread (CPUThread)[0x00eed034]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x0020a7d0]]: Write64 to null block: [cfffe860]: d0020560
-[! : RSXThread]: RSX thread exit...
 [W : PPU[87] Thread (spu_printf_handler)[0x002aad50]]: sys_event_queue_receive(equeue=86) aborted
-[!]: Closing memory...
+[! : RSXThread]: RSX thread exit...

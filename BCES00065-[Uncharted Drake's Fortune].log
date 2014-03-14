@@ -1,5 +1,5 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00065-[Uncharted Drake's Fortune]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00065-[Uncharted Drake's Fortune]\PS3_GAME\USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
@@ -70,42 +70,20 @@
 [E]: TODO: cellGcmSetInvalidateTile
 [W]: Unknown function 0xd01b570d in 'cellGcmSys' module
 [E]: TODO: cellGcmSetGraphicsHandler
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
 [W]: Unknown function 0x28e208bb in 'sys_net' module
 [E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
-[W]: Unknown function 0x6005cde1 in 'sys_net' module
-[E]: TODO: _sys_net_errno_loc
-[W]: Unknown function 0x64f66d35 in 'sys_net' module
-[E]: TODO: connect
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
-[W]: Unknown function 0xc94f6939 in 'sys_net' module
-[E]: TODO: accept
-[W]: Unknown function 0xdc751b40 in 'sys_net' module
-[E]: TODO: send
 [W]: Unknown function 0xf7ac8941 in 'sys_net' module
 [E]: TODO: gethostbyaddr
 [W]: Unknown function 0xf9ec2db6 in 'sys_net' module
 [E]: TODO: getpeername
-[W]: Unknown function 0xfba04f37 in 'sys_net' module
-[E]: TODO: recv
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
@@ -1016,4 +994,3 @@
 [! : PPU[1] Thread (CPUThread)[0x00666a1c]]: CTR = 0x1d8ef8
 [! : PPU[1] Thread (CPUThread)[0x00666a1c]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
 [! : PPU[1] Thread (CPUThread)[0x00666a1c]]: FPSCR = 0x82008000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=8 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
-[!]: Closing memory...

@@ -266,7 +266,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00042d24]]: sys_event warning: sys_event_port_create(eport_id_addr=0x137640, port_type=0x1, name=0xfee1dead)
 [W : PPU[1] Thread (CPUThread)[0x00042d24]]: sys_event warning: *** sys_event_port created: id = 18
 [W : PPU[1] Thread (CPUThread)[0x00042d3c]]: sys_event warning: sys_event_port_connect_local(eport_id=18, equeue_id=16)
-[W : PPU[1] Thread (CPUThread)[0x0026c04c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x30270800, queue=0x10, port_addr=0xd0020a10, isDynamic=0)
+[E : PPU[1] Thread (CPUThread)[0x0026c04c]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x30270800, queue=0x10, port_addr=0xd0020a10, isDynamic=0)
 [W : PPU[1] Thread (CPUThread)[0x00051d44]]: memory warning: sys_memory_container_create(cid_addr=0x1789e0, yield_size=0x800000)
 [W : PPU[1] Thread (CPUThread)[0x00051d44]]: memory warning: *** memory_container created(addr=0x37100000): id = 19
 [W : PPU[1] Thread (CPUThread)[0x00280034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
@@ -287,7 +287,7 @@
 [E : PPU[1] Thread (CPUThread)[0x0026a088]]: cellGcmSys error: cellGcmSetTile: bad comp! (9)
 [W : PPU[1] Thread (CPUThread)[0x00042370]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x301102c0, attr_addr=0xd00205a0, event_queue_key=0x0, size=1)
 [W : PPU[1] Thread (CPUThread)[0x00042370]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 23
-[W : PPU[1] Thread (CPUThread)[0x0026c04c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x30270800, queue=0x17, port_addr=0x301102c4, isDynamic=1)
+[E : PPU[1] Thread (CPUThread)[0x0026c04c]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x30270800, queue=0x17, port_addr=0x301102c4, isDynamic=1)
 [E : PPU[1] Thread (CPUThread)[0x0026c010]]: TODO: cellSpursCreateJobChain
 [E : PPU[1] Thread (CPUThread)[0x0026c01c]]: TODO: cellSpursJobGuardInitialize
 [E : PPU[1] Thread (CPUThread)[0x0026c058]]: TODO: cellSpursKickJobChain
@@ -322,11 +322,11 @@
 [E : PPU[31] Thread (LoadingScreen)[0x0026604c]]: TODO: cellPadSetPressMode
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
+[W : RSXThread]: VP not found in buffer!
+[W : RSXThread]: FP not found in buffer!
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 32
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -346,15 +346,21 @@ uniform vec4 vc4;
 uniform vec4 vc5;
 vec4 tmp0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
 	tmp0 = (in_pos * vc4);
 	gl_Position = (tmp0 + vc5);
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -780,15 +786,21 @@ uniform vec4 vc467;
 out vec4 tc1;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	tc1.x = in_tc1.xxxx.x;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -838,10 +850,17 @@ uniform vec4 vc1;
 uniform vec4 vc0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	tmp0.x = vec2(dot(in_pos.xyzx.xyz, in_pos.xyzx.xyz), 0).xxxx.x;
 	tmp0.y = vec2(dot(in_tc6.xyzx.xyz, in_tc6.xyzx.xyz), 0).xxxx.y;
 	tmp0.x = inversesqrt(tmp0.x);
@@ -859,7 +878,6 @@ void main()
 	gl_Position.z = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc2), 0).xxxx.z;
 	gl_Position.y = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc1), 0).xxxx.y;
 	gl_Position.x = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc0), 0).xxxx.x;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -900,15 +918,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -946,15 +970,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -992,15 +1022,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1038,15 +1074,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1084,15 +1126,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1130,15 +1178,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1176,15 +1230,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1222,15 +1282,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1268,15 +1334,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1314,15 +1386,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1360,15 +1438,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1406,15 +1490,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1452,15 +1542,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1498,15 +1594,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1544,15 +1646,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1590,15 +1698,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1636,15 +1750,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1682,15 +1802,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1732,10 +1858,17 @@ uniform vec4 vc2;
 uniform vec4 vc1;
 uniform vec4 vc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	tmp0.y = cos(in_pos.x);
 	tmp0.x = cos(in_pos.y);
 	tmp0.w = sin(in_pos.y);
@@ -1748,7 +1881,6 @@ void main()
 	gl_Position.z = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc2), 0).xxxx.z;
 	gl_Position.y = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc1), 0).xxxx.y;
 	gl_Position.x = vec2(dot(vec4(tmp0.xyzx.xyz, 1), vc0), 0).xxxx.x;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1785,15 +1917,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1831,15 +1969,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1877,15 +2021,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1923,15 +2073,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -1969,15 +2125,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2015,15 +2177,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2061,15 +2229,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2107,15 +2281,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2153,15 +2333,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2199,15 +2385,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2245,15 +2437,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2291,15 +2489,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2337,15 +2541,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2383,15 +2593,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2429,15 +2645,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2475,15 +2697,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2521,15 +2749,21 @@ uniform vec4 vc467;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = in_pos.xyxx.xy;
 	gl_Position.z = vc467.xxxx.z;
 	col0 = in_col0;
 	tc0.xy = in_tc0.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -2549,8 +2783,8 @@ void main()
 }
 
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
-[! : RSXThread]: RSX thread exit...
-[W : Audio Thread]: Audio aborted
 [W : PPU[1] Thread (CPUThread)[0x000421dc]]: sys_event_queue_receive(equeue=23) aborted
+[W : Audio Thread]: Audio aborted
 [W : PPU[17] Thread (SpuPrintfHandler)[0x00042e70]]: sys_event_queue_receive(equeue=16) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

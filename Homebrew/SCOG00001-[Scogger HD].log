@@ -182,25 +182,25 @@
 [W : PPU[1] Thread (CPUThread)[0x001e80dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xb)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xc, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xc, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xc)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xd, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xd, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xd)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
@@ -261,10 +261,17 @@ void func181();
 void func141();
 void func101();
 void func61();
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	tmp0.y = vc22.xxxx.y;
 	tmp3.xyz = vc17.xyz;
 	tmp3.xyz = (tmp3 * vc19).xyz;
@@ -292,7 +299,7 @@ void main()
 	tmp1.z = (tmp1 * tmp1.wwww).z;
 	tmp2.xyz = (in_normal.zzzz * vc6 + tmp2).xyz;
 	tmp3.xyz = min(tmp3, vc22.yyyy).xyz;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc12 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -312,7 +319,7 @@ void main()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -327,7 +334,6 @@ void main()
 	tmp3.xyz = (tmp5 * tmp0.wwww + tmp3).xyz;
 	tmp3.xyz = min(tmp3, vc22.yyyy).xyz;
 	func61();
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 void func61()
@@ -338,7 +344,7 @@ void func61()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func101();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func101(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc13 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -358,7 +364,7 @@ void func61()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func101();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func101(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -383,7 +389,7 @@ void func101()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func141();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func141(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc14 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -403,7 +409,7 @@ void func101()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func141();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func141(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -428,7 +434,7 @@ void func141()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func181();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func181(); return; };
 	tmp0.xyz = (vc15 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp0.xyz, tmp0.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -448,7 +454,7 @@ void func141()
 	tmp0.z = vec4(notEqual(vc21.wwww, tmp6.xxxx)).z;
 	tmp0.y = (tmp0.zzzz * tmp0).y;
 	rc.x = (tmp0.yyyy * tmp0).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func181();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func181(); return; };
 	tmp0.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp0.xyz, tmp0.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -547,10 +553,17 @@ void func181();
 void func141();
 void func101();
 void func61();
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	tmp0.y = vc22.xxxx.y;
 	tmp3.xyz = vc17.xyz;
 	tmp3.xyz = (tmp3 * vc19).xyz;
@@ -578,7 +591,7 @@ void main()
 	tmp1.z = (tmp1 * tmp1.wwww).z;
 	tmp2.xyz = (in_normal.zzzz * vc6 + tmp2).xyz;
 	tmp3.xyz = min(tmp3, vc22.yyyy).xyz;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc12 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -598,7 +611,7 @@ void main()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -613,7 +626,6 @@ void main()
 	tmp3.xyz = (tmp5 * tmp0.wwww + tmp3).xyz;
 	tmp3.xyz = min(tmp3, vc22.yyyy).xyz;
 	func61();
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 void func61()
@@ -624,7 +636,7 @@ void func61()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func101();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func101(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc13 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -644,7 +656,7 @@ void func61()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func101();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func101(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -669,7 +681,7 @@ void func101()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func141();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func141(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc14 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -689,7 +701,7 @@ void func101()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func141();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func141(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -714,7 +726,7 @@ void func141()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func181();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func181(); return; };
 	tmp0.xyz = (vc15 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp0.xyz, tmp0.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -734,7 +746,7 @@ void func141()
 	tmp0.z = vec4(notEqual(vc21.wwww, tmp6.xxxx)).z;
 	tmp0.y = (tmp0.zzzz * tmp0).y;
 	rc.x = (tmp0.yyyy * tmp0).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func181();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func181(); return; };
 	tmp0.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp0.xyz, tmp0.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -777,7 +789,7 @@ void main()
 
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xe, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xe, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xe)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
@@ -836,10 +848,17 @@ void func181();
 void func141();
 void func101();
 void func61();
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	tmp0.y = vc22.xxxx.y;
 	tmp3.xyz = vc17.xyz;
 	tmp3.xyz = (tmp3 * vc19).xyz;
@@ -867,7 +886,7 @@ void main()
 	tmp1.z = (tmp1 * tmp1.wwww).z;
 	tmp2.xyz = (in_normal.zzzz * vc6 + tmp2).xyz;
 	tmp3.xyz = min(tmp3, vc22.yyyy).xyz;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc12 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -887,7 +906,7 @@ void main()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); gl_Position = gl_Position * scaleOffsetMat; return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func61(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -902,7 +921,6 @@ void main()
 	tmp3.xyz = (tmp5 * tmp0.wwww + tmp3).xyz;
 	tmp3.xyz = min(tmp3, vc22.yyyy).xyz;
 	func61();
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 void func61()
@@ -913,7 +931,7 @@ void func61()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func101();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func101(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc13 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -933,7 +951,7 @@ void func61()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func101();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func101(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -958,7 +976,7 @@ void func101()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func141();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func141(); return; };
 	tmp7.xy = vc22.xy;
 	tmp5.xyz = (vc14 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
@@ -978,7 +996,7 @@ void func101()
 	tmp4.w = vec4(notEqual(vc21, tmp7.xxxx)).w;
 	tmp3.w = (tmp4 * tmp3).w;
 	rc.x = (tmp3.wwww * tmp0.wwww).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func141();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func141(); return; };
 	tmp5.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp5.xyz, tmp5.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -1003,7 +1021,7 @@ void func141()
 	rc.x = (tmp2.wwww * tmp3.wwww).x;
 	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp0.w = vc22.xxxx.w;
 	rc.x = tmp0.wwww.x;
-	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func181();  return; };
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func181(); return; };
 	tmp0.xyz = (vc15 + -tmp0).xyz;
 	tmp0.w = vec2(dot(tmp0.xyz, tmp0.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -1023,7 +1041,7 @@ void func141()
 	tmp0.z = vec4(notEqual(vc21.wwww, tmp6.xxxx)).z;
 	tmp0.y = (tmp0.zzzz * tmp0).y;
 	rc.x = (tmp0.yyyy * tmp0).x;
-	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func181();  return; };
+	if(all(lessThanEqual(rc.xxxx, vec4(0.0).xxxx))) { func181(); return; };
 	tmp0.xyz = (tmp5 + tmp4).xyz;
 	tmp0.w = vec2(dot(tmp0.xyz, tmp0.xyz), 0).xxxx.w;
 	tmp0.w = inversesqrt(tmp0.w);
@@ -1066,985 +1084,985 @@ void main()
 
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xf, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xf)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x10, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x10, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x10)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x11, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x11, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x11)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x12, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x12, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x12)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x13, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x13, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x13)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x14, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x14, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x14)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x15, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x15, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x15)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x16, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x16, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x16)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x17, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x17, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x17)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x18, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x18, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x18)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x19, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x19, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x19)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1a, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1a, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x1a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1b, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1b, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x1b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1c, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1c, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x1c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1d, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1d, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x1d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1e, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1e, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x1e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1f, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x1f, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x1f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x20, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x20, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x20)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x21, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x21, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x21)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x22, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x22, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x22)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x23, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x23, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x23)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x24, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x24, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x24)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x25, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x25, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x25)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x26, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x26, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x26)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x27, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x27, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x27)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x28, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x28, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x28)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x29, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x29, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x29)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2a, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2a, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x2a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2b, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2b, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x2b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2c, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2c, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x2c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2d, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2d, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x2d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2e, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2e, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x2e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2f, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x2f, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x2f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x30, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x30, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x30)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x31, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x31, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x31)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x32, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x32, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x32)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x33, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x33, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x33)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x34, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x34, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x34)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x35, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x35, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x35)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x36, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x36, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x36)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x37, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x37, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x37)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x38, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x38, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x38)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x39, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x39, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x39)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3a, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3a, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x3a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3b, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3b, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x3b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3c, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3c, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x3c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3d, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3d, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x3d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3e, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3e, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x3e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3f, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x3f, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x3f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x40, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x40, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x40)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x41, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x41, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x41)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x42, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x42, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x42)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x43, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x43, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x43)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x44, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x44, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x44)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x45, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x45, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x45)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x46, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x46, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x46)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x47, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x47, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x47)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x48, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x48, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x48)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x49, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x49, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x49)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4a, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4a, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x4a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4b, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4b, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x4b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4c, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4c, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x4c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4d, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4d, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x4d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4e, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4e, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x4e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4f, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x4f, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x4f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x50, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x50, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x50)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x51, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x51, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x51)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x52, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x52, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x52)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x53, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x53, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x53)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x54, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x54, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x54)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x55, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x55, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x55)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x56, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x56, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x56)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x57, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x57, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x57)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x58, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x58, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x58)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x59, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x59, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x59)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5a, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5a, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x5a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5b, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5b, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x5b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5c, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5c, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x5c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5d, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5d, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x5d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5e, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5e, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x5e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5f, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x5f, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x5f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x60, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x60, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x61, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x61, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x61)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x62, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x62, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x62)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x63, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x63, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x63)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x64, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x64, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x64)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x65, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x65, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x65)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x66, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x66, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x66)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x67, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x67, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x67)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x68, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x68, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x68)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x69, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x69, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x69)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6a, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6a, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x6a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6b, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6b, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x6b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6c, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6c, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x6c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6d, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6d, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x6d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6e, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6e, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x6e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6f, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x6f, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x6f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x70, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x70, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x70)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x71, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x71, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x71)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x72, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x72, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x72)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x73, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x73, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x73)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x74, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x74, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x74)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x75, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x75, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x75)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x76, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x76, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x76)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x77, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x77, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x77)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x78, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x78, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x78)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x79, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x79, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x79)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7a, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7a, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x7a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7b, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7b, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x7b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7c, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7c, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x7c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7d, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7d, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x7d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7e, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7e, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x7e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7f, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x7f, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x7f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x80, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x80, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x80)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x81, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x81, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x81)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x82, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x82, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x82)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x83, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x83, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x83)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x84, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x84, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x84)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x85, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x85, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x85)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x86, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x86, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x86)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x87, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x87, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x87)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x88, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x88, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x88)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x89, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x89, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x89)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8a, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8a, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x8a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8b, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8b, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x8b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8c, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8c, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x8c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8d, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8d, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x8d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8e, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8e, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x8e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8f, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x8f, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x8f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x90, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x90, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x90)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x91, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x91, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x91)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x92, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x92, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x92)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x93, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x93, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x93)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x94, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x94, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x94)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x95, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x95, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x95)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x96, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x96, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x96)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x97, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x97, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x97)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x98, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x98, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x98)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x99, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x99, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x99)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9a, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9a, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x9a)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9b, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9b, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x9b)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020a04, src_addr=0xd0020a80, openInfo=0xd0020a0c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9c, info_addr=0xb825d0020a60)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9c, info_addr=0x9547d0020a60)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x9c)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9d, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9d, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x9d)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9e, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9e, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x9e)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9f, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0x9f, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0x9f)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa0, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa0, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa1, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa1, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa1)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa2, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa2, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa2)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa3, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa3, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa3)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa4, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa4, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa4)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa5, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa5, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa5)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa6, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa6, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa6)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa7, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa7, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa7)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa8, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa8, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa8)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa9, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xa9, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xa9)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xaa, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xaa, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xaa)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xab, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xab, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xab)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xac, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xac, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xac)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xad, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xad, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xad)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xae, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xae, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xae)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xaf, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xaf, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xaf)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb0, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb0, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xb0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb1, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb1, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xb1)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
 [E : PPU[1] Thread (CPUThread)[0x001ec004]]: cellPngDec error: Unimplemented function: cellPngDecCreate
 [W : PPU[1] Thread (CPUThread)[0x001ec01c]]: cellPngDec warning: cellPngDecOpen(mainHandle=0x0, subHandle=0xd0020974, src_addr=0xd00209f0, openInfo=0xd002097c)
-[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb2, info_addr=0xb825d00209d0)
+[W : PPU[1] Thread (CPUThread)[0x001ec034]]: cellPngDec warning: cellPngDecReadHeader(mainHandle=0x0, subHandle=0xb2, info_addr=0x9547d00209d0)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: cellPngDec warning: cellPngDecClose(mainHandle=0x0,subHandle=0xb2)
 [W : PPU[1] Thread (CPUThread)[0x001ec028]]: sys_fs warning: cellFsClose(fd=0)
 [E : PPU[1] Thread (CPUThread)[0x001ec010]]: cellPngDec error: Unimplemented function: cellPngDecDestroy
@@ -2079,5 +2097,4 @@ void main()
 [W : PPU[1] Thread (CPUThread)[0x001e80dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 193
 [E : PPU[1] Thread (CPUThread)[0x001d70c4]]: sys_fs error: "/etc/timidity.cfg" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x001e80e8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301120f0)
-[W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...

@@ -383,7 +383,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00e4a0d0]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xf52f24)
 [W : PPU[1] Thread (CPUThread)[0x00e4a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x00e4a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x00e4a118]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xbc6ff360)
+[W : PPU[1] Thread (CPUThread)[0x00e4a118]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x1eb2fa60)
 [W : PPU[1] Thread (CPUThread)[0x00e4a124]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x00e4a124]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x00e4a124]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
@@ -396,7 +396,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00e4a0d0]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xf52f24)
 [W : PPU[1] Thread (CPUThread)[0x00e4a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x00e4a040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x00e4a118]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xbc6ff360)
+[W : PPU[1] Thread (CPUThread)[0x00e4a118]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x1eb31060)
 [W : PPU[1] Thread (CPUThread)[0x00e4a124]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x00e4a124]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
 [W : PPU[1] Thread (CPUThread)[0x00e4a124]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
@@ -476,4 +476,3 @@
 [W : PPU[1] Thread (CPUThread)[0x01063004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x01069154]]: Process warning: sys_process_exit(0)
 [S : PPU[1] Thread (CPUThread)[0x01069154]]: Process finished
-[!]: Closing memory...

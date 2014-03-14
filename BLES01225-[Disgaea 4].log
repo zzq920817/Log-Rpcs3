@@ -243,6 +243,7 @@
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x001a94a0]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x028ca01c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01225\')
+[! : PPU[1] Thread (CPUThread)[0x028ca01c]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01225
 [W : PPU[1] Thread (CPUThread)[0x028ce094]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x4a27e8 (/dev_hdd0))
 [W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
@@ -271,73 +272,73 @@
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x302405c8): id = 33
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 34
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 35
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3024097c, attr_addr=0xd001f7b0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x302409a4, attr_addr=0xd001f7b0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 36
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 37
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 38
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=38)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a00): id = 39
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a28): id = 39
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=38)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a00): id = 40
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a28): id = 40
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 41
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=42)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240aa8): id = 43
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240ad0): id = 43
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=42)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240aa8): id = 44
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240ad0): id = 44
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 48
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 49
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3025587c, attr_addr=0xd001f8c0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x302558a4, attr_addr=0xd001f8c0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 50
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 51
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=51)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x30255898): id = 52
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x302558c0): id = 52
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 53
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 54
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30255c5c, attr_addr=0xd001f7b0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30255c84, attr_addr=0xd001f7b0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 55
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 56
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 57
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=57)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255ce0): id = 58
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255d08): id = 58
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=57)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255ce0): id = 59
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255d08): id = 59
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 60
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 61
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=61)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255d88): id = 62
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255db0): id = 62
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=61)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255d88): id = 63
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255db0): id = 63
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 67
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 68
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026ab5c, attr_addr=0xd001f8c0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026ab84, attr_addr=0xd001f8c0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 69
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 70
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=70)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x3026ab78): id = 71
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x3026aba0): id = 71
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 72
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 73
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026af3c, attr_addr=0xd001f7b0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026af64, attr_addr=0xd001f7b0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 74
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 75
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 76
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=76)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afc0): id = 77
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afe8): id = 77
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=76)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afc0): id = 78
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afe8): id = 78
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 79
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 80
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=80)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b068): id = 81
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b090): id = 81
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=80)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b068): id = 82
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b090): id = 82
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 86
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3027fe04, attr_addr=0xd001f7f0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3027fe2c, attr_addr=0xd001f7f0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 87
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [cache_f] (attribute=0x12): sq_id = 88
