@@ -1,0 +1,2408 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00005-[Formula One_ Championship Edition]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00005-[Formula One_ Championship Edition]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00005-[Formula One_ Championship Edition]/PS3_GAME/\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00005-[Formula One_ Championship Edition]/PS3_GAME/\USRDIR\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x05c65656 in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_try_allocate_block
+[W]: Unknown function 0x608212fc in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_free_block
+[W]: Unknown function 0x9d3c0f81 in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_destroy
+[W]: Unknown function 0xca9a60bf in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_create
+[W]: Unknown function 0x35f22ac3 in 'cellUsbd' module
+[E]: TODO: cellUsbdEnd
+[W]: Unknown function 0x5c832bd7 in 'cellUsbd' module
+[E]: TODO: cellUsbdSetThreadPriority2
+[W]: Unknown function 0xd0e766fe in 'cellUsbd' module
+[E]: TODO: cellUsbdInit
+[W]: Unknown function 0x0f411262 in 'cellUsbd' module
+[E]: TODO: cellUsbdInterruptTransfer
+[W]: Unknown function 0x254289ac in 'cellUsbd' module
+[E]: TODO: cellUsbdOpenPipe
+[W]: Unknown function 0x2fb08e1e in 'cellUsbd' module
+[E]: TODO: cellUsbdScanStaticDescriptor
+[W]: Unknown function 0x5de3af36 in 'cellUsbd' module
+[E]: TODO: cellUsbdGetPrivateData
+[W]: Unknown function 0x63bfdb97 in 'cellUsbd' module
+[E]: TODO: cellUsbdSetPrivateData
+[W]: Unknown function 0x90460081 in 'cellUsbd' module
+[E]: TODO: cellUsbdUnregisterExtraLdd
+[W]: Unknown function 0x9763e962 in 'cellUsbd' module
+[E]: TODO: cellUsbdClosePipe
+[W]: Unknown function 0x97cf128e in 'cellUsbd' module
+[E]: TODO: cellUsbdControlTransfer
+[W]: Unknown function 0xbd554bcb in 'cellUsbd' module
+[E]: TODO: cellUsbdRegisterExtraLdd2
+[W]: Unknown function 0xdb819e03 in 'cellUsbd' module
+[E]: TODO: cellUsbdGetDeviceLocation
+[W]: Unknown function 0x20a97ba2 in 'sys_io' module
+[E]: TODO: cellPadLddRegisterController
+[W]: Unknown function 0xbafd6409 in 'sys_io' module
+[E]: TODO: cellPadLddDataInsert
+[W]: Unknown function 0xbe5be3ba in 'sys_io' module
+[E]: TODO: cellPadSetSensorMode
+[W]: Unknown function 0xe442faa8 in 'sys_io' module
+[E]: TODO: cellPadLddUnregisterController
+[W]: Unknown function 0xf83f8182 in 'sys_io' module
+[E]: TODO: cellPadSetPressMode
+[W]: Unknown function 0x91066667 in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePopBody
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0x182d9890 in 'cellSpurs' module
+[E]: TODO: cellSpursRequestIdleSpu
+[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
+[E]: TODO: cellSpursRemoveWorkload
+[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
+[E]: TODO: cellSpursWaitForWorkloadShutdown
+[W]: Unknown function 0x69726aa2 in 'cellSpurs' module
+[E]: TODO: cellSpursAddWorkload
+[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownWorkload
+[W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
+[E]: TODO: cellSpursSetExceptionEventHandler
+[W]: Unknown function 0xf843818d in 'cellSpurs' module
+[E]: TODO: cellSpursReadyCountStore
+[W]: Unknown function 0x039d70b7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueDetachLv2EventQueue
+[W]: Unknown function 0x082bfb09 in 'cellSpurs' module
+[E]: TODO: _cellSpursQueueInitialize
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x247414d0 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueClear
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagClear
+[W]: Unknown function 0x4d1e9373 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagGetClearMode
+[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x6d2d9339 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagTryWait
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x890f9e5a in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagGetDirection
+[W]: Unknown function 0x92cff6ed in 'cellSpurs' module
+[E]: TODO: cellSpursQueuePushBody
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xe5443be7 in 'cellSpurs' module
+[E]: TODO: cellSpursQueueAttachLv2EventQueue
+[W]: Unknown function 0xf5507729 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagSet
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0xb72bc4e6 in 'cellSysutil' module
+[E]: TODO: cellDiscGameGetBootDiscInfo
+[W]: Unknown function 0xc9645c41 in 'cellSysutil' module
+[E]: TODO: cellGameDataCheckCreate2
+[W]: Unknown function 0xdfdd302e in 'cellSysutil' module
+[E]: TODO: cellDiscGameRegisterDiscChangeCallback
+[W]: Unknown function 0xedc34e1a in 'cellSysutil' module
+[E]: TODO: cellDiscGameUnregisterDiscChangeCallback
+[W]: Unknown function 0xf81eca25 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogOpen
+[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad2
+[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetQueueHandler
+[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetFlipImmediate
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x14bf2dc1 in 'cellKey2char' module
+[E]: TODO: cellKey2CharClose
+[W]: Unknown function 0x56776c0d in 'cellKey2char' module
+[E]: TODO: cellKey2CharGetChar
+[W]: Unknown function 0xabf629c1 in 'cellKey2char' module
+[E]: TODO: cellKey2CharOpen
+[W]: Unknown function 0xbfc03768 in 'cellKey2char' module
+[E]: TODO: cellKey2CharSetMode
+[W]: Unknown function 0x4885aa18 in 'sceNp' module
+[E]: TODO: sceNpTerm
+[W]: Unknown function 0xbd28fdbf in 'sceNp' module
+[E]: TODO: sceNpInit
+[W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
+[E]: TODO: sceNpDrmProcessExitSpawn2
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x0001b1a0]]: memory warning: sys_memory_container_create(cid_addr=0x10101b6c, yield_size=0x500000)
+[W : PPU[1] Thread (CPUThread)[0x0001b1a0]]: memory warning: *** memory_container created(addr=0x30200000): id = 12
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x0001ae54]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00207a0)
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x00734064]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x6f3af0, userdata=0x317009e0)
+[W : PPU[1] Thread (CPUThread)[0x006ed010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00049b64]]: sys_spu warning: sys_spu_initialize(max_usable_spu=302473, max_raw_spu=-299395)
+[E : PPU[1] Thread (CPUThread)[0x00730010]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x005601d4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x31705a00, attr_addr=0xd00207a4, event_queue_key=0x0, size=127)
+[W : PPU[1] Thread (CPUThread)[0x005601d4]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 33
+[W : PPU[1] Thread (CPUThread)[0x00560218]]: sys_event warning: sys_event_port_create(eport_id_addr=0x31705a14, port_type=0x1, name=0xd0a77)
+[W : PPU[1] Thread (CPUThread)[0x00560218]]: sys_event warning: *** sys_event_port created: id = 35
+[W : PPU[1] Thread (CPUThread)[0x00560228]]: sys_event warning: sys_event_port_connect_local(eport_id=35, equeue_id=33)
+[W : PPU[1] Thread (CPUThread)[0x00730088]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x31704a00, queue=0x21, port_addr=0xd00207a0, isDynamic=0)
+[W : PPU[1] Thread (CPUThread)[0x00730088]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x31704a00, queue=0x21, port_addr=0xd00207a1, isDynamic=0)
+[W : PPU[1] Thread (CPUThread)[0x00730088]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x31704a00, queue=0x21, port_addr=0xd00207a2, isDynamic=0)
+[W : PPU[1] Thread (CPUThread)[0x00730088]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x31704a00, queue=0x21, port_addr=0x31705a10, isDynamic=1)
+[E : PPU[1] Thread (CPUThread)[0x00734094]]: TODO: cellDiscGameRegisterDiscChangeCallback
+[W : PPU[1] Thread (CPUThread)[0x006ed010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x004fbe5c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 36
+[W : PPU[1] Thread (CPUThread)[0x006ef034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x00501a0c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x31712fb8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00501a0c]]: sys_event warning: *** sys_event_port created: id = 38
+[W : PPU[1] Thread (CPUThread)[0x00501a28]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x31712fbc, attr_addr=0xd0020850, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x00501a28]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 39
+[W : PPU[1] Thread (CPUThread)[0x00501a38]]: sys_event warning: sys_event_port_connect_local(eport_id=38, equeue_id=39)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[W : PPU[1] Thread (CPUThread)[0x006ed010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[1] Thread (CPUThread)[0x0072a01c]]: TODO: cellUsbdInit
+[E : PPU[1] Thread (CPUThread)[0x0072a010]]: TODO: cellUsbdSetThreadPriority2
+[E : PPU[1] Thread (CPUThread)[0x006ef0c4]]: TODO: sys_mempool_create
+[E : PPU[1] Thread (CPUThread)[0x006ef0c4]]: TODO: sys_mempool_create
+[E : PPU[1] Thread (CPUThread)[0x006ef0c4]]: TODO: sys_mempool_create
+[E : PPU[1] Thread (CPUThread)[0x006ef0c4]]: TODO: sys_mempool_create
+[W : PPU[1] Thread (CPUThread)[0x005678a0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x10d2b504, attr_addr=0xd0020840, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00567908]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x10d2b508, attr_addr=0xd0020840, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00567998]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x10d2b514, attr_addr=0xd0020840, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x005679cc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x10d2b4fc, attr_addr=0xd0020830, event_queue_key=0x0, size=40)
+[W : PPU[1] Thread (CPUThread)[0x005679cc]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 44
+[W : PPU[1] Thread (CPUThread)[0x005679f0]]: sys_event warning: sys_event_port_create(eport_id_addr=0x10d2b500, port_type=0x1, name=0x4c444556)
+[W : PPU[1] Thread (CPUThread)[0x005679f0]]: sys_event warning: *** sys_event_port created: id = 45
+[W : PPU[1] Thread (CPUThread)[0x00567a10]]: sys_event warning: sys_event_port_connect_local(eport_id=45, equeue_id=44)
+[W : PPU[1] Thread (CPUThread)[0x00567a28]]: sys_timer warning: sys_timer_create(timer_id_addr=0x10d2b4f8)
+[W : PPU[1] Thread (CPUThread)[0x00567a50]]: sys_timer warning: sys_timer_connect_event_queue(timer_id=46, queue_id=44, name=0, data1=5, data2=8000)
+[W : PPU[1] Thread (CPUThread)[0x00567674]]: sys_timer warning: TODO: sys_timer_stop()
+[W : PPU[1] Thread (CPUThread)[0x00567680]]: sys_timer warning: TODO: sys_timer_disconnect_event_queue(timer_id=46)
+[W : PPU[1] Thread (CPUThread)[0x0056768c]]: sys_timer warning: TODO: sys_timer_destroy(timer_id=46)
+[W : PPU[1] Thread (CPUThread)[0x005676d0]]: sys_event warning: sys_event_port_disconnect(eport_id=45)
+[W : PPU[1] Thread (CPUThread)[0x005676dc]]: sys_event warning: sys_event_port_destroy(eport_id=45)
+[E : PPU[1] Thread (CPUThread)[0x00567700]]: sys_event error: sys_event_queue_destroy(equeue_id=44, mode=0x0)
+[E : PPU[1] Thread (CPUThread)[0x00734070]]: TODO: cellDiscGameGetBootDiscInfo
+[W : PPU[1] Thread (CPUThread)[0x00734028]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x00730034]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x31704a00, info_addr=0xd0020780)
+[E : PPU[1] Thread (CPUThread)[0x00730064]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00730028]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00730094]]: TODO: cellSpursSetExceptionEventHandler
+[W : PPU[1] Thread (CPUThread)[0x007360d0]]: cellGcmSys warning: cellGcmInit(context_addr=0x10cc5b08,cmdSize=0x10000,ioSize=0x4600000,ioAddress=0x31800000)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : PPU[1] Thread (CPUThread)[0x007360d0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x007360d0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31800000, io=0x0, size=0x4600000)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x00734010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020524, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0073601c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=7536640, pitch=5120, comp=7, base=1, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00736058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00736058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x394000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0073601c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=7602176, size=7864320, pitch=10240, comp=7, base=116, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=15466496, size=7864320, pitch=10240, comp=11, base=236, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x007360a0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xec0000, width=1280, height=720, cullStart=0x0, zFormat=0x2, aaFormat=0x3, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x00736040]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x35f00000,size=0x500000,offset_addr=0xd00204f0)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : PPU[1] Thread (CPUThread)[0x00730034]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x31704a00, info_addr=0xd00203c0)
+[E : PPU[1] Thread (CPUThread)[0x00730064]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00730028]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00730094]]: TODO: cellSpursSetExceptionEventHandler
+[W : PPU[1] Thread (CPUThread)[0x00730034]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x31704a00, info_addr=0xd00203c0)
+[E : PPU[1] Thread (CPUThread)[0x00730064]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00730028]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00730094]]: TODO: cellSpursSetExceptionEventHandler
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[1] Thread (CPUThread)[0x00736070]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x0073601c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=35192832, size=3932160, pitch=5120, comp=7, base=356, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=39124992, size=3932160, pitch=5120, comp=7, base=416, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=43057152, size=3932160, pitch=5120, comp=11, base=476, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x007360a0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=1, offset=0x2910000, width=640, height=720, cullStart=0xe1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=6, location=0, offset=46989312, size=262144, pitch=1280, comp=7, base=536, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=7, location=0, offset=47251456, size=262144, pitch=1280, comp=7, base=540, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=8, location=0, offset=49414144, size=983040, pitch=2560, comp=11, base=544, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x007360a0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=2, offset=0x2f20000, width=320, height=360, cullStart=0x152000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=9, location=0, offset=50397184, size=327680, pitch=1536, comp=11, base=559, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x007360a0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=3, offset=0x3010000, width=160, height=180, cullStart=0x16f000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=10, location=0, offset=50724864, size=8388608, pitch=4096, comp=11, base=564, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x007360a0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=4, offset=0x3060000, width=512, height=2048, cullStart=0x177000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=11, location=0, offset=59113472, size=8388608, pitch=4096, comp=11, base=692, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=12, location=0, offset=69074944, size=1572864, pitch=1024, comp=7, base=820, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x00736094]]: cellGcmSys warning: cellGcmSetTile(index=13, location=0, offset=70647808, size=262144, pitch=1024, comp=11, base=844, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x007360a0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=5, offset=0x4360000, width=128, height=256, cullStart=0x277000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x00730034]]: cellSpurs warning: cellSpursGetInfo(spurs_addr=0x31704a00, info_addr=0xd00206b0)
+[E : PPU[1] Thread (CPUThread)[0x00730064]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00730028]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00730094]]: TODO: cellSpursSetExceptionEventHandler
+[E : PPU[47] Thread (Game_Data)[0x00734088]]: TODO: cellGameDataCheckCreate2
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=1)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=2)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=3)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=4)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=5)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0b8]]: sys_io error: cellPadInfoPressMode(port_no=6)
+[E : PPU[40] Thread (FpPadThread)[0x0072c0f4]]: sys_io error: cellPadInfoSensorMode(port_no=6)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : PPU[40] Thread (FpPadThread)[0x005016e0]]: sys_event error: sys_event_queue_tryreceive(equeue_id=39, event_array_addr=0xd0040c88, size=8, number_addr=0xd0040c80)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x1)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x1)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: eee0
+[! : RSXThread]: RSX thread exit...
+[W : PPU[34] Thread (Job Manager Event Handler)[0x0056038c]]: sys_event_queue_receive(equeue=33) aborted
