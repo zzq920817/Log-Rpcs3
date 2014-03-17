@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]\PS3_GAME\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01741-[God of War Ascension_]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
@@ -32,6 +32,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00048004]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
 [E : PPU[1] Thread (CPUThread)[0x00046004]]: TODO: sceNp2Init
 [W : PPU[1] Thread (CPUThread)[0x00042034]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020950, attributes_addr=0xd0020954, size_addr=0xd0020964, dirName_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00042034]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [W : PPU[1] Thread (CPUThread)[0x00010de4]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x10de4
 [W : PPU[1] Thread (CPUThread)[0x00011874]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x11874
 [W : PPU[1] Thread (CPUThread)[0x0004a088]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x40cc8)

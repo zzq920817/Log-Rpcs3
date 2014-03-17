@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]\PS3_GAME\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00072-[Ninja Gaiden Sigma]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x07254fda in 'cellSync' module
@@ -88,8 +88,6 @@
 [E]: TODO: sceNpScoreInit
 [W]: Unknown function 0x3db7914d in 'sceNp' module
 [E]: TODO: sceNpScoreGetRankingByNpIdAsync
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x6ee62ed2 in 'sceNp' module
@@ -102,8 +100,6 @@
 [E]: TODO: sceNpScorePollAsync
 [W]: Unknown function 0xb9f93bbb in 'sceNp' module
 [E]: TODO: sceNpScoreCreateTitleCtx
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xbdc07fd5 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNetworkTime
 [W]: Unknown function 0xc5f4cf82 in 'sceNp' module
@@ -149,7 +145,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00d66088]]: TODO: cellSpursInitialize
 [W : PPU[1] Thread (CPUThread)[0x00b73990]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b70)
 [W : PPU[1] Thread (CPUThread)[0x00bbcee4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00208e4)
-[W : PPU[15] Thread[0x00cfa034]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\')
+[W : PPU[15] Thread[0x00cfa034]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\')
 [W : PPU[1] Thread (CPUThread)[0x00cfc034]]: cellGcmSys warning: cellGcmInit(context_addr=0x110b39c0,cmdSize=0x10000,ioSize=0x9800000,ioAddress=0x30500000)
 [W : PPU[1] Thread (CPUThread)[0x00cfc034]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00cfc034]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30500000, io=0x0, size=0x9800000)
@@ -205,10 +201,10 @@
 [W : PPU[1] Thread (CPUThread)[0x00c9c670]]: sys_cond warning: *** condition created [] (mutex_id=26): id = 27
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 30
-[W : PPU[31] Thread (_cellsurMixerMain)[0x00c9b5fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x110b38a8, attr_addr=0x110b3944, event_queue_key=0x8000cafe02460300, size=4)
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
-[W : PPU[31] Thread (_cellsurMixerMain)[0x00c9b5fc]]: sys_event warning: *** event_queue created [] (protocol=0x1, type=0x1): id = 33
+[W : PPU[31] Thread (_cellsurMixerMain)[0x00c9b5fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x110b38a8, attr_addr=0x110b3944, event_queue_key=0x8000cafe02460300, size=4)
 [W : PPU[1] Thread (CPUThread)[0x00cf4064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x110b38d8, portNum_addr=0x110b3850)
+[W : PPU[31] Thread (_cellsurMixerMain)[0x00c9b5fc]]: sys_event warning: *** event_queue created [] (protocol=0x1, type=0x1): id = 33
 [W : PPU[1] Thread (CPUThread)[0x00cf4064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x00cf4040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x110b38b8)
 [W : PPU[1] Thread (CPUThread)[0x00cf404c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
@@ -275,18 +271,12 @@
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/bgm.afs"): fd = 55
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/boff_01.afs"): fd = 56
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/boff_02.afs"): fd = 57
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/boff_03.afs"): fd = 58
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/boff_04.afs"): fd = 59
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/boff_05.afs"): fd = 60
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/boff_cmn.afs"): fd = 61
@@ -298,16 +288,15 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/cave_05.afs"): fd = 66
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/cave_06.afs"): fd = 67
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/cave_cmn.afs"): fd = 68
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_army.afs"): fd = 69
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_arub.afs"): fd = 70
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_aruma.afs"): fd = 71
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ayane.afs"): fd = 72
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_bat.afs"): fd = 73
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_cat.afs"): fd = 74
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_crow.afs"): fd = 75
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_daina.afs"): fd = 76
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_dino.afs"): fd = 77
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_doku.afs"): fd = 78
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_dragn.afs"): fd = 79
@@ -315,15 +304,14 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_fish.afs"): fd = 81
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_furau.afs"): fd = 82
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_gamof.afs"): fd = 83
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_garra.afs"): fd = 84
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_genin.afs"): fd = 85
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ghost.afs"): fd = 86
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_girta.afs"): fd = 87
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_guuru.afs"): fd = 88
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_haiki.afs"): fd = 89
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_hamu.afs"): fd = 90
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_hanin.afs"): fd = 91
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_heri.afs"): fd = 92
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_horse.afs"): fd = 93
@@ -331,25 +319,25 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_i_gam.afs"): fd = 95
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_i_rei.afs"): fd = 96
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_jonin.afs"): fd = 97
-[W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_kage.afs"): fd = 98
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
+[W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_kage.afs"): fd = 98
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_kasek.afs"): fd = 99
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_kotei.afs"): fd = 100
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_light.afs"): fd = 101
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_m_arm.afs"): fd = 102
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_m_vap.afs"): fd = 103
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_marub.afs"): fd = 104
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_masa.afs"): fd = 105
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_miko.afs"): fd = 106
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_mist.afs"): fd = 107
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_mukad.afs"): fd = 108
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_murai.afs"): fd = 109
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_rat.afs"): fd = 110
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_rei.afs"): fd = 111
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_rider.afs"): fd = 112
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ryu.afs"): fd = 113
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ryua.afs"): fd = 114
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ryue.afs"): fd = 115
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ryuf.afs"): fd = 116
@@ -359,8 +347,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_s_dok.afs"): fd = 120
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_s_hor.afs"): fd = 121
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_s_kag.afs"): fd = 122
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_s_kot.afs"): fd = 123
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_s_mur.afs"): fd = 124
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_s_swa.afs"): fd = 125
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_scar.afs"): fd = 126
@@ -368,25 +356,24 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_sparr.afs"): fd = 128
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_sumau.afs"): fd = 129
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_swat.afs"): fd = 130
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_taike.afs"): fd = 131
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_tank.afs"): fd = 132
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_titan.afs"): fd = 133
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_truck.afs"): fd = 134
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ufo.afs"): fd = 135
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ufo_m.afs"): fd = 136
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_ufo_r.afs"): fd = 137
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_unagi.afs"): fd = 138
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_whip.afs"): fd = 139
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_yoku.afs"): fd = 140
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chr_yonin.afs"): fd = 141
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chrch_01.afs"): fd = 142
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chrch_02.afs"): fd = 143
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chrch_03.afs"): fd = 144
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chrch_04.afs"): fd = 145
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chrch_05.afs"): fd = 146
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chrch_06.afs"): fd = 147
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/chrch_cmn.afs"): fd = 148
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/cmn.afs"): fd = 149
@@ -398,15 +385,14 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/hori_03.afs"): fd = 155
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/hori_04.afs"): fd = 156
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/hori_cmn.afs"): fd = 157
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/live00.afs"): fd = 158
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/makai_01.afs"): fd = 159
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/makai_11.afs"): fd = 160
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/makai_21.afs"): fd = 161
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/makai_cmn.afs"): fd = 162
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/osa_00.afs"): fd = 163
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/osa_01.afs"): fd = 164
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/osa_02.afs"): fd = 165
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/osa_cmn.afs"): fd = 166
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/pyrmd_cmn.afs"): fd = 167
@@ -415,8 +401,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rail_13.afs"): fd = 170
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rail_14.afs"): fd = 171
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rail_cmn.afs"): fd = 172
-[W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_boff.afs"): fd = 173
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
+[W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_boff.afs"): fd = 173
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_cave.afs"): fd = 174
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_chrch.afs"): fd = 175
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_hell.afs"): fd = 176
@@ -425,6 +411,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_pyrmd.afs"): fd = 179
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_rail.afs"): fd = 180
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_ssato.afs"): fd = 181
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_suiro.afs"): fd = 182
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/rtm_tlna.afs"): fd = 183
@@ -436,17 +423,16 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/spr.afs"): fd = 189
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_01.afs"): fd = 190
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_02.afs"): fd = 191
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_03.afs"): fd = 192
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_04.afs"): fd = 193
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_05.afs"): fd = 194
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_12.afs"): fd = 195
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_13.afs"): fd = 196
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_14.afs"): fd = 197
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_98.afs"): fd = 198
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_99.afs"): fd = 199
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/ssato_cmn.afs"): fd = 200
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/sse.afs"): fd = 201
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/stdim_cmn.afs"): fd = 202
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/suiro_00.afs"): fd = 203
@@ -462,28 +448,26 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/suiro_cmn.afs"): fd = 212
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_01.afs"): fd = 213
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_02.afs"): fd = 214
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_03.afs"): fd = 215
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_04.afs"): fd = 216
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_05.afs"): fd = 217
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_06.afs"): fd = 218
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_07.afs"): fd = 219
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_08.afs"): fd = 220
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_11.afs"): fd = 221
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_12.afs"): fd = 222
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_13.afs"): fd = 223
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_14.afs"): fd = 224
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_15.afs"): fd = 225
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_16.afs"): fd = 226
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_17.afs"): fd = 227
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_18.afs"): fd = 228
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_98.afs"): fd = 229
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_99.afs"): fd = 230
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_a_cmn.afs"): fd = 231
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_01.afs"): fd = 232
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_02.afs"): fd = 233
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_03.afs"): fd = 234
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_04.afs"): fd = 235
@@ -491,9 +475,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_11.afs"): fd = 237
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_12.afs"): fd = 238
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_13.afs"): fd = 239
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_14.afs"): fd = 240
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_96.afs"): fd = 241
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_97.afs"): fd = 242
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_98.afs"): fd = 243
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tln_b_99.afs"): fd = 244
@@ -502,25 +486,24 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_02.afs"): fd = 247
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_03.afs"): fd = 248
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_04.afs"): fd = 249
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_05.afs"): fd = 250
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_06.afs"): fd = 251
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_11.afs"): fd = 252
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_12.afs"): fd = 253
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_13.afs"): fd = 254
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_14.afs"): fd = 255
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tomb_cmn.afs"): fd = 256
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tower_01.afs"): fd = 257
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tower_02.afs"): fd = 258
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tower_03.afs"): fd = 259
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tower_04.afs"): fd = 260
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tower_05.afs"): fd = 261
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tower_06.afs"): fd = 262
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/tower_cmn.afs"): fd = 263
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/unused.afs"): fd = 264
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/yasik_00.afs"): fd = 265
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/yasik_01.afs"): fd = 266
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/yasik_02.afs"): fd = 267
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/yasik_03.afs"): fd = 268
@@ -529,12 +512,12 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/yasik_06.afs"): fd = 271
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/yasik_cmn.afs"): fd = 272
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_01.afs"): fd = 273
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_02.afs"): fd = 274
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_03.afs"): fd = 275
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_04.afs"): fd = 276
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_05.afs"): fd = 277
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_06.afs"): fd = 278
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_07.afs"): fd = 279
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_08.afs"): fd = 280
 [W : PPU[1] Thread (CPUThread)[0x00d6404c]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/zppln_cmn.afs"): fd = 281
@@ -561,14 +544,13 @@
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 298
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 299
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 301
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 303
 [W : PPU[1] Thread (CPUThread)[0x00c2fc08]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=1, prio=1001)
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 305
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 306
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 307
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 308
+[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 309
 [W : PPU[1] Thread (CPUThread)[0x00d6c028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 310
 [E : PPU[1] Thread (CPUThread)[0x00d66034]]: TODO: cellSpursCreateTaskset
@@ -583,7 +565,6 @@
 [E : PPU[1] Thread (CPUThread)[0x00cfe034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
 [E : PPU[1] Thread (CPUThread)[0x00b741b0]]: sysPrxForUser error: sys_ppu_thread_detach(thread_id=314)
 [W : PPU[314] Thread (MTC : 0)[0x00b73f68]]: sys_cond warning: *** condition created [] (mutex_id=312): id = 315
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
@@ -1378,483 +1359,14 @@
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
 [E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[W : PPU[314] Thread (MTC : 0)[0x00d64058]]: sys_fs warning: cellFsStat: "/instver.bin" not found.
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[W : RSXThread]: VP not found in buffer!
-[W : RSXThread]: FP not found in buffer!
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 48
-[! : RSXThread]: *** fp data size = 256
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-layout (location = 9) in vec4 in_tc1;
-out vec4 tc0;
-out vec4 tc1;
-
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	gl_Position = in_pos;
-	tc0.xy = in_tc0.xyxx.xy;
-	tc1.xy = in_tc1.xyxx.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 tc0;
-in vec4 tc1;
-uniform sampler2D tex0;
-uniform sampler2D tex1;
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
-uniform vec4 fc32 = vec4(-0.500000, 0.000000, 0.000000, 0.000000);
-uniform vec4 fc80 = vec4(0.500000, 0.000000, 0.000000, 0.000000);
-uniform vec4 fc112 = vec4(0.500000, 0.000000, 0.000000, 0.000000);
-uniform vec4 fc208 = vec4(0.500000, 0.000000, 0.000000, 0.000000);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	r0.xyz = texture(tex0, tc0.xy).xyz;
-	r1.xyz = (r0 + fc32.xxxx).xyz;
-	r0.xy = tc1.xy;
-	r0.z = (r1 * r0.yyyy + fc80.xxxx).z;
-	r1.w = (r1.yyyy * r0.yyyy + fc112.xxxx).w;
-	h1.x = texture(tex1, r0.zzzz.xy).x;
-	h1.z = h1.xxxx.z;
-	h1.x = texture(tex1, r1.wwww.xy).x;
-	h1.y = h1.xxxx.y;
-	r1.w = (r1.xxxx * r0.yyyy + fc208.xxxx).w;
-	h1.x = texture(tex1, r1.wwww.xy).x;
-	r0 = (r0.xxxx + h1);
-	ocol = r0;
-}
-
-[W : RSXThread]: New FBO (1280x720)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[1] Thread (CPUThread)[0x00cfc088]]: TODO: cellGcmSetUserCommand
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[E : PPU[31] Thread (_cellsurMixerMain)[0x00c0eaa4]]: sys_event error: sys_event_queue_tryreceive(equeue_id=42, event_array_addr=0xd007d518, size=1, number_addr=0xd007d510)
-[! : RSXThread]: RSX thread exit...
-[W : Audio Thread]: Audio aborted
-[W : PPU[1] Thread (CPUThread)[0x00b741c4]]: sys_cond_wait(id=313) aborted
-[W : PPU[28] Thread (_sys_mixerSurBusReq)[0x00c99f58]]: sys_cond_wait(id=23) aborted
 [W : PPU[300] Thread (cri_adxm_vsync_proc)[0x00c30278]]: sys_cond_wait(id=284) aborted
+[W : PPU[28] Thread (_sys_mixerSurBusReq)[0x00c99f58]]: sys_cond_wait(id=23) aborted
+[W : PPU[1] Thread (CPUThread)[0x00b741c4]]: sys_cond_wait(id=313) aborted
 [W : PPU[302] Thread (cri_adxm_fs_proc)[0x00c30278]]: sys_cond_wait(id=286) aborted
 [W : PPU[304] Thread (cri_adxm_idle_proc)[0x00c30278]]: sys_cond_wait(id=288) aborted
-[W : PPU[54] Thread (cri_dlg)[0x00c55ddc]]: sys_cond_wait(id=52) aborted
-[W : PPU[314] Thread (MTC : 0)[0x00b74020]]: sys_cond_wait(id=315) aborted
-[W : SPU[37] Thread (CriSr thread)[0x0001bb8c]]: sys_spu_thread_receive_event(spuq=0x0) aborted
 [W : PPU[47] Thread (cri_dlg)[0x00c55ddc]]: sys_cond_wait(id=45) aborted
+[W : SPU[37] Thread (CriSr thread)[0x0001bb8c]]: sys_spu_thread_receive_event(spuq=0x0) aborted
+[W : PPU[54] Thread (cri_dlg)[0x00c55ddc]]: sys_cond_wait(id=52) aborted
+[! : RSXThread]: RSX thread exit...
+[W : Audio Thread]: Audio aborted
 [!]: Closing memory...

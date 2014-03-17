@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x99d397ac in 'cellGcmSys' module
@@ -96,8 +96,6 @@
 [E]: TODO: sceNpScoreGetRankingByNpIdAsync
 [W]: Unknown function 0x4026eac5 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterContextSensitiveHandler
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x5de61626 in 'sceNp' module
@@ -120,16 +118,12 @@
 [E]: TODO: sceNpManagerGetEntitlementById
 [W]: Unknown function 0xa7a090e5 in 'sceNp' module
 [E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xafef640d in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntryCount
 [W]: Unknown function 0xb9f93bbb in 'sceNp' module
 [E]: TODO: sceNpScoreCreateTitleCtx
 [W]: Unknown function 0xbcdbb2ab in 'sceNp' module
 [E]: TODO: sceNpBasicAddPlayersHistoryAsync
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xbdc07fd5 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNetworkTime
 [W]: Unknown function 0xc4b6cd8f in 'sceNp' module
@@ -230,7 +224,6 @@
 [W : PPU[1] Thread (CPUThread)[0x028d6004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020c30)
 [W : PPU[1] Thread (CPUThread)[0x028cc01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
-[E : PPU[1] Thread (CPUThread)[0x028e6148]]: TODO: sceNpInit
 [E : PPU[1] Thread (CPUThread)[0x028d8034]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x028e61b4]]: TODO: sceNpManagerRegisterCallback
 [W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
@@ -242,8 +235,7 @@
 [W : PPU[1] Thread (CPUThread)[0x028c8010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x9400000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x001a94a0]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x028ca01c]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01225\')
-[! : PPU[1] Thread (CPUThread)[0x028ca01c]]: create dir: D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01225
+[W : PPU[1] Thread (CPUThread)[0x028ca01c]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\BLES01225\')
 [W : PPU[1] Thread (CPUThread)[0x028ce094]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x4a27e8 (/dev_hdd0))
 [W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
@@ -272,76 +264,2380 @@
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x302405c8): id = 33
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 34
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 35
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x302409a4, attr_addr=0xd001f7b0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3024097c, attr_addr=0xd001f7b0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 36
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 37
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 38
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=38)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a28): id = 39
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a00): id = 39
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=38)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a28): id = 40
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30240a00): id = 40
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 41
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=42)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240ad0): id = 43
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240aa8): id = 43
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=42)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240ad0): id = 44
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30240aa8): id = 44
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 48
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 49
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x302558a4, attr_addr=0xd001f8c0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3025587c, attr_addr=0xd001f8c0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 50
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 51
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=51)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x302558c0): id = 52
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x30255898): id = 52
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 53
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 54
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30255c84, attr_addr=0xd001f7b0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30255c5c, attr_addr=0xd001f7b0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 55
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 56
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 57
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=57)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255d08): id = 58
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255ce0): id = 58
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=57)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255d08): id = 59
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30255ce0): id = 59
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 60
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 61
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=61)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255db0): id = 62
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255d88): id = 62
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=61)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255db0): id = 63
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30255d88): id = 63
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 67
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 68
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026ab84, attr_addr=0xd001f8c0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026ab5c, attr_addr=0xd001f8c0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 69
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 70
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=70)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x3026aba0): id = 71
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x3026ab78): id = 71
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 72
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 73
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026af64, attr_addr=0xd001f7b0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3026af3c, attr_addr=0xd001f7b0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 74
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 75
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 76
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=76)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afe8): id = 77
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afc0): id = 77
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=76)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afe8): id = 78
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3026afc0): id = 78
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 79
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 80
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=80)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b090): id = 81
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b068): id = 81
 [W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=80)
-[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b090): id = 82
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3026b068): id = 82
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 86
-[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3027fe2c, attr_addr=0xd001f7f0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3027fe04, attr_addr=0xd001f7f0)
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 87
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [cache_f] (attribute=0x12): sq_id = 88
 [W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 89
-[W : PPU[83] Thread (fios mediathread 8)[0x028ce040]]: sys_fs warning: cellFsStat: "/dev_hdd1/BLES01225" not found.
-[W : PPU[83] Thread (fios mediathread 8)[0x028ce040]]: sys_fs warning: cellFsStat: "/dev_hdd1/BLES01225" not found.
+[W : PPU[83] Thread (fios mediathread 8)[0x028ce034]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\BLES01225\cache.idx')
+[W : PPU[83] Thread (fios mediathread 8)[0x028ce034]]: *** cellFsOpen(path="/dev_hdd1/BLES01225/cache.idx"): fd = 90
+[W : PPU[83] Thread (fios mediathread 8)[0x028ce034]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\BLES01225\cache.dat')
+[W : PPU[83] Thread (fios mediathread 8)[0x028ce034]]: *** cellFsOpen(path="/dev_hdd1/BLES01225/cache.dat"): fd = 91
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 92
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3029be14, attr_addr=0xd001f830)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 93
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [cache_f] (attribute=0x12): sq_id = 94
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 95
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x302be204, attr_addr=0xd001f7b0)
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x003f5458]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 97
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 98
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 99
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=99)
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x302be288): id = 100
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=99)
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x302be288): id = 101
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 102
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 103
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=103)
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x302be330): id = 104
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: Recursive lwmutex(sq=103)
+[W : PPU[1] Thread (CPUThread)[0x028f6130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x302be330): id = 105
+[W : PPU[1] Thread (CPUThread)[0x028c8004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x028c80a0]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x028c8034]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x028c8088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x028c8070]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x028c80a0]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=3801088, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x028c8034]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x004be040]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020544)
+[W : PPU[1] Thread (CPUThread)[0x028c8004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x004be028]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x004be028]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30017000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x004be028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x004be04c]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0x27a9680, vertexArray_addr=0x27a9684, fragmentShader_addr=0x27a9688)
+[W : PPU[1] Thread (CPUThread)[0x028c80ac]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=210763776, size=7536640, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x004be064]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xcc900000, vertexArray_addr=0xc0ac0000, fragmentShader_addr=0xc0ac1000)
+[W : PPU[1] Thread (CPUThread)[0x004be064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xc900000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x004be064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xcc84000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x004be058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x004be058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x0,pitch=4,width=1280,height=720)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[1] Thread (CPUThread)[0x028f6160]]: sysPrxForUser warning: sys_spu_image_import(img=0x28c5b60, src=0x4b6b80, type=0x0)
+[W : PPU[1] Thread (CPUThread)[0x028f6160]]: desc = 'Patch_Release/NisGraphics.spu.el'
+[W : PPU[1] Thread (CPUThread)[0x001a96c4]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x28c5b7c, num=6, prio=16, attr_addr=0xd0020a7c)
+[W : PPU[1] Thread (CPUThread)[0x001a96c4]]: sys_spu warning: *** SPU Thread Group created [NisGraphicsSpu_Group] (type=0x0, option.ct=0xffffffff): id=109
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x28c5b8c, group=0x6d, spu_num=0, img_addr=0x28c5b60, attr_addr=0xd0020a70, arg_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: *** New SPU Thread [NGS_Thread1] (img_offset=0x28fa000, ls_offset=0x293a000, ep=0xd0, a1=0x28c5d00, a2=0x28c5d60, a3=0x0, a4=0x28c5e20): id=110
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x28c5bcc, group=0x6d, spu_num=1, img_addr=0x28c5b60, attr_addr=0xd0020a70, arg_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: *** New SPU Thread [NGS_Thread2] (img_offset=0x28fa000, ls_offset=0x297a000, ep=0xd0, a1=0x28c5d10, a2=0x28c5d80, a3=0x0, a4=0x28c5e24): id=111
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x28c5c0c, group=0x6d, spu_num=2, img_addr=0x28c5b60, attr_addr=0xd0020a70, arg_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: *** New SPU Thread [NGS_Thread3] (img_offset=0x28fa000, ls_offset=0x29ba000, ep=0xd0, a1=0x28c5d20, a2=0x28c5da0, a3=0x0, a4=0x28c5e28): id=112
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x28c5c4c, group=0x6d, spu_num=3, img_addr=0x28c5b60, attr_addr=0xd0020a70, arg_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: *** New SPU Thread [NGS_Thread4] (img_offset=0x28fa000, ls_offset=0x29fa000, ep=0xd0, a1=0x28c5d30, a2=0x28c5dc0, a3=0x0, a4=0x28c5e2c): id=113
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x28c5c8c, group=0x6d, spu_num=4, img_addr=0x28c5b60, attr_addr=0xd0020a70, arg_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: *** New SPU Thread [NGS_Thread5] (img_offset=0x28fa000, ls_offset=0x2a3a000, ep=0xd0, a1=0x28c5d40, a2=0x28c5de0, a3=0x0, a4=0x28c5e30): id=114
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x28c5ccc, group=0x6d, spu_num=5, img_addr=0x28c5b60, attr_addr=0xd0020a70, arg_addr=0xd0020a90)
+[W : PPU[1] Thread (CPUThread)[0x001a9744]]: sys_spu warning: *** New SPU Thread [NGS_Thread6] (img_offset=0x28fa000, ls_offset=0x2a7a000, ep=0xd0, a1=0x28c5d50, a2=0x28c5e00, a3=0x0, a4=0x28c5e34): id=115
+[W : PPU[1] Thread (CPUThread)[0x001a9768]]: sys_spu warning: sys_spu_thread_group_start(id=109)
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_DATE_FORMAT
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIME_FORMAT
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_GAME_PARENTAL_LEVEL
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USER_HAS_NP_ACCOUNT
+[W : PPU[1] Thread (CPUThread)[0x028ca040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CAMERA_PLFREQ
+[W : PPU[1] Thread (CPUThread)[0x028ca07c]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
+[W : PPU[1] Thread (CPUThread)[0x028ca07c]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USERNAME
+[W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[E : PPU[1] Thread (CPUThread)[0x028ca0b8]]: TODO: cellSaveDataEnableOverlay
+[W : PPU[106] Thread (fios mediathread 11)[0x028ce034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/NisAnmShadow.txf"): fd = 116
+[W : PPU[106] Thread (fios mediathread 11)[0x028ce010]]: sys_fs warning: cellFsClose(fd=116)
+[E : PPU[1] Thread (CPUThread)[0x028e6214]]: TODO: sceNpManagerGetNpId
+[E : PPU[1] Thread (CPUThread)[0x028e6070]]: TODO: sceNpBasicRegisterContextSensitiveHandler
+[W : PPU[1] Thread (CPUThread)[0x028f6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 118
+[W : PPU[119] Thread (Trophy thread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[119] Thread (Trophy thread)[0x028ea070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x1b1f1d4, commID_addr=0x490cd4, commSign_addr=0x490ce0, options=0x0)
+[W : PPU[119] Thread (Trophy thread)[0x028ea010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x1b1f1d8)
+[W : PPU[119] Thread (Trophy thread)[0x028ea01c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0x1b1f1e0, options=0x0)
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x4d0c78, arg_addr=0x0, options=0x0)
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROPCONF.SFM')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\ICON0.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP000.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP001.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP002.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP003.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP004.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP005.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP006.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP007.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP008.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP009.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP010.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP011.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP012.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP013.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP014.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP015.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP016.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP017.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP018.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP019.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP020.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP021.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP022.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP023.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP024.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP025.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP026.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP027.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP028.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP029.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP030.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP031.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP032.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP033.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP034.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP035.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP036.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP037.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP038.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP039.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP040.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP041.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP042.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP043.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP044.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP045.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP046.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP047.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP048.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP049.PNG')
+[W : PPU[119] Thread (Trophy thread)[0x028ea004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR02062_00\TROP050.PNG')
+[W : PPU[1] Thread (CPUThread)[0x001e81e8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=119, vptr_addr=0xd0020ad0)
+[E : PPU[1] Thread (CPUThread)[0x028ca010]]: TODO: cellSaveDataListLoad2
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x028c8058]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[W : PPU[66] Thread (fios scheduler 4)[0x028f6040]]: sys_lwcond_wait(sq=58) aborted
+[W : PPU[83] Thread (fios mediathread 8)[0x028f6040]]: sys_lwcond_wait(sq=81) aborted
+[W : PPU[107] Thread (fios mediathread 12)[0x028f6040]]: sys_lwcond_wait(sq=105) aborted
+[W : PPU[45] Thread (fios mediathread 2)[0x028f6040]]: sys_lwcond_wait(sq=43) aborted
+[W : PPU[65] Thread (fios mediathread 6)[0x028f6040]]: sys_lwcond_wait(sq=63) aborted
+[W : PPU[64] Thread (fios mediathread 5)[0x028f6040]]: sys_lwcond_wait(sq=62) aborted
+[W : PPU[106] Thread (fios mediathread 11)[0x028f6040]]: sys_lwcond_wait(sq=104) aborted
+[W : PPU[46] Thread (fios mediathread 3)[0x028f6040]]: sys_lwcond_wait(sq=44) aborted
+[W : PPU[85] Thread (fios scheduler 7)[0x028f6040]]: sys_lwcond_wait(sq=77) aborted
+[W : PPU[108] Thread (fios scheduler 10)[0x028f6040]]: sys_lwcond_wait(sq=100) aborted
+[W : PPU[84] Thread (fios mediathread 9)[0x028f6040]]: sys_lwcond_wait(sq=82) aborted
+[W : PPU[47] Thread (fios scheduler 1)[0x028f6040]]: sys_lwcond_wait(sq=39) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

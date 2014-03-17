@@ -184,8 +184,6 @@
 [E]: TODO: cellGcmDumpGraphicsError
 [W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
 [E]: TODO: cellGcmSortRemapEaIoAddress
-[W]: Unknown function 0x626e8518 in 'cellGcmSys' module
-[E]: TODO: cellGcmMapEaIoAddressWithFlags
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0xd01b570d in 'cellGcmSys' module
@@ -337,8 +335,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00bb50dc]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
 [W : PPU[1] Thread (CPUThread)[0x00bb5094]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00bb5034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00207d8)
-[W : PPU[1] Thread (CPUThread)[0x00bb5100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x87418980)
+[W : PPU[1] Thread (CPUThread)[0x00bb5100]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x5cb9af80)
 [E : PPU[1] Thread (CPUThread)[0x0013af9c]]: Read8 from null block: [00000000]
-[W : PPU[54] Thread (Job Manager Event Handler)[0x0054c288]]: sys_event_queue_receive(equeue=53) aborted
 [W : PPU[57] Thread (Job Manager Event Handler)[0x0054c288]]: sys_event_queue_receive(equeue=56) aborted
+[W : PPU[54] Thread (Job Manager Event Handler)[0x0054c288]]: sys_event_queue_receive(equeue=53) aborted
 [!]: Closing memory...

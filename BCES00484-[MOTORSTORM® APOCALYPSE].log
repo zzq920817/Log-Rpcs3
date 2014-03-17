@@ -448,6 +448,7 @@
 [W : PPU[1] Thread (CPUThread)[0x013fd064]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
 [W : PPU[1] Thread (CPUThread)[0x013fd184]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30160480)
 [W : PPU[1] Thread (CPUThread)[0x013e304c]]: cellGame warning: cellGameBootCheck(type_addr=0xd001efa8, attributes_addr=0xd001efac, size_addr=0xd001efb4, dirName_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x013e304c]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [W : PPU[1] Thread (CPUThread)[0x00a9baa4]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0xa9baa4
 [W : PPU[1] Thread (CPUThread)[0x013fd184]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x12fe130)
 [W : PPU[1] Thread (CPUThread)[0x00aa05f8]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0xaa05f8

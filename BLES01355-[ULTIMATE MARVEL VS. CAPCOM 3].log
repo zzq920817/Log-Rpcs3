@@ -1,21 +1,19 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01355-[ULTIMATE MARVEL VS. CAPCOM 3]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x6ee62ed2 in 'sceNp' module
 [E]: TODO: sceNpManagerGetContentRatingFlag
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xb1e0718b in 'sceNp' module
 [E]: TODO: sceNpManagerGetAccountRegion
 [W]: Unknown function 0xceeebc7a in 'sceNp' module
@@ -84,8 +82,6 @@
 [E]: TODO: sceNpScoreCreateTitleCtx
 [W]: Unknown function 0xbcdbb2ab in 'sceNp' module
 [E]: TODO: sceNpBasicAddPlayersHistoryAsync
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xbdc07fd5 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNetworkTime
 [W]: Unknown function 0xc5f4cf82 in 'sceNp' module
@@ -220,10 +216,6 @@
 [E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
 [E]: TODO: _cellSpursSendSignal
-[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_unmap_memory
-[W]: Unknown function 0x8c2bb498 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_initialize
 [W]: Unknown function 0x37968718 in 'cellSheap' module
 [E]: TODO: cellSheapQueryMax
 [W]: Unknown function 0x4b1383fb in 'cellSheap' module
@@ -511,102 +503,102 @@
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 77
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 79
-[W : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=27)
-[W : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2cc, size=0x6)
-[W : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x36530080, spurs_addr=0xd001e240)
-[W : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=27)
-[W : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2d4, size=0x8)
-[W : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x36540080, spurs_addr=0xd001e240)
-[W : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=27)
-[W : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2e4, size=0x9)
-[W : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x36550080, spurs_addr=0xd001e240)
-[W : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=25)
-[W : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2f4, size=0x9)
-[W : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x36560080, spurs_addr=0xd001e240)
-[W : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=30)
-[W : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a304, size=0x9)
-[W : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x36510300, spurs_addr=0xd001e240)
+[E : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=27)
+[E : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2cc, size=0x6)
+[E : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x36530080, spurs_addr=0xd001e240)
+[E : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=27)
+[E : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2d4, size=0x8)
+[E : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x36540080, spurs_addr=0xd001e240)
+[E : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=27)
+[E : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2e4, size=0x9)
+[E : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x36550080, spurs_addr=0xd001e240)
+[E : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=25)
+[E : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a2f4, size=0x9)
+[E : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x36560080, spurs_addr=0xd001e240)
+[E : PPU[1] Thread (CPUThread)[0x00f4a034]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd001e240, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=30)
+[E : PPU[1] Thread (CPUThread)[0x00f4a004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd001e240, prefix_addr=0xd3a304, size=0x9)
+[E : PPU[1] Thread (CPUThread)[0x00f4a010]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x36510300, spurs_addr=0xd001e240)
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 80
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001e0b0)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001e0b0)
 [E : PPU[1] Thread (CPUThread)[0x00f4a1a8]]: TODO: _cellSpursTasksetAttribute2Initialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a0c4]]: TODO: cellSpursCreateTaskset2
 [E : PPU[1] Thread (CPUThread)[0x00f4a1cc]]: TODO: cellSpursGetTasksetId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0e8]]: TODO: cellSpursTasksetGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582876160])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173888])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 81
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001e0b0)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001e0b0)
 [E : PPU[1] Thread (CPUThread)[0x00f4a1a8]]: TODO: _cellSpursTasksetAttribute2Initialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a0c4]]: TODO: cellSpursCreateTaskset2
 [E : PPU[1] Thread (CPUThread)[0x00f4a1cc]]: TODO: cellSpursGetTasksetId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0e8]]: TODO: cellSpursTasksetGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582876160])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173888])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 82
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001e0b0)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001e0b0)
 [E : PPU[1] Thread (CPUThread)[0x00f4a1a8]]: TODO: _cellSpursTasksetAttribute2Initialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a0c4]]: TODO: cellSpursCreateTaskset2
 [E : PPU[1] Thread (CPUThread)[0x00f4a1cc]]: TODO: cellSpursGetTasksetId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0e8]]: TODO: cellSpursTasksetGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582876160])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173888])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 83
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
 [E : PPU[1] Thread (CPUThread)[0x00f4a094]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a184]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f4a088]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00f4a13c]]: TODO: cellSpursGetJobChainId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582875616])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173344])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 84
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
 [E : PPU[1] Thread (CPUThread)[0x00f4a094]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a184]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f4a088]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00f4a13c]]: TODO: cellSpursGetJobChainId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582875616])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173344])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 85
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36550080, nThreads_addr=0xd001de90)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36550080, nThreads_addr=0xd001de90)
 [E : PPU[1] Thread (CPUThread)[0x00f4a094]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a184]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f4a088]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00f4a13c]]: TODO: cellSpursGetJobChainId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582875616])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173344])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 86
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
 [E : PPU[1] Thread (CPUThread)[0x00f4a094]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a184]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f4a088]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00f4a13c]]: TODO: cellSpursGetJobChainId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582875616])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173344])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 87
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
 [E : PPU[1] Thread (CPUThread)[0x00f4a094]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a184]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f4a088]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00f4a13c]]: TODO: cellSpursGetJobChainId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582875616])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173344])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 88
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36560080, nThreads_addr=0xd001de90)
 [E : PPU[1] Thread (CPUThread)[0x00f4a094]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a184]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f4a088]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00f4a13c]]: TODO: cellSpursGetJobChainId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582875616])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173344])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 89
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x36510300, nThreads_addr=0xd001de90)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x36510300, nThreads_addr=0xd001de90)
 [E : PPU[1] Thread (CPUThread)[0x00f4a094]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a184]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00f4a088]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00f4a13c]]: TODO: cellSpursGetJobChainId
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs warning: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[582875616])
+[E : PPU[1] Thread (CPUThread)[0x00f4a028]]: cellSpurs error: cellSpursSetPriorities(spurs_addr=0x0, workloadId=0, priorities[83173344])
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 90
 [W : PPU[1] Thread (CPUThread)[0x006f7534]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x3a195a88, attr_addr=0xd001e3e4, event_queue_key=0x0, size=16)
 [W : PPU[1] Thread (CPUThread)[0x006f7534]]: sys_event warning: *** event_queue created [evq] (protocol=0x2, type=0x1): id = 91
-[W : PPU[1] Thread (CPUThread)[0x00f4a100]]: cellSpurs warning: cellSpursGetSpuThreadId(spurs_addr=0x36560080, thread_addr=0xd001e3f4, nThreads_addr=0xd001e3e0)
+[E : PPU[1] Thread (CPUThread)[0x00f4a100]]: cellSpurs error: cellSpursGetSpuThreadId(spurs_addr=0x36560080, thread_addr=0xd001e3f4, nThreads_addr=0xd001e3e0)
 [W : PPU[1] Thread (CPUThread)[0x006f75a4]]: sys_spu warning: sys_spu_thread_connect_event(id=7, eq_id=91, event_type=0x1, spup=2)
 [W : PPU[1] Thread (CPUThread)[0x006f75a4]]: sys_spu warning: sys_spu_thread_connect_event(id=0, eq_id=91, event_type=0x1, spup=2)
 [W : PPU[1] Thread (CPUThread)[0x006f75a4]]: sys_spu warning: sys_spu_thread_connect_event(id=29, eq_id=91, event_type=0x1, spup=2)
@@ -616,22 +608,22 @@
 [W : PPU[1] Thread (CPUThread)[0x006f75a4]]: sys_spu warning: sys_spu_thread_connect_event(id=16970860, eq_id=91, event_type=0x1, spup=2)
 [W : PPU[1] Thread (CPUThread)[0x006f75a4]]: sys_spu warning: sys_spu_thread_connect_event(id=0, eq_id=91, event_type=0x1, spup=2)
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 93
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x0, option_addr=0x0, aspect=0x0, option=0x1e471260)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x1, aspect=0x0, option=0x1e470b60)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x2, aspect=0x0, option=0x1e471260)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x5, option_addr=0x1, aspect=0x0, option=0x1e470860)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x5, option_addr=0x2, aspect=0x0, option=0x1e46e660)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x1e46f460)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xd, option_addr=0x2, aspect=0x0, option=0x1e470060)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xc, option_addr=0x2, aspect=0x0, option=0x1e46e260)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xb, option_addr=0x2, aspect=0x0, option=0x1e46f660)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xa, option_addr=0x2, aspect=0x0, option=0x1e46e960)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x1e46fd60)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x2, aspect=0x0, option=0x1e46e560)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x88, option_addr=0x2, aspect=0x0, option=0x1e46ee60)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x89, option_addr=0x2, aspect=0x0, option=0x1e46ec60)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x8a, option_addr=0x2, aspect=0x0, option=0x1e471460)
-[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x8b, option_addr=0x2, aspect=0x0, option=0x1e470f60)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x0, option_addr=0x0, aspect=0x0, option=0x769480)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x1, aspect=0x0, option=0x768680)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x2, aspect=0x0, option=0x768880)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x5, option_addr=0x1, aspect=0x0, option=0x768680)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x5, option_addr=0x2, aspect=0x0, option=0x76a080)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x769480)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xd, option_addr=0x2, aspect=0x0, option=0x768d80)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xc, option_addr=0x2, aspect=0x0, option=0x767e80)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xb, option_addr=0x2, aspect=0x0, option=0x76b280)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0xa, option_addr=0x2, aspect=0x0, option=0x768880)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x768d80)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x2, aspect=0x0, option=0x76a980)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x88, option_addr=0x2, aspect=0x0, option=0x768680)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x89, option_addr=0x2, aspect=0x0, option=0x768f80)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x8a, option_addr=0x2, aspect=0x0, option=0x769480)
+[W : PPU[1] Thread (CPUThread)[0x00f46124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x8b, option_addr=0x2, aspect=0x0, option=0x768880)
 [W : PPU[1] Thread (CPUThread)[0x01141004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x00f460d0]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd001e0f0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01141028]]: cellGcmSys warning: cellGcmInit(context_addr=0x10f5188,cmdSize=0xff000,ioSize=0x100000,ioAddress=0x36a00000)
@@ -665,7 +657,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00f4a0f4]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a148]]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x00f4a0e8]]: TODO: cellSpursTasksetGetSpursAddress
-[W : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs warning: cellSpursGetNumSpuThread(spurs_addr=0x0, nThreads_addr=0xd001e0a0)
+[E : PPU[1] Thread (CPUThread)[0x00f4a040]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x0, nThreads_addr=0xd001e0a0)
 [E : PPU[1] Thread (CPUThread)[0x00f4a0b8]]: TODO: cellSpursJobChainGetSpursAddress
 [E : PPU[1] Thread (CPUThread)[0x00f4a0f4]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x00f4a148]]: TODO: cellSpursEventFlagAttachLv2EventQueue
@@ -680,7 +672,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f4e034]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0xd001ddf8)
 [W : PPU[1] Thread (CPUThread)[0x00f4e004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd001e280, bufsize=10)
 [W : PPU[1] Thread (CPUThread)[0x00f4e01c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd001e2b0, usrdirPath_addr=0xd001e330)
-[W : PPU[1] Thread (CPUThread)[0x00f46028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES-01355\')
+[W : PPU[1] Thread (CPUThread)[0x00f46028]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\TEST99999\')
 [W : PPU[1] Thread (CPUThread)[0x0067cf98]]: sys_event warning: sys_event_port_create(eport_id_addr=0x365384f0, port_type=0x1, name=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0067cf98]]: sys_event warning: *** sys_event_port created: id = 96
 [W : PPU[1] Thread (CPUThread)[0x0067d0f4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x365384f4, attr_addr=0xd001e440, event_queue_key=0x0, size=64)
@@ -703,15 +695,15 @@
 [W : PPU[1] Thread (CPUThread)[0x009f7470]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 109
 [W : PPU[108] Thread (decodeProc)[0x009fce7c]]: sys_event warning: *** sys_event_port created: id = 110
 [W : PPU[1] Thread (CPUThread)[0x009f7488]]: sys_event warning: sys_event_port_create(eport_id_addr=0x375a51bc, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x009f7488]]: sys_event warning: *** sys_event_port created: id = 111
 [W : PPU[108] Thread (decodeProc)[0x009fceac]]: sys_event warning: sys_event_port_connect_local(eport_id=110, equeue_id=107)
+[W : PPU[1] Thread (CPUThread)[0x009f7488]]: sys_event warning: *** sys_event_port created: id = 111
 [W : PPU[1] Thread (CPUThread)[0x009f74a0]]: sys_event warning: sys_event_port_connect_local(eport_id=111, equeue_id=109)
 [W : PPU[1] Thread (CPUThread)[0x009f74c8]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x375a51c4, attr_addr=0xd001e3d0, event_queue_key=0x0, size=1)
 [W : PPU[1] Thread (CPUThread)[0x009f74c8]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 112
 [W : PPU[113] Thread (decodeProc)[0x009fce7c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x375a51cc, port_type=0x1, name=0x0)
 [W : PPU[113] Thread (decodeProc)[0x009fce7c]]: sys_event warning: *** sys_event_port created: id = 114
-[W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
 [W : PPU[113] Thread (decodeProc)[0x009fceac]]: sys_event warning: sys_event_port_connect_local(eport_id=114, equeue_id=112)
+[W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 117
 [W : PPU[1] Thread (CPUThread)[0x00f4c034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 118
@@ -1149,9 +1141,124 @@
 [E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
 [E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
 [E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a190]]: TODO: cellSpursJoinTask2
+[E : PPU[1] Thread (CPUThread)[0x00f4a16c]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x00f4a1b4]]: TODO: cellSpursCreateTask2
 [! : RSXThread]: RSX thread exit...
 [W : PPU[98] Thread (closeAsync)[0x0067f828]]: sys_event_queue_receive(equeue=97) aborted
 [W : PPU[113] Thread (decodeProc)[0x009fcf38]]: sys_event_queue_receive(equeue=109) aborted
-[W : PPU[108] Thread (decodeProc)[0x009fcf38]]: sys_event_queue_receive(equeue=105) aborted
 [W : PPU[92] Thread (spu2ppuEventThread)[0x006f7a90]]: sys_event_queue_receive(equeue=91) aborted
+[W : PPU[108] Thread (decodeProc)[0x009fcf38]]: sys_event_queue_receive(equeue=105) aborted
 [!]: Closing memory...

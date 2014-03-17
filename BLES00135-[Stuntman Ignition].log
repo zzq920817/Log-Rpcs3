@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00135-[Stuntman Ignition]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
@@ -99,8 +99,6 @@
 [E]: TODO: sceNpManagerGetTicket
 [W]: Unknown function 0x43b989f5 in 'sceNp' module
 [E]: TODO: sceNpBasicSendMessageAttachment
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x58fa4fcd in 'sceNp' module
@@ -113,14 +111,10 @@
 [E]: TODO: sceNpManagerRequestTicket
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xb5cb2d56 in 'sceNp' module
 [E]: TODO: sceNpBasicRecvMessageAttachment
 [W]: Unknown function 0xbcc09fe7 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterHandler
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xe035f7d6 in 'sceNp' module
 [E]: TODO: sceNpBasicGetEvent
 [W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
@@ -151,12 +145,8 @@
 [E]: TODO: cellMicStart
 [W]: Unknown function 0x05c65656 in 'sysPrxForUser' module
 [E]: TODO: sys_mempool_try_allocate_block
-[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_unmap_memory
 [W]: Unknown function 0x608212fc in 'sysPrxForUser' module
 [E]: TODO: sys_mempool_free_block
-[W]: Unknown function 0x70258515 in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_allocate_memory_from_container
 [W]: Unknown function 0x9d3c0f81 in 'sysPrxForUser' module
 [E]: TODO: sys_mempool_destroy
 [W]: Unknown function 0xca9a60bf in 'sysPrxForUser' module
@@ -264,9 +254,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001ffd0, attr_addr=0xd001ffd8, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001ff40, attr_addr=0xd001ff48, initial_count=0, max_count=30)
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001ff40, attr_addr=0xd001ff48, initial_count=1, max_count=1)
+[W : PPU[41] Thread (Gk worker thread)[0x00410a00]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=41, prio=998)
 [W : PPU[78] Thread (GkFile thread)[0x00410820]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 79
 [W : PPU[78] Thread (GkFile thread)[0x00410920]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
-[W : PPU[41] Thread (Gk worker thread)[0x00410a00]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=41, prio=998)
 [W : PPU[1] Thread (CPUThread)[0x00410a00]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=78, prio=998)
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 81
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001ffe0, attr_addr=0xd001ffe8, initial_count=0, max_count=1)
@@ -385,10 +375,10 @@
 [W : PPU[119] Thread (MPAS bank thread)[0x00410820]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 120
 [W : PPU[119] Thread (MPAS bank thread)[0x00410920]]: sys_cond warning: *** condition created [] (mutex_id=120): id = 121
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 122
+[W : PPU[119] Thread (MPAS bank thread)[0x00410a00]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=119, prio=1002)
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 123
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001fd00, attr_addr=0xd001fd08, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 125
-[W : PPU[119] Thread (MPAS bank thread)[0x00410a00]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=119, prio=1002)
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001fce0, attr_addr=0xd001fce8, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001fd80, attr_addr=0xd001fd88, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 128
@@ -412,20 +402,8 @@
 [W : PPU[1] Thread (CPUThread)[0x008b4040]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [W : PPU[1] Thread (CPUThread)[0x008b4010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x4d504153)
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/AUDIO/SFXMUSIC.MBK"): fd = 133
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [E : PPU[78] Thread (GkFile thread)[0x0082e034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/FONTS/GUNPLAY.BNK" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x0082c040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
@@ -439,106 +417,7 @@
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/AUDIO/VOX/ENGLISH/VOICE.MBK"): fd = 134
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
@@ -571,24 +450,6 @@
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 140
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 141
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 142
@@ -602,67 +463,37 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 150
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 151
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 152
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 153
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 154
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 155
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 156
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 157
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 158
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [E : PPU[1] Thread (CPUThread)[0x007d14d0]]: sys_fs error: "\keyboard.ini" not found! flags: 0x00000000
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x0082c040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001fe50, attr_addr=0xd001fe58, initial_count=1, max_count=1)
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/TEXT/ENGLISH/MASSM_P3.BIN"): fd = 160
 [W : PPU[78] Thread (GkFile thread)[0x0082e004]]: sys_fs warning: cellFsClose(fd=160)
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/TEXT/ENGLISH/MENU.BIN"): fd = 161
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [W : PPU[78] Thread (GkFile thread)[0x0082e004]]: sys_fs warning: cellFsClose(fd=161)
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/TEXT/ENGLISH/INTRO.BIN"): fd = 162
 [W : PPU[78] Thread (GkFile thread)[0x0082e004]]: sys_fs warning: cellFsClose(fd=162)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/TEXT/ENGLISH/GLOSS.BIN"): fd = 163
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[78] Thread (GkFile thread)[0x0082e004]]: sys_fs warning: cellFsClose(fd=163)
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/TEXT/ENGLISH/AWARD.BIN"): fd = 164
 [W : PPU[78] Thread (GkFile thread)[0x0082e004]]: sys_fs warning: cellFsClose(fd=164)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[78] Thread (GkFile thread)[0x0082e034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/TEXT/ENGLISH/HELP_XE.BIN"): fd = 165
 [W : PPU[78] Thread (GkFile thread)[0x0082e004]]: sys_fs warning: cellFsClose(fd=165)
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001fdf0, attr_addr=0xd001fdf8, initial_count=1, max_count=1)
@@ -673,8 +504,8 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xaa, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x34000000 to 0x0 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x100000, mem_id=0xab, flags=0x40000)
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory error: sys_mmapper_map_memory failed!
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
@@ -712,12 +543,9 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0xc00000, mem_id=0xb6, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x34c00000 to 0xc00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0xd00000, mem_id=0xb7, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x34d00000 to 0xd00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0xe00000, mem_id=0xb8, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x34e00000 to 0xe00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
@@ -766,12 +594,9 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x1d00000, mem_id=0xc7, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x35d00000 to 0x1d00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x1e00000, mem_id=0xc8, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x35e00000 to 0x1e00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x1f00000, mem_id=0xc9, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x35f00000 to 0x1f00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
@@ -790,12 +615,9 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x2400000, mem_id=0xce, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x36400000 to 0x2400000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x2500000, mem_id=0xcf, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x36500000 to 0x2500000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x2600000, mem_id=0xd0, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x36600000 to 0x2600000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
@@ -844,12 +666,9 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x3500000, mem_id=0xdf, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x37500000 to 0x3500000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x3600000, mem_id=0xe0, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x37600000 to 0x3600000 size=0x100000
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x3700000, mem_id=0xe1, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x37700000 to 0x3700000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
@@ -878,9 +697,9 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x37f00000 to 0x3f00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x4000000, mem_id=0xea, flags=0x40000)
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x38000000 to 0x4000000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x008bc0d0]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd001fe04)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory warning: sys_mmapper_map_memory(start_addr=0x4100000, mem_id=0xeb, flags=0x40000)
@@ -914,46 +733,19 @@
 [W : PPU[1] Thread (CPUThread)[0x008bc0f4]]: memory mapped 0x38a00000 to 0x4a00000 size=0x100000
 [W : PPU[1] Thread (CPUThread)[0x0082a064]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0x4b00000,offset_addr=0xd001fe00)
 [W : PPU[1] Thread (CPUThread)[0x0040c9fc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fe08)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x0082a064]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x38b00000,size=0x700000,offset_addr=0xd001fe14)
 [W : PPU[1] Thread (CPUThread)[0x0040c910]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fe18)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x0082a064]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x39200000,size=0x1e00000,offset_addr=0xd001fcf4)
 [W : PPU[1] Thread (CPUThread)[0x0040c910]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fcf8)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x0082a064]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x3b000000,size=0x300000,offset_addr=0xd001fcf4)
 [W : PPU[1] Thread (CPUThread)[0x0040c910]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fcf8)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001fe80, attr_addr=0xd001fe88, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x008bc040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 246
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x0082e07c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x1001a688 (/dev_hdd0))
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[1] Thread (CPUThread)[0x00411354]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd001fe30, attr_addr=0xd001fe38, initial_count=1, max_count=1)
-[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
-[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [E : PPU[78] Thread (GkFile thread)[0x0082e034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/GAMEINFO.BNK" not found! flags: 0x00000000
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
@@ -1009,11 +801,711 @@
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x0082c094]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x8621b0, userdata=0x0)
+[E : PPU[78] Thread (GkFile thread)[0x0082e034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/FLASH/PLATFORM.BNK" not found! flags: 0x00000000
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
 [E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
+[W : PPU[130] Thread (MPAS mixer thread)[0x008b4034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0080c88)
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826070]]: TODO: cellSpursEventFlagSet
+[E : PPU[130] Thread (MPAS mixer thread)[0x00826004]]: TODO: cellSpursEventFlagWait
 [! : RSXThread]: RSX thread exit...
-[W : Audio Thread]: Audio aborted
-[!]: Closing memory...

@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]\PS3_GAME\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1a267f98 in 'cellSysmodule' module
@@ -114,8 +114,6 @@
 [E]: TODO: sceNpManagerGetAvatarUrl
 [W]: Unknown function 0x3f0808aa in 'sceNp' module
 [E]: TODO: sceNpBasicSetPresence
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x4b9efb7a in 'sceNp' module
 [E]: TODO: sceNpManagerGetCachedInfo
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
@@ -138,8 +136,6 @@
 [E]: TODO: sceNpManagerGetAccountRegion
 [W]: Unknown function 0xbcc09fe7 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterHandler
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xbdc07fd5 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNetworkTime
 [W]: Unknown function 0xbe07c708 in 'sceNp' module
@@ -434,10 +430,6 @@
 [E]: TODO: cellMicStart
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_unmap_memory
-[W]: Unknown function 0x70258515 in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_allocate_memory_from_container
 [W]: Unknown function 0x84bb6774 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_get_module_info
 [W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
@@ -506,7 +498,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 43
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 44
 [W : PPU[1] Thread (CPUThread)[0x019ea0b8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x14a5f78, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x019ea034]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BCES01598\')
+[W : PPU[1] Thread (CPUThread)[0x019ea034]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\BCES01598\')
 [E : PPU[1] Thread (CPUThread)[0x00010818]]: GetRegBySPR error: Unknown SPR 0x10c! #pc: 0x10818
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r0 = 0x10748
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r1 = 0xd0020980
@@ -609,3 +601,4 @@
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: CTR = 0x19ea030
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: XER = 0x2000000000000000 [CA=1 | OV=0 | SO=0]
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: FPSCR = 0x4000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[!]: Closing memory...

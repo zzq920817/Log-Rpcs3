@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01401-[Dragon Ball Z Ultimate Tenkaichi]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
@@ -180,8 +180,6 @@
 [E]: TODO: sceNpSignalingDestroyCtx
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xafef640d in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntryCount
 [W]: Unknown function 0xb1e0718b in 'sceNp' module
@@ -403,15 +401,10 @@
 [W : PPU[1] Thread (CPUThread)[0x005e2b4c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x009390b8]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x8ff03c, entry=0x7aff00)
 [W : PPU[95] Thread (CPUThread)[0x00939034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 96
-[W : Audio Thread]: Audio aborted
-[W : PPU[65] Thread (cri_adxm_fs_proc)[0x00622d40]]: sys_cond_wait(id=47) aborted
-[W : PPU[63] Thread (cri_adxm_vsync_proc)[0x00622d40]]: sys_cond_wait(id=45) aborted
-[W : PPU[34] Thread (cri_dlg)[0x0066a15c]]: sys_cond_wait(id=32) aborted
 [W : PPU[67] Thread (cri_adxm_idle_proc)[0x00622d40]]: sys_cond_wait(id=49) aborted
-[W : PPU[76] Thread (_sys_mixerSurBusReq)[0x0060ebbc]]: sys_cond_wait(id=71) aborted
-[W : PPU[79] Thread (_cellsurMixerMain)[0x00611e9c]]: sys_event_queue_receive(equeue=81) aborted
+[W : PPU[65] Thread (cri_adxm_fs_proc)[0x00622d40]]: sys_cond_wait(id=47) aborted
 [W : PPU[27] Thread (cri_dlg)[0x0066a15c]]: sys_cond_wait(id=25) aborted
-[!]: Mutex(44) was owned by thread 63 (recursive=1)
-[!]: Mutex(46) was owned by thread 65 (recursive=1)
-[!]: Mutex(48) was owned by thread 67 (recursive=1)
+[W : PPU[34] Thread (cri_dlg)[0x0066a15c]]: sys_cond_wait(id=32) aborted
+[W : PPU[63] Thread (cri_adxm_vsync_proc)[0x00622d40]]: sys_cond_wait(id=45) aborted
+[W : PPU[76] Thread (_sys_mixerSurBusReq)[0x0060ebbc]]: sys_cond_wait(id=71) aborted
 [!]: Closing memory...

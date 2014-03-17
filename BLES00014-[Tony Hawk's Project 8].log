@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbe5be3ba in 'sys_io' module
@@ -96,16 +96,8 @@
 [E]: TODO: cellAtracGetRemainFrame
 [W]: Unknown function 0xfa293e88 in 'cellAtrac' module
 [E]: TODO: cellAtracCreateDecoder
-[W]: Unknown function 0x5267cb35 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_unlock
-[W]: Unknown function 0x722a0254 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_trylock
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
-[W]: Unknown function 0x8c2bb498 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_initialize
-[W]: Unknown function 0xa285139d in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_lock
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
 [W]: Unknown function 0xf57e1d6f in 'sysPrxForUser' module
@@ -123,6 +115,5 @@
 [W : PPU[1] Thread (CPUThread)[0x00ca40dc]]: memory warning: sys_mmapper_allocate_memory(size=0xa700000, flags=0x400, mem_id_addr=0x103a6314)
 [W : PPU[1] Thread (CPUThread)[0x00ca4100]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xc, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x00ca4100]]: memory mapped 0x30200000 to 0x0 size=0xa700000
-[E : PPU[1] Thread (CPUThread)[0x00ca40a0]]: TODO: sys_spinlock_lock
 [E : PPU[1] Thread (CPUThread)[0x00449e68]]: Read32 from null block: [7c0028d2]
 [!]: Closing memory...

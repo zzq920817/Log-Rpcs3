@@ -24,8 +24,6 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0x0a862772 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0x626e8518 in 'cellGcmSys' module
-[E]: TODO: cellGcmMapEaIoAddressWithFlags
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
 [E]: TODO: cellGcmGetLastFlipTime
 [W]: Unknown function 0x99d397ac in 'cellGcmSys' module
@@ -326,8 +324,6 @@
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 71
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 72
 [W : PPU[1] Thread (CPUThread)[0x009fd7d0]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x32082638, attr_addr=0xd0020580, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x009fd7d0]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x009fd7d0]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x009fd7d0]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 73
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 74
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 75
@@ -419,12 +415,8 @@
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 166
 [W : PPU[1] Thread (CPUThread)[0x013e604c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 167
 [W : PPU[1] Thread (CPUThread)[0x00895f98]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x32107310, attr_addr=0xd0020390, init=0x1)
-[W : PPU[1] Thread (CPUThread)[0x00895f98]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x00895f98]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x00895f98]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 168
 [W : PPU[1] Thread (CPUThread)[0x008c66a0]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x32107330, attr_addr=0xd001fd80, init=0x1)
-[W : PPU[1] Thread (CPUThread)[0x008c66a0]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x008c66a0]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x008c66a0]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 169
 [E : PPU[1] Thread (CPUThread)[0x013d0160]]: TODO: cellGcmInitSystemMode
 [W : PPU[1] Thread (CPUThread)[0x013d0118]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)

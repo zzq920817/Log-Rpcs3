@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01284-[Sly Cooper Thieves in Time]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -151,12 +151,8 @@
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
 [E]: TODO: cellFsAioWrite
 [W]: Unknown module 'cellSysutilAvconfExt'
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x6ee62ed2 in 'sceNp' module
 [E]: TODO: sceNpManagerGetContentRatingFlag
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xbe07c708 in 'sceNp' module
 [E]: TODO: sceNpManagerGetOnlineId
 [W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
@@ -175,8 +171,6 @@
 [E]: TODO: cellSslInit
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_unmap_memory
 [W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
 [W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module

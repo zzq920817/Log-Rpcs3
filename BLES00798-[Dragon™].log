@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]\PS3_GAME\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon_]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
@@ -41,8 +41,6 @@
 [E]: TODO: cellRescSetVBlankHandler
 [W]: Unknown function 0xe0cef79e in 'cellResc' module
 [E]: TODO: cellRescCreateInterlaceTable
-[W]: Unknown function 0x9b882495 in 'sys_fs' module
-[E]: TODO: cellFsGetDirectoryEntries
 [W]: Unknown function 0x22aab31d in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x373523d4 in 'cellSpurs' module
@@ -225,7 +223,7 @@
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keRSXMut] (attribute=0x12): sq_id = 107
-[W : PPU[1] Thread (CPUThread)[0x008df0f4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xc2bcf5b0)
+[W : PPU[1] Thread (CPUThread)[0x008df0f4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x5b479780)
 [W : PPU[1] Thread (CPUThread)[0x008dd0b8]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x008dd010]]: cellGcmSys warning: cellGcmBindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x008dd0b8]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=7864320, pitch=5120, comp=0, base=0, bank=0)
@@ -269,8 +267,17 @@
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 113
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300090, attr_addr=0xd00207e0, initial_count=1, max_count=1)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300094, attr_addr=0xd00207e0, initial_count=0, max_count=2147483647)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 116
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x323000c8, attr_addr=0xd00207e0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x323000cc, attr_addr=0xd00207e0, initial_count=0, max_count=2147483647)
@@ -284,15 +291,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300170, attr_addr=0xd0020830, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300174, attr_addr=0xd0020830, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 129
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x008db01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x008db010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x007353f8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xa9d7e0, attr_addr=0xd0020810, initial_count=1, max_count=1)
@@ -322,9 +320,17 @@
 [W : PPU[1] Thread (CPUThread)[0x00aec004]]: sys_fs warning: cellFsClose(fd=137)
 [W : PPU[1] Thread (CPUThread)[0x0075ca24]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xffdd)
 [W : PPU[1] Thread (CPUThread)[0x0075ca78]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0x328c7980)
-[W : SPU[136] Thread (_Multistream SPU Thread)[0x00030280]]: STOP: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x00af6040]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fa8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fac]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x12): sq_id = 139
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30172a20, attr_addr=0xd0020620, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30172a24, attr_addr=0xd0020620, initial_count=0, max_count=2147483647)
@@ -354,58 +360,25 @@
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301a5a40, attr_addr=0xd0020900, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301a5a44, attr_addr=0xd0020900, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 155
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xa84ad0)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0050b90, options=0x0)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x909a18, arg_addr=0x0, options=0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROPCONF.SFM')
 [W : PPU[1] Thread (CPUThread)[0x008df070]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x12): sq_id = 157
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32adf610, attr_addr=0xd00306c0, initial_count=1, max_count=1)
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32adf614, attr_addr=0xd00306c0, initial_count=0, max_count=2147483647)
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 160
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xa84ad0)
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0050b90, options=0x0)
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x909a18, arg_addr=0x0, options=0x1)
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\ICON0.PNG')
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00aec028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/GAME.KP3"): fd = 161
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP000.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP001.PNG')
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP002.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP003.PNG')
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -415,10 +388,14 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP004.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP005.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP006.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP007.PNG')
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -428,10 +405,14 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP008.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP009.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP010.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP011.PNG')
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -441,10 +422,14 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP012.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP013.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP014.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP015.PNG')
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -454,10 +439,15 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP016.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP017.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP018.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP019.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP020.PNG')
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -467,10 +457,14 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP021.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP022.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP023.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP024.PNG')
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -480,11 +474,25 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP025.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP026.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP027.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROPCONF.SFM')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP028.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP029.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP030.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP031.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP032.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP033.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP034.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP035.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP036.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP037.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP038.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP039.PNG')
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -494,267 +502,21 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP040.PNG')
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP.SFM')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP_02.SFM')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP_03.SFM')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP_04.SFM')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP_05.SFM')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\ICON0.PNG')
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP000.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP001.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP002.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP003.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP004.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP005.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP006.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP007.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP008.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP009.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP010.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP011.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP012.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP013.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP014.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP015.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP016.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP017.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP018.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP019.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP020.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP021.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP022.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP023.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP024.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP025.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP026.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP027.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP028.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP029.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP030.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP031.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP032.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00aec004]]: sys_fs warning: cellFsClose(fd=161)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af80a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32adf618)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af80a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32adf5e8)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x12): sq_id = 162
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30134d28, attr_addr=0xd00305d0, initial_count=1, max_count=1)
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30134d2c, attr_addr=0xd00305d0, initial_count=0, max_count=2147483647)
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 165
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP033.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP034.PNG')
-[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00aec028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/00GLC.KP3"): fd = 166
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP035.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP036.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP037.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP038.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP039.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP040.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP041.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP042.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP043.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP044.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP045.PNG')
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP046.PNG')
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP047.PNG')
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP041.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP042.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP043.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP044.PNG')
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP045.PNG')
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP046.PNG')
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01040_00\TROP047.PNG')
 [W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2034]]: sceNpTrophy warning: sceNpTrophyGetGameInfo(context=0, handle=0, details_addr=0xa84adc, data_addr=0xa84f74)
 [E : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af204c]]: sceNpTrophy error: Unimplemented function: sceNpTrophyGetTrophyUnlockState
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
@@ -783,6 +545,212 @@
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000009dc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00aec004]]: sys_fs warning: cellFsClose(fd=161)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af80a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32adf618)
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af80a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32adf5e8)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x12): sq_id = 162
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30134d28, attr_addr=0xd00305d0, initial_count=1, max_count=1)
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30134d2c, attr_addr=0xd00305d0, initial_count=0, max_count=2147483647)
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 165
+[W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00aec028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/00GLC.KP3"): fd = 166
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000009dc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000009dc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -861,6 +829,179 @@
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000009dc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000009dc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -939,6 +1080,9 @@
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -965,6 +1109,9 @@
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063fc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -978,6 +1125,9 @@
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000009dc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -991,71 +1141,12 @@
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
@@ -1118,6 +1209,6 @@
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : RSXThread]: null cmd: addr=0x5060f000, put=0xb0f16000, get=0x60f000
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...
 [W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8f0]]: sys_event_queue_receive(equeue=134) aborted

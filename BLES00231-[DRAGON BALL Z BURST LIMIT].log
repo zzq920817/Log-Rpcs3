@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
@@ -128,8 +128,6 @@
 [E]: TODO: sceNpBasicRegisterContextSensitiveHandler
 [W]: Unknown function 0x474b7b13 in 'sceNp' module
 [E]: TODO: sceNpMatchingJoinRoomGUI
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x60897c38 in 'sceNp' module
@@ -178,8 +176,6 @@
 [E]: TODO: sceNpManagerGetAccountRegion
 [W]: Unknown function 0xb9f93bbb in 'sceNp' module
 [E]: TODO: sceNpScoreCreateTitleCtx
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xc5f4cf82 in 'sceNp' module
 [E]: TODO: sceNpScoreDestroyTransactionCtx
 [W]: Unknown function 0xca0a2d04 in 'sceNp' module
@@ -243,7 +239,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00457124]]: TODO: cellSpursInitialize
 [W : PPU[1] Thread (CPUThread)[0x002421d0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x2126ac0, attr_addr=0xd0020a30, event_queue_key=0x0, size=1)
 [W : PPU[1] Thread (CPUThread)[0x002421d0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 15
-[W : PPU[1] Thread (CPUThread)[0x0045713c]]: cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x2126b00, queue=0xf, port_addr=0x2126ad0, isDynamic=1)
+[E : PPU[1] Thread (CPUThread)[0x0045713c]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x2126b00, queue=0xf, port_addr=0x2126ad0, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00459034]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
@@ -303,6 +299,6 @@
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 60
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 61
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x00234770]]: sys_cond_wait(id=21) aborted
 [W : PPU[29] Thread (NU::Draw::RequestManager)[0x0022341c]]: sys_cond_wait(id=28) aborted
 [! : RSXThread]: RSX thread exit...
-[W : PPU[1] Thread (CPUThread)[0x00234770]]: sys_cond_wait(id=21) aborted

@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01269-[FINAL FANTASY XIII2]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xdabbc2c0 in 'sys_net' module
@@ -40,8 +40,6 @@
 [W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x0a862772 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0x626e8518 in 'cellGcmSys' module
-[E]: TODO: cellGcmMapEaIoAddressWithFlags
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0xd01b570d in 'cellGcmSys' module
@@ -233,8 +231,6 @@
 [W]: Unknown function 0x55870804 in 'cellFiber' module
 [E]: TODO: _cellFiberPpuInitialize
 [W]: Unknown module 'cellSysutilAvconfExt'
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x6ee62ed2 in 'sceNp' module
@@ -243,12 +239,8 @@
 [E]: TODO: sceNpManagerRequestTicket2
 [W]: Unknown function 0xa1709abd in 'sceNp' module
 [E]: TODO: sceNpManagerGetEntitlementById
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xb1e0718b in 'sceNp' module
 [E]: TODO: sceNpManagerGetAccountRegion
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xbdc07fd5 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNetworkTime
 [W]: Unknown function 0xbe07c708 in 'sceNp' module
@@ -276,20 +268,12 @@
 [W]: Unknown module 'white_lightning'
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_unmap_memory
-[W]: Unknown function 0x5267cb35 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_unlock
 [W]: Unknown function 0x80fb0c19 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_stop_module
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
-[W]: Unknown function 0x8c2bb498 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_initialize
 [W]: Unknown function 0x9f18429d in 'sysPrxForUser' module
 [E]: TODO: sys_prx_start_module
-[W]: Unknown function 0xa285139d in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_lock
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
 [W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
@@ -319,63 +303,9 @@
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
-[E : PPU[1] Thread (CPUThread)[0x01594100]]: TODO: sys_spinlock_initialize
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594100]]: TODO: sys_spinlock_initialize
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 28
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 30
@@ -389,26 +319,10 @@
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 38
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 39
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 40
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 41
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 43
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 44
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 45
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 46
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 47
@@ -418,8 +332,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 51
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 52
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 53
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 54
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 55
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 56
@@ -430,7 +342,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 61
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 62
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 63
-[E : PPU[1] Thread (CPUThread)[0x01594100]]: TODO: sys_spinlock_initialize
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 64
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 65
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 66
@@ -438,13 +349,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 68
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 69
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 70
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 71
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 74
@@ -459,8 +364,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 83
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 84
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 85
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 86
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 87
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 88
@@ -480,72 +383,37 @@
 [W : PPU[1] Thread (CPUThread)[0x0159419c]]: memory mapped 0x30200000 to 0x0 size=0xa400000
 [W : PPU[1] Thread (CPUThread)[0x0155c0b8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x1197290, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00920c74]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x01568154]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020850, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=0)
-[W : PPU[1] Thread (CPUThread)[0x01568010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020850, prefix_addr=0xcb4790, size=0x9)
-[W : PPU[1] Thread (CPUThread)[0x01568190]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020850, type=24)
+[E : PPU[1] Thread (CPUThread)[0x01568154]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020850, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=0)
+[E : PPU[1] Thread (CPUThread)[0x01568010]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020850, prefix_addr=0xcb4790, size=0x9)
+[E : PPU[1] Thread (CPUThread)[0x01568190]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020850, type=24)
 [E : PPU[1] Thread (CPUThread)[0x0156819c]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x01568154]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020a50, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=128)
-[W : PPU[1] Thread (CPUThread)[0x01568010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020a50, prefix_addr=0xcb47a0, size=0xb)
-[W : PPU[1] Thread (CPUThread)[0x01568190]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020850, type=0)
+[E : PPU[1] Thread (CPUThread)[0x01568154]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020a50, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=128)
+[E : PPU[1] Thread (CPUThread)[0x01568010]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020a50, prefix_addr=0xcb47a0, size=0xb)
+[E : PPU[1] Thread (CPUThread)[0x01568190]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020850, type=0)
 [E : PPU[1] Thread (CPUThread)[0x0156819c]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 91
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 92
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 93
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 94
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 95
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 97
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 98
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 99
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 101
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 102
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 103
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594100]]: TODO: sys_spinlock_initialize
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
 [W : PPU[1] Thread (CPUThread)[0x00925a98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3b7824c8, attr_addr=0xd0020a60, initial_count=16, max_count=16)
 [E : PPU[1] Thread (CPUThread)[0x01568034]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x015680dc]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x015681d8]]: TODO: cellSpursCreateTasksetWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x01568004]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x01568040]]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x01568124]]: TODO: cellSpursTaskGetReadOnlyAreaPattern
 [E : PPU[1] Thread (CPUThread)[0x0156804c]]: TODO: cellSpursTaskGetLoadableSegmentPattern
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x015681cc]]: TODO: cellSpursCreateTask
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
 [E : PPU[1] Thread (CPUThread)[0x015681cc]]: TODO: cellSpursCreateTask
 [E : PPU[1] Thread (CPUThread)[0x015680d0]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x01568130]]: TODO: cellSpursEventFlagAttachLv2EventQueue
@@ -553,241 +421,110 @@
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 107
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 108
 [W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 109
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[E : PPU[1] Thread (CPUThread)[0x01594100]]: TODO: sys_spinlock_initialize
 [W : PPU[1] Thread (CPUThread)[0x00a22f34]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3b7827b8, attr_addr=0xd0020500, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00a22f34]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x00a22f34]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x00a22f34]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 110
 [W : PPU[1] Thread (CPUThread)[0x01564064]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020770, attributes_addr=0xd0020774, size_addr=0xd0020784, dirName_addr=0x0)
-[E : PPU[1] Thread (CPUThread)[0x01564064]]: Memory::WriteString error: bad address (0x0)
 [W : PPU[1] Thread (CPUThread)[0x01564010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020790, usrdirPath_addr=0xd0020810)
-[E : PPU[1] Thread (CPUThread)[0x01594124]]: TODO: sys_spinlock_lock
-[E : PPU[1] Thread (CPUThread)[0x015940b8]]: TODO: sys_spinlock_unlock
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 114
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 117
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 118
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 119
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020650, attr_addr=0xd0020630, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 132
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 133
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 134
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 135
-[W : PPU[1] Thread (CPUThread)[0x00ac1818]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3186ef0, attr_addr=0xd00206e0, initial_count=1, max_count=1)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 137
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 138
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 139
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 140
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 141
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 142
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 143
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 144
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 145
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 146
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 147
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 148
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 149
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 150
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 151
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 152
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 153
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 154
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 155
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 156
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 157
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 158
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 159
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 160
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 161
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 162
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 163
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 164
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 165
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 170
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207f0, attr_addr=0xd00207d0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020720, attr_addr=0xd0020700, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 176
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 178
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 179
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 184
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 185
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00207d0, attr_addr=0xd00207b0, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 191
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 193
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 194
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 195
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 197
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 199
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 200
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 201
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 203
-[W : PPU[1] Thread (CPUThread)[0x002eee7c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00208a0, attr_addr=0xd0020880, initial_count=0, max_count=268435455)
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 206
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 208
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 209
-[W : PPU[1] Thread (CPUThread)[0x01594058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 210
-[E : PPU[1] Thread (CPUThread)[0x01594100]]: TODO: sys_spinlock_initialize
-[W : PPU[1] Thread (CPUThread)[0x00920044]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3b807788, attr_addr=0xd0020320, init=0xffffffffffffffff)
-[W : PPU[1] Thread (CPUThread)[0x00920044]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x00920044]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
-[W : PPU[1] Thread (CPUThread)[0x00920044]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 211
-[W : PPU[1] Thread (CPUThread)[0x0094a8fc]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3b8077d0, attr_addr=0xd001fde0, init=0xffffffffffffffff)
-[W : PPU[1] Thread (CPUThread)[0x0094a8fc]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0094a8fc]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
-[W : PPU[1] Thread (CPUThread)[0x0094a8fc]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 212
-[W : PPU[1] Thread (CPUThread)[0x0094a934]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3b8077d8, attr_addr=0xd001fdc0, init=0xffffffffffffffff)
-[W : PPU[1] Thread (CPUThread)[0x0094a934]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0094a934]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
-[W : PPU[1] Thread (CPUThread)[0x0094a934]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 213
-[E : PPU[1] Thread (CPUThread)[0x01566178]]: TODO: cellGcmInitSystemMode
-[W : PPU[1] Thread (CPUThread)[0x01566118]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)
-[W : PPU[1] Thread (CPUThread)[0x01566190]]: cellGcmSys warning: cellGcmInit(context_addr=0x14efef0,cmdSize=0xff000,ioSize=0x100000,ioAddress=0x9f00000)
-[W : PPU[1] Thread (CPUThread)[0x01566190]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x01566190]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x9f00000, io=0x0, size=0x100000)
-[! : RSXThread]: RSX thread entry
-[E : PPU[1] Thread (CPUThread)[0x01566094]]: TODO: cellGcmMapEaIoAddressWithFlags
-[W : PPU[1] Thread (CPUThread)[0x0156607c]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
-[W : PPU[1] Thread (CPUThread)[0x015660b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x3100000,size=0x1100000,offset_addr=0xd0020350)
-[W : PPU[1] Thread (CPUThread)[0x015660b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x4400000,size=0x5300000,offset_addr=0xd0020350)
-[W : PPU[1] Thread (CPUThread)[0x015660b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x9900000,size=0x600000,offset_addr=0xd0020350)
-[W : PPU[1] Thread (CPUThread)[0x015660b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x9700000,size=0x200000,offset_addr=0xd0020350)
-[W : PPU[1] Thread (CPUThread)[0x015660b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0xa100000,size=0x300000,offset_addr=0xd0020350)
-[W : PPU[1] Thread (CPUThread)[0x015660b8]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x10000000,size=0x100000,offset_addr=0xd0020350)
-[W : PPU[1] Thread (CPUThread)[0x01566004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[E : PPU[1] Thread (CPUThread)[0x00000000]]: Unknown/Illegal opcode! (0x00000000 : 0x0 : 0x0) #pc: 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r0 = 0x9482e8
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r1 = 0xd001fde0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r2 = 0x11a9620
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r3 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r4 = 0xaa0000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r5 = 0x10000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r6 = 0xcb6e30
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r7 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r8 = 0x10000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r9 = 0xcb6e30
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r10 = 0x10000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r11 = 0x10
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r12 = 0x1565000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r13 = 0x30007060
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r14 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r15 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r16 = 0x7
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r17 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r18 = 0x1
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r19 = 0x3b8076a0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r20 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r21 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r22 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r23 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r24 = 0x33766c0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r25 = 0x339ebb0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r26 = 0xcb6e30
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r27 = 0x11f0000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r28 = 0xc75af0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r29 = 0xd001fed4
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r30 = 0xaa0000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: r31 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f0 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f1 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f2 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f3 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f4 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f5 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f6 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f7 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f8 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f9 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f10 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f11 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f12 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f13 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f14 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f15 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f16 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f17 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f18 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f19 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f20 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f21 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f22 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f23 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f24 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f25 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f26 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f27 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f28 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f29 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f30 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: f31 = 0.000000
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v3 = 0x0000000000ffffffffffffffffffffff [x: 0 y: 2.35099e-038 z: -1.#QNAN w: -1.#QNAN]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v4 = 0x0000000000ffffffffffffffffffffff [x: 0 y: 2.35099e-038 z: -1.#QNAN w: -1.#QNAN]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v5 = 0x737973325f000000673a2f616c62612f [x: 1.97635e+031 y: 9.22337e+018 z: 8.79234e+023 w: 1.0947e+027]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v6 = 0x000000000000000000000000000000ff [x: 0 y: 0 z: 0 w: 3.57331e-043]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v7 = 0x0000000000ffffffff00000000000000 [x: 0 y: 2.35099e-038 z: -1.70141e+038 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v8 = 0x60606060606060606060606060606060 [x: 6.46721e+019 y: 6.46721e+019 z: 6.46721e+019 w: 6.46721e+019]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v9 = 0x03030303030303030303030303030303 [x: 3.85009e-037 y: 3.85009e-037 z: 3.85009e-037 w: 3.85009e-037]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: CR = 0x48000088
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: LR = 0x942af4
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: CTR = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: XER = 0x2000000000000000 [CA=1 | OV=0 | SO=0]
-[! : PPU[1] Thread (CPUThread)[0x00000000]]: FPSCR = 0x82009000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=9 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
-[! : RSXThread]: RSX thread exit...
+[E : PPU[1] Thread (CPUThread)[0x0092b820]]: Trap! (tw 1f, r0, r0) #pc: 0x92b820
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r0 = 0x92b820
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r1 = 0xd0020690
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r2 = 0x11a9620
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r3 = 0x4f
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r4 = 0x301003e0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r5 = 0xffffffffffffffff
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r6 = 0xd0020280
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r7 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r8 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r9 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r10 = 0x1513b48
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r11 = 0x1bc200f4
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r12 = 0x1593008
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r23 = 0xffffffff8002cb22
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r24 = 0xd0010fec
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r26 = 0xc24db0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r27 = 0xc24da8
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r28 = 0xc24da0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r29 = 0xc24d98
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: r31 = 0x3b784090
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v3 = 0x0000000000ffffffffffffffffffffff [x: 0 y: 2.35099e-038 z: -1.#QNAN w: -1.#QNAN]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v4 = 0x0000000000ffffffffffffffffffffff [x: 0 y: 2.35099e-038 z: -1.#QNAN w: -1.#QNAN]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v5 = 0x737973325f000000673a2f616c62612f [x: 1.97635e+031 y: 9.22337e+018 z: 8.79234e+023 w: 1.0947e+027]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v6 = 0x000000000000000000000000000000ff [x: 0 y: 0 z: 0 w: 3.57331e-043]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v7 = 0x0000000000ffffffff00000000000000 [x: 0 y: 2.35099e-038 z: -1.70141e+038 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v8 = 0x60606060606060606060606060606060 [x: 6.46721e+019 y: 6.46721e+019 z: 6.46721e+019 w: 6.46721e+019]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v9 = 0x03030303030303030303030303030303 [x: 3.85009e-037 y: 3.85009e-037 z: 3.85009e-037 w: 3.85009e-037]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: CR = 0x48000082
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: LR = 0x92b820
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: CTR = 0x159400c
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x0092b820]]: FPSCR = 0x82009000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=9 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
+[!]: Closing memory...

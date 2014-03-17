@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]\PS3_GAME\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00461-[Skate 2]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
@@ -36,8 +36,6 @@
 [E]: TODO: sceNpBasicAddFriend
 [W]: Unknown function 0x43b989f5 in 'sceNp' module
 [E]: TODO: sceNpBasicSendMessageAttachment
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x64a704cc in 'sceNp' module
 [E]: TODO: sceNpBasicRecvMessageAttachmentLoad
 [W]: Unknown function 0x6ee62ed2 in 'sceNp' module
@@ -46,14 +44,10 @@
 [E]: TODO: sceNpBasicRecvMessageCustom
 [W]: Unknown function 0xa8afa7d4 in 'sceNp' module
 [E]: TODO: sceNpBasicGetCustomInvitationEntryCount
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xafef640d in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntryCount
 [W]: Unknown function 0xb5cb2d56 in 'sceNp' module
 [E]: TODO: sceNpBasicRecvMessageAttachment
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xceeebc7a in 'sceNp' module
 [E]: TODO: sceNpProfileCallGui
 [W]: Unknown function 0xd208f91d in 'sceNp' module
@@ -272,7 +266,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00787f40]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 35
 [W : PPU[1] Thread (CPUThread)[0x00787f40]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 36
 [W : PPU[1] Thread (CPUThread)[0x00787f40]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 37
-[W : PPU[1] Thread (CPUThread)[0x014e2124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xf579ef60)
+[W : PPU[1] Thread (CPUThread)[0x014e2124]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x4a99b380)
 [E : PPU[1] Thread (CPUThread)[0x0079ad40]]: GetRegBySPR error: Unknown SPR 0x10c! #pc: 0x79ad40
 [! : PPU[1] Thread (CPUThread)[0x0079ad40]]: r0 = 0x8
 [! : PPU[1] Thread (CPUThread)[0x0079ad40]]: r1 = 0xd0020c00

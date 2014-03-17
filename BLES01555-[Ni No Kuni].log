@@ -397,26 +397,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01db9028]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\BLES01555\')
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb088]]: cellGame warning: cellGameBootCheck(type_addr=0x1cfc890, attributes_addr=0x1cfc894, size_addr=0x1cfc898, dirName_addr=0x1cfcfce)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfc8a4)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfc8a8)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1cfc8ac)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x1cfceb0, bufsize=10)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x1cfceba, bufsize=6)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0x1cfcec0, bufsize=6)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=105, buf_addr=0x1cfcec6, bufsize=8)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x1cfc8b0, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x1cfc930, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x1cfc9b0, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x1cfca30, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x1cfcab0, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x1cfcbb0, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x1cfcb30, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x1cfcc30, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x1cfccb0, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x1cfcd30, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x1cfcdb0, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x1cfce30, bufsize=128)
-[W : PPU[44] Thread (GameContentAccess)[0x01dcb028]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1cfcece, usrdirPath_addr=0x1cfcf4e)
 [E : PPU[44] Thread (GameContentAccess)[0x01dcb070]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfd734)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfd738)
@@ -438,10 +418,6 @@
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x1cfdc40, bufsize=128)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb010]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x1cfdcc0, bufsize=128)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb028]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0050aa8, usrdirPath_addr=0xd00509a8)
-[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/dev_hdd0/game/BLES01555/USRDIR/hd01.adat" not found! flags: 0x00000000
-[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/dev_hdd0/game/BLES01555/USRDIR/hs02.adat.sdat" not found! flags: 0x00000000
-[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/dev_hdd0/game/BLES01555/USRDIR/hd05.adat" not found! flags: 0x00000000
-[E : PPU[44] Thread (GameContentAccess)[0x01db3040]]: sys_fs error: "/dev_hdd0/game/BLES01555/USRDIR/hs06.adat.sdat" not found! flags: 0x00000000
 [E : PPU[44] Thread (GameContentAccess)[0x01dcb070]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfcffc)
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb04c]]: cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfd000)
@@ -465,8 +441,8 @@
 [W : PPU[44] Thread (GameContentAccess)[0x01dcb028]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1cfd626, usrdirPath_addr=0x1cfd6a6)
 [W : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/vinfo.sdat", flags=0x0, fd_addr=0xd001f5b8, arg_addr=0x0, size=0x0)
 [E : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs error: '/dev_hdd1/vinfo.sdat.unpacked' couldn't be created! flags: 0x00000002
-[W : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLES01555/USRDIR/data/vinfo.sdat", flags=0x0, fd_addr=0xd001f5b4, arg_addr=0x0, size=0x0)
-[E : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs error: '/dev_hdd0/game/BLES01555/USRDIR/data/vinfo.sdat' not found! flags: 0x00000001
+[W : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/data/vinfo.sdat", flags=0x0, fd_addr=0xd001f5b4, arg_addr=0x0, size=0x0)
+[E : PPU[1] Thread (CPUThread)[0x01db3088]]: sys_fs error: '/dev_hdd1/vinfo.sdat.unpacked' couldn't be created! flags: 0x00000002
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [FIOSALL] (attribute=0x21): sq_id = 45
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[1] Thread (CPUThread)[0x01b7d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
@@ -531,12 +507,12 @@
 [W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x3033a108): id = 83
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 84
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 85
-[W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3033a57c, attr_addr=0xd001f110)
+[W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3033a56c, attr_addr=0xd001f110)
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 86
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 87
 [W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: Recursive lwmutex(sq=87)
-[W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x3033a598): id = 88
+[W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x3033a588): id = 88
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 89
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3034c0c4, attr_addr=0xd001f100)
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
@@ -545,7 +521,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 91
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 92
-[W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3033aa14, attr_addr=0xd001f080)
+[W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3033a9f4, attr_addr=0xd001f080)
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
 [W : PPU[1] Thread (CPUThread)[0x00c40334]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 93
 [W : PPU[1] Thread (CPUThread)[0x01dcd058]]: sys_lwmutex warning: *** lwmutex created [cache_f] (attribute=0x12): sq_id = 94
@@ -588,18 +564,18 @@
 [W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: Recursive lwmutex(sq=111)
 [W : PPU[1] Thread (CPUThread)[0x01dcd190]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3034cc78): id = 114
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/HDD_GAMEDATA/data/pinfo.sdat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/HDD_GAMEDATA/data/pinfo.sdat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLES01555/USRDIR/data/pinfo.sdat", flags=0x0, fd_addr=0xd008f914, arg_addr=0x0, size=0x0)
-[E : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs error: '/dev_hdd0/game/BLES01555/USRDIR/data/pinfo.sdat' not found! flags: 0x00000001
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "HDD_GAMEDATA/data/pinfo.sdat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="data/pinfo.sdat", flags=0x0, fd_addr=0xd008f914, arg_addr=0x0, size=0x0)
+[E : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs error: 'data/pinfo.sdat' not found! flags: 0x00000001
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/bs04.adat.sdat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/bs04.adat.sdat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/bs04.adat.sdat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_bdvd/PS3_GAME/USRDIR/bs04.adat.sdat", flags=0x0, fd_addr=0xd008fbe4, arg_addr=0x0, size=0x0)
 [E : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs error: '/dev_hdd1/bs04.adat.sdat.unpacked' couldn't be created! flags: 0x00000002
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/bd03.adat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/bd03.adat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/bd03.adat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x01db3040]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/bd03.adat"): fd = 119
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/bd03.adat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/bd03.adat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/bd03.adat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x00d82ed0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[115] Thread (fios mediathread 5)[0x00d82ed0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[115] Thread (fios mediathread 5)[0x00d854f8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
@@ -613,14 +589,14 @@
 [W : PPU[115] Thread (fios mediathread 5)[0x00d854f8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[115] Thread (fios mediathread 5)[0x00d854f8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/hs06_en.adat.sdat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/hs06_en.adat.sdat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/hs06_en.adat.sdat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_bdvd/PS3_GAME/USRDIR/hs06_en.adat.sdat", flags=0x0, fd_addr=0xd008fbe4, arg_addr=0x0, size=0x0)
 [E : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs error: '/dev_hdd1/hs06_en.adat.sdat.unpacked' couldn't be created! flags: 0x00000002
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/hd05_en.adat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/hd05_en.adat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/hd05_en.adat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x01db3040]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/hd05_en.adat"): fd = 120
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/hd05_en.adat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/hd05_en.adat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/hd05_en.adat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x00d82ed0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[115] Thread (fios mediathread 5)[0x00d82ed0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[115] Thread (fios mediathread 5)[0x00d854f8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
@@ -634,14 +610,14 @@
 [W : PPU[115] Thread (fios mediathread 5)[0x00d854f8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[115] Thread (fios mediathread 5)[0x00d854f8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/hs02.adat.sdat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/hs02.adat.sdat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/hs02.adat.sdat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs warning: cellFsSdataOpen(path="/dev_bdvd/PS3_GAME/USRDIR/hs02.adat.sdat", flags=0x0, fd_addr=0xd008fbe4, arg_addr=0x0, size=0x0)
 [E : PPU[115] Thread (fios mediathread 5)[0x01db3088]]: sys_fs error: '/dev_hdd1/hs02.adat.sdat.unpacked' couldn't be created! flags: 0x00000002
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/hd01.adat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/hd01.adat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/hd01.adat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x01db3040]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/hd01.adat"): fd = 121
 [W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/BD/hd01.adat" not found.
-[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES01555/USRDIR/BD/hd01.adat" not found.
+[W : PPU[115] Thread (fios mediathread 5)[0x01db304c]]: sys_fs warning: cellFsStat: "BD/hd01.adat" not found.
 [W : PPU[115] Thread (fios mediathread 5)[0x00d82ed0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[115] Thread (fios mediathread 5)[0x00d82ed0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[115] Thread (fios mediathread 5)[0x00d854f8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
@@ -665,12 +641,12 @@
 [E : PPU[122] Thread (LoadSprxThread)[0x01dcd034]]: TODO: sys_prx_load_module
 [E : PPU[122] Thread (LoadSprxThread)[0x01dcd10c]]: TODO: sys_prx_start_module
 [W : PPU[115] Thread (fios mediathread 5)[0x01dcd040]]: sys_lwcond_wait(sq=112) aborted
-[W : PPU[35] Thread (spu_printf_handler)[0x00cb1ed8]]: sys_event_queue_receive(equeue=34) aborted
 [W : PPU[117] Thread (fios mediathread 7)[0x01dcd040]]: sys_lwcond_wait(sq=114) aborted
-[W : PPU[118] Thread (fios scheduler 4)[0x01dcd040]]: sys_lwcond_wait(sq=108) aborted
+[W : PPU[35] Thread (spu_printf_handler)[0x00cb1ed8]]: sys_event_queue_receive(equeue=34) aborted
 [W : PPU[42] Thread (sgsfile-req-th)[0x00c0a630]]: sys_cond_wait(id=40) aborted
-[W : PPU[72] Thread (fios mediathread 3)[0x01dcd040]]: sys_lwcond_wait(sq=70) aborted
-[W : PPU[71] Thread (fios mediathread 2)[0x01dcd040]]: sys_lwcond_wait(sq=69) aborted
+[W : PPU[118] Thread (fios scheduler 4)[0x01dcd040]]: sys_lwcond_wait(sq=108) aborted
 [W : PPU[73] Thread (fios scheduler 1)[0x01dcd040]]: sys_lwcond_wait(sq=65) aborted
+[W : PPU[71] Thread (fios mediathread 2)[0x01dcd040]]: sys_lwcond_wait(sq=69) aborted
+[W : PPU[72] Thread (fios mediathread 3)[0x01dcd040]]: sys_lwcond_wait(sq=70) aborted
 [W : PPU[116] Thread (fios mediathread 6)[0x01dcd040]]: sys_lwcond_wait(sq=113) aborted
 [!]: Closing memory...

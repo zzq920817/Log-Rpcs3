@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00789-[Resonance of Fate]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -203,17 +203,15 @@
 [W : PPU[1] Thread (CPUThread)[0x00e2d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x00e2d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 [E : PPU[1] Thread (CPUThread)[0x00e290a0]]: TODO: cellDiscGameGetBootDiscInfo
-[W : PPU[1] Thread (CPUThread)[0x00fe813c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020870, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=250)
-[W : PPU[1] Thread (CPUThread)[0x00fe8184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020870, type=24)
-[W : PPU[1] Thread (CPUThread)[0x00fe8010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020870, prefix_addr=0xdf3c48, size=0xc)
+[E : PPU[1] Thread (CPUThread)[0x00fe813c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020870, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=250)
+[E : PPU[1] Thread (CPUThread)[0x00fe8184]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020870, type=24)
+[E : PPU[1] Thread (CPUThread)[0x00fe8010]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020870, prefix_addr=0xdf3c48, size=0xc)
 [E : PPU[1] Thread (CPUThread)[0x00fe8190]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x00fe813c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd0020870, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=250)
-[W : PPU[1] Thread (CPUThread)[0x00fe8184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020870, type=0)
-[W : PPU[1] Thread (CPUThread)[0x00fe8010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020870, prefix_addr=0xdf3c58, size=0x9)
+[E : PPU[1] Thread (CPUThread)[0x00fe813c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020870, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=250)
+[E : PPU[1] Thread (CPUThread)[0x00fe8184]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0020870, type=0)
+[E : PPU[1] Thread (CPUThread)[0x00fe8010]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020870, prefix_addr=0xdf3c58, size=0x9)
 [E : PPU[1] Thread (CPUThread)[0x00fe8190]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x002b2914]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0xd0020b48, attr_addr=0xd0020a60, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x002b2914]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x002b2914]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x002b2914]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 37
 [W : PPU[1] Thread (CPUThread)[0x002de55c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0020b28, attr_addr=0xd0020a30, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x002b2ad0]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=37)

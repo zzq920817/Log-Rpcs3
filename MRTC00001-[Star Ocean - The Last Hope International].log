@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MRTC00001/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -327,13 +327,13 @@
 [E : PPU[1] Thread (CPUThread)[0x01005028]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x01005028]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x010050d0]]: TODO: sys_prx_start_module
-[W : PPU[1] Thread (CPUThread)[0x00ff313c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd00207d0, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=250)
-[W : PPU[1] Thread (CPUThread)[0x00ff3184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd00207d0, type=24)
-[W : PPU[1] Thread (CPUThread)[0x00ff3010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00207d0, prefix_addr=0xd615d0, size=0xc)
+[E : PPU[1] Thread (CPUThread)[0x00ff313c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00207d0, nSpus=2, spuPriority=2555905, ppuPriority=5, exitIfNoWork=250)
+[E : PPU[1] Thread (CPUThread)[0x00ff3184]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd00207d0, type=24)
+[E : PPU[1] Thread (CPUThread)[0x00ff3010]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00207d0, prefix_addr=0xd615d0, size=0xc)
 [E : PPU[1] Thread (CPUThread)[0x00ff3190]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x00ff313c]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd00207d0, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=250)
-[W : PPU[1] Thread (CPUThread)[0x00ff3184]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd00207d0, type=0)
-[W : PPU[1] Thread (CPUThread)[0x00ff3010]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00207d0, prefix_addr=0xd615e0, size=0x9)
+[E : PPU[1] Thread (CPUThread)[0x00ff313c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00207d0, nSpus=2, spuPriority=2555905, ppuPriority=1, exitIfNoWork=250)
+[E : PPU[1] Thread (CPUThread)[0x00ff3184]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd00207d0, type=0)
+[E : PPU[1] Thread (CPUThread)[0x00ff3010]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00207d0, prefix_addr=0xd615e0, size=0x9)
 [E : PPU[1] Thread (CPUThread)[0x00ff3190]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: cellGcmInit(context_addr=0xf9fc80,cmdSize=0x10000,ioSize=0x200000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x00ff501c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
@@ -357,15 +357,11 @@
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 43
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x301d0c9c, attr_addr=0xd0020ac0, init=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 44
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 45
 [W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301d1364, attr_addr=0xd0020ac0, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301d1368, attr_addr=0xd0020aa0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x301d136c, attr_addr=0xd0020aa0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 48
 [W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301d12c8, attr_addr=0xd0020a70, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00fed004]]: cellSysutil warning: cellSysutilUnregisterCallback(slot=1)
@@ -374,27 +370,21 @@
 [W : PPU[1] Thread (CPUThread)[0x00ff1010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 51
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31070158, attr_addr=0xd0020990, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 52
 [W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3107030c, attr_addr=0xd00209b0, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31070128, attr_addr=0xd0020960, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00ff1010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301dbeb8, attr_addr=0xd0020ac0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00d9f034]]: *** cellFsOpen(path="/aska0000.bin"): fd = 56
-[W : PPU[1] Thread (CPUThread)[0x00d9f004]]: sys_fs warning: cellFsReadWithOffset(fd=56, offset=0x0, buf_addr=0x31080110, buffer_size=65536 nread=0xa80d0020910)
+[W : PPU[1] Thread (CPUThread)[0x00d9f004]]: sys_fs warning: cellFsReadWithOffset(fd=56, offset=0x0, buf_addr=0x31080110, buffer_size=65536 nread=0x94b2d0020910)
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 57
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 58
 [W : PPU[1] Thread (CPUThread)[0x0003c300]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31082ee0, attr_addr=0xd0020a10, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31089020, attr_addr=0xd00209f0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x301d0b68, attr_addr=0xd0020940, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 61
 [W : PPU[1] Thread (CPUThread)[0x0001a898]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=61, bitptn=0xfffffffffffffffe)
 [W : PPU[1] Thread (CPUThread)[0x0001af4c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31082e2c, attr_addr=0xd00206d0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001af4c]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0001af4c]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001af4c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 62
 [E : PPU[1] Thread (CPUThread)[0x00ff3088]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00ff3154]]: TODO: cellSpursJobChainAttributeSetName
@@ -404,15 +394,11 @@
 [E : PPU[1] Thread (CPUThread)[0x00ff31d8]]: TODO: cellSpursRunJobChain
 [W : PPU[1] Thread (CPUThread)[0x01005040]]: sys_lwmutex warning: *** lwmutex created [CritSec] (attribute=0x22): sq_id = 63
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x310823e0, attr_addr=0xd0020960, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 64
 [W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x310823c8, attr_addr=0xd00209e0, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0001a940]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=64)
 [W : PPU[1] Thread (CPUThread)[0x01005124]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31082428)
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31082458, attr_addr=0xd00209c0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x0001a784]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 66
 [W : PPU[1] Thread (CPUThread)[0x0003bdb4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31082454, attr_addr=0xd00209c0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x31082438, attr_addr=0xd00209f0, initial_count=0, max_count=1)
@@ -456,7 +442,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00ff7034]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x00ff7010]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0020990)
 [W : PPU[1] Thread (CPUThread)[0x0003c444]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3122ab28, attr_addr=0xd0020960, initial_count=0, max_count=1)
-[E : Audio Thread]: alBufferData: OpenAL error 0xa001
-[W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...
+[W : Audio Thread]: Audio aborted
 [!]: Closing memory...

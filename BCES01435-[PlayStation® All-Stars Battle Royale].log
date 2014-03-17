@@ -446,8 +446,6 @@
 [W : PPU[1] Thread (CPUThread)[0x004899d4]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 58
 [W : PPU[1] Thread (CPUThread)[0x004899d4]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 59
 [W : PPU[1] Thread (CPUThread)[0x002b2844]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2624d30, attr_addr=0xd0020b30, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x002b2844]]: sys_event_flag warning: TODO: SYS_SYNC_PRIORITY attr
-[W : PPU[1] Thread (CPUThread)[0x002b2844]]: sys_event_flag warning: TODO: SYS_SYNC_WAITER_MULTIPLE type
 [W : PPU[1] Thread (CPUThread)[0x002b2844]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 60
 [W : PPU[1] Thread (CPUThread)[0x004899d4]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 61
 [W : PPU[1] Thread (CPUThread)[0x004899d4]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 62

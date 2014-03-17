@@ -493,8 +493,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 71
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 73
 [W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x68f3a4, attr_addr=0x690450, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x68f3e8, portNum_addr=0x68f358)
 [W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 74
+[W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x68f3e8, portNum_addr=0x68f358)
 [W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x006e501c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x68f408)
 [W : PPU[1] Thread (CPUThread)[0x006e5028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
@@ -535,25 +535,21 @@
 [W : Audio Decoder[95] Thread]: adecStartSeq:
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=96, vptr_addr=0xd0020860)
 [! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=1, userdata=0x0)
-[E : PPU[94] Thread (Audio Decoder[95] Callback)[0x00703004]]: sys_lwmutex error: sys_lwmutex_t::(try)lock(640849191): deadlock on invalid thread(-28116531)
-[E : PPU[94] Thread (Audio Decoder[95] Callback)[0x00035084]]: sys_mutex error: sys_mutex_unlock(92): wrong recursive value fixed (0)
-[E : PPU[94] Thread (Audio Decoder[95] Callback)[0x00705008]]: Owned mutexes found (-1)
-[E : PPU[100] Thread (apostStart)[0x0035084c]]: PPU[100] Thread (apostStart) branch error: bad address 0xb6316030 #pc: 0x35084c
+[E : Demuxer[48] Thread]: ElementaryStream::push(): data copying failed
+[E : Demuxer[48] Thread]: ElementaryStream::push(): data copying failed
 [W : Audio Decoder[95] Thread]: Audio Decoder aborted
-[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(96) aborted
-[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
+[W : PPU[96] Thread (stminStart)[0x00035004]]: sys_cond_wait(id=44) aborted
+[W : PPU[100] Thread (apostStart)[0x00035004]]: sys_cond_wait(id=83) aborted
+[W : Demuxer[48] Thread]: ExecAsCallback() aborted
+[W : PPU[99] Thread (vdecStart)[0x00035004]]: sys_cond_wait(id=89) aborted
+[W : PPU[101] Thread (adecStart)[0x00035004]]: sys_cond_wait(id=93) aborted
+[W : PPU[97] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
+[E : Demuxer[48] Thread]: ElementaryStream::push(): data copying failed
+[W : PPU[98] Thread (vpostStart)[0x00035004]]: sys_cond_wait(id=76) aborted
+[W : Video Decoder[91] Thread]: Video Decoder aborted
 [W : Demuxer[48] Thread]: Demuxer aborted
 [W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c6014]]: sys_cond_wait(id=60) aborted
-[W : PPU[102] Thread (dmuxStart)[0x00703004]]: sys_lwmutex_t::lock(sq=40) aborted
-[! : RSXThread]: RSX thread exit...
-[W : Video Decoder[91] Thread]: vdecRead() aborted
-[W : PPU[98] Thread (vpostStart)[0x00035004]]: sys_cond_wait(id=76) aborted
-[W : PPU[97] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
-[W : Audio Thread]: Audio aborted
-[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
-[W : PPU[96] Thread (stminStart)[0x00703004]]: sys_lwmutex_t::lock(sq=40) aborted
-[W : PPU[99] Thread (vdecStart)[0x00035004]]: sys_cond_wait(id=89) aborted
-[W : Video Decoder[91] Thread]: vdecRead() aborted
-[E : Video Decoder[91] Thread]: vdecDecodeAu: AU decoding error(0xbebbb1b7)
-[W : Video Decoder[91] Thread]: vdecDecodeAu aborted
