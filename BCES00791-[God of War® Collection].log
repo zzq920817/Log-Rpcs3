@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00791-[God of War_ Collection]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
@@ -82,8 +82,6 @@
 [E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0xbeb600ac in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
 [E]: TODO: sceNpDrmProcessExitSpawn2
 [W]: Unknown function 0xf042b14f in 'sceNp' module
@@ -144,7 +142,6 @@
 [W : PPU[1] Thread (CPUThread)[0x001d9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC_MPEG2)
 [W : PPU[1] Thread (CPUThread)[0x001d9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x001d9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
-[E : PPU[1] Thread (CPUThread)[0x02699004]]: TODO: sceNpInit
 [W : PPU[1] Thread (CPUThread)[0x001d9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0269b028]]: cellGame warning: cellGameBootCheck(type_addr=0xd00209e0, attributes_addr=0xd00209e4, size_addr=0xd00209f0, dirName_addr=0xd0020a00)
 [W : PPU[1] Thread (CPUThread)[0x0269b004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020a00, bufsize=10)
@@ -297,8 +294,9 @@
 [W : PPU[55] Thread (fios mediathread)[0x0011d2b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[55] Thread (fios mediathread)[0x0011d2b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [! : RSXThread]: RSX thread exit...
+[W : PPU[1] Thread (CPUThread)[0x0269d040]]: sys_lwcond_wait(sq=33) aborted
 [W : PPU[55] Thread (fios mediathread)[0x0269d004]]: sys_lwmutex_t::lock(sq=46) aborted
 [W : PPU[58] Thread (fios scheduler)[0x0269d118]]: sys_lwcond_signal_all(sq=54) aborted
 [W : PPU[57] Thread (fios mediathread)[0x0269d040]]: sys_lwcond_wait(sq=54) aborted
 [W : PPU[56] Thread (fios mediathread)[0x0269d040]]: sys_lwcond_wait(sq=54) aborted
-[W : PPU[1] Thread (CPUThread)[0x0269d040]]: sys_lwcond_wait(sq=33) aborted
+[!]: Closing memory...

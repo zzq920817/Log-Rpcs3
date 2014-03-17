@@ -1,19 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\PS3\Nier\BLJM60223\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Rpcs3\dev_hdd1\
-[!]: /dev_usb000/ -> D:\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\PS3\Nier\BLJM60223\PS3_GAME\
-[!]: / -> D:\PS3\Nier\BLJM60223\PS3_GAME\
-[!]: /host_root/ -> D:\Rpcs3\host_root\
-[!]: /LibResource/ -> D:\PS3\Tales of Graces F\BLUS30903\PS3_GAME\USRDIR\LibResource
-[!]: /dev_flash/ -> D:\Rpcs3\dev_flash\
-[!]: /dev_hdd1/cache/BLUS30442// -> D:\Rpcs3\dev_hdd1\cache\BLUS30442
-[!]: /dev_bdvd/PS3_GAME -> D:\PS3\Nier\BLJM60223\PS3_GAME\/
-[!]: /dev_hdd1/BLUS30727 -> D:\Rpcs3\dev_hdd1\cache\BLUS30727
-[!]:  -> 
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00826-[Nier]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -88,8 +84,6 @@
 [E]: TODO: cellOskDialogSetLayoutMode
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x5de61626 in 'sceNp' module
@@ -104,12 +98,8 @@
 [E]: TODO: sceNpLookupTerm
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xbcc09fe7 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterHandler
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xca39c4b2 in 'sceNp' module
 [E]: TODO: sceNpLookupTitleSmallStorage
 [W]: Unknown function 0xce81c7f0 in 'sceNp' module
@@ -126,566 +116,477 @@
 [E]: TODO: sceNpManagerGetNpId
 [W]: Unknown module 'cellSysutilMisc'
 [W]: Unknown module 'sceNpCommerce2'
-[S]: Game: boot done.
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x008e29a4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
-[W : PPU[1] Thread (CPUThread)[0x0005be28]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 16
-[W : PPU[1] Thread (CPUThread)[0x0005be28]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 17
-[W : PPU[1] Thread (CPUThread)[0x0005be28]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 18
-[W : PPU[1] Thread (CPUThread)[0x003a8b40]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 19
-[W : PPU[1] Thread (CPUThread)[0x0008f110]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 20
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x3158454, attr_addr=0xd0020a80, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [CAchiveM] (protocol=0x2, type=0x1): id = 21
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3158458, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 22
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=22, equeue_id=21)
-[W : PPU[1] Thread (CPUThread)[0x000515b0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 23
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x315576c, attr_addr=0xd0020910, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [CtDevEv] (protocol=0x2, type=0x1): id = 24
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3155770, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 25
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=25, equeue_id=24)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x2f47924, attr_addr=0xd0020aa0, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [ContentM] (protocol=0x2, type=0x1): id = 26
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x2f47928, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 27
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=27, equeue_id=26)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x12b0700, attr_addr=0xd0020a50, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [AudioEv] (protocol=0x2, type=0x1): id = 28
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x12b0704, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 29
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=29, equeue_id=28)
-[W : PPU[1] Thread (CPUThread)[0x0003c5ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 30
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x008e279c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x0005bd78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 16
+[W : PPU[1] Thread (CPUThread)[0x0005bd78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 17
+[W : PPU[1] Thread (CPUThread)[0x0005bd78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 18
+[W : PPU[1] Thread (CPUThread)[0x003a8710]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 19
+[W : PPU[1] Thread (CPUThread)[0x0008f058]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 20
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x31566d4, attr_addr=0xd0020a80, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [CAchiveM] (protocol=0x2, type=0x1): id = 21
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x31566d8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 22
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=22, equeue_id=21)
+[W : PPU[1] Thread (CPUThread)[0x000514e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 23
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x31539ec, attr_addr=0xd0020910, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [CtDevEv] (protocol=0x2, type=0x1): id = 24
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x31539f0, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 25
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=25, equeue_id=24)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x2f45ba4, attr_addr=0xd0020aa0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [ContentM] (protocol=0x2, type=0x1): id = 26
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x2f45ba8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 27
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=27, equeue_id=26)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x12ae980, attr_addr=0xd0020a50, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [AudioEv] (protocol=0x2, type=0x1): id = 28
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x12ae984, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 29
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=29, equeue_id=28)
+[W : PPU[1] Thread (CPUThread)[0x0003c5d4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 30
 [W : PPU[1] Thread (CPUThread)[0x00016ab4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 31
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1222300, attr_addr=0xd0020a50, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 32
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1222304, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 33
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=33, equeue_id=32)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1220580, attr_addr=0xd0020a50, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 32
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1220584, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 33
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=33, equeue_id=32)
 [W : PPU[1] Thread (CPUThread)[0x00016ab4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 34
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x122c768, attr_addr=0xd0020a50, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 35
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x122c76c, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 36
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=36, equeue_id=35)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1221260, attr_addr=0xd0020ab0, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 37
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1221264, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 38
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=38, equeue_id=37)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x122126c, attr_addr=0xd0020ab0, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 39
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1221270, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 40
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=40, equeue_id=39)
-[W : PPU[1] Thread (CPUThread)[0x00710e14]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x04b71010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x04b71010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 41
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 42
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 43
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(43)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=45, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 46
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 47
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(47)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=47): id = 48
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=49, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 50
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 51
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(51)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=51): id = 52
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=53, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 54
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 55
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(55)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=55): id = 56
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=57, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 58
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 59
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(59)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=59): id = 60
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=61, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 62
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 63
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(63)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=63): id = 64
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=65, prio=1100)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 66
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 67
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 68
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 74
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 75
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 76
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(76)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=76): id = 77
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=78, prio=910)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 79
-[W : PPU[1] Thread (CPUThread)[0x04b73040]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020810, attributes_addr=0xd0020814, size_addr=0xd0020818, dirName_addr=0xd0020838)
-[W : PPU[1] Thread (CPUThread)[0x04b73004]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0xd0020858, bufsize=128)
-[W : PPU[1] Thread (CPUThread)[0x04b73004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020828, bufsize=16)
-[W : PPU[1] Thread (CPUThread)[0x04b7301c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00208d8, usrdirPath_addr=0xd0020958)
-[E : PPU[1] Thread (CPUThread)[0x04b73034]]: cellGame error: Unimplemented function: cellGameDataCheck
-[W : PPU[1] Thread (CPUThread)[0x04b7301c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020680, usrdirPath_addr=0xd0020600)
-[W : PPU[1] Thread (CPUThread)[0x0072a00c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 83
-[W : PPU[1] Thread (CPUThread)[0x0073d2ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 84
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa5058, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 85
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa505c, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 86
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=86, equeue_id=85)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa5064, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 87
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa5068, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 88
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=88, equeue_id=87)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa5070, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 89
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa5074, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 90
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=90, equeue_id=89)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa507c, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 91
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa5080, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 92
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=92, equeue_id=91)
-[W : PPU[1] Thread (CPUThread)[0x04b71010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x010dd010]]: cellGcmSys warning: cellGcmInit(context_addr=0x4b117b0,cmdSize=0x300000,ioSize=0x7400000,ioAddress=0x30600000)
-[W : PPU[1] Thread (CPUThread)[0x010dd010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x010dd010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30600000, io=0x0, size=0x7400000)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x122a9e8, attr_addr=0xd0020a50, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 35
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x122a9ec, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 36
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=36, equeue_id=35)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x121f4e0, attr_addr=0xd0020ab0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 37
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x121f4e4, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 38
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=38, equeue_id=37)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x121f4ec, attr_addr=0xd0020ab0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 39
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x121f4f0, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 40
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=40, equeue_id=39)
+[W : PPU[1] Thread (CPUThread)[0x00710c0c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 43
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(43)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=45, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 46
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 47
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(47)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=47): id = 48
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=49, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 50
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 51
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(51)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=51): id = 52
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=53, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 54
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 55
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(55)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=55): id = 56
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=57, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 58
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 59
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(59)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=59): id = 60
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=61, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 63
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(63)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=63): id = 64
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=65, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 66
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 75
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 76
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(76)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=76): id = 77
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=78, prio=910)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 79
+[W : PPU[1] Thread (CPUThread)[0x04b71040]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020810, attributes_addr=0xd0020814, size_addr=0xd0020818, dirName_addr=0xd0020838)
+[W : PPU[1] Thread (CPUThread)[0x04b71004]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0xd0020858, bufsize=128)
+[W : PPU[1] Thread (CPUThread)[0x04b71004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0020828, bufsize=16)
+[W : PPU[1] Thread (CPUThread)[0x04b7101c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00208d8, usrdirPath_addr=0xd0020958)
+[E : PPU[1] Thread (CPUThread)[0x04b71034]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[1] Thread (CPUThread)[0x04b7101c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020680, usrdirPath_addr=0xd0020600)
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE.SDAT" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE.SDAT" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/STABLE.SDAT" not found.
+[W : PPU[1] Thread (CPUThread)[0x00729e04]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 83
+[W : PPU[1] Thread (CPUThread)[0x0073d0e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 84
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa32d8, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 85
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa32dc, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 86
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=86, equeue_id=85)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa32e4, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 87
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa32e8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 88
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=88, equeue_id=87)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa32f0, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 89
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa32f4, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 90
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=90, equeue_id=89)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa32fc, attr_addr=0xd00208a0, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 91
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa3300, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 92
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=92, equeue_id=91)
+[W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x010dc010]]: cellGcmSys warning: cellGcmInit(context_addr=0x4b0fa30,cmdSize=0x300000,ioSize=0x7400000,ioAddress=0x30600000)
+[W : PPU[1] Thread (CPUThread)[0x010dc010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x010dc010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30600000, io=0x0, size=0x7400000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x04b77010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020848, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x010dd034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x04b77094]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x11b95c0, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x010dd070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30900000,size=0x700000,offset_addr=0xd0020740)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=44367872, size=3801088, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=1)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=40501248, size=3801088, pitch=5120, comp=10, base=0, bank=1)
-[E : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=2)
-[W : PPU[1] Thread (CPUThread)[0x010dd0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x04b6b04c]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020610)
-[W : PPU[1] Thread (CPUThread)[0x04b6b034]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
-[W : PPU[1] Thread (CPUThread)[0x04b6b034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x04b6b034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x04b6b058]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00205d8, vertexArray_addr=0xd00205d4, fragmentShader_addr=0xd00205d0)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=32571392, size=7864320, pitch=5120, comp=0, base=497, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x04b6b070]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc1f10000, vertexArray_addr=0xc1f06780, fragmentShader_addr=0xc1f06400)
-[W : PPU[1] Thread (CPUThread)[0x04b6b070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1f10000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x04b6b070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x22d0000,pitch=4,width=1280,height=720)
-[E : PPU[1] Thread (CPUThread)[0x04b6b088]]: TODO: cellRescCreateInterlaceTable
-[W : PPU[1] Thread (CPUThread)[0x04b6b064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x2a50000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x04b71010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=28704768, size=3801088, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=3)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=24838144, size=3801088, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=4)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=23265280, size=65536, pitch=32, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=5)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=24)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=24)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=19005440, size=4194304, pitch=4096, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=6)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=7, location=0, offset=14745600, size=4194304, pitch=4096, comp=10, base=0, bank=1)
-[E : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=7)
-[W : PPU[1] Thread (CPUThread)[0x010dd0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=8, location=0, offset=13697024, size=983040, pitch=2560, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=8)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=9, location=0, offset=12648448, size=983040, pitch=2560, comp=10, base=0, bank=1)
-[E : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=9)
-[W : PPU[1] Thread (CPUThread)[0x010dd0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[W : PPU[1] Thread (CPUThread)[0x00742788]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 94
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa4b3c, attr_addr=0xd0020890, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 95
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa4b40, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 96
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=96, equeue_id=95)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa4b48, attr_addr=0xd0020890, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 97
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa4b4c, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 98
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=98, equeue_id=97)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa4b54, attr_addr=0xd0020890, event_queue_key=0x0, size=1)
-[W : PPU[1] Thread (CPUThread)[0x008f43e4]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 99
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa4b58, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x008f4434]]: sys_event warning: *** sys_event_port created: id = 100
-[W : PPU[1] Thread (CPUThread)[0x008f447c]]: sys_event warning: sys_event_port_connect_local(eport_id=100, equeue_id=99)
-[W : PPU[1] Thread (CPUThread)[0x04b6d070]]: cellSpurs warning: cellSpursAttributeInitialize(attr_addr=0xd00207b8, nSpus=2, spuPriority=3211264, ppuPriority=3, exitIfNoWork=100)
-[E : PPU[1] Thread (CPUThread)[0x04b6d088]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
-[W : PPU[1] Thread (CPUThread)[0x007eaaec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 107
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition on recursive mutex(107)
-[W : PPU[1] Thread (CPUThread)[0x007eab20]]: sys_cond warning: *** condition created [] (mutex_id=107): id = 108
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=109, prio=500)
-[W : PPU[1] Thread (CPUThread)[0x007ee570]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=110, prio=500)
-[E : PPU[1] Thread (CPUThread)[0x04b6d028]]: TODO: _cellSpursTasksetAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d04c]]: TODO: cellSpursTasksetAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x04b6d0a0]]: TODO: cellSpursCreateTasksetWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x04b6d01c]]: TODO: _cellSpursQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x04b6d01c]]: TODO: _cellSpursQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x04b6d028]]: TODO: _cellSpursTasksetAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d04c]]: TODO: cellSpursTasksetAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x04b6d0a0]]: TODO: cellSpursCreateTasksetWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x04b6d01c]]: TODO: _cellSpursQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x04b6d01c]]: TODO: _cellSpursQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x04b6d028]]: TODO: _cellSpursTasksetAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d04c]]: TODO: cellSpursTasksetAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x04b6d0a0]]: TODO: cellSpursCreateTasksetWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x04b6d01c]]: TODO: _cellSpursQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x04b6d01c]]: TODO: _cellSpursQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x04b6d094]]: TODO: _cellSpursTaskAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d034]]: TODO: cellSpursCreateTaskWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[1] Thread (CPUThread)[0x04b6d094]]: TODO: _cellSpursTaskAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d034]]: TODO: cellSpursCreateTaskWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[1] Thread (CPUThread)[0x04b6d094]]: TODO: _cellSpursTaskAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x04b6d034]]: TODO: cellSpursCreateTaskWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
-[W : PPU[1] Thread (CPUThread)[0x04b770b8]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
-[W : PPU[1] Thread (CPUThread)[0x04b770b8]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
-[W : PPU[1] Thread (CPUThread)[0x04b770b8]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
-[W : PPU[1] Thread (CPUThread)[0x04b770e8]]: cellSysutil warning: cellAudioOutGetConfiguration(audioOut=0, config_addr=0xd0020590, option_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x04b77058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020590, option_addr=0x0, (!)waitForEvent=0)
-[W : PPU[1] Thread (CPUThread)[0x04b77100]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00205a0)
-[W : PPU[1] Thread (CPUThread)[0x010d9004]]: cellAudio warning: cellAudioInit()
+[W : PPU[1] Thread (CPUThread)[0x04b75010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020848, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x010dc034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x04b750a0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x11b9528, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x010dc070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30900000,size=0x700000,offset_addr=0xd0020740)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=44367872, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=40501248, size=3801088, pitch=5120, comp=10, base=0, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x010dc0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x04b6904c]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020610)
+[W : PPU[1] Thread (CPUThread)[0x04b69034]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x04b69034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x04b69034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x04b69058]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00205d8, vertexArray_addr=0xd00205d4, fragmentShader_addr=0xd00205d0)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=32571392, size=7864320, pitch=5120, comp=0, base=497, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x04b69070]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc1f10000, vertexArray_addr=0xc1f06780, fragmentShader_addr=0xc1f06400)
+[W : PPU[1] Thread (CPUThread)[0x04b69070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1f10000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x04b69070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x22d0000,pitch=4,width=1280,height=720)
+[E : PPU[1] Thread (CPUThread)[0x04b69088]]: TODO: cellRescCreateInterlaceTable
+[W : PPU[1] Thread (CPUThread)[0x04b69064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x2a50000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=28704768, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=24838144, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=32)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=23265280, size=65536, pitch=32, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=24)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=24)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=16)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=19005440, size=4194304, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=6)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=7, location=0, offset=14745600, size=4194304, pitch=4096, comp=10, base=0, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=7)
+[W : PPU[1] Thread (CPUThread)[0x010dc0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3276)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2456)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=8, location=0, offset=13697024, size=983040, pitch=2560, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=9, location=0, offset=12648448, size=983040, pitch=2560, comp=10, base=0, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x010dc0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x00742580]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 94
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa2dbc, attr_addr=0xd0020890, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 95
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa2dc0, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 96
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=96, equeue_id=95)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa2dc8, attr_addr=0xd0020890, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 97
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa2dcc, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 98
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=98, equeue_id=97)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4aa2dd4, attr_addr=0xd0020890, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x008f41dc]]: sys_event warning: *** event_queue created [noname] (protocol=0x2, type=0x1): id = 99
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4aa2dd8, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x008f422c]]: sys_event warning: *** sys_event_port created: id = 100
+[W : PPU[1] Thread (CPUThread)[0x008f4274]]: sys_event warning: sys_event_port_connect_local(eport_id=100, equeue_id=99)
+[W : PPU[1] Thread (CPUThread)[0x04b75058]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[E : PPU[1] Thread (CPUThread)[0x04b6b070]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00207b8, nSpus=2, spuPriority=3211264, ppuPriority=1, exitIfNoWork=100)
+[E : PPU[1] Thread (CPUThread)[0x04b6b088]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x007ea8e4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 107
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition on recursive mutex(107)
+[W : PPU[1] Thread (CPUThread)[0x007ea918]]: sys_cond warning: *** condition created [] (mutex_id=107): id = 108
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=109, prio=500)
+[W : PPU[1] Thread (CPUThread)[0x007ee368]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=110, prio=500)
+[E : PPU[1] Thread (CPUThread)[0x04b6b028]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x04b6b04c]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x04b6b0a0]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x04b6b01c]]: TODO: _cellSpursQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x04b6b0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x04b6b01c]]: TODO: _cellSpursQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x04b6b0c4]]: TODO: cellSpursQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x04b6b094]]: TODO: _cellSpursTaskAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x04b6b034]]: TODO: cellSpursCreateTaskWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
+[W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x04b750f4]]: cellSysutil warning: cellAudioOutGetConfiguration(audioOut=0, config_addr=0xd0020590, option_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x04b75064]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020590, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x04b7510c]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00205a0)
+[W : PPU[1] Thread (CPUThread)[0x010d8004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
-[W : PPU[1] Thread (CPUThread)[0x04b69100]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x105c380, align=0x20000, size=0x110000)
-[W : PPU[1] Thread (CPUThread)[0x04b69100]]: sys_heap warning: *** sys_heap created: id = 112
-[W : PPU[1] Thread (CPUThread)[0x04b690d0]]: sys_heap warning: _sys_heap_memalign(heap_id=112, align=0x10, size=0x1080)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 113
-[W : PPU[1] Thread (CPUThread)[0x04b690d0]]: sys_heap warning: _sys_heap_memalign(heap_id=112, align=0x10, size=0x8280)
-[W : PPU[1] Thread (CPUThread)[0x008a0480]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 114
-[W : PPU[1] Thread (CPUThread)[0x008a04a4]]: sys_cond warning: *** condition created [] (mutex_id=114): id = 115
-[W : PPU[1] Thread (CPUThread)[0x008a0530]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 116
-[W : PPU[1] Thread (CPUThread)[0x008a0554]]: sys_cond warning: *** condition created [] (mutex_id=116): id = 117
-[W : PPU[1] Thread (CPUThread)[0x008a05d8]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 118
-[W : PPU[1] Thread (CPUThread)[0x008a05fc]]: sys_cond warning: *** condition created [] (mutex_id=118): id = 119
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 121
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 122
-[W : PPU[123] Thread (_cellsurMixerMain)[0x008a2844]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4b11d24, attr_addr=0x4b12dd0, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x04b69034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 124
-[W : PPU[123] Thread (_cellsurMixerMain)[0x008a2844]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 125
-[W : PPU[1] Thread (CPUThread)[0x010d9064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x4b11d68, portNum_addr=0x4b11cd8)
-[W : PPU[1] Thread (CPUThread)[0x010d9064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x010d904c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x4b11d88)
-[W : PPU[1] Thread (CPUThread)[0x010d9058]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[W : PPU[1] Thread (CPUThread)[0x010d901c]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
-[W : PPU[1] Thread (CPUThread)[0x04b770b8]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
-[W : PPU[1] Thread (CPUThread)[0x04b770b8]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
-[W : PPU[1] Thread (CPUThread)[0x04b770b8]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
-[E : PPU[1] Thread (CPUThread)[0x04b770a0]]: TODO: cellSysutilEnableBgmPlaybackEx
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/FONT/FONT_MAIN_JP.PS3.BIN" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/FONT/FONT_MAIN_JP.PS3.BIN" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/FONT/FONT_MAIN.PS3.BIN" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/FONT/FONT_MAIN.PS3.BIN" not found.
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=10, location=0, offset=8257536, size=3801088, pitch=5120, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=10)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=11, location=0, offset=4390912, size=3801088, pitch=5120, comp=0, base=0, bank=1)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=11)
-[W : PPU[1] Thread (CPUThread)[0x010dd0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=3)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=3342336, size=983040, pitch=2560, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=12)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
-[W : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys warning: cellGcmSetTileInfo(index=13, location=0, offset=2293760, size=983040, pitch=2560, comp=10, base=0, bank=1)
-[E : PPU[1] Thread (CPUThread)[0x010dd088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
-[W : PPU[1] Thread (CPUThread)[0x010dd0ac]]: cellGcmSys warning: cellGcmBindTile(index=13)
-[W : PPU[1] Thread (CPUThread)[0x010dd0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=4)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[W : PPU[1] Thread (CPUThread)[0x010dd004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d064]]: TODO: cellSpursQueuePushBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/TEXT/NIER_TEXT.TXD" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/TEXT/NIER_TEXT.TXD" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/TEXT/TALK_TEXT/TALKER_NAME.PS3.TND" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/TEXT/TALK_TEXT/TALKER_NAME.PS3.TND" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_2000_A0142_NIER010.JA.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_2000_A0142_NIER010.JA.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_2000_A0142_NIER010.JA.PS3.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_2000_A0142_NIER010.JA.PS3.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_4430_A0090_NIER020.JA.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_4430_A0090_NIER020.JA.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_4430_A0090_NIER020.JA.PS3.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_4430_A0090_NIER020.JA.PS3.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_6000_A0130_NIER020.JA.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_6000_A0130_NIER020.JA.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/EID_6000_A0130_NIER020.JA.PS3.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/EID_6000_A0130_NIER020.JA.PS3.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/TITLE_NIER_PS3JP.JA.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/TITLE_NIER_PS3JP.JA.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/EVENT/CAPTION/TITLE_NIER_PS3JP.JA.PS3.CAP" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/EVENT/CAPTION/TITLE_NIER_PS3JP.JA.PS3.CAP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM_JP.2DP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM_JP.2DP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM_JP.2DV" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM_JP.2DV" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM.2DP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM.2DP" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/2D/SYSTEM.2DV" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/2D/SYSTEM.2DV" not found.
-[W : PPU[1] Thread (CPUThread)[0x04b77094]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x1153570, userdata=0x330aa00)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x04b7101c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x04b71010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x04b71010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
-[E : PPU[1] Thread (CPUThread)[0x04b7b088]]: TODO: sceNpInit
-[E : PPU[1] Thread (CPUThread)[0x04b7b0b8]]: TODO: sceNpManagerRegisterCallback
-[E : PPU[1] Thread (CPUThread)[0x04b7b07c]]: TODO: sceNpBasicRegisterHandler
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x04b71010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : PPU[1] Thread (CPUThread)[0x04b75064]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x31580f8, commID_addr=0xfc0e90, commSign_addr=0xfc0e9c, options=0x0)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[127] Thread (CSaveDataLib)[0x04b77028]]: TODO: cellSaveDataListLoad2
-[W : PPU[1] Thread (CPUThread)[0x04b75010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x31580fc)
-[W : PPU[1] Thread (CPUThread)[0x04b7501c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020950, options=0x0)
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[E : PPU[80] Thread (CtDev)[0x04b73034]]: cellGame error: Unimplemented function: cellGameDataCheck
-[W : PPU[80] Thread (CtDev)[0x04b7301c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00a0998, usrdirPath_addr=0xd00a0918)
-[W : PPU[80] Thread (CtDev)[0x010db01c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd00a0890)
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x11511a0, arg_addr=0x31580f0, options=0x1)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROPCONF.SFM')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/NIER_BGM.CPK" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP.SFM')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/NIER_BGM.CPK" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\ICON0.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/NIER_VOICE_JPN.CPK" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP000.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/NIER_VOICE_JPN.CPK" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP001.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/NIER_MA_JPN.CPK" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP002.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/NIER_MA_JPN.CPK" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP003.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/SE/NIER_SE_SYS.CSB" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP004.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/SE/NIER_SE_SYS.CSB" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP005.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/AUDIO/SE/NIER_SE_PC.CSB" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP006.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP007.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/AUDIO/SE/NIER_SE_PC.CSB" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP008.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP009.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP010.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP011.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP012.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP013.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP014.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP015.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP016.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP017.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP018.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP019.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP020.PNG')
-[W : PPU[1] Thread (CPUThread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP021.PNG')
-[W : PPU[1] Thread (CPUThread)[0x04b77064]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP022.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP023.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP024.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP025.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP026.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP027.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP028.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[130] Thread (Main Task)[0x008dd238]]: sys_fs error: "/MEDIA/MYSETTING/STAGE_SELECT.INI" not found! flags: 0x00000000
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP029.PNG')
-[E : PPU[130] Thread (Main Task)[0x008dd238]]: sys_fs error: "/MEDIA/STABLE/MYSETTING/STAGE_SELECT.INI" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x04b77064]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP030.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[103] Thread (Func Thread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/SCRIPT/__ROOT__.PAK" not found.
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[103] Thread (Func Thread)[0x010db04c]]: sys_fs warning: cellFsStat: "/MEDIA/STABLE/SCRIPT/__ROOT__.PAK" not found.
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP031.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP032.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP033.PNG')
+[W : PPU[1] Thread (CPUThread)[0x04b67100]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x105b800, align=0x20000, size=0x110000)
+[W : PPU[1] Thread (CPUThread)[0x04b67100]]: sys_heap warning: *** sys_heap created: id = 112
+[W : PPU[1] Thread (CPUThread)[0x04b670d0]]: sys_heap warning: _sys_heap_memalign(heap_id=112, align=0x10, size=0x1080)
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 113
+[W : PPU[1] Thread (CPUThread)[0x04b670d0]]: sys_heap warning: _sys_heap_memalign(heap_id=112, align=0x10, size=0x8280)
+[W : PPU[1] Thread (CPUThread)[0x008a0278]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 114
+[W : PPU[1] Thread (CPUThread)[0x008a029c]]: sys_cond warning: *** condition created [] (mutex_id=114): id = 115
+[W : PPU[1] Thread (CPUThread)[0x008a0328]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 116
+[W : PPU[1] Thread (CPUThread)[0x008a034c]]: sys_cond warning: *** condition created [] (mutex_id=116): id = 117
+[W : PPU[1] Thread (CPUThread)[0x008a03d0]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 118
+[W : PPU[1] Thread (CPUThread)[0x008a03f4]]: sys_cond warning: *** condition created [] (mutex_id=118): id = 119
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 121
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 122
+[W : PPU[1] Thread (CPUThread)[0x04b67034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 124
+[W : PPU[123] Thread (_cellsurMixerMain)[0x008a263c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4b0ffa4, attr_addr=0x4b11050, event_queue_key=0x8000cafe02460300, size=2)
+[W : PPU[1] Thread (CPUThread)[0x010d8064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x4b0ffe8, portNum_addr=0x4b0ff58)
+[W : PPU[123] Thread (_cellsurMixerMain)[0x008a263c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 125
+[W : PPU[1] Thread (CPUThread)[0x010d8064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x010d804c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x4b10008)
+[W : PPU[1] Thread (CPUThread)[0x010d8058]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x010d801c]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
+[W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x04b750c4]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
+[E : PPU[1] Thread (CPUThread)[0x04b750ac]]: TODO: cellSysutilEnableBgmPlaybackEx
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/FONT/FONT_MAIN.PS3.BIN" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/FONT/FONT_MAIN.PS3.BIN" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/FONT/FONT_MAIN.PS3.BIN" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/FONT/FONT_MAIN.PS3.BIN" not found.
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=10, location=0, offset=8257536, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=10)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=11, location=0, offset=4390912, size=3801088, pitch=5120, comp=0, base=0, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=11)
+[W : PPU[1] Thread (CPUThread)[0x010dc0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=3)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=3342336, size=983040, pitch=2560, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=12)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys warning: cellGcmSetTileInfo(index=13, location=0, offset=2293760, size=983040, pitch=2560, comp=10, base=0, bank=1)
+[E : PPU[1] Thread (CPUThread)[0x010dc088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x010dc0ac]]: cellGcmSys warning: cellGcmBindTile(index=13)
+[W : PPU[1] Thread (CPUThread)[0x010dc0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=4)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x010dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1536)
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/TEXT/NIER_TEXT.TXD" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/TEXT/NIER_TEXT.TXD" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/TEXT/TALK_TEXT/TALKER_NAME.PS3.TND" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/TEXT/TALK_TEXT/TALKER_NAME.PS3.TND" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/EID_2000_A0142_NIER030.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/EID_4430_A0090_NIER030.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/EID_6000_A0130_NIER030.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/TITLE_NIER_ALL.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/TITLE_NIER_ALL.EN.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/EVENT/CAPTION/TITLE_NIER_ALL.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/EVENT/CAPTION/TITLE_NIER_ALL.EN.PS3.CAP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/2D/SYSTEM_US.2DP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/2D/SYSTEM_US.2DP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/2D/SYSTEM_US.2DV" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/2D/SYSTEM_US.2DV" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/2D/SYSTEM.2DP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/2D/SYSTEM.2DP" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/2D/SYSTEM.2DV" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/2D/SYSTEM.2DV" not found.
+[W : PPU[1] Thread (CPUThread)[0x04b750a0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x11534e8, userdata=0x3308c80)
+[W : PPU[1] Thread (CPUThread)[0x04b6f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[E : PPU[1] Thread (CPUThread)[0x04b790b8]]: TODO: sceNpManagerRegisterCallback
+[E : PPU[1] Thread (CPUThread)[0x04b7907c]]: TODO: sceNpBasicRegisterHandler
+[W : PPU[1] Thread (CPUThread)[0x04b6f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x04b73064]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x3156378, commID_addr=0xfc0630, commSign_addr=0xfc063c, options=0x0)
+[E : PPU[127] Thread (CSaveDataLib)[0x04b75028]]: TODO: cellSaveDataListLoad2
+[E : PPU[80] Thread (CtDev)[0x04b71034]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[80] Thread (CtDev)[0x04b7101c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00a0998, usrdirPath_addr=0xd00a0918)
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
+[W : PPU[80] Thread (CtDev)[0x010da01c]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BLES00826/USRDIR", fd_addr=0xd00a0890)
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b064]]: TODO: cellSpursQueuePushBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x04b73010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x315637c)
+[W : PPU[1] Thread (CPUThread)[0x04b7301c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0020950, options=0x0)
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x1151118, arg_addr=0x3156370, options=0x1)
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/AUDIO/NIER_BGM.CPK" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/AUDIO/NIER_BGM.CPK" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/AUDIO/NIER_VOICE_ENG.CPK" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/AUDIO/NIER_VOICE_ENG.CPK" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/AUDIO/NIER_MA_ENG.CPK" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/AUDIO/NIER_MA_ENG.CPK" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/AUDIO/SE/NIER_SE_SYS.CSB" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/AUDIO/SE/NIER_SE_SYS.CSB" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/AUDIO/SE/NIER_SE_PC.CSB" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/AUDIO/SE/NIER_SE_PC.CSB" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROPCONF.SFM')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/ICON0.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/ICON/SAVE/PIC1.PNG" not found.
+[W : PPU[1] Thread (CPUThread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/ICON/SAVE/PIC1.PNG" not found.
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[1] Thread (CPUThread)[0x04b75070]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP.SFM')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP_02.SFM')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP_04.SFM')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\ICON0.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP000.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP001.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP002.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP003.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP004.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP005.PNG')
+[E : PPU[129] Thread (Main Task)[0x008dd030]]: sys_fs error: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/MYSETTING/STAGE_SELECT.INI" not found! flags: 0x00000000
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP006.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[129] Thread (Main Task)[0x008dd030]]: sys_fs error: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/MYSETTING/STAGE_SELECT.INI" not found! flags: 0x00000000
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP007.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP008.PNG')
+[W : PPU[1] Thread (CPUThread)[0x04b75070]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP009.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP010.PNG')
+[W : PPU[103] Thread (Func Thread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/SCRIPT/__ROOT__.PAK" not found.
+[W : PPU[103] Thread (Func Thread)[0x010da04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLES00826/USRDIR/MEDIA/STABLE/SCRIPT/__ROOT__.PAK" not found.
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP011.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP012.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP013.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP014.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP015.PNG')
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
 [E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
@@ -709,7 +610,8 @@
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP034.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP016.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP017.PNG')
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
@@ -735,24 +637,13 @@
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmInlineArray(0xbf800000, 0x3f800000, 0x3f800000, 0x0, 0x0, 0xffffff00, 0xbf800000, 0xbf800000, 0x3f800000, 0x0, 0x3f800000, 0xffffff00, 0x3f800000, 0xbf800000, 0x3f800000, 0x3f800000, 0x3f800000, 0xffffff00, 0x3f800000, 0x3f800000, 0x3f800000, 0x3f800000, 0x0, 0xffffff00)
-[W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP035.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP036.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP037.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP038.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP039.PNG')
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP040.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[W : PPU[129] Thread (CAchieveMan)[0x04b75004]]: vfsLocalFile::Create('D:\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01132_00\TROP041.PNG')
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP018.PNG')
+[W : RSXThread]: VP not found in buffer!
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP019.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP020.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -771,16 +662,22 @@ layout (location = 2) in vec4 in_normal;
 out vec4 tc0;
 out vec4 col0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position.xy = (in_pos.xyxx * vc0.xyxx + vc0.zwzz).xy;
 	gl_Position.z = in_pos.zzzz.z;
 	gl_Position.w = vc467.xxxx.w;
 	tc0.xy = in_weight.xyxx.xy;
 	col0 = in_normal;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -800,13 +697,27 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP021.PNG')
 [W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
-[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6d058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP022.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP023.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP024.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP025.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP026.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP027.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP028.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP029.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP030.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP031.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP032.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP033.PNG')
+[E : PPU[123] Thread (_cellsurMixerMain)[0x04b6b058]]: TODO: cellSpursQueuePopBody
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP034.PNG')
+[W : PPU[128] Thread (CAchieveMan)[0x04b73004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01125_00\TROP035.PNG')

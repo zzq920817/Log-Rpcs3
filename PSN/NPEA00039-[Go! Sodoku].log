@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -94,8 +94,6 @@
 [E]: TODO: sceNpScoreGetRankingByNpIdAsync
 [W]: Unknown function 0x3f195b3a in 'sceNp' module
 [E]: TODO: sceNpCommerceGetProductCategoryResult
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x60897c38 in 'sceNp' module
@@ -146,8 +144,6 @@
 [E]: TODO: sceNpSignalingDestroyCtx
 [W]: Unknown function 0xac66568c in 'sceNp' module
 [E]: TODO: sceNpMatchingCreateCtx
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xaee8cf71 in 'sceNp' module
 [E]: TODO: sceNpCommerceGetCategoryId
 [W]: Unknown function 0xaf3eba5a in 'sceNp' module
@@ -166,8 +162,6 @@
 [E]: TODO: sceNpCommerceGetChildCategoryInfo
 [W]: Unknown function 0xbcc09fe7 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterHandler
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xc5f4cf82 in 'sceNp' module
 [E]: TODO: sceNpScoreDestroyTransactionCtx
 [W]: Unknown function 0xca0a2d04 in 'sceNp' module
@@ -272,7 +266,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00280034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
 [W : PPU[1] Thread (CPUThread)[0x00272004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020ab0)
 [E : PPU[1] Thread (CPUThread)[0x00274028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
-[E : PPU[1] Thread (CPUThread)[0x002762c8]]: TODO: sceNpInit
 [E : PPU[1] Thread (CPUThread)[0x002760ac]]: TODO: sceNpScoreInit
 [W : PPU[1] Thread (CPUThread)[0x0026a058]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x10000000,size=0x100000,offset_addr=0x125208)
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/DATA/ICON0_EU.PNG"): fd = 21
@@ -322,11 +315,8 @@
 [E : PPU[31] Thread (LoadingScreen)[0x0026604c]]: TODO: cellPadSetPressMode
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
-[W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 32
-[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
+[W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -380,6 +370,9 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 32
+[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 33
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=33)
@@ -603,67 +596,129 @@ void main()
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=104)
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/DATA/CORE_MP.BIN"): fd = 105
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=105)
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116794, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK1.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167a4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK2.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167b4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK3.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167c4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK4.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167d4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK5.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167e4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK6.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167f4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK7.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116804, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK8.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116814, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK9.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116824, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK10.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116834, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK11.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116844, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK12.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116854, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK13.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116864, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK14.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116874, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK15.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116884, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK16.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116894, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK17.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168a4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK18.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168b4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK19.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168c4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK20.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168d4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK21.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168e4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK22.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168f4, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK23.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116904, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK24.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116914, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK25.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116924, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK26.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116934, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK27.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116944, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK28.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116954, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK29.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116964, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK30.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00276250]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116974, drm_path_addr=0xd00207c8)
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK31.EDAT" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_1.bin" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_2.bin" not found! flags: 0x00000000
@@ -767,8 +822,8 @@ void main()
 [E : PPU[1] Thread (CPUThread)[0x0027001c]]: TODO: cellAtracGetMaxSample
 [E : PPU[135] Thread (auto_load_thread)[0x000fd070]]: TODO: cellSaveDataAutoLoad2
 [W : PPU[1] Thread (CPUThread)[0x0002c518]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=31, vptr_addr=0xd0020a40)
-[W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (1):
 [! : RSXThread]: *** prog id = 4
 [! : RSXThread]: *** vp id = 2
@@ -824,8 +879,8 @@ void main()
 
 [E : PPU[1] Thread (CPUThread)[0x002761b4]]: TODO: sceNpManagerRequestTicket2
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
-[W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (2):
 [! : RSXThread]: *** prog id = 5
 [! : RSXThread]: *** vp id = 2
@@ -1837,8 +1892,8 @@ void main()
 
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
-[W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (21):
 [! : RSXThread]: *** prog id = 24
 [! : RSXThread]: *** vp id = 2
@@ -2784,7 +2839,6 @@ void main()
 
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
 [W : PPU[1] Thread (CPUThread)[0x000421dc]]: sys_event_queue_receive(equeue=23) aborted
-[W : Audio Thread]: Audio aborted
 [W : PPU[17] Thread (SpuPrintfHandler)[0x00042e70]]: sys_event_queue_receive(equeue=16) aborted
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

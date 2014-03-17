@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0247c69e in 'cellSail' module
@@ -124,14 +124,8 @@
 [E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
-[W]: Unknown function 0x5267cb35 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_unlock
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
-[W]: Unknown function 0x8c2bb498 in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_initialize
-[W]: Unknown function 0xa285139d in 'sysPrxForUser' module
-[E]: TODO: sys_spinlock_lock
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
 [W : PPU[1] Thread (CPUThread)[0x0005b788]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x165ee8, attr_addr=0xd0020cd0, initial_count=1, max_count=1)
@@ -144,7 +138,6 @@
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[E : PPU[1] Thread (CPUThread)[0x0020a0c4]]: TODO: sys_spinlock_initialize
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
@@ -164,7 +157,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00054f28]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ec78, attr_addr=0xd0020be0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301001f4, attr_addr=0xd001f930, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00053b00]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x19ec7c, attr_addr=0xd001f9c8, initial_count=0, max_count=1)
-[W : PPU[32] Thread (SysCacheInit)[0x001f8028]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd1\cache\BLES01897\')
+[W : PPU[32] Thread (SysCacheInit)[0x001f8028]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\BLES01897\')
+[! : PPU[32] Thread (SysCacheInit)[0x001f8028]]: create dir: D:\Emulateurs\Rpcs3\dev_hdd1\cache\BLES01897
 [W : PPU[1] Thread (CPUThread)[0x00059b90]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f00258, attr_addr=0xd001f9c0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00055e18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f002b0, attr_addr=0xd001f9d0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0020a04c]]: sys_lwmutex warning: *** lwmutex created [GsVramM] (attribute=0x22): sq_id = 35
@@ -214,9 +208,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00052ef8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f005d0, attr_addr=0xd001f5b0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f00600, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f006f0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
-[W : PPU[39] Thread (TrophyThread)[0x00206010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x19fee4)
-[W : PPU[39] Thread (TrophyThread)[0x0020601c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0050d00, options=0x0)
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x1618d0, arg_addr=0x0, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f007e0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f008d0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f009c0, attr_addr=0xd001f3c8, initial_count=0, max_count=1)
@@ -241,75 +232,78 @@
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f01bf0, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f01ce0, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f01dd0, attr_addr=0xd001f3f8, initial_count=0, max_count=1)
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROPCONF.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_00.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_02.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_03.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_04.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_05.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_18.SFM')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_00.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_02.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_03.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_04.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_05.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_18.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP000.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP001.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP002.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP003.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP004.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP005.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP006.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP007.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP008.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP009.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP010.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP011.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP012.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP013.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP014.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP015.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP016.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP017.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP018.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP019.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP020.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP021.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP022.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP023.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP024.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP025.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP026.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP027.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP028.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP029.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP030.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP031.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP032.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP033.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP034.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP035.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP036.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP037.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP038.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP039.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP040.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP041.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP042.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP043.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP044.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP045.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP046.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP047.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP048.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP049.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP050.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP051.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP052.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP053.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP054.PNG')
-[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateur\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP055.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x19fee4)
+[W : PPU[39] Thread (TrophyThread)[0x0020601c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0050d00, options=0x0)
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x1618d0, arg_addr=0x0, options=0x0)
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROPCONF.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_00.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_02.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_03.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_04.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_05.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP_18.SFM')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_00.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_02.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_03.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_04.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_05.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\ICON0_18.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP000.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP001.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP002.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP003.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP004.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP005.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP006.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP007.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP008.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP009.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP010.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP011.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP012.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP013.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP014.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP015.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP016.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP017.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP018.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP019.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP020.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP021.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP022.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP023.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP024.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP025.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP026.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP027.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP028.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP029.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP030.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP031.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP032.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP033.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP034.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP035.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP036.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP037.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP038.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP039.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP040.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP041.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP042.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP043.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP044.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP045.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP046.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP047.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP048.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP049.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP050.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP051.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP052.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP053.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP054.PNG')
+[W : PPU[39] Thread (TrophyThread)[0x00206004]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04063_00\TROP055.PNG')
 [! : RSXThread]: RSX thread exit...
