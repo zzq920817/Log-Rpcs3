@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]\PS3_GAME\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]\PS3_GAME\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -299,22 +299,6 @@
 [E]: TODO: cellVoiceRemoveNotifyEventQueue
 [W]: Unknown function 0xe0e1ae12 in 'cellVoice' module
 [E]: TODO: cellVoiceEnd
-[W]: Unknown function 0x139a9e9b in 'sys_net' module
-[E]: TODO: sys_net_initialize_network_ex
-[W]: Unknown function 0x1f953b9f in 'sys_net' module
-[E]: TODO: recvfrom
-[W]: Unknown function 0x6db6e8cd in 'sys_net' module
-[E]: TODO: socketclose
-[W]: Unknown function 0x88f03575 in 'sys_net' module
-[E]: TODO: setsockopt
-[W]: Unknown function 0x9647570b in 'sys_net' module
-[E]: TODO: sendto
-[W]: Unknown function 0x9c056962 in 'sys_net' module
-[E]: TODO: socket
-[W]: Unknown function 0xb0a59804 in 'sys_net' module
-[E]: TODO: bind
-[W]: Unknown function 0xb68d5625 in 'sys_net' module
-[E]: TODO: sys_net_finalize_network
 [W]: Unknown module 'cellSysutilAvc2'
 [W]: Unknown module 'sceNpTus'
 [W]: Unknown module 'cellSysutilAvconfExt'
@@ -386,7 +370,7 @@
 [E : PPU[1] Thread (CPUThread)[0x006e7064]]: TODO: cellVoiceSetBitRate
 [E : PPU[1] Thread (CPUThread)[0x006e7028]]: TODO: cellVoiceCreatePort
 [E : PPU[1] Thread (CPUThread)[0x006e7004]]: TODO: cellVoiceStart
-[E : PPU[1] Thread (CPUThread)[0x006e9004]]: TODO: sys_net_initialize_network_ex
+[W : PPU[1] Thread (CPUThread)[0x006e9004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020a40)
 [E : PPU[1] Thread (CPUThread)[0x006eb028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x006e3088]]: TODO: sceNp2Init
 [E : PPU[1] Thread (CPUThread)[0x006e122c]]: TODO: sceNpManagerRegisterCallback
@@ -460,11 +444,11 @@
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0020968, esSpecificInfo_addr=0xd0020978, esAttr_addr=0xd0020800)
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
 [W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0020968, esResourceInfo_addr=0xd0020804, esCb_addr=0xd002080c, esSpecificInfo_addr=0xd0020978, esHandle_addr=0x30180140)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x311e7c00, size=0x1000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x3cc428(arg=0x4272b8), spec=0xd0020978): id = 49
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x311e7c00, size=0x3000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x3cc428(arg=0x4272b8), spec=0xd0020978): id = 49
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0020938, esSpecificInfo_addr=0xd0020948, esAttr_addr=0xd0020800)
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
 [W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0020938, esResourceInfo_addr=0xd0020804, esCb_addr=0xd002080c, esSpecificInfo_addr=0xd0020948, esHandle_addr=0x30180160)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x321e7c00, size=0x200000, filter(0xbd, 0x0, 0x0, 0x0), cb=0x3cc3c8(arg=0x427448), spec=0xd0020948): id = 50
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x341e7c00, size=0x200000, filter(0xbd, 0x0, 0x0, 0x0), cb=0x3cc3c8(arg=0x427448), spec=0xd0020948): id = 50
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 51
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -507,8 +491,8 @@
 [W : PPU[1] Thread (CPUThread)[0x002c1fb0]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 70
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 71
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x68f3a4, attr_addr=0x690450, event_queue_key=0x8000cafe02460300, size=2)
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 73
+[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x68f3a4, attr_addr=0x690450, event_queue_key=0x8000cafe02460300, size=2)
 [W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x68f3e8, portNum_addr=0x68f358)
 [W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 74
 [W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
@@ -546,25 +530,30 @@
 [W : PPU[1] Thread (CPUThread)[0x006fd04c]]: cellAdec warning: cellAdecOpen(type_addr=0x42746c, res_addr=0xd0020824, cb_addr=0xd0020810, handle_addr=0x427470)
 [! : PPU[1] Thread (CPUThread)[0x006fd04c]]: *** type: ATRAC3plus 2ch
 [! : Audio Decoder[95] Thread]: Audio Decoder enter()
+[W : Video Decoder[91] Thread]: vdecStartSeq:
 [W : PPU[1] Thread (CPUThread)[0x006fd010]]: cellAdec warning: cellAdecStartSeq: (TODO) initialization
 [W : Audio Decoder[95] Thread]: adecStartSeq:
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=96, vptr_addr=0xd0020860)
-[W : Video Decoder[91] Thread]: vdecStartSeq:
 [! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=1, userdata=0x0)
-[E : PPU[101] Thread (adecStart)[0x000350f4]]: sys_mutex error: sys_mutex_lock(92): deadlock on invalid thread(94)
-[W : Audio Thread]: Audio aborted
+[E : PPU[94] Thread (Audio Decoder[95] Callback)[0x00703004]]: sys_lwmutex error: sys_lwmutex_t::(try)lock(640849191): deadlock on invalid thread(-28116531)
+[E : PPU[94] Thread (Audio Decoder[95] Callback)[0x00035084]]: sys_mutex error: sys_mutex_unlock(92): wrong recursive value fixed (0)
+[E : PPU[94] Thread (Audio Decoder[95] Callback)[0x00705008]]: Owned mutexes found (-1)
+[E : PPU[100] Thread (apostStart)[0x0035084c]]: PPU[100] Thread (apostStart) branch error: bad address 0xb6316030 #pc: 0x35084c
 [W : Audio Decoder[95] Thread]: Audio Decoder aborted
-[W : PPU[99] Thread (vdecStart)[0x00035004]]: sys_cond_wait(id=89) aborted
-[W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c2ea4]]: sys_cond_signal_all(id=68) aborted
-[W : PPU[47] Thread (Demuxer[48] Callback)[0x00034f98]]: sys_cond_signal(id=93) aborted
-[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
-[W : PPU[98] Thread (vpostStart)[0x00035004]]: sys_cond_wait(id=76) aborted
-[! : RSXThread]: RSX thread exit...
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c3764]]: sys_cond_wait(id=68) aborted
-[W : PPU[96] Thread (stminStart)[0x00035004]]: sys_cond_wait(id=44) aborted
-[W : Video Decoder[91] Thread]: Video Decoder aborted
-[W : PPU[97] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
-[W : PPU[100] Thread (apostStart)[0x000350f4]]: sys_mutex warning: sys_mutex_lock(id=92) aborted
-[W : PPU[101] Thread (adecStart)[0x000350f4]]: sys_mutex warning: sys_mutex_lock(id=92) aborted
-[W : PPU[102] Thread (dmuxStart)[0x00035004]]: sys_cond_wait(id=46) aborted
+[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(96) aborted
+[W : Video Decoder[91] Thread]: vdecRead() aborted
 [W : Demuxer[48] Thread]: Demuxer aborted
+[W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c6014]]: sys_cond_wait(id=60) aborted
+[W : PPU[102] Thread (dmuxStart)[0x00703004]]: sys_lwmutex_t::lock(sq=40) aborted
+[! : RSXThread]: RSX thread exit...
+[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : PPU[98] Thread (vpostStart)[0x00035004]]: sys_cond_wait(id=76) aborted
+[W : PPU[97] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
+[W : Audio Thread]: Audio aborted
+[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
+[W : PPU[96] Thread (stminStart)[0x00703004]]: sys_lwmutex_t::lock(sq=40) aborted
+[W : PPU[99] Thread (vdecStart)[0x00035004]]: sys_cond_wait(id=89) aborted
+[W : Video Decoder[91] Thread]: vdecRead() aborted
+[E : Video Decoder[91] Thread]: vdecDecodeAu: AU decoding error(0xbebbb1b7)
+[W : Video Decoder[91] Thread]: vdecDecodeAu aborted

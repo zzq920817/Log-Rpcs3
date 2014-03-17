@@ -430,7 +430,7 @@
 [E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x014030a0]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x01403034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020930)
-[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x20c3a280)
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0xa4248380)
 [W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
 [E : PPU[1] Thread (CPUThread)[0x0142d004]]: TODO: cellVideoOutGetScreenSize
 [W : PPU[1] Thread (CPUThread)[0x01401004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AVCONF_EXT)
@@ -438,7 +438,7 @@
 [W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x100000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x20c39280)
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xa424b480)
 [W : PPU[1] Thread (CPUThread)[0x01403010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd002063c, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x006fd064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x006fd070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
@@ -462,6 +462,7 @@
 [E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e07b8)
 [W : PPU[1] Thread (CPUThread)[0x01403124]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x72b8d0, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x000f6f1c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x10b96c8, attr_addr=0xd0020bd0, initial_count=0, max_count=1)
+[W : PPU[43] Thread (GameContent)[0x01405058]]: cellGame warning: cellGameBootCheck(type_addr=0xd0050880, attributes_addr=0xd0050884, size_addr=0xd0050888, dirName_addr=0xd0050898)
 [E : PPU[42] Thread (sdu_graphics_loop)[0x0141704c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0xa3a080, info_addr=0xd0040a20)
 [E : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: Trap! (tw 1f, r0, r0) #pc: 0x226e9c
 [! : PPU[42] Thread (sdu_graphics_loop)[0x00226e9c]]: r0 = 0x226e98
