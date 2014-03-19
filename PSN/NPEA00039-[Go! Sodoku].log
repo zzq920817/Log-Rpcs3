@@ -268,7 +268,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00274028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x002760ac]]: TODO: sceNpScoreInit
 [W : PPU[1] Thread (CPUThread)[0x0026a058]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x10000000,size=0x100000,offset_addr=0x125208)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/DATA/ICON0_EU.PNG"): fd = 21
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DATA/ICON0_EU.PNG"): fd = 21
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=21)
 [W : PPU[1] Thread (CPUThread)[0x0002b018]]: memory warning: sys_memory_container_create(cid_addr=0x125544, yield_size=0x400000)
 [W : PPU[1] Thread (CPUThread)[0x0002b018]]: memory warning: *** memory_container created(addr=0x37900000): id = 22
@@ -288,41 +288,43 @@
 [W : PPU[1] Thread (CPUThread)[0x0026a088]]: cellGcmSys warning: cellGcmSetTile(index=7, location=0, offset=24838144, size=393216, pitch=512, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0026a088]]: cellGcmSys warning: cellGcmSetTile(index=6, location=0, offset=25231360, size=65536, pitch=512, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x000fd058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x1022e0, userdata=0x0)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_1_en.gtf" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_1_en.gtf.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/loading_1_en.gtf.mxf"): fd = 25
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_1_en.gtf" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_1_en.gtf.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_1_en.gtf.mxf"): fd = 25
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=25)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_1_en.gtf" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_1_en.gtf.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/loading_1_en.gtf.mxf"): fd = 26
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_1_en.gtf" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_1_en.gtf.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_1_en.gtf.mxf"): fd = 26
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=26)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_2_en.gtf" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_2_en.gtf.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/loading_2_en.gtf.mxf"): fd = 27
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_2_en.gtf" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_2_en.gtf.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_2_en.gtf.mxf"): fd = 27
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=27)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_2_en.gtf" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_2_en.gtf.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/loading_2_en.gtf.mxf"): fd = 28
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_2_en.gtf" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_2_en.gtf.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_2_en.gtf.mxf"): fd = 28
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=28)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_3_en.gtf" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_3_en.gtf.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/loading_3_en.gtf.mxf"): fd = 29
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_3_en.gtf" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_3_en.gtf.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_3_en.gtf.mxf"): fd = 29
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=29)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_3_en.gtf" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/loading_3_en.gtf.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/loading_3_en.gtf.mxf"): fd = 30
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_3_en.gtf" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_3_en.gtf.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/loading_3_en.gtf.mxf"): fd = 30
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=30)
 [E : PPU[31] Thread (LoadingScreen)[0x0026604c]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
 [W : RSXThread]: FP not found in buffer!
 [W : RSXThread]: VP not found in buffer!
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu.mxf"): fd = 32
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
 [! : RSXThread]: *** fp id = 1
 [! : RSXThread]: *** vp data size = 64
 [! : RSXThread]: *** fp data size = 32
+[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
 [! : RSXThread]: *** vp shader = 
 #version 330
 
@@ -370,436 +372,434 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 32
-[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 33
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu.mxf"): fd = 33
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=33)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 34
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.gpu.mxf"): fd = 34
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=34)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.dat"): fd = 35
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.dat"): fd = 35
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=35)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.dat"): fd = 36
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.dat"): fd = 36
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=36)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.dat"): fd = 37
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.dat"): fd = 37
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=37)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.dat"): fd = 38
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.dat"): fd = 38
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=38)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.rel.mxf"): fd = 39
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.rel.mxf"): fd = 39
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=39)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.rel.mxf"): fd = 40
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid.rel.mxf"): fd = 40
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=40)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.gpu.mxf"): fd = 41
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu.mxf"): fd = 41
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=41)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.gpu.mxf"): fd = 42
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu.mxf"): fd = 42
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=42)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.gpu.mxf"): fd = 43
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.gpu.mxf"): fd = 43
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=43)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.dat"): fd = 44
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.dat"): fd = 44
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=44)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.dat"): fd = 45
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.dat"): fd = 45
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=45)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.dat"): fd = 46
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.dat"): fd = 46
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=46)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.dat"): fd = 47
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.dat"): fd = 47
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=47)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.rel.mxf"): fd = 48
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.rel.mxf"): fd = 48
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=48)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid_EN.rel.mxf"): fd = 49
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_grid_EN.rel.mxf"): fd = 49
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=49)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.gpu.mxf"): fd = 50
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu.mxf"): fd = 50
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=50)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.gpu.mxf"): fd = 51
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu.mxf"): fd = 51
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=51)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.gpu.mxf"): fd = 52
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.gpu.mxf"): fd = 52
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=52)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.dat"): fd = 53
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.dat"): fd = 53
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=53)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.dat"): fd = 54
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.dat"): fd = 54
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=54)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.dat"): fd = 55
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.dat"): fd = 55
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=55)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.dat"): fd = 56
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.dat"): fd = 56
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=56)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.rel.mxf"): fd = 57
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.rel.mxf"): fd = 57
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=57)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus.rel.mxf"): fd = 58
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus.rel.mxf"): fd = 58
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=58)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.gpu.mxf"): fd = 59
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu.mxf"): fd = 59
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=59)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.gpu.mxf"): fd = 60
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu.mxf"): fd = 60
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=60)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.gpu.mxf"): fd = 61
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.gpu.mxf"): fd = 61
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=61)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.dat"): fd = 62
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.dat"): fd = 62
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=62)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.dat"): fd = 63
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.dat"): fd = 63
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=63)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.dat"): fd = 64
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.dat"): fd = 64
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=64)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.dat"): fd = 65
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.dat"): fd = 65
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=65)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.rel.mxf"): fd = 66
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.rel.mxf"): fd = 66
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=66)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_menus_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_menus_EN.rel.mxf"): fd = 67
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_menus_EN.rel.mxf"): fd = 67
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=67)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.gpu.mxf"): fd = 68
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu.mxf"): fd = 68
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=68)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.gpu.mxf"): fd = 69
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu.mxf"): fd = 69
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=69)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.gpu.mxf"): fd = 70
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.gpu.mxf"): fd = 70
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=70)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.dat"): fd = 71
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.dat"): fd = 71
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=71)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.dat"): fd = 72
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.dat"): fd = 72
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=72)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.dat"): fd = 73
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.dat"): fd = 73
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=73)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.dat"): fd = 74
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.dat"): fd = 74
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=74)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.rel.mxf"): fd = 75
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.rel.mxf"): fd = 75
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=75)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title.rel.mxf"): fd = 76
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title.rel.mxf"): fd = 76
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=76)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.gpu.mxf"): fd = 77
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu.mxf"): fd = 77
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=77)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.gpu.mxf"): fd = 78
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu.mxf"): fd = 78
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=78)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.gpu.mxf"): fd = 79
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.gpu.mxf"): fd = 79
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=79)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.dat"): fd = 80
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.dat"): fd = 80
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=80)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.dat"): fd = 81
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.dat"): fd = 81
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=81)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.dat"): fd = 82
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.dat"): fd = 82
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=82)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.dat"): fd = 83
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.dat"): fd = 83
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=83)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.rel.mxf"): fd = 84
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.rel.mxf"): fd = 84
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=84)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_title_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_title_EN.rel.mxf"): fd = 85
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_title_EN.rel.mxf"): fd = 85
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=85)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.gpu.mxf"): fd = 86
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu.mxf"): fd = 86
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=86)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.gpu.mxf"): fd = 87
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu.mxf"): fd = 87
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=87)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.gpu.mxf"): fd = 88
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.gpu.mxf"): fd = 88
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=88)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.dat"): fd = 89
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.dat"): fd = 89
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=89)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.dat"): fd = 90
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.dat"): fd = 90
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=90)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.dat"): fd = 91
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.dat"): fd = 91
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=91)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.dat"): fd = 92
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.dat"): fd = 92
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=92)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.rel.mxf"): fd = 93
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.rel.mxf"): fd = 93
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=93)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot.rel.mxf"): fd = 94
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot.rel.mxf"): fd = 94
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=94)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.gpu.mxf"): fd = 95
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu.mxf"): fd = 95
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=95)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.gpu.mxf"): fd = 96
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu.mxf"): fd = 96
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=96)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.gpu" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.gpu.mxf"): fd = 97
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.gpu.mxf"): fd = 97
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=97)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.dat"): fd = 98
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.dat"): fd = 98
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=98)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.dat"): fd = 99
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.dat"): fd = 99
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=99)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.dat"): fd = 100
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.dat"): fd = 100
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=100)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.dat"): fd = 101
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.dat"): fd = 101
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=101)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.rel.mxf"): fd = 102
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.rel.mxf"): fd = 102
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=102)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.rel" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_boot_EN.rel.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_boot_EN.rel.mxf"): fd = 103
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.rel" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.rel.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/siff/sudoku_boot_EN.rel.mxf"): fd = 103
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=103)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/DATA/CORE.BIN"): fd = 104
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DATA/CORE.BIN"): fd = 104
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=104)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/DATA/CORE_MP.BIN"): fd = 105
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DATA/CORE_MP.BIN"): fd = 105
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=105)
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116794, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK1.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK1.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x4234d32424ee2323a9788494ccbb122a
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK1.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167a4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK2.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK2.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x4234d32424ee2323a9788494ccbb122b
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK2.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167b4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK3.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK3.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x4234d32424ee2323a9788494ccbb122c
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK3.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167c4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK4.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK4.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x4234d32424ee2323a9788494ccbb122d
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK4.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167d4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK5.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK5.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323a9788494ccbb122a
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK5.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167e4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK6.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK6.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323a9788494ccbb122b
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK6.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1167f4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK7.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK7.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323a9788494ccbb122c
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK7.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116804, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK8.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK8.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323a9788494ccbb122d
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK8.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116814, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK9.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK9.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323a9788494ccbb122e
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK9.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116824, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK10.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK10.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323a9788494ccbb122a
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK10.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116834, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK11.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK11.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323a9788494ccbb122b
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK11.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116844, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK12.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK12.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323a9788494ccbb122c
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK12.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116854, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK13.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK13.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323a9788494ccbb122d
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK13.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116864, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK14.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK14.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323a9788494ccbb122e
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK14.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116874, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK15.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK15.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323b9788494ccbb122a
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK15.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116884, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK16.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK16.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323b9788494ccbb122b
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK16.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116894, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK17.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK17.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323b9788494ccbb122c
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK17.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168a4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK18.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK18.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323b9788494ccbb122d
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK18.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168b4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK19.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK19.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32424ee2323b9788494ccbb122e
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK19.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168c4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK20.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK20.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323b9788494ccbb122a
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK20.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168d4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK21.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK21.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323b9788494ccbb122b
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK21.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168e4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK22.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK22.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323b9788494ccbb122c
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK22.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x1168f4, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK23.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK23.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323b9788494ccbb122d
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK23.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116904, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK24.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK24.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32424ee2323b9788494ccbb122e
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK24.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116914, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK25.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK25.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32425ee2323b9788494ccbb122a
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK25.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116924, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK26.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK26.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32425ee2323b9788494ccbb122b
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK26.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116934, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK27.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK27.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32425ee2323b9788494ccbb122c
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK27.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116944, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK28.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK28.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32425ee2323b9788494ccbb122d
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK28.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116954, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK29.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK29.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x5234d32425ee2323b9788494ccbb122e
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK29.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116964, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK30.EDAT" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK30.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32425ee2323b9788494ccbb122a
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK30.EDAT" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x116974, drm_path_addr=0xd00207c8)
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[W : PPU[1] Thread (CPUThread)[0x00276250]]: 
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/PACK31.EDAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_1.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_2.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_3.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_4.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_5.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_6.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_7.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_8.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_9.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_10.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_11.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_12.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_13.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_14.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_15.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_16.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_17.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_18.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_19.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_20.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_21.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_22.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_23.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_24.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_25.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_26.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_27.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_28.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_29.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_30.bin" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/DLC/dlc_music_31.bin" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/menu/confirm.wav"): fd = 106
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK31.EDAT
+[W : PPU[1] Thread (CPUThread)[0x00276250]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x6234d32425ee2323b9788494ccbb122b
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/PACK31.EDAT" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_1.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_2.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_3.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_4.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_5.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_6.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_7.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_8.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_9.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_10.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_11.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_12.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_13.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_14.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_15.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_16.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_17.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_18.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_19.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_20.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_21.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_22.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_23.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_24.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_25.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_26.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_27.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_28.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_29.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_30.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/DLC/dlc_music_31.bin" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/menu/confirm.wav"): fd = 106
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=106)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/menu/cancel.wav"): fd = 107
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/menu/cancel.wav"): fd = 107
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=107)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/menu/option_change.wav"): fd = 108
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/menu/option_change.wav"): fd = 108
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=108)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/menu/move_updown.wav"): fd = 109
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/menu/move_updown.wav"): fd = 109
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=109)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/menu/title.wav"): fd = 110
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/menu/title.wav"): fd = 110
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=110)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/move_cursor.wav"): fd = 111
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/move_cursor.wav"): fd = 111
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=111)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/number_correct.wav"): fd = 112
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/number_correct.wav"): fd = 112
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=112)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/number_wrong.wav"): fd = 113
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/number_wrong.wav"): fd = 113
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=113)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/candidate_placed.wav"): fd = 114
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/candidate_placed.wav"): fd = 114
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=114)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/delete.wav"): fd = 115
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/delete.wav"): fd = 115
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=115)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/life_lost.wav"): fd = 116
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/life_lost.wav"): fd = 116
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=116)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/TimeLowPat.wav"): fd = 117
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/TimeLowPat.wav"): fd = 117
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=117)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/box_complete.wav"): fd = 118
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/box_complete.wav"): fd = 118
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=118)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/row_complete.wav"): fd = 119
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/row_complete.wav"): fd = 119
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=119)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/column_complete.wav"): fd = 120
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/column_complete.wav"): fd = 120
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=120)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/suit_complete.wav"): fd = 121
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/suit_complete.wav"): fd = 121
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=121)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/doublecombo.wav"): fd = 122
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/doublecombo.wav"): fd = 122
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=122)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/tripplecombo.wav"): fd = 123
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/tripplecombo.wav"): fd = 123
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=123)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/quadcombo.wav"): fd = 124
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/quadcombo.wav"): fd = 124
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=124)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/pause.wav"): fd = 125
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/pause.wav"): fd = 125
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=125)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/unpause.wav"): fd = 126
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/unpause.wav"): fd = 126
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=126)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/quit.wav"): fd = 127
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/quit.wav"): fd = 127
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=127)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/grid_complete.wav"): fd = 128
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/grid_complete.wav"): fd = 128
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=128)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/gameover.wav"): fd = 129
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/gameover.wav"): fd = 129
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=129)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/game/game_start.wav"): fd = 130
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/game/game_start.wav"): fd = 130
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=130)
 [W : PPU[1] Thread (CPUThread)[0x0026e004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
@@ -814,7 +814,7 @@ void main()
 [W : PPU[1] Thread (CPUThread)[0x000152d8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 131
 [W : PPU[133] Thread (Audio::Thread)[0x0026e040]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [W : PPU[133] Thread (Audio::Thread)[0x0026e040]]: cellAudio warning: cellAudioPortStart(portNum=0x1)
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/audio/menu.at3"): fd = 134
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPEA00039-[Go! Sudoku]/USRDIR/audio/menu.at3"): fd = 134
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=134)
 [E : PPU[1] Thread (CPUThread)[0x00270028]]: TODO: cellAtracSetDataAndGetMemSize
 [E : PPU[1] Thread (CPUThread)[0x00270058]]: TODO: cellAtracCreateDecoder
@@ -2838,7 +2838,7 @@ void main()
 }
 
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
+[! : RSXThread]: RSX thread exit...
 [W : PPU[1] Thread (CPUThread)[0x000421dc]]: sys_event_queue_receive(equeue=23) aborted
 [W : PPU[17] Thread (SpuPrintfHandler)[0x00042e70]]: sys_event_queue_receive(equeue=16) aborted
-[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

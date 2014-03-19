@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\_mulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\_mulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\_mulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\_mulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\_mulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/
-[!]: /dev_bdvd/ -> D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -161,7 +161,7 @@
 [E : PPU[1] Thread (CPUThread)[0x008cb100]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x008cb010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x56a600)
 [W : PPU[1] Thread (CPUThread)[0x0053b094]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x96229280)
+[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xf1179180)
 [W : PPU[1] Thread (CPUThread)[0x008cb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0053b07c]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020aa4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x008cb070]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
@@ -214,8 +214,9 @@
 [W : PPU[1] Thread (CPUThread)[0x008c704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
 [W : PPU[1] Thread (CPUThread)[0x008c70b8]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x879400): id = 30
 [W : PPU[33] Thread (PhyreEngineHDDPathThread)[0x008b701c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0060cd0, attributes_addr=0xd0060cd4, size_addr=0xd0060cd8, dirName_addr=0x0)
-[W : PPU[32] Thread (PhyreEngineWorkerThread1)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
-[W : PPU[31] Thread (PhyreEngineWorkerThread0)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
-[W : PPU[21] Thread (spu_printf_handler)[0x0035e6c8]]: sys_event_queue_receive(equeue=20) aborted
+[W : PPU[33] Thread (PhyreEngineHDDPathThread)[0x008b701c]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [! : RSXThread]: RSX thread exit...
+[W : PPU[32] Thread (PhyreEngineWorkerThread1)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
+[W : PPU[21] Thread (spu_printf_handler)[0x0035e6c8]]: sys_event_queue_receive(equeue=20) aborted
+[W : PPU[31] Thread (PhyreEngineWorkerThread0)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
 [!]: Closing memory...

@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620-[Beat Hazard Ultra]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
@@ -68,8 +68,6 @@
 [E]: TODO: sceNpBasicSetPresence
 [W]: Unknown function 0x4026eac5 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterContextSensitiveHandler
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x64a704cc in 'sceNp' module
 [E]: TODO: sceNpBasicRecvMessageAttachmentLoad
 [W]: Unknown function 0x6ee62ed2 in 'sceNp' module
@@ -82,14 +80,10 @@
 [E]: TODO: sceNpScoreTerm
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xafef640d in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntryCount
 [W]: Unknown function 0xb9f93bbb in 'sceNp' module
 [E]: TODO: sceNpScoreCreateTitleCtx
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xc5f4cf82 in 'sceNp' module
 [E]: TODO: sceNpScoreDestroyTransactionCtx
 [W]: Unknown function 0xe035f7d6 in 'sceNp' module
@@ -316,9 +310,10 @@
 [E : PPU[1] Thread (CPUThread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[1] Thread (CPUThread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
-[E : PPU[1] Thread (CPUThread)[0x00af30f4]]: TODO: sceNpInit
 [W : PPU[33] Thread (flip_thread)[0x00aed064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[E : PPU[1] Thread (CPUThread)[0x00af30d0]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00af30d0]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd0020b68, drm_path_addr=0x370e50)
+[W : PPU[1] Thread (CPUThread)[0x00af30d0]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEB00620/USRDIR/protected.edat
+[W : PPU[1] Thread (CPUThread)[0x00af30d0]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0xa69278b3d90e28c2389f70add283b601
 [W : PPU[1] Thread (CPUThread)[0x003cd028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB00620/USRDIR/protected.edat" not found.
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SEARCH)
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
@@ -894,11 +889,11 @@
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 2
 [E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [E : RSXThread]: NV4097_GET_REPORT: bad type 4
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
+[W : PPU[1] Thread (CPUThread)[0x00ae7070]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[W : PPU[1] Thread (CPUThread)[0x00ae7058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020720, option_addr=0x0, (!)waitForEvent=1)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x00ae7094]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0020730)
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
@@ -906,6 +901,11 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [W : PPU[1] Thread (CPUThread)[0x00af1004]]: cellAudio warning: cellAudioInit()
+[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x8867e8, portNum_addr=0x88670c)
+[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x00af1028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x886808)
+[E : PPU[1] Thread (CPUThread)[0x003cb004]]: TODO: cellSpursInitialize
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
@@ -993,6 +993,5 @@
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [W : RSXThread]: null cmd: addr=0x501cf000, put=0x4f21c00, get=0x1cf000
-[! : Audio Thread]: Audio started
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...

@@ -1,19 +1,17 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_unmap_memory
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
@@ -86,8 +84,6 @@
 [E]: TODO: sceNpManagerGetTicket
 [W]: Unknown function 0x3f0808aa in 'sceNp' module
 [E]: TODO: sceNpBasicSetPresence
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x58fa4fcd in 'sceNp' module
@@ -98,8 +94,6 @@
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xbcc09fe7 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterHandler
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xe035f7d6 in 'sceNp' module
 [E]: TODO: sceNpBasicGetEvent
 [W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
@@ -148,9 +142,10 @@
 [W : PPU[1] Thread (CPUThread)[0x00793010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x00793010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [E : PPU[1] Thread (CPUThread)[0x0072a040]]: sys_fs error: "/parameters.txt" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0072a04c]]: sys_fs warning: cellFsStat: "/app_home/packed/game/game.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0072a04c]]: sys_fs warning: cellFsStat: "/app_home/game.psarc" not found.
+[W : PPU[1] Thread (CPUThread)[0x0072a04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/packed/game/game.wad" not found.
+[W : PPU[1] Thread (CPUThread)[0x0072a04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game.psarc" not found.
 [W : PPU[1] Thread (CPUThread)[0x00799040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [E : PPU[1] Thread (CPUThread)[0x0072a040]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/parameters.txt" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x007990c4]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x007990c4]]: TODO: cellDiscGameGetBootDiscInfo
+[!]: Closing memory...

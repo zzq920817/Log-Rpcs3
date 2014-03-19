@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\_mulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\_mulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\_mulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\_mulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\_mulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/
-[!]: /dev_bdvd/ -> D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\_mulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x02f5ced0 in 'cellCamera' module
@@ -430,7 +430,7 @@
 [E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x014030a0]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x01403034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020930)
-[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x6c9c9c80)
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x5b4f9680)
 [W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
 [E : PPU[1] Thread (CPUThread)[0x0142d004]]: TODO: cellVideoOutGetScreenSize
 [W : PPU[1] Thread (CPUThread)[0x01401004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AVCONF_EXT)
@@ -438,7 +438,7 @@
 [W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x100000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x6c9c9480)
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x5b4fa780)
 [W : PPU[1] Thread (CPUThread)[0x01403010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd002063c, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x006fd064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x006fd070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)

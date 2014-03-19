@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30464/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30464/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30464/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPUB30464\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30464/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
@@ -102,8 +102,6 @@
 [E]: TODO: sceNpScorePollAsync
 [W]: Unknown function 0xacb9ee8e in 'sceNp' module
 [E]: TODO: sceNpBasicUnregisterHandler
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xafef640d in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntryCount
 [W]: Unknown function 0xb1e0718b in 'sceNp' module
@@ -112,8 +110,6 @@
 [E]: TODO: sceNpScoreCreateTitleCtx
 [W]: Unknown function 0xbcdbb2ab in 'sceNp' module
 [E]: TODO: sceNpBasicAddPlayersHistoryAsync
-[W]: Unknown function 0xbd28fdbf in 'sceNp' module
-[E]: TODO: sceNpInit
 [W]: Unknown function 0xbe07c708 in 'sceNp' module
 [E]: TODO: sceNpManagerGetOnlineId
 [W]: Unknown function 0xbf9eea93 in 'sceNp' module
@@ -142,8 +138,6 @@
 [E]: TODO: sceNpManagerGetTicket
 [W]: Unknown function 0x4210c462 in 'sceNp' module
 [E]: Unknown func id: 0x4210c462
-[W]: Unknown function 0x4885aa18 in 'sceNp' module
-[E]: TODO: sceNpTerm
 [W]: Unknown function 0x52a6b523 in 'sceNp' module
 [E]: TODO: sceNpManagerUnregisterCallback
 [W]: Unknown function 0x58fa4fcd in 'sceNp' module
@@ -214,8 +208,6 @@
 [E]: TODO: cellMicStart
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x4643ba6e in 'sysPrxForUser' module
-[E]: TODO: sys_mmapper_unmap_memory
 [W]: Unknown function 0x74311398 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_get_my_module_id
 [W]: Unknown function 0x80fb0c19 in 'sysPrxForUser' module
@@ -296,31 +288,40 @@
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3023e3b0, num=1, prio=16, attr_addr=0xd00203cc)
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=49
 [W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3023e3cc, group=0x31, spu_num=1, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
-[W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=1)
-[W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=7)
+[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: *** New SPU Thread [Job Manager - Job Thread] (img_offset=0x7d5000, ls_offset=0x855000, ep=0x90, a1=0x3023e48000000000, a2=0x0, a3=0x30203250, a4=0x30169670): id=50
+[W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=50, eq_id=40, event_type=0x1, spup=1)
+[W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=50, eq_id=40, event_type=0x1, spup=7)
 [W : PPU[1] Thread (CPUThread)[0x0016108c]]: sys_spu warning: sys_spu_thread_group_start(id=49)
+[E : SPU[50] Thread (Job Manager - Job Thread)[0x0003fbf0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3023e3b4, num=1, prio=16, attr_addr=0xd00203cc)
-[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=50
-[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3023e3d0, group=0x32, spu_num=2, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
-[W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=1)
-[W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=7)
-[W : PPU[1] Thread (CPUThread)[0x0016108c]]: sys_spu warning: sys_spu_thread_group_start(id=50)
-[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3023e3b8, num=1, prio=16, attr_addr=0xd00203cc)
 [W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=51
-[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3023e3d4, group=0x33, spu_num=3, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
-[W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=1)
-[W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=-1, eq_id=40, event_type=0x1, spup=7)
+[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3023e3d0, group=0x33, spu_num=2, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
+[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: *** New SPU Thread [Job Manager - Job Thread] (img_offset=0x7d5000, ls_offset=0x895000, ep=0x90, a1=0x3023e50000000000, a2=0x0, a3=0x30203250, a4=0x30169670): id=52
+[W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=52, eq_id=40, event_type=0x1, spup=1)
+[W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=52, eq_id=40, event_type=0x1, spup=7)
 [W : PPU[1] Thread (CPUThread)[0x0016108c]]: sys_spu warning: sys_spu_thread_group_start(id=51)
-[W : PPU[1] Thread (CPUThread)[0x00231b98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3038c028, attr_addr=0xd00203a0, initial_count=0, max_count=100000)
-[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3038b42c, num=1, prio=200, attr_addr=0xd00203cc)
-[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [RWAC] (type=0x0, option.ct=0x0): id=53
-[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3038b448, group=0x35, spu_num=0, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
-[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: *** New SPU Thread [RWAC] (img_offset=0x7d5000, ls_offset=0x855000, ep=0x90, a1=0x3038b48000000000, a2=0x0, a3=0x30203250, a4=0x30169670): id=54
+[E : SPU[52] Thread (Job Manager - Job Thread)[0x0003fbf0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3023e3b8, num=1, prio=16, attr_addr=0xd00203cc)
+[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=53
+[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3023e3d4, group=0x35, spu_num=3, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
+[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: *** New SPU Thread [Job Manager - Job Thread] (img_offset=0x7d5000, ls_offset=0x8d5000, ep=0x90, a1=0x3023e58000000000, a2=0x0, a3=0x30203250, a4=0x30169670): id=54
 [W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=54, eq_id=40, event_type=0x1, spup=1)
 [W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=54, eq_id=40, event_type=0x1, spup=7)
 [W : PPU[1] Thread (CPUThread)[0x0016108c]]: sys_spu warning: sys_spu_thread_group_start(id=53)
-[E : SPU[54] Thread (RWAC)[0x0003fbf0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[1] Thread (CPUThread)[0x004584a4]]: sys_fs error: "SKUCONFIG.INI" not found! flags: 0x00000000
+[E : SPU[54] Thread (Job Manager - Job Thread)[0x0003fbf0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x00231b98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3038c028, attr_addr=0xd00203a0, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x3038b42c, num=1, prio=200, attr_addr=0xd00203cc)
+[W : PPU[1] Thread (CPUThread)[0x00160fe0]]: sys_spu warning: *** SPU Thread Group created [RWAC] (type=0x0, option.ct=0x0): id=56
+[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x3038b448, group=0x38, spu_num=0, img_addr=0x75e08c, attr_addr=0xd00203c0, arg_addr=0xd00203e0)
+[W : PPU[1] Thread (CPUThread)[0x00161060]]: sys_spu warning: *** New SPU Thread [RWAC] (img_offset=0x7d5000, ls_offset=0x915000, ep=0x90, a1=0x3038b48000000000, a2=0x0, a3=0x30203250, a4=0x30169670): id=57
+[W : PPU[1] Thread (CPUThread)[0x00165978]]: sys_spu warning: sys_spu_thread_connect_event(id=57, eq_id=40, event_type=0x1, spup=1)
+[W : PPU[1] Thread (CPUThread)[0x00165990]]: sys_spu warning: sys_spu_thread_connect_event(id=57, eq_id=40, event_type=0x1, spup=7)
+[W : PPU[1] Thread (CPUThread)[0x0016108c]]: sys_spu warning: sys_spu_thread_group_start(id=56)
+[E : SPU[57] Thread (RWAC)[0x0003fbf0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x004584a4]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPUB30464/USRDIR/SKUCONFIG.INI"): fd = 58
+[W : PPU[1] Thread (CPUThread)[0x007d2040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x0045841c]]: sys_fs warning: cellFsClose(fd=58)
+[W : PPU[1] Thread (CPUThread)[0x007d2124]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x304d76e0)
 [W : PPU[1] Thread (CPUThread)[0x00019c18]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
@@ -342,19 +343,18 @@
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_MIC)
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GEM)
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
-[E : PPU[1] Thread (CPUThread)[0x007ba130]]: TODO: sceNpInit
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x007c6034]]: cellGame warning: cellGameBootCheck(type_addr=0x30100834, attributes_addr=0x30100828, size_addr=0xd0020604, dirName_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x007c6034]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [W : PPU[1] Thread (CPUThread)[0x007c6004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x301005a8, bufsize=128)
 [W : PPU[1] Thread (CPUThread)[0x007c6004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x301005a8, bufsize=128)
 [W : PPU[1] Thread (CPUThread)[0x007c6004]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x30100628, bufsize=128)
 [W : PPU[1] Thread (CPUThread)[0x007c6028]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0xd0020600)
 [W : PPU[1] Thread (CPUThread)[0x007c6010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x30100728, usrdirPath_addr=0x301007a8)
 [W : PPU[1] Thread (CPUThread)[0x006a5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x002337dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 55
-[W : PPU[1] Thread (CPUThread)[0x002338ac]]: sys_cond warning: *** condition created [] (mutex_id=55): id = 56
-[E : PPU[57] Thread (EntitlementThread)[0x007ba034]]: TODO: sceNpDrmVerifyUpgradeLicense
-[E : PPU[1] Thread (CPUThread)[0x004584a4]]: sys_fs error: "SKUCONFIG.INI" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x002337dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 60
+[W : PPU[1] Thread (CPUThread)[0x002338ac]]: sys_cond warning: *** condition created [] (mutex_id=60): id = 61
+[E : PPU[62] Thread (EntitlementThread)[0x007ba034]]: TODO: sceNpDrmVerifyUpgradeLicense
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 [W : PPU[1] Thread (CPUThread)[0x006a5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 [W : PPU[1] Thread (CPUThread)[0x00082d88]]: sys_spu warning: sys_raw_spu_create(id_addr=0x75b2f0, attr_addr=0xd001fc30)
@@ -367,7 +367,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00083488]]: RawSPUThread[0]: Write32(SPU_NPC, 0xe0)
 [W : PPU[1] Thread (CPUThread)[0x00082b28]]: RawSPUThread[0]: Write32(SPU_NPC, 0xe0)
 [W : PPU[1] Thread (CPUThread)[0x00082afc]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
-[W : RawSPU[58] Thread (CPUThread)[0x000000e0]]: Starting RawSPU...
+[W : RawSPU[63] Thread (CPUThread)[0x000000e0]]: Starting RawSPU...
 [W : PPU[1] Thread (CPUThread)[0x0005393c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
 [W : PPU[1] Thread (CPUThread)[0x00053978]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
 [W : PPU[1] Thread (CPUThread)[0x007b8010]]: cellGcmSys warning: cellGcmInit(context_addr=0x75cad0,cmdSize=0x10000,ioSize=0x300000,ioAddress=0x30500000)
@@ -399,7 +399,7 @@
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [W : PPU[1] Thread (CPUThread)[0x007b8094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30a00000, io=0xe000000, size=0x100000)
-[W : PPU[1] Thread (CPUThread)[0x007b40b8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x6f218070)
+[W : PPU[1] Thread (CPUThread)[0x007b40b8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x5b5ad80)
 [W : PPU[1] Thread (CPUThread)[0x007b8184]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x007b8184]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x007b8184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
@@ -430,23 +430,29 @@
 [W : PPU[1] Thread (CPUThread)[0x007b8064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
 [W : PPU[1] Thread (CPUThread)[0x007b8100]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xf080000,pitch=4,width=1920,height=1080)
 [W : PPU[1] Thread (CPUThread)[0x007b8100]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xe800000,pitch=4,width=1920,height=1080)
-[W : PPU[1] Thread (CPUThread)[0x00080eec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 60
-[W : PPU[1] Thread (CPUThread)[0x00081094]]: sys_cond warning: *** condition created [] (mutex_id=60): id = 61
-[E : PPU[1] Thread (CPUThread)[0x004584a4]]: sys_fs error: "SHADERS/SIMPLETEX.VPO" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x004584a4]]: sys_fs error: "SHADERS/SIMPLETEX.FPO" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00080eec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 65
+[W : PPU[1] Thread (CPUThread)[0x00081094]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
+[W : PPU[1] Thread (CPUThread)[0x004584a4]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPUB30464/USRDIR/SHADERS/SIMPLETEX.VPO"): fd = 67
+[W : PPU[1] Thread (CPUThread)[0x007d2040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x0045841c]]: sys_fs warning: cellFsClose(fd=67)
+[W : PPU[1] Thread (CPUThread)[0x007d2124]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x304eb160)
+[W : PPU[1] Thread (CPUThread)[0x004584a4]]: *** cellFsOpen(path="/dev_hdd0/D:/Emulateurs/Rpcs3/dev_hdd0/game/NPUB30464/USRDIR/SHADERS/SIMPLETEX.FPO"): fd = 69
+[W : PPU[1] Thread (CPUThread)[0x007d2040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x0045841c]]: sys_fs warning: cellFsClose(fd=69)
+[W : PPU[1] Thread (CPUThread)[0x007d2124]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x304fba90)
 [E : PPU[1] Thread (CPUThread)[0x007b8118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[1] Thread (CPUThread)[0x007b8118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[1] Thread (CPUThread)[0x007b8118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[1] Thread (CPUThread)[0x007b8118]]: TODO: cellGcmGetReportDataLocation
-[W : PPU[1] Thread (CPUThread)[0x00233f38]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 62
-[W : PPU[1] Thread (CPUThread)[0x00233f38]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 63
-[W : PPU[1] Thread (CPUThread)[0x00233f38]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 64
-[W : PPU[1] Thread (CPUThread)[0x002337dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 65
-[W : PPU[1] Thread (CPUThread)[0x002338ac]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
-[W : PPU[1] Thread (CPUThread)[0x002337dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 67
-[W : PPU[1] Thread (CPUThread)[0x002338ac]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
-[W : PPU[69] Thread (null:)[0x00235218]]: sys_cond warning: *** condition on recursive mutex(64)
-[W : PPU[69] Thread (null:)[0x00235218]]: sys_cond warning: *** condition created [] (mutex_id=64): id = 70
+[W : PPU[1] Thread (CPUThread)[0x00233f38]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 71
+[W : PPU[1] Thread (CPUThread)[0x00233f38]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 72
+[W : PPU[1] Thread (CPUThread)[0x00233f38]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 73
+[W : PPU[1] Thread (CPUThread)[0x002337dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
+[W : PPU[1] Thread (CPUThread)[0x002338ac]]: sys_cond warning: *** condition created [] (mutex_id=74): id = 75
+[W : PPU[1] Thread (CPUThread)[0x002337dc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 76
+[W : PPU[1] Thread (CPUThread)[0x002338ac]]: sys_cond warning: *** condition created [] (mutex_id=76): id = 77
+[W : PPU[78] Thread (null:)[0x00235218]]: sys_cond warning: *** condition on recursive mutex(73)
+[W : PPU[78] Thread (null:)[0x00235218]]: sys_cond warning: *** condition created [] (mutex_id=73): id = 79
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
@@ -457,7 +463,11 @@
 [E : RSXThread]: NV4097_GET_REPORT: bad type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : SPU[54] Thread (Job Manager - Job Thread)[0x0003f294]]: SPUThread::WriteChannel($MFC_Cmd) aborted
 [! : RSXThread]: RSX thread exit...
-[W : PPU[69] Thread (null:)[0x00235260]]: sys_cond_wait(id=70) aborted
-[W : SPU[48] Thread (Job Manager - Job Thread)[0x0003f2b0]]: SPUThread::WriteChannel($MFC_Cmd) aborted
+[W : PPU[78] Thread (null:)[0x00235260]]: sys_cond_wait(id=79) aborted
+[W : SPU[57] Thread (RWAC)[0x0003f294]]: SPUThread::WriteChannel($MFC_Cmd) aborted
+[W : SPU[50] Thread (Job Manager - Job Thread)[0x0003f294]]: SPUThread::WriteChannel($MFC_Cmd) aborted
 [W : PPU[41] Thread (Job Manager - PPU Proxy)[0x00165748]]: sys_event_queue_receive(equeue=40) aborted
+[W : SPU[48] Thread (Job Manager - Job Thread)[0x0003f294]]: SPUThread::WriteChannel($MFC_Cmd) aborted
+[W : SPU[52] Thread (Job Manager - Job Thread)[0x0003f294]]: SPUThread::WriteChannel($MFC_Cmd) aborted

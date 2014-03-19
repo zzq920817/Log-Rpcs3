@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'HotLoadEUGold'
@@ -136,8 +136,6 @@
 [E]: TODO: sceNpSignalingGetLocalNetInfo
 [W]: Unknown function 0xa8cf8451 in 'sceNp' module
 [E]: TODO: sceNpSignalingDestroyCtx
-[W]: Unknown function 0xad218faf in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable
 [W]: Unknown function 0xb1e0718b in 'sceNp' module
 [E]: TODO: sceNpManagerGetAccountRegion
 [W]: Unknown function 0xbcdbb2ab in 'sceNp' module
@@ -348,7 +346,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
 [E : PPU[1] Thread (CPUThread)[0x00ecf088]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020628, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=249)
 [E : PPU[1] Thread (CPUThread)[0x00ecf004]]: cellSpurs error: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0020628)
-[E : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[2947210512], maxSpu=6, isPreemptible[2947210520])
+[E : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0020628, priority[1933115280], maxSpu=6, isPreemptible[1933115288])
 [E : PPU[1] Thread (CPUThread)[0x00ecf0d0]]: TODO: cellSpursInitializeWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xe8e610, attr_addr=0xd0020540, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 86
@@ -405,10 +403,15 @@
 [W : PPU[1] Thread (CPUThread)[0x00eed058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 109
 [W : PPU[1] Thread (CPUThread)[0x00eed124]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d05e0): id = 110
 [E : PPU[1] Thread (CPUThread)[0x00ed1034]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
-[E : PPU[1] Thread (CPUThread)[0x00edb0ac]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd00202f0, drm_path_addr=0xd0020390)
+[W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx
+[W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0xb0090227200902272009022720090227
 [E : PPU[1] Thread (CPUThread)[0x00eed034]]: TODO: sys_prx_load_module
-[E : PPU[1] Thread (CPUThread)[0x00edb0ac]]: TODO: sceNpDrmIsAvailable
+[W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd00202f0, drm_path_addr=0xd0020390)
+[W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/elfEUGold.sprx
+[W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0xb0090227200902272009022720090227
 [E : PPU[1] Thread (CPUThread)[0x00eed034]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x0020a7d0]]: Write64 to null block: [cfffe860]: d0020560
-[W : PPU[87] Thread (spu_printf_handler)[0x002aad50]]: sys_event_queue_receive(equeue=86) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[87] Thread (spu_printf_handler)[0x002aad50]]: sys_event_queue_receive(equeue=86) aborted
+[!]: Closing memory...
