@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -444,11 +444,11 @@
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0020968, esSpecificInfo_addr=0xd0020978, esAttr_addr=0xd0020800)
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
 [W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0020968, esResourceInfo_addr=0xd0020804, esCb_addr=0xd002080c, esSpecificInfo_addr=0xd0020978, esHandle_addr=0x30180140)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x311e7c00, size=0x3000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x3cc428(arg=0x4272b8), spec=0xd0020978): id = 49
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x311e7c00, size=0x1000020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x3cc428(arg=0x4272b8), spec=0xd0020978): id = 49
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0020938, esSpecificInfo_addr=0xd0020948, esAttr_addr=0xd0020800)
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
 [W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0020938, esResourceInfo_addr=0xd0020804, esCb_addr=0xd002080c, esSpecificInfo_addr=0xd0020948, esHandle_addr=0x30180160)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x341e7c00, size=0x200000, filter(0xbd, 0x0, 0x0, 0x0), cb=0x3cc3c8(arg=0x427448), spec=0xd0020948): id = 50
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x321e7c00, size=0x80000, filter(0xbd, 0x0, 0x0, 0x0), cb=0x3cc3c8(arg=0x427448), spec=0xd0020948): id = 50
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 51
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -493,8 +493,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 71
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 73
 [W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x68f3a4, attr_addr=0x690450, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 74
 [W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x68f3e8, portNum_addr=0x68f358)
+[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 74
 [W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x006e501c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x68f408)
 [W : PPU[1] Thread (CPUThread)[0x006e5028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
@@ -530,26 +530,106 @@
 [W : PPU[1] Thread (CPUThread)[0x006fd04c]]: cellAdec warning: cellAdecOpen(type_addr=0x42746c, res_addr=0xd0020824, cb_addr=0xd0020810, handle_addr=0x427470)
 [! : PPU[1] Thread (CPUThread)[0x006fd04c]]: *** type: ATRAC3plus 2ch
 [! : Audio Decoder[95] Thread]: Audio Decoder enter()
-[W : Video Decoder[91] Thread]: vdecStartSeq:
 [W : PPU[1] Thread (CPUThread)[0x006fd010]]: cellAdec warning: cellAdecStartSeq: (TODO) initialization
-[W : Audio Decoder[95] Thread]: adecStartSeq:
+[W : Video Decoder[91] Thread]: vdecStartSeq:
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=96, vptr_addr=0xd0020860)
+[W : Audio Decoder[95] Thread]: adecStartSeq:
 [! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=1, userdata=0x0)
-[E : Demuxer[48] Thread]: ElementaryStream::push(): data copying failed
-[E : Demuxer[48] Thread]: ElementaryStream::push(): data copying failed
-[W : Audio Decoder[95] Thread]: Audio Decoder aborted
-[W : Audio Thread]: Audio aborted
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 32
+[! : RSXThread]: *** fp data size = 16
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 1) in vec4 in_weight;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position = in_pos;
+	tc0.xy = in_weight.xyxx.xy;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	ocol = r0;
+}
+
+[W : RSXThread]: New FBO (1280x720)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x30fd7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31057b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x310d7b80, size=0x80000, discont=0, userdata=0x0)
+[! : Demuxer[48] Thread]: *** stream updated(addr=0x31157b80, size=0x80000, discont=0, userdata=0x0)
+[E : PPU[2] Thread (Callback)[0x000375d4]]: Write64 to null block: [0000fd70]: fe00
 [! : RSXThread]: RSX thread exit...
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(96) aborted
-[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
-[W : PPU[96] Thread (stminStart)[0x00035004]]: sys_cond_wait(id=44) aborted
-[W : PPU[100] Thread (apostStart)[0x00035004]]: sys_cond_wait(id=83) aborted
-[W : Demuxer[48] Thread]: ExecAsCallback() aborted
-[W : PPU[99] Thread (vdecStart)[0x00035004]]: sys_cond_wait(id=89) aborted
+[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : Demuxer[48] Thread]: esAVC[0] was full, waiting aborted
 [W : PPU[101] Thread (adecStart)[0x00035004]]: sys_cond_wait(id=93) aborted
+[W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c73f8]]: sys_cond_wait(id=60) aborted
+[W : PPU[98] Thread (vpostStart)[0x00035754]]: sys_cond_wait(id=78) aborted
+[W : Audio Decoder[95] Thread]: adecRead() aborted
+[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : Audio Thread]: Audio aborted
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(96) aborted
+[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : Video Decoder[91] Thread]: vdecRead() aborted
+[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
+[W : PPU[99] Thread (vdecStart)[0x00035004]]: sys_cond_wait(id=89) aborted
+[W : PPU[96] Thread (stminStart)[0x00035004]]: sys_cond_wait(id=44) aborted
 [W : PPU[97] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
-[E : Demuxer[48] Thread]: ElementaryStream::push(): data copying failed
-[W : PPU[98] Thread (vpostStart)[0x00035004]]: sys_cond_wait(id=76) aborted
-[W : Video Decoder[91] Thread]: Video Decoder aborted
-[W : Demuxer[48] Thread]: Demuxer aborted
-[W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c6014]]: sys_cond_wait(id=60) aborted
+[W : PPU[100] Thread (apostStart)[0x00035004]]: sys_cond_wait(id=83) aborted
+[W : PPU[102] Thread (dmuxStart)[0x00035004]]: sys_cond_wait(id=46) aborted
+[W : Audio Decoder[95] Thread]: adecDecodeAu aborted
+[W : Video Decoder[91] Thread]: vdecDecodeAu aborted

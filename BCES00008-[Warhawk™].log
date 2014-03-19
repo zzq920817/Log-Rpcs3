@@ -2446,7 +2446,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00d700e8]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00d700e8]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x0, io=0x0, size=0xb800000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x007931c0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x39f99b80)
+[W : PPU[1] Thread (CPUThread)[0x007931c0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x7d39b80)
 [W : PPU[1] Thread (CPUThread)[0x007931b4]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd002034c, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00d70040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x000223cc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 206

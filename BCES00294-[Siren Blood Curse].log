@@ -34,8 +34,6 @@
 [E]: TODO: cellWebBrowserConfig2
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
-[W]: Unknown function 0x9117df20 in 'cellSysutil' module
-[E]: TODO: cellHddGameCheck
 [W]: Unknown function 0x93ced48d in 'cellSysutil' module
 [E]: TODO: cellWebBrowserShutdown
 [W]: Unknown function 0x94862702 in 'cellSysutil' module
@@ -226,7 +224,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37500000, io=0x0, size=0xd00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x6be6ab80)
+[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x8334ab80)
 [W : PPU[1] Thread (CPUThread)[0x00785124]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00209dc, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f63064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [E : PPU[1] Thread (CPUThread)[0x000122a8]]: Read16 from null block: [000006ea]

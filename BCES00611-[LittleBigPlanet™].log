@@ -418,9 +418,15 @@
 [W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820130, attr_addr=0xd0030b10, initial_count=0, max_count=2147483647)
 [E : PPU[53] Thread (bringup)[0x00380038]]: Unknown syscall: 872 - 00000368
 [W : PPU[53] Thread (bringup)[0x0099f010]]: cellUserInfo warning: cellUserInfoGetList(listNum_addr=0x921b48, listBuf_addr=0xd0030be0, currentUserId_addr=0x921b4c)
-[W : PPU[53] Thread (bringup)[0x0099f004]]: cellUserInfo warning: cellUserInfoGetStat(id=16777216, stat_addr=0xd0030c20)
+[W : PPU[53] Thread (bringup)[0x0099f004]]: cellUserInfo warning: cellUserInfoGetStat(id=1, stat_addr=0xd0030c20)
+[W : PPU[53] Thread (bringup)[0x00991070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x8bbaf0, commID_addr=0x74c2c1, commSign_addr=0x74c34d, options=0x0)
+[W : PPU[53] Thread (bringup)[0x00991010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x8bbaf4)
+[W : PPU[53] Thread (bringup)[0x0099d088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x863ae0, userdata=0x0)
+[W : PPU[53] Thread (bringup)[0x00985064]]: cellGame warning: cellGameBootCheck(type_addr=0x91ea90, attributes_addr=0x91eb24, size_addr=0x91ea80, dirName_addr=0x0)
+[W : PPU[53] Thread (bringup)[0x00985064]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=53, vptr_addr=0xd0020b10)
 [W : PPU[1] Thread (CPUThread)[0x00975094]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x37920b40)
+[E : PPU[1] Thread (CPUThread)[0x00991064]]: sceNpTrophy error: Unimplemented function: sceNpTrophyTerm
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=58, vptr_addr=0xd0020a00)
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=59, vptr_addr=0xd0020a00)
 [W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=60, vptr_addr=0xd0020a00)

@@ -178,22 +178,6 @@
 [E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
 [E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
 [E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
-[E : RSXThread]: TODO: cellGcmSetTexture_BorderColor(0x0)
 [W : PPU[1] Thread (CPUThread)[0x001d707c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30500000, io=0xe000000, size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x001d7148]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x001d7148]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
@@ -293,10 +277,10 @@
 [W : PPU[55] Thread (fios mediathread)[0x0011b7f4]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[55] Thread (fios mediathread)[0x0011d2b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[55] Thread (fios mediathread)[0x0011d2b8]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0269d040]]: sys_lwcond_wait(sq=33) aborted
 [W : PPU[56] Thread (fios mediathread)[0x0269d040]]: sys_lwcond_wait(sq=54) aborted
-[W : PPU[58] Thread (fios scheduler)[0x0269d118]]: sys_lwcond_signal_all(sq=54) aborted
+[W : PPU[1] Thread (CPUThread)[0x0269d040]]: sys_lwcond_wait(sq=33) aborted
 [W : PPU[55] Thread (fios mediathread)[0x0269d004]]: sys_lwmutex_t::lock(sq=46) aborted
 [W : PPU[57] Thread (fios mediathread)[0x0269d040]]: sys_lwcond_wait(sq=54) aborted
+[W : PPU[58] Thread (fios scheduler)[0x0269d118]]: sys_lwcond_signal_all(sq=54) aborted
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

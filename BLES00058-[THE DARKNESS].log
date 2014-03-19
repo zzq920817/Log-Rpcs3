@@ -218,6 +218,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00c6915c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020548)
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/ENVIRONMENT_PS3.CFG" not found.
 [W : PPU[1] Thread (CPUThread)[0x010ba040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/CONTENT_FREP5.XRG" not found.
 [W : PPU[1] Thread (CPUThread)[0x010ba040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "MXR.DLL" not found.
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 60
@@ -226,5 +227,131 @@
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 62
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(62)
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=62): id = 63
-[E : PPU[1] Thread (CPUThread)[0x00c3fbe8]]: Read32 from null block: [fffffff0]
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 65
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(65)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 67
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(67)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 69
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(69)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=69): id = 70
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 71
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(71)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=71): id = 72
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 73
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(73)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=73): id = 74
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 75
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(75)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 76
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 77
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(77)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=77): id = 78
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 79
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(79)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 81
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(81)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=81): id = 82
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 83
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(83)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=83): id = 84
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 85
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(85)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=85): id = 86
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 87
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(87)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=87): id = 88
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 89
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(89)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=89): id = 90
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 91
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(91)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=91): id = 92
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 93
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(93)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=93): id = 94
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 95
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(95)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=95): id = 96
+[E : PPU[1] Thread (CPUThread)[0x010ba0ac]]: TODO: cellGameDataCheckCreate2
+[W : PPU[1] Thread (CPUThread)[0x010b801c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd001f7a0)
+[W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/game" not found.
+[W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/home" not found.
+[W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/log.txt" not found.
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 99
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(99)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=99): id = 100
+[W : PPU[1] Thread (CPUThread)[0x010ba040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 101
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(101)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=101): id = 102
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 103
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(103)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=103): id = 104
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fe90)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fe90)
+[W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "CONTENT" not found.
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 105
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(105)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=105): id = 106
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 107
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(107)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=107): id = 108
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 109
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(109)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=109): id = 110
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 111
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(111)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=111): id = 112
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 113
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(113)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=113): id = 114
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 115
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(115)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=115): id = 116
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 117
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(117)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=117): id = 118
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 119
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(119)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=119): id = 120
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 121
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(121)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=121): id = 122
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 123
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(123)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=123): id = 124
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 125
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(125)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=125): id = 126
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 127
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(127)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=127): id = 128
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 129
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(129)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=129): id = 130
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 131
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(131)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=131): id = 132
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 133
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(133)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=133): id = 134
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 135
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(135)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=135): id = 136
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 137
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(137)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=137): id = 138
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 139
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(139)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=139): id = 140
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 141
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(141)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=141): id = 142
+[W : PPU[1] Thread (CPUThread)[0x010b8040]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/CONTENT/XDF/GAMECONTEXT_CREATE.XDF"): fd = 143
+[E : PPU[145] Thread (XDF Unpacker)[0x00c3fbe8]]: Read32 from null block: [fffffff0]
+[W : PPU[97] Thread (CSaveContentContextPS3)[0x00034324]]: sys_cond_wait(id=37) aborted
+[W : PPU[144] Thread (PS3 Async FileIO service)[0x00034324]]: sys_cond_wait(id=114) aborted
 [!]: Closing memory...

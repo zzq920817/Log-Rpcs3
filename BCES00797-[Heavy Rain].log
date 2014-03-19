@@ -459,12 +459,12 @@
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 63
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 64
-[! : RSXThread]: RSX thread exit...
 [W : PPU[46] Thread (Aio Thread)[0x0056fbf4]]: sys_cond_wait(id=38) aborted
-[W : PPU[52] Thread (Read Chunk Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=42) aborted
 [W : PPU[50] Thread (Loading Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=40) aborted
+[W : PPU[31] Thread (DeferredJobQueue PPU Thread)[0x0056fbf4]]: sys_cond_wait(id=23) aborted
+[W : PPU[52] Thread (Read Chunk Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=42) aborted
 [W : PPU[45] Thread (Loading Thread)[0x0056fbf4]]: sys_cond_wait(id=34) aborted
 [W : PPU[51] Thread (Aio Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=44) aborted
 [W : PPU[47] Thread (Read Chunk Thread)[0x0056fbf4]]: sys_cond_wait(id=36) aborted
-[W : PPU[31] Thread (DeferredJobQueue PPU Thread)[0x0056fbf4]]: sys_cond_wait(id=23) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

@@ -105,7 +105,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/mapse.files"): fd = 34
 [W : PPU[1] Thread (CPUThread)[0x0050a034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/archives/cxs.files"): fd = 35
 [W : PPU[1] Thread (CPUThread)[0x00506058]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xbd99380)
+[W : PPU[1] Thread (CPUThread)[0x00506088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x49398580)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmInit(context_addr=0x9ea77c,cmdSize=0x3ff000,ioSize=0x400000,ioAddress=0x3bc00000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00504010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3bc00000, io=0x0, size=0x400000)

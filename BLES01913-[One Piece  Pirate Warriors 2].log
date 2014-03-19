@@ -1422,8 +1422,8 @@
 [W : PPU[1] Thread (CPUThread)[0x003fa5b8]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31b2ee58, attr_addr=0xd0020720, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x003fa5b8]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x10000): id = 660
 [W : PPU[1] Thread (CPUThread)[0x0097704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 661
-[W : PPU[662] Thread (KtglFsThread_Host)[0x00400d44]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=660, bitptn=0x3, mode=0x12, result_addr=0xd0030d10, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0097704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 663
+[W : PPU[662] Thread (KtglFsThread_Host)[0x00400d44]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=660, bitptn=0x3, mode=0x12, result_addr=0xd0030d10, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x003fa734]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31b2f840, attr_addr=0xd0020700, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x003fa734]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x10000): id = 664
 [W : PPU[1] Thread (CPUThread)[0x0097704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 665
@@ -1432,8 +1432,8 @@
 [W : PPU[1] Thread (CPUThread)[0x003fa8b0]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31b30228, attr_addr=0xd00206e0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x003fa8b0]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x10000): id = 668
 [W : PPU[1] Thread (CPUThread)[0x0097704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 669
-[W : PPU[670] Thread (KtglFsThread_Hdd)[0x00400d44]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=668, bitptn=0x3, mode=0x12, result_addr=0xd0050d10, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0097704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 671
+[W : PPU[670] Thread (KtglFsThread_Hdd)[0x00400d44]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=668, bitptn=0x3, mode=0x12, result_addr=0xd0050d10, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x003faa30]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x31b30c10, attr_addr=0xd00206c0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x003faa30]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x10000): id = 672
 [W : PPU[1] Thread (CPUThread)[0x0097704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 673
@@ -1457,9 +1457,9 @@
 [E : PPU[1] Thread (CPUThread)[0x00973130]]: TODO: cellSpursCreateTask
 [E : PPU[1] Thread (CPUThread)[0x00973058]]: TODO: _cellSpursLFQueuePushBody
 [! : RSXThread]: RSX thread exit...
-[W : PPU[678] Thread (KtglFsThread_Usb)[0x00400d44]]: sys_event_flag_wait(id=676) aborted
+[W : PPU[666] Thread (KtglFsThread_Bdvd)[0x00400d44]]: sys_event_flag_wait(id=664) aborted
 [W : PPU[670] Thread (KtglFsThread_Hdd)[0x00400d44]]: sys_event_flag_wait(id=668) aborted
+[W : PPU[678] Thread (KtglFsThread_Usb)[0x00400d44]]: sys_event_flag_wait(id=676) aborted
 [W : PPU[674] Thread (KtglFsThread_Ms)[0x00400d44]]: sys_event_flag_wait(id=672) aborted
 [W : PPU[662] Thread (KtglFsThread_Host)[0x00400d44]]: sys_event_flag_wait(id=660) aborted
-[W : PPU[666] Thread (KtglFsThread_Bdvd)[0x00400d44]]: sys_event_flag_wait(id=664) aborted
 [!]: Closing memory...
