@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone_2]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone_2]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone_2]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone_2]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone_2]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone_2]/PS3_GAME//USRDIR/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x99406d0b in 'sys_fs' module
@@ -601,11 +601,11 @@
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 184
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: Recursive lwmutex(sq=184)
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3019a4f8): id = 185
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
 [W : PPU[1] Thread (CPUThread)[0x007c3e08]]: *** cellFsOpen(path="/data_ps3.psarc"): fd = 190
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 191
 [W : PPU[1] Thread (CPUThread)[0x007c3d7c]]: sys_fs warning: cellFsClose(fd=190)
 [W : PPU[1] Thread (CPUThread)[0x01248124]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3015ef20)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
 [W : PPU[186] Thread (fios mediathread)[0x0121c07c]]: *** cellFsOpen(path="/data_ps3.psarc"): fd = 192
 [W : PPU[186] Thread (fios mediathread)[0x007b8f00]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[186] Thread (fios mediathread)[0x007b8f00]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
@@ -692,127 +692,11 @@
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0030cc8, size=8, number_addr=0xd0030cc0)
 [W : PPU[186] Thread (fios mediathread)[0x01248004]]: sys_lwmutex_t::lock(sq=174) aborted
 [W : PPU[1] Thread (CPUThread)[0x01248034]]: sys_lwcond_wait(sq=136) aborted
-[W : PPU[133] Thread (Job Manager Event Handler)[0x003c9298]]: sys_event_queue_receive(equeue=132) aborted
+[W : PPU[187] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(sq=185) aborted
 [W : PPU[189] Thread (fios scheduler)[0x01248154]]: sys_lwcond_signal_all(sq=185) aborted
 [W : PPU[130] Thread (Job Manager Event Handler)[0x003c9298]]: sys_event_queue_receive(equeue=129) aborted
-[W : PPU[187] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(sq=185) aborted
 [W : PPU[188] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(sq=185) aborted
+[W : PPU[133] Thread (Job Manager Event Handler)[0x003c9298]]: sys_event_queue_receive(equeue=132) aborted
 [!]: Closing memory...

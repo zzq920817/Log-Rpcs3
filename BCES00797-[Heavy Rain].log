@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00797-[Heavy Rain]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00797-[Heavy Rain]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00797-[Heavy Rain]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00797-[Heavy Rain]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00797-[Heavy Rain]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00797-[Heavy Rain]/PS3_GAME//USRDIR/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
@@ -459,12 +459,12 @@
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 63
 [W : PPU[1] Thread (CPUThread)[0x01315034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 64
-[W : PPU[46] Thread (Aio Thread)[0x0056fbf4]]: sys_cond_wait(id=38) aborted
-[W : PPU[50] Thread (Loading Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=40) aborted
-[W : PPU[31] Thread (DeferredJobQueue PPU Thread)[0x0056fbf4]]: sys_cond_wait(id=23) aborted
 [W : PPU[52] Thread (Read Chunk Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=42) aborted
-[W : PPU[45] Thread (Loading Thread)[0x0056fbf4]]: sys_cond_wait(id=34) aborted
-[W : PPU[51] Thread (Aio Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=44) aborted
+[W : PPU[50] Thread (Loading Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=40) aborted
 [W : PPU[47] Thread (Read Chunk Thread)[0x0056fbf4]]: sys_cond_wait(id=36) aborted
+[W : PPU[51] Thread (Aio Thread HDD)[0x0056fbf4]]: sys_cond_wait(id=44) aborted
+[W : PPU[46] Thread (Aio Thread)[0x0056fbf4]]: sys_cond_wait(id=38) aborted
+[W : PPU[45] Thread (Loading Thread)[0x0056fbf4]]: sys_cond_wait(id=34) aborted
+[W : PPU[31] Thread (DeferredJobQueue PPU Thread)[0x0056fbf4]]: sys_cond_wait(id=23) aborted
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

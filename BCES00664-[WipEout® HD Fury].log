@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00664-[WipEout_ HD Fury]/PS3_GAME//USRDIR/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
@@ -385,5 +385,5 @@
 [E : PPU[1] Thread (CPUThread)[0x006fe058]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5fea80)
 [E : PPU[1] Thread (CPUThread)[0x006fe058]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5fea9c)
 [W : PPU[1] Thread (CPUThread)[0x013fb0ac]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x70f360, userdata=0x0)
-[E : PPU[1] Thread (CPUThread)[0x003fad88]]: Read8 from null block: [019b62f3]
+[E : PPU[1] Thread (CPUThread)[0x003fad88]]: Read8 from null block: [0000018b]
 [!]: Closing memory...

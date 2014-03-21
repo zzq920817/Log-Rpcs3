@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME//USRDIR/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbe5be3ba in 'sys_io' module
@@ -145,12 +145,12 @@
 [W : PPU[1] Thread (CPUThread)[0x0003a5c0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 14
 [W : PPU[1] Thread (CPUThread)[0x0029d07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x2a0578, userdata=0x0)
 [W : PPU[15] Thread (Check game data thread)[0x000152f4]]: memory warning: sys_memory_container_create(cid_addr=0xd0030dd0, yield_size=0x300000)
-[W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x01f27004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020bd0)
 [W : PPU[15] Thread (Check game data thread)[0x000152f4]]: memory warning: *** memory_container created(addr=0x30100000): id = 16
 [E : PPU[15] Thread (Check game data thread)[0x0029d094]]: TODO: cellGameDataCheckCreate2
 [W : PPU[15] Thread (Check game data thread)[0x0001531c]]: memory warning: sys_memory_container_destroy(cid=16)
+[W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x01f27004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020bd0)
 [W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [E : PPU[1] Thread (CPUThread)[0x01f37034]]: TODO: sceNpScoreInit
@@ -277,10 +277,10 @@
 [W : PPU[1] Thread (CPUThread)[0x0024c9d0]]: sys_cond warning: *** condition created [] (mutex_id=47): id = 48
 [W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 50
 [W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 51
-[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1f05f24, attr_addr=0x1f06fd0, event_queue_key=0x8000cafe02460300, size=2)
 [W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 53
-[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 54
+[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1f05f24, attr_addr=0x1f06fd0, event_queue_key=0x8000cafe02460300, size=2)
 [W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1f05f68, portNum_addr=0x1f05ed8)
+[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 54
 [W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 1
 [W : PPU[1] Thread (CPUThread)[0x01f23040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x1f05f88)
 [W : PPU[1] Thread (CPUThread)[0x00016218]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 55
@@ -385,10 +385,10 @@
 [W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
 [W : fsAioRead]: *** fsAioRead(fd=62, offset=0xb340, buf_addr=0x3290a000, size=0x4e5d51, error=0x0, res=0x4e5d51, xid=0x12 [dev_bdvd/D:/Emulateurs/Rpcs3/dev_hdd0/game/BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak])
 [E : PPU[1] Thread (CPUThread)[0x000b439c]]: Read16 from null block: [00000194]
-[W : Demuxer[79] Thread]: Demuxer aborted
-[W : Audio Thread]: Audio aborted
-[W : PPU[49] Thread (_sys_mixerSurBusReq)[0x0024bb24]]: sys_cond_wait(id=44) aborted
-[W : PPU[57] Thread (synth2_generate)[0x00249f30]]: sys_event_queue_receive(equeue=29) aborted
-[W : PPU[41] Thread (_sys_MixerChStripMain)[0x0025359c]]: sys_cond_wait(id=40) aborted
 [! : RSXThread]: RSX thread exit...
+[W : Demuxer[79] Thread]: Demuxer aborted
+[W : PPU[49] Thread (_sys_mixerSurBusReq)[0x0024bb24]]: sys_cond_wait(id=44) aborted
+[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ea50]]: sys_cond_wait(id=48) aborted
+[W : PPU[57] Thread (synth2_generate)[0x00249f30]]: sys_event_queue_receive(equeue=29) aborted
+[W : Audio Thread]: Audio aborted
 [!]: Closing memory...

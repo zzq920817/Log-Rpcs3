@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00220-[inFamous]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00220-[inFamous]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00220-[inFamous]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00220-[inFamous]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00220-[inFamous]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00220-[inFamous]/PS3_GAME//USRDIR/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
@@ -217,7 +217,7 @@
 [E : PPU[1] Thread (CPUThread)[0x009f710c]]: TODO: cellDiscGameRegisterDiscChangeCallback
 [W : PPU[1] Thread (CPUThread)[0x009f7088]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x009f7034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00207d8)
-[W : PPU[1] Thread (CPUThread)[0x009f70d0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x90c39880)
+[W : PPU[1] Thread (CPUThread)[0x009f70d0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x8eaba680)
 [E : PPU[1] Thread (CPUThread)[0x00115964]]: Read8 from null block: [00000000]
 [W : PPU[45] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=44) aborted
 [W : PPU[42] Thread (Job Manager Event Handler)[0x0041cb18]]: sys_event_queue_receive(equeue=41) aborted
